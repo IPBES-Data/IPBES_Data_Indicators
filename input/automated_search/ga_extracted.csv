@@ -1,0 +1,405 @@
+indicators_harmonized,var_indic,ga_extracted,ILK
+gross domestic product,2,1,NA
+human development index (hdi),2,1,NA
+inclusive wealth,2,1,NA
+gross national happiness index,2,1,NA
+ecological footprint,2,1,NA
+water footprint,2,1,NA
+percentage of countries that are category 1 cites parties,2,1,NA
+trends in forest extent,2,1,NA
+protected area coverage of key biodiversity areas,2,1,NA
+total wood removals,2,1,NA
+biodiversity habitat index,2,1,NA
+species habitat index,2,1,NA
+forest area as a percentage of total land area,2,1,NA
+trends in fisheries certified by the msc,2,1,NA
+estimated fisheries catch and fishing effort,2,1,NA
+proportion of fish stocks within biologically sustainable levels,2,1,NA
+inland fishery production,2,1,NA
+marine trophic index (mti),2,1,NA
+proportion of area of forest production under fsc and pefc certification,2,1,NA
+nitrogen use efficiency,2,1,NA
+nitrogen + phosphate fertilizers (n+p205 total nutrients),2,1,NA
+trends in pesticide use,2,1,NA
+trends in nitrogen deposition,2,1,NA
+species protection index,2,1,NA
+protected area management effectiveness (pame),2,1,NA
+protected area connectedness (parc-connectedness) index,2,1,NA
+protected area coverage,2,1,NA
+biodiversity intactness index,2,1,NA
+red list index,2,1,NA
+proportion of local breeds classified as being at risk of extinction,2,1,NA
+percentage of undernourished people,2,1,NA
+number of countries with developed or revised nbsaps,2,1,NA
+proportion of known species assessed through the red list index,2,1,NA
+species status index,2,1,NA
+living planet index,2,1,NA
+"number of countries with national instruments on biodiversity-relevant taxes, charges and fees",2,1,NA
+number of countries with national instruments on redd plus schemes,2,1,NA
+trends in potentially harmful elements of government support to agriculture (produced support estimates),2,1,NA
+trends in potentially harmful elements of government support to fisheries,2,1,NA
+number of countries with national instruments on biodiversity relevant tradable permit schemes,2,1,NA
+human appropriation of net primary productivity,2,1,NA
+trend in carbon intensity,2,1,NA
+global climate risk index,2,1,NA
+wetland extent trends index,2,1,NA
+global effort in bottom-trawling,2,1,NA
+number and coverage of stocks with adaptive management systems/plans,2,1,NA
+presence of regulations requiring recovery of depleted species,2,1,NA
+policies to secure that mortalities and significant indirect adverse impacts on non-target species are accounted for are in place,2,1,NA
+policies make adequate provisions to minimize impacts of fisheries on threatened species,2,1,NA
+coverage of fisheries with management measures to reduce bycatch and discards,2,1,NA
+proportion of predatory fish,2,1,NA
+mean length of fish,2,1,NA
+biotime-local species richness,2,1,NA
+temporal species turnover,2,1,NA
+overall species abundance,2,1,NA
+non declining exploited species,2,1,NA
+number of world natural heritage sites per country per year,2,1,NA
+nitrogen use balance,2,1,NA
+area of agricultural land under conservation agriculture,2,1,NA
+proportion of agricultural area under productive and sustainable agriculture,2,1,NA
+trends in the numbers of invasive alien species introduction events,2,1,NA
+trends in invasive alien species vertebrate eradications,2,1,NA
+"protected area coverage of terrestrial, marine and freshwater ecoregions",2,1,NA
+protected area representativeness index,2,1,NA
+wildlife picture index,2,1,NA
+mean species abundance (msa),2,1,NA
+number of species extinctions,2,1,NA
+ramsar sites,2,1,NA
+better life index,2,1,NA
+percentage of population using safely managed drinking water services,2,1,NA
+land under cereal production (ha),2,1,NA
+global ecosystem restoration index,2,1,NA
+"number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits",2,1,NA
+global linguistic diversity index and language threat level,2,1,NA
+species occurrence records accessible through the global biodiversity information facility,2,1,NA
+species represented in the barcode of life data system,2,1,NA
+"information provided through the financial reporting framework, adopted by decision xii/3",2,1,NA
+child mortality,1,1,NA
+caloric intake,1,1,NA
+per capita consumption,1,1,NA
+value of merchandise being exported,1,1,NA
+mortality rate under 5,2,1,NA
+calorie intake,2,1,NA
+globalization index,2,1,NA
+domestic material consumption,2,1,NA
+merchandise exports,2,1,NA
+total population,2,1,NA
+proportion of urban population,2,1,NA
+international migrant stock,2,1,NA
+absence of conflict as indicator of political stability,2,1,NA
+protection of key biodiversity areas,2,1,NA
+income,1,1,NA
+life expectancy at birth,1,1,NA
+average number of years of schooling,1,1,NA
+linguistic diversity index,1,1,NA
+cultural identity,1,1,NA
+retention over time of indigenous ecological knowledge and practices,1,1,NA
+world happiness index,2,1,NA
+social progress index,2,1,NA
+environmental performance index,2,1,NA
+environmental component of the social sustainability index,2,1,NA
+fertilizer use,2,1,NA
+land use change,2,1,NA
+extraction of living biomass,2,1,NA
+extraction of non-living materials,2,1,NA
+greenhouse gas emissions,2,1,NA
+air pollution,2,1,NA
+alien species richness,2,1,NA
+access to improved sanitation facilities,2,1,NA
+water quality index (watqi),2,1,NA
+total land footprint,2,1,NA
+percentage of abroad land use footprint,2,1,NA
+percentage of agricultural and urban areas,2,1,NA
+extraction of non-human materials,2,1,NA
+total greenhouse gas emissions per year,2,1,NA
+alien species,2,1,NA
+biomass of prey fish,1,1,NA
+terrestrial vegetation biomass,1,1,NA
+extent of forests,1,1,NA
+tree cover,1,1,NA
+extinction risk,1,1,NA
+"time needed to harvest resources, distance travelled to harvest resources",1,1,1
+culturally salient species,1,1,1
+native newcomer species arrive,1,1,1
+new pests and invasive alien species colonize,1,1,1
+forests and grazing lands loss,1,1,1
+remnant ecosystems degrade,1,1,1
+health condition and body size of wild animals decrease,1,1,1
+tropical forest-monocrop conversions,1,1,1
+expansion of settlements,1,1,1
+discontinued traditional land-management practices,1,1,1
+droughts,1,1,1
+increasingly unpredictable annual distribution of rainfall,1,1,1
+arrival of new native and alien species,1,1,1
+changing range of wild species,1,1,1
+floods,1,1,1
+overexploitation of resources by outsiders and locals,1,1,1
+total richness of endemic species,2,1,NA
+range-size rarity,2,1,NA
+endemism richness,2,1,NA
+weighted endemisms,2,1,NA
+soil organic carbon,2,1,NA
+fraction of ocean not fished per year,2,1,NA
+extent of marine wilderness,2,1,NA
+leaf area index (lai),2,1,NA
+vegetation biomass,2,1,NA
+permanent surface water extent,2,1,NA
+above-ground biomass,2,1,NA
+land not cultivated or urban (indigenous lands),2,1,NA
+land not cultivated or urban (hotspots),2,1,NA
+land not cultivated or urban (global),2,1,NA
+extent of suitable habitat,2,1,NA
+mangrove forest area,2,1,NA
+remaining primary vegetation (indigenous lands),2,1,NA
+coastal protection habitats,2,1,NA
+live coral cover,2,1,NA
+remanining primary vegetations,2,1,NA
+extent of terrestrial wilderness,2,1,NA
+extent of intact forest landscapes,2,1,NA
+coastal carbon-rich habitat,2,1,NA
+seagrass meadow area,2,1,NA
+mean annual change in above-ground biomass,2,1,NA
+biomass turnover rate,2,1,NA
+oceanic carbon sequestration,2,1,NA
+terrestrial c sequestration,2,1,NA
+marine net primary production,2,1,NA
+terrestrial net primary production,2,1,NA
+net primary production remaining in ecosystems,2,1,NA
+evapotranspiration,2,1,NA
+biological pump efficiency,2,1,NA
+local species richness,2,1,NA
+tropical forest bii (indigenous lands),2,1,NA
+tropical forest bii,2,1,NA
+tropical forest bii (hotspots),2,1,NA
+cumulative introduced invasive aliens,2,1,NA
+bird species per grid cell,2,1,NA
+species richness per grid cell,2,1,NA
+forest-specialist bird species per grid cell,2,1,NA
+functional intactness (madingley),2,1,NA
+global mammal and bird species remaining,2,1,NA
+mammalian range size,2,1,NA
+megafaunal range size,2,1,NA
+wild mammal biomass,2,1,NA
+prey fish biomass,2,1,NA
+wild bird index,2,1,NA
+predatory fish biomass,2,1,NA
+ocean health index,2,1,NA
+material ncp,2,1,NA
+biotime species richness indicator,2,1,NA
+predicts species-richness indicator,2,1,NA
+functional intactness (madingley) (madingley),2,1,NA
+red list index (internationally traded species),2,1,NA
+red list index (pollinators),2,1,NA
+red list index (for utilized species),2,1,NA
+red list index (wild relatives of farmed and domesticated species),2,1,NA
+human footprint,2,1,NA
+trends of populations of palatable or unpalatable species,1,1,1
+time needed or distance travelled to harvest resources,1,1,1
+native newcomer species,1,1,1
+opening up of forest canopy,1,1,1
+"less biomass, more annuals and shrubs on pastures",1,1,1
+proportion of unpalatable plants on rangelands,1,1,1
+condition and size of wild animals,1,1,1
+net primary production,2,1,NA
+percentage of live coral cover,2,1,NA
+adverse changes in woody or shrubby vegetation,1,1,NA
+adverse changes of unpalatable species,1,1,NA
+global cover of mangroves,1,1,NA
+hallow coral reefs,1,1,NA
+severe global bleaching events,1,1,NA
+pollinator diversity,2,1,NA
+species used for medicine,2,1,1
+crops and their dietary roles,2,1,1
+forest and its role in protecting water sources,2,1,1
+"behavior of animals with importance as food, changes in crop phenology",2,1,1
+development of crop varieties or landraces,2,1,1
+visitation to national parks,2,1,NA
+visitation to urban green spaces,2,1,NA
+connection to land,2,1,1
+connection to sea,2,1,1
+bare area,2,1,NA
+area of floodplain wetlands,2,1,NA
+net primary productivity in forests and on cultivated land,2,1,NA
+cultivated area,2,1,NA
+above-ground biomass in forests,2,1,NA
+medicinal species as a fraction of total vascular plant species,2,1,NA
+geographical overlay of linguistic diversity and biodiversity,2,1,NA
+rate of land use change,2,1,NA
+population size,1,1,1
+spatial distribution,1,1,1
+animal behavior,1,1,1
+phenology of economically and/or culturally important wild plant and animal species,1,1,1
+distance travelled to reach a resource,1,1,1
+health of the soil,1,1,1
+density of preferred and palatable species,1,1,1
+health of the forest,2,1,1
+encounter rates with supernatural forest dwelling entities,2,1,1
+water availability,2,1,NA
+water available for people relative to demand,2,1,NA
+extent of ecosystems that filter or add constituent components to water,2,1,NA
+reduced concentration of pollutants in water,2,1,NA
+avoided water treatment costs,2,1,NA
+reduced incidence of water borne disease,2,1,NA
+abundance of managed and wild pollinators,2,1,NA
+health associated with intake of pollinator dependent foods,2,1,NA
+natural habitat in agriculture pollen deposition,2,1,NA
+retention and prevented emissions of air pollutants by ecosystems,2,1,NA
+reduced concentrations of pm2.5,2,1,NA
+avoided morbidity and premature mortality from air pollution,2,1,NA
+avoided costs from air pollution,2,1,NA
+prevented emissions and uptake of greenhouse gases by ecosystems,2,1,NA
+reduced concentrations of greenhouse gases in the atmosphere,2,1,NA
+reduction in climate related costs,2,1,NA
+land and ocean carbon sinks,2,1,NA
+reduced ocean acidification,2,1,NA
+seafood availability due to ocean acidification,2,1,NA
+extent of marine calcification benefits from coral reefs,2,1,NA
+soil quality impact on crop production,2,1,NA
+ability of ecosystems to absorb and buffer hazards,2,1,NA
+reduced incidence and severity of hazards,2,1,NA
+reduced morbidity and premature mortality due to natural hazards,2,1,NA
+reduced property loss due to natural hazards,2,1,NA
+natural habitat in agriculture,2,1,NA
+reduced food spoilage,2,1,NA
+reduced net farm income loss from pests and diseases,2,1,NA
+diversity of competent hosts of vector-borne diseases,2,1,NA
+reduced risk of disease transmission,2,1,NA
+reduced incidence of infectious diseases,2,1,NA
+extent of agricultural land,2,1,NA
+energy content of bioenergy crops,2,1,NA
+revenue from bioenergy production,2,1,NA
+production of fuelwood,2,1,NA
+energy security from bio-energy and fuelwood,2,1,NA
+food produced (kcal),2,1,NA
+food quality (nutrients),2,1,NA
+reduced malnutrition,2,1,NA
+marine stocks,2,1,NA
+reduced hunger,2,1,NA
+seafood produced (kcal),2,1,NA
+agriculture-based materials produced (tons),2,1,NA
+employment in materials production,2,1,NA
+timber production (m3),2,1,NA
+revenue from forestry,2,1,NA
+fraction of species known to be medicinal,2,1,NA
+natural medicinal products and manufactured bio-derived medicines,2,1,NA
+improved health from natural medicines or bio-derived medicines,2,1,NA
+phylogenetic diversity,2,1,NA
+gene bank accession and available genetic resources,2,1,NA
+proximity of people and nature,2,1,NA
+ideas and products mimicking or inspired by nature,2,1,NA
+economic value of bio-inspired production,2,1,NA
+diversity of life from which to learn,2,1,NA
+area of natural and traditional landscapes and seascapes,2,1,NA
+"visitation rates to natural terrestrial, coastal, and marine areas",2,1,NA
+"increased awareness, care, mental health, cultural security, life satisfaction - urban",2,1,NA
+"increased awareness, care, mental health, cultural security, life satisfaction - rural and iplc",2,1,NA
+"daily exposure natural terrestrial, coastal and marine areas",2,1,NA
+stability of land use and land cover,2,1,NA
+identity value - urban,2,1,NA
+identity value - rural and iplc,2,1,NA
+visitation to natural areas,2,1,NA
+percentage of population living in dense urban areas,2,1,NA
+historic land use change since 1970,2,1,NA
+leaf surface area,1,1,NA
+net carbon sequestration,1,1,NA
+transfer of water to the atmosphere,1,1,NA
+biotic productivity,1,1,NA
+extent of protected and intact habitat globally,2,1,NA
+correlation between high cultural diversity and areas of high biodiversity,1,1,NA
+population extinctions,1,1,NA
+range contractions,1,1,NA
+biomass abundance,2,1,NA
+production,2,1,NA
+species distribution area and shift,2,1,NA
+species richness,2,1,NA
+habitat area and quality,2,1,NA
+organisms` size or growth,2,1,NA
+reproduction rate,2,1,NA
+"pest, invasive or harmful species",2,1,NA
+c pool,2,1,NA
+global sclae ecosystem carbon storage,2,1,NA
+adaptive capacity index (aci),2,1,NA
+oecd better life index,2,1,NA
+sustainable development goals (sdg) index,2,1,NA
+marine stewardship council certified fisheries,2,1,NA
+cumulative human impacts on marine ecosystems,2,1,NA
+average conservation status,2,1,NA
+extent of suitable habitat index (esh),2,1,NA
+species area relationship,2,1,NA
+happy planet index,2,1,NA
+gini index,2,1,NA
+rule of law index,2,1,NA
+water quality risk index,2,1,NA
+mibid index,2,1,NA
+commodity index,2,1,NA
+index of sustainable economic welfare (isew),2,1,NA
+genuine progress indicator,2,1,NA
+biodiversity barometer (% of respondents that have heard of biodiversity),2,1,NA
+biodiversity barometer (% of respondents giving correct definition of biodiversity),2,1,NA
+funding for environmental education,2,1,NA
+online interest in biodiversity (proportion of google searches),2,1,NA
+funding for environmental impact assessments,2,1,NA
+number of research studies involving economic valuation,2,1,NA
+world trade organisation greenbox agricultural subsidies,2,1,NA
+funding towards institutional capacity building in fisheries,2,1,NA
+human appropriation of fresh water,2,1,NA
+wild bird index (habitat specialists),2,1,NA
+red list index (forest specialists),2,1,NA
+red list index (impacts of fisheries),2,1,NA
+wild bird index (farmland birds),2,1,NA
+area of agricultural land under organic production,2,1,NA
+online interest inbiodiversity (proportion of google searches),2,1,NA
+proportion of countries that are category 1 signatories to the convention on international trade in endangered species of wild fauna and flora (cites),1,1,NA
+growth in human appropriation of net primary productivity,2,1,NA
+demand for greener products and services,2,1,NA
+green consumption,2,1,NA
+annual rate of net forest loss,2,1,NA
+climatic impact index,2,1,NA
+proportion of sites in the world database on protected areas reporting shared governance,2,1,NA
+number of extintions,1,1,NA
+proportion of domesticated breeds categorized as at risk or extinct,1,1,NA
+extinction risk of wild relatives of domesticated or farmed birds and mammals,1,1,NA
+red list index (vertebrate pollinators),2,1,NA
+number of countries implementing nbsaps,2,1,NA
+numbers of scientific publications on biodiversity,2,1,NA
+relevant research funding,2,1,NA
+taxa assessed for the red list index,2,1,NA
+species with data included in the global biodiversity information facility,2,1,NA
+mean polar sea ice extent,2,1,NA
+official development assistance provided in support of the cbd objectives,2,1,NA
+pesticide use,2,1,NA
+glacial mass balance,2,1,NA
+red list index (birds and mammals),2,1,NA
+red list index (impacts of pollution),2,1,NA
+percentage of freshwater key biodiversity areas covered by protected areas,2,1,NA
+marine stewardship council engaged fisheries,2,1,NA
+percentage of marine and coastal areas covered by protected areas,2,1,NA
+percentage of marine key biodiversity areas covered by protected areas,2,1,NA
+percentage of terrestrial ecoregions covered by protected areas,2,1,NA
+number of protected area management effectiveness (pame) assessments,2,1,NA
+area of forest under sustainable management: total forest management certification by forest stewardship council and programme for the endorsement of forest certification,2,1,NA
+coverage by protected areas of important sites for mountain biodiversity,2,1,NA
+climatic impact index for birds,2,1,NA
+number of invasive alien species introduction events,2,1,NA
+percentage of countries with invasive alien species legislation,2,1,NA
+red list index (impacts of invasive alien species),2,1,NA
+biochemical oxygen demand (bod),2,1,NA
+nitrogen (n) loads,2,1,NA
+phosphorus (p) loads,2,1,NA
+total dissolved solids (tds),2,1,NA
+blue water sustainability index,2,1,NA
+multidimensional poverty index,2,1,NA
+individual deprivation measure,2,1,NA
+city biodiversity index,2,1,NA
+co2 emissions,1,1,NA
+air quality,1,1,NA
+water quality,1,1,NA
+proportion of the rural population who live within 2 km of an all-season road,2,1,NA
+passenger and freight volumes by mode of transport,2,1,NA
+migratory birds threatened or near threatened on the red list index,2,1,NA
+fisheries stock size,2,1,NA
+fisheries exploitation rates,2,1,NA
+arctic species trend index,2,1,NA
+number of countries that have ratified the nagoya protocol,2,1,NA

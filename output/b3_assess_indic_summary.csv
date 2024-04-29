@@ -1,0 +1,249 @@
+indicators_harmonized,km_gbf,sdg,cites,cms,iccwc,ramsar,unccd,policy,ipbes,Categories,Categories_2,Subcategories,Subcategories_2,usage,assess
+above-ground biomass,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems,NA,1,ga
+abundance of alternative hosts species,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+abundance of competent hosts of vector-born and zoonotic diseases,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+abundance of managed and wild pollinators,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+abundance of slowly changing ecosystems (time past last land use change),NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,Change in ecosystems,NA,1,ga
+abundance of sulfate reducing microorganisms,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+abundance of wild and managed biological controllers of pests,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+air quality index,1,NA,NA,NA,NA,NA,NA,1,NA,ecosystems,NA,Abiotic conditions,NA,1,geo
+air temperature low-cost thermal imagery,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,Abiotic conditions,NA,1,ga
+arable land remaining,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems,NA,1,ga
+area of natural and traditional landscapes and seascapes,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems,NA,1,ga
+atmospheric sounding,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,Abiotic conditions,NA,1,ga
+average marine acidity (ph) measured at agreed suite of representative sampling stations,NA,1,NA,NA,NA,NA,NA,1,1,ecosystems,NA,Abiotic conditions,NA,1,sua
+below- and above-ground biomass stocks,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+betadiversity (species turnover),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Change in biodiversity,NA,1,ga
+biodiversity habitat index,1,NA,NA,NA,NA,NA,NA,1,1,biodiversity,NA,State of biodiversity,NA,1,ga
+biodiversity habitat index (hotspots),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+biodiversity intactness index,1,NA,NA,NA,NA,NA,NA,1,1,biodiversity,NA,State of biodiversity,NA,3,ga
+biodiversity intactness index,1,NA,NA,NA,NA,NA,NA,1,1,biodiversity,NA,State of biodiversity,NA,3,va
+biodiversity intactness index,1,NA,NA,NA,NA,NA,NA,1,1,biodiversity,NA,State of biodiversity,NA,3,geo
+biodiversity intactness index (for plants and vertebrates),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+biodiversity intactness index (hotspots),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+biodiversity intactness index (indigenous lands),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+"biodiversity intactness index (tropical forest, hotspots)",NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+"biodiversity intactness index (tropical forest, indigenous lands)",NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+biodiversity intactness index (tropical forest),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+"biodiversity with high potential for having bioactive principles for medicines or represent genetic resources useful for medicines agriculture or other purposes, that have been identified locally through ilk or by other knowledge systems at global levels for health treatments or other purposes (agriculture or other)",NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+biomass changes,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Change in biodiversity,NA,1,ga
+biomass estimates in forests,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems (integrity),NA,1,ga
+biomass turnover rate,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Change in biodiversity,NA,1,ga
+bird species per grid cell,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+capacity of ecosystem to filter (or add) constituent components (extent of vegetation),NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,Ecosystem services,State of ecosystems (coverage),Nature contribution,1,ga
+change in extent of wetlands and inland water bodies,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,Change in ecosystems,NA,1,ga
+change in mean fish size,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Change in biodiversity,NA,1,ga
+change in terrestrial biomass,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Change in biodiversity,NA,1,ga
+change in the extent of water-related ecosystems over time,1,1,NA,NA,NA,NA,NA,1,1,ecosystems,NA,State of ecosystems,Change in ecosystems,1,sua
+coastal carbon-rich habitat,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems,NA,1,ga
+coastal forest distribution and extent,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems,State of ecosystems (coverage),1,ga
+coastal protection habitats,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,Area conservation,NA,1,ga
+community-weighted mean trait value (cwm),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+coral reefs distribution and extent,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,State of ecosystems (marine),1,ga
+coral solid units (number/year),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+coverage by protected areas of important sites for mountain biodiversity,NA,1,NA,NA,NA,NA,NA,1,1,ecosystems,NA,Area conservation,NA,2,ga
+coverage by protected areas of important sites for mountain biodiversity,NA,1,NA,NA,NA,NA,NA,1,1,ecosystems,NA,Area conservation,NA,2,sua
+coverage of protected areas in relation to marine areas,NA,1,NA,NA,NA,NA,NA,1,1,ecosystems,NA,Area conservation,NA,2,sua
+coverage of protected areas in relation to marine areas,NA,1,NA,NA,NA,NA,NA,1,1,ecosystems,NA,Area conservation,NA,2,geo
+cumulative introduced invasive aliens,NA,NA,NA,NA,NA,NA,NA,NA,1,Direct drivers,NA,Invasive alien species,NA,1,ga
+desertification,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems,Change in ecosystems,1,ga
+diversity of biological controllers of pests,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+emergence (shannon’s information),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Genetic diversity,NA,1,ga
+enhanced vegetation index,NA,NA,NA,NA,NA,NA,NA,NA,NA,ecosystems,NA,State of ecosystems (integrity),NA,1,geo
+environmental component of the social sustainability index,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems (coverage),NA,1,ga
+environmental performance index,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems (coverage),NA,1,ga
+equitability (commonness and rareness),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Genetic diversity,NA,1,ga
+evapotranspiration (model ensemble),NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,Abiotic conditions,NA,1,ga
+existence of non-crop or urban in a place dominated by either,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems (coverage),NA,1,ga
+extent of coral reefs,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+extent of each ecoregion globally,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,Area conservation,NA,1,ga
+extent of intact forest landscapes,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems (integrity),NA,1,ga
+extent of irrigated area,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems,NA,1,ga
+extent of marine calcification,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,Direct drivers,State of ecosystems,Pollution,1,ga
+extent of marine vegetation,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems (marine),NA,1,ga
+extent of marine wilderness,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems (marine),NA,1,ga
+extent of suitable habitat,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems,NA,1,ga
+extent of suitable habitat (mammals),NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems,NA,1,ga
+extent of suitable habitat index (esh),NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems (coverage),NA,1,ga
+extent of terrestrial wilderness,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems,NA,1,ga
+farmland bird index,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,sua
+floating plastic debris density,1,NA,NA,NA,NA,NA,NA,1,NA,ecosystems,Direct drivers,State of ecosystems (integrity),Pollution,1,geo
+floating plastic litter density,NA,NA,NA,NA,NA,NA,NA,NA,NA,ecosystems,Direct drivers,State of ecosystems (integrity),Pollution,1,geo
+forest area,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems,NA,1,ga
+forest area as a percentage of total land area,1,1,NA,NA,NA,NA,NA,1,1,ecosystems,NA,State of ecosystems (coverage),NA,3,ga
+forest area as a percentage of total land area,1,1,NA,NA,NA,NA,NA,1,1,ecosystems,NA,State of ecosystems (coverage),NA,3,sua
+forest area as a percentage of total land area,1,1,NA,NA,NA,NA,NA,1,1,ecosystems,NA,State of ecosystems (coverage),NA,3,geo
+forest-specialist bird species per grid cell,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+fraction of ocean not fished per year,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,Direct drivers,State of ecosystems,Land conversion,1,ga
+functional betadiversity,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+"functional diversity (fd), rarity, redundancy, vulnerability",NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+functional intactness (madingley),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+functional richness (madingley),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+gamma diversity (total diversity of species in a landscape),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+gene bank accession and available genetic resources,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Genetic resources,NA,1,ga
+genetic diversity,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Genetic diversity,NA,1,va
+genetic resources and especially agrodiversity known to date and its linkage to food security,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Genetic resources,NA,1,ga
+genetic variation (cohesion),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Genetic resources,NA,1,ga
+genetic variation (complexity),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Genetic resources,NA,1,ga
+"genetic variation (connectance, numbers of links by the number of nodes)",NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Genetic resources,NA,1,ga
+genetic variation (dissimilarity),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Genetic resources,NA,1,ga
+genetic variation (hamming distance),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Genetic resources,NA,1,ga
+genetic variation (homeostasis),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Genetic resources,NA,1,ga
+genetic variation (nestedness),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Genetic resources,NA,1,ga
+genetic variation (self-organization),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Genetic resources,NA,1,ga
+glacial mass balance,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,Change in ecosystems,NA,1,ga
+global bird richness (csar),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+global ecosystem restoration index,1,NA,NA,NA,NA,NA,NA,1,1,ecosystems,NA,Area conservation,NA,1,ga
+global forest-specialist bird richness (csar),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+global mammal and bird species remaining,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+globally available combined bathy/topo,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,Abiotic conditions,NA,1,ga
+globally available continental shelf,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems (marine),NA,1,ga
+globally available data for waves and wind,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,Knowledge systems,Abiotic conditions,NA,1,ga
+high body mass index,NA,NA,NA,NA,NA,NA,NA,NA,NA,biodiversity,NA,State of biodiversity,NA,1,geo
+human appropriation of net primary productivity,1,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,Direct drivers,State of ecosystems (coverage),Land conversion,2,ga
+human appropriation of net primary productivity,1,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,Direct drivers,State of ecosystems (coverage),Land conversion,2,va
+in situ genetic resources of interest to science and ex situ gene banks or genetic and or chemical related informations,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Genetic resources,NA,1,ga
+index of coastal eutrophication potential (icep),1,NA,NA,NA,NA,NA,NA,1,NA,ecosystems,Direct drivers,State of ecosystems (integrity),Pollution,1,geo
+index of coastal eutrophication potential (icep) and (b) plastic debris density,1,1,NA,NA,NA,NA,NA,1,1,ecosystems,Direct drivers,State of ecosystems (integrity),Pollution,1,sua
+infiltrability,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems (integrity),NA,1,ga
+land area in biomass production,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems (coverage),NA,1,ga
+land not cultivated or urban,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,Human assets,State of ecosystems,Infrastructure (build-up area),1,ga
+land not cultivated or urban (hotspots),NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,Human assets,State of ecosystems,Infrastructure (build-up area),1,ga
+land not cultivated or urban (indigenous lands),NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,Human assets,State of ecosystems,Infrastructure (build-up area),1,ga
+land suitability and extent of bioenergy crop and livestock producing and harvesting areas,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,Ecosystem services,State of ecosystems,Nature contribution,1,ga
+land suitability and extent of cotton producing area,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,Ecosystem services,State of ecosystems,Nature contribution,1,ga
+land use change that causes a change in et,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,Change in ecosystems,NA,1,ga
+landscape complexity,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems,NA,1,ga
+landscape dominance of habitat,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems,NA,1,ga
+landscape inundated by the flood,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems,NA,1,ga
+landslides stabilization,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems,NA,1,ga
+large fish indicator,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+leaf area index (lai),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+leaf properties,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+level of water stress,1,NA,NA,NA,NA,NA,NA,1,NA,ecosystems,NA,Abiotic conditions,NA,1,geo
+level of water stress (freshwater withdrawal as a proportion of available freshwater resources),1,1,NA,NA,NA,NA,NA,1,1,ecosystems,biodiversity,Change in ecosystems,NA,2,sua
+level of water stress (freshwater withdrawal as a proportion of available freshwater resources),1,1,NA,NA,NA,NA,NA,1,1,ecosystems,biodiversity,Change in ecosystems,NA,2,geo
+live coral cover,1,NA,NA,NA,NA,NA,NA,1,1,biodiversity,NA,State of biodiversity,NA,1,ga
+livestock density of animals (chickens),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,Ecosystem services,State of biodiversity,Specific monetary valuation of nature contribution,1,ga
+livestock density of cattle,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,Specific monetary valuation of nature contribution,1,ga
+livestock indigenous animals,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,Specific monetary valuation of nature contribution,1,ga
+living planet index,1,NA,NA,NA,NA,NA,NA,1,1,ecosystems,NA,State of biodiversity,NA,3,ga
+living planet index,1,NA,NA,NA,NA,NA,NA,1,1,ecosystems,NA,State of biodiversity,NA,3,sua
+living planet index,1,NA,NA,NA,NA,NA,NA,1,1,ecosystems,NA,State of biodiversity,NA,3,geo
+living planet index (freshwater),NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of biodiversity,State of ecosystems (freshwater/coastal),1,ga
+living planet index (marine),NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of biodiversity,NA,1,ga
+living planet index (terrestrial),NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of biodiversity,NA,1,ga
+local species richness (biotime),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+local species richness (predicts),1,NA,NA,NA,NA,NA,NA,1,1,biodiversity,NA,State of biodiversity,NA,1,ga
+loss of phylogenetic diversity,1,NA,NA,NA,NA,NA,NA,1,1,biodiversity,NA,Genetic diversity,NA,1,ga
+loss of species,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Change in biodiversity,NA,1,ga
+mammalian body mass,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+mammalian range size,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+mangrove distribution and abundance,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+mangrove forest area,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,2,ga
+mangrove forest area,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,2,va
+marine trophic index (mti),NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems (marine),NA,1,ga
+mean species abundance (msa),1,NA,NA,NA,NA,NA,NA,1,1,biodiversity,NA,State of biodiversity,NA,1,ga
+mean species abundance (msa) (hotspots),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+mean species abundance (msa) (indigenous lands),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+measured concentrations of o in the upper stratospere,NA,NA,NA,NA,NA,NA,NA,NA,NA,ecosystems,NA,Abiotic conditions,NA,1,geo
+mechanistic models that quantify and disentangle effects of vegetation on climate and hydrological cycle,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,Abiotic conditions,NA,1,ga
+megafaunal range size,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+mountain green cover index,1,1,NA,NA,NA,NA,NA,1,1,ecosystems,NA,State of ecosystems (coverage),NA,1,sua
+net primary production,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,Ecosystem services,State of ecosystems,Nature contribution,1,ga
+net primary production remaining in ecosystems,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,Ecosystem services,State of ecosystems,Nature contribution,1,ga
+neutral variation (markers not linked to traits under selection),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,Genetic diversity,1,ga
+non-neutral variation (markers linked to traits under selection),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Genetic diversity,NA,1,ga
+number of invasive alien species introduction events,1,NA,NA,NA,NA,NA,NA,1,1,Direct drivers,NA,Invasive alien species,NA,1,ga
+number of managed bee hives,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Species conservation,NA,1,ga
+number of plant and animal genetic resources for food and agriculture secured in either medium- or long-term conservation facilities,1,NA,NA,NA,NA,NA,NA,1,1,biodiversity,NA,Genetic resources,NA,1,sua
+number of plant and animal genetic resources secured in medium or long-term conservation facilities,1,NA,NA,NA,NA,NA,NA,1,1,biodiversity,NA,Genetic resources,NA,1,ga
+number of protected area management effectiveness (pame) assessments,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,Area conservation,NA,2,ga
+number of protected area management effectiveness (pame) assessments,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,Area conservation,NA,2,va
+"number of protected areas, parks and gardens",NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,Area conservation,NA,1,ga
+number of species,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+ocean health index,1,NA,NA,NA,NA,NA,NA,1,1,ecosystems,NA,State of ecosystems (freshwater/coastal),NA,2,ga
+ocean health index,1,NA,NA,NA,NA,NA,NA,1,1,ecosystems,NA,State of ecosystems (freshwater/coastal),NA,2,geo
+overdisperion/ underdispersion,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,Direct drivers,Change in biodiversity,Invasive alien species,1,ga
+percentage change in local species richness,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Change in biodiversity,NA,1,ga
+percentage of marine and coastal areas covered by protected areas,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,Area conservation,NA,1,ga
+percentage of marine ecoregions covered by protected areas,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,Area conservation,NA,1,ga
+percentage of terrestrial domesticated animal breeds at risk,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Species conservation,NA,1,ga
+percentage of terrestrial ecoregions covered by protected areas,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,Area conservation,NA,1,ga
+permanent surface water extent,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,Abiotic conditions,NA,1,ga
+"pest, invasive or harmful species",NA,NA,NA,NA,NA,NA,NA,NA,1,Direct drivers,NA,Invasive alien species,NA,1,ga
+phenotypic variation,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Genetic diversity,NA,1,ga
+phylogenetic betadiversity,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Genetic diversity,NA,1,ga
+phylogenetic diversity,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Genetic diversity,NA,1,ga
+"phylogenetic species richness (psr), clustering (psc), evenness (pse), variability (psv)",NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Genetic diversity,NA,1,ga
+phylogenetic structure of a community,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Genetic diversity,NA,1,ga
+phylogenetic variation (of genes or populations within species),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Genetic diversity,NA,1,ga
+population growth (annual %),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Change in biodiversity,NA,1,ga
+predatory fish biomass,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+prey fish biomass,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+proportion of bodies of water with good ambient water quality,1,1,NA,NA,NA,NA,NA,1,1,ecosystems,NA,Abiotic conditions,NA,1,sua
+proportion of fish stocks within biologically sustainable levels,1,1,NA,NA,NA,NA,NA,1,1,biodiversity,NA,State of biodiversity,NA,3,ga
+proportion of fish stocks within biologically sustainable levels,1,1,NA,NA,NA,NA,NA,1,1,biodiversity,NA,State of biodiversity,NA,3,sua
+proportion of fish stocks within biologically sustainable levels,1,1,NA,NA,NA,NA,NA,1,1,biodiversity,NA,State of biodiversity,NA,3,geo
+"proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type",NA,1,NA,NA,NA,NA,NA,1,1,ecosystems,NA,Area conservation,NA,1,sua
+proportion of local breeds classified as being at risk of extinction,1,1,NA,NA,NA,NA,NA,1,1,biodiversity,NA,Species conservation,NA,2,ga
+proportion of local breeds classified as being at risk of extinction,1,1,NA,NA,NA,NA,NA,1,1,biodiversity,NA,Species conservation,NA,2,sua
+proportion of non-declining species in the surveyed community,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+proportion of predatory fish,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+protected area connectedness (parc-connectedness) index,1,NA,NA,NA,NA,NA,NA,1,1,ecosystems,NA,State of ecosystems (configuration),NA,1,ga
+"protected area coverage of bird, mammal and amphibian distributions",NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,biodiversity,Area conservation,State of biodiversity,1,ga
+protected area coverage of key biodiversity areas,1,NA,NA,NA,NA,NA,NA,1,1,ecosystems,NA,Area conservation,NA,1,ga
+protected area management effectiveness (pame),1,NA,NA,NA,NA,NA,NA,1,1,ecosystems,Governance,Area conservation,Nature-based legislation,1,ga
+quantitative genetic variation,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,Genetic resources,NA,1,ga
+rain-use efficiency adjusted ndvi,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,Abiotic conditions,NA,1,ga
+ramsar sites,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,Area conservation,Species conservation,1,ga
+red list index,1,1,NA,NA,NA,NA,NA,1,1,biodiversity,NA,State of biodiversity,NA,3,ga
+red list index,1,1,NA,NA,NA,NA,NA,1,1,biodiversity,NA,State of biodiversity,NA,3,sua
+red list index,1,1,NA,NA,NA,NA,NA,1,1,biodiversity,NA,State of biodiversity,NA,3,geo
+red list index (birds and mammals),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+red list index (for utilized species),1,NA,NA,NA,NA,NA,NA,1,1,biodiversity,Ecosystem services,State of biodiversity,Nature contribution,2,ga
+red list index (for utilized species),1,NA,NA,NA,NA,NA,NA,1,1,biodiversity,Ecosystem services,State of biodiversity,Nature contribution,2,geo
+red list index (forest specialists),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+red list index (impacts of fisheries),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,Ecosystem services,State of biodiversity,Nature contribution,1,ga
+red list index (impacts of invasive alien species),1,NA,NA,NA,NA,NA,NA,1,1,biodiversity,Direct drivers,State of biodiversity,Invasive alien species,1,ga
+red list index (impacts of pollution),1,NA,NA,NA,NA,NA,NA,1,1,biodiversity,Direct drivers,State of biodiversity,Pollution,1,ga
+red list index (internationally traded birds),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,Ecosystem services,State of biodiversity,Nature contribution,1,ga
+red list index (internationally traded species),1,NA,NA,NA,NA,NA,NA,1,1,biodiversity,Ecosystem services,State of biodiversity,Nature contribution,1,ga
+red list index (pollinators),1,NA,NA,NA,NA,NA,NA,1,1,biodiversity,Ecosystem services,State of biodiversity,Nature contribution,1,ga
+red list index (vertebrate pollinators),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+red list index (wild relatives),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,Ecosystem services,State of biodiversity,Nature contribution,1,ga
+red list of ecosystems,1,NA,NA,NA,NA,NA,NA,1,NA,ecosystems,NA,State of ecosystems,NA,1,geo
+remaining primary vegetation,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems (coverage),NA,1,ga
+remaining primary vegetation (hotspots),NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems (coverage),NA,1,ga
+remaining primary vegetation (indigenous lands),NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,Knowledge systems,State of ecosystems (coverage),ILK,1,ga
+remote sensed vegetation,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems,NA,1,ga
+remote sensing of croplands,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems,NA,1,ga
+saltmarsh distribution and abundance,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems,NA,1,ga
+seagrass meadow area,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,State of ecosystems (freshwater/coastal),NA,1,ga
+soil biodiversity,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+soil depth,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,Abiotic conditions,NA,1,ga
+soil organic carbon,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,Abiotic conditions,NA,1,ga
+soil organic carbon (correlative model),NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,Abiotic conditions,NA,1,ga
+soil organic carbon (mechanistic models),NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,Abiotic conditions,NA,1,ga
+soil quality,NA,NA,NA,NA,NA,NA,NA,NA,1,ecosystems,NA,Abiotic conditions,NA,1,ga
+species abundance distribution,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+species habitat index,1,NA,NA,NA,NA,NA,NA,1,1,biodiversity,NA,State of biodiversity,NA,1,ga
+species protection index,1,NA,NA,NA,NA,NA,NA,1,1,biodiversity,NA,Species conservation,NA,1,ga
+species richness,1,NA,NA,NA,NA,NA,NA,1,1,biodiversity,NA,State of biodiversity,NA,2,ga
+species richness,1,NA,NA,NA,NA,NA,NA,1,1,biodiversity,NA,State of biodiversity,NA,2,ias
+species richness per grid cell,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+species status index,1,NA,NA,NA,NA,NA,NA,1,1,biodiversity,NA,State of biodiversity,NA,1,ga
+taxonomic diversity and distinctness,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+trait convergence assembly pattern (tcap),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+trait divergence assembly pattern (tdap),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+tree cover,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+vegetation biomass,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+vegetation biomass (mechanistic models),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+vegetation type and cover in areas prone to soil dust emission,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+vegetation type and cover in areas prone to soil dust movement,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+vegetation-atmosphere co2 exchange,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+wetland extent trends index,1,NA,NA,NA,NA,NA,NA,1,1,ecosystems,NA,Change in ecosystems,NA,1,ga
+wild bird index,1,NA,NA,NA,NA,NA,NA,1,1,biodiversity,NA,State of biodiversity,NA,1,ga
+wild bird index (farmland birds),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+wild bird index (habitat specialists),NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga
+wild mammal biomass,NA,NA,NA,NA,NA,NA,NA,NA,1,biodiversity,NA,State of biodiversity,NA,1,ga

@@ -1,0 +1,661 @@
+indicators_harmonized,ipcc_sup,ga_sup,sua_sup
+monthly maximum value of daily maximum temperature,1,NA,NA
+monthly minimum value of daily maximum temperature,1,NA,NA
+monthly minimum value of daily minimum temperature,1,NA,NA
+monthly maximum value of daily minimum temperature,1,NA,NA
+percentage of days when daily maximum temperature is greater than the 90th percentile,1,NA,NA
+percentage of days when daily maximum temperature is less than the 10th percentile,1,NA,NA
+percentage of days when daily minimum temperature is greater than the 90th percentile,1,NA,NA
+percentage of days when daily minimum temperature is less than the 10th percentile,1,NA,NA
+number of icing days: annual count of days when tx (daily maximum temperature) <0°c,1,NA,NA
+number of frost days: annual count of days when tn (daily minimum temperature) <0°c,1,NA,NA
+warm spell duration index (wsdi),1,NA,NA
+cold spell duration index: annual count of days with at least six consecutive days when tn <10th percentile,1,NA,NA
+number of summer days: annual count of days when tx (daily maximum temperature) >25°c,1,NA,NA
+number of tropical nights: annual count of days when tn (daily minimum temperature) >20°c,1,NA,NA
+daily temperature range: monthly mean difference between tx and tn,1,NA,NA
+"growing season length: annual (1 jan to 31 dec in northern hemisphere (nh), 1 july to 30 june in southern hemisphere (sh)) count between first span of at least six days with daily mean temperature tg >5°c and first span after july 1 (jan 1 in sh) of six days with tg <5°c",1,NA,NA
+one-in-20 year return value of monthly maximum value of daily maximum temperature,1,NA,NA
+one-in-20 year return value of monthly minimum value of daily maximum temperature,1,NA,NA
+one-in-20 year return value of monthly minimum value of daily minimum temperature,1,NA,NA
+one-in-20 year return value of monthly maximum value of daily minimum temperature,1,NA,NA
+maximum one-day precipitation,1,NA,NA
+maximum five-day precipitation,1,NA,NA
+annual count of days when precipitation is greater than or equal to 5 mm,1,NA,NA
+annual count of days when precipitation is greater than or equal to 10 mm,1,NA,NA
+annual count of days when precipitation is greater than or equal to 20 mm,1,NA,NA
+annual count of days when precipitation is greater than or equal to 50 mm,1,NA,NA
+maximum number of consecutive days with less than 1 mm of precipitation per day,1,NA,NA
+maximum number of consecutive days with more than or equal to 1 mm of precipitation per day,1,NA,NA
+annual total precipitation when the daily precipitation exceeds the 95th percentile of the wet-day (>1 mm) precipitation,1,NA,NA
+annual precipitation amount when the daily precipitation exceeds the 99th percentile of the wet-day precipitation,1,NA,NA
+simple precipitation intensity index,1,NA,NA
+one-in-20 year return value of maximum one-day precipitation,1,NA,NA
+one-in-20 year return value of maximum five-day precipitation,1,NA,NA
+standardized precipitation index,1,NA,NA
+"potential evaporation, evaporative demand drought index",1,NA,NA
+soil moisture anomalies,1,NA,NA
+standardized soil moisture index,1,NA,NA
+standardized runoff index,1,NA,NA
+standardized streamflow index,1,NA,NA
+palmer drought severity index,1,NA,NA
+standardized precipitation evapotranspiration index (spei),1,NA,NA
+gross domestic product,NA,1,NA
+globalization index,NA,1,NA
+poverty gap,NA,1,NA
+food security index,NA,1,NA
+depth of the food deficit (kcal/capit a/day) (3- year average),NA,1,NA
+access to improved sanitation facilities,NA,1,NA
+domestic material consumption,NA,1,NA
+per capita calorie intake,NA,1,NA
+prevalence of obesity in the adult population (18 years and older),NA,1,NA
+energy use (kg of oil equivalent per capita),NA,1,NA
+mobile cellular subscriptions,NA,1,NA
+fossil-fuel energy consumption (% of total),NA,1,NA
+renewable electricity consumption (% of total electricity output),NA,1,NA
+electric power consumption (kwh per capita),NA,1,NA
+access to electricity,NA,1,NA
+alternative and nuclear energy (% of total energy use),NA,1,NA
+protein intake per country per person,NA,1,NA
+"energy supply derived from cereals, roots and tubers",NA,1,NA
+people per ouletlet mcdonals,NA,1,NA
+population growth (annual %),NA,1,NA
+population density,NA,1,NA
+child mortality rate,NA,1,NA
+urban population,NA,1,NA
+total international migrant stock,NA,1,NA
+refugee population,NA,1,NA
+migration net,NA,1,NA
+population in the largest city,NA,1,NA
+population in megacities,NA,1,NA
+agricultural land,NA,1,NA
+livestock indigenous animals,NA,1,NA
+livestock density of cattle,NA,1,NA
+livestock density of animals (chickens),NA,1,NA
+area of agricultural land under organic production,NA,1,NA
+"international tourism, number of departures",NA,1,NA
+"international tourism, number of arrivals",NA,1,NA
+container port traffic (teu: 20 foot equivalent units),NA,1,NA
+air passengers,NA,1,NA
+air departures,NA,1,NA
+deaths from air pollution,NA,1,NA
+ghg emissions,NA,1,NA
+pesticide use,NA,1,NA
+fertilizers used,NA,1,NA
+air pollution,NA,1,NA
+nitrogenen deposition trends,NA,1,NA
+ghg emissions change,NA,1,NA
+extraction ores,NA,1,NA
+extraction all of biomass,NA,1,NA
+extraction of ind. and const. minerals,NA,1,NA
+extraction biomass food,NA,1,NA
+extraction biomass forestry,NA,1,NA
+extraction biomass feed,NA,1,NA
+extraction biomass animals,NA,1,NA
+extraction other biomass,NA,1,NA
+extraction fossil-fuel,NA,1,NA
+water withdrawal,NA,1,NA
+renewable internal freshwater resource,NA,1,NA
+agricultural water withdrawal,NA,1,NA
+ramsar sites,NA,1,NA
+certified forest area,NA,1,NA
+united nations framework convention on climate change,NA,1,NA
+convention of fishing and conservation of the living resources of the high seas,NA,1,NA
+montreal protocol,NA,1,NA
+convention on biological diversity,NA,1,NA
+convention on the conservation of antarctic marine living resources,NA,1,NA
+"credit to agriculture, forestry and fishing",NA,1,NA
+political stability and absence of violence/terrorism,NA,1,NA
+above-ground biomass,NA,1,NA
+biodiversity habitat index,NA,1,NA
+biodiversity habitat index (hotspots),NA,1,NA
+coastal carbon-rich habitat,NA,1,NA
+coastal protection habitats,NA,1,NA
+forest area,NA,1,NA
+extent of intact forest landscapes,NA,1,NA
+extent of marine wilderness,NA,1,NA
+extent of terrestrial wilderness,NA,1,NA
+fraction of ocean not fished per year,NA,1,NA
+land not cultivated or urban,NA,1,NA
+land not cultivated or urban (hotspots),NA,1,NA
+land not cultivated or urban (indigenous lands),NA,1,NA
+leaf area index (lai),NA,1,NA
+mangrove forest area,NA,1,NA
+extent of suitable habitat,NA,1,NA
+live coral cover,NA,1,NA
+permanent surface water extent,NA,1,NA
+remaining primary vegetation,NA,1,NA
+remaining primary vegetation (hotspots),NA,1,NA
+remaining primary vegetation (indigenous lands),NA,1,NA
+seagrass meadow area,NA,1,NA
+soil organic carbon (correlative model),NA,1,NA
+soil organic carbon (mechanistic models),NA,1,NA
+tree cover,NA,1,NA
+vegetation biomass (mechanistic models),NA,1,NA
+wetland extent trends index,NA,1,NA
+biological pump efficiency,NA,1,NA
+biomass turnover rate,NA,1,NA
+evapotranspiration (model ensemble),NA,1,NA
+marine net primary production,NA,1,NA
+net primary production remaining in ecosystems,NA,1,NA
+oceanic carbon sequestration,NA,1,NA
+terrestrial c sequestration (model ensemble),NA,1,NA
+terrestrial net primary production (model ensemble),NA,1,NA
+terrestrial net primary production (remote-sensing),NA,1,NA
+biodiversity intactness index (hotspots),NA,1,NA
+biodiversity intactness index (indigenous lands),NA,1,NA
+biodiversity intactness index,NA,1,NA
+local species richness (biotime),NA,1,NA
+local species richness (predicts),NA,1,NA
+mean species abundance (msa),NA,1,NA
+mean species abundance (msa) (hotspots),NA,1,NA
+mean species abundance (msa) (indigenous lands),NA,1,NA
+"biodiversity intactness index (tropical forest, hotspots)",NA,1,NA
+"biodiversity intactness index (tropical forest, indigenous lands)",NA,1,NA
+biodiversity intactness index (tropical forest),NA,1,NA
+bird species per grid cell,NA,1,NA
+cumulative introduced invasive aliens,NA,1,NA
+forest-specialist bird species per grid cell,NA,1,NA
+functional intactness (madingley) (madingley),NA,1,NA
+species richness per grid cell,NA,1,NA
+global bird richness (csar),NA,1,NA
+global forest-specialist bird richness (csar),NA,1,NA
+global mammal and bird species remaining,NA,1,NA
+red list index,NA,1,1
+red list index (forest specialists),NA,1,NA
+red list index (internationally traded birds),NA,1,NA
+red list index (pollinators),NA,1,NA
+red list index (for utilized species),NA,1,NA
+red list index (wild relatives of farmed and domesticated species),NA,1,NA
+extent of suitable habitat (mammals),NA,1,NA
+mammalian range size,NA,1,NA
+megafaunal range size,NA,1,NA
+species habitat index,NA,1,NA
+proportion of fish stocks within biologically sustainable levels,NA,1,1
+living planet index (freshwater),NA,1,NA
+living planet index (marine),NA,1,NA
+living planet index,NA,1,NA
+living planet index (terrestrial),NA,1,NA
+predatory fish biomass,NA,1,NA
+prey fish biomass,NA,1,NA
+wild bird index (habitat specialists),NA,1,NA
+wild mammal biomass,NA,1,NA
+functional richness (madingley),NA,1,NA
+mammalian body mass,NA,1,NA
+marine trophic index (mti),NA,1,NA
+extent of each ecoregion globally,NA,1,NA
+landscape dominance of habitat,NA,1,NA
+number of managed bee hives,NA,1,NA
+abundance of managed and wild pollinators,NA,1,NA
+pollinator diversity,NA,1,NA
+proportion pollinator dependent vegetables/fruit in food supply,NA,1,NA
+number of visitors to national parks in the eeuu,NA,1,NA
+output from pollinator dependent crops,NA,1,NA
+carbon stocks in ecosystems,NA,1,NA
+prevented emissions from biofuel use,NA,1,NA
+vegetation type and cover in areas prone to soil dust emission,NA,1,NA
+leaf properties,NA,1,NA
+vegetation type and cover in areas prone to soil dust movement,NA,1,NA
+concentration of air pollutants in the air,NA,1,NA
+retention and prevented emissions of air pollutants by ecosystems,NA,1,NA
+amelioration of health problems caused by air pollution resulted from ecosystem contributions to air quality,NA,1,NA
+reduction in the number of deaths caused by air pollution reduction by ecosystems,NA,1,NA
+"premature deaths caused by pollution emissions by natural sources, biomass burning, firewood use and agriculture",NA,1,NA
+cost reduction with healthcare resulted from ecosystem contributions to air quality,NA,1,NA
+cost reduction associated to prevented deaths caused by air pollution as consequence of ecosystems’ deposition of air pollutants,NA,1,NA
+vegetation-atmosphere co2 exchange,NA,1,NA
+below- and above-ground biomass stocks,NA,1,NA
+biomass changes,NA,1,NA
+remote sensed vegetation,NA,1,NA
+mechanistic models that quantify and disentangle effects of vegetation on climate and hydrological cycle,NA,1,NA
+atmospheric sounding,NA,1,NA
+infiltrability,NA,1,NA
+air temperature low-cost thermal imagery,NA,1,NA
+soil organic carbon,NA,1,NA
+dust emissions,NA,1,NA
+net greenhouse gases emissions,NA,1,NA
+air-sea and sediment-water fluxes of carbon and co2,NA,1,NA
+air-sea fluxes of other greenhouse gases such as dimethyl sulfide,NA,1,NA
+dissolved organic carbon,NA,1,NA
+co2 removal from atmosphere,NA,1,NA
+net primary production,NA,1,NA
+abundance of sulfate reducing microorganisms,NA,1,NA
+carbon sequestration,NA,1,NA
+concentration of greenhouse gases in the atmosphere,NA,1,NA
+prevented emissions and uptake of greenhouse gases by ecosystems,NA,1,NA
+number of deaths caused by extreme climatic events,NA,1,NA
+food security and climate change,NA,1,NA
+number of undernourished people,NA,1,NA
+crop production breaks caused by climate change,NA,1,NA
+"economic impacts of climate change on specific aspects of regional economic activity, such as labour productivity, the supply of production factors such as capital, and changes in the structure of demand",NA,1,NA
+extent of marine vegetation,NA,1,NA
+extent of marine calcification,NA,1,NA
+net primary production seaweed aquaculture,NA,1,NA
+extent of coral reefs,NA,1,NA
+land use change that causes a change in et,NA,1,NA
+change in terrestrial biomass,NA,1,NA
+change in extent of wetlands and inland water bodies,NA,1,NA
+"biotic mediation of air-surface-groundwater partitioning (water demand by vegetation, infiltration)",NA,1,NA
+water availability,NA,1,NA
+water available for people relative to demand,NA,1,NA
+extent of irrigated area,NA,1,NA
+water shortage,NA,1,NA
+desertification,NA,1,NA
+how much kw hrs that are dependent on water ag (irrigated area),NA,1,NA
+suspended organic carbon,NA,1,NA
+existence of non-crop or urban in a place dominated by either,NA,1,NA
+capacity of ecosystem to filter (or add) constituent components (extent of vegetation),NA,1,NA
+concentration of constituents (pollutants) in the water,NA,1,NA
+reduced incidence of water borne disease,NA,1,NA
+avoided water treatment costs,NA,1,NA
+rain-use efficiency adjusted ndvi,NA,1,NA
+crop yield,NA,1,NA
+soil depth,NA,1,NA
+food security,NA,1,NA
+soil biodiversity,NA,1,NA
+soil quality,NA,1,NA
+soil degradation impact on crop productivity,NA,1,NA
+coral reefs distribution and extent,NA,1,NA
+mangrove distribution and abundance,NA,1,NA
+saltmarsh distribution and abundance,NA,1,NA
+coastal forest distribution and extent,NA,1,NA
+globally available combined bathy/topo,NA,1,NA
+globally available data for waves and wind,NA,1,NA
+globally available continental shelf,NA,1,NA
+thousands of deaths each year,NA,1,NA
+billions of dollars each year,NA,1,NA
+fraction of people die due to flood,NA,1,NA
+fraction of people infected with disease of flood,NA,1,NA
+post-traumatic stress disorder score,NA,1,NA
+cumulative exposure indicators,NA,1,NA
+psychological health indicators,NA,1,NA
+direct tangible damage loss,NA,1,NA
+landscape inundated by the flood,NA,1,NA
+"absolute damage to roads and transportation, power plant,etc",NA,1,NA
+lowered incidence and impact of hazards,NA,1,NA
+lowered flood peaks,NA,1,NA
+lowered fuel load (fires),NA,1,NA
+coastal protection,NA,1,NA
+landslides stabilization,NA,1,NA
+incidence of hazards,NA,1,NA
+reduced morbidity and premature mortality,NA,1,NA
+reduced property loss,NA,1,NA
+near- or on-farm habitat diversity,NA,1,NA
+landscape complexity,NA,1,NA
+abundance of alternative hosts species,NA,1,NA
+species richness,NA,1,NA
+avoided costs of pesticide use,NA,1,NA
+avoided costs of health treatment of vbd,NA,1,NA
+reduced pesticide use,NA,1,NA
+reduced prevalence of vbd,NA,1,NA
+diversity of biological controllers of pests,NA,1,NA
+diversity of competent hosts of vector-borne and zoonotic diseases,NA,1,NA
+abundance of wild and managed biological controllers of pests,NA,1,NA
+abundance of competent hosts of vector-born and zoonotic diseases,NA,1,NA
+avoided pest damage to crop and livestock,NA,1,NA
+reduced incidence rate of vector-borne and zoonotic diseases,NA,1,NA
+"tonnage of biomass (sugar cane, corn, palm oil)",NA,1,NA
+land area in biomass production,NA,1,NA
+tonnage of fuelwood,NA,1,NA
+biomass estimates in forests,NA,1,NA
+numbers of livestock and use rate,NA,1,NA
+"tonnage of biomass (sugar cane, corn, palm oil), other energy crops",NA,1,NA
+yield (production) in tonnage,NA,1,NA
+biofuel yield in joules or liters,NA,1,NA
+"biofuel yield in joules or liters from agricultural/horticultural residue, forestry industry residue, other organic residues or by-products from various industries/process",NA,1,NA
+biofuel yield in joules or liters from industrial effluents and/or municipal solid waste,NA,1,NA
+biofuel yield joules or liters from algal/microalgae biomass,NA,1,NA
+population directly reliant on biomass,NA,1,NA
+kwh x price,NA,1,NA
+tons of oil equivalent x price,NA,1,NA
+land suitability and extent of bioenergy crop and livestock producing and harvesting areas,NA,1,NA
+diversity and abundance of species for bioenergy use,NA,1,NA
+energy content of bioenergy crops,NA,1,NA
+tonnage of animal waste used for energy,NA,1,NA
+increased energy security,NA,1,NA
+revenue from bioenergy production,NA,1,NA
+yield per hectare converted to caloric or nutrient yield,NA,1,NA
+agrodiversity and landraces known to date for major crops,NA,1,NA
+remote sensing of croplands,NA,1,NA
+types of agroecosystems,NA,1,NA
+landed catch,NA,1,NA
+aquaculture production,NA,1,NA
+quantity of fish produced for animal/aquaculture feed,NA,1,NA
+mean length of catch,NA,1,NA
+large fish indicator,NA,1,NA
+trophic level of the landed catch,NA,1,NA
+mean length of fish in the community,NA,1,NA
+proportion of predatory fish,NA,1,NA
+trophic level of the community,NA,1,NA
+proportion of non-declining species in the surveyed community,NA,1,NA
+change in mean fish size,NA,1,NA
+trends in fisheries certified by the msc,NA,1,NA
+status of assessed fish stocks,NA,1,NA
+indicator of unsustainable fisheries (iuu),NA,1,NA
+ocean health index,NA,1,NA
+ebfm performance index,NA,1,NA
+fisheries management effectiveness index,NA,1,NA
+fisheries management index,NA,1,NA
+value of production,NA,1,NA
+value of catch,NA,1,NA
+"nutritional output (calories, nutrients)",NA,1,NA
+farm size distribution,NA,1,NA
+nutrition derived from fish,NA,1,NA
+fisheries revenues,NA,1,NA
+gross value added (gva),NA,1,NA
+potential catch loss,NA,1,NA
+production of fish meal and fish oil use in aquaculture/animal feeds,NA,1,NA
+number of jobs,NA,1,NA
+arable land remaining,NA,1,NA
+fish catch potential,NA,1,NA
+kcal capita,NA,1,NA
+dietary diversity,NA,1,NA
+hunger,NA,1,NA
+malnutrition,NA,1,NA
+timber harvest (m3/ha/year),NA,1,NA
+grass/fodder (kg),NA,1,NA
+bamboos and rattans market value,NA,1,NA
+market value,NA,1,NA
+gums (kg),NA,1,NA
+resins (kg),NA,1,NA
+latexes (kg),NA,1,NA
+oil (kg),NA,1,NA
+waxes (kg),NA,1,NA
+tannins (kg),NA,1,NA
+dyes (kg),NA,1,NA
+cork (kg),NA,1,NA
+bark (kg),NA,1,NA
+cotton (t/ha),NA,1,NA
+flax (t/ha/year)),NA,1,NA
+jute yields (t/ha/year),NA,1,NA
+sisal yields (t/ha/year),NA,1,NA
+hemp yields (t/ha/year),NA,1,NA
+silk cocoons (t/hear),NA,1,NA
+coral solid units (number/year),NA,1,NA
+pearls sold units (number/year),NA,1,NA
+shell sold units (number/year),NA,1,NA
+ornamental plants sold units (number/year or kg/year),NA,1,NA
+pet fish sold units (number and species diversity/year),NA,1,NA
+pet bird sold units (number and species diversity/year),NA,1,NA
+pet reptile sold units (number and species diversity/year),NA,1,NA
+pet amphibian sold units (number and species diversity/year),NA,1,NA
+"other living organism for assistance number, stock density (number of horse/household)",NA,1,NA
+health benefits provide by companion animals,NA,1,NA
+"supply of fiber crops, resins, gum arabic",NA,1,NA
+trade of silk,NA,1,NA
+"production of industrial roundwood, paper pulps",NA,1,NA
+export and import of commodity data,NA,1,NA
+export and import data,NA,1,NA
+number of traded live animals/plants listed in cites databases,NA,1,NA
+land suitability and extent of cotton producing area,NA,1,NA
+volume of round wood production,NA,1,NA
+tonnage of cotton production,NA,1,NA
+number of people employed in forest industry,NA,1,NA
+"number of people employed in garment industry (include fibre, cotton industry)",NA,1,NA
+map of medicinal plants overlaying plant richness at the global level,NA,1,NA
+percentage of new drugs discovered over the last 30 years based on natural medicinal products,NA,1,NA
+"biodiversity with high potential for having bioactive principles for medicines or represent genetic resources useful for medicines agriculture or other purposes, that have been identified locally through ilk or by other knowledge systems at global levels for health treatments or other purposes (agriculture or other)",NA,1,NA
+medicinal plants known to date and accessible for health care as a proxy for all natural medicinal products (national medicines policies),NA,1,NA
+genetic resources and especially agrodiversity known to date and its linkage to food security,NA,1,NA
+more than 25% of new chemical entities developed for drugs for all diseases treated at the global level over the last 30 years are derived from natural products or chemical leads from national medicines policies and more than 70% of drugs to treat cancers derive directly from national medicines policies,NA,1,NA
+percentage of world population relying almost entirely on national medicines policies,NA,1,NA
+percentage of modern drugs based on national medicines policies or bio-inspired molecules used for diseases at the global level,NA,1,NA
+"percentages of wild plant collection harvested, traded",NA,1,NA
+new drugs production and sales,NA,1,NA
+maps showing areas where humans mostly rely national medicines policies for health,NA,1,NA
+biodiversity intactness index (for plants and vertebrates),NA,1,NA
+linguistic diversity index,NA,1,NA
+in situ genetic resources of interest to science and ex situ gene banks or genetic and or chemical related informations,NA,1,NA
+ability of learning through direct proximity of people with nature in biodiversity-rich landscapes or agroecosystems,NA,1,NA
+"elements (parts) of nature used in scientific experiments, from species to genes and their continued natural functional and evolutionary roles",NA,1,NA
+"care, mental health, cultural security, life-satisfaction",NA,1,NA
+diversity and economic value of bioinspired production,NA,1,NA
+areas including all uoa where people mainly rely on nature for their well being,NA,1,NA
+recognition of ilpcs lifestyles in close interaction with nature and their access to their lands and resources,NA,1,NA
+human mobility to access different natural habitats for outdoor recreation,NA,1,NA
+indirect access to natural products from natural habitats,NA,1,NA
+creation of new rural urban network,NA,1,NA
+visitation rates of parks,NA,1,NA
+people in proximity to parks or natural areas,NA,1,NA
+indigenous lands,NA,1,NA
+green space in cities,NA,1,NA
+area of natural and traditional landscapes and seascapes,NA,1,NA
+"number of protected areas, parks and gardens",NA,1,NA
+"visitation rate to natural terrestrial, coastal and marine areas",NA,1,NA
+"increased awareness, care, mental health, cultural security, life-satisfaction",NA,1,NA
+NA,NA,1,NA
+abundance of slowly changing ecosystems (time past last land use change),NA,1,NA
+identity value,NA,1,NA
+happyness,NA,1,NA
+quantitative genetic variation,NA,1,NA
+phenotypic variation,NA,1,NA
+neutral variation (markers not linked to traits under selection),NA,1,NA
+non-neutral variation (markers linked to traits under selection),NA,1,NA
+phylogenetic variation (of genes or populations within species),NA,1,NA
+demographic variation,NA,1,NA
+"functional diversity (fd), rarity, redundancy, vulnerability",NA,1,NA
+community-weighted mean trait value (cwm),NA,1,NA
+phylogenetic diversity (pd),NA,1,NA
+overdisperion/ underdispersion,NA,1,NA
+taxonomic diversity and distinctness,NA,1,NA
+"phylogenetic species richness (psr), clustering (psc), evenness (pse), variability (psv)",NA,1,NA
+number of species,NA,1,NA
+equitability (commonness and rareness),NA,1,NA
+species abundance distribution,NA,1,NA
+endemism (% endemics in community),NA,1,NA
+emergence (shannon’s information),NA,1,NA
+genetic variation (self-organization),NA,1,NA
+genetic variation (complexity),NA,1,NA
+genetic variation (homeostasis),NA,1,NA
+genetic variation (hamming distance),NA,1,NA
+genetic variation (dissimilarity),NA,1,NA
+genetic variation (cohesion),NA,1,NA
+"genetic variation (connectance, numbers of links by the number of nodes)",NA,1,NA
+betadiversity (species turnover),NA,1,NA
+gamma diversity (total diversity of species in a landscape),NA,1,NA
+genetic variation (nestedness),NA,1,NA
+phylogenetic betadiversity,NA,1,NA
+phylogenetic structure of a community,NA,1,NA
+trait convergence assembly pattern (tcap),NA,1,NA
+trait divergence assembly pattern (tdap),NA,1,NA
+functional betadiversity,NA,1,NA
+loss of species,NA,1,NA
+loss of phylogenetic diversity,NA,1,NA
+biodiversity barometer (% of respondents that have heard of biodiversity),NA,1,NA
+biodiversity barometer (% of respondents giving correct definition of biodiversity),NA,1,NA
+funding towards environmental education,NA,1,NA
+online interest in biodiversity (proportion of google searches),NA,1,NA
+funding towards environmental impact assessment,NA,1,NA
+number of research studies involving economic valuation,NA,1,NA
+world trade organisation greenbox agricultural subsidies,NA,1,NA
+funding towards institutional capacity building in fisheries,NA,1,NA
+percentage of countries that are category 1 cites parties,NA,1,NA
+ecological footprint,NA,1,NA
+red list index (internationally traded species),NA,1,NA
+human appropriation of net primary productivity,NA,1,NA
+human appropriation of fresh water (water footprint) (thousand km3),NA,1,NA
+marine stewardship council certified fisheries,NA,1,NA
+red list index (impacts of fisheries),NA,1,NA
+global effort in bottom-trawling,NA,1,NA
+nitrogen use balance,NA,1,NA
+wild bird index (farmland birds),NA,1,NA
+area of agricultural land under conservation agriculture,NA,1,NA
+area of forest under sustainable management: total forest management certification by forest stewardship council and programme for the endorsement of forest certification,NA,1,NA
+red list index (impacts of pollution),NA,1,NA
+nitrogen surplus (tg n),NA,1,NA
+number of invasive alien species introduction events,NA,1,NA
+red list index (impacts of invasive alien species),NA,1,NA
+percentage of countries with invasive alien species legislation,NA,1,NA
+glacial mass balance,NA,1,NA
+mean polar sea ice extent,NA,1,NA
+climatic impact index for birds,NA,1,NA
+percentage of marine and coastal areas covered by protected areas,NA,1,NA
+percentage of terrestrial ecoregions covered by protected areas,NA,1,NA
+protected area coverage of key biodiversity areas,NA,1,NA
+percentage of marine ecoregions covered by protected areas,NA,1,NA
+"protected area coverage of bird, mammal and amphibian distributions",NA,1,NA
+number of protected area management effectiveness (pame) assessments,NA,1,NA
+funding towards nature reserves,NA,1,NA
+funding towards species protection,NA,1,NA
+number of plant and animal genetic resources secured in medium or long-term conservation facilities,NA,1,NA
+percentage of terrestrial domesticated animal breeds at risk,NA,1,NA
+percentage change in local species richness,NA,1,NA
+percentage of global rural population with access to improved water resources,NA,1,NA
+percentage of countries that have ratified the nagoya protocol,NA,1,NA
+percentage of countries with revised nbsaps,NA,1,NA
+species status index,NA,1,NA
+number of biodiversity papers published,NA,1,NA
+proportion of known species assessed through the red list index,NA,1,NA
+species occurrence records accessible through the global biodiversity information facility,NA,1,NA
+funding committed to environmental research,NA,1,NA
+funding provided by the global environment facility,NA,1,NA
+official development assistance provided in support of the cbd objectives,NA,1,NA
+"global funding committed towards environmental policy, laws, regulations and economic instruments",NA,1,NA
+"proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)",NA,NA,1
+"proportion of population living below the national poverty line, by sex and age",NA,NA,1
+"proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions",NA,NA,1
+proportion of population living in households with access to basic services,NA,NA,1
+"proportion of total adult population with secure tenure rights to land with legally recognized documentation, by sex and type of tenure",NA,NA,1
+"proportion of total adult population with secure tenure rights to land who perceive their rights to land as secure, by sex and type of tenure",NA,NA,1
+"number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",NA,NA,1
+direct economic loss attributed to disasters in relation to global gross domestic product,NA,NA,1
+number of countries that adopt and implement national disaster risk reduction strategies in line with the sendai framework for disaster risk reduction 2015-2030,NA,NA,1
+proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies,NA,NA,1
+total official development assistance grants from all donors that focus on poverty reduction as a share of the recipient country’s gross national income,NA,NA,1
+pro-poor public social spending,NA,NA,1
+prevalence of undernourishment,NA,NA,1
+"prevalence of moderate or severe food insecurity in the population, based on the food insecurity experience scale",NA,NA,1
+prevalence of stunting (height for age <-2 standard deviation from the median of the world health organization (who) child growth standards) among children under 5 years of age,NA,NA,1
+"prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the who child growth standards) among children under 5 years of age, by type (wasting and overweight)",NA,NA,1
+"prevalence of anaemia in women aged 15 to 49 years, by pregnancy status (percentage)",NA,NA,1
+volume of production per labour unit by classes of farming/pastoral/forestry enterprise size,NA,NA,1
+"average income of small-scale food producers, by sex and indigenous status",NA,NA,1
+proportion of agricultural area under productive and sustainable agriculture,NA,NA,1
+number of plant and animal genetic resources for food and agriculture secured in either medium- or long-term conservation facilities,NA,NA,1
+proportion of local breeds classified as being at risk of extinction,NA,NA,1
+agriculture orientation index for government expenditures,NA,NA,1
+total official flows (official development assistance plus other official flows) to the agriculture sector,NA,NA,1
+agricultural export subsidies,NA,NA,1
+indicator of food price anomalies,NA,NA,1
+"proportion of total agricultural population with ownership or secure rights over agricultural land, by sex",NA,NA,1
+"share of women among owners or rights-bearers of agricultural land, by type of tenure",NA,NA,1
+proportion of countries where the legal framework (including customary law) guarantees women equal rights to land ownership and/or control,NA,NA,1
+proportion of countries with systems to track and make public allocations for gender equality and women’s empowerment,NA,NA,1
+proportion of population using safely managed drinking water services,NA,NA,1
+proportion of bodies of water with good ambient water quality,NA,NA,1
+change in water-use efficiency over time,NA,NA,1
+level of water stress (freshwater withdrawal as a proportion of available freshwater resources),NA,NA,1
+degree of integrated water resources management,NA,NA,1
+proportion of transboundary basin area with an operational arrangement for water cooperation,NA,NA,1
+change in the extent of water-related ecosystems over time,NA,NA,1
+amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan,NA,NA,1
+proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management,NA,NA,1
+proportion of population with primary reliance on clean fuels and technology,NA,NA,1
+renewable energy share in the total final energy consumption,NA,NA,1
+energy intensity measured in terms of primary energy and gross domestic product,NA,NA,1
+"international financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems",NA,NA,1
+installed renewable energy-generating capacity in developing countries (in watts per capita),NA,NA,1
+annual growth rate of real gross domestic product,NA,NA,1
+annual growth rate of real gross domestic product per employed person,NA,NA,1
+"proportion of informal employment in total employment, by sector and sex",NA,NA,1
+"material footprint, material footprint per capita, and material footprint per gross domestic product",NA,NA,1
+"domestic material consumption, domestic material consumption, and domestic material consumption per gross domestic product",NA,NA,1
+"average hourly earnings of employees, by sex, age, occupation and persons with disabilities",NA,NA,1
+"unemployment rate, by sex, age and persons with disabilities",NA,NA,1
+"proportion of youth (aged 15-24 years) not in education, employment or training",NA,NA,1
+"proportion and number of children aged 5-17 years engaged in child labour, by sex and age",NA,NA,1
+"fatal and non-fatal occupational injuries per 100,000 workers, by sex and migrant status",NA,NA,1
+"level of national compliance with labour rights (freedom of association and collective bargaining) based on international labour organization (ilo) textual sources and national legislation, by sex and migrant status",NA,NA,1
+tourism direct gross domestic product as a proportion of total gross domestic product and in growth rate,NA,NA,1
+proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider,NA,NA,1
+aid for trade commitments and disbursements,NA,NA,1
+"existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy",NA,NA,1
+proportion of the rural population who live within 2 km of an all-season road,NA,NA,1
+"passenger and freight volumes, by mode of transport",NA,NA,1
+manufacturing value added as a proportion of gross domestic product and per capita,NA,NA,1
+manufacturing employment as a proportion of total employment,NA,NA,1
+proportion of small-scale industries in total industry value added,NA,NA,1
+proportion of small-scale industries with a loan or line of credit,NA,NA,1
+co2 emission per unit of value added,NA,NA,1
+research and development expenditure as a proportion of gross domestic product,NA,NA,1
+total official international support (official development assistance plus other official flows) to infrastructure,NA,NA,1
+proportion of medium and high-tech industry value added in total value added,NA,NA,1
+"proportion of population covered by a mobile network, by technology",NA,NA,1
+growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population,NA,NA,1
+"proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities",NA,NA,1
+proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law,NA,NA,1
+labour share of gross domestic product,NA,NA,1
+proportion of members and voting rights of developing countries in international organizations,NA,NA,1
+"number of countries with migration policies that facilitate orderly, safe, regular and responsible migration and mobility of people",NA,NA,1
+number of people who died or disappeared in the process of migration towards an international destinationi,NA,NA,1
+"proportion of the population who are refugees, by country of origin",NA,NA,1
+"total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)",NA,NA,1
+ratio of land consumption rate to population growth rate,NA,NA,1
+"total per capita expenditure on the preservation, protection and conservation of all cultural and natural heritage, by source of funding (public, private), type of heritage (cultural, natural) and level of government (national, regional, and local/municipal)",NA,NA,1
+"direct economic loss in relation to global gross domestic product, damage to critical infrastructure and number of disruptions to basic services, attributed to disasters",NA,NA,1
+annual mean levels of fine particulate matter in cities,NA,NA,1
+"proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months",NA,NA,1
+number of countries that have national urban policies or regional development plans that respond to population dynamics,NA,NA,1
+number of countries that have national urban policies or regional development plans that ensure balanced territorial development,NA,NA,1
+number of countries that have national urban policies or regional development plans that increase local fiscal space,NA,NA,1
+"number of countries developing, adopting or implementing policy instruments aimed at supporting the shift to sustainable consumption and production",NA,NA,1
+food loss index,NA,NA,1
+food waste index,NA,NA,1
+hazardous waste generated per capita,NA,NA,1
+"proportion of hazardous waste treated, by type of treatment",NA,NA,1
+"national recycling rate, tons of material recycled",NA,NA,1
+number of companies publishing sustainability reports,NA,NA,1
+degree of sustainable public procurement policies and action plan implementation,NA,NA,1
+extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in national education policies,NA,NA,1
+extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in curricula,NA,NA,1
+extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in teacher education,NA,NA,1
+extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in student assessment,NA,NA,1
+implementation of standard accounting tools to monitor the economic and environmental aspects of tourism sustainability,NA,NA,1
+amount of fossil-fuel subsidies per unit of gross domestic product (production and consumption),NA,NA,1
+"number of countries with nationally determined contributions, long-term strategies, national adaptation plans and adaptation communications, as reported to the secretariat of the united nations framework convention on climate change",NA,NA,1
+total greenhouse gas emissions per year,NA,NA,1
+amounts provided and mobilized in united states dollars per year in relation to the continued existing collective mobilization goal of the $100 billion commitment through to 2025,NA,NA,1
+"number of least developed countries and small island developing states with nationally determined contributions, long-term strategies, national adaptation plans and adaptation communications, as reported to the secretariat of the united nations framework convention on climate change",NA,NA,1
+index of coastal eutrophication potential (icep),NA,NA,1
+plastic debris density,NA,NA,1
+number of countries using ecosystem-based approaches to managing marine areas,NA,NA,1
+average marine acidity (ph) measured at agreed suite of representative sampling stations,NA,NA,1
+coverage of protected areas in relation to marine areas,NA,NA,1
+"degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing",NA,NA,1
+"sustainable fisheries as a proportion of gross domestic product in small island developing states, least developed countries and all countries",NA,NA,1
+proportion of total research budget allocated to research in the field of marine technology,NA,NA,1
+degree of application of a legal/regulatory/ policy/institutional framework which recognizes and protects access rights for small-scale fisheries,NA,NA,1
+"number of countries making progress in ratifying, accepting and implementing through legal, policy and institutional frameworks, ocean-related instruments that implement international law, as reflected in the united nations convention on the law of the sea, for the conservation and sustainable use of the oceans and their resources",NA,NA,1
+forest area as a percentage of total land area,NA,NA,1
+"proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type",NA,NA,1
+progress towards sustainable forest management,NA,NA,1
+proportion of land that is degraded over total land area,NA,NA,1
+coverage by protected areas of important sites for mountain biodiversity,NA,NA,1
+mountain green cover index,NA,NA,1
+"number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits",NA,NA,1
+proportion of traded wildlife that was poached or illicitly trafficked,NA,NA,1
+proportion of countries adopting relevant national legislation and adequately resourcing the prevention or control of invasive alien species,NA,NA,1
+number of countries that have established national targets in accordance with or similar to aichi biodiversity target 2 of the strategic plan for biodiversity 2011-2020 in their national biodiversity strategy and action plans and the progress reported towards these targets,NA,NA,1
+"integration of biodiversity into national accounting and reporting systems, defined as implementation of the system of environmental-economic accounting",NA,NA,1
+official development assistance on conservation and sustainable use of biodiversity,NA,NA,1
+revenue generated and finance mobilized from biodiversity-relevant economic instruments,NA,NA,1
+"total government revenue as a proportion of gross domestic product, by source",NA,NA,1
+proportion of domestic budget funded by domestic taxes,NA,NA,1
+"net official development assistance, total and to least developed countries, as a proportion of the organization for economic cooperation and development (oecd) development assistance committee donors’ gross national income (gni)",NA,NA,1
+"foreign direct investment (fdi), official development assistance and south-south cooperation as a proportion of total domestic budget",NA,NA,1
+volume of remittances (in united states dollars) as a proportion of total gross domestic product,NA,NA,1
+"number of countries that adopt and implement investment promotion regimes for developing countries, including the least developed countries",NA,NA,1
+"total amount of funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",NA,NA,1
+proportion of individuals using the internet,NA,NA,1
+"dollar value of financial and technical assistance (including through north-south, south‑south and triangular cooperation) committed to developing countries",NA,NA,1
+worldwide weighted tariff-average,NA,NA,1
+developing countries’ and least developed countries’ share of global exports,NA,NA,1
+"weighted average tariffs faced by developing countries, least developed countries and small island developing states",NA,NA,1
+number of countries with mechanisms in place to enhance policy coherence of sustainable development,NA,NA,1
+extent of use of country-owned results frameworks and planning tools by providers of development cooperation,NA,NA,1
+number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals,NA,NA,1
+amount in united states dollars committed to public-private partnerships for infrastructure,NA,NA,1
+statistical capacity indicator for sustainable development goal monitoring,NA,NA,1
+number of countries that have national statistical legislation that complies with the fundamental principles of official statistics,NA,NA,1
+"number of countries with a national statistical plan that is fully funded and under implementation, by source of funding",NA,NA,1
+dollar value of all resources made available to strengthen statistical capacity in developing countries,NA,NA,1

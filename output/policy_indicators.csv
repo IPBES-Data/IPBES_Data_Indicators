@@ -1,0 +1,649 @@
+indicators_harmonized,Categories,Categories_2,Subcategories,Subcategories_2,usage,meas
+red list of ecosystems,ecosystems,NA,State of ecosystems,NA,1,km_gbf
+extent of natural ecosystems,ecosystems,NA,State of ecosystems,NA,1,km_gbf
+red list index,biodiversity,NA,State of biodiversity,NA,2,"km_gbf,sdg"
+proportion of populations within species with a genetically effective population size > 500,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+services provided by ecosystems,Ecosystem services,NA,Nature contribution,NA,1,km_gbf
+indicator on monetary benefits received,Human assets,NA,Income,NA,1,km_gbf
+indicator on non-monetary benefits,Human assets,NA,Income,NA,1,km_gbf
+"international public funding, including official development assistance (oda) for conservation and sustainable use of biodiversity and ecosystems",Governance,NA,National/international cooperation,NA,1,km_gbf
+domestic public funding on conservation and sustainable use of biodiversity and ecosystems,Governance,NA,Nature-based funding,NA,1,km_gbf
+private funding (domestic and international) on conservation and sustainable use of biodiversity and ecosystems,Governance,NA,Nature-based funding,NA,1,km_gbf
+percent of land and seas covered by biodiversity-inclusive spatial plans,ecosystems,NA,Area conservation,NA,1,km_gbf
+area under restoration,ecosystems,NA,Restoration efforts,NA,1,km_gbf
+coverage of protected areas and oecms,ecosystems,NA,Area conservation,NA,1,km_gbf
+proportion of fish stocks within biologically sustainable levels,biodiversity,NA,State of biodiversity,NA,2,"km_gbf,sdg"
+rate of invasive alien species establishment,Direct drivers,NA,Invasive alien species,NA,1,km_gbf
+index of coastal eutrophication potential (icep),ecosystems,Direct drivers,State of ecosystems (integrity),Pollution,2,"km_gbf,sdg"
+pesticide environment concentration,Direct drivers,NA,Pollution,NA,1,km_gbf
+benefits from the sustainable use of wild species,Ecosystem services,NA,Specific mention of sustainable use of species/ecosystems,NA,1,km_gbf
+percentage of the population in traditional employment,biodiversity,NA,Species conservation,Change in biodiversity,1,km_gbf
+proportion of agricultural area under productive and sustainable agriculture,Ecosystem services,NA,Specific mention of sustainable use of species/ecosystems,NA,2,"km_gbf,sdg"
+progress towards sustainable forest management,Governance,Ecosystem services,Nature-based legislation,Specific mention of sustainable use of species/ecosystems,2,"km_gbf,sdg"
+average share of the built-up area of cities that is green/blue space for public use for all,Human well-being,NA,Healthy living conditions,NA,1,km_gbf
+"number of companies reporting on disclosures of risks, dependencies and impacts on biodiversity",Knowledge systems,NA,Information on biodiversity,NA,1,km_gbf
+positive incentives in place to promote biodiversity conservation and sustainable use,Governance,Ecosystem services,Nature-based legislation,Specific mention of sustainable use of species/ecosystems,1,km_gbf
+"value of subsidies and other incentives harmful to biodiversity, that are redirected, repurposed or eliminated",Governance,NA,Nature-based funding,NA,1,km_gbf
+indicator on biodiversity information for monitoring the global biodiversity framework,Knowledge systems,NA,Information on biodiversity,NA,1,km_gbf
+ecosystem intactness index,ecosystems,NA,State of ecosystems (integrity),NA,1,km_gbf
+ecosystem integrity index,ecosystems,NA,State of ecosystems (integrity),NA,1,km_gbf
+species habitat index,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+biodiversity habitat index,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+protected connected (protconn) index,ecosystems,NA,Area conservation,State of ecosystems (coverage),1,km_gbf
+protected area connectedness (parc-connectedness) index,ecosystems,NA,State of ecosystems (configuration),NA,1,km_gbf
+evolutionarily distinct and globally endangered (edge),biodiversity,NA,Genetic diversity,Species conservation,1,km_gbf
+living planet index,ecosystems,NA,State of biodiversity,NA,1,km_gbf
+change in the extent of water-related ecosystems over time,ecosystems,NA,State of ecosystems,Change in ecosystems,2,"km_gbf,sdg"
+red list index (for utilized species),biodiversity,Ecosystem services,State of biodiversity,Nature contribution,1,km_gbf
+living planet index (for used species),ecosystems,Ecosystem services,State of biodiversity,Nature contribution,1,km_gbf
+priority retention of intact / wilderness areas,ecosystems,NA,State of ecosystems (integrity),NA,1,km_gbf
+maintenance and restoration of connectivity of natural ecosystems,ecosystems,NA,Restoration efforts,NA,1,km_gbf
+protected area coverage of key biodiversity areas,ecosystems,NA,Area conservation,NA,1,km_gbf
+protected area management effectiveness (pame),ecosystems,Governance,Area conservation,Nature-based legislation,1,km_gbf
+connectivity indicator,ecosystems,NA,State of ecosystems (configuration),NA,1,km_gbf
+number of protected areas that have completed a site-level assessment of governance and equity (sage),ecosystems,NA,Area conservation,NA,1,km_gbf
+species protection index,biodiversity,NA,Species conservation,NA,1,km_gbf
+number of plant and animal genetic resources secured in medium or long-term conservation facilities,biodiversity,NA,Genetic resources,NA,1,km_gbf
+trends in effective and sustainable management of human-wildlife conflict and coexistence,Governance,NA,Nature-based legislation,NA,1,km_gbf
+green status of species index,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+conservation status of species listed in the cites appendices has stabilized or improved,ecosystems,NA,Species conservation,NA,1,km_gbf
+sustainable use of wild species,Ecosystem services,NA,Specific mention of sustainable use of species/ecosystems,NA,1,km_gbf
+rate of invasive species impact and rate of impact,Direct drivers,NA,Invasive alien species,NA,1,km_gbf
+rate of invasive alien species spread,Direct drivers,NA,Invasive alien species,NA,1,km_gbf
+number of invasive alien species introduction events,Direct drivers,NA,Invasive alien species,NA,1,km_gbf
+fertilizer use,Direct drivers,NA,Pollution,NA,1,km_gbf
+proportion of domestic and industrial wastewater flows safely treated,Human assets,NA,Infrastructure (build-up area),NA,2,"km_gbf,sdg"
+floating plastic debris density,ecosystems,Direct drivers,State of ecosystems (integrity),Pollution,1,km_gbf
+red list index (impacts of pollution),biodiversity,Direct drivers,State of biodiversity,Pollution,1,km_gbf
+total climate regulation services provided by ecosystems by ecosystem type (system of environmental economic accounts),Ecosystem services,NA,Nature contribution,NA,1,km_gbf
+number of countries that adopt and implement national disaster risk reduction strategies in line with the sendai framework for disaster risk reduction 2015-2030 which include biodiversity,Governance,NA,Nature-based legislation,NA,1,km_gbf
+national greenhouse inventories from land use and land use change,Direct drivers,NA,Climate change,NA,1,km_gbf
+bioclimatic ecosystem resilience index (beri),ecosystems,NA,State of biodiversity,NA,1,km_gbf
+"number of people using wild resources for energy, food or culture (including firewood collection, hunting and fishing, gathering, medicinal use, craft making, etc.)",Human assets,Ecosystem services,Infrastructure (build-up area),Specific mention of sustainable use of species/ecosystems,1,km_gbf
+area of forest under sustainable management: total forest management certification by forest stewardship council and programme for the endorsement of forest certification,Ecosystem services,Governance,Specific mention of sustainable use of species/ecosystems,Nature-based legislation,1,km_gbf
+"average income of small-scale food producers, by sex and indigenous status",Human assets,NA,Income,NA,2,"km_gbf,sdg"
+"number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",Direct drivers,NA,Natural drivers,NA,2,"km_gbf,sdg"
+"mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe water, sanitation and hygiene for all (wash) services)",Human well-being,Direct drivers,Healthy living conditions,Pollution,2,"km_gbf,sdg"
+annual mean levels of fine particulate matter in cities,Direct drivers,ecosystems,Pollution,State of ecosystems (integrity),2,"km_gbf,sdg"
+proportion of bodies of water with good ambient water quality,ecosystems,NA,Abiotic conditions,NA,2,"km_gbf,sdg"
+level of water stress,ecosystems,NA,Abiotic conditions,NA,1,km_gbf
+recreation and cultural ecosystem services provided,Human well-being,NA,Recreation,NA,1,km_gbf
+number of permits or their equivalents for genetic resources (including those related to traditional knowledge) by type of permit,biodiversity,NA,Genetic resources,NA,1,km_gbf
+number of countries with implementation of the system of environmental economic accounting,Governance,NA,Nature-based funding,NA,1,km_gbf
+indicator based on task force for naturerelated financial disclosures,Human assets,NA,State of economy,NA,1,km_gbf
+food waste index,Human well-being,Human assets,Healthy living conditions,Coverage of basic needs,2,"km_gbf,sdg"
+material footprint per capita,Human assets,Direct drivers,State of economy,Specific mention of over-exploitation and unsustainable use of species/ecosystems,1,km_gbf
+global environmental impacts of consumption,Direct drivers,NA,Land conversion,NA,1,km_gbf
+ecological footprint,Direct drivers,NA,Specific mention of over-exploitation and unsustainable use of species/ecosystems,NA,1,km_gbf
+species status index,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in national education policies,Human assets,NA,Specific information on human-nature relationship,NA,2,"km_gbf,sdg"
+extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in curricula,Human assets,NA,Specific information on human-nature relationship,NA,2,"km_gbf,sdg"
+extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in teacher education,Human assets,NA,Specific information on human-nature relationship,NA,2,"km_gbf,sdg"
+extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in student assessment,Human assets,NA,Information on society and socio-economics,NA,2,"km_gbf,sdg"
+"proportion of total adult population with secure tenure rights to land with legally recognized documentation, by sex and type of tenure",Human well-being,NA,Equity,NA,2,"km_gbf,sdg"
+"proportion of total adult population with secure tenure rights to land who perceive their rights to land as secure, by sex and type of tenure",Human well-being,NA,Equity,NA,2,"km_gbf,sdg"
+proportion of seats held by women in national parliaments,Human well-being,NA,Equity,NA,2,"km_gbf,sdg"
+proportion of seats held by women in local governments,Human well-being,NA,Equity,NA,2,"km_gbf,sdg"
+indicator on national implementation of the gender plan of action,Human well-being,NA,Equity,NA,1,km_gbf
+forest area as a percentage of total land area,ecosystems,NA,State of ecosystems (coverage),NA,2,"km_gbf,sdg"
+forest distribution,ecosystems,NA,State of ecosystems,NA,1,km_gbf
+tree cover loss,biodiversity,NA,Change in biodiversity,NA,1,km_gbf
+grassland and savannah extent,ecosystems,NA,State of ecosystems,NA,1,km_gbf
+mountain green cover index,ecosystems,NA,State of ecosystems (coverage),NA,2,"km_gbf,sdg"
+peatland extent and condition,ecosystems,NA,State of ecosystems (coverage),NA,1,km_gbf
+"permafrost thickness, depth and extent",ecosystems,NA,Abiotic conditions,NA,1,km_gbf
+continuous global mangrove forest area,ecosystems,NA,State of ecosystems (coverage),NA,1,km_gbf
+trends in mangrove forest fragmentation,ecosystems,NA,Change in ecosystems,State of ecosystems (integrity),1,km_gbf
+trends in mangrove extent,ecosystems,NA,Change in ecosystems,NA,1,km_gbf
+live coral cover,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+hard coral cover and composition,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+global coral reef extent,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+global seagrass extent (seagrass cover and composition),biodiversity,NA,State of biodiversity,NA,1,km_gbf
+global saltmarsh extent,ecosystems,NA,State of ecosystems,NA,1,km_gbf
+kelp canopy extent,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+macroalgal canopy cover and composition,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+cover of key benthic groups,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+fleshy algae cover,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+wetland extent trends index,ecosystems,NA,Change in ecosystems,NA,1,km_gbf
+change in the extent of inland water ecosystems over time,ecosystems,NA,State of ecosystems,Change in ecosystems,1,km_gbf
+forest fragmentation index,ecosystems,NA,State of ecosystems,NA,1,km_gbf
+forest landscape integrity index,ecosystems,NA,State of ecosystems,NA,1,km_gbf
+biomass of selected natural ecosystems,ecosystems,NA,State of ecosystems,NA,1,km_gbf
+global vegetation health products,Ecosystem services,NA,Nature contribution,NA,1,km_gbf
+relative magnitude of fragmentation (rmf),ecosystems,NA,State of ecosystems (integrity),NA,1,km_gbf
+biodiversity intactness index,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+ocean health index,ecosystems,NA,State of ecosystems (freshwater/coastal),NA,1,km_gbf
+extent of physical damage indicator to predominant seafloor habitats physical damage,Direct drivers,NA,Land conversion,NA,1,km_gbf
+river fragmentation index,ecosystems,NA,State of ecosystems (integrity),State of ecosystems (freshwater/coastal),1,km_gbf
+dendritic connectivity index,ecosystems,NA,State of ecosystems,NA,1,km_gbf
+percentage of threatened species that are improving in status,biodiversity,NA,Species conservation,Change in biodiversity,1,km_gbf
+number of threatened species by species group,biodiversity,NA,Species conservation,NA,1,km_gbf
+wild bird index,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+mean species abundance (msa),biodiversity,NA,State of biodiversity,NA,1,km_gbf
+changes in plankton biomass and abundance,biodiversity,NA,Change in biodiversity,NA,1,km_gbf
+fish abundance and biomass,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+genetic scorecard for wild species,biodiversity,NA,Genetic resources,NA,1,km_gbf
+species richness,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+local species richness (predicts),biodiversity,NA,State of biodiversity,NA,1,km_gbf
+marine species richness,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+comprehensiveness of conservation of socioeconomically as well as culturally valuable species,biodiversity,Human assets,Species conservation,Information on biodiversity,1,km_gbf
+number of plant and animal genetic resources for food and agriculture secured in either medium- or long-term conservation facilities,biodiversity,NA,Genetic resources,NA,1,km_gbf
+proportion of local breeds classified as being at risk of extinction,biodiversity,NA,Species conservation,NA,2,"km_gbf,sdg"
+red list index (wild relatives of farmed and domesticated species),biodiversity,Ecosystem services,State of biodiversity,Nature contribution,1,km_gbf
+cms connectivity indicator,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+intact wilderness,ecosystems,NA,State of ecosystems,NA,1,km_gbf
+loss of phylogenetic diversity,biodiversity,NA,Genetic diversity,NA,1,km_gbf
+proportion of populations maintained within species,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+free flowing rivers,ecosystems,NA,State of ecosystems (freshwater/coastal),NA,1,km_gbf
+levels of poverty in biodiversity depended communities,Human assets,NA,Income,State of economy,1,km_gbf
+number of certified forest areas under sustainable management with verified impacts on biodiversity conservation,Ecosystem services,NA,Specific mention of sustainable use of species/ecosystems,NA,1,km_gbf
+red list index (pollinators),biodiversity,Ecosystem services,State of biodiversity,Nature contribution,1,km_gbf
+green status index (pollinators),biodiversity,Ecosystem services,State of biodiversity,Nature contribution,1,km_gbf
+air quality index,ecosystems,NA,Abiotic conditions,NA,1,km_gbf
+air pollution emissions account,Direct drivers,NA,Pollution,NA,1,km_gbf
+zoonotic disease in wildlife,Direct drivers,NA,(Infectious) diseases,NA,1,km_gbf
+climatic impact index,Direct drivers,NA,Climate change,NA,1,km_gbf
+ocean acidification,Direct drivers,NA,Pollution,NA,1,km_gbf
+level of water stress (freshwater withdrawal as a proportion of available freshwater resources),ecosystems,biodiversity,Change in ecosystems,NA,2,"km_gbf,sdg"
+eflow index,ecosystems,NA,State of ecosystems (freshwater/coastal),NA,1,km_gbf
+change in the quality of inland water ecosystems over time,ecosystems,NA,State of ecosystems,Change in ecosystems,1,km_gbf
+change in the quality of coastal water ecosystems over time,ecosystems,NA,State of ecosystems (freshwater/coastal),Change in ecosystems,1,km_gbf
+level of erosion,ecosystems,NA,Abiotic conditions,NA,1,km_gbf
+biofuel production,Ecosystem services,NA,Nature contribution,NA,1,km_gbf
+fish catch potential,Ecosystem services,NA,Nature contribution,NA,1,km_gbf
+population involved in hunting and gathering,Human assets,Ecosystem services,Coverage of basic needs,Nature contribution,1,km_gbf
+"prevalence of moderate or severe food insecurity in the population, based on the food insecurity experience scale",Human assets,Human well-being,Coverage of basic needs,Healthy living conditions,2,"km_gbf,sdg"
+forestry production and trade (wood fuel),ecosystems,NA,State of ecosystems,NA,1,km_gbf
+trends in the legal trade of medicinal plants,Human assets,Ecosystem services,Income,Nature contribution,1,km_gbf
+visitor management assessment,Knowledge systems,NA,Information on society and socio-economics,NA,1,km_gbf
+number of formal and nonformal education programmes transmitting spiritual and cultural values in the unesco world network of biosphere reserves,Human well-being,Knowledge systems,Cultural diversity,Information on society and socio-economics,1,km_gbf
+"number of mixed sites (having both natural and cultural outstanding universal values), cultural landscapes (recognized as combined works of nature and people) and natural sites with cultural values including those supporting local and indigenous knowledge and practices inscribed on the unesco world heritage list and unesco world network of biosphere reserves",Human well-being,Knowledge systems,Cultural diversity,ILK,1,km_gbf
+linguistic diversity index,Human well-being,NA,Cultural diversity,NA,1,km_gbf
+trends of bilinguistic diversity and numbers of speakers of indigenous languages,Human well-being,Knowledge systems,Cultural diversity,ILK,1,km_gbf
+"index of development of the standard - setting framework for the protection and promotion of culture, cultural rights and cultural diversity",Governance,Human well-being,Legislation/governance,Cultural diversity,1,km_gbf
+cultural vitality index,Human well-being,NA,Cultural diversity,NA,1,km_gbf
+unesco culture 2030 (multiple indicators),Governance,NA,National/international cooperation,NA,1,km_gbf
+processes and tools to monitor the implementation of a right to a healthy environment,Human well-being,Governance,Healthy living conditions,Legislation/governance,1,km_gbf
+red list index (internationally traded species),biodiversity,Ecosystem services,State of biodiversity,Nature contribution,1,km_gbf
+number of users that have provided information relevant to the utilization of genetic resources to designated checkpoints,biodiversity,NA,Genetic resources,NA,1,km_gbf
+total number of internationally recognized certificates of compliance published in the abs clearing-house,Knowledge systems,NA,Information on society and socio-economics,NA,1,km_gbf
+number of checkpoint communiques published in the abs clearing-house,Governance,NA,Legislation/governance,NA,1,km_gbf
+number of internationally recognized certificates of compliance for non-commercial purposes,Governance,NA,National/international cooperation,NA,1,km_gbf
+"integration of biodiversity into national accounting and reporting systems, defined as implementation of the system of environmental-economic accounting",Governance,NA,Nature-based funding,NA,2,"km_gbf,sdg"
+finance mobilized for capacity-building,Governance,NA,Legislation/governance,NA,1,km_gbf
+"financial and technical assistance provided in dollars (including through south-south, northsouth and triangular cooperation)",Governance,NA,Legislation/governance,NA,1,km_gbf
+"finance mobilized for promoting the development, transfer, dissemination and diffusion of technology",Governance,NA,Legislation/governance,NA,1,km_gbf
+number of scientists per population,Knowledge systems,NA,Information on society and socio-economics,NA,1,km_gbf
+joint scientific papers published in ocean biodiversity information system (ocean biodiversity information system (obis)) by sector,Knowledge systems,NA,Information on biodiversity,NA,1,km_gbf
+nationally maintained research vessels,Knowledge systems,NA,Information on society and socio-economics,NA,1,km_gbf
+proportion of total research budget allocated to research in the field of marine technology,Knowledge systems,NA,Information on society and socio-economics,NA,2,"km_gbf,sdg"
+volume of official development assistance flows for scholarships by sector and type of study,Human assets,NA,Coverage of basic needs,NA,2,"km_gbf,sdg"
+global imports of information and communication technology (ict) goods as presented by bilateral trade flows by ict goods categories,Human assets,NA,Information on society and socio-economics,NA,1,km_gbf
+"total amount of funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",Governance,NA,Nature-based funding,NA,2,"km_gbf,sdg"
+number of countries using natural capital accounts in planning processes,Governance,NA,Nature-based funding,NA,1,km_gbf
+percentage of spatial plans utilizing information on key biodiversity areas,Governance,NA,Nature-based legislation,NA,1,km_gbf
+habitat patches located within marine protected areas or integrated coastal zone management (iczm),ecosystems,NA,State of ecosystems (marine),NA,1,km_gbf
+other spatial management plans (not captured as iczm or marine spatial planning in 14.2.1),Governance,NA,Nature-based legislation,NA,1,km_gbf
+number of countries using ocean accounts in planning processes,Governance,NA,Nature-based funding,NA,1,km_gbf
+proportion of transboundary basin area with an operational arrangement for water cooperation,Ecosystem services,NA,Nature contribution,NA,2,"km_gbf,sdg"
+percent of total land area that is under cultivation,ecosystems,NA,State of ecosystems,NA,1,km_gbf
+"number of countries implementing national legislation, policies or other measures regarding fpic related to conservation would work here for ips (not necessarily lcs), if spatial planning was substituted for conservation",Knowledge systems,NA,Specific information on ILK and IPLC,NA,1,km_gbf
+habitat distributional range,ecosystems,NA,State of ecosystems,NA,1,km_gbf
+"index of species rarity sites, high biodiversity areas, large mammal landscapes, intact wilderness and climate stabilization areas",ecosystems,biodiversity,State of ecosystems,Species conservation,1,km_gbf
+increase in secondary natural forest cover,ecosystems,NA,Change in ecosystems,NA,1,km_gbf
+annual tropical primary tree cover loss,ecosystems,NA,Change in ecosystems,NA,1,km_gbf
+global ecosystem restoration index,ecosystems,NA,Area conservation,NA,1,km_gbf
+percentage of cropped landscapes with at least 10 % natural land,ecosystems,NA,State of ecosystems,NA,1,km_gbf
+status of key biodiversity areas,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+"protected area downgrading, downsizing and degazettement (pd)",ecosystems,NA,Change in ecosystems,NA,1,km_gbf
+iucn green list of protected and conserved areas,ecosystems,NA,Area conservation,NA,1,km_gbf
+number of hectares of unesco designated sites (natural and mixed world heritage sites and biosphere reserves),ecosystems,NA,Area conservation,NA,1,km_gbf
+protected area and oecm management effectiveness (mepca) indicator,ecosystems,Governance,Area conservation,Nature-based legislation,1,km_gbf
+protected area isolation index (pai),ecosystems,NA,State of ecosystems (coverage),NA,1,km_gbf
+protected areas network metric (pronet),ecosystems,NA,Area conservation,NA,1,km_gbf
+extent to which protected areas and other effective area-based conservation measures (oecms) cover key biodiversity areas that are important for migratory species,ecosystems,biodiversity,State of ecosystems,State of biodiversity,1,km_gbf
+coverage of protected areas and oecms and traditional territories (by governance type),ecosystems,NA,Area conservation,NA,1,km_gbf
+ramsar management effectiveness tracking tool (r-mett),ecosystems,NA,Area conservation,Species conservation,1,km_gbf
+percentage of biosphere reserves that have a positive conservation outcome and effective management,Governance,ecosystems,Nature-based legislation,Area conservation,1,km_gbf
+extent of indigenous peoples and local communities lands that have some form of recognition,Knowledge systems,Human well-being,ILK,Equity,1,km_gbf
+"number of countries implementing national legislation, policies or other measures regarding fpic related to conservation",Governance,NA,Nature-based legislation,NA,1,km_gbf
+"proportion of terrestrial, freshwater and marine ecological regions which are conserved by protected areas or other effective area-based conservation measures",ecosystems,NA,Area conservation,NA,1,km_gbf
+species threat abatement and restoration metric,biodiversity,NA,Species conservation,NA,1,km_gbf
+changing status of evolutionary distinct and globally endangered species (edge index),biodiversity,NA,State of biodiversity,Change in biodiversity,1,km_gbf
+number of cms daughter agreements,Governance,NA,Nature-based legislation,NA,1,km_gbf
+sustainable watershed and inland fisheries index,Ecosystem services,NA,Specific mention of sustainable use of species/ecosystems,NA,1,km_gbf
+red list index (internationally traded species and migratory species),biodiversity,NA,State of biodiversity,NA,1,km_gbf
+marine stewardship council certified catch,Ecosystem services,NA,Specific mention of sustainable use of species/ecosystems,NA,1,km_gbf
+total catch of cetaceans under international convention for the regulation of whaling,Ecosystem services,NA,Specific mention of sustainable use of species/ecosystems,NA,1,km_gbf
+by catch of vulnerable and non-target species,Direct drivers,NA,Specific mention of over-exploitation and unsustainable use of species/ecosystems,NA,1,km_gbf
+"degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing",Governance,Governance,Nature-based legislation,National/international cooperation,2,"km_gbf,sdg"
+proportion of legal and illegal wildlife trade consisting of species threatened with extinction,Ecosystem services,Direct drivers,Specific monetary valuation of nature contribution,Specific mention of over-exploitation and unsustainable use of species/ecosystems,1,km_gbf
+illegal trade by cites species classification,Direct drivers,NA,Specific mention of over-exploitation and unsustainable use of species/ecosystems,NA,1,km_gbf
+number of countries incorporating trade in their national biodiversity policy,Governance,NA,Nature-based legislation,NA,1,km_gbf
+implementation of measures designed to minimize the impacts of fisheries and hunting on migratory species and their habitats,Governance,NA,Nature-based legislation,NA,1,km_gbf
+number of msc chain of custody certification holders by distribution country,Ecosystem services,NA,Specific mention of sustainable use of species/ecosystems,NA,1,km_gbf
+trends of trade and commercialization in biodiversity-based products that is sustainable and legal (in line with biotrade principles and/or cites requirements),Ecosystem services,NA,Specific mention of sustainable use of species/ecosystems,NA,1,km_gbf
+number of invasive alien species in national lists as per the global register of introduced and invasive species,Direct drivers,NA,Invasive alien species,NA,1,km_gbf
+"trends in abundance, temporal occurrence, and spatial distribution of non-indigenous species, particularly invasive, non-indigenous species, notably in risk areas (in relation to the main vectors and pathways of spreading of such species)",biodiversity,Direct drivers,State of biodiversity,Invasive alien species,1,km_gbf
+red list index (impacts of invasive alien species),biodiversity,Direct drivers,State of biodiversity,Invasive alien species,1,km_gbf
+trends in loss of reactive nitrogen to the environment,Direct drivers,NA,Pollution,NA,1,km_gbf
+trends in nitrogen deposition,Direct drivers,NA,Pollution,NA,1,km_gbf
+municipal solid waste collected and managed,Governance,NA,Legislation/governance,NA,1,km_gbf
+hazardous waste generation,Direct drivers,NA,Specific mention of over-exploitation and unsustainable use of species/ecosystems,NA,1,km_gbf
+trends in the amount of litter in the water column including microplastics and on the seafloor,Direct drivers,NA,Pollution,NA,1,km_gbf
+plastic debris density,Direct drivers,NA,Pollution,NA,2,"km_gbf,sdg"
+underwater noise pollution,Direct drivers,NA,Pollution,NA,1,km_gbf
+"name, amount/ volume/ concentration of highly hazardous pesticides by type (per land/marine area)",Direct drivers,NA,Pollution,NA,1,km_gbf
+pesticide use per area of cropland,Direct drivers,NA,Pollution,NA,1,km_gbf
+above-ground biomass stock in forest,ecosystems,NA,State of ecosystems (coverage),NA,1,km_gbf
+proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies,Governance,NA,Legislation/governance,NA,2,"km_gbf,sdg"
+"number of least developed countries and small island developing states with nationally determined contributions, long-term strategies, national adaptation plans and adaptation communications, as reported to the secretariat of the united nations framework convention on climate change",Governance,NA,Nature-based legislation,NA,2,"km_gbf,sdg"
+"carbon stocks and annual net ghg emissions, by landuse category, split by natural and non-natural land cover",Direct drivers,NA,Climate change,NA,1,km_gbf
+spawning stock biomass (related to commercially exploited species),Ecosystem services,biodiversity,Nature contribution,State of biodiversity,1,km_gbf
+volume of production per labour unit by classes of farming/pastoral/forestry enterprise size,Human assets,NA,State of economy,NA,2,"km_gbf,sdg"
+agrobiodiversity index,Ecosystem services,biodiversity,Nature contribution,State of biodiversity,1,km_gbf
+changes in soil organic carbon stocks,ecosystems,NA,Change in ecosystems,NA,1,km_gbf
+proportion of land that is degraded over total land area,Direct drivers,NA,Land conversion,NA,3,"km_gbf,sdg,unccd"
+air emission accounts,Direct drivers,NA,Climate change,NA,1,km_gbf
+proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management,Governance,NA,Legislation/governance,NA,2,"km_gbf,sdg"
+proportion of population using safely managed drinking water services,Human assets,NA,Coverage of basic needs,Information on society and socio-economics,2,"km_gbf,sdg"
+mortality rate attributed to household and ambient air pollution,Human well-being,Direct drivers,Healthy living conditions,Pollution,2,"km_gbf,sdg"
+total number of transfers of crop material from the multilateral system of the international treaty on plant genetic resources for food and agriculture (itpgrfa) received in a country,Knowledge systems,biodiversity,Information on biodiversity,Genetic resources,1,km_gbf
+"total number of permits, or their equivalent, granted for access to genetic resources",Governance,biodiversity,Nature-based legislation,Genetic resources,1,km_gbf
+"number of countries that require prior informed consent that have published legislative, administrative or policy measures on access and benefit-sharing in the abs clearing-house",Governance,NA,Nature-based legislation,NA,1,km_gbf
+number of countries that require prior informed consent that have published information on abs procedures in the abs clearing-house,Governance,NA,Nature-based legislation,NA,1,km_gbf
+"number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits",Human well-being,NA,Equity,NA,2,"km_gbf,sdg"
+estimated percentage of monetary and non-monetary benefits directed towards conservation and sustainable use of biodiversity,Governance,biodiversity,Nature-based funding,Species conservation,1,km_gbf
+human appropriation of net primary productivity,ecosystems,Direct drivers,State of ecosystems (coverage),Land conversion,1,km_gbf
+co2 emission per unit of value added,Direct drivers,NA,Climate change,NA,2,"km_gbf,sdg"
+change in water-use efficiency over time,Human assets,NA,Infrastructure (build-up area),NA,2,"km_gbf,sdg"
+number of companies publishing sustainability reports,Knowledge systems,NA,Information on society and socio-economics,NA,2,"km_gbf,sdg"
+recycling rate,Knowledge systems,NA,Information on society and socio-economics,NA,1,km_gbf
+life cycle impact assessment (lcia),Knowledge systems,NA,Information on society and socio-economics,NA,1,km_gbf
+levels of poverty in developing communities,Human assets,NA,Income,State of economy,1,km_gbf
+number of countries that have the necessary biosafety legal and administrative measures in place,Governance,NA,Nature-based legislation,NA,1,km_gbf
+number of countries that implement their biosafety measures,Governance,NA,Nature-based legislation,NA,1,km_gbf
+number of countries that have the necessary measures and means for detection and identification of products of biotechnology,Governance,NA,Nature-based legislation,NA,1,km_gbf
+number of countries that carry out scientifically sound risk assessments to support biosafety decision-making,Governance,NA,Nature-based legislation,NA,1,km_gbf
+number of countries that establish and implement risk management measures,Governance,NA,Nature-based legislation,NA,1,km_gbf
+percentage of parties to the cartagena protocol on biosafety implementing the relevant provisions of the protocol,Governance,NA,Nature-based legislation,NA,1,km_gbf
+number of countries with legal and technical measures for restoration and compensation,Governance,NA,Nature-based funding,NA,1,km_gbf
+percentage of parties to the nagoya - kuala lumpur supplementary protocol,Governance,NA,Nature-based legislation,NA,1,km_gbf
+percentage of countries with systems in place for restoration and compensation of damage to conservation and sustainable use of biological diversity,Governance,NA,Nature-based legislation,NA,1,km_gbf
+number of countries with mechanisms to facilitate the sharing of and access to information on potential adverse impacts of biotechnology on biodiversity and human health,Governance,NA,Nature-based legislation,NA,1,km_gbf
+number of countries with biodiversity-relevant taxes,Governance,NA,Nature-based funding,NA,1,km_gbf
+number of countries with biodiversity-relevant charges and fees,Governance,NA,Nature-based funding,NA,1,km_gbf
+number of countries with biodiversity-relevant tradable permit schemes,Governance,NA,Nature-based legislation,NA,1,km_gbf
+trends in potentially environmentally harmful elements of government support to agriculture (producer support estimate),Governance,NA,Nature detrimental legislation,NA,1,km_gbf
+trends in the number and value of government fossil-fuel support measures,Governance,NA,Nature detrimental legislation,NA,1,km_gbf
+amount of fossil-fuel subsidies per unit of gross domestic product (production and consumption),Governance,NA,Nature detrimental legislation,NA,2,"km_gbf,sdg"
+amount of funding provided through the global environment facility and allocated to the biodiversity focal area,Governance,NA,Nature-based funding,NA,1,km_gbf
+"foreign direct investment (fdi), official development assistance and south-south cooperation as a proportion of total domestic budget",Human assets,NA,Information on society and socio-economics,NA,1,km_gbf
+amount and composition of biodiversity-related finance reported to the oecd creditor reporting system,Governance,NA,Nature-based legislation,NA,1,km_gbf
+"dollar value of financial and technical assistance (including through north-south, south-south and triangular cooperation) committed to developing countries",Governance,NA,National/international cooperation,NA,1,km_gbf
+dollar value of all resources made available to strengthen statistical capacity in developing countries,Governance,NA,National/international cooperation,NA,2,"km_gbf,sdg"
+amount of biodiversity-related philanthropic funding,Governance,NA,Nature-based funding,NA,1,km_gbf
+number of countries (and number of instruments) with payments for ecosystem services (pes) programmes,Governance,NA,Nature-based funding,NA,1,km_gbf
+"number of countries that have assessed values of biodiversity, in accordance with the convention",Knowledge systems,NA,Information on biodiversity,NA,1,km_gbf
+"number of countries that have identified and reported funding needs, gaps and priorities",Knowledge systems,NA,Information on society and socio-economics,NA,1,km_gbf
+number of countries that have developed national financial plans for biodiversity,Knowledge systems,NA,Information on biodiversity,NA,1,km_gbf
+number of countries that have been provided with the necessary funding and capacity building to undertake the above activities,Governance,Knowledge systems,Nature-based funding,Information on biodiversity,1,km_gbf
+growth in number of records and species in the living planet index database,Knowledge systems,NA,Information on biodiversity,NA,1,km_gbf
+species occurrence records accessible through the global biodiversity information facility,Knowledge systems,NA,Information on biodiversity,NA,1,km_gbf
+growth in marine species occurrence records accessible through ocean biodiversity information system (obis),Knowledge systems,NA,Information on biodiversity,NA,1,km_gbf
+proportion of known species assessed through the red list index,biodiversity,NA,Species conservation,NA,1,km_gbf
+number of assessments on the red list index,biodiversity,NA,Species conservation,NA,1,km_gbf
+world association of zoos and aquariums (waza) bio-literacy survey (biodiversity literacy in global zoo and aquarium visitors),Knowledge systems,NA,Information on society and socio-economics,NA,1,km_gbf
+"proportions of positions in national and local institutions, including the legislatures, compared to national distributions, by sex, age, persons with disabilities and population groups",Human well-being,NA,Equity,NA,2,"km_gbf,sdg"
+"proportions of positions in national and local institutions, including the public service, compared to national distributions, by sex, age, persons with disabilities and population groups",Human well-being,NA,Equity,NA,2,"km_gbf,sdg"
+"proportions of positions in national and local institutions, including the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups",Human well-being,NA,Equity,NA,2,"km_gbf,sdg"
+number of countries with systems to track and make public allocations for gender equality and women's empowerment,Human well-being,NA,Equity,NA,1,km_gbf
+"proportion of total agricultural population with ownership or secure rights over agricultural land, by sex",Human well-being,NA,Equity,NA,2,"km_gbf,sdg"
+"share of women among owners or rights-bearers of agricultural land, by type of tenure",Human well-being,NA,Equity,NA,2,"km_gbf,sdg"
+number of countries where the legal framework (including customary law) guarantees women's equal rights to land ownership and/or control,Human well-being,Governance,Equity,Legislation/governance,1,km_gbf
+"trends in number of environmental human rights defenders killed annually, disaggregated by country, gender; number of indigenous environmental human rights defenders kill",Governance,NA,Broken governance,NA,1,km_gbf
+land tenure [in the traditional territories] of indigenous peoples and local communities [by sex and type of tenure],ecosystems,Knowledge systems,State of ecosystems,ILK,1,km_gbf
+"proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group",Human well-being,NA,Equity,Wellness,2,"km_gbf,sdg"
+"percentage of population who believe decision making is inclusive and responsive, by sex, age, disability and population group",Human well-being,NA,Equity,Wellness,1,km_gbf
+proportion of countries where the legal framework (including customary law) guarantees women equal rights to land ownership and/or control,Human well-being,NA,Equity,NA,2,"km_gbf,sdg"
+"proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)",Knowledge systems,NA,Information on society and socio-economics,State of economy,1,sdg
+"proportion of population living below the national poverty line, by sex and age",Human assets,NA,Coverage of basic needs,Income,1,sdg
+"proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions",Human well-being,NA,Equity,NA,1,sdg
+"proportion of population covered by social protection floors/systems, by sex, distinguishing children, unemployed persons, older persons, persons with disabilities, pregnant women, newborns, work-injury victims and the poor and the vulnerable",Human well-being,NA,Equity,NA,1,sdg
+proportion of population living in households with access to basic services,Human assets,NA,Coverage of basic needs,NA,1,sdg
+direct economic loss attributed to disasters in relation to global gross domestic product,Human assets,NA,State of economy,NA,1,sdg
+number of countries that adopt and implement national disaster risk reduction strategies in line with the sendai framework for disaster risk reduction 2015-2030,Governance,NA,Nature-based legislation,NA,1,sdg
+total official development assistance grants from all donors that focus on poverty reduction as a share of the recipient country’s gross national income,Human assets,Governance,State of economy,Legislation/governance,1,sdg
+"proportion of total government spending on essential services (education, health and social protection)",Governance,NA,Legislation/governance,NA,1,sdg
+pro-poor public social spending,Knowledge systems,NA,State of economy,NA,1,sdg
+prevalence of undernourishment,Human assets,Human well-being,Coverage of basic needs,Healthy living conditions,1,sdg
+prevalence of stunting (height for age <-2 standard deviation from the median of the world health organization (who) child growth standards) among children under 5 years of age,Human assets,NA,Coverage of basic needs,NA,1,sdg
+"prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the who child growth standards) among children under 5 years of age, by type (wasting and overweight)",Human assets,NA,Coverage of basic needs,NA,1,sdg
+"prevalence of anaemia in women aged 15 to 49 years, by pregnancy status (percentage)",Human assets,NA,Coverage of basic needs,NA,1,sdg
+number of plant genetic resources for food and agriculture secured in either medium- or long-term conservation facilities,biodiversity,NA,Genetic resources,NA,1,sdg
+number of animal genetic resources for food and agriculture secured in either medium- or long-term conservation facilities,biodiversity,NA,Genetic resources,NA,1,sdg
+agriculture orientation index for government expenditures,Direct drivers,NA,Land conversion,NA,1,sdg
+total official flows (official development assistance plus other official flows) to the agriculture sector,Human assets,NA,State of economy,Information on society and socio-economics,1,sdg
+agricultural export subsidies,Governance,NA,Legislation/governance,NA,1,sdg
+indicator of food price anomalies,Human assets,NA,Coverage of basic needs,NA,1,sdg
+maternal mortality ratio,Human well-being,Human assets,Healthy living conditions,Coverage of basic needs,1,sdg
+proportion of births attended by skilled health personnel,Human assets,Human well-being,Coverage of basic needs,Healthy living conditions,1,sdg
+under-five child mortality rate,Human assets,NA,Coverage of basic needs,NA,1,sdg
+neonatal mortality rate,Human well-being,NA,Healthy living conditions,NA,1,sdg
+"number of new hiv infections per 1,000 uninfected population, by sex, age and key populations",Human assets,Direct drivers,Coverage of basic needs,(Infectious) diseases,1,sdg
+"tuberculosis incidence per 100,000 population",Human assets,NA,Coverage of basic needs,NA,1,sdg
+"malaria incidence per 1,000 population",Human assets,Direct drivers,Coverage of basic needs,(Infectious) diseases,1,sdg
+"hepatitis b incidence per 100,000 population",Human assets,NA,Coverage of basic needs,NA,1,sdg
+number of people requiring interventions against neglected tropical diseases,Human well-being,Direct drivers,Healthy living conditions,(Infectious) diseases,1,sdg
+"mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease",Human well-being,NA,Healthy living conditions,NA,1,sdg
+suicide mortality rate,Human well-being,NA,Wellness,NA,1,sdg
+"coverage of treatment interventions (pharmacological, psychosocial and rehabilitation and aftercare services) for substance use disorders",Human well-being,NA,Wellness,NA,1,sdg
+alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol,Human assets,NA,Coverage of basic needs,NA,1,sdg
+death rate due to road traffic injuries,Human assets,NA,Coverage of basic needs,NA,1,sdg
+proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods,Human assets,Governance,Coverage of basic needs,Broken governance,1,sdg
+"adolescent birth rate (aged 10-14 years; aged 15-19 years) per 1,000 women in that age group",Human assets,Knowledge systems,Coverage of basic needs,Information on society and socio-economics,1,sdg
+coverage of essential health services,Human well-being,NA,Wellness,NA,1,sdg
+proportion of population with large household expenditures on health as a share of total household expenditure or income,Human assets,NA,Coverage of basic needs,Information on society and socio-economics,1,sdg
+mortality rate attributed to unintentional poisoning,Human well-being,Direct drivers,Healthy living conditions,Pollution,1,sdg
+age-standardized prevalence of current tobacco use among persons aged 15 years and older,Human assets,Knowledge systems,Coverage of basic needs,Information on society and socio-economics,1,sdg
+proportion of the target population covered by all vaccines included in their national programme,Human assets,Direct drivers,Coverage of basic needs,(Infectious) diseases,1,sdg
+total net official development assistance to medical research and basic health sectors,Human assets,NA,Coverage of basic needs,NA,1,sdg
+proportion of health facilities that have a core set of relevant essential medicines available and affordable on a sustainable basis,Human assets,NA,Coverage of basic needs,NA,1,sdg
+health worker density and distribution,Human well-being,Human assets,Healthy living conditions,Coverage of basic needs,1,sdg
+international health regulations (ihr) capacity and health emergency preparedness,Human well-being,NA,Healthy living conditions,NA,1,sdg
+percentage of bloodstream infections due to selected antimicrobial-resistant organisms,Direct drivers,NA,(Infectious) diseases,NA,1,sdg
+"proportion of children and young people in grades 2/3 achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex",Human assets,NA,Coverage of basic needs,NA,1,sdg
+"proportion of children and young people at the end of primary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex",Human assets,NA,Coverage of basic needs,NA,1,sdg
+"proportion of children and young people at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex",Human assets,NA,Coverage of basic needs,NA,1,sdg
+"completion rate (primary education, lower secondary education, upper secondary education)",Human assets,Human well-being,Coverage of basic needs,Equity,1,sdg
+"proportion of children aged 24-59 months who are developmentally on track in health, learning and psychosocial well-being, by sex",Human assets,Human well-being,Coverage of basic needs,Wellness,1,sdg
+"participation rate in organized learning (one year before the official primary entry age), by sex",Human assets,NA,Coverage of basic needs,NA,1,sdg
+"participation rate of youth and adults in formal and non-formal education and training in the previous 12 months, by sex",Human assets,NA,Coverage of basic needs,NA,1,sdg
+"proportion of youth and adults with information and communications technology (ict) skills, by type of skill",Knowledge systems,NA,Information on society and socio-economics,Coverage of basic needs,1,sdg
+"parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated",Human assets,NA,Coverage of basic needs,ILK,1,sdg
+"proportion of population in a given age group achieving at least a fixed level of proficiency in functional literacy, by sex",Human assets,NA,Coverage of basic needs,NA,1,sdg
+"proportion of population in a given age group achieving at least a fixed level of proficiency in functional numeracy skills, by sex",Human assets,NA,Coverage of basic needs,NA,1,sdg
+"proportion of schools offering basic services, by type of service",Human assets,NA,Coverage of basic needs,NA,1,sdg
+"proportion of teachers with the minimum required qualifications, by education level",Knowledge systems,NA,Information on society and socio-economics,NA,1,sdg
+"whether or not legal frameworks are in place to promote, enforce and monitor equality and non‑discrimination on the basis of sex",Human well-being,NA,Equity,NA,1,sdg
+"proportion of ever-partnered women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months, by form of violence and by age",Human well-being,Governance,Equity,Broken governance,1,sdg
+"proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months, by age and place of occurrence",Human well-being,Governance,Equity,Broken governance,1,sdg
+proportion of women aged 20-24 years who were married or in a union before age 15 and before age 18,Human well-being,Governance,Equity,Broken governance,1,sdg
+"proportion of girls and women aged 15-49 years who have undergone female genital mutilation/cutting, by age",Human well-being,Governance,Equity,Broken governance,1,sdg
+"proportion of time spent on unpaid domestic and care work, by sex, age and location",Human assets,NA,Income,NA,1,sdg
+proportion of women in managerial positions,Knowledge systems,Governance,Information on society and socio-economics,Broken governance,1,sdg
+"proportion of women aged 15-49 years who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care",Human well-being,Governance,Equity,Broken governance,1,sdg
+"number of countries with laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education",Human well-being,NA,Equity,NA,1,sdg
+"proportion of individuals who own a mobile telephone, by sex",Knowledge systems,NA,Information on society and socio-economics,NA,1,sdg
+proportion of countries with systems to track and make public allocations for gender equality and women’s empowerment,Human well-being,NA,Equity,NA,1,sdg
+proportion of population using safely managed sanitation services,Human well-being,NA,Healthy living conditions,NA,1,sdg
+proportion of population using a hand-washing facility with soap and water,Human well-being,NA,Healthy living conditions,NA,1,sdg
+degree of integrated water resources management,Governance,NA,Nature-based legislation,NA,1,sdg
+amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan,Human assets,NA,Coverage of basic needs,NA,1,sdg
+proportion of population with access to electricity,Human assets,NA,Coverage of basic needs,Information on society and socio-economics,1,sdg
+proportion of population with primary reliance on clean fuels and technology,Human assets,NA,Coverage of basic needs,Information on society and socio-economics,1,sdg
+renewable energy share in the total final energy consumption,Human assets,Ecosystem services,Infrastructure (build-up area),Nature contribution,1,sdg
+energy intensity measured in terms of primary energy and gross domestic product,Human assets,NA,Infrastructure (build-up area),NA,1,sdg
+"international financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems",Governance,NA,Nature-based legislation,NA,1,sdg
+installed renewable energy-generating capacity in developing countries (in watts per capita),Human assets,Ecosystem services,Infrastructure (build-up area),Specific mention of sustainable use of species/ecosystems,1,sdg
+annual growth rate of real gross domestic product,Human assets,NA,Income,NA,1,sdg
+annual growth rate of real gross domestic product per employed person,Human assets,NA,Income,NA,1,sdg
+"proportion of informal employment in total employment, by sector and sex",Human assets,NA,Coverage of basic needs,NA,1,sdg
+"material footprint, material footprint per capita, and material footprint per gross domestic product",Direct drivers,NA,Specific mention of over-exploitation and unsustainable use of species/ecosystems,NA,1,sdg
+"domestic material consumption, domestic material consumption, and domestic material consumption per gross domestic product",Direct drivers,NA,Specific mention of over-exploitation and unsustainable use of species/ecosystems,NA,1,sdg
+"average hourly earnings of employees, by sex, age, occupation and persons with disabilities",Human assets,NA,Income,NA,1,sdg
+"unemployment rate, by sex, age and persons with disabilities",Knowledge systems,NA,Information on society and socio-economics,NA,1,sdg
+"proportion of youth (aged 15-24 years) not in education, employment or training",Human assets,NA,Coverage of basic needs,NA,1,sdg
+"proportion and number of children aged 5-17 years engaged in child labour, by sex and age",Human assets,NA,Coverage of basic needs,NA,1,sdg
+"fatal and non-fatal occupational injuries per 100,000 workers, by sex and migrant status",Human assets,NA,Coverage of basic needs,NA,1,sdg
+"level of national compliance with labour rights (freedom of association and collective bargaining) based on international labour organization (ilo) textual sources and national legislation, by sex and migrant status",Human well-being,NA,Equity,NA,1,sdg
+tourism direct gross domestic product as a proportion of total gross domestic product and in growth rate,Human assets,NA,State of economy,NA,1,sdg
+"number of commercial bank branches per 100,000 adults",Human assets,NA,State of economy,NA,1,sdg
+"number of automated teller machines (atms) per 100,000 adults",Human assets,NA,State of economy,NA,1,sdg
+proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider,Human assets,NA,State of economy,NA,1,sdg
+aid for trade commitments and disbursements,Governance,NA,Nature-based funding,NA,1,sdg
+"existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy",Governance,NA,Legislation/governance,NA,1,sdg
+proportion of the rural population who live within 2 km of an all-season road,Human assets,NA,Infrastructure (build-up area),NA,1,sdg
+"passenger and freight volumes, by mode of transport",Human assets,NA,Infrastructure (build-up area),NA,1,sdg
+manufacturing value added as a proportion of gross domestic product and per capita,Human assets,NA,Infrastructure (build-up area),NA,1,sdg
+manufacturing employment as a proportion of total employment,Human assets,NA,Coverage of basic needs,NA,1,sdg
+proportion of small-scale industries in total industry value added,Human assets,NA,Infrastructure (build-up area),NA,1,sdg
+proportion of small-scale industries with a loan or line of credit,Human assets,NA,Infrastructure (build-up area),Income,1,sdg
+research and development expenditure as a proportion of gross domestic product,Knowledge systems,NA,Information on society and socio-economics,NA,1,sdg
+researchers (in full-time equivalent) per million inhabitants,Knowledge systems,NA,Information on society and socio-economics,NA,1,sdg
+total official international support (official development assistance plus other official flows) to infrastructure,Human assets,NA,Infrastructure (build-up area),Information on society and socio-economics,1,sdg
+proportion of medium and high-tech industry value added in total value added,Human assets,NA,State of economy,NA,1,sdg
+"proportion of population covered by a mobile network, by technology",Human assets,NA,Infrastructure (build-up area),NA,1,sdg
+growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population,Knowledge systems,NA,Information on society and socio-economics,NA,1,sdg
+"proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities",Human well-being,NA,Equity,NA,1,sdg
+proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law,Human well-being,Governance,Equity,Broken governance,1,sdg
+labour share of gross domestic product,Human assets,NA,Income,NA,1,sdg
+redistributive impact of fiscal policy,Human assets,Governance,Income,Legislation/governance,1,sdg
+financial soundness indicators,Governance,NA,Legislation/governance,NA,1,sdg
+proportion of members and voting rights of developing countries in international organizations,Human well-being,NA,Equity,NA,1,sdg
+recruitment cost borne by employee as a proportion of monthly income earned in country of destination,Human assets,NA,State of economy,Income,1,sdg
+"number of countries with migration policies that facilitate orderly, safe, regular and responsible migration and mobility of people",Human well-being,NA,Equity,NA,1,sdg
+number of people who died or disappeared in the process of migration towards an international destination,Governance,NA,Broken governance,NA,1,sdg
+"proportion of the population who are refugees, by country of origin",Knowledge systems,NA,Information on society and socio-economics,NA,1,sdg
+proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff,Governance,NA,Legislation/governance,NA,1,sdg
+"total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)",Governance,NA,National/international cooperation,NA,1,sdg
+remittance costs as a proportion of the amount remitted,Human assets,NA,Income,State of economy,1,sdg
+"proportion of urban population living in slums, informal settlements or inadequate housing",Human assets,Governance,Coverage of basic needs,Broken governance,1,sdg
+"proportion of population that has convenient access to public transport, by sex, age and persons with disabilities",Human assets,NA,Infrastructure (build-up area),Coverage of basic needs,1,sdg
+ratio of land consumption rate to population growth rate,Ecosystem services,Human assets,Nature contribution,Coverage of basic needs,1,sdg
+proportion of cities with a direct participation structure of civil society in urban planning and management that operate regularly and democratically,Human assets,Human well-being,Infrastructure (build-up area),Equity,1,sdg
+"total per capita expenditure on the preservation, protection and conservation of all cultural and natural heritage, by source of funding (public, private), type of heritage (cultural, natural) and level of government (national, regional, and local/municipal)",Human assets,NA,State of economy,Information on society and socio-economics,1,sdg
+damage to critical infrastructure,Human assets,Knowledge systems,Infrastructure (build-up area),Information on society and socio-economics,1,sdg
+"number of disruptions to basic services, attributed to disasters",Knowledge systems,NA,Information on society and socio-economics,NA,1,sdg
+"proportion of municipal solid waste collected and managed in controlled facilities out of total municipal waste generated, by cities",Human assets,NA,Infrastructure (build-up area),NA,1,sdg
+"average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities",Human assets,NA,Infrastructure (build-up area),NA,1,sdg
+"proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months",Governance,NA,Broken governance,NA,1,sdg
+number of countries that have national urban policies or regional development plans that respond to population dynamics,Governance,NA,Legislation/governance,NA,1,sdg
+number of countries that have national urban policies or regional development plans that ensure balanced territorial development,Governance,NA,Legislation/governance,NA,1,sdg
+number of countries that have national urban policies or regional development plans that increase local fiscal space,Governance,NA,Legislation/governance,NA,1,sdg
+"number of countries developing, adopting or implementing policy instruments aimed at supporting the shift to sustainable consumption and production",Governance,NA,Nature-based legislation,NA,1,sdg
+food loss index,Direct drivers,NA,Specific mention of over-exploitation and unsustainable use of species/ecosystems,NA,1,sdg
+"number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement",Governance,NA,Nature-based legislation,NA,1,sdg
+hazardous waste generated per capita,Direct drivers,NA,Pollution,NA,1,sdg
+"proportion of hazardous waste treated, by type of treatment",Direct drivers,NA,Pollution,NA,1,sdg
+"national recycling rate, tons of material recycled",Governance,NA,Nature-based legislation,NA,1,sdg
+number of countries implementing sustainable public procurement policies and action plans,Governance,NA,Nature-based legislation,NA,1,sdg
+implementation of standard accounting tools to monitor the economic and environmental aspects of tourism sustainability,Governance,NA,Legislation/governance,NA,1,sdg
+"number of countries with nationally determined contributions, long-term strategies, national adaptation plans and adaptation communications, as reported to the secretariat of the united nations framework convention on climate change",Governance,NA,Nature-based legislation,NA,1,sdg
+total greenhouse gas emissions per year,Direct drivers,NA,Climate change,NA,1,sdg
+amounts provided and mobilized in united states dollars per year in relation to the continued existing collective mobilization goal of the $100 billion commitment through to 2025,Human assets,NA,State of economy,NA,1,sdg
+number of countries using ecosystem-based approaches to managing marine areas,Governance,NA,Nature-based legislation,NA,1,sdg
+average marine acidity (ph) measured at agreed suite of representative sampling stations,ecosystems,NA,Abiotic conditions,NA,1,sdg
+coverage of protected areas in relation to marine areas,ecosystems,NA,Area conservation,NA,1,sdg
+"sustainable fisheries as a proportion of gross domestic product in small island developing states, least developed countries and all countries",Ecosystem services,Governance,Specific monetary valuation of nature contribution,Nature-based legislation,1,sdg
+degree of application of a legal/regulatory/ policy/institutional framework which recognizes and protects access rights for small-scale fisheries,Governance,Ecosystem services,Nature-based legislation,Specific mention of sustainable use of species/ecosystems,1,sdg
+"number of countries making progress in ratifying, accepting and implementing through legal, policy and institutional frameworks, ocean-related instruments that implement international law, as reflected in the united nations convention on the law of the sea, for the conservation and sustainable use of the oceans and their resources",Governance,NA,Nature-based legislation,NA,1,sdg
+"proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type",ecosystems,NA,Area conservation,NA,1,sdg
+coverage by protected areas of important sites for mountain biodiversity,ecosystems,NA,Area conservation,NA,1,sdg
+proportion of traded wildlife that was poached or illicitly trafficked,Direct drivers,NA,Specific mention of over-exploitation and unsustainable use of species/ecosystems,NA,1,sdg
+proportion of countries adopting relevant national legislation and adequately resourcing the prevention or control of invasive alien species,Governance,NA,Nature-based legislation,NA,1,sdg
+number of countries that have established national targets in accordance with or similar to aichi biodiversity target 2 of the strategic plan for biodiversity 2011-2020 in their national biodiversity strategy and action plans and the progress reported towards these targets,Governance,NA,Nature-based legislation,NA,1,sdg
+official development assistance on conservation and sustainable use of biodiversity,Governance,NA,Nature-based legislation,NA,1,sdg
+revenue generated and finance mobilized from biodiversity-relevant economic instruments,Governance,NA,Nature-based legislation,NA,1,sdg
+"number of victims of intentional homicide per 100,000 population, by sex and age",Human assets,Governance,Information on society and socio-economics,Broken governance,1,sdg
+"conflict-related deaths per 100,000 population, by sex, age and cause",Human assets,Governance,Information on society and socio-economics,Broken governance,1,sdg
+proportion of population subjected to physical violence in the previous 12 months,Human assets,Governance,Information on society and socio-economics,Broken governance,1,sdg
+proportion of population subjected to psychological violence in the previous 12 months,Human assets,Governance,Information on society and socio-economics,Broken governance,1,sdg
+proportion of population subjected to sexual violence in the previous 12 months,Human assets,Governance,Information on society and socio-economics,Broken governance,1,sdg
+proportion of population that feel safe walking alone around the area they live after dark,Human well-being,Knowledge systems,Equity,Information on society and socio-economics,1,sdg
+proportion of children aged 1-17 years who experienced any physical punishment and/or psychological aggression by caregivers in the past month,Human assets,Governance,Information on society and socio-economics,Broken governance,1,sdg
+"number of victims of human trafficking per 100,000 population, by sex, age and form of exploitation",Human assets,Governance,Information on society and socio-economics,Broken governance,1,sdg
+proportion of young women and men aged 18-29 years who experienced sexual violence by age 18,Human assets,Governance,Information on society and socio-economics,Broken governance,1,sdg
+proportion of victims of violence in the previous 12 months who reported their victimization to competent authorities or other officially recognized conflict resolution mechanisms,Human well-being,Governance,Wellness,Broken governance,1,sdg
+unsentenced detainees as a proportion of overall prison population,Governance,Knowledge systems,Broken governance,Information on society and socio-economics,1,sdg
+"proportion of the population who have experienced a dispute in the past two years and who accessed a formal or informal dispute resolution mechanism, by type of mechanism",Knowledge systems,Governance,Information on society and socio-economics,Legislation/governance,1,sdg
+total value of inward and outward illicit financial flows (in current united states dollars),Human assets,Governance,State of economy,Broken governance,1,sdg
+"proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments",Governance,NA,Legislation/governance,NA,1,sdg
+"proportion of persons who had at least one contact with a public official and who paid a bribe to a public official, or were asked for a bribe by those public officials, during the previous 12 months",Human assets,Human well-being,Information on society and socio-economics,Wellness,1,sdg
+"proportion of businesses that had at least one contact with a public official and that paid a bribe to a public official, or were asked for a bribe by those public officials during the previous 12 months",Human assets,Governance,Information on society and socio-economics,Broken governance,1,sdg
+"primary government expenditures as a proportion of original approved budget, by sector (or by budget codes or similar)",Human assets,Governance,State of economy,Legislation/governance,1,sdg
+proportion of population satisfied with their last experience of public services,Knowledge systems,NA,Information on society and socio-economics,NA,1,sdg
+"proportion of children under 5 years of age whose births have been registered with a civil authority, by age",Human assets,Knowledge systems,Information on society and socio-economics,Information on society and socio-economics,1,sdg
+"number of verified cases of killing, kidnapping, enforced disappearance, arbitrary detention and torture of journalists, associated media personnel, trade unionists and human rights advocates in the previous 12 months",Human assets,Governance,Information on society and socio-economics,Broken governance,1,sdg
+"number of countries that adopt and implement constitutional, statutory and/or policy guarantees for public access to information",Human well-being,NA,Equity,NA,1,sdg
+existence of independent national human rights institutions in compliance with the paris principles,Human well-being,NA,Equity,NA,1,sdg
+"total government revenue as a proportion of gross domestic product, by source",Human assets,NA,Information on society and socio-economics,NA,1,sdg
+proportion of domestic budget funded by domestic taxes,Human assets,NA,State of economy,NA,1,sdg
+"net official development assistance, total and to least developed countries, as a proportion of the organization for economic cooperation and development (oecd) development assistance committee donors’ gross national income (gni)",Governance,NA,National/international cooperation,NA,1,sdg
+additional financial resources mobilized for developing countries from multiple sources,Human assets,NA,Information on society and socio-economics,NA,1,sdg
+volume of remittances (in united states dollars) as a proportion of total gross domestic product,Human assets,NA,Information on society and socio-economics,NA,1,sdg
+debt service as a proportion of exports of goods and services,Human assets,NA,State of economy,NA,1,sdg
+"number of countries that adopt and implement investment promotion regimes for developing countries, including the least developed countries",Governance,NA,National/international cooperation,NA,1,sdg
+"fixed internet broadband subscriptions per 100 inhabitants, by speed6",Knowledge systems,NA,Information on society and socio-economics,NA,1,sdg
+proportion of individuals using the internet,Knowledge systems,NA,Information on society and socio-economics,NA,1,sdg
+"dollar value of financial and technical assistance (including through north-south, south‑south and triangular cooperation) committed to developing countries",Governance,NA,National/international cooperation,NA,1,sdg
+worldwide weighted tariff-average,Ecosystem services,NA,Specific monetary valuation of nature contribution,NA,1,sdg
+developing countries’ and least developed countries’ share of global exports,Human assets,NA,State of economy,NA,1,sdg
+"weighted average tariffs faced by developing countries, least developed countries and small island developing states",Governance,NA,Legislation/governance,NA,1,sdg
+macroeconomic dashboard,Human assets,NA,State of economy,NA,1,sdg
+number of countries with mechanisms in place to enhance policy coherence of sustainable development,Governance,NA,Nature-based legislation,NA,1,sdg
+extent of use of country-owned results frameworks and planning tools by providers of development cooperation,Governance,NA,Legislation/governance,NA,1,sdg
+number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals,Governance,NA,Nature-based legislation,NA,1,sdg
+amount in united states dollars committed to public-private partnerships for infrastructure,Human assets,NA,Infrastructure (build-up area),NA,1,sdg
+statistical capacity indicator for sustainable development goal monitoring,Knowledge systems,NA,Information on society and socio-economics,NA,1,sdg
+number of countries that have national statistical legislation that complies with the fundamental principles of official statistics,Governance,NA,Legislation/governance,NA,1,sdg
+"number of countries with a national statistical plan that is fully funded and under implementation, by source of funding",Governance,NA,Legislation/governance,NA,1,sdg
+proportion of countries that have conducted at least one population and housing census in the last 10 years,Governance,NA,Legislation/governance,NA,1,sdg
+proportion of countries that have achieved 100 per cent birth registration and 80 per cent death registration,Governance,NA,Legislation/governance,NA,1,sdg
+the number of parties that are in category 1 under the national legislation project,Governance,NA,Nature-based legislation,NA,1,cites
+the number of parties that have designated management authorities and scientific authorities,Governance,NA,Nature-based legislation,NA,1,cites
+the number of parties subject to cites recommendations on trade,Governance,NA,Nature-based legislation,NA,1,cites
+the number of parties that have adopted standard transparent for timely procedures the issuance of permits in accordance with article vi of the convention,Governance,NA,Nature-based legislation,NA,1,cites
+the number of parties making use of the simplified procedures provided for in resolution conf.12.3 (rev.cop16),Governance,NA,Nature-based legislation,NA,1,cites
+the number of parties that have implemented relevant reporting under resolutions and decisions of the conference of the parties and/or standing committee recommendations,Governance,NA,Nature-based legislation,NA,1,cites
+the number and proportion of species that have been found to meet the criteria contained in resolution conf.9.24 or its successors. this includes both the periodic review and amendment proposals,Governance,NA,Nature-based legislation,NA,1,cites
+"the number of surveys, studies or other analyses undertaken by exporting countries based on the sources of information cited in resolution conf.16.7 on non detriment findings related to the population status of appendix-ii species",Governance,NA,Nature-based legislation,NA,1,cites
+"the number of surveys, studies or other analyses undertaken by exporting countries based on the sources of information cited in resolution conf.16.7 on non detriment findings related to the trends and impact of trade upon appendix-ii species",Governance,NA,Nature-based legislation,NA,1,cites
+"the number of surveys, studies or other analyses undertaken by exporting countries based on the sources of information cited in resolution conf.16.7 on non detriment findings related to the status of and trend in naturally-occurring appendix i species and the impact of any recovery plans",Governance,NA,Nature-based legislation,NA,1,cites
+the number of parties that have adopted standard procedures for making non detriment findings,Governance,NA,Nature-based legislation,NA,1,cites
+the number and proportion of annual export quotas based on population surveys,Governance,NA,Nature-based legislation,NA,1,cites
+the number of appendix ii species for which trade is determined to be non detrimental to the survival of the species as a result of implementing recommendations from the review of significant trade,Governance,NA,Nature-based legislation,NA,1,cites
+the number of bilateral and multilateral agreements that specifically provide for co-management of shared cites listed species by range states,Governance,NA,Nature-based legislation,NA,1,cites
+"the number of cooperative management plans, including recovery plans, in place for shared populations of cites listed species",Governance,NA,Nature-based legislation,NA,1,cites
+"the number of workshops and other capacity-building activities that bring range states together to address the conservation and management needs of shared, cites listed, species",Knowledge systems,NA,Specific information on human-nature relationship,NA,1,cites
+"the number of parties that have, or are covered by, or engaged with an international enforcement strategy and/or action plans; formal international co-operation, such as an international enforcement network; a national enforcement strategy and/or action plan; and formal national inter-agency co-operation, such as a national inter-agency enforcement committee",Governance,Governance,Nature-based legislation,National/international cooperation,1,cites
+"the number of parties with a process or mechanism for reviewing their enforcement strategies, and the activities to implement their strategies",Governance,NA,Nature-based legislation,NA,1,cites
+"the number of parties that have criminal (penal) law and procedures and forensic capacity in place, and that use specialized investigation techniques, for investigating, prosecuting, and penalizing cites offences",Governance,NA,Nature-based legislation,NA,1,cites
+the number of parties using risk assessment and intelligence to combat illegal trade in cites-listed species,Governance,NA,Nature-based legislation,NA,1,cites
+"the number of administrative measures, criminal prosecutions and other court actions for cites-related offences",Governance,NA,Nature-based legislation,NA,1,cites
+"the number of parties with national and regional training programmes and information resources in place to implement cites including the making of non-detriment findings, issuance of permits and enforcement",Knowledge systems,NA,Specific information on human-nature relationship,NA,1,cites
+the number of parties meeting their obligations with regard to their assessed contributions to the trust fund,Governance,NA,Nature-based legislation,NA,1,cites
+the percentage of the work programme agreed by the conference of the parties that is fully funded,Governance,NA,Nature-based funding,NA,1,cites
+"the number of parties with dedicated staff and funding for management authorities, scientific authorities and wildlife trade enforcement agencies",Governance,NA,Nature-based legislation,NA,1,cites
+"the number of parties that have undertaken one or more of the following activities in the past two years increased the budget for activities; hired more staff; developed implementation tools; and purchased technical equipment for implementation, monitoring or enforcement",Governance,NA,Nature-based legislation,NA,1,cites
+the number of parties raising funds for cites implementation through user fees or other mechanisms,Governance,NA,Nature-based funding,NA,1,cites
+the number of parties using incentive measures as part of their implementation of the convention,Governance,NA,Nature-based funding,NA,1,cites
+the number of capacity building activities mandated by resolutions and decisions that are fully funded,Governance,NA,Nature-based funding,NA,1,cites
+the number of parties funded by international financial mechanisms and other related institutions to develop activities that include cites-related conservation and sustainable development elements,Governance,Governance,Nature-based funding,National/international cooperation,1,cites
+the number of countries and institutions that have provided additional funding from cites authorities to another country or activity for conservation and sustainable development projects in order to further the objectives of the convention,Governance,Governance,Nature-based funding,National/international cooperation,1,cites
+the number of parties that have been involved in cites awareness raising activities to bring about better awareness by the wider public and relevant user groups of the convention requirements,Governance,Knowledge systems,Nature-based funding,Specific information on human-nature relationship,1,cites
+the number of visits to the cites website,Knowledge systems,NA,Specific information on human-nature relationship,NA,1,cites
+the number of parties with web pages on cites and its requirements,Knowledge systems,NA,Specific information on human-nature relationship,NA,1,cites
+"the number of parties which report that they have achieved synergies in their implementation of cites, other biodiversity-related conventions and other relevant multilateral environmental, trade and development agreements",Governance,NA,Nature-based legislation,NA,1,cites
+"the number of biodiversity conservation or sustainable use projects, trade and development goals, or scientific and technical programmes that integrate cites requirements",Knowledge systems,Governance,Specific information on human-nature relationship,Nature-based legislation,1,cites
+the number of parties cooperating and/or collaborating with intergovernmental and non-governmental organizations to participate in and/or fund cites workshops and other training and capacity-building activities,Knowledge systems,Governance,Specific information on human-nature relationship,National/international cooperation,1,cites
+the conservation status of species listed on the cites appendices has stabilized or improved,biodiversity,NA,Change in biodiversity,NA,1,cites
+the number of parties incorporating cites into their national biodiversity strategy and action plan (nbsap),Governance,NA,Nature-based legislation,NA,1,cites
+the number of cooperative actions taken under established bilateral or multilateral agreements to prevent species from being unsustainably exploited through international trade,Governance,Governance,Nature-based legislation,National/international cooperation,1,cites
+the number of times other relevant international organizations and agreements dealing with natural resources are consulted on issues relevant to species subject to unsustainable trade,Governance,Governance,Nature-based legislation,National/international cooperation,1,cites
+trends in awareness and attitudes to migratory species,Knowledge systems,biodiversity,Information on biodiversity,State of biodiversity,1,cms
+trends in integration of migratory species values in national and sectoral policies,Governance,Knowledge systems,Nature-based legislation,Information on biodiversity,1,cms
+status of migratory species in trade,Knowledge systems,Ecosystem services,Information on biodiversity,Specific monetary valuation of nature contribution,1,cms
+wild commodities index (migratory species),biodiversity,Knowledge systems,State of biodiversity,Information on biodiversity,1,cms
+proportion of migratory fish stocks in safe biological limits,Ecosystem services,biodiversity,Specific mention of sustainable use of species/ecosystems,State of biodiversity,1,cms
+trends in threats to migratory species,biodiversity,Knowledge systems,State of biodiversity,Information on biodiversity,1,cms
+red list index (migratory species),biodiversity,Knowledge systems,State of biodiversity,Information on biodiversity,1,cms
+red list index (cms-listed bird species),biodiversity,Knowledge systems,State of biodiversity,Information on biodiversity,1,cms
+red list index (migratory bird species),biodiversity,Knowledge systems,State of biodiversity,Information on biodiversity,1,cms
+red list index (cms-listed bird and mammal species),biodiversity,Knowledge systems,State of biodiversity,Information on biodiversity,1,cms
+living planet index (migratory species),biodiversity,Knowledge systems,State of biodiversity,Information on biodiversity,1,cms
+wild bird index (migratory birds),biodiversity,Knowledge systems,State of biodiversity,Information on biodiversity,1,cms
+trends in distribution of migratory species,biodiversity,Knowledge systems,Change in biodiversity,Information on biodiversity,1,cms
+"trends in conservation status, including connectivity, of identified habitats of key importance for migratory species",biodiversity,Knowledge systems,Change in biodiversity,Information on biodiversity,1,cms
+coverage of key habitats for migratory species in protected areas,ecosystems,Governance,Area conservation,Nature-based legislation,1,cms
+trends in protected area coverage of each key biodiversity area identified for cms-listed bird and mammal species,ecosystems,Governance,Change in ecosystems,Nature-based legislation,1,cms
+trends in protected area coverage of each key biodiversity area identified for migratory bird and mammal species,ecosystems,Governance,Change in ecosystems,Nature-based legislation,1,cms
+management effectiveness of areas protected specifically for migratory species,biodiversity,Governance,Change in biodiversity,Nature-based legislation,1,cms
+trends in delivery of ecosystem services directly dependent on migratory species,ecosystems,Governance,Change in ecosystems,Nature-based legislation,1,cms
+trends in genetic diversity of selected species,biodiversity,biodiversity,Change in biodiversity,Genetic diversity,1,cms
+trends in integration of migratory species concerns in national biodiversity strategies and action plans,biodiversity,Governance,Change in biodiversity,Nature-based legislation,1,cms
+"trends in the degree to which traditional knowledge and practices are respected through: full integration, participation and safeguards in national implementation of the strategic plan for migratory species",Knowledge systems,Knowledge systems,Specific information on ILK and IPLC,Information on society and socio-economics,1,cms
+number of validated publications on migratory species conservation actively disseminated for policy-relevant use,Knowledge systems,NA,Information on biodiversity,NA,1,cms
+"aggregated international flows of funding, per annum, for achieving the goals of the strategic plan for migratory species",Governance,NA,Nature-based legislation,NA,1,cms
+"amount of domestic financial support provided, per annum, to support those domestic activities which are intended to achieve the goals of the strategic plan for migratory species",Governance,NA,Nature-based legislation,NA,1,cms
+the recognition of combating wildlife crime as a high priority for national law enforcement agencies,Governance,NA,Nature-based legislation,NA,1,iccwc
+the recognition of wildlife crime involving organized criminal groups as serious crime,Governance,NA,Nature-based legislation,NA,1,iccwc
+the existence of a national enforcement strategy and/or action plan for wildlife crime,Governance,NA,Nature-based legislation,NA,1,iccwc
+the extent of inter-agency cooperation among national law enforcement agencies to combat wildlife crime,Governance,NA,Nature-based legislation,NA,1,iccwc
+the extent of international cooperation to combat wildlife crime,Governance,NA,Nature-based legislation,NA,1,iccwc
+the extent to which strategic risk management is used to target operational enforcement planning and the implementation of measures to combat wildlife crime,Governance,NA,Nature-based legislation,NA,1,iccwc
+the extent to which proactive investigations are used to target prominent and emerging wildlife crime threats,Governance,NA,Nature-based legislation,NA,1,iccwc
+the level of staff resources in national law enforcement agencies to combat wildlife crime,Governance,NA,Nature-based legislation,NA,1,iccwc
+the extent to which institutional training programmes for national law enforcement agencies include content to build capacity to combat wildlife crime,Governance,NA,Nature-based legislation,NA,1,iccwc
+the extent to which law enforcement activities are targeted towards the locations most affected by or used for wildlife crime,Governance,NA,Nature-based legislation,NA,1,iccwc
+participation in multi-disciplinary enforcement operations targeting wildlife crime,Governance,NA,Nature-based legislation,NA,1,iccwc
+the extent to which ports of entry and exit are staffed with law enforcement officers that are aware of and trained in detecting and responding to wildlife crime,Governance,NA,Nature-based legislation,NA,1,iccwc
+"the extent to which law enforcement officers at ports of entry and exit can access equipment, tools and materials to detect and respond to wildlife crime",Governance,NA,Nature-based legislation,NA,1,iccwc
+the extent to which national legislation empowers law enforcement agencies to inspect and seize consignments suspected of containing illegal wildlife specimens and confiscate,Governance,NA,Nature-based legislation,NA,1,iccwc
+"the adequacy of the systems and procedures that are in place for the management, secure storage, auditing and disposal of confiscated wildlife specimens",Governance,NA,Nature-based legislation,NA,1,iccwc
+the number (and type) of seizures of specimens of illicitly-traded wildlife,Governance,NA,Nature-based legislation,NA,1,iccwc
+the number (and type) of large-scale seizures of specimens of illicitly-traded wildlife,Governance,NA,Nature-based legislation,NA,1,iccwc
+the capacity of national law enforcement agencies to investigate wildlife crime cases,Governance,NA,Nature-based legislation,NA,1,iccwc
+the extent of national procedures and systems to collate information on wildlife crime,Governance,NA,Nature-based legislation,NA,1,iccwc
+the extent to which information on wildlife crime is verified and analyzed to generate intelligence,Governance,NA,Nature-based legislation,NA,1,iccwc
+the extent to which criminal intelligence is used to support investigations into wildlife crime,Governance,NA,Nature-based legislation,NA,1,iccwc
+the extent to which follow-up investigations are conducted for wildlife crime cases,Governance,NA,Nature-based legislation,NA,1,iccwc
+the percentage of wildlife crime cases of a transnational nature that were reported to databases of intergovernmental organizations mandated to receive and maintain such data,Governance,NA,Nature-based legislation,NA,1,iccwc
+the existence of provisions in national legislation to use specialized investigation techniques in the investigation of wildlife crime,Governance,NA,Nature-based legislation,NA,1,iccwc
+the use of specialized investigation techniques by national law enforcement agencies to combat wildlife crime,Governance,NA,Nature-based legislation,NA,1,iccwc
+the capacity of national law enforcement agencies to use forensic technology to support wildlife crime investigations,Governance,NA,Nature-based legislation,NA,1,iccwc
+the capacity of national law enforcement agencies to conduct financial investigations to support the investigation and prosecution of wildlife crime,Governance,NA,Nature-based legislation,NA,1,iccwc
+"the comprehensiveness of national legislative provisions for wildlife conservation, management and use, including international trade in protected species of wildlife",Governance,NA,Nature-based legislation,NA,1,iccwc
+the category in which cites implementation legislation has been placed under the cites national legislation project,Governance,NA,Nature-based legislation,NA,1,iccwc
+the extent to which national provisions for international cooperation in criminal matters are applied to wildlife crime,Governance,NA,Nature-based legislation,NA,1,iccwc
+the existence of provisions against corruption in national legislation that can be used in the investigation and prosecution of wildlife crime,Governance,NA,Nature-based legislation,NA,1,iccwc
+the existence of national legislation for organized crime that can be used in the investigation and prosecution of wildlife crime,Governance,NA,Nature-based legislation,NA,1,iccwc
+the extent to which a combination of relevant national legislation and criminal law is used to prosecute wildlife crime in support of legislation enacted to combat wildlife crime,Governance,NA,Nature-based legislation,NA,1,iccwc
+the capacity of national law enforcement agencies to prepare wildlife crime case files and give evidence in court,Governance,NA,Nature-based legislation,NA,1,iccwc
+the percentage of wildlife crime cases that were prosecuted in court,Governance,NA,Nature-based legislation,NA,1,iccwc
+the percentage of wildlife crime cases that were resolved with administrative penalties,Governance,NA,Nature-based legislation,NA,1,iccwc
+the capacity of prosecutors to manage wildlife crime cases,Governance,NA,Nature-based legislation,NA,1,iccwc
+the existence of national guidelines for the prosecution of wildlife crime,Governance,NA,Nature-based legislation,NA,1,iccwc
+the percentage of wildlife crime cases that were brought to trial which resulted in convictions,Governance,NA,Nature-based legislation,NA,1,iccwc
+the extent to which national legislation penalizes wildlife crime offences in a manner that reflects the nature and severity of the crime,Governance,NA,Nature-based legislation,NA,1,iccwc
+the existence of national guidelines for the sentencing of offenders convicted with wildlife crime,Governance,NA,Nature-based legislation,NA,1,iccwc
+the extent of awareness of wildlife crime among the judiciary and the appropriateness of the verdicts handed down,Governance,NA,Nature-based legislation,NA,1,iccwc
+the existence of provisions for asset forfeiture and recovery in national legislation that can be applied to wildlife crime,Governance,NA,Nature-based legislation,NA,1,iccwc
+the use of asset forfeiture and recovery legislation in wildlife crime cases,Governance,NA,Nature-based legislation,NA,1,iccwc
+the extent to which the drivers of wildlife crime in the country are known and understood,Governance,NA,Nature-based legislation,NA,1,iccwc
+the extent to which activities to address the demand of illicit wildlife products are implemented,Governance,NA,Nature-based legislation,NA,1,iccwc
+the extent of awareness-raising materials and/or programmes in place to increase the awareness of the regulated community of the laws that apply to the sustainable use of wildlife,Governance,NA,Nature-based legislation,NA,1,iccwc
+the extent to which local communities are engaged in law enforcement activities to combat wildlife crime,Governance,NA,Nature-based legislation,NA,1,iccwc
+the extent to which livelihoods and social capacity building are considered in activities to combat wildlife crime,Governance,NA,Nature-based legislation,NA,1,iccwc
+the extent of awareness-raising materials and/or programmes in place to increase public awareness of wildlife crime,Governance,NA,Nature-based legislation,NA,1,iccwc
+the overall conservation status of wetlands,ecosystems,NA,State of ecosystems (freshwater/coastal),NA,1,ramsar
+status and trends in wetland ecosystem extent,ecosystems,NA,State of ecosystems (freshwater/coastal),NA,1,ramsar
+trends in conservation status - qualitative assessment,ecosystems,NA,Area conservation,NA,1,ramsar
+the status of the ecological character of ramsar sites,ecosystems,NA,State of ecosystems (freshwater/coastal),NA,1,ramsar
+trends in the status of ramsar site ecological character - qualitative assessment,ecosystems,NA,State of ecosystems (freshwater/coastal),NA,1,ramsar
+trends in water quality,ecosystems,NA,State of ecosystems (integrity),NA,1,ramsar
+trends in dissolved nitrate (or nitrogen) concentration,ecosystems,NA,State of ecosystems (integrity),NA,1,ramsar
+trends in biological oxygen demand (bod),ecosystems,NA,State of ecosystems (integrity),NA,1,ramsar
+the frequency of threats affecting ramsar sites,ecosystems,NA,State of ecosystems (integrity),NA,1,ramsar
+the frequency of threats affecting ramsar sites - qualitative assessment,ecosystems,NA,State of ecosystems (integrity),NA,1,ramsar
+wetland sites with successfully implemented conservation or wise use management plans,ecosystems,NA,Area conservation,NA,1,ramsar
+overall population trends of wetland taxa,biodiversity,NA,Change in biodiversity,NA,1,ramsar
+trends in the status of waterbird biogeographic populations,biodiversity,NA,Change in biodiversity,NA,1,ramsar
+changes in threat status of wetland taxa,biodiversity,NA,Change in biodiversity,NA,1,ramsar
+trends in the status of globally-threatened wetland-dependent birds,biodiversity,NA,Change in biodiversity,NA,1,ramsar
+trends in the status of globally-threatened wetland-dependent amphibians,biodiversity,NA,Change in biodiversity,NA,1,ramsar
+the proportion of candidate ramsar sites designated so far for wetland types/features,ecosystems,NA,Area conservation,NA,1,ramsar
+coverage of the wetland resource by designated ramsar sites,ecosystems,NA,Area conservation,NA,1,ramsar
+trends in land cover,ecosystems,NA,Change in biodiversity,NA,1,unccd
+trends in land productivity,ecosystems,NA,Change in biodiversity,NA,1,unccd
+"trends in carbon stocks (above and below ground), which is currently represented by soil organic carbon (soc) stocks",ecosystems,NA,State of ecosystems (integrity),NA,1,unccd

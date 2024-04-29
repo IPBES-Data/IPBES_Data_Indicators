@@ -1,0 +1,345 @@
+indicators_harmonized,var_indic,ipcc_extracted,ILK
+antarctic ice cores,2,1,NA
+direct co2 air measurements,2,1,NA
+global precipitation climatology centre (gpcc) v8,2,1,NA
+glacier mass loss,2,1,NA
+global surface air temperature (gmst),2,1,NA
+sea level change,2,1,NA
+ocean heat content,2,1,NA
+atmospheric co2 concentrations,2,1,NA
+global mean surface temperature (gmst),2,1,NA
+global mean sea level (gmsl),2,1,NA
+ph of ocean surface water,1,1,NA
+global energy budget,2,1,NA
+simulated global mean surface air temperature (gsat),1,1,NA
+simulated global mean surface air temperature (gsat) anomalies,1,1,NA
+estimate of gsat (era-5),1,1,NA
+observation-based estimate of global mean surface air temperature (gmst),1,1,NA
+mean gsat,1,1,NA
+annual gsat change,1,1,NA
+uk summer temperatures,1,1,NA
+annual ice volume,1,1,NA
+september sea ice extent,1,1,NA
+global temperature,2,1,NA
+cumulative ghg emissions,2,1,NA
+economic damages due to river floods,1,1,NA
+occurrence of heat-related human mortality,1,1,NA
+economic inequality,1,1,NA
+essential climate variables (ecvs),1,1,NA
+essential ocean variables (eovs),1,1,NA
+leaf area index (lai),2,1,NA
+fraction of absorbed photosynthetically active radiation (fapar),2,1,NA
+fire disturbances/burned areas,2,1,NA
+time series of normalized difference vegetation index (ndvi),2,1,NA
+northern hemisphere temperature over the last millennium,1,1,NA
+thermosteric sea level,2,1,NA
+salinity,2,1,NA
+sea ice extent,2,1,NA
+amoc,2,1,NA
+global temperatures,1,1,NA
+boron-isotope,1,1,NA
+isotope-composition of molecular oxygen trapped in polar firn and ice,1,1,NA
+free tropospheric ozone,1,1,NA
+aerosol abundance,1,1,NA
+pollen presence,1,1,NA
+surface and upper air temperatures,2,1,NA
+surface humidity,2,1,NA
+precipitable water vapour,2,1,NA
+precipitation,2,1,NA
+precipitation-evaporation,2,1,NA
+runoff,2,1,NA
+sea level pressure and winds,2,1,NA
+hadley/walker circulation,2,1,NA
+global monsoons,2,1,NA
+strom tracks and jets,2,1,NA
+sudden stratospheric warmings,2,1,NA
+seasonality and thickness,2,1,NA
+terrestrial snow cover,2,1,NA
+glacier mass and extent,2,1,NA
+terrestrial permafrost temperature and active layer thickness,2,1,NA
+sea level,2,1,NA
+circulation,2,1,NA
+ph and desoxygenation,2,1,NA
+seasonal cycle of co2,2,1,NA
+distribution of marine biota,2,1,NA
+primary production of marine biota,2,1,NA
+phenology of marine biota,2,1,NA
+distribution of terrestrial biota,2,1,NA
+global greening/browning,2,1,NA
+growing season of terrestrial biota,2,1,NA
+temperature,2,1,NA
+benthich isotopes,2,1,NA
+marine sediment cores,1,1,NA
+paleo-temperature records,1,1,NA
+zonally averaged mean annual temperature reconstructions,1,1,NA
+subsurface borehole temperature profiles,1,1,NA
+changes in land versus world trade organisation greenbox agricultural subsidies,1,1,NA
+radio occultation,1,1,NA
+global vegetation cover,1,1,NA
+atmospheric dust deposition,1,1,NA
+changes in observed cloud cover,1,1,NA
+satellite observations of precipitation,1,1,NA
+upper tropospheric humidity,1,1,NA
+sh monsoons,1,1,NA
+air moisture,1,1,NA
+loss of older ice,1,1,NA
+mean arctic sea ice area,1,1,NA
+marine sediments,1,1,NA
+whaling records,1,1,NA
+old ship logbooks,1,1,NA
+ice core records,1,1,NA
+early nimbus satellite visible and infrared imagery,1,1,NA
+glacier areal and mass changes/loss rate,1,1,NA
+greenland ice sheet fluctuations,1,1,NA
+marine sediments below the ice sheet,1,1,NA
+speleothem records,1,1,NA
+permafrost-vegetation relationships,1,1,NA
+permafrost temperature,1,1,NA
+ground subsidence,1,1,NA
+thermokarst,1,1,NA
+slope instability,1,1,NA
+ice cores,1,1,NA
+sediment cores,1,1,NA
+reef growth,1,1,NA
+atlantic meridional overturning circulation (amoc),1,1,NA
+seasonal variations in atmospheric co2 concentrations,2,1,NA
+expansion of oligotrophic subtropical gyres of the atlantic and pacific oceans,1,1,NA
+phytoplankton abundance,2,1,NA
+clorophyll concentration,1,1,NA
+phytoplankton community structure,1,1,NA
+distribution of species,1,1,NA
+el niño-southern oscillation (enso) index,2,1,NA
+changes in phytoplankton phenology,2,1,NA
+ocean-colour,1,1,NA
+normalized difference vegetation index (ndvi),2,1,NA
+northernmost location of the treeline,2,1,NA
+ocenan ph,2,1,NA
+north atlantic oscillation (nao) index,2,1,NA
+northern annular mode (nam) index,2,1,NA
+southern annular mode (sam) index,2,1,NA
+world trade organisation greenbox agricultural subsidies,2,1,NA
+oceanic niño index (oni),2,1,NA
+southern oscillation index (soi),2,1,NA
+pacific decadal oscillation (pdo),2,1,NA
+inter-decadal pacific oscillation (ipo) index,2,1,NA
+atlantic multi-decadal variability (amv) index,2,1,NA
+volcanic activity,1,1,NA
+ghg changes,1,1,NA
+aerosol changes,1,1,NA
+tree rings,1,1,NA
+hadley circulation cell,2,1,NA
+sea ice thermodynamic,1,1,NA
+ocean temperature,2,1,NA
+atmosphere-land co2 fluxes,2,1,NA
+land-use and management,2,1,NA
+wildfires,2,1,NA
+indian ocean dipole index (iod),2,1,NA
+indian ocean basin (iob) index,2,1,NA
+pacific decadal variability (pdv),2,1,NA
+indian ocean dipole (ipo),2,1,NA
+ocean salinity,1,1,NA
+global surface air temperature (gsat),2,1,NA
+global land precipitation,2,1,NA
+arctic sea ice area,2,1,NA
+global mean ocean surface ph,2,1,NA
+carbon uptake by land and ocean,2,1,NA
+northern and southern annular modes (nam and sam),2,1,NA
+precipitation index,2,1,NA
+circulation index,2,1,NA
+ocean ph,2,1,NA
+land monsoon precipitation index,2,1,NA
+northern hemisphere summer monsoon circulation index,2,1,NA
+el niño-southern oscillation (enso) index bjerknes index,2,1,NA
+changes in mean precipitation,1,1,NA
+contrast of mean precipitation between dry and wet regions and between dry and wet seasons,1,1,NA
+annular mode index,2,1,NA
+land-use co2 emissions,2,1,NA
+fossil co2 emissions,2,1,NA
+non-co2 fossil-fuel emissions,2,1,NA
+land-use related non-co2 emissions,2,1,NA
+co2 concentration,2,1,NA
+ice core measurements,1,1,NA
+sink rate,1,1,NA
+15n/14n isotope ratio,1,1,NA
+position of 15n atom in atmospheric n2o,1,1,NA
+atmospheric inversions,1,1,NA
+interannual variability of primary production (pp),1,1,NA
+global carbon budget,1,1,NA
+global dust deposition,1,1,NA
+global annual mean tropospheric ozone burden,1,1,NA
+tropospheric no2 abundance,1,1,NA
+satellite formaldehyde (hcho) observations,1,1,NA
+sulphate in precipitation,1,1,NA
+surface warming,2,1,NA
+sectoral emissions density,2,1,NA
+population-weighted pm2.5 concentrations,2,1,NA
+population-weighted ozone concentrations,2,1,NA
+transient climate response tcr,1,1,NA
+equilibrium climate sensitivity ecs,1,1,NA
+surface turbulent fluxes,1,1,NA
+aerosol index,2,1,NA
+ghs effective radiative forcing,2,1,NA
+antarctic ice sheet loss,1,1,NA
+net climate feedback,1,1,NA
+planck temperature response,1,1,NA
+global surface temperature,2,1,NA
+toa energy budget,2,1,NA
+profile of effective radiative forcing (erf),1,1,NA
+emission of particular compounds,1,1,NA
+radiative forcing,1,1,NA
+absolute global forcing potential (agfp),1,1,NA
+absolute global temperature change potential (agtp),1,1,NA
+changes in precipitation frequency and intensity,1,1,NA
+precipiation,1,1,NA
+snowfall,1,1,NA
+soil moisture,1,1,NA
+south pacific convergence zone (spcz),1,1,NA
+inter-tropical convergence zone (itcz) narrowing,1,1,NA
+rainfall,1,1,NA
+poleward shifts in the south atlantic convergence zone (sacz),1,1,NA
+land rainfall over mc,1,1,NA
+marine cloudiness over mc,1,1,NA
+surface moisture flux convergence,1,1,NA
+blocking index,2,1,NA
+water vapour residence time,1,1,NA
+plant water use efficiency (wue),2,1,NA
+palmer drought severity index,2,1,NA
+rainfall variability,1,1,NA
+tropical precipitation,1,1,NA
+atmospheric internal variability,1,1,NA
+volcanic eruptions,1,1,NA
+ocean heat content ohc,1,1,NA
+greenland blocking index,2,1,NA
+bedrock topography,1,1,NA
+grounding line retreat,1,1,NA
+retreat of ice sheet,1,1,NA
+glaciar mass loss,1,1,NA
+lake sediments,1,1,NA
+speleotherm records,1,1,NA
+tide gauge,1,1,NA
+power dissipation index,2,1,NA
+spatiotemporal variability of meteorological parameters,1,1,NA
+surface albedo,1,1,NA
+sedimentary records,1,1,NA
+extreme temperatures,2,1,NA
+daily precipitation,2,1,NA
+daily temperature,2,1,NA
+mean air temperature,2,1,NA
+"changes in the number of warm nights, warm days, cold nights, and cold days",2,1,NA
+warm spell duration index (wsdi),2,1,NA
+combined extreme index (cei),2,1,NA
+minimum temperature,1,1,NA
+reduction in post-volcanic eruption extreme precipitation,2,1,NA
+simple daily intensity index (sdii),2,1,NA
+highest five day precipitation amount (rx5day),2,1,NA
+highest one day precipitation amount (rx1day),2,1,NA
+days of heavy precipitation,2,1,NA
+annual precipitation from daily precipitation > 95th percentile (r95p),2,1,NA
+standardized precipitation index (spi),2,1,NA
+consecutive dry days (cdd),2,1,NA
+precipitation deciles and percentiles,2,1,NA
+potential evaporation anomalies,2,1,NA
+evaporative demand drought index (eddi),2,1,NA
+soil moisture anomalies,2,1,NA
+standardized soil moisture index (ssmi),2,1,NA
+standardized runoff index (sri),2,1,NA
+standardized streamflow index (ssi),2,1,NA
+threshold level methods,2,1,NA
+standardized groundwater index (sgi),2,1,NA
+standardized precipitation evapotranspiration index (spei),2,1,NA
+palmer drought severity index (pdsi),2,1,NA
+precipitation deficits,2,1,NA
+excess of atmospheric evaporative demand (aed),2,1,NA
+soil moisture deficits,2,1,NA
+hydrological deficits,2,1,NA
+atmospheric evaporative demand (aed),1,1,NA
+standardized precipitation index,1,1,NA
+number of consecutive dry days (cdd),1,1,NA
+total soil moisture,1,1,NA
+soil moisture-based drought events,1,1,NA
+surface soil moisture,1,1,NA
+water-balance estimates,1,1,NA
+changes in low flows,1,1,NA
+changes in mean streamflow,1,1,NA
+pan evaporation measurements,1,1,NA
+penman-monteith aed (atmospheric evaporative demand),1,1,NA
+genesis potential index,2,1,NA
+increase in global tc maximum surface wind speeds,2,1,NA
+accumulated cyclone energy (ace),2,1,NA
+standardized runoff index,2,1,NA
+heat index (hi),2,1,NA
+daily maximum tempreature above 35°c,2,1,NA
+climate velocity,1,1,NA
+accumulated seasonal heat,2,1,NA
+extreme canopy temperatures,2,1,NA
+2 m air temperatures,2,1,NA
+heat stress (humidity and temperature),2,1,NA
+10-day cumulative precipitation,2,1,NA
+precipitation intensity-duration thresholds,2,1,NA
+thresholds related to antecedent wet periods,2,1,NA
+thresholds related to antecedent extreme rainfall intensities,2,1,NA
+changes in soil moisture,2,1,NA
+changes in surface water,2,1,NA
+water table depth,2,1,NA
+rooting depth,2,1,NA
+changes in precipitation,2,1,NA
+changes in evapotranspiration demand,2,1,NA
+changes in groundwater,2,1,NA
+water flow volume,2,1,NA
+water intermittency thresholds,2,1,NA
+low-flows days,2,1,NA
+extreme low runoff,2,1,NA
+lightning frequency,1,1,NA
+fuel aridity,1,1,NA
+snow cover,1,1,NA
+local wind circulations,1,1,NA
+snow water equivalent at key seasonal dates,2,1,NA
+fraction of precipitation falling as snow,2,1,NA
+first and last days of snow cover,2,1,NA
+cold season temperatures,2,1,NA
+threshold when the local land elevation falls below the local mean higher high water (mhhw),2,1,NA
+threshold when flooding occurs about once every two weeks,2,1,NA
+rate of rslr (relative sea level rise),2,1,NA
+magnitude of shoreline retreat by a pre-determined planning horizon such as 50 or 100 years into the future,2,1,NA
+beach erosion volume due to the 100-year recurrence storm wave height,2,1,NA
+full exceedance probability distribution of coastal erosion volume,2,1,NA
+cumulative storm energy and storm power index,2,1,NA
+climatic impact-driver (cid) magnitude,2,1,NA
+climatic impact-driver (cid) frequency,2,1,NA
+climatic impact-driver (cid) duration,2,1,NA
+climatic impact-driver (cid) timing,2,1,NA
+climatic impact-driver (cid) spatial extent,2,1,NA
+change in # days tx>35°c,2,1,NA
+change in # days hi>41°c,2,1,NA
+change in # droughts,2,1,NA
+change in # soil moisture,2,1,NA
+change in mean wind,2,1,NA
+change in extreme total water level,2,1,NA
+areas below calcium carbonate saturation thresholds,1,1,NA
+drought index (di),2,1,NA
+drought frequency (df),2,1,NA
+forest fire danger index (ffdi),2,1,NA
+c-haines index,2,1,NA
+combined sea level due to storm surge and tide,2,1,NA
+growing degree days,2,1,NA
+cooling degree days,2,1,NA
+wet bulb globe temperature (wbgt) index,2,1,NA
+maximum temperatures,2,1,NA
+cooling degree day index,2,1,NA
+heat stress index,2,1,NA
+heating degree day index,2,1,NA
+drought severity index,2,1,NA
+shoreline change (indicator of coastal erosion),1,1,NA
+humidity,1,1,NA
+monthly drought code fire index,2,1,NA
+fire weather index (fwi),2,1,NA
+maximum fire weather index,2,1,NA
+convective available potential energy and wind shear,1,1,NA
+degree heating weeks,1,1,NA
+degree heating months,1,1,NA
+maximum daytime heat index,2,1,NA
+regional deficit index,2,1,NA
+fire risk,2,1,NA
+"standardized precipitation
+evapotranspiration index spei",2,1,NA
+wet bulb temperature,1,1,NA

@@ -1,1 +1,7 @@
-IPBES_xxx_Chy_project_template.code-workspace
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+input/automated_search/assessments_to_search
+input/automated_search/extracted_paragraphs

@@ -1,0 +1,178 @@
+indicators_harmonized,Categories,Categories_2,Subcategories,Subcategories_2,usage,meas
+red list of ecosystems,ecosystems,NA,State of ecosystems,NA,1,km_gbf
+extent of natural ecosystems,ecosystems,NA,State of ecosystems,NA,1,km_gbf
+red list index,biodiversity,NA,State of biodiversity,NA,2,"km_gbf,sdg"
+proportion of populations within species with a genetically effective population size > 500,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+percent of land and seas covered by biodiversity-inclusive spatial plans,ecosystems,NA,Area conservation,NA,1,km_gbf
+area under restoration,ecosystems,NA,Restoration efforts,NA,1,km_gbf
+coverage of protected areas and oecms,ecosystems,NA,Area conservation,NA,1,km_gbf
+proportion of fish stocks within biologically sustainable levels,biodiversity,NA,State of biodiversity,NA,2,"km_gbf,sdg"
+rate of invasive alien species establishment,Invasive alien species,NA,Invasive alien species,NA,1,km_gbf
+index of coastal eutrophication potential (icep),ecosystems,Direct drivers,State of ecosystems (integrity),Pollution,2,"km_gbf,sdg"
+percentage of the population in traditional employment,biodiversity,NA,Species conservation,Change in biodiversity,1,km_gbf
+ecosystem intactness index,ecosystems,NA,State of ecosystems (integrity),NA,1,km_gbf
+ecosystem integrity index,ecosystems,NA,State of ecosystems (integrity),NA,1,km_gbf
+species habitat index,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+biodiversity habitat index,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+protected connected (protconn) index,ecosystems,NA,Area conservation,State of ecosystems (coverage),1,km_gbf
+protected area connectedness (parc-connectedness) index,ecosystems,NA,State of ecosystems (configuration),NA,1,km_gbf
+evolutionarily distinct and globally endangered (edge),biodiversity,NA,Genetic diversity,Species conservation,1,km_gbf
+living planet index,ecosystems,NA,State of biodiversity,NA,1,km_gbf
+change in the extent of water-related ecosystems over time,ecosystems,NA,State of ecosystems,Change in ecosystems,2,"km_gbf,sdg"
+red list index (for utilized species),biodiversity,Ecosystem services,State of biodiversity,Nature contribution,1,km_gbf
+living planet index (for used species),ecosystems,Ecosystem services,State of biodiversity,Nature contribution,1,km_gbf
+priority retention of intact / wilderness areas,ecosystems,NA,State of ecosystems (integrity),NA,1,km_gbf
+maintenance and restoration of connectivity of natural ecosystems,ecosystems,NA,Restoration efforts,NA,1,km_gbf
+protected area coverage of key biodiversity areas,ecosystems,NA,Area conservation,NA,1,km_gbf
+protected area management effectiveness (pame),ecosystems,Governance,Area conservation,Nature-based legislation,1,km_gbf
+connectivity indicator,ecosystems,NA,State of ecosystems (configuration),NA,1,km_gbf
+number of protected areas that have completed a site-level assessment of governance and equity (sage),ecosystems,NA,Area conservation,NA,1,km_gbf
+species protection index,biodiversity,NA,Species conservation,NA,1,km_gbf
+number of plant and animal genetic resources secured in medium or long-term conservation facilities,biodiversity,NA,Genetic resources,NA,1,km_gbf
+green status of species index,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+conservation status of species listed in the cites appendices has stabilized or improved,ecosystems,NA,Species conservation,NA,1,km_gbf
+rate of invasive species impact and rate of impact,Invasive alien species,NA,Invasive alien species,NA,1,km_gbf
+rate of invasive alien species spread,Invasive alien species,NA,Invasive alien species,NA,1,km_gbf
+number of invasive alien species introduction events,Invasive alien species,NA,Invasive alien species,NA,1,km_gbf
+floating plastic debris density,ecosystems,Direct drivers,State of ecosystems (integrity),Pollution,1,km_gbf
+red list index (impacts of pollution),biodiversity,Direct drivers,State of biodiversity,Pollution,1,km_gbf
+bioclimatic ecosystem resilience index (beri),ecosystems,NA,State of biodiversity,NA,1,km_gbf
+proportion of bodies of water with good ambient water quality,ecosystems,NA,Abiotic conditions,NA,2,"km_gbf,sdg"
+level of water stress,ecosystems,NA,Abiotic conditions,NA,1,km_gbf
+number of permits or their equivalents for genetic resources (including those related to traditional knowledge) by type of permit,biodiversity,NA,Genetic resources,NA,1,km_gbf
+species status index,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+forest area as a percentage of total land area,ecosystems,NA,State of ecosystems (coverage),NA,2,"km_gbf,sdg"
+forest distribution,ecosystems,NA,State of ecosystems,NA,1,km_gbf
+tree cover loss,biodiversity,NA,Change in biodiversity,NA,1,km_gbf
+grassland and savannah extent,ecosystems,NA,State of ecosystems,NA,1,km_gbf
+mountain green cover index,ecosystems,NA,State of ecosystems (coverage),NA,2,"km_gbf,sdg"
+peatland extent and condition,ecosystems,NA,State of ecosystems (coverage),NA,1,km_gbf
+"permafrost thickness, depth and extent",ecosystems,NA,Abiotic conditions,NA,1,km_gbf
+continuous global mangrove forest area,ecosystems,NA,State of ecosystems (coverage),NA,1,km_gbf
+trends in mangrove forest fragmentation,ecosystems,NA,Change in ecosystems,State of ecosystems (integrity),1,km_gbf
+trends in mangrove extent,ecosystems,NA,Change in ecosystems,NA,1,km_gbf
+live coral cover,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+hard coral cover and composition,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+global coral reef extent,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+global seagrass extent (seagrass cover and composition),biodiversity,NA,State of biodiversity,NA,1,km_gbf
+global saltmarsh extent,ecosystems,NA,State of ecosystems,NA,1,km_gbf
+kelp canopy extent,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+macroalgal canopy cover and composition,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+cover of key benthic groups,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+fleshy algae cover,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+wetland extent trends index,ecosystems,NA,Change in ecosystems,NA,1,km_gbf
+change in the extent of inland water ecosystems over time,ecosystems,NA,State of ecosystems,Change in ecosystems,1,km_gbf
+forest fragmentation index,ecosystems,NA,State of ecosystems,NA,1,km_gbf
+forest landscape integrity index,ecosystems,NA,State of ecosystems,NA,1,km_gbf
+biomass of selected natural ecosystems,ecosystems,NA,State of ecosystems,NA,1,km_gbf
+relative magnitude of fragmentation (rmf),ecosystems,NA,State of ecosystems (integrity),NA,1,km_gbf
+biodiversity intactness index,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+ocean health index,ecosystems,NA,State of ecosystems (freshwater/coastal),NA,1,km_gbf
+river fragmentation index,ecosystems,NA,State of ecosystems (integrity),State of ecosystems (freshwater/coastal),1,km_gbf
+dendritic connectivity index,ecosystems,NA,State of ecosystems,NA,1,km_gbf
+percentage of threatened species that are improving in status,biodiversity,NA,Species conservation,Change in biodiversity,1,km_gbf
+number of threatened species by species group,biodiversity,NA,Species conservation,NA,1,km_gbf
+wild bird index,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+mean species abundance (msa),biodiversity,NA,State of biodiversity,NA,1,km_gbf
+changes in plankton biomass and abundance,biodiversity,NA,Change in biodiversity,NA,1,km_gbf
+fish abundance and biomass,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+genetic scorecard for wild species,biodiversity,NA,Genetic resources,NA,1,km_gbf
+species richness,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+local species richness (predicts),biodiversity,NA,State of biodiversity,NA,1,km_gbf
+marine species richness,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+comprehensiveness of conservation of socioeconomically as well as culturally valuable species,biodiversity,Human assets,Species conservation,Information on biodiversity,1,km_gbf
+number of plant and animal genetic resources for food and agriculture secured in either medium- or long-term conservation facilities,biodiversity,NA,Genetic resources,NA,1,km_gbf
+proportion of local breeds classified as being at risk of extinction,biodiversity,NA,Species conservation,NA,2,"km_gbf,sdg"
+red list index (wild relatives of farmed and domesticated species),biodiversity,Ecosystem services,State of biodiversity,Nature contribution,1,km_gbf
+cms connectivity indicator,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+intact wilderness,ecosystems,NA,State of ecosystems,NA,1,km_gbf
+loss of phylogenetic diversity,biodiversity,NA,Genetic diversity,NA,1,km_gbf
+proportion of populations maintained within species,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+free flowing rivers,ecosystems,NA,State of ecosystems (freshwater/coastal),NA,1,km_gbf
+red list index (pollinators),biodiversity,Ecosystem services,State of biodiversity,Nature contribution,1,km_gbf
+green status index (pollinators),biodiversity,Ecosystem services,State of biodiversity,Nature contribution,1,km_gbf
+air quality index,ecosystems,NA,Abiotic conditions,NA,1,km_gbf
+level of water stress (freshwater withdrawal as a proportion of available freshwater resources),ecosystems,biodiversity,Change in ecosystems,NA,2,"km_gbf,sdg"
+eflow index,ecosystems,NA,State of ecosystems (freshwater/coastal),NA,1,km_gbf
+change in the quality of inland water ecosystems over time,ecosystems,NA,State of ecosystems,Change in ecosystems,1,km_gbf
+change in the quality of coastal water ecosystems over time,ecosystems,NA,State of ecosystems (freshwater/coastal),Change in ecosystems,1,km_gbf
+level of erosion,ecosystems,NA,Abiotic conditions,NA,1,km_gbf
+forestry production and trade (wood fuel),ecosystems,NA,State of ecosystems,NA,1,km_gbf
+red list index (internationally traded species),biodiversity,Ecosystem services,State of biodiversity,Nature contribution,1,km_gbf
+number of users that have provided information relevant to the utilization of genetic resources to designated checkpoints,biodiversity,NA,Genetic resources,NA,1,km_gbf
+habitat patches located within marine protected areas or integrated coastal zone management (iczm),ecosystems,NA,State of ecosystems (marine),NA,1,km_gbf
+percent of total land area that is under cultivation,ecosystems,NA,State of ecosystems,NA,1,km_gbf
+habitat distributional range,ecosystems,NA,State of ecosystems,NA,1,km_gbf
+"index of species rarity sites, high biodiversity areas, large mammal landscapes, intact wilderness and climate stabilization areas",ecosystems,biodiversity,State of ecosystems,Species conservation,1,km_gbf
+increase in secondary natural forest cover,ecosystems,NA,Change in ecosystems,NA,1,km_gbf
+annual tropical primary tree cover loss,ecosystems,NA,Change in ecosystems,NA,1,km_gbf
+global ecosystem restoration index,ecosystems,NA,Area conservation,NA,1,km_gbf
+percentage of cropped landscapes with at least 10 % natural land,ecosystems,NA,State of ecosystems,NA,1,km_gbf
+status of key biodiversity areas,biodiversity,NA,State of biodiversity,NA,1,km_gbf
+"protected area downgrading, downsizing and degazettement (pd)",ecosystems,NA,Change in ecosystems,NA,1,km_gbf
+iucn green list of protected and conserved areas,ecosystems,NA,Area conservation,NA,1,km_gbf
+number of hectares of unesco designated sites (natural and mixed world heritage sites and biosphere reserves),ecosystems,NA,Area conservation,NA,1,km_gbf
+protected area and oecm management effectiveness (mepca) indicator,ecosystems,Governance,Area conservation,Nature-based legislation,1,km_gbf
+protected area isolation index (pai),ecosystems,NA,State of ecosystems (coverage),NA,1,km_gbf
+protected areas network metric (pronet),ecosystems,NA,Area conservation,NA,1,km_gbf
+extent to which protected areas and other effective area-based conservation measures (oecms) cover key biodiversity areas that are important for migratory species,ecosystems,biodiversity,State of ecosystems,State of biodiversity,1,km_gbf
+coverage of protected areas and oecms and traditional territories (by governance type),ecosystems,NA,Area conservation,NA,1,km_gbf
+ramsar management effectiveness tracking tool (r-mett),ecosystems,NA,Area conservation,Species conservation,1,km_gbf
+"proportion of terrestrial, freshwater and marine ecological regions which are conserved by protected areas or other effective area-based conservation measures",ecosystems,NA,Area conservation,NA,1,km_gbf
+species threat abatement and restoration metric,biodiversity,NA,Species conservation,NA,1,km_gbf
+changing status of evolutionary distinct and globally endangered species (edge index),biodiversity,NA,State of biodiversity,Change in biodiversity,1,km_gbf
+red list index (internationally traded species and migratory species),biodiversity,NA,State of biodiversity,NA,1,km_gbf
+number of invasive alien species in national lists as per the global register of introduced and invasive species,Invasive alien species,NA,Invasive alien species,NA,1,km_gbf
+"trends in abundance, temporal occurrence, and spatial distribution of non-indigenous species, particularly invasive, non-indigenous species, notably in risk areas (in relation to the main vectors and pathways of spreading of such species)",biodiversity,Direct drivers,State of biodiversity,Invasive alien species,1,km_gbf
+red list index (impacts of invasive alien species),biodiversity,Direct drivers,State of biodiversity,Invasive alien species,1,km_gbf
+above-ground biomass stock in forest,ecosystems,NA,State of ecosystems (coverage),NA,1,km_gbf
+changes in soil organic carbon stocks,ecosystems,NA,Change in ecosystems,NA,1,km_gbf
+human appropriation of net primary productivity,ecosystems,Direct drivers,State of ecosystems (coverage),Land conversion,1,km_gbf
+proportion of known species assessed through the red list index,biodiversity,NA,Species conservation,NA,1,km_gbf
+number of assessments on the red list index,biodiversity,NA,Species conservation,NA,1,km_gbf
+land tenure [in the traditional territories] of indigenous peoples and local communities [by sex and type of tenure],ecosystems,Knowledge systems,State of ecosystems,ILK,1,km_gbf
+number of plant genetic resources for food and agriculture secured in either medium- or long-term conservation facilities,biodiversity,NA,Genetic resources,NA,1,sdg
+number of animal genetic resources for food and agriculture secured in either medium- or long-term conservation facilities,biodiversity,NA,Genetic resources,NA,1,sdg
+average marine acidity (ph) measured at agreed suite of representative sampling stations,ecosystems,NA,Abiotic conditions,NA,1,sdg
+coverage of protected areas in relation to marine areas,ecosystems,NA,Area conservation,NA,1,sdg
+"proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type",ecosystems,NA,Area conservation,NA,1,sdg
+coverage by protected areas of important sites for mountain biodiversity,ecosystems,NA,Area conservation,NA,1,sdg
+the conservation status of species listed on the cites appendices has stabilized or improved,biodiversity,NA,Change in biodiversity,NA,1,cites
+wild commodities index (migratory species),biodiversity,Knowledge systems,State of biodiversity,Information on biodiversity,1,cms
+trends in threats to migratory species,biodiversity,Knowledge systems,State of biodiversity,Information on biodiversity,1,cms
+red list index (migratory species),biodiversity,Knowledge systems,State of biodiversity,Information on biodiversity,1,cms
+red list index (cms-listed bird species),biodiversity,Knowledge systems,State of biodiversity,Information on biodiversity,1,cms
+red list index (migratory bird species),biodiversity,Knowledge systems,State of biodiversity,Information on biodiversity,1,cms
+red list index (cms-listed bird and mammal species),biodiversity,Knowledge systems,State of biodiversity,Information on biodiversity,1,cms
+living planet index (migratory species),biodiversity,Knowledge systems,State of biodiversity,Information on biodiversity,1,cms
+wild bird index (migratory birds),biodiversity,Knowledge systems,State of biodiversity,Information on biodiversity,1,cms
+trends in distribution of migratory species,biodiversity,Knowledge systems,Change in biodiversity,Information on biodiversity,1,cms
+"trends in conservation status, including connectivity, of identified habitats of key importance for migratory species",biodiversity,Knowledge systems,Change in biodiversity,Information on biodiversity,1,cms
+coverage of key habitats for migratory species in protected areas,ecosystems,Governance,Area conservation,Nature-based legislation,1,cms
+trends in protected area coverage of each key biodiversity area identified for cms-listed bird and mammal species,ecosystems,Governance,Change in ecosystems,Nature-based legislation,1,cms
+trends in protected area coverage of each key biodiversity area identified for migratory bird and mammal species,ecosystems,Governance,Change in ecosystems,Nature-based legislation,1,cms
+management effectiveness of areas protected specifically for migratory species,biodiversity,Governance,Change in biodiversity,Nature-based legislation,1,cms
+trends in delivery of ecosystem services directly dependent on migratory species,ecosystems,Governance,Change in ecosystems,Nature-based legislation,1,cms
+trends in genetic diversity of selected species,biodiversity,biodiversity,Change in biodiversity,Genetic diversity,1,cms
+trends in integration of migratory species concerns in national biodiversity strategies and action plans,biodiversity,Governance,Change in biodiversity,Nature-based legislation,1,cms
+the overall conservation status of wetlands,ecosystems,NA,State of ecosystems (freshwater/coastal),NA,1,ramsar
+status and trends in wetland ecosystem extent,ecosystems,NA,State of ecosystems (freshwater/coastal),NA,1,ramsar
+trends in conservation status - qualitative assessment,ecosystems,NA,Area conservation,NA,1,ramsar
+the status of the ecological character of ramsar sites,ecosystems,NA,State of ecosystems (freshwater/coastal),NA,1,ramsar
+trends in the status of ramsar site ecological character - qualitative assessment,ecosystems,NA,State of ecosystems (freshwater/coastal),NA,1,ramsar
+trends in water quality,ecosystems,NA,State of ecosystems (integrity),NA,1,ramsar
+trends in dissolved nitrate (or nitrogen) concentration,ecosystems,NA,State of ecosystems (integrity),NA,1,ramsar
+trends in biological oxygen demand (bod),ecosystems,NA,State of ecosystems (integrity),NA,1,ramsar
+the frequency of threats affecting ramsar sites,ecosystems,NA,State of ecosystems (integrity),NA,1,ramsar
+the frequency of threats affecting ramsar sites - qualitative assessment,ecosystems,NA,State of ecosystems (integrity),NA,1,ramsar
+wetland sites with successfully implemented conservation or wise use management plans,ecosystems,NA,Area conservation,NA,1,ramsar
+overall population trends of wetland taxa,biodiversity,NA,Change in biodiversity,NA,1,ramsar
+trends in the status of waterbird biogeographic populations,biodiversity,NA,Change in biodiversity,NA,1,ramsar
+changes in threat status of wetland taxa,biodiversity,NA,Change in biodiversity,NA,1,ramsar
+trends in the status of globally-threatened wetland-dependent birds,biodiversity,NA,Change in biodiversity,NA,1,ramsar
+trends in the status of globally-threatened wetland-dependent amphibians,biodiversity,NA,Change in biodiversity,NA,1,ramsar
+the proportion of candidate ramsar sites designated so far for wetland types/features,ecosystems,NA,Area conservation,NA,1,ramsar
+coverage of the wetland resource by designated ramsar sites,ecosystems,NA,Area conservation,NA,1,ramsar
+trends in land cover,ecosystems,NA,Change in biodiversity,NA,1,unccd
+trends in land productivity,ecosystems,NA,Change in biodiversity,NA,1,unccd
+"trends in carbon stocks (above and below ground), which is currently represented by soil organic carbon (soc) stocks",ecosystems,NA,State of ecosystems (integrity),NA,1,unccd

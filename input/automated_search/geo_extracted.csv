@@ -1,0 +1,224 @@
+indicators_harmonized,var_indic,geo_extracted,ILK
+greenhouse gas index (national oceanic and atmospheric administration),2,1,NA
+glacier mass balance,2,1,NA
+northern hemisphere (mar-apr) snow cover,2,1,NA
+specific humidity,2,1,NA
+ocean acidification,2,1,NA
+annual global mean surface temperature,2,1,NA
+world trade organisation greenbox agricultural subsidies,2,1,NA
+marine air temperature,2,1,NA
+sea level,2,1,NA
+tropospheric temperature,2,1,NA
+ocean heat content and specific humidity,2,1,NA
+shrinking of the arctic ice cover,2,1,NA
+increase in the global mean sea level,2,1,NA
+altering of the carbon and biogeochemical cycles,2,1,NA
+extent of ice cover,2,1,NA
+summer arctic sea ice extent,2,1,NA
+climate related loss events,1,1,NA
+poverty,1,1,NA
+zoonotic disease,1,1,NA
+nutrition,1,1,NA
+life expectancy,1,1,NA
+economic growth,1,1,NA
+inclusive societies,1,1,NA
+environmentally friendly policy processes,1,1,NA
+normalized difference vegetation index (ndvi),1,1,NA
+gender-disaggregated agricultural indices,2,1,NA
+agricultural employment and landholders,2,1,NA
+cross-natrional comparative information on access to and ownership of land,2,1,NA
+sex-disaggregated burden-of-disease data,2,1,NA
+underweight children,1,1,NA
+malnutrition,1,1,NA
+food security,1,1,NA
+global human settlement layer (ghsl),2,1,NA
+sustainability and/or environmental themes as one of the general goals of education,2,1,NA
+integration of education for sustainable development (esd) in curricula,2,1,NA
+integration of education for sustainable development (esd) in higher education,2,1,NA
+loss of mass of mountain glaciers and polar ice sheets,2,1,NA
+sea level rise,2,1,NA
+mountain glaciers,2,1,NA
+polar ice sheets,2,1,NA
+antimicrobial resistence in pathogens,2,1,NA
+toxocological potential of nanoparticals,2,1,NA
+greenhouse gas emissions,2,1,NA
+global temperature increase,2,1,NA
+measured concentrations of o in the upper stratospere,1,1,NA
+odss and ghgs,1,1,NA
+o3 concentration,1,1,NA
+ghg emissions,1,1,NA
+pressure ozone trend,1,1,NA
+o recovery,1,1,NA
+national oceanic and atmospheric administration annual greenhouse gas index (aggi),2,1,NA
+air pollution exposure,1,1,NA
+"years of healthy life lost from heart disease, stroke, lung cancer, chronic lung disease and respiratory infections",1,1,NA
+exposure to ambient pm,1,1,NA
+"high blood pressure, smoking, low birth weight, high levels of blood sugar",1,1,NA
+high body mass index,1,1,NA
+premature deaths,1,1,NA
+exposure to high concentrations of pollutants,1,1,NA
+safe level of annual average pm exposure,1,1,NA
+disability-adjusted life years (dalys) lost,1,1,NA
+premature deaths in 2016 to household air pollution,1,1,NA
+ocean health index,2,1,NA
+urban growth,1,1,NA
+land use change,1,1,NA
+habitat loss,1,1,NA
+deforestation,1,1,NA
+road construction,1,1,NA
+red list index,2,1,NA
+living planet index,2,1,NA
+species abundance,2,1,NA
+biodiversity intactness index,2,1,NA
+invertebrate abundance and biomass,1,1,NA
+enhanced vegetation index,2,1,NA
+land cover change,2,1,NA
+arctic species trend index,2,1,NA
+deforestation rate,1,1,NA
+coral bleaching,1,1,NA
+global atmospheric co levels,1,1,NA
+co2 concentration,1,1,NA
+marine litter,2,1,NA
+index of coastal eutrophication potential (icep),2,1,NA
+floating plastic litter density,2,1,NA
+build up area,1,1,NA
+biofuel production,1,1,NA
+fertilizer price,1,1,NA
+maize price,1,1,NA
+wetland area index,2,1,NA
+living planet index (migratory fish),2,1,NA
+water infrastructure,2,1,NA
+"drinking water supply, treatment and distribution",2,1,NA
+"provision of safe, reliable drinking water",2,1,NA
+air quality index,2,1,NA
+us national ambient air quality standards,2,1,NA
+population-weighted annual mean concentration of pm2.5,2,1,NA
+emissions of ozone-depleting substances,2,1,NA
+anthropogenic emissions of long-lived greenhouse gases (co2 equivalents),2,1,NA
+exposure to pm concentrations (population-weighted annual mean concentration of pm2.5),2,1,NA
+pm2.5 emissions,2,1,NA
+so2 emissions,2,1,NA
+no emissions,2,1,NA
+nh3 emissions,2,1,NA
+anthropogenic emissions of long-lived greenhouse gases (ghg emissions),2,1,NA
+global warming potential index,2,1,NA
+global temperature potential,2,1,NA
+city biodiversity index,2,1,NA
+ecological footprint,2,1,NA
+global capacity,2,1,NA
+proportion of countries adopting relevant national legislation and adequately resourcing the prevention or control of invasive alien species,2,1,NA
+presense of endemic species,1,1,NA
+red list index (for utilized species),2,1,NA
+biocapacity,2,1,NA
+willingness-to-participate,2,1,NA
+coverage of protected areas in relation to marine areas,2,1,NA
+beach litter,2,1,NA
+floating plastic debris density,2,1,NA
+nutrient pollution,2,1,NA
+regional seas and action plans,2,1,NA
+stranded debris,2,1,NA
+number of vulnerable marine ecosystems,2,1,NA
+stock status,2,1,NA
+red list of ecosystems,2,1,NA
+proportion of land that is degraded over total land area,2,1,NA
+proportion of terrestrial protected area as a share of the total land area,2,1,NA
+ratio of land consumption rate to population growth rate,2,1,NA
+soil carbon sequestration,2,1,NA
+impacts of agricultural outpic prices on deforestation rates both inside and outside of protected areas,2,1,NA
+forest area as a percentage of total land area,2,1,NA
+resources per capita invested in human settlement per km2,2,1,NA
+"percentage of cities with direct participation structure of civil society in urban planning and management, which operate regularly and democratically",2,1,NA
+ratio of land consumption rate to urban population growth rate at comparable scale,2,1,NA
+proportion of population using safely managed drinking water services,2,1,NA
+proportion of population using safely managed sanitation services,2,1,NA
+freshwater withdrawal as a proportion of available freshwater resources,2,1,NA
+millenium development goals indicators,2,1,NA
+improved/unimproved sources of drinking water,2,1,NA
+proportion of the global population using piped water supplies on premises,2,1,NA
+number of people without access to safe sanitation services,2,1,NA
+improved water supply and sanitation,2,1,NA
+level of water stress (freshwater withdrawal as a proportion of available freshwater resources),2,1,NA
+level of water stress,2,1,NA
+freshwater change over time,2,1,NA
+gender equality,1,1,NA
+empowerment of women and girls,1,1,NA
+reduction of inequality within and among countries,1,1,NA
+quantity of land area known to have (in)sufficient infrastructure against flooding,1,1,NA
+number of residents living in floodplains,1,1,NA
+low-elevation coastal zones,1,1,NA
+network of communication channels in times of crisis or disaster,1,1,NA
+drought-resistant vegetation,1,1,NA
+water- saving devices,1,1,NA
+buffer zones to protect catchment areas,1,1,NA
+amend policies that lead to destruction of mangroves,1,1,NA
+laws preventing recycling of water,1,1,NA
+laws allowing building in vulnerable areas,1,1,NA
+land-use models for efficient farming,1,1,NA
+sustainable fishing practices,1,1,NA
+community awareness,1,1,NA
+ghg emissions from agriculture,2,1,NA
+agricultural emissions from different farming sectors,2,1,NA
+proportion of agricultural area under productive and sustainable agriculture,2,1,NA
+sustainability and nutrient efficiency of national dietary outcomes,2,1,NA
+dietary health and sustainability,2,1,NA
+including annual estimates of national food supplies per capita for each primary commodity and a number of processed commodities that are potentially available for human consumption,2,1,NA
+recommended intake values for the food groups,2,1,NA
+energy production,2,1,NA
+energy consumption,2,1,NA
+achievement of a circular economic system,1,1,NA
+sustainable resource management,1,1,NA
+societal behaviour,1,1,NA
+business operations,1,1,NA
+material flow accounting,1,1,NA
+material flow analysis,1,1,NA
+domestic material consumption,2,1,NA
+under-five child mortality rate,2,1,NA
+pm 2.5 emissions,2,1,NA
+o3 emissions,2,1,NA
+volatile organic compounds emissions,2,1,NA
+pm 10 emissions,2,1,NA
+air quality,2,1,NA
+mortality rate attributable to household and ambient air pollution,2,1,NA
+deaths due to unsafe water,2,1,NA
+sanitation and hygiene,2,1,NA
+mortality from unintentional poisoning,2,1,NA
+percentage of the population exposed to annual mean pm concentrations above the highest interim target of 35 μg/m,2,1,NA
+united nations framework convention on climate change,2,1,NA
+total gobal population living in water scarce areas,2,1,NA
+marine nutirent pollution,2,1,NA
+nutrient runoff into oceans (n and p),2,1,NA
+proportion of fish stocks within biologically sustainable levels,2,1,NA
+trends in soil organic carbon stock,2,1,NA
+number of people living on less than 1.90 usd per day,1,1,NA
+land-use change,2,1,NA
+"changes in terrestrial, marine and freshwater vertebrate populations",2,1,NA
+species dispersal ability,2,1,NA
+projections of global fisheries under an unchanged climate and current management scenario,2,1,NA
+body mass index,1,1,NA
+blood pressure,1,1,NA
+smoking,1,1,NA
+childhood undernutrition,1,1,NA
+alcohol use,1,1,NA
+beef consumption,1,1,NA
+energy-intensity,1,1,NA
+share of low-carbon options,1,1,NA
+measure of income,1,1,NA
+health,1,1,NA
+levels of education,1,1,NA
+low income,1,1,NA
+women and girl’s education,1,1,NA
+inclusive and equitable quality education,1,1,NA
+child mortality,1,1,NA
+fertility rates,1,1,NA
+democracy,1,1,NA
+universal female education,1,1,NA
+piped drinking water,1,1,NA
+advanced malaria control,1,1,NA
+complete phase-out of biomass use for cooking,1,1,NA
+food waste,1,1,NA
+yield (improvement),1,1,NA
+agro-biodiversity,1,1,NA
+forest and land management,1,1,NA
+investment costs of groundwater abstraction and desalination for continued water supply and sanitation of rapidly expanding cities,1,1,NA
+wastewater treatment,1,1,NA
+chemical contaminants,1,1,NA

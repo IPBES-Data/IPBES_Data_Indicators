@@ -1,0 +1,1136 @@
+indicators_harmonized,ga_extracted,sua_extracted,va_extracted,ias_extracted,ipcc_extracted,geo_extracted,ILK_ext,indic_ext,var_ext
+gross domestic product,1,1,1,1,NA,NA,NA,1,1
+human development index (hdi),1,1,1,1,NA,NA,NA,1,NA
+inclusive wealth,1,1,1,NA,NA,NA,NA,1,NA
+gross national happiness index,1,1,1,1,NA,NA,NA,1,NA
+ecological footprint,1,NA,1,NA,NA,1,NA,1,NA
+water footprint,1,NA,NA,NA,NA,NA,NA,1,NA
+percentage of countries that are category 1 cites parties,1,NA,NA,NA,NA,NA,NA,1,NA
+trends in forest extent,1,NA,NA,NA,NA,NA,NA,1,NA
+protected area coverage of key biodiversity areas,1,NA,NA,NA,NA,NA,NA,1,NA
+total wood removals,1,NA,NA,NA,NA,NA,NA,1,NA
+biodiversity habitat index,1,NA,NA,NA,NA,NA,NA,1,NA
+species habitat index,1,NA,NA,NA,NA,NA,NA,1,NA
+forest area as a percentage of total land area,1,NA,NA,NA,NA,1,NA,1,NA
+trends in fisheries certified by the msc,1,NA,NA,NA,NA,NA,NA,1,NA
+estimated fisheries catch and fishing effort,1,NA,NA,NA,NA,NA,NA,1,NA
+proportion of fish stocks within biologically sustainable levels,1,NA,NA,NA,NA,1,NA,1,NA
+inland fishery production,1,NA,NA,NA,NA,NA,NA,1,NA
+marine trophic index (mti),1,NA,NA,NA,NA,NA,NA,1,NA
+proportion of area of forest production under fsc and pefc certification,1,NA,NA,NA,NA,NA,NA,1,NA
+nitrogen use efficiency,1,NA,NA,NA,NA,NA,NA,1,NA
+nitrogen + phosphate fertilizers (n+p205 total nutrients),1,NA,NA,NA,NA,NA,NA,1,NA
+trends in pesticide use,1,NA,NA,NA,NA,NA,NA,1,NA
+trends in nitrogen deposition,1,NA,NA,NA,NA,NA,NA,1,NA
+species protection index,1,NA,NA,NA,NA,NA,NA,1,NA
+protected area management effectiveness (pame),1,NA,NA,NA,NA,NA,NA,1,NA
+protected area connectedness (parc-connectedness) index,1,NA,NA,NA,NA,NA,NA,1,NA
+protected area coverage,1,NA,NA,NA,NA,NA,NA,1,NA
+biodiversity intactness index,1,NA,1,NA,NA,1,NA,1,NA
+red list index,1,1,NA,1,NA,1,NA,1,NA
+proportion of local breeds classified as being at risk of extinction,1,NA,NA,NA,NA,NA,NA,1,NA
+percentage of undernourished people,1,NA,NA,NA,NA,NA,NA,1,NA
+number of countries with developed or revised nbsaps,1,NA,NA,NA,NA,NA,NA,1,NA
+proportion of known species assessed through the red list index,1,NA,NA,NA,NA,NA,NA,1,NA
+species status index,1,NA,NA,NA,NA,NA,NA,1,NA
+living planet index,1,1,NA,NA,NA,1,NA,1,NA
+"number of countries with national instruments on biodiversity-relevant taxes, charges and fees",1,NA,NA,NA,NA,NA,NA,1,NA
+number of countries with national instruments on redd plus schemes,1,NA,NA,NA,NA,NA,NA,1,NA
+trends in potentially harmful elements of government support to agriculture (produced support estimates),1,NA,NA,NA,NA,NA,NA,1,NA
+trends in potentially harmful elements of government support to fisheries,1,NA,NA,NA,NA,NA,NA,1,NA
+number of countries with national instruments on biodiversity relevant tradable permit schemes,1,NA,NA,NA,NA,NA,NA,1,NA
+human appropriation of net primary productivity,1,NA,1,NA,NA,NA,NA,1,NA
+trend in carbon intensity,1,NA,NA,NA,NA,NA,NA,1,NA
+global climate risk index,1,NA,NA,NA,NA,NA,NA,1,NA
+wetland extent trends index,1,NA,NA,NA,NA,NA,NA,1,NA
+global effort in bottom-trawling,1,NA,NA,NA,NA,NA,NA,1,NA
+number and coverage of stocks with adaptive management systems/plans,1,NA,NA,NA,NA,NA,NA,1,NA
+presence of regulations requiring recovery of depleted species,1,NA,NA,NA,NA,NA,NA,1,NA
+policies to secure that mortalities and significant indirect adverse impacts on non-target species are accounted for are in place,1,NA,NA,NA,NA,NA,NA,1,NA
+policies make adequate provisions to minimize impacts of fisheries on threatened species,1,NA,NA,NA,NA,NA,NA,1,NA
+coverage of fisheries with management measures to reduce bycatch and discards,1,NA,NA,NA,NA,NA,NA,1,NA
+proportion of predatory fish,1,NA,NA,NA,NA,NA,NA,1,NA
+mean length of fish,1,NA,NA,NA,NA,NA,NA,1,NA
+biotime-local species richness,1,NA,NA,NA,NA,NA,NA,1,NA
+temporal species turnover,1,NA,NA,NA,NA,NA,NA,1,NA
+overall species abundance,1,NA,NA,NA,NA,NA,NA,1,NA
+non declining exploited species,1,NA,NA,NA,NA,NA,NA,1,NA
+number of world natural heritage sites per country per year,1,NA,NA,NA,NA,NA,NA,1,NA
+nitrogen use balance,1,NA,NA,NA,NA,NA,NA,1,NA
+area of agricultural land under conservation agriculture,1,NA,NA,NA,NA,NA,NA,1,NA
+proportion of agricultural area under productive and sustainable agriculture,1,NA,NA,NA,NA,1,NA,1,NA
+trends in the numbers of invasive alien species introduction events,1,NA,NA,NA,NA,NA,NA,1,NA
+trends in invasive alien species vertebrate eradications,1,NA,NA,NA,NA,NA,NA,1,NA
+"protected area coverage of terrestrial, marine and freshwater ecoregions",1,NA,NA,NA,NA,NA,NA,1,NA
+protected area representativeness index,1,NA,NA,NA,NA,NA,NA,1,NA
+wildlife picture index,1,NA,NA,NA,NA,NA,NA,1,NA
+mean species abundance (msa),1,NA,NA,NA,NA,NA,NA,1,NA
+number of species extinctions,1,NA,NA,1,NA,NA,NA,1,1
+ramsar sites,1,NA,NA,NA,NA,NA,NA,1,NA
+better life index,1,NA,NA,NA,NA,NA,NA,1,NA
+percentage of population using safely managed drinking water services,1,NA,NA,NA,NA,NA,NA,1,NA
+land under cereal production (ha),1,NA,NA,NA,NA,NA,NA,1,NA
+global ecosystem restoration index,1,NA,NA,NA,NA,NA,NA,1,NA
+"number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits",1,NA,NA,NA,NA,NA,NA,1,NA
+global linguistic diversity index and language threat level,1,NA,NA,NA,NA,NA,NA,1,NA
+species occurrence records accessible through the global biodiversity information facility,1,NA,NA,NA,NA,NA,NA,1,NA
+species represented in the barcode of life data system,1,NA,NA,NA,NA,NA,NA,1,NA
+"information provided through the financial reporting framework, adopted by decision xii/3",1,NA,NA,NA,NA,NA,NA,1,NA
+child mortality,1,NA,NA,NA,NA,1,NA,NA,1
+caloric intake,1,NA,NA,NA,NA,NA,NA,NA,1
+per capita consumption,1,NA,NA,NA,NA,NA,NA,NA,1
+value of merchandise being exported,1,NA,NA,NA,NA,NA,NA,NA,1
+mortality rate under 5,1,NA,NA,NA,NA,NA,NA,1,NA
+calorie intake,1,NA,NA,NA,NA,NA,NA,1,NA
+globalization index,1,NA,NA,NA,NA,NA,NA,1,NA
+domestic material consumption,1,NA,NA,NA,NA,1,NA,1,NA
+merchandise exports,1,NA,NA,NA,NA,NA,NA,1,NA
+total population,1,NA,NA,NA,NA,NA,NA,1,NA
+proportion of urban population,1,NA,NA,NA,NA,NA,NA,1,NA
+international migrant stock,1,NA,NA,NA,NA,NA,NA,1,NA
+absence of conflict as indicator of political stability,1,NA,NA,NA,NA,NA,NA,1,NA
+protection of key biodiversity areas,1,NA,NA,NA,NA,NA,NA,1,NA
+income,1,1,NA,NA,NA,NA,NA,1,1
+life expectancy at birth,1,NA,NA,NA,NA,NA,NA,NA,1
+average number of years of schooling,1,NA,NA,NA,NA,NA,NA,NA,1
+linguistic diversity index,1,NA,NA,NA,NA,NA,NA,NA,1
+cultural identity,1,NA,NA,NA,NA,NA,NA,NA,1
+retention over time of indigenous ecological knowledge and practices,1,NA,NA,NA,NA,NA,NA,NA,1
+world happiness index,1,NA,NA,NA,NA,NA,NA,1,NA
+social progress index,1,NA,NA,NA,NA,NA,NA,1,NA
+environmental performance index,1,NA,NA,NA,NA,NA,NA,1,NA
+environmental component of the social sustainability index,1,NA,NA,NA,NA,NA,NA,1,NA
+fertilizer use,1,NA,NA,NA,NA,NA,NA,1,NA
+land use change,1,NA,NA,NA,NA,1,NA,1,1
+extraction of living biomass,1,NA,NA,NA,NA,NA,NA,1,NA
+extraction of non-living materials,1,NA,NA,NA,NA,NA,NA,1,NA
+greenhouse gas emissions,1,NA,NA,NA,NA,1,NA,1,NA
+air pollution,1,NA,NA,NA,NA,NA,NA,1,NA
+alien species richness,1,NA,NA,1,NA,NA,NA,1,1
+access to improved sanitation facilities,1,NA,NA,NA,NA,NA,NA,1,NA
+water quality index (watqi),1,NA,NA,NA,NA,NA,NA,1,NA
+total land footprint,1,NA,NA,NA,NA,NA,NA,1,NA
+percentage of abroad land use footprint,1,NA,NA,NA,NA,NA,NA,1,NA
+percentage of agricultural and urban areas,1,NA,NA,NA,NA,NA,NA,1,NA
+extraction of non-human materials,1,NA,NA,NA,NA,NA,NA,1,NA
+total greenhouse gas emissions per year,1,NA,NA,NA,NA,NA,NA,1,NA
+alien species,1,NA,NA,NA,NA,NA,NA,1,NA
+biomass of prey fish,1,NA,NA,NA,NA,NA,NA,NA,1
+terrestrial vegetation biomass,1,NA,NA,NA,NA,NA,NA,NA,1
+extent of forests,1,NA,NA,NA,NA,NA,NA,NA,1
+tree cover,1,NA,NA,NA,NA,NA,NA,NA,1
+extinction risk,1,NA,NA,NA,NA,NA,NA,NA,1
+"time needed to harvest resources, distance travelled to harvest resources",1,NA,NA,NA,NA,NA,1,NA,1
+culturally salient species,1,NA,NA,NA,NA,NA,1,NA,1
+native newcomer species arrive,1,NA,NA,NA,NA,NA,1,NA,1
+new pests and invasive alien species colonize,1,NA,NA,NA,NA,NA,1,NA,1
+forests and grazing lands loss,1,NA,NA,NA,NA,NA,1,NA,1
+remnant ecosystems degrade,1,NA,NA,NA,NA,NA,1,NA,1
+health condition and body size of wild animals decrease,1,NA,NA,NA,NA,NA,1,NA,1
+tropical forest-monocrop conversions,1,NA,NA,NA,NA,NA,1,NA,1
+expansion of settlements,1,NA,NA,NA,NA,NA,1,NA,1
+discontinued traditional land-management practices,1,NA,NA,NA,NA,NA,1,NA,1
+droughts,1,NA,NA,NA,NA,NA,1,NA,1
+increasingly unpredictable annual distribution of rainfall,1,NA,NA,NA,NA,NA,1,NA,1
+arrival of new native and alien species,1,NA,NA,NA,NA,NA,1,NA,1
+changing range of wild species,1,NA,NA,NA,NA,NA,1,NA,1
+floods,1,NA,NA,NA,NA,NA,1,NA,1
+overexploitation of resources by outsiders and locals,1,NA,NA,NA,NA,NA,1,NA,1
+total richness of endemic species,1,NA,NA,NA,NA,NA,NA,1,NA
+range-size rarity,1,NA,NA,NA,NA,NA,NA,1,NA
+endemism richness,1,NA,NA,NA,NA,NA,NA,1,NA
+weighted endemisms,1,NA,NA,NA,NA,NA,NA,1,NA
+soil organic carbon,1,NA,NA,NA,NA,NA,NA,1,NA
+fraction of ocean not fished per year,1,NA,NA,NA,NA,NA,NA,1,NA
+extent of marine wilderness,1,NA,NA,NA,NA,NA,NA,1,NA
+leaf area index (lai),1,NA,NA,NA,1,NA,NA,1,NA
+vegetation biomass,1,NA,NA,NA,NA,NA,NA,1,NA
+permanent surface water extent,1,NA,NA,NA,NA,NA,NA,1,NA
+above-ground biomass,1,NA,NA,NA,NA,NA,NA,1,NA
+land not cultivated or urban (indigenous lands),1,NA,NA,NA,NA,NA,NA,1,NA
+land not cultivated or urban (hotspots),1,NA,NA,NA,NA,NA,NA,1,NA
+land not cultivated or urban (global),1,NA,NA,NA,NA,NA,NA,1,NA
+extent of suitable habitat,1,NA,NA,NA,NA,NA,NA,1,NA
+mangrove forest area,1,NA,1,NA,NA,NA,NA,1,1
+remaining primary vegetation (indigenous lands),1,NA,NA,NA,NA,NA,NA,1,NA
+coastal protection habitats,1,NA,NA,NA,NA,NA,NA,1,NA
+live coral cover,1,NA,NA,NA,NA,NA,NA,1,NA
+remanining primary vegetations,1,NA,NA,NA,NA,NA,NA,1,NA
+extent of terrestrial wilderness,1,NA,NA,NA,NA,NA,NA,1,NA
+extent of intact forest landscapes,1,NA,NA,NA,NA,NA,NA,1,NA
+coastal carbon-rich habitat,1,NA,NA,NA,NA,NA,NA,1,NA
+seagrass meadow area,1,NA,NA,NA,NA,NA,NA,1,NA
+mean annual change in above-ground biomass,1,NA,NA,NA,NA,NA,NA,1,NA
+biomass turnover rate,1,NA,NA,NA,NA,NA,NA,1,NA
+oceanic carbon sequestration,1,NA,NA,NA,NA,NA,NA,1,NA
+terrestrial c sequestration,1,NA,NA,NA,NA,NA,NA,1,NA
+marine net primary production,1,NA,NA,NA,NA,NA,NA,1,NA
+terrestrial net primary production,1,NA,NA,NA,NA,NA,NA,1,NA
+net primary production remaining in ecosystems,1,NA,NA,NA,NA,NA,NA,1,NA
+evapotranspiration,1,NA,NA,NA,NA,NA,NA,1,NA
+biological pump efficiency,1,NA,NA,NA,NA,NA,NA,1,NA
+local species richness,1,NA,NA,1,NA,NA,NA,1,1
+tropical forest bii (indigenous lands),1,NA,NA,NA,NA,NA,NA,1,NA
+tropical forest bii,1,NA,NA,NA,NA,NA,NA,1,NA
+tropical forest bii (hotspots),1,NA,NA,NA,NA,NA,NA,1,NA
+cumulative introduced invasive aliens,1,NA,NA,NA,NA,NA,NA,1,NA
+bird species per grid cell,1,NA,NA,NA,NA,NA,NA,1,NA
+species richness per grid cell,1,NA,NA,NA,NA,NA,NA,1,NA
+forest-specialist bird species per grid cell,1,NA,NA,NA,NA,NA,NA,1,NA
+functional intactness (madingley),1,NA,NA,NA,NA,NA,NA,1,NA
+global mammal and bird species remaining,1,NA,NA,NA,NA,NA,NA,1,NA
+mammalian range size,1,NA,NA,NA,NA,NA,NA,1,NA
+megafaunal range size,1,NA,NA,NA,NA,NA,NA,1,NA
+wild mammal biomass,1,NA,NA,NA,NA,NA,NA,1,NA
+prey fish biomass,1,NA,NA,NA,NA,NA,NA,1,NA
+wild bird index,1,NA,NA,NA,NA,NA,NA,1,NA
+predatory fish biomass,1,NA,NA,NA,NA,NA,NA,1,NA
+ocean health index,1,NA,NA,NA,NA,1,NA,1,NA
+material ncp,1,NA,NA,NA,NA,NA,NA,1,NA
+biotime species richness indicator,1,NA,NA,NA,NA,NA,NA,1,NA
+predicts species-richness indicator,1,NA,NA,NA,NA,NA,NA,1,NA
+functional intactness (madingley) (madingley),1,NA,NA,NA,NA,NA,NA,1,NA
+red list index (internationally traded species),1,NA,NA,NA,NA,NA,NA,1,NA
+red list index (pollinators),1,NA,NA,NA,NA,NA,NA,1,NA
+red list index (for utilized species),1,NA,NA,NA,NA,1,NA,1,NA
+red list index (wild relatives of farmed and domesticated species),1,NA,NA,NA,NA,NA,NA,1,NA
+human footprint,1,NA,NA,NA,NA,NA,NA,1,NA
+trends of populations of palatable or unpalatable species,1,NA,NA,NA,NA,NA,1,NA,1
+time needed or distance travelled to harvest resources,1,NA,NA,NA,NA,NA,1,NA,1
+native newcomer species,1,NA,NA,NA,NA,NA,1,NA,1
+opening up of forest canopy,1,NA,NA,NA,NA,NA,1,NA,1
+"less biomass, more annuals and shrubs on pastures",1,NA,NA,NA,NA,NA,1,NA,1
+proportion of unpalatable plants on rangelands,1,NA,NA,NA,NA,NA,1,NA,1
+condition and size of wild animals,1,NA,NA,NA,NA,NA,1,NA,1
+net primary production,1,NA,NA,NA,NA,NA,NA,1,NA
+percentage of live coral cover,1,NA,NA,NA,NA,NA,NA,1,NA
+adverse changes in woody or shrubby vegetation,1,NA,NA,NA,NA,NA,NA,NA,1
+adverse changes of unpalatable species,1,NA,NA,NA,NA,NA,NA,NA,1
+global cover of mangroves,1,NA,NA,NA,NA,NA,NA,NA,1
+hallow coral reefs,1,NA,NA,NA,NA,NA,NA,NA,1
+severe global bleaching events,1,NA,NA,NA,NA,NA,NA,NA,1
+pollinator diversity,1,NA,NA,NA,NA,NA,NA,1,NA
+species used for medicine,1,NA,NA,NA,NA,NA,1,1,NA
+crops and their dietary roles,1,NA,NA,NA,NA,NA,1,1,NA
+forest and its role in protecting water sources,1,NA,NA,NA,NA,NA,1,1,NA
+"behavior of animals with importance as food, changes in crop phenology",1,NA,NA,NA,NA,NA,1,1,NA
+development of crop varieties or landraces,1,NA,NA,NA,NA,NA,1,1,NA
+visitation to national parks,1,NA,NA,NA,NA,NA,NA,1,NA
+visitation to urban green spaces,1,NA,NA,NA,NA,NA,NA,1,NA
+connection to land,1,NA,NA,NA,NA,NA,1,1,NA
+connection to sea,1,NA,NA,NA,NA,NA,1,1,NA
+bare area,1,NA,NA,NA,NA,NA,NA,1,NA
+area of floodplain wetlands,1,NA,NA,NA,NA,NA,NA,1,NA
+net primary productivity in forests and on cultivated land,1,NA,NA,NA,NA,NA,NA,1,NA
+cultivated area,1,NA,NA,NA,NA,NA,NA,1,NA
+above-ground biomass in forests,1,NA,NA,NA,NA,NA,NA,1,NA
+medicinal species as a fraction of total vascular plant species,1,NA,NA,NA,NA,NA,NA,1,NA
+geographical overlay of linguistic diversity and biodiversity,1,NA,NA,NA,NA,NA,NA,1,NA
+rate of land use change,1,NA,NA,NA,NA,NA,NA,1,NA
+population size,1,1,NA,NA,NA,NA,1,1,1
+spatial distribution,1,NA,NA,NA,NA,NA,1,NA,1
+animal behavior,1,NA,NA,NA,NA,NA,1,NA,1
+phenology of economically and/or culturally important wild plant and animal species,1,NA,NA,NA,NA,NA,1,NA,1
+distance travelled to reach a resource,1,NA,NA,NA,NA,NA,1,NA,1
+health of the soil,1,NA,NA,NA,NA,NA,1,NA,1
+density of preferred and palatable species,1,NA,NA,NA,NA,NA,1,NA,1
+health of the forest,1,NA,NA,NA,NA,NA,1,1,NA
+encounter rates with supernatural forest dwelling entities,1,NA,NA,NA,NA,NA,1,1,NA
+water availability,1,NA,NA,NA,NA,NA,NA,1,NA
+water available for people relative to demand,1,NA,NA,NA,NA,NA,NA,1,NA
+extent of ecosystems that filter or add constituent components to water,1,NA,NA,NA,NA,NA,NA,1,NA
+reduced concentration of pollutants in water,1,NA,NA,NA,NA,NA,NA,1,NA
+avoided water treatment costs,1,NA,NA,NA,NA,NA,NA,1,NA
+reduced incidence of water borne disease,1,NA,NA,NA,NA,NA,NA,1,NA
+abundance of managed and wild pollinators,1,NA,NA,NA,NA,NA,NA,1,NA
+health associated with intake of pollinator dependent foods,1,NA,NA,NA,NA,NA,NA,1,NA
+natural habitat in agriculture pollen deposition,1,NA,NA,NA,NA,NA,NA,1,NA
+retention and prevented emissions of air pollutants by ecosystems,1,NA,NA,NA,NA,NA,NA,1,NA
+reduced concentrations of pm2.5,1,NA,NA,NA,NA,NA,NA,1,NA
+avoided morbidity and premature mortality from air pollution,1,NA,NA,NA,NA,NA,NA,1,NA
+avoided costs from air pollution,1,NA,NA,NA,NA,NA,NA,1,NA
+prevented emissions and uptake of greenhouse gases by ecosystems,1,NA,NA,NA,NA,NA,NA,1,NA
+reduced concentrations of greenhouse gases in the atmosphere,1,NA,NA,NA,NA,NA,NA,1,NA
+reduction in climate related costs,1,NA,NA,NA,NA,NA,NA,1,NA
+land and ocean carbon sinks,1,NA,NA,NA,NA,NA,NA,1,NA
+reduced ocean acidification,1,NA,NA,NA,NA,NA,NA,1,NA
+seafood availability due to ocean acidification,1,NA,NA,NA,NA,NA,NA,1,NA
+extent of marine calcification benefits from coral reefs,1,NA,NA,NA,NA,NA,NA,1,NA
+soil quality impact on crop production,1,NA,NA,NA,NA,NA,NA,1,NA
+ability of ecosystems to absorb and buffer hazards,1,NA,NA,NA,NA,NA,NA,1,NA
+reduced incidence and severity of hazards,1,NA,NA,NA,NA,NA,NA,1,NA
+reduced morbidity and premature mortality due to natural hazards,1,NA,NA,NA,NA,NA,NA,1,NA
+reduced property loss due to natural hazards,1,NA,NA,NA,NA,NA,NA,1,NA
+natural habitat in agriculture,1,NA,NA,NA,NA,NA,NA,1,NA
+reduced food spoilage,1,NA,NA,NA,NA,NA,NA,1,NA
+reduced net farm income loss from pests and diseases,1,NA,NA,NA,NA,NA,NA,1,NA
+diversity of competent hosts of vector-borne diseases,1,NA,NA,NA,NA,NA,NA,1,NA
+reduced risk of disease transmission,1,NA,NA,NA,NA,NA,NA,1,NA
+reduced incidence of infectious diseases,1,NA,NA,NA,NA,NA,NA,1,NA
+extent of agricultural land,1,NA,NA,NA,NA,NA,NA,1,NA
+energy content of bioenergy crops,1,NA,NA,NA,NA,NA,NA,1,NA
+revenue from bioenergy production,1,NA,NA,NA,NA,NA,NA,1,NA
+production of fuelwood,1,NA,NA,NA,NA,NA,NA,1,NA
+energy security from bio-energy and fuelwood,1,NA,NA,NA,NA,NA,NA,1,NA
+food produced (kcal),1,NA,NA,NA,NA,NA,NA,1,NA
+food quality (nutrients),1,NA,NA,NA,NA,NA,NA,1,NA
+reduced malnutrition,1,NA,NA,NA,NA,NA,NA,1,NA
+marine stocks,1,NA,NA,NA,NA,NA,NA,1,NA
+reduced hunger,1,NA,NA,NA,NA,NA,NA,1,NA
+seafood produced (kcal),1,NA,NA,NA,NA,NA,NA,1,NA
+agriculture-based materials produced (tons),1,NA,NA,NA,NA,NA,NA,1,NA
+employment in materials production,1,NA,NA,NA,NA,NA,NA,1,NA
+timber production (m3),1,NA,NA,NA,NA,NA,NA,1,NA
+revenue from forestry,1,NA,NA,NA,NA,NA,NA,1,NA
+fraction of species known to be medicinal,1,NA,NA,NA,NA,NA,NA,1,NA
+natural medicinal products and manufactured bio-derived medicines,1,NA,NA,NA,NA,NA,NA,1,NA
+improved health from natural medicines or bio-derived medicines,1,NA,NA,NA,NA,NA,NA,1,NA
+phylogenetic diversity,1,NA,NA,NA,NA,NA,NA,1,NA
+gene bank accession and available genetic resources,1,NA,NA,NA,NA,NA,NA,1,NA
+proximity of people and nature,1,NA,NA,NA,NA,NA,NA,1,NA
+ideas and products mimicking or inspired by nature,1,NA,NA,NA,NA,NA,NA,1,NA
+economic value of bio-inspired production,1,NA,NA,NA,NA,NA,NA,1,NA
+diversity of life from which to learn,1,NA,NA,NA,NA,NA,NA,1,NA
+area of natural and traditional landscapes and seascapes,1,NA,NA,NA,NA,NA,NA,1,NA
+"visitation rates to natural terrestrial, coastal, and marine areas",1,NA,NA,NA,NA,NA,NA,1,NA
+"increased awareness, care, mental health, cultural security, life satisfaction - urban",1,NA,NA,NA,NA,NA,NA,1,NA
+"increased awareness, care, mental health, cultural security, life satisfaction - rural and iplc",1,NA,NA,NA,NA,NA,NA,1,NA
+"daily exposure natural terrestrial, coastal and marine areas",1,NA,NA,NA,NA,NA,NA,1,NA
+stability of land use and land cover,1,NA,NA,NA,NA,NA,NA,1,NA
+identity value - urban,1,NA,NA,NA,NA,NA,NA,1,NA
+identity value - rural and iplc,1,NA,NA,NA,NA,NA,NA,1,NA
+visitation to natural areas,1,NA,NA,NA,NA,NA,NA,1,NA
+percentage of population living in dense urban areas,1,NA,NA,NA,NA,NA,NA,1,NA
+historic land use change since 1970,1,NA,NA,NA,NA,NA,NA,1,NA
+leaf surface area,1,NA,NA,NA,NA,NA,NA,NA,1
+net carbon sequestration,1,NA,NA,NA,NA,NA,NA,NA,1
+transfer of water to the atmosphere,1,NA,NA,NA,NA,NA,NA,NA,1
+biotic productivity,1,NA,NA,NA,NA,NA,NA,NA,1
+extent of protected and intact habitat globally,1,NA,NA,NA,NA,NA,NA,1,NA
+correlation between high cultural diversity and areas of high biodiversity,1,NA,NA,NA,NA,NA,NA,NA,1
+population extinctions,1,NA,NA,NA,NA,NA,NA,NA,1
+range contractions,1,NA,NA,NA,NA,NA,NA,NA,1
+biomass abundance,1,NA,NA,NA,NA,NA,NA,1,NA
+production,1,NA,NA,NA,NA,NA,NA,1,NA
+species distribution area and shift,1,NA,NA,NA,NA,NA,NA,1,NA
+species richness,1,NA,NA,1,NA,NA,NA,1,1
+habitat area and quality,1,NA,NA,NA,NA,NA,NA,1,NA
+organisms` size or growth,1,NA,NA,NA,NA,NA,NA,1,NA
+reproduction rate,1,NA,NA,NA,NA,NA,NA,1,NA
+"pest, invasive or harmful species",1,NA,NA,NA,NA,NA,NA,1,NA
+c pool,1,NA,NA,NA,NA,NA,NA,1,NA
+global sclae ecosystem carbon storage,1,NA,NA,NA,NA,NA,NA,1,NA
+adaptive capacity index (aci),1,NA,NA,NA,NA,NA,NA,1,NA
+oecd better life index,1,NA,NA,NA,NA,NA,NA,1,NA
+sustainable development goals (sdg) index,1,NA,NA,NA,NA,NA,NA,1,NA
+marine stewardship council certified fisheries,1,NA,NA,NA,NA,NA,NA,1,NA
+cumulative human impacts on marine ecosystems,1,NA,NA,NA,NA,NA,NA,1,NA
+average conservation status,1,NA,NA,NA,NA,NA,NA,1,NA
+extent of suitable habitat index (esh),1,NA,NA,NA,NA,NA,NA,1,NA
+species area relationship,1,NA,NA,NA,NA,NA,NA,1,NA
+happy planet index,1,NA,NA,NA,NA,NA,NA,1,NA
+gini index,1,NA,NA,NA,NA,NA,NA,1,NA
+rule of law index,1,NA,NA,NA,NA,NA,NA,1,NA
+water quality risk index,1,NA,NA,NA,NA,NA,NA,1,NA
+mibid index,1,NA,NA,NA,NA,NA,NA,1,NA
+commodity index,1,NA,NA,NA,NA,NA,NA,1,NA
+index of sustainable economic welfare (isew),1,NA,1,NA,NA,NA,NA,1,NA
+genuine progress indicator,1,NA,1,1,NA,NA,NA,1,NA
+biodiversity barometer (% of respondents that have heard of biodiversity),1,NA,NA,NA,NA,NA,NA,1,NA
+biodiversity barometer (% of respondents giving correct definition of biodiversity),1,NA,NA,NA,NA,NA,NA,1,NA
+funding for environmental education,1,NA,NA,NA,NA,NA,NA,1,NA
+online interest in biodiversity (proportion of google searches),1,NA,NA,NA,NA,NA,NA,1,NA
+funding for environmental impact assessments,1,NA,NA,NA,NA,NA,NA,1,NA
+number of research studies involving economic valuation,1,NA,NA,NA,NA,NA,NA,1,NA
+world trade organisation greenbox agricultural subsidies,1,NA,NA,NA,1,1,NA,1,NA
+funding towards institutional capacity building in fisheries,1,NA,NA,NA,NA,NA,NA,1,NA
+human appropriation of fresh water,1,NA,NA,NA,NA,NA,NA,1,NA
+wild bird index (habitat specialists),1,NA,NA,NA,NA,NA,NA,1,NA
+red list index (forest specialists),1,NA,NA,NA,NA,NA,NA,1,NA
+red list index (impacts of fisheries),1,NA,NA,NA,NA,NA,NA,1,NA
+wild bird index (farmland birds),1,NA,NA,NA,NA,NA,NA,1,NA
+area of agricultural land under organic production,1,NA,NA,NA,NA,NA,NA,1,NA
+online interest inbiodiversity (proportion of google searches),1,NA,NA,NA,NA,NA,NA,1,NA
+proportion of countries that are category 1 signatories to the convention on international trade in endangered species of wild fauna and flora (cites),1,NA,NA,NA,NA,NA,NA,NA,1
+growth in human appropriation of net primary productivity,1,NA,NA,NA,NA,NA,NA,1,NA
+demand for greener products and services,1,NA,NA,NA,NA,NA,NA,1,NA
+green consumption,1,NA,NA,NA,NA,NA,NA,1,NA
+annual rate of net forest loss,1,NA,NA,NA,NA,NA,NA,1,NA
+climatic impact index,1,NA,NA,NA,NA,NA,NA,1,NA
+proportion of sites in the world database on protected areas reporting shared governance,1,NA,NA,NA,NA,NA,NA,1,NA
+number of extintions,1,NA,NA,NA,NA,NA,NA,NA,1
+proportion of domesticated breeds categorized as at risk or extinct,1,NA,NA,NA,NA,NA,NA,NA,1
+extinction risk of wild relatives of domesticated or farmed birds and mammals,1,NA,NA,NA,NA,NA,NA,NA,1
+red list index (vertebrate pollinators),1,NA,NA,NA,NA,NA,NA,1,NA
+number of countries implementing nbsaps,1,NA,NA,NA,NA,NA,NA,1,NA
+numbers of scientific publications on biodiversity,1,NA,NA,NA,NA,NA,NA,1,NA
+relevant research funding,1,NA,NA,NA,NA,NA,NA,1,NA
+taxa assessed for the red list index,1,NA,NA,NA,NA,NA,NA,1,NA
+species with data included in the global biodiversity information facility,1,NA,NA,NA,NA,NA,NA,1,NA
+mean polar sea ice extent,1,NA,NA,NA,NA,NA,NA,1,NA
+official development assistance provided in support of the cbd objectives,1,NA,NA,NA,NA,NA,NA,1,NA
+pesticide use,1,NA,NA,NA,NA,NA,NA,1,NA
+glacial mass balance,1,NA,NA,NA,NA,NA,NA,1,NA
+red list index (birds and mammals),1,NA,NA,NA,NA,NA,NA,1,NA
+red list index (impacts of pollution),1,NA,NA,NA,NA,NA,NA,1,NA
+percentage of freshwater key biodiversity areas covered by protected areas,1,NA,NA,NA,NA,NA,NA,1,NA
+marine stewardship council engaged fisheries,1,NA,NA,NA,NA,NA,NA,1,NA
+percentage of marine and coastal areas covered by protected areas,1,NA,NA,NA,NA,NA,NA,1,NA
+percentage of marine key biodiversity areas covered by protected areas,1,NA,NA,NA,NA,NA,NA,1,NA
+percentage of terrestrial ecoregions covered by protected areas,1,NA,NA,NA,NA,NA,NA,1,NA
+number of protected area management effectiveness (pame) assessments,1,NA,1,NA,NA,NA,NA,1,NA
+area of forest under sustainable management: total forest management certification by forest stewardship council and programme for the endorsement of forest certification,1,NA,NA,NA,NA,NA,NA,1,NA
+coverage by protected areas of important sites for mountain biodiversity,1,NA,NA,NA,NA,NA,NA,1,NA
+climatic impact index for birds,1,NA,NA,NA,NA,NA,NA,1,NA
+number of invasive alien species introduction events,1,NA,NA,NA,NA,NA,NA,1,NA
+percentage of countries with invasive alien species legislation,1,NA,NA,NA,NA,NA,NA,1,NA
+red list index (impacts of invasive alien species),1,NA,NA,NA,NA,NA,NA,1,NA
+biochemical oxygen demand (bod),1,NA,NA,NA,NA,NA,NA,1,NA
+nitrogen (n) loads,1,NA,NA,NA,NA,NA,NA,1,NA
+phosphorus (p) loads,1,NA,NA,NA,NA,NA,NA,1,NA
+total dissolved solids (tds),1,NA,NA,NA,NA,NA,NA,1,NA
+blue water sustainability index,1,NA,NA,NA,NA,NA,NA,1,NA
+multidimensional poverty index,1,1,NA,NA,NA,NA,NA,1,NA
+individual deprivation measure,1,NA,NA,NA,NA,NA,NA,1,NA
+city biodiversity index,1,NA,NA,NA,NA,1,NA,1,NA
+co2 emissions,1,NA,NA,NA,NA,NA,NA,NA,1
+air quality,1,NA,NA,NA,NA,1,NA,1,1
+water quality,1,NA,NA,NA,NA,NA,NA,NA,1
+proportion of the rural population who live within 2 km of an all-season road,1,NA,NA,NA,NA,NA,NA,1,NA
+passenger and freight volumes by mode of transport,1,NA,NA,NA,NA,NA,NA,1,NA
+migratory birds threatened or near threatened on the red list index,1,NA,NA,NA,NA,NA,NA,1,NA
+fisheries stock size,1,NA,NA,NA,NA,NA,NA,1,NA
+fisheries exploitation rates,1,NA,NA,NA,NA,NA,NA,1,NA
+arctic species trend index,1,NA,NA,NA,NA,1,NA,1,NA
+number of countries that have ratified the nagoya protocol,1,NA,NA,NA,NA,NA,NA,1,NA
+number of countries with policies to secure that [fish] mortalities are accounted for and kept within safe biological limits,NA,1,NA,NA,NA,NA,NA,1,NA
+number of countries with regulations requiring recovered of depleted species,NA,1,NA,NA,NA,NA,NA,1,NA
+marine stewardship council certified catch,NA,1,NA,NA,NA,NA,NA,1,NA
+share of main groups of species in fish trade in terms of value,NA,1,NA,NA,NA,NA,NA,1,NA
+importance of forests to people,NA,1,NA,NA,NA,NA,NA,1,NA
+"area and percent of forests managed primarily to protect the range of cultural, social and spiritual needs and values",NA,1,NA,NA,NA,NA,NA,1,NA
+recognition and value of forest-management knowledge and skills of local people,NA,1,NA,NA,NA,NA,NA,1,NA
+area and percent of forests used for subsistence purposes,NA,1,NA,NA,NA,NA,NA,1,NA
+resilience of forest-dependent communities,NA,1,NA,NA,NA,NA,NA,1,NA
+ecolabel index,NA,1,NA,NA,NA,NA,NA,1,NA
+quality and abundance of food and medicine species,NA,1,NA,NA,NA,NA,NA,1,NA
+habitat quality,NA,1,NA,NA,NA,NA,NA,1,NA
+harvest intensity,NA,1,NA,NA,NA,NA,NA,1,NA
+sharing and trading institutions,NA,1,NA,NA,NA,NA,NA,1,NA
+accessibility of resources,NA,1,NA,NA,NA,NA,NA,1,NA
+weather patterns,NA,1,NA,NA,NA,NA,NA,1,NA
+cultural continuity,NA,1,NA,NA,NA,NA,NA,1,NA
+abnormal occurrences in the territory,NA,1,NA,NA,NA,NA,NA,1,NA
+abundance of food species,NA,1,NA,NA,NA,NA,NA,1,NA
+catch per unit effort,NA,1,NA,NA,NA,NA,NA,1,NA
+spatial distribution of species,NA,1,NA,NA,NA,NA,NA,1,NA
+associated species,NA,1,NA,NA,NA,NA,NA,1,NA
+cyclical patterns of abundance,NA,1,NA,NA,NA,NA,NA,1,NA
+prevalence of certain species,NA,1,NA,NA,NA,NA,1,1,NA
+sounds associated with the forest,NA,1,NA,NA,NA,NA,1,1,NA
+intensity of weather,NA,1,NA,NA,NA,NA,1,1,NA
+strength of people’s connection to the forest,NA,1,NA,NA,NA,NA,1,1,NA
+body condition,NA,1,NA,NA,NA,NA,1,1,NA
+variability in migration patterns,NA,1,NA,NA,NA,NA,1,1,NA
+environmental change,NA,1,NA,NA,NA,NA,1,1,NA
+hunting success,NA,1,NA,NA,NA,NA,1,1,NA
+prevalence of knowledge about seasonal cycles in their communities,NA,1,NA,NA,NA,NA,1,1,NA
+mean body mass,NA,1,NA,NA,NA,NA,1,1,NA
+abundance of preferred harvest species,NA,1,NA,NA,NA,NA,1,1,NA
+number of publications,NA,1,NA,NA,NA,NA,NA,1,NA
+impact of agricultural habitat conversion on birds,NA,1,NA,NA,NA,NA,NA,NA,1
+loss of lichen diversity,NA,1,NA,NA,NA,NA,NA,1,NA
+farmland bird index,NA,1,NA,NA,NA,NA,NA,1,NA
+quality of governance index,NA,1,NA,NA,NA,NA,NA,1,NA
+number of cites parties that have adopted standard procedures for non-detrimental findings,NA,1,NA,NA,NA,NA,NA,1,NA
+number of surveys of cites listed species undertaken by exporting states to support non-detrimental findings,NA,1,NA,NA,NA,NA,NA,1,NA
+number of appendix-ii species for which trade is determined to be non-detrimental to the survival of the species as a result of implementing recommendations from the review of significant trade,NA,1,NA,NA,NA,NA,NA,1,NA
+uplisting of species or populations from appendix ii to appendix i,NA,1,NA,NA,NA,NA,NA,1,NA
+number of cites parties with increased capacity,NA,1,NA,NA,NA,NA,NA,1,NA
+cites parties that have implemented relevant resolutions and decisions,NA,1,NA,NA,NA,NA,NA,1,NA
+commercial trade in wild-collected specimens,NA,1,NA,NA,NA,NA,NA,1,NA
+body fat,NA,1,NA,NA,NA,NA,1,1,NA
+reproductive success,NA,1,NA,NA,NA,NA,1,1,NA
+abundance and location of habitat,NA,1,NA,NA,NA,NA,1,1,NA
+habitat conditions,NA,1,NA,NA,NA,NA,1,1,NA
+access to land,NA,1,NA,NA,NA,NA,NA,1,NA
+material wealth,NA,1,NA,NA,NA,NA,NA,NA,1
+trade in wild mammals,NA,1,NA,NA,NA,NA,NA,NA,1
+trade in wild animals,NA,1,NA,NA,NA,NA,NA,NA,1
+governance index,NA,1,NA,NA,NA,NA,NA,1,NA
+catch per unit per effort,NA,1,NA,NA,NA,NA,NA,NA,1
+undp human development dashboard,NA,NA,1,NA,NA,NA,NA,1,NA
+sustainability dashboard,NA,NA,1,NA,NA,NA,NA,1,NA
+genetic diversity,NA,NA,1,NA,NA,NA,NA,1,NA
+endemic species richness,NA,NA,1,NA,NA,NA,NA,1,NA
+environmental awareness,NA,NA,1,NA,NA,NA,NA,1,NA
+inclusion of historically disadvantaged stakeholders,NA,NA,1,NA,NA,NA,NA,1,NA
+willingness to pay to protect nature or improve ecosystem services,NA,NA,1,NA,NA,NA,NA,1,NA
+willingness to allocate time for nature´s contributions to people conservation,NA,NA,1,NA,NA,NA,NA,1,NA
+number of rare or threatened species,NA,NA,1,NA,NA,NA,NA,1,NA
+structural and functional connectivity of habitat,NA,NA,1,NA,NA,NA,NA,1,NA
+proportion of population exposed to air pollution,NA,NA,1,NA,NA,NA,NA,1,NA
+photo-rankings,NA,NA,1,NA,NA,NA,NA,1,NA
+spatial densities of relational values in an area,NA,NA,1,NA,NA,NA,NA,1,NA
+ethnographic accounts,NA,NA,1,NA,NA,NA,NA,1,NA
+themes in a text representing nature´s values,NA,NA,1,NA,NA,NA,NA,1,NA
+benefits derived from healthy ecosystems and costs caused by its depletion,NA,NA,1,NA,NA,NA,NA,1,NA
+stock values of natural capital,NA,NA,1,NA,NA,NA,NA,1,NA
+sustainable development goals index,NA,NA,1,NA,NA,NA,NA,1,NA
+planetary pressures adjusted human development index (hdi),NA,NA,1,NA,NA,NA,NA,1,NA
+sustainable well-being index (swi),NA,NA,1,NA,NA,NA,NA,1,NA
+united nations system of environmental economic accounting,NA,NA,1,NA,NA,NA,NA,1,NA
+reduced cost of road construction,NA,NA,1,NA,NA,NA,NA,NA,1
+reduced cost of road maintenance,NA,NA,1,NA,NA,NA,NA,NA,1
+fewer lives lost,NA,NA,1,NA,NA,NA,NA,NA,1
+livelihood dependence,NA,NA,1,NA,NA,NA,NA,NA,1
+use of natural resource,NA,NA,1,NA,NA,NA,NA,NA,1
+peoples’ preferences or spending on safeguarding biodiversity and ecosystem services,NA,NA,1,NA,NA,NA,NA,NA,1
+appearance of new grass in grazing areas,NA,NA,1,NA,NA,NA,1,1,NA
+rate of use of pesticides,NA,NA,1,NA,NA,NA,NA,1,NA
+rate of wood removal,NA,NA,1,NA,NA,NA,NA,1,NA
+corruption perception index,NA,NA,1,NA,NA,NA,NA,1,NA
+life satisfaction,NA,NA,1,NA,NA,NA,NA,1,NA
+happiness,NA,NA,1,NA,NA,NA,NA,1,NA
+number of photos taken by the public in an advert to indicate aesthetic values,NA,NA,1,NA,NA,NA,NA,1,NA
+photo series analysis using social media,NA,NA,1,NA,NA,NA,NA,1,NA
+number of wildlife pictures posted on a photo-sharing website,NA,NA,1,NA,NA,NA,NA,1,NA
+global index on indigenous peoples' well-being,NA,NA,1,NA,NA,NA,NA,1,NA
+holistic health model,NA,NA,1,NA,NA,NA,NA,1,NA
+living conditions in the arctic,NA,NA,1,NA,NA,NA,NA,1,NA
+willingness to give up access to land or other resources to protect nature,NA,NA,1,NA,NA,NA,NA,1,NA
+costs associated with protecting nature and biodiversity,NA,NA,1,NA,NA,NA,NA,1,NA
+costs associated with maintaining ncps of past or future projects,NA,NA,1,NA,NA,NA,NA,1,NA
+social welfare function (swf),NA,NA,1,NA,NA,NA,NA,1,NA
+"number of countries implementing natural resource accounts, excluding energy, within the system of environmental economic accounting",NA,NA,1,NA,NA,NA,NA,1,NA
+biodiversity in poverty reduction strategies,NA,NA,1,NA,NA,NA,NA,NA,1
+biophysical inventories of biodiversity and ecosystem services,NA,NA,1,NA,NA,NA,NA,NA,1
+companies with policies for biodiversity-friendly practices,NA,NA,1,NA,NA,NA,NA,NA,1
+national accounts reflecting state of biodiversity and ecosystem services,NA,NA,1,NA,NA,NA,NA,NA,1
+number of countries implementing the system of environmental economic accounting,NA,NA,1,NA,NA,NA,NA,1,NA
+"number of countries that have integrated biodiversity values into national accounting and reporting systems, defined as implementation of the system of environmental-economic accounting (seea)",NA,NA,1,NA,NA,NA,NA,1,NA
+gross ecosystem product,NA,NA,1,NA,NA,NA,NA,1,NA
+sustainable economic welfare (isew),NA,NA,1,NA,NA,NA,NA,1,NA
+sustainable development index (sdi),NA,NA,1,NA,NA,NA,NA,1,NA
+gross national happiness index of bhutan,NA,NA,1,NA,NA,NA,NA,1,NA
+green gross domestic product,NA,NA,1,NA,NA,NA,NA,1,NA
+extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in national education policies,NA,NA,1,NA,NA,NA,NA,1,NA
+extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in curricula,NA,NA,1,NA,NA,NA,NA,1,NA
+extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in teacher education,NA,NA,1,NA,NA,NA,NA,1,NA
+extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in student assessment,NA,NA,1,NA,NA,NA,NA,1,NA
+nature risk index,NA,NA,1,NA,NA,NA,NA,1,NA
+climate risk index,NA,NA,1,NA,NA,NA,NA,1,NA
+invasive alien species are given new names by indigenous peoples and local communities,NA,NA,NA,1,NA,NA,1,NA,1
+total imports,NA,NA,NA,1,NA,NA,NA,NA,1
+human population size,NA,NA,NA,1,NA,NA,NA,NA,1
+number of tourists,NA,NA,NA,1,NA,NA,NA,NA,1
+proportion of cropland,NA,NA,NA,1,NA,NA,NA,NA,1
+proportion of urban area,NA,NA,NA,1,NA,NA,NA,NA,1
+ship calls,NA,NA,NA,1,NA,NA,NA,NA,1
+number of people migrating,NA,NA,NA,1,NA,NA,NA,NA,1
+temperature,NA,NA,NA,1,1,NA,NA,1,1
+number of studies on ias available per region,NA,NA,NA,1,NA,NA,NA,1,NA
+number of widespread phyla for which no information was available for a particular region,NA,NA,NA,1,NA,NA,NA,NA,1
+comparison of the number of available first records of established alien species for a region with the total number of species recorded for the same region,NA,NA,NA,1,NA,NA,NA,1,NA
+total number of introduced alien species,NA,NA,NA,1,NA,NA,NA,NA,1
+rate of species accumulation,NA,NA,NA,1,NA,NA,NA,NA,1
+current distribution of species,NA,NA,NA,1,NA,NA,NA,NA,1
+human population density,NA,NA,NA,1,NA,NA,NA,NA,1
+mean annual precipitation,NA,NA,NA,1,NA,NA,NA,NA,1
+mean annual temperature,NA,NA,NA,1,NA,NA,NA,NA,1
+evolutionary diversity,NA,NA,NA,1,NA,NA,NA,NA,1
+tree biomass,NA,NA,NA,1,NA,NA,NA,NA,1
+phylogenetic distance,NA,NA,NA,1,NA,NA,NA,NA,1
+concentration of hydrogen ions (h+),NA,NA,NA,1,NA,NA,NA,NA,1
+number of species at risk of extinction,NA,NA,NA,1,NA,NA,NA,NA,1
+mean body length,NA,NA,NA,1,NA,NA,NA,NA,1
+growth rates,NA,NA,NA,1,NA,NA,NA,1,NA
+condition index,NA,NA,NA,1,NA,NA,NA,1,NA
+totem or culturally important species,NA,NA,NA,1,NA,NA,1,1,NA
+functional diversity,NA,NA,NA,1,NA,NA,NA,NA,1
+proportion of countries adopting relevant national legislation and adequately resourcing the prevention or control of invasive alien species,NA,NA,NA,1,NA,1,NA,1,NA
+macroinvertebrate-based indices,NA,NA,NA,1,NA,NA,NA,NA,1
+trends in pathways of introduction and spread,NA,NA,NA,1,NA,NA,NA,1,NA
+trends in numbers of invasive alien species and their impacts,NA,NA,NA,1,NA,NA,NA,1,NA
+"trends, mechanisms and severity of invasive alien species impacts",NA,NA,NA,1,NA,NA,NA,1,NA
+trends in the allocation of resources towards the prevention or control of invasive alien spcies,NA,NA,NA,1,NA,NA,NA,1,NA
+trends in establishment and national adoption of international agreements relevant to the prevention and control of invasive alien species,NA,NA,NA,1,NA,NA,NA,1,NA
+trends in numbers of countries with national legislation and other policy measures relevant to the prevention and/or control of invasive alien species,NA,NA,NA,1,NA,NA,NA,1,NA
+trends in the prevention of invasive alien species,NA,NA,NA,1,NA,NA,NA,1,NA
+growth in information relevant to informing policy on invasive alien species prevention and control,NA,NA,NA,1,NA,NA,NA,1,NA
+trends in successful control and eradications of invasive alien species,NA,NA,NA,1,NA,NA,NA,1,NA
+existence and uptake of multilateral agreements and national legislation relevant to the prevention and control of invasive alien species,NA,NA,NA,1,NA,NA,NA,1,NA
+resourcing of invasive alien species prevention and control activities,NA,NA,NA,1,NA,NA,NA,1,NA
+national funding for resourcing of biological invasions policy and management implementation,NA,NA,NA,1,NA,NA,NA,NA,1
+global funding for resourcing of biological invasions policy and management implementation,NA,NA,NA,1,NA,NA,NA,NA,1
+number of biogeographic regions with risk-associated activities,NA,NA,NA,1,NA,NA,NA,1,NA
+trends in numbers of facilities in the region,NA,NA,NA,1,NA,NA,NA,1,NA
+"number of tourists, scientists and facilities per biogeographic region",NA,NA,NA,1,NA,NA,NA,1,NA
+number of alien and invasive taxa per biogeographic region,NA,NA,NA,1,NA,NA,NA,1,NA
+trends in extinction risk of birds impacted by invasive species,NA,NA,NA,1,NA,NA,NA,1,NA
+prospective inclusion of other native taxa and threatened habitats,NA,NA,NA,1,NA,NA,NA,1,NA
+trends in adoption of multinational agreements to reduce invasive alien species threats,NA,NA,NA,1,NA,NA,NA,1,NA
+trends in invasive alien species relevant submissions to managers,NA,NA,NA,1,NA,NA,NA,1,NA
+trends in invasive alien species eradication at different scales,NA,NA,NA,1,NA,NA,NA,1,NA
+proportion of countries adopting relevant national legislation and adequately resourcing the prevention or control of invasive alien specie,NA,NA,NA,1,NA,NA,NA,1,NA
+number of alien taxa,NA,NA,NA,1,NA,NA,NA,NA,1
+species negatively impacting biodiversity,NA,NA,NA,1,NA,NA,NA,NA,1
+trends in species at risk of localized extinction in a protected area,NA,NA,NA,1,NA,NA,NA,NA,1
+extent of which essential policy and management approaches have been adopted,NA,NA,NA,1,NA,NA,NA,NA,1
+gross national product,NA,NA,NA,1,NA,NA,NA,1,NA
+index of sustaibale economic welfare,NA,NA,NA,1,NA,NA,NA,1,NA
+spread of alien species by pathway,NA,NA,NA,1,NA,NA,NA,1,NA
+"impact of alien species on sensitive places, species and functions",NA,NA,NA,1,NA,NA,NA,1,NA
+interventions to limit spread and reduce impact of alien species,NA,NA,NA,1,NA,NA,NA,1,NA
+alien species occurrence,NA,NA,NA,1,NA,NA,NA,NA,1
+status of an individual or species as native or alien,NA,NA,NA,1,NA,NA,NA,NA,1
+invasive alien species impact,NA,NA,NA,1,NA,NA,NA,NA,1
+rate of invasive alien species establishment,NA,NA,NA,1,NA,NA,NA,1,NA
+trends in numbers and spatial distribution of invasive alien species and their impacts,NA,NA,NA,1,NA,NA,NA,1,NA
+trends in the allocation of resources towards the prevention or control of invasive alien species,NA,NA,NA,1,NA,NA,NA,1,NA
+trends in the prevention and eradication and control of invasive alien species,NA,NA,NA,1,NA,NA,NA,1,NA
+trends in successful eradications of invasive alien species,NA,NA,NA,1,NA,NA,NA,1,NA
+improvement in conseration status of species threatened by invasive alien species,NA,NA,NA,1,NA,NA,NA,1,NA
+antarctic ice cores,NA,NA,NA,NA,1,NA,NA,1,NA
+direct co2 air measurements,NA,NA,NA,NA,1,NA,NA,1,NA
+global precipitation climatology centre (gpcc) v8,NA,NA,NA,NA,1,NA,NA,1,NA
+glacier mass loss,NA,NA,NA,NA,1,NA,NA,1,NA
+global surface air temperature (gmst),NA,NA,NA,NA,1,NA,NA,1,NA
+sea level change,NA,NA,NA,NA,1,NA,NA,1,NA
+ocean heat content,NA,NA,NA,NA,1,NA,NA,1,NA
+atmospheric co2 concentrations,NA,NA,NA,NA,1,NA,NA,1,NA
+global mean surface temperature (gmst),NA,NA,NA,NA,1,NA,NA,1,NA
+global mean sea level (gmsl),NA,NA,NA,NA,1,NA,NA,1,NA
+ph of ocean surface water,NA,NA,NA,NA,1,NA,NA,NA,1
+global energy budget,NA,NA,NA,NA,1,NA,NA,1,NA
+simulated global mean surface air temperature (gsat),NA,NA,NA,NA,1,NA,NA,NA,1
+simulated global mean surface air temperature (gsat) anomalies,NA,NA,NA,NA,1,NA,NA,NA,1
+estimate of gsat (era-5),NA,NA,NA,NA,1,NA,NA,NA,1
+observation-based estimate of global mean surface air temperature (gmst),NA,NA,NA,NA,1,NA,NA,NA,1
+mean gsat,NA,NA,NA,NA,1,NA,NA,NA,1
+annual gsat change,NA,NA,NA,NA,1,NA,NA,NA,1
+uk summer temperatures,NA,NA,NA,NA,1,NA,NA,NA,1
+annual ice volume,NA,NA,NA,NA,1,NA,NA,NA,1
+september sea ice extent,NA,NA,NA,NA,1,NA,NA,NA,1
+global temperature,NA,NA,NA,NA,1,NA,NA,1,NA
+cumulative ghg emissions,NA,NA,NA,NA,1,NA,NA,1,NA
+economic damages due to river floods,NA,NA,NA,NA,1,NA,NA,NA,1
+occurrence of heat-related human mortality,NA,NA,NA,NA,1,NA,NA,NA,1
+economic inequality,NA,NA,NA,NA,1,NA,NA,NA,1
+essential climate variables (ecvs),NA,NA,NA,NA,1,NA,NA,NA,1
+essential ocean variables (eovs),NA,NA,NA,NA,1,NA,NA,NA,1
+fraction of absorbed photosynthetically active radiation (fapar),NA,NA,NA,NA,1,NA,NA,1,NA
+fire disturbances/burned areas,NA,NA,NA,NA,1,NA,NA,1,NA
+time series of normalized difference vegetation index (ndvi),NA,NA,NA,NA,1,NA,NA,1,NA
+northern hemisphere temperature over the last millennium,NA,NA,NA,NA,1,NA,NA,NA,1
+thermosteric sea level,NA,NA,NA,NA,1,NA,NA,1,NA
+salinity,NA,NA,NA,NA,1,NA,NA,1,NA
+sea ice extent,NA,NA,NA,NA,1,NA,NA,1,NA
+amoc,NA,NA,NA,NA,1,NA,NA,1,NA
+global temperatures,NA,NA,NA,NA,1,NA,NA,NA,1
+boron-isotope,NA,NA,NA,NA,1,NA,NA,NA,1
+isotope-composition of molecular oxygen trapped in polar firn and ice,NA,NA,NA,NA,1,NA,NA,NA,1
+free tropospheric ozone,NA,NA,NA,NA,1,NA,NA,NA,1
+aerosol abundance,NA,NA,NA,NA,1,NA,NA,NA,1
+pollen presence,NA,NA,NA,NA,1,NA,NA,NA,1
+surface and upper air temperatures,NA,NA,NA,NA,1,NA,NA,1,NA
+surface humidity,NA,NA,NA,NA,1,NA,NA,1,NA
+precipitable water vapour,NA,NA,NA,NA,1,NA,NA,1,NA
+precipitation,NA,NA,NA,NA,1,NA,NA,1,NA
+precipitation-evaporation,NA,NA,NA,NA,1,NA,NA,1,NA
+runoff,NA,NA,NA,NA,1,NA,NA,1,NA
+sea level pressure and winds,NA,NA,NA,NA,1,NA,NA,1,NA
+hadley/walker circulation,NA,NA,NA,NA,1,NA,NA,1,NA
+global monsoons,NA,NA,NA,NA,1,NA,NA,1,NA
+strom tracks and jets,NA,NA,NA,NA,1,NA,NA,1,NA
+sudden stratospheric warmings,NA,NA,NA,NA,1,NA,NA,1,NA
+seasonality and thickness,NA,NA,NA,NA,1,NA,NA,1,NA
+terrestrial snow cover,NA,NA,NA,NA,1,NA,NA,1,NA
+glacier mass and extent,NA,NA,NA,NA,1,NA,NA,1,NA
+terrestrial permafrost temperature and active layer thickness,NA,NA,NA,NA,1,NA,NA,1,NA
+sea level,NA,NA,NA,NA,1,1,NA,1,NA
+circulation,NA,NA,NA,NA,1,NA,NA,1,NA
+ph and desoxygenation,NA,NA,NA,NA,1,NA,NA,1,NA
+seasonal cycle of co2,NA,NA,NA,NA,1,NA,NA,1,NA
+distribution of marine biota,NA,NA,NA,NA,1,NA,NA,1,NA
+primary production of marine biota,NA,NA,NA,NA,1,NA,NA,1,NA
+phenology of marine biota,NA,NA,NA,NA,1,NA,NA,1,NA
+distribution of terrestrial biota,NA,NA,NA,NA,1,NA,NA,1,NA
+global greening/browning,NA,NA,NA,NA,1,NA,NA,1,NA
+growing season of terrestrial biota,NA,NA,NA,NA,1,NA,NA,1,NA
+benthich isotopes,NA,NA,NA,NA,1,NA,NA,1,NA
+marine sediment cores,NA,NA,NA,NA,1,NA,NA,NA,1
+paleo-temperature records,NA,NA,NA,NA,1,NA,NA,NA,1
+zonally averaged mean annual temperature reconstructions,NA,NA,NA,NA,1,NA,NA,NA,1
+subsurface borehole temperature profiles,NA,NA,NA,NA,1,NA,NA,NA,1
+changes in land versus world trade organisation greenbox agricultural subsidies,NA,NA,NA,NA,1,NA,NA,NA,1
+radio occultation,NA,NA,NA,NA,1,NA,NA,NA,1
+global vegetation cover,NA,NA,NA,NA,1,NA,NA,NA,1
+atmospheric dust deposition,NA,NA,NA,NA,1,NA,NA,NA,1
+changes in observed cloud cover,NA,NA,NA,NA,1,NA,NA,NA,1
+satellite observations of precipitation,NA,NA,NA,NA,1,NA,NA,NA,1
+upper tropospheric humidity,NA,NA,NA,NA,1,NA,NA,NA,1
+sh monsoons,NA,NA,NA,NA,1,NA,NA,NA,1
+air moisture,NA,NA,NA,NA,1,NA,NA,NA,1
+loss of older ice,NA,NA,NA,NA,1,NA,NA,NA,1
+mean arctic sea ice area,NA,NA,NA,NA,1,NA,NA,NA,1
+marine sediments,NA,NA,NA,NA,1,NA,NA,NA,1
+whaling records,NA,NA,NA,NA,1,NA,NA,NA,1
+old ship logbooks,NA,NA,NA,NA,1,NA,NA,NA,1
+ice core records,NA,NA,NA,NA,1,NA,NA,NA,1
+early nimbus satellite visible and infrared imagery,NA,NA,NA,NA,1,NA,NA,NA,1
+glacier areal and mass changes/loss rate,NA,NA,NA,NA,1,NA,NA,NA,1
+greenland ice sheet fluctuations,NA,NA,NA,NA,1,NA,NA,NA,1
+marine sediments below the ice sheet,NA,NA,NA,NA,1,NA,NA,NA,1
+speleothem records,NA,NA,NA,NA,1,NA,NA,NA,1
+permafrost-vegetation relationships,NA,NA,NA,NA,1,NA,NA,NA,1
+permafrost temperature,NA,NA,NA,NA,1,NA,NA,NA,1
+ground subsidence,NA,NA,NA,NA,1,NA,NA,NA,1
+thermokarst,NA,NA,NA,NA,1,NA,NA,NA,1
+slope instability,NA,NA,NA,NA,1,NA,NA,NA,1
+ice cores,NA,NA,NA,NA,1,NA,NA,NA,1
+sediment cores,NA,NA,NA,NA,1,NA,NA,NA,1
+reef growth,NA,NA,NA,NA,1,NA,NA,NA,1
+atlantic meridional overturning circulation (amoc),NA,NA,NA,NA,1,NA,NA,NA,1
+seasonal variations in atmospheric co2 concentrations,NA,NA,NA,NA,1,NA,NA,1,NA
+expansion of oligotrophic subtropical gyres of the atlantic and pacific oceans,NA,NA,NA,NA,1,NA,NA,NA,1
+phytoplankton abundance,NA,NA,NA,NA,1,NA,NA,1,NA
+clorophyll concentration,NA,NA,NA,NA,1,NA,NA,NA,1
+phytoplankton community structure,NA,NA,NA,NA,1,NA,NA,NA,1
+distribution of species,NA,NA,NA,NA,1,NA,NA,NA,1
+el niño-southern oscillation (enso) index,NA,NA,NA,NA,1,NA,NA,1,NA
+changes in phytoplankton phenology,NA,NA,NA,NA,1,NA,NA,1,NA
+ocean-colour,NA,NA,NA,NA,1,NA,NA,NA,1
+normalized difference vegetation index (ndvi),NA,NA,NA,NA,1,1,NA,1,1
+northernmost location of the treeline,NA,NA,NA,NA,1,NA,NA,1,NA
+ocenan ph,NA,NA,NA,NA,1,NA,NA,1,NA
+north atlantic oscillation (nao) index,NA,NA,NA,NA,1,NA,NA,1,NA
+northern annular mode (nam) index,NA,NA,NA,NA,1,NA,NA,1,NA
+southern annular mode (sam) index,NA,NA,NA,NA,1,NA,NA,1,NA
+oceanic niño index (oni),NA,NA,NA,NA,1,NA,NA,1,NA
+southern oscillation index (soi),NA,NA,NA,NA,1,NA,NA,1,NA
+pacific decadal oscillation (pdo),NA,NA,NA,NA,1,NA,NA,1,NA
+inter-decadal pacific oscillation (ipo) index,NA,NA,NA,NA,1,NA,NA,1,NA
+atlantic multi-decadal variability (amv) index,NA,NA,NA,NA,1,NA,NA,1,NA
+volcanic activity,NA,NA,NA,NA,1,NA,NA,NA,1
+ghg changes,NA,NA,NA,NA,1,NA,NA,NA,1
+aerosol changes,NA,NA,NA,NA,1,NA,NA,NA,1
+tree rings,NA,NA,NA,NA,1,NA,NA,NA,1
+hadley circulation cell,NA,NA,NA,NA,1,NA,NA,1,NA
+sea ice thermodynamic,NA,NA,NA,NA,1,NA,NA,NA,1
+ocean temperature,NA,NA,NA,NA,1,NA,NA,1,NA
+atmosphere-land co2 fluxes,NA,NA,NA,NA,1,NA,NA,1,NA
+land-use and management,NA,NA,NA,NA,1,NA,NA,1,NA
+wildfires,NA,NA,NA,NA,1,NA,NA,1,NA
+indian ocean dipole index (iod),NA,NA,NA,NA,1,NA,NA,1,NA
+indian ocean basin (iob) index,NA,NA,NA,NA,1,NA,NA,1,NA
+pacific decadal variability (pdv),NA,NA,NA,NA,1,NA,NA,1,NA
+indian ocean dipole (ipo),NA,NA,NA,NA,1,NA,NA,1,NA
+ocean salinity,NA,NA,NA,NA,1,NA,NA,NA,1
+global surface air temperature (gsat),NA,NA,NA,NA,1,NA,NA,1,NA
+global land precipitation,NA,NA,NA,NA,1,NA,NA,1,NA
+arctic sea ice area,NA,NA,NA,NA,1,NA,NA,1,NA
+global mean ocean surface ph,NA,NA,NA,NA,1,NA,NA,1,NA
+carbon uptake by land and ocean,NA,NA,NA,NA,1,NA,NA,1,NA
+northern and southern annular modes (nam and sam),NA,NA,NA,NA,1,NA,NA,1,NA
+precipitation index,NA,NA,NA,NA,1,NA,NA,1,NA
+circulation index,NA,NA,NA,NA,1,NA,NA,1,NA
+ocean ph,NA,NA,NA,NA,1,NA,NA,1,NA
+land monsoon precipitation index,NA,NA,NA,NA,1,NA,NA,1,NA
+northern hemisphere summer monsoon circulation index,NA,NA,NA,NA,1,NA,NA,1,NA
+el niño-southern oscillation (enso) index bjerknes index,NA,NA,NA,NA,1,NA,NA,1,NA
+changes in mean precipitation,NA,NA,NA,NA,1,NA,NA,NA,1
+contrast of mean precipitation between dry and wet regions and between dry and wet seasons,NA,NA,NA,NA,1,NA,NA,NA,1
+annular mode index,NA,NA,NA,NA,1,NA,NA,1,NA
+land-use co2 emissions,NA,NA,NA,NA,1,NA,NA,1,NA
+fossil co2 emissions,NA,NA,NA,NA,1,NA,NA,1,NA
+non-co2 fossil-fuel emissions,NA,NA,NA,NA,1,NA,NA,1,NA
+land-use related non-co2 emissions,NA,NA,NA,NA,1,NA,NA,1,NA
+co2 concentration,NA,NA,NA,NA,1,1,NA,1,1
+ice core measurements,NA,NA,NA,NA,1,NA,NA,NA,1
+sink rate,NA,NA,NA,NA,1,NA,NA,NA,1
+15n/14n isotope ratio,NA,NA,NA,NA,1,NA,NA,NA,1
+position of 15n atom in atmospheric n2o,NA,NA,NA,NA,1,NA,NA,NA,1
+atmospheric inversions,NA,NA,NA,NA,1,NA,NA,NA,1
+interannual variability of primary production (pp),NA,NA,NA,NA,1,NA,NA,NA,1
+global carbon budget,NA,NA,NA,NA,1,NA,NA,NA,1
+global dust deposition,NA,NA,NA,NA,1,NA,NA,NA,1
+global annual mean tropospheric ozone burden,NA,NA,NA,NA,1,NA,NA,NA,1
+tropospheric no2 abundance,NA,NA,NA,NA,1,NA,NA,NA,1
+satellite formaldehyde (hcho) observations,NA,NA,NA,NA,1,NA,NA,NA,1
+sulphate in precipitation,NA,NA,NA,NA,1,NA,NA,NA,1
+surface warming,NA,NA,NA,NA,1,NA,NA,1,NA
+sectoral emissions density,NA,NA,NA,NA,1,NA,NA,1,NA
+population-weighted pm2.5 concentrations,NA,NA,NA,NA,1,NA,NA,1,NA
+population-weighted ozone concentrations,NA,NA,NA,NA,1,NA,NA,1,NA
+transient climate response tcr,NA,NA,NA,NA,1,NA,NA,NA,1
+equilibrium climate sensitivity ecs,NA,NA,NA,NA,1,NA,NA,NA,1
+surface turbulent fluxes,NA,NA,NA,NA,1,NA,NA,NA,1
+aerosol index,NA,NA,NA,NA,1,NA,NA,1,NA
+ghs effective radiative forcing,NA,NA,NA,NA,1,NA,NA,1,NA
+antarctic ice sheet loss,NA,NA,NA,NA,1,NA,NA,NA,1
+net climate feedback,NA,NA,NA,NA,1,NA,NA,NA,1
+planck temperature response,NA,NA,NA,NA,1,NA,NA,NA,1
+global surface temperature,NA,NA,NA,NA,1,NA,NA,1,NA
+toa energy budget,NA,NA,NA,NA,1,NA,NA,1,NA
+profile of effective radiative forcing (erf),NA,NA,NA,NA,1,NA,NA,NA,1
+emission of particular compounds,NA,NA,NA,NA,1,NA,NA,NA,1
+radiative forcing,NA,NA,NA,NA,1,NA,NA,NA,1
+absolute global forcing potential (agfp),NA,NA,NA,NA,1,NA,NA,NA,1
+absolute global temperature change potential (agtp),NA,NA,NA,NA,1,NA,NA,NA,1
+changes in precipitation frequency and intensity,NA,NA,NA,NA,1,NA,NA,NA,1
+precipiation,NA,NA,NA,NA,1,NA,NA,NA,1
+snowfall,NA,NA,NA,NA,1,NA,NA,NA,1
+soil moisture,NA,NA,NA,NA,1,NA,NA,NA,1
+south pacific convergence zone (spcz),NA,NA,NA,NA,1,NA,NA,NA,1
+inter-tropical convergence zone (itcz) narrowing,NA,NA,NA,NA,1,NA,NA,NA,1
+rainfall,NA,NA,NA,NA,1,NA,NA,NA,1
+poleward shifts in the south atlantic convergence zone (sacz),NA,NA,NA,NA,1,NA,NA,NA,1
+land rainfall over mc,NA,NA,NA,NA,1,NA,NA,NA,1
+marine cloudiness over mc,NA,NA,NA,NA,1,NA,NA,NA,1
+surface moisture flux convergence,NA,NA,NA,NA,1,NA,NA,NA,1
+blocking index,NA,NA,NA,NA,1,NA,NA,1,NA
+water vapour residence time,NA,NA,NA,NA,1,NA,NA,NA,1
+plant water use efficiency (wue),NA,NA,NA,NA,1,NA,NA,1,NA
+palmer drought severity index,NA,NA,NA,NA,1,NA,NA,1,NA
+rainfall variability,NA,NA,NA,NA,1,NA,NA,NA,1
+tropical precipitation,NA,NA,NA,NA,1,NA,NA,NA,1
+atmospheric internal variability,NA,NA,NA,NA,1,NA,NA,NA,1
+volcanic eruptions,NA,NA,NA,NA,1,NA,NA,NA,1
+ocean heat content ohc,NA,NA,NA,NA,1,NA,NA,NA,1
+greenland blocking index,NA,NA,NA,NA,1,NA,NA,1,NA
+bedrock topography,NA,NA,NA,NA,1,NA,NA,NA,1
+grounding line retreat,NA,NA,NA,NA,1,NA,NA,NA,1
+retreat of ice sheet,NA,NA,NA,NA,1,NA,NA,NA,1
+glaciar mass loss,NA,NA,NA,NA,1,NA,NA,NA,1
+lake sediments,NA,NA,NA,NA,1,NA,NA,NA,1
+speleotherm records,NA,NA,NA,NA,1,NA,NA,NA,1
+tide gauge,NA,NA,NA,NA,1,NA,NA,NA,1
+power dissipation index,NA,NA,NA,NA,1,NA,NA,1,NA
+spatiotemporal variability of meteorological parameters,NA,NA,NA,NA,1,NA,NA,NA,1
+surface albedo,NA,NA,NA,NA,1,NA,NA,NA,1
+sedimentary records,NA,NA,NA,NA,1,NA,NA,NA,1
+extreme temperatures,NA,NA,NA,NA,1,NA,NA,1,NA
+daily precipitation,NA,NA,NA,NA,1,NA,NA,1,NA
+daily temperature,NA,NA,NA,NA,1,NA,NA,1,NA
+mean air temperature,NA,NA,NA,NA,1,NA,NA,1,NA
+"changes in the number of warm nights, warm days, cold nights, and cold days",NA,NA,NA,NA,1,NA,NA,1,NA
+warm spell duration index (wsdi),NA,NA,NA,NA,1,NA,NA,1,NA
+combined extreme index (cei),NA,NA,NA,NA,1,NA,NA,1,NA
+minimum temperature,NA,NA,NA,NA,1,NA,NA,NA,1
+reduction in post-volcanic eruption extreme precipitation,NA,NA,NA,NA,1,NA,NA,1,NA
+simple daily intensity index (sdii),NA,NA,NA,NA,1,NA,NA,1,NA
+highest five day precipitation amount (rx5day),NA,NA,NA,NA,1,NA,NA,1,NA
+highest one day precipitation amount (rx1day),NA,NA,NA,NA,1,NA,NA,1,NA
+days of heavy precipitation,NA,NA,NA,NA,1,NA,NA,1,NA
+annual precipitation from daily precipitation > 95th percentile (r95p),NA,NA,NA,NA,1,NA,NA,1,NA
+standardized precipitation index (spi),NA,NA,NA,NA,1,NA,NA,1,NA
+consecutive dry days (cdd),NA,NA,NA,NA,1,NA,NA,1,NA
+precipitation deciles and percentiles,NA,NA,NA,NA,1,NA,NA,1,NA
+potential evaporation anomalies,NA,NA,NA,NA,1,NA,NA,1,NA
+evaporative demand drought index (eddi),NA,NA,NA,NA,1,NA,NA,1,NA
+soil moisture anomalies,NA,NA,NA,NA,1,NA,NA,1,NA
+standardized soil moisture index (ssmi),NA,NA,NA,NA,1,NA,NA,1,NA
+standardized runoff index (sri),NA,NA,NA,NA,1,NA,NA,1,NA
+standardized streamflow index (ssi),NA,NA,NA,NA,1,NA,NA,1,NA
+threshold level methods,NA,NA,NA,NA,1,NA,NA,1,NA
+standardized groundwater index (sgi),NA,NA,NA,NA,1,NA,NA,1,NA
+standardized precipitation evapotranspiration index (spei),NA,NA,NA,NA,1,NA,NA,1,NA
+palmer drought severity index (pdsi),NA,NA,NA,NA,1,NA,NA,1,NA
+precipitation deficits,NA,NA,NA,NA,1,NA,NA,1,NA
+excess of atmospheric evaporative demand (aed),NA,NA,NA,NA,1,NA,NA,1,NA
+soil moisture deficits,NA,NA,NA,NA,1,NA,NA,1,NA
+hydrological deficits,NA,NA,NA,NA,1,NA,NA,1,NA
+atmospheric evaporative demand (aed),NA,NA,NA,NA,1,NA,NA,NA,1
+standardized precipitation index,NA,NA,NA,NA,1,NA,NA,NA,1
+number of consecutive dry days (cdd),NA,NA,NA,NA,1,NA,NA,NA,1
+total soil moisture,NA,NA,NA,NA,1,NA,NA,NA,1
+soil moisture-based drought events,NA,NA,NA,NA,1,NA,NA,NA,1
+surface soil moisture,NA,NA,NA,NA,1,NA,NA,NA,1
+water-balance estimates,NA,NA,NA,NA,1,NA,NA,NA,1
+changes in low flows,NA,NA,NA,NA,1,NA,NA,NA,1
+changes in mean streamflow,NA,NA,NA,NA,1,NA,NA,NA,1
+pan evaporation measurements,NA,NA,NA,NA,1,NA,NA,NA,1
+penman-monteith aed (atmospheric evaporative demand),NA,NA,NA,NA,1,NA,NA,NA,1
+genesis potential index,NA,NA,NA,NA,1,NA,NA,1,NA
+increase in global tc maximum surface wind speeds,NA,NA,NA,NA,1,NA,NA,1,NA
+accumulated cyclone energy (ace),NA,NA,NA,NA,1,NA,NA,1,NA
+standardized runoff index,NA,NA,NA,NA,1,NA,NA,1,NA
+heat index (hi),NA,NA,NA,NA,1,NA,NA,1,NA
+daily maximum tempreature above 35°c,NA,NA,NA,NA,1,NA,NA,1,NA
+climate velocity,NA,NA,NA,NA,1,NA,NA,NA,1
+accumulated seasonal heat,NA,NA,NA,NA,1,NA,NA,1,NA
+extreme canopy temperatures,NA,NA,NA,NA,1,NA,NA,1,NA
+2 m air temperatures,NA,NA,NA,NA,1,NA,NA,1,NA
+heat stress (humidity and temperature),NA,NA,NA,NA,1,NA,NA,1,NA
+10-day cumulative precipitation,NA,NA,NA,NA,1,NA,NA,1,NA
+precipitation intensity-duration thresholds,NA,NA,NA,NA,1,NA,NA,1,NA
+thresholds related to antecedent wet periods,NA,NA,NA,NA,1,NA,NA,1,NA
+thresholds related to antecedent extreme rainfall intensities,NA,NA,NA,NA,1,NA,NA,1,NA
+changes in soil moisture,NA,NA,NA,NA,1,NA,NA,1,NA
+changes in surface water,NA,NA,NA,NA,1,NA,NA,1,NA
+water table depth,NA,NA,NA,NA,1,NA,NA,1,NA
+rooting depth,NA,NA,NA,NA,1,NA,NA,1,NA
+changes in precipitation,NA,NA,NA,NA,1,NA,NA,1,NA
+changes in evapotranspiration demand,NA,NA,NA,NA,1,NA,NA,1,NA
+changes in groundwater,NA,NA,NA,NA,1,NA,NA,1,NA
+water flow volume,NA,NA,NA,NA,1,NA,NA,1,NA
+water intermittency thresholds,NA,NA,NA,NA,1,NA,NA,1,NA
+low-flows days,NA,NA,NA,NA,1,NA,NA,1,NA
+extreme low runoff,NA,NA,NA,NA,1,NA,NA,1,NA
+lightning frequency,NA,NA,NA,NA,1,NA,NA,NA,1
+fuel aridity,NA,NA,NA,NA,1,NA,NA,NA,1
+snow cover,NA,NA,NA,NA,1,NA,NA,NA,1
+local wind circulations,NA,NA,NA,NA,1,NA,NA,NA,1
+snow water equivalent at key seasonal dates,NA,NA,NA,NA,1,NA,NA,1,NA
+fraction of precipitation falling as snow,NA,NA,NA,NA,1,NA,NA,1,NA
+first and last days of snow cover,NA,NA,NA,NA,1,NA,NA,1,NA
+cold season temperatures,NA,NA,NA,NA,1,NA,NA,1,NA
+threshold when the local land elevation falls below the local mean higher high water (mhhw),NA,NA,NA,NA,1,NA,NA,1,NA
+threshold when flooding occurs about once every two weeks,NA,NA,NA,NA,1,NA,NA,1,NA
+rate of rslr (relative sea level rise),NA,NA,NA,NA,1,NA,NA,1,NA
+magnitude of shoreline retreat by a pre-determined planning horizon such as 50 or 100 years into the future,NA,NA,NA,NA,1,NA,NA,1,NA
+beach erosion volume due to the 100-year recurrence storm wave height,NA,NA,NA,NA,1,NA,NA,1,NA
+full exceedance probability distribution of coastal erosion volume,NA,NA,NA,NA,1,NA,NA,1,NA
+cumulative storm energy and storm power index,NA,NA,NA,NA,1,NA,NA,1,NA
+climatic impact-driver (cid) magnitude,NA,NA,NA,NA,1,NA,NA,1,NA
+climatic impact-driver (cid) frequency,NA,NA,NA,NA,1,NA,NA,1,NA
+climatic impact-driver (cid) duration,NA,NA,NA,NA,1,NA,NA,1,NA
+climatic impact-driver (cid) timing,NA,NA,NA,NA,1,NA,NA,1,NA
+climatic impact-driver (cid) spatial extent,NA,NA,NA,NA,1,NA,NA,1,NA
+change in # days tx>35°c,NA,NA,NA,NA,1,NA,NA,1,NA
+change in # days hi>41°c,NA,NA,NA,NA,1,NA,NA,1,NA
+change in # droughts,NA,NA,NA,NA,1,NA,NA,1,NA
+change in # soil moisture,NA,NA,NA,NA,1,NA,NA,1,NA
+change in mean wind,NA,NA,NA,NA,1,NA,NA,1,NA
+change in extreme total water level,NA,NA,NA,NA,1,NA,NA,1,NA
+areas below calcium carbonate saturation thresholds,NA,NA,NA,NA,1,NA,NA,NA,1
+drought index (di),NA,NA,NA,NA,1,NA,NA,1,NA
+drought frequency (df),NA,NA,NA,NA,1,NA,NA,1,NA
+forest fire danger index (ffdi),NA,NA,NA,NA,1,NA,NA,1,NA
+c-haines index,NA,NA,NA,NA,1,NA,NA,1,NA
+combined sea level due to storm surge and tide,NA,NA,NA,NA,1,NA,NA,1,NA
+growing degree days,NA,NA,NA,NA,1,NA,NA,1,NA
+cooling degree days,NA,NA,NA,NA,1,NA,NA,1,NA
+wet bulb globe temperature (wbgt) index,NA,NA,NA,NA,1,NA,NA,1,NA
+maximum temperatures,NA,NA,NA,NA,1,NA,NA,1,NA
+cooling degree day index,NA,NA,NA,NA,1,NA,NA,1,NA
+heat stress index,NA,NA,NA,NA,1,NA,NA,1,NA
+heating degree day index,NA,NA,NA,NA,1,NA,NA,1,NA
+drought severity index,NA,NA,NA,NA,1,NA,NA,1,NA
+shoreline change (indicator of coastal erosion),NA,NA,NA,NA,1,NA,NA,NA,1
+humidity,NA,NA,NA,NA,1,NA,NA,NA,1
+monthly drought code fire index,NA,NA,NA,NA,1,NA,NA,1,NA
+fire weather index (fwi),NA,NA,NA,NA,1,NA,NA,1,NA
+maximum fire weather index,NA,NA,NA,NA,1,NA,NA,1,NA
+convective available potential energy and wind shear,NA,NA,NA,NA,1,NA,NA,NA,1
+degree heating weeks,NA,NA,NA,NA,1,NA,NA,NA,1
+degree heating months,NA,NA,NA,NA,1,NA,NA,NA,1
+maximum daytime heat index,NA,NA,NA,NA,1,NA,NA,1,NA
+regional deficit index,NA,NA,NA,NA,1,NA,NA,1,NA
+fire risk,NA,NA,NA,NA,1,NA,NA,1,NA
+"standardized precipitation
+evapotranspiration index spei",NA,NA,NA,NA,1,NA,NA,1,NA
+wet bulb temperature,NA,NA,NA,NA,1,NA,NA,NA,1
+greenhouse gas index (national oceanic and atmospheric administration),NA,NA,NA,NA,NA,1,NA,1,NA
+glacier mass balance,NA,NA,NA,NA,NA,1,NA,1,NA
+northern hemisphere (mar-apr) snow cover,NA,NA,NA,NA,NA,1,NA,1,NA
+specific humidity,NA,NA,NA,NA,NA,1,NA,1,NA
+ocean acidification,NA,NA,NA,NA,NA,1,NA,1,NA
+annual global mean surface temperature,NA,NA,NA,NA,NA,1,NA,1,NA
+marine air temperature,NA,NA,NA,NA,NA,1,NA,1,NA
+tropospheric temperature,NA,NA,NA,NA,NA,1,NA,1,NA
+ocean heat content and specific humidity,NA,NA,NA,NA,NA,1,NA,1,NA
+shrinking of the arctic ice cover,NA,NA,NA,NA,NA,1,NA,1,NA
+increase in the global mean sea level,NA,NA,NA,NA,NA,1,NA,1,NA
+altering of the carbon and biogeochemical cycles,NA,NA,NA,NA,NA,1,NA,1,NA
+extent of ice cover,NA,NA,NA,NA,NA,1,NA,1,NA
+summer arctic sea ice extent,NA,NA,NA,NA,NA,1,NA,1,NA
+climate related loss events,NA,NA,NA,NA,NA,1,NA,NA,1
+poverty,NA,NA,NA,NA,NA,1,NA,NA,1
+zoonotic disease,NA,NA,NA,NA,NA,1,NA,NA,1
+nutrition,NA,NA,NA,NA,NA,1,NA,NA,1
+life expectancy,NA,NA,NA,NA,NA,1,NA,NA,1
+economic growth,NA,NA,NA,NA,NA,1,NA,NA,1
+inclusive societies,NA,NA,NA,NA,NA,1,NA,NA,1
+environmentally friendly policy processes,NA,NA,NA,NA,NA,1,NA,NA,1
+gender-disaggregated agricultural indices,NA,NA,NA,NA,NA,1,NA,1,NA
+agricultural employment and landholders,NA,NA,NA,NA,NA,1,NA,1,NA
+cross-natrional comparative information on access to and ownership of land,NA,NA,NA,NA,NA,1,NA,1,NA
+sex-disaggregated burden-of-disease data,NA,NA,NA,NA,NA,1,NA,1,NA
+underweight children,NA,NA,NA,NA,NA,1,NA,NA,1
+malnutrition,NA,NA,NA,NA,NA,1,NA,NA,1
+food security,NA,NA,NA,NA,NA,1,NA,NA,1
+global human settlement layer (ghsl),NA,NA,NA,NA,NA,1,NA,1,NA
+sustainability and/or environmental themes as one of the general goals of education,NA,NA,NA,NA,NA,1,NA,1,NA
+integration of education for sustainable development (esd) in curricula,NA,NA,NA,NA,NA,1,NA,1,NA
+integration of education for sustainable development (esd) in higher education,NA,NA,NA,NA,NA,1,NA,1,NA
+loss of mass of mountain glaciers and polar ice sheets,NA,NA,NA,NA,NA,1,NA,1,NA
+sea level rise,NA,NA,NA,NA,NA,1,NA,1,NA
+mountain glaciers,NA,NA,NA,NA,NA,1,NA,1,NA
+polar ice sheets,NA,NA,NA,NA,NA,1,NA,1,NA
+antimicrobial resistence in pathogens,NA,NA,NA,NA,NA,1,NA,1,NA
+toxocological potential of nanoparticals,NA,NA,NA,NA,NA,1,NA,1,NA
+global temperature increase,NA,NA,NA,NA,NA,1,NA,1,NA
+measured concentrations of o in the upper stratospere,NA,NA,NA,NA,NA,1,NA,NA,1
+odss and ghgs,NA,NA,NA,NA,NA,1,NA,NA,1
+o3 concentration,NA,NA,NA,NA,NA,1,NA,NA,1
+ghg emissions,NA,NA,NA,NA,NA,1,NA,NA,1
+pressure ozone trend,NA,NA,NA,NA,NA,1,NA,NA,1
+o recovery,NA,NA,NA,NA,NA,1,NA,NA,1
+national oceanic and atmospheric administration annual greenhouse gas index (aggi),NA,NA,NA,NA,NA,1,NA,1,NA
+air pollution exposure,NA,NA,NA,NA,NA,1,NA,NA,1
+"years of healthy life lost from heart disease, stroke, lung cancer, chronic lung disease and respiratory infections",NA,NA,NA,NA,NA,1,NA,NA,1
+exposure to ambient pm,NA,NA,NA,NA,NA,1,NA,NA,1
+"high blood pressure, smoking, low birth weight, high levels of blood sugar",NA,NA,NA,NA,NA,1,NA,NA,1
+high body mass index,NA,NA,NA,NA,NA,1,NA,NA,1
+premature deaths,NA,NA,NA,NA,NA,1,NA,NA,1
+exposure to high concentrations of pollutants,NA,NA,NA,NA,NA,1,NA,NA,1
+safe level of annual average pm exposure,NA,NA,NA,NA,NA,1,NA,NA,1
+disability-adjusted life years (dalys) lost,NA,NA,NA,NA,NA,1,NA,NA,1
+premature deaths in 2016 to household air pollution,NA,NA,NA,NA,NA,1,NA,NA,1
+urban growth,NA,NA,NA,NA,NA,1,NA,NA,1
+habitat loss,NA,NA,NA,NA,NA,1,NA,NA,1
+deforestation,NA,NA,NA,NA,NA,1,NA,NA,1
+road construction,NA,NA,NA,NA,NA,1,NA,NA,1
+species abundance,NA,NA,NA,NA,NA,1,NA,1,NA
+invertebrate abundance and biomass,NA,NA,NA,NA,NA,1,NA,NA,1
+enhanced vegetation index,NA,NA,NA,NA,NA,1,NA,1,NA
+land cover change,NA,NA,NA,NA,NA,1,NA,1,NA
+deforestation rate,NA,NA,NA,NA,NA,1,NA,NA,1
+coral bleaching,NA,NA,NA,NA,NA,1,NA,NA,1
+global atmospheric co levels,NA,NA,NA,NA,NA,1,NA,NA,1
+marine litter,NA,NA,NA,NA,NA,1,NA,1,NA
+index of coastal eutrophication potential (icep),NA,NA,NA,NA,NA,1,NA,1,NA
+floating plastic litter density,NA,NA,NA,NA,NA,1,NA,1,NA
+build up area,NA,NA,NA,NA,NA,1,NA,NA,1
+biofuel production,NA,NA,NA,NA,NA,1,NA,NA,1
+fertilizer price,NA,NA,NA,NA,NA,1,NA,NA,1
+maize price,NA,NA,NA,NA,NA,1,NA,NA,1
+wetland area index,NA,NA,NA,NA,NA,1,NA,1,NA
+living planet index (migratory fish),NA,NA,NA,NA,NA,1,NA,1,NA
+water infrastructure,NA,NA,NA,NA,NA,1,NA,1,NA
+"drinking water supply, treatment and distribution",NA,NA,NA,NA,NA,1,NA,1,NA
+"provision of safe, reliable drinking water",NA,NA,NA,NA,NA,1,NA,1,NA
+air quality index,NA,NA,NA,NA,NA,1,NA,1,NA
+us national ambient air quality standards,NA,NA,NA,NA,NA,1,NA,1,NA
+population-weighted annual mean concentration of pm2.5,NA,NA,NA,NA,NA,1,NA,1,NA
+emissions of ozone-depleting substances,NA,NA,NA,NA,NA,1,NA,1,NA
+anthropogenic emissions of long-lived greenhouse gases (co2 equivalents),NA,NA,NA,NA,NA,1,NA,1,NA
+exposure to pm concentrations (population-weighted annual mean concentration of pm2.5),NA,NA,NA,NA,NA,1,NA,1,NA
+pm2.5 emissions,NA,NA,NA,NA,NA,1,NA,1,NA
+so2 emissions,NA,NA,NA,NA,NA,1,NA,1,NA
+no emissions,NA,NA,NA,NA,NA,1,NA,1,NA
+nh3 emissions,NA,NA,NA,NA,NA,1,NA,1,NA
+anthropogenic emissions of long-lived greenhouse gases (ghg emissions),NA,NA,NA,NA,NA,1,NA,1,NA
+global warming potential index,NA,NA,NA,NA,NA,1,NA,1,NA
+global temperature potential,NA,NA,NA,NA,NA,1,NA,1,NA
+global capacity,NA,NA,NA,NA,NA,1,NA,1,NA
+presense of endemic species,NA,NA,NA,NA,NA,1,NA,NA,1
+biocapacity,NA,NA,NA,NA,NA,1,NA,1,NA
+willingness-to-participate,NA,NA,NA,NA,NA,1,NA,1,NA
+coverage of protected areas in relation to marine areas,NA,NA,NA,NA,NA,1,NA,1,NA
+beach litter,NA,NA,NA,NA,NA,1,NA,1,NA
+floating plastic debris density,NA,NA,NA,NA,NA,1,NA,1,NA
+nutrient pollution,NA,NA,NA,NA,NA,1,NA,1,NA
+regional seas and action plans,NA,NA,NA,NA,NA,1,NA,1,NA
+stranded debris,NA,NA,NA,NA,NA,1,NA,1,NA
+number of vulnerable marine ecosystems,NA,NA,NA,NA,NA,1,NA,1,NA
+stock status,NA,NA,NA,NA,NA,1,NA,1,NA
+red list of ecosystems,NA,NA,NA,NA,NA,1,NA,1,NA
+proportion of land that is degraded over total land area,NA,NA,NA,NA,NA,1,NA,1,NA
+proportion of terrestrial protected area as a share of the total land area,NA,NA,NA,NA,NA,1,NA,1,NA
+ratio of land consumption rate to population growth rate,NA,NA,NA,NA,NA,1,NA,1,NA
+soil carbon sequestration,NA,NA,NA,NA,NA,1,NA,1,NA
+impacts of agricultural outpic prices on deforestation rates both inside and outside of protected areas,NA,NA,NA,NA,NA,1,NA,1,NA
+resources per capita invested in human settlement per km2,NA,NA,NA,NA,NA,1,NA,1,NA
+"percentage of cities with direct participation structure of civil society in urban planning and management, which operate regularly and democratically",NA,NA,NA,NA,NA,1,NA,1,NA
+ratio of land consumption rate to urban population growth rate at comparable scale,NA,NA,NA,NA,NA,1,NA,1,NA
+proportion of population using safely managed drinking water services,NA,NA,NA,NA,NA,1,NA,1,NA
+proportion of population using safely managed sanitation services,NA,NA,NA,NA,NA,1,NA,1,NA
+freshwater withdrawal as a proportion of available freshwater resources,NA,NA,NA,NA,NA,1,NA,1,NA
+millenium development goals indicators,NA,NA,NA,NA,NA,1,NA,1,NA
+improved/unimproved sources of drinking water,NA,NA,NA,NA,NA,1,NA,1,NA
+proportion of the global population using piped water supplies on premises,NA,NA,NA,NA,NA,1,NA,1,NA
+number of people without access to safe sanitation services,NA,NA,NA,NA,NA,1,NA,1,NA
+improved water supply and sanitation,NA,NA,NA,NA,NA,1,NA,1,NA
+level of water stress (freshwater withdrawal as a proportion of available freshwater resources),NA,NA,NA,NA,NA,1,NA,1,NA
+level of water stress,NA,NA,NA,NA,NA,1,NA,1,NA
+freshwater change over time,NA,NA,NA,NA,NA,1,NA,1,NA
+gender equality,NA,NA,NA,NA,NA,1,NA,NA,1
+empowerment of women and girls,NA,NA,NA,NA,NA,1,NA,NA,1
+reduction of inequality within and among countries,NA,NA,NA,NA,NA,1,NA,NA,1
+quantity of land area known to have (in)sufficient infrastructure against flooding,NA,NA,NA,NA,NA,1,NA,NA,1
+number of residents living in floodplains,NA,NA,NA,NA,NA,1,NA,NA,1
+low-elevation coastal zones,NA,NA,NA,NA,NA,1,NA,NA,1
+network of communication channels in times of crisis or disaster,NA,NA,NA,NA,NA,1,NA,NA,1
+drought-resistant vegetation,NA,NA,NA,NA,NA,1,NA,NA,1
+water- saving devices,NA,NA,NA,NA,NA,1,NA,NA,1
+buffer zones to protect catchment areas,NA,NA,NA,NA,NA,1,NA,NA,1
+amend policies that lead to destruction of mangroves,NA,NA,NA,NA,NA,1,NA,NA,1
+laws preventing recycling of water,NA,NA,NA,NA,NA,1,NA,NA,1
+laws allowing building in vulnerable areas,NA,NA,NA,NA,NA,1,NA,NA,1
+land-use models for efficient farming,NA,NA,NA,NA,NA,1,NA,NA,1
+sustainable fishing practices,NA,NA,NA,NA,NA,1,NA,NA,1
+community awareness,NA,NA,NA,NA,NA,1,NA,NA,1
+ghg emissions from agriculture,NA,NA,NA,NA,NA,1,NA,1,NA
+agricultural emissions from different farming sectors,NA,NA,NA,NA,NA,1,NA,1,NA
+sustainability and nutrient efficiency of national dietary outcomes,NA,NA,NA,NA,NA,1,NA,1,NA
+dietary health and sustainability,NA,NA,NA,NA,NA,1,NA,1,NA
+including annual estimates of national food supplies per capita for each primary commodity and a number of processed commodities that are potentially available for human consumption,NA,NA,NA,NA,NA,1,NA,1,NA
+recommended intake values for the food groups,NA,NA,NA,NA,NA,1,NA,1,NA
+energy production,NA,NA,NA,NA,NA,1,NA,1,NA
+energy consumption,NA,NA,NA,NA,NA,1,NA,1,NA
+achievement of a circular economic system,NA,NA,NA,NA,NA,1,NA,NA,1
+sustainable resource management,NA,NA,NA,NA,NA,1,NA,NA,1
+societal behaviour,NA,NA,NA,NA,NA,1,NA,NA,1
+business operations,NA,NA,NA,NA,NA,1,NA,NA,1
+material flow accounting,NA,NA,NA,NA,NA,1,NA,NA,1
+material flow analysis,NA,NA,NA,NA,NA,1,NA,NA,1
+under-five child mortality rate,NA,NA,NA,NA,NA,1,NA,1,NA
+pm 2.5 emissions,NA,NA,NA,NA,NA,1,NA,1,NA
+o3 emissions,NA,NA,NA,NA,NA,1,NA,1,NA
+volatile organic compounds emissions,NA,NA,NA,NA,NA,1,NA,1,NA
+pm 10 emissions,NA,NA,NA,NA,NA,1,NA,1,NA
+mortality rate attributable to household and ambient air pollution,NA,NA,NA,NA,NA,1,NA,1,NA
+deaths due to unsafe water,NA,NA,NA,NA,NA,1,NA,1,NA
+sanitation and hygiene,NA,NA,NA,NA,NA,1,NA,1,NA
+mortality from unintentional poisoning,NA,NA,NA,NA,NA,1,NA,1,NA
+percentage of the population exposed to annual mean pm concentrations above the highest interim target of 35 μg/m,NA,NA,NA,NA,NA,1,NA,1,NA
+united nations framework convention on climate change,NA,NA,NA,NA,NA,1,NA,1,NA
+total gobal population living in water scarce areas,NA,NA,NA,NA,NA,1,NA,1,NA
+marine nutirent pollution,NA,NA,NA,NA,NA,1,NA,1,NA
+nutrient runoff into oceans (n and p),NA,NA,NA,NA,NA,1,NA,1,NA
+trends in soil organic carbon stock,NA,NA,NA,NA,NA,1,NA,1,NA
+number of people living on less than 1.90 usd per day,NA,NA,NA,NA,NA,1,NA,NA,1
+land-use change,NA,NA,NA,NA,NA,1,NA,1,NA
+"changes in terrestrial, marine and freshwater vertebrate populations",NA,NA,NA,NA,NA,1,NA,1,NA
+species dispersal ability,NA,NA,NA,NA,NA,1,NA,1,NA
+projections of global fisheries under an unchanged climate and current management scenario,NA,NA,NA,NA,NA,1,NA,1,NA
+body mass index,NA,NA,NA,NA,NA,1,NA,NA,1
+blood pressure,NA,NA,NA,NA,NA,1,NA,NA,1
+smoking,NA,NA,NA,NA,NA,1,NA,NA,1
+childhood undernutrition,NA,NA,NA,NA,NA,1,NA,NA,1
+alcohol use,NA,NA,NA,NA,NA,1,NA,NA,1
+beef consumption,NA,NA,NA,NA,NA,1,NA,NA,1
+energy-intensity,NA,NA,NA,NA,NA,1,NA,NA,1
+share of low-carbon options,NA,NA,NA,NA,NA,1,NA,NA,1
+measure of income,NA,NA,NA,NA,NA,1,NA,NA,1
+health,NA,NA,NA,NA,NA,1,NA,NA,1
+levels of education,NA,NA,NA,NA,NA,1,NA,NA,1
+low income,NA,NA,NA,NA,NA,1,NA,NA,1
+women and girl’s education,NA,NA,NA,NA,NA,1,NA,NA,1
+inclusive and equitable quality education,NA,NA,NA,NA,NA,1,NA,NA,1
+fertility rates,NA,NA,NA,NA,NA,1,NA,NA,1
+democracy,NA,NA,NA,NA,NA,1,NA,NA,1
+universal female education,NA,NA,NA,NA,NA,1,NA,NA,1
+piped drinking water,NA,NA,NA,NA,NA,1,NA,NA,1
+advanced malaria control,NA,NA,NA,NA,NA,1,NA,NA,1
+complete phase-out of biomass use for cooking,NA,NA,NA,NA,NA,1,NA,NA,1
+food waste,NA,NA,NA,NA,NA,1,NA,NA,1
+yield (improvement),NA,NA,NA,NA,NA,1,NA,NA,1
+agro-biodiversity,NA,NA,NA,NA,NA,1,NA,NA,1
+forest and land management,NA,NA,NA,NA,NA,1,NA,NA,1
+investment costs of groundwater abstraction and desalination for continued water supply and sanitation of rapidly expanding cities,NA,NA,NA,NA,NA,1,NA,NA,1
+wastewater treatment,NA,NA,NA,NA,NA,1,NA,NA,1
+chemical contaminants,NA,NA,NA,NA,NA,1,NA,NA,1
