@@ -4,4 +4,7 @@
 .Ruserdata
 
 input/automated_search/assessments_to_search
-input/automated_search/extracted_paragraphs
+code
+b3
+zenodo
+*.zip
