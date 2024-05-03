@@ -242,7 +242,7 @@ proportion of local governments that adopt and implement local disaster risk red
 spawning stock biomass (related to commercially exploited species),NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,1,1,NA,NA,NA
 volume of production per labour unit by classes of farming/pastoral/forestry enterprise size,NA,1,NA,NA,1,NA,NA,1,1,NA,NA,NA,NA,NA,1,1,NA,NA,NA
 agrobiodiversity index,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,1,1,1,NA,NA
-changes in soil organic carbon stocks,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,1,1,NA,NA,NA
+soil organic carbon (soc) stocks,NA,NA,NA,NA,NA,1,NA,1,NA,NA,NA,NA,NA,1,1,1,1,NA,NA
 proportion of land that is degraded over total land area,NA,1,NA,NA,1,1,NA,1,1,NA,NA,NA,NA,1,1,1,1,NA,NA
 air emission accounts,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,1,1,NA,NA,NA
 proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management,NA,1,NA,NA,1,NA,NA,1,1,NA,NA,NA,NA,NA,1,1,NA,NA,NA
@@ -287,7 +287,7 @@ number of countries (and number of instruments) with payments for ecosystem serv
 "number of countries that have assessed values of biodiversity, in accordance with the convention",NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,1,1,NA,NA,NA
 "number of countries that have identified and reported funding needs, gaps and priorities",NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,1,1,NA,NA,NA
 number of countries that have developed national financial plans for biodiversity,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,1,1,NA,NA,NA
-number of countries that have been provided with the necessary funding and capacity building to undertake the above activities,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,1,1,NA,NA,NA
+"number of countries that have been provided with the necessary funding and capacity building to undertake assessment values of biodiversity, in accordance with the Convention, and/or identified and reported funding needs, gaps and priorities, and/or developed national financial plans for biodiversity",NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,1,1,NA,NA,NA
 growth in number of records and species in the living planet index database,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,1,1,1,NA,NA
 species occurrence records accessible through the global biodiversity information facility,1,NA,NA,NA,1,NA,NA,1,NA,NA,NA,NA,NA,NA,1,1,1,NA,NA
 growth in marine species occurrence records accessible through ocean biodiversity information system (obis),NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,1,1,NA,NA,NA
@@ -646,7 +646,6 @@ the proportion of candidate ramsar sites designated so far for wetland types/fea
 coverage of the wetland resource by designated ramsar sites,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,1,1,NA,NA,NA
 trends in land cover,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,NA,NA,NA
 trends in land productivity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,NA,NA,NA
-"trends in carbon stocks (above and below ground), which is currently represented by soil organic carbon (soc) stocks",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,NA,NA,NA
 monthly maximum value of daily maximum temperature,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA
 monthly minimum value of daily maximum temperature,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA
 monthly minimum value of daily minimum temperature,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA
@@ -686,7 +685,7 @@ soil moisture anomalies,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA
 standardized soil moisture index,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA
 standardized runoff index,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA
 standardized streamflow index,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA
-palmer drought severity index,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA
+palmer drought severity index (pdsi),NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA
 standardized precipitation evapotranspiration index (spei),NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA
 gross domestic product,1,1,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA
 globalization index,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA
@@ -782,7 +781,7 @@ biological pump efficiency,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA
 biomass turnover rate,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA
 evapotranspiration (model ensemble),1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA
 marine net primary production,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA
-net primary production remaining in ecosystems,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA
+net primary production remaining in ecosystems,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA
 oceanic carbon sequestration,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA
 terrestrial c sequestration (model ensemble),1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA
 terrestrial net primary production (model ensemble),1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA
@@ -855,7 +854,7 @@ dissolved organic carbon,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA
 co2 removal from atmosphere,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA
 net primary production,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA
 abundance of sulfate reducing microorganisms,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA
-carbon sequestration,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA
+carbon sequestration,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,1,NA
 concentration of greenhouse gases in the atmosphere,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA
 prevented emissions and uptake of greenhouse gases by ecosystems,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA
 number of deaths caused by extreme climatic events,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA
@@ -1054,7 +1053,6 @@ area of natural and traditional landscapes and seascapes,1,NA,NA,NA,1,NA,NA,NA,N
 "number of protected areas, parks and gardens",1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA
 "visitation rate to natural terrestrial, coastal and marine areas",1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA
 "increased awareness, care, mental health, cultural security, life-satisfaction",1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA
-NA,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA
 abundance of slowly changing ecosystems (time past last land use change),1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA
 identity value,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA
 happyness,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA
@@ -1106,7 +1104,7 @@ red list index (impacts of fisheries),1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 global effort in bottom-trawling,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA
 nitrogen use balance,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA
 wild bird index (farmland birds),1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA
-area of agricultural land under conservation agriculture,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA
+area of agricultural land under conservation agriculture,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA
 nitrogen surplus (tg n),1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA
 percentage of countries with invasive alien species legislation,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA
 glacial mass balance,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA
@@ -1147,7 +1145,7 @@ trends in pesticide use,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 protected area coverage,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 percentage of undernourished people,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 number of countries with developed or revised nbsaps,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
-"number of countries with national instruments on biodiversity-relevant taxes, charges and fees",1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+"number of countries with national instruments on biodiversity relevant taxes, charges and fees",1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 number of countries with national instruments on redd plus schemes,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 trends in potentially harmful elements of government support to agriculture (produced support estimates),1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 trends in potentially harmful elements of government support to fisheries,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
@@ -1165,6 +1163,7 @@ temporal species turnover,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 overall species abundance,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 non declining exploited species,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 number of world natural heritage sites per country per year,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+area of agricultural land under conservation,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 trends in the numbers of invasive alien species introduction events,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 trends in invasive alien species vertebrate eradications,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 "protected area coverage of terrestrial, marine and freshwater ecoregions",1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
@@ -1182,7 +1181,6 @@ caloric intake,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA
 per capita consumption,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA
 value of merchandise being exported,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA
 mortality rate under 5,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
-calorie intake,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 merchandise exports,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 total population,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 proportion of urban population,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
@@ -1235,7 +1233,7 @@ endemism richness,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 weighted endemisms,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 vegetation biomass,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 land not cultivated or urban (global),1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
-remanining primary vegetations,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+remanining primary vegetation,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 mean annual change in above-ground biomass,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 terrestrial c sequestration,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 terrestrial net primary production,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
@@ -1251,7 +1249,6 @@ predicts species-richness indicator,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,N
 human footprint,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 trends of populations of palatable or unpalatable species,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1
 time needed or distance travelled to harvest resources,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1
-native newcomer species,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1
 opening up of forest canopy,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1
 "less biomass, more annuals and shrubs on pastures",1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1
 proportion of unpalatable plants on rangelands,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1
@@ -1291,7 +1288,8 @@ encounter rates with supernatural forest dwelling entities,1,NA,NA,NA,1,NA,NA,NA
 extent of ecosystems that filter or add constituent components to water,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 reduced concentration of pollutants in water,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 health associated with intake of pollinator dependent foods,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
-natural habitat in agriculture pollen deposition,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+natural habitat in agriculture,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+pollen deposition,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 reduced concentrations of pm2.5,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 avoided morbidity and premature mortality from air pollution,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 avoided costs from air pollution,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
@@ -1306,7 +1304,6 @@ ability of ecosystems to absorb and buffer hazards,1,NA,NA,NA,1,NA,NA,NA,NA,NA,N
 reduced incidence and severity of hazards,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 reduced morbidity and premature mortality due to natural hazards,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 reduced property loss due to natural hazards,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
-natural habitat in agriculture,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 reduced food spoilage,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 reduced net farm income loss from pests and diseases,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 diversity of competent hosts of vector-borne diseases,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
@@ -1345,7 +1342,6 @@ visitation to natural areas,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,N
 percentage of population living in dense urban areas,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 historic land use change since 1970,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 leaf surface area,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA
-net carbon sequestration,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA
 transfer of water to the atmosphere,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA
 biotic productivity,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA
 extent of protected and intact habitat globally,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
@@ -1360,7 +1356,7 @@ organisms` size or growth,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 reproduction rate,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 "pest, invasive or harmful species",1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 c pool,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
-global sclae ecosystem carbon storage,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+global scale ecosystem carbon storage,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 adaptive capacity index (aci),1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 oecd better life index,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 sustainable development goals (sdg) index,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
@@ -1379,7 +1375,6 @@ genuine progress indicator,1,NA,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 funding for environmental education,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 funding for environmental impact assessments,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 human appropriation of fresh water,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
-online interest inbiodiversity (proportion of google searches),1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 proportion of countries that are category 1 signatories to the convention on international trade in endangered species of wild fauna and flora (cites),1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA
 growth in human appropriation of net primary productivity,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 demand for greener products and services,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
@@ -1560,7 +1555,7 @@ macroinvertebrate-based indices,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 trends in pathways of introduction and spread,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 trends in numbers of invasive alien species and their impacts,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 "trends, mechanisms and severity of invasive alien species impacts",NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
-trends in the allocation of resources towards the prevention or control of invasive alien spcies,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
+trends in the allocation of resources towards the prevention or control of invasive alien species,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 trends in establishment and national adoption of international agreements relevant to the prevention and control of invasive alien species,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 trends in numbers of countries with national legislation and other policy measures relevant to the prevention and/or control of invasive alien species,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 trends in the prevention of invasive alien species,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
@@ -1579,7 +1574,6 @@ prospective inclusion of other native taxa and threatened habitats,NA,NA,NA,1,1,
 trends in adoption of multinational agreements to reduce invasive alien species threats,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 trends in invasive alien species relevant submissions to managers,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 trends in invasive alien species eradication at different scales,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
-proportion of countries adopting relevant national legislation and adequately resourcing the prevention or control of invasive alien specie,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 number of alien taxa,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA
 species negatively impacting biodiversity,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA
 trends in species at risk of localized extinction in a protected area,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA
@@ -1593,7 +1587,6 @@ alien species occurrence,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA
 status of an individual or species as native or alien,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA
 invasive alien species impact,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA
 trends in numbers and spatial distribution of invasive alien species and their impacts,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
-trends in the allocation of resources towards the prevention or control of invasive alien species,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 trends in the prevention and eradication and control of invasive alien species,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 trends in successful eradications of invasive alien species,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 improvement in conseration status of species threatened by invasive alien species,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
@@ -1838,7 +1831,6 @@ standardized runoff index (sri),NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
 standardized streamflow index (ssi),NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 threshold level methods,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 standardized groundwater index (sgi),NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
-palmer drought severity index (pdsi),NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 precipitation deficits,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 excess of atmospheric evaporative demand (aed),NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 soil moisture deficits,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
@@ -1929,8 +1921,6 @@ degree heating months,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA
 maximum daytime heat index,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 regional deficit index,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 fire risk,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
-"standardized precipitation
-evapotranspiration index spei",NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 wet bulb temperature,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA
 greenhouse gas index (national oceanic and atmospheric administration),NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 glacier mass balance,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
@@ -2083,7 +2073,6 @@ percentage of the population exposed to annual mean pm concentrations above the 
 total gobal population living in water scarce areas,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 marine nutirent pollution,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 nutrient runoff into oceans (n and p),NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
-trends in soil organic carbon stock,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 number of people living on less than 1.90 usd per day,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA
 land-use change,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA
 "changes in terrestrial, marine and freshwater vertebrate populations",NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA

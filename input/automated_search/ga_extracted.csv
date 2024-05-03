@@ -34,7 +34,7 @@ number of countries with developed or revised nbsaps,2,1,NA
 proportion of known species assessed through the red list index,2,1,NA
 species status index,2,1,NA
 living planet index,2,1,NA
-"number of countries with national instruments on biodiversity-relevant taxes, charges and fees",2,1,NA
+"number of countries with national instruments on biodiversity relevant taxes, charges and fees",2,1,NA
 number of countries with national instruments on redd plus schemes,2,1,NA
 trends in potentially harmful elements of government support to agriculture (produced support estimates),2,1,NA
 trends in potentially harmful elements of government support to fisheries,2,1,NA
@@ -57,7 +57,7 @@ overall species abundance,2,1,NA
 non declining exploited species,2,1,NA
 number of world natural heritage sites per country per year,2,1,NA
 nitrogen use balance,2,1,NA
-area of agricultural land under conservation agriculture,2,1,NA
+area of agricultural land under conservation,2,1,NA
 proportion of agricultural area under productive and sustainable agriculture,2,1,NA
 trends in the numbers of invasive alien species introduction events,2,1,NA
 trends in invasive alien species vertebrate eradications,2,1,NA
@@ -81,7 +81,6 @@ caloric intake,1,1,NA
 per capita consumption,1,1,NA
 value of merchandise being exported,1,1,NA
 mortality rate under 5,2,1,NA
-calorie intake,2,1,NA
 globalization index,2,1,NA
 domestic material consumption,2,1,NA
 merchandise exports,2,1,NA
@@ -155,7 +154,7 @@ mangrove forest area,2,1,NA
 remaining primary vegetation (indigenous lands),2,1,NA
 coastal protection habitats,2,1,NA
 live coral cover,2,1,NA
-remanining primary vegetations,2,1,NA
+remanining primary vegetation,2,1,NA
 extent of terrestrial wilderness,2,1,NA
 extent of intact forest landscapes,2,1,NA
 coastal carbon-rich habitat,2,1,NA
@@ -166,7 +165,7 @@ oceanic carbon sequestration,2,1,NA
 terrestrial c sequestration,2,1,NA
 marine net primary production,2,1,NA
 terrestrial net primary production,2,1,NA
-net primary production remaining in ecosystems,2,1,NA
+net primary production,2,1,NA
 evapotranspiration,2,1,NA
 biological pump efficiency,2,1,NA
 local species richness,2,1,NA
@@ -197,12 +196,10 @@ red list index (wild relatives of farmed and domesticated species),2,1,NA
 human footprint,2,1,NA
 trends of populations of palatable or unpalatable species,1,1,1
 time needed or distance travelled to harvest resources,1,1,1
-native newcomer species,1,1,1
 opening up of forest canopy,1,1,1
 "less biomass, more annuals and shrubs on pastures",1,1,1
 proportion of unpalatable plants on rangelands,1,1,1
 condition and size of wild animals,1,1,1
-net primary production,2,1,NA
 percentage of live coral cover,2,1,NA
 adverse changes in woody or shrubby vegetation,1,1,NA
 adverse changes of unpalatable species,1,1,NA
@@ -244,7 +241,8 @@ avoided water treatment costs,2,1,NA
 reduced incidence of water borne disease,2,1,NA
 abundance of managed and wild pollinators,2,1,NA
 health associated with intake of pollinator dependent foods,2,1,NA
-natural habitat in agriculture pollen deposition,2,1,NA
+natural habitat in agriculture,2,1,NA
+pollen deposition,2,1,NA
 retention and prevented emissions of air pollutants by ecosystems,2,1,NA
 reduced concentrations of pm2.5,2,1,NA
 avoided morbidity and premature mortality from air pollution,2,1,NA
@@ -261,7 +259,6 @@ ability of ecosystems to absorb and buffer hazards,2,1,NA
 reduced incidence and severity of hazards,2,1,NA
 reduced morbidity and premature mortality due to natural hazards,2,1,NA
 reduced property loss due to natural hazards,2,1,NA
-natural habitat in agriculture,2,1,NA
 reduced food spoilage,2,1,NA
 reduced net farm income loss from pests and diseases,2,1,NA
 diversity of competent hosts of vector-borne diseases,2,1,NA
@@ -303,7 +300,7 @@ visitation to natural areas,2,1,NA
 percentage of population living in dense urban areas,2,1,NA
 historic land use change since 1970,2,1,NA
 leaf surface area,1,1,NA
-net carbon sequestration,1,1,NA
+carbon sequestration,1,1,NA
 transfer of water to the atmosphere,1,1,NA
 biotic productivity,1,1,NA
 extent of protected and intact habitat globally,2,1,NA
@@ -319,7 +316,7 @@ organisms` size or growth,2,1,NA
 reproduction rate,2,1,NA
 "pest, invasive or harmful species",2,1,NA
 c pool,2,1,NA
-global sclae ecosystem carbon storage,2,1,NA
+global scale ecosystem carbon storage,2,1,NA
 adaptive capacity index (aci),2,1,NA
 oecd better life index,2,1,NA
 sustainable development goals (sdg) index,2,1,NA
@@ -350,7 +347,6 @@ red list index (forest specialists),2,1,NA
 red list index (impacts of fisheries),2,1,NA
 wild bird index (farmland birds),2,1,NA
 area of agricultural land under organic production,2,1,NA
-online interest inbiodiversity (proportion of google searches),2,1,NA
 proportion of countries that are category 1 signatories to the convention on international trade in endangered species of wild fauna and flora (cites),1,1,NA
 growth in human appropriation of net primary productivity,2,1,NA
 demand for greener products and services,2,1,NA

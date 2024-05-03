@@ -203,7 +203,7 @@ surface moisture flux convergence,1,1,NA
 blocking index,2,1,NA
 water vapour residence time,1,1,NA
 plant water use efficiency (wue),2,1,NA
-palmer drought severity index,2,1,NA
+palmer drought severity index (pdsi),2,1,NA
 rainfall variability,1,1,NA
 tropical precipitation,1,1,NA
 atmospheric internal variability,1,1,NA
@@ -247,7 +247,6 @@ standardized streamflow index (ssi),2,1,NA
 threshold level methods,2,1,NA
 standardized groundwater index (sgi),2,1,NA
 standardized precipitation evapotranspiration index (spei),2,1,NA
-palmer drought severity index (pdsi),2,1,NA
 precipitation deficits,2,1,NA
 excess of atmospheric evaporative demand (aed),2,1,NA
 soil moisture deficits,2,1,NA
@@ -340,6 +339,4 @@ degree heating months,1,1,NA
 maximum daytime heat index,2,1,NA
 regional deficit index,2,1,NA
 fire risk,2,1,NA
-"standardized precipitation
-evapotranspiration index spei",2,1,NA
 wet bulb temperature,1,1,NA

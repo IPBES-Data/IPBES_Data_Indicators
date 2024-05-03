@@ -38,5 +38,5 @@ IPCC_36,Drought,SMA,Soil moisture anomalies,Months,Soil moisture,soil moisture a
 IPCC_37,Drought,SSMI,Standardized soil moisture index,Months,Soil moisture,standardized soil moisture index
 IPCC_38,Drought,SRI,Standardized runoff index,Months,Streamflow,standardized runoff index
 IPCC_39,Drought,SSI,Standardized streamflow index,Months,Streamflow,standardized streamflow index
-IPCC_40,Drought,PDSI,Palmer drought severity index,Months,"Precipitation, evaporation",palmer drought severity index
+IPCC_40,Drought,PDSI,Palmer drought severity index,Months,"Precipitation, evaporation",palmer drought severity index (pdsi)
 IPCC_41,Drought,SPEI,Standardized precipitation evapotranspiration index,Months,"Precipitation, evaporation, temperature",standardized precipitation evapotranspiration index (spei)

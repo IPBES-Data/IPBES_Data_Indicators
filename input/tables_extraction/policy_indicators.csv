@@ -242,7 +242,7 @@ proportion of local governments that adopt and implement local disaster risk red
 spawning stock biomass (related to commercially exploited species),1,NA,NA,NA,NA,NA,NA
 volume of production per labour unit by classes of farming/pastoral/forestry enterprise size,1,1,NA,NA,NA,NA,NA
 agrobiodiversity index,1,NA,NA,NA,NA,NA,NA
-changes in soil organic carbon stocks,1,NA,NA,NA,NA,NA,NA
+soil organic carbon (soc) stocks,1,NA,NA,NA,NA,NA,1
 proportion of land that is degraded over total land area,1,1,NA,NA,NA,NA,1
 air emission accounts,1,NA,NA,NA,NA,NA,NA
 proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management,1,1,NA,NA,NA,NA,NA
@@ -287,7 +287,7 @@ number of countries (and number of instruments) with payments for ecosystem serv
 "number of countries that have assessed values of biodiversity, in accordance with the convention",1,NA,NA,NA,NA,NA,NA
 "number of countries that have identified and reported funding needs, gaps and priorities",1,NA,NA,NA,NA,NA,NA
 number of countries that have developed national financial plans for biodiversity,1,NA,NA,NA,NA,NA,NA
-number of countries that have been provided with the necessary funding and capacity building to undertake the above activities,1,NA,NA,NA,NA,NA,NA
+"number of countries that have been provided with the necessary funding and capacity building to undertake assessment values of biodiversity, in accordance with the Convention, and/or identified and reported funding needs, gaps and priorities, and/or developed national financial plans for biodiversity",1,NA,NA,NA,NA,NA,NA
 growth in number of records and species in the living planet index database,1,NA,NA,NA,NA,NA,NA
 species occurrence records accessible through the global biodiversity information facility,1,NA,NA,NA,NA,NA,NA
 growth in marine species occurrence records accessible through ocean biodiversity information system (obis),1,NA,NA,NA,NA,NA,NA
@@ -646,4 +646,3 @@ the proportion of candidate ramsar sites designated so far for wetland types/fea
 coverage of the wetland resource by designated ramsar sites,NA,NA,NA,NA,NA,1,NA
 trends in land cover,NA,NA,NA,NA,NA,NA,1
 trends in land productivity,NA,NA,NA,NA,NA,NA,1
-"trends in carbon stocks (above and below ground), which is currently represented by soil organic carbon (soc) stocks",NA,NA,NA,NA,NA,NA,1

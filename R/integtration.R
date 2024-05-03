@@ -1,3 +1,4 @@
+# clean you environment
 rm(list=ls())
 
 ############################################################################
@@ -10,14 +11,13 @@ rm(list=ls())
 ### Settings----
 
 ## Source useful functions from folders downloaded from GitHub
-source("C:/Users/yanis/Documents/scripts/IPBES-Data/IPBES_Data_Indicators/code/settings.R")
-source("C:/Users/yanis/Documents/scripts/IPBES-Data/IPBES_Data_Indicators/code/useful_functions_indic.R")
+your_workdir <- "C:/Users/yanis/Documents/scripts/IPBES-Data/IPBES_Data_Indicators/"
+source(paste0(your_workdir,"R/useful_functions_indic.R"))
+source(paste0(your_workdir,"R/settings.R"))
 
 ## Set working directory
 your_user <- Sys.info()["user"]
 your_node <- Sys.info()["nodename"]
-
-your_workdir <- "C:/Users/yanis/Documents/scripts/IPBES-Data/IPBES_Data_Indicators" 
 
 set_working_dir(your_user,your_node)
 
@@ -34,11 +34,10 @@ library(purrr)
 library(googlesheets4)
 library(ggplot2)
 library(circlize)
-
 # install.packages("ggalluvial")
 library(ggalluvial)
+
 # Set data directories 
-gd_dir = 'G:/.shortcut-targets-by-id/1H9meyomoJK2QW531mPnEcynUYZOl3Itm/_TSU Internal/_ Weekly reports/Files - TSU Data/indicators/'
 git_dir = "C:/Users/yanis/Documents/scripts/IPBES-Data/IPBES_Data_Indicators/"
 
 # 1-Append all indicators to classify-----
@@ -84,16 +83,15 @@ all_indicators = indicators_policy_supp_tables %>%
   dplyr::select(-var_ext, -indic_ext) %>% 
   dplyr::select(indicators_harmonized, ga, sua, va = va_extracted, ias = ias_extracted,ipbes, geo = geo_extracted, ipcc, km_gbf, sdg,cites,cms,iccwc,ramsar, unccd,policy,indic, indic_ext =indic_ext2, var_ext=var_ext2,ILK_ext) %>% 
   dplyr::filter(!is.na(indicators_harmonized)) %>% 
-  write_csv(paste0(git_dir,'input/all_indicators.csv')) %>% 
-  write_csv(paste0(gd_dir,'input_data2/all_indicators.csv'))
+  write_csv(paste0(git_dir,'input/all_indicators.csv'))
 
 all_indicators %>% distinct(indicators_harmonized) %>% count() #2106 unique indicators
 
 
 ## 1.a-Merge with previously classified indicators ----
 
-#Load classified indicators (version April 2024)
-classified = read_sheet("https://docs.google.com/spreadsheets/d/1SJJBBOYYfUE7pkGaLqbj-ialx6g1RGGubVXK5CfcG3o/edit#gid=1682891338",
+#Load previously classified indicators (version April 2024)
+classified = readxl::read_excel(paste0(git_dir, "input/all_indicators_classifiedApr24.xlsx"),
                         sheet = "indicators_to_classify_full2") %>% 
   dplyr::select(indicators_harmonized, Categories,	Categories_2,	Subcategories,	Subcategories_2) %>% 
   filter(!is.na(indicators_harmonized)) %>% 
@@ -114,13 +112,11 @@ all_indicators_cl = all_indicators_cl %>%  filter(!is.na(Categories))
 all_indicators_cl %>% filter(indic == 1 & is.na(Categories)) %>% count() #0 real indicators NOT classifed yet
 
 # save
-write_csv(all_indicators_cl, paste0(git_dir,'output/indicators_to_classify_full3.csv'))
-write_csv(all_indicators_cl, paste0(gd_dir,'output_data2/indicators_to_classify_full3.csv'))
-all_indicators_cl = read_csv(paste0(git_dir,'output/indicators_to_classify_full3.csv'))
+write_csv(all_indicators_cl, paste0(git_dir,'input/all_indicators_classifiedMay24.csv'))
+#all_indicators_cl = read_csv(paste0(git_dir,'input/all_indicators_classifiedMay24.csv'))
 
 # 2-Classify indicators----
-# This is a manual process happened in mutiple iterations here: https://docs.google.com/spreadsheets/d/1-J-iPKU9ARkW5sH0K8K0OOZD4r8FEsfwGk3yg6wBO3U/edit#gid=748616117
-# and here: https://docs.google.com/spreadsheets/d/1SJJBBOYYfUE7pkGaLqbj-ialx6g1RGGubVXK5CfcG3o/edit#gid=1682891338
+# This is a manual process happened in multiple iterations (May24 was the last one)
 # 3-Summaries----
 
 all_indicators_cl %>% filter(!is.na(indicators_harmonized)) %>% distinct(indicators_harmonized) %>% count() #2101 unique indicators
@@ -167,11 +163,11 @@ all_indicators_cl2 = all_indicators_cl %>%
                 "usage","usage_policy","usage_assess","usage_ipbes",
                 "indic","indic_ext","var_ext",
                 "Categories","Categories_2","Subcategories","Subcategories_2") %>% 
-  write_csv(paste0(git_dir,'output/all_indicators.csv'))
+  write_csv(paste0(git_dir,'output/all_harmonized_classified_indicatorsMay24.csv'))
 names(all_indicators_cl2)
 
 # save clean version
-#all_indicators_cl2 = read_csv(paste0(git_dir,'output/all_indicators.csv'))
+#all_indicators_cl2 = read_csv(paste0(git_dir,'output/all_harmonized_classified_indicatorsMay24.csv'))
 
 # 3-Summaries of indicators by source----
 
@@ -336,7 +332,7 @@ policy_indic_cl = all_indicators_cl2 %>%
   distinct(indicators_harmonized, meas, .keep_all = TRUE) %>%
   # remove source to avoid confusion
   dplyr::select(-source) %>% 
-  #write_csv(paste0(git_dir,'output/policy_indicators2.csv'))
+  write_csv(paste0(git_dir,'output/policy_indicatorsMay24.csv'))
   
 #unique indicators and categories
 #policy_indic_cl %>% distinct(indicators_harmonized) %>% count()#648 indicators
@@ -432,49 +428,6 @@ policy_indic_cl %>%
   unnest(source) %>% 
   filter(Subcategories =="Ilk")
 
-### 3.a.1-Policy indicators for B3----
-
-# Summaries for b3 deliverable
-policy_indic_B3 = policy_indic_cl %>% 
-  filter(
-    Categories == 'biodiversity' |
-    Categories == 'ecosystems' |
-    Categories == 'Ecosystem services' |
-    Subcategories == 'Invasive alien species') %>% 
-  mutate(Categories = gsub('Direct drivers','Invasive alien species', Categories)) %>% 
-  distinct(indicators_harmonized, .keep_all = TRUE) %>% 
-  write_csv(paste0(git_dir,'output/b3_indic_summary.csv'))
-
-policy_indic_B3 %>% distinct(indicators_harmonized, .keep_all = TRUE) %>% count() #199
-
-policy_indic_B3 %>% 
-  group_by(Categories) %>%  count()
-#Categories                 n
-#Ecosystem services        23
-#Invasive alien species     5
-#biodiversity              74
-#ecosystems                98
-
-policy_indic_B3 %>% 
-  group_by(Categories, source) %>%  count()
-
-data_hist1 = policy_indic_B3 %>% 
-  # write nicer
-  mutate(Categories = gsub('Ecosystem services','Ecosystem Services', Categories)) %>% 
-  mutate(Categories = gsub('Invasive alien species','Invasive Alien Species', Categories)) %>% 
-  mutate(Categories = gsub('biodiversity','Biodiversity', Categories)) %>% 
-  mutate(Categories = gsub('ecosystems','Ecosystems', Categories)) %>% 
-  group_by(Categories, source) %>%  count() %>% arrange(desc(n))
-
-# Stacked barplot with multiple groups
-ggplot(data=data_hist1, aes(x=source, y=n, fill=Categories)) +
-  geom_bar(stat="identity", color="black") + 
-  labs(y="Number of indicators", x = NULL) +
-  scale_fill_brewer(palette="Greens") +
-  scale_x_discrete(limits=c("GBF","CMS", "RAMSAR", "SDG", "UNCCD", "CITES")) +
-  theme_minimal()
-
-
 ## 3.b-Indicators in assessments-----
 assess_indic_cl = all_indicators_cl2 %>% 
   # unsplit sources to get each assessment source per row --> source
@@ -491,7 +444,7 @@ assess_indic_cl = all_indicators_cl2 %>%
   distinct(indicators_harmonized, assess, .keep_all = TRUE) %>%
   # remove source to avoid confusion
   dplyr::select(-source) %>% 
-  write_csv(paste0(git_dir,'output/assessment_indicators2.csv'))
+  write_csv(paste0(git_dir,'output/assessment_indicatorsMay24.csv'))
 
 assess_indic_cl %>% distinct(indicators_harmonized) %>% count()#1648
 assess_indic_cl %>% distinct(indicators_harmonized, .keep_all = TRUE) %>% filter(policy == 1) %>% count()#194
@@ -546,7 +499,7 @@ IPBES_indic_cl = all_indicators_cl2 %>%
   distinct(indicators_harmonized, ipbes_assess, .keep_all = TRUE) %>%
   # remove source to avoid confusion
   dplyr::select(-source) %>% 
-  write_csv(paste0(git_dir,'output/ipbes_assessment_indicators2.csv'))
+  write_csv(paste0(git_dir,'output/ipbes_assessment_indicatorsMay24.csv'))
 
 # summaries  
 IPBES_indic_cl %>% distinct(indicators_harmonized) %>% count()#1083
@@ -652,385 +605,3 @@ indic_core_high = read_csv(paste0(git_dir,'input/tables_extraction/ipbes_core_hi
 # core and highlighted indicators NOT used
 not_used = anti_join(indic_core_high,IPBES_indic_cl)
 # if disaggregated this indicators is already included.
-
-
-
-
-
-
-
-
-
-###############################################################################
-## 3.a.1-Assessment indicators for B3----
-
-# Summaries for b3 deliverable
-assess_indic_B3 = assess_indic_cl %>% 
-  filter(
-    Categories == 'biodiversity' |
-      Categories == 'ecosystems' |
-      Subcategories == 'Invasive alien species') %>% 
-  write_csv(paste0(git_dir,'output/b3_assess_indic_summary.csv'))
-
-assess_indic_B3 %>% 
-  mutate(Categories = gsub('Direct drivers','Invasive alien species', Categories)) %>% 
-  distinct(indicators_harmonized, .keep_all = TRUE) %>% 
-  group_by(Categories) %>%  count()
-#Categories                 n
-#Invasive alien species     3
-#biodiversity              126
-#ecosystems                99
-
-data_hist1 = assess_indic_B3 %>% 
-  mutate(Categories = gsub('Direct drivers','Invasive Alien Species', Categories)) %>% 
-  mutate(Categories = gsub('biodiversity','Biodiversity', Categories)) %>% 
-  mutate(Categories = gsub('ecosystems','Ecosystems', Categories)) %>% 
-  mutate(assess = toupper(assess)) %>% 
-  #mutate(mea = gsub('KM_GBF','GBF', mea)) %>% 
-  group_by(Categories, assess) %>%  count() %>% arrange(desc(n))
-
-data_hist2 = assess_indic_B3 %>% 
-  mutate(Categories = gsub('Direct drivers','Invasive Alien Species', Categories)) %>% 
-  mutate(Categories = gsub('biodiversity','Biodiversity', Categories)) %>% 
-  mutate(Categories = gsub('ecosystems','Ecosystems', Categories)) %>% 
-  mutate(assess = toupper(assess)) %>% 
-  #mutate(mea = gsub('KM_GBF','GBF', mea)) %>% 
-  group_by(assess) %>%  count() %>% arrange(desc(n))
-
-# Stacked barplot with multiple groups
-bplot = ggplot(data=data_hist1, aes(x=mea, y=n, fill=Categories)) +
-  geom_bar(stat="identity", color="black")
-bplot + 
-  labs(y="Number of indicators", x = NULL) +
-  scale_fill_brewer(palette="Greens", limits=c("Invasive Alien Species", "Ecosystems", "Biodiversity")) +
-  scale_x_discrete(limits=c("GBF", "RAMSAR", "SDG","CMS", "UNCCD", "CITES")) +
-  theme_minimal()
-
-ggplot(data=data_hist1, aes(x=mea, y=n, fill=Categories)) +
-  geom_bar(stat="identity")+
-  geom_text(aes(label=n), vjust=1.6, color="white",
-            position = position_dodge(0.9), size=3.5)+
-  scale_fill_brewer(palette="Paired")+
-  theme_minimal()
-
-
-policy_indic_cl %>% filter(Categories == 'biodiversity' |Categories == 'ecosystems') %>% 
-  group_by(Categories, mea) %>% count() 
-policy_indic_cl %>% group_by(usage) %>% count()
-
-
-policy_indic_cl_l = policy_indic_cl  %>% 
-  pivot_longer(
-    cols = km_gbf:unccd,
-    names_to = "mea",
-    values_to = "value") %>%
-  filter(value != 0) %>%
-  group_by(indicators_harmonized) %>% 
-  mutate(meas = paste0(mea,collapse = ",")) %>% 
-  ungroup()
-
-
-policy_indic_cl_l %>% filter(bio) group_by(mea) %>% count()
-mutate(n_by_mea = n()) %>% 
-  ungroup() %>% 
-  group_by(meas) %>% 
-  mutate(n_all = n()) %>% 
-  ungroup() %>% 
-  #mutate(perc_by_assessment=n_by_assessment/nrow(.)) %>% 
-  distinct(assessment, assess,n_by_assessment,perc_by_assessment,n_all)
-
-
-## 1.b-IPBES core and highlighted indicators (D&K TF 2017-2018)-----
-# core_high = read_excel('input_data/IPBES_2018.xlsx', sheet = 'core-high') %>%
-#   mutate(indicators = tolower(`Specific Indicator`)) %>% 
-#   #trims trailing commas
-#   mutate(indicators = trimws(indicators)) %>% 
-#   mutate(ga = if_else(!is.na(`GA Chapter`),
-#                              true = 1,
-#                              false = 0 )) %>% 
-#   mutate(ra = if_else(!is.na(`RA Chapter`),
-#                       true = 1,
-#                       false = 0 )) %>%  
-#   mutate(bip = if_else(!is.na(`BIP`),
-#                       true = 1,
-#                       false = 0 )) %>%
-#   mutate(CF = paste0(CF1,',', CF2,',',CF3)) %>% 
-#   mutate(source='IPBES_indicators_2018') %>% 
-#   dplyr::select(indicator_type = `type of indicator`,indicators,DPSIR ="DPSIR",CF, ra,ga,bip,source)
-# 
-# core_high %>%  group_by(indicator_type) %>% distinct() %>% count()
-# # core              30
-# # highlighted       42
-# 
-# ## These indicators were manually classified into categories for further work
-# ipbes2018 = read_excel('input_data/IPBES_2018.xlsx', sheet = 'core-high-classified')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-all_indicators %>% count()#1586
-all_indicators %>% distinct(indicators_harmonized) %>% count()
-all_indicators %>% filter(ga==1) %>% count()#687
-all_indicators %>% filter(sua==1) %>% count()#199
-all_indicators %>% filter(va ==1) %>% count()#18
-all_indicators %>% filter(ipbes==1) %>% count()#885
-all_indicators %>% filter(geo==1) %>% count()#149
-all_indicators %>% filter(ipcc ==1) %>% count()#252
-all_indicators %>% filter(km_gbf ==1) %>% count()#299
-all_indicators %>% filter(sdg==1) %>% count()#234
-
-
-ind_cleaned = all_indicators %>%
-  # remove indicators that did not passed the first assessment
-  filter(!is.na(indicators_harmonized)) %>%
-  #mutate(ind_usage=IPBES+GBF+SDG+BIP) %>% 
-  #mutate(ipbes_ind_usage=ga2+va+sua) %>% 
-  group_by(indicators_harmonized) %>% 
-  mutate(across(c(ga:sdg), sum, .names = "{.col}", na.rm = TRUE)) %>%
-  #mutate(across(c(gbf_clean:ipbes_clean), ~ replace(.,.>=1,1.))) %>%
-  ungroup() %>%
-  mutate(ipbes_usage = ga+va+sua) %>% 
-  mutate(usage = km_gbf+sdg+ipbes+ipcc+geo)
-
-
-ind_cleaned2 = ind_cleaned %>% 
-  mutate(ipbes = gsub(1, 'ipbes', ipbes)) %>% 
-  mutate(ipcc = gsub(1, 'ipcc', ipcc)) %>% 
-  mutate(geo = gsub(1, 'geo', geo)) %>% 
-  mutate(km_gbf = gsub(1, 'ipbes', km_gbf)) %>% 
-  mutate(sdg = gsub(1, 'sdg', sdg)) %>% 
-  pivot_longer(
-    cols = `geo`:`ipbes`, 
-    names_to = "assessment",
-    values_to = "value") %>% 
-  filter(value != 0) %>% 
-  group_by(indicators_harmonized) %>% 
-  mutate(assess = paste0(assessment,collapse = ",")) %>% 
-  ungroup() %>% 
-  dplyr::select(-n_indic, -ga, -va, -sua, -assessment, -value) %>% 
-  group_by(assess) %>% 
-  count()
-
-### Categorize indicators-----
-# This process is done manually following the categories described in Table 1 and 2
-
-## Load previous classified indicators
-all_indicators_classified=read_sheet('https://docs.google.com/spreadsheets/d/1RamCu_44EgRZJCI6kEbQJ7gDk-uV9eYw8H_tME140lw/edit#gid=308874240',
-                                     sheet = 'tables_extraction_indicators') %>% 
-  dplyr::select(-findings, -`Categories 2`, -`Subcategories 2`) %>% 
-  dplyr::filter(!is.na(Categories)) %>% 
-  dplyr::mutate(ipbes = if_else(ga == 1 | sua == 1,
-                                true = 1,
-                                false = NA)) %>% 
-  dplyr::relocate(ipbes, .after=sdg)
-write_csv(all_indicators_classified, 'C:/Users/yanis/Documents/all_indicators_classified.csv')
-# relation digaram with https://app.rawgraphs.io/
-
-all_indicators_classified_cleaned %>% 
-  
-  
-  indicators_generalized = distinct(all_indicators_classified,indicators_generalized)
-indicators_categories = distinct(all_indicators_classified,indicators_categories)
-indicators_categories2 = distinct(all_indicators_classified,indicators_categories2)
-
-all_indicators_classified %>% count()#1690 -->1739
-all_indicators_classified %>% distinct(indicators) %>% count()#1690 --> 1689
-
-all_indicators_classified %>% filter(gbf==1) %>% count()#298 --> 314 (unique are the same)
-all_indicators_classified %>% filter(sdg==1) %>% count()#307 --> 314 (unique are the same)
-all_indicators_classified %>% filter(ipbes ==1) %>% count()#1309 --> 1340 (unique are the same)
-# this may be due to a correct disaggregation of indicators or because they matched to multiple categories (which is a problem that I will need to investigate later)
-
-# check/Fix odd characters
-odd_ind = check_odd_chr(all_indicators_classified, indicators) # all good, some odd spaces
-odd_ind_clean = check_odd_chr(all_indicators_classified, indicators_cleaned)# all good, some odd spaces
-
-
-### Summaries----
-
-## Cleaned indicators
-ind_cleaned = all_indicators_classified %>%
-  # remove indicators that did not passed the first assessment
-  filter(!is.na(indicators_cleaned)) %>%
-  #mutate(ind_usage=IPBES+GBF+SDG+BIP) %>% 
-  #mutate(ipbes_ind_usage=ga2+va+sua) %>% 
-  group_by(indicators_cleaned) %>% 
-  mutate(across(c(gbf:ipbes), sum, .names = "{.col}_clean", na.rm = TRUE)) %>%
-  mutate(across(c(gbf_clean:ipbes_clean), ~ replace(.,.>=1,1.))) %>%
-  ungroup() %>%
-  mutate(ipbes_usage = ga_clean+va_clean+sua_clean) %>% 
-  mutate(usage = gbf_clean+sdg_clean+ipbes_clean) %>%
-  dplyr::select("indicators_cleaned","indicators_generalized","indicators_categories"="indicators_categories2",
-                "gbf_clean","ga_clean","va_clean","sua_clean","sdg_clean","ipbes_clean","ipbes_usage","usage") %>%
-  distinct() 
-
-ind_cleaned %>% filter(ipbes_clean == 1) %>% distinct() %>% count() #1007
-ind_cleaned %>% filter(ga_clean == 1) %>% distinct() %>% count() #667
-ind_cleaned %>% filter(va_clean == 1) %>% distinct() %>% count() #88
-ind_cleaned %>% filter(sua_clean == 1) %>% distinct() %>% count() #340
-ind_cleaned %>% filter(ipbes_clean == 1) %>% distinct(indicators_categories)
-
-ind_cleaned %>% filter(ipbes_clean == 1) %>% distinct() %>% count(ga_clean, va_clean, sua_clean)
-ind_cleaned %>% filter(ipbes_clean == 1, ipbes_usage >= 3) %>% distinct(indicators_cleaned)
-
-## Generalized  indicators
-ind_gen = ind_cleaned %>% 
-  group_by(indicators_generalized) %>% 
-  mutate(across(c(gbf_clean:ipbes_clean), sum, .names = "{.col}_gen", na.rm = TRUE)) %>% 
-  mutate(across(c(gbf_clean_gen:ipbes_clean_gen), ~ replace(.,.>=1,1.))) %>%
-  ungroup() %>% 
-  mutate(ipbes_usage = ga_clean_gen+va_clean_gen+sua_clean_gen) %>%
-  dplyr::select("indicators_generalized","indicators_categories",
-                "gbf_clean_gen","ga_clean_gen","va_clean_gen","sua_clean_gen","sdg_clean_gen","ipbes_clean_gen","ipbes_usage") %>%
-  distinct() 
-
-ind_gen %>% filter(ipbes_clean_gen == 1) %>% distinct() %>% count() #51
-ind_gen %>% filter(ga_clean_gen == 1) %>% distinct() %>% count() #50
-ind_gen %>% filter(va_clean_gen == 1) %>% distinct() %>% count() #30
-ind_gen %>% filter(sua_clean_gen == 1) %>% distinct() %>% count() #49
-ind_gen %>% filter(ipbes_clean_gen == 1) %>% distinct(indicators_categories)
-
-ind_gen %>% filter(ipbes_clean_gen == 1) %>% distinct() %>% count(ga_clean_gen, va_clean_gen, sua_clean_gen)
-ind_gen %>% filter(ipbes_clean_gen == 1, ipbes_usage >= 3) %>% distinct(indicators_generalized)
-
-## Categorized indicators
-ind_cat = ind_gen %>% 
-  group_by(indicators_categories) %>% 
-  mutate(across(c(gbf_clean_gen:ipbes_clean_gen), sum, .names = "{.col}_cat", na.rm = TRUE)) %>% 
-  mutate(across(c(gbf_clean_gen_cat:ipbes_clean_gen_cat), ~ replace(.,.>=1,1.))) %>%
-  ungroup() %>% 
-  mutate(ipbes_usage = ga_clean_gen_cat+va_clean_gen_cat+sua_clean_gen_cat) %>%
-  dplyr::select("indicators_categories",
-                "gbf_clean_gen_cat","ga_clean_gen_cat","va_clean_gen_cat","sua_clean_gen_cat","sdg_clean_gen_cat","ipbes_clean_gen_cat","ipbes_usage") %>%
-  distinct() 
-
-ind_cat %>% filter(ipbes_clean_gen_cat == 1) %>% distinct() %>% count() #9
-ind_cat %>% filter(ga_clean_gen_cat == 1) %>% distinct() %>% count() 
-ind_cat %>% filter(va_clean_gen_cat == 1) %>% distinct() %>% count() 
-ind_cat %>% filter(sua_clean_gen_cat == 1) %>% distinct() %>% count() 
-ind_cat %>% filter(ipbes_clean_gen_cat == 1) %>% distinct(indicators_categories)
-
-ind_cat %>% filter(ipbes_clean_gen_cat == 1) %>% distinct() %>% count(ga_clean_gen_cat, va_clean_gen_cat, sua_clean_gen_cat)
-ind_cat %>% filter(ipbes_clean_gen_cat == 1, ipbes_usage >= 3) %>% distinct(indicators_categories)  
-
-
-# IPBES assessment comparison (Table 3)
-ind_cleaned %>% filter(ipbes_clean == 1) %>% group_by(indicators_categories) %>% count() %>% arrange(desc(n))
-ind_cleaned %>% filter(ga_clean==1) %>% group_by(indicators_categories) %>% count() %>% arrange(desc(n))
-ind_cleaned %>% filter(va_clean==1) %>% group_by(indicators_categories) %>% count() %>% arrange(desc(n))
-ind_cleaned %>% filter(sua_clean==1) %>% group_by(indicators_categories) %>% count() %>% arrange(desc(n))
-
-# Frameworks comparison (Table 4)
-ind_cleaned %>% filter(ipbes_clean == 1) %>% group_by(indicators_categories) %>% count() %>% arrange(desc(n))
-ind_cleaned %>% filter(gbf_clean==1) %>% group_by(indicators_categories) %>% count() %>% arrange(desc(n))
-ind_cleaned %>% filter(sdg_clean==1) %>% group_by(indicators_categories) %>% count() %>% arrange(desc(n))
-
-ind_cleaned %>% filter(usage >= 3) %>% distinct(indicators_cleaned) %>% count() # 63 indicators used in the 3 frameworks
-ind_cleaned %>% filter(usage >= 3) %>% distinct(indicators_cleaned, indicators_categories) %>% view()
-
-# Comparison of sub categories (Level 2)
-## nature
-nature = ind_cleaned %>% 
-  filter(indicators_categories %in% c('biodiversity','ecosystems')) %>% 
-  group_by(indicators_generalized) %>% 
-  mutate(across(c(gbf_clean,sua_clean, ipbes_clean), sum, .names = "{.col}_gen", na.rm = TRUE)) %>%
-  ungroup() %>% 
-  dplyr::select(indicators_generalized, ipbes_clean_gen,gbf_clean_gen,sua_clean_gen) %>% distinct() %>% arrange(desc(ipbes_clean_gen))
-write_csv(nature,'input_data/nature.csv' )
-
-## NCP
-ncp = ind_cleaned %>% 
-  filter(indicators_categories == 'ecosystem services') %>% 
-  group_by(indicators_generalized) %>% 
-  mutate(across(c(gbf_clean,sua_clean, ipbes_clean), sum, .names = "{.col}_gen", na.rm = TRUE)) %>%
-  ungroup() %>% 
-  dplyr::select(indicators_generalized, ipbes_clean_gen,gbf_clean_gen,sua_clean_gen) %>% distinct() %>% arrange(desc(ipbes_clean_gen))
-write_csv(ncp,'input_data/ncp.csv' )
-
-## DD
-dd = ind_cleaned %>% 
-  filter(indicators_categories == 'direct drivers') %>% 
-  group_by(indicators_generalized) %>% 
-  mutate(across(c(gbf_clean,sua_clean, ipbes_clean), sum, .names = "{.col}_gen", na.rm = TRUE)) %>%
-  ungroup() %>% 
-  dplyr::select(indicators_generalized, ipbes_clean_gen,gbf_clean_gen,sua_clean_gen) %>% distinct() %>% arrange(desc(ipbes_clean_gen))
-write_csv(dd,'input_data/dd.csv' )
-
-## Gov
-gov = ind_cleaned %>% 
-  filter(indicators_categories == 'governance') %>% 
-  group_by(indicators_generalized) %>% 
-  mutate(across(c(gbf_clean,sua_clean, ipbes_clean), sum, .names = "{.col}_gen", na.rm = TRUE)) %>%
-  ungroup() %>% 
-  dplyr::select(indicators_generalized, ipbes_clean_gen,gbf_clean_gen,sua_clean_gen) %>% distinct() %>% arrange(desc(ipbes_clean_gen))
-write_csv(gov,'input_data/gov.csv' )
-
-## Wellbeing
-wellness = ind_cleaned %>% 
-  filter(indicators_categories == 'wellness') %>% 
-  group_by(indicators_generalized) %>% 
-  mutate(across(c(gbf_clean,sua_clean, ipbes_clean), sum, .names = "{.col}_gen", na.rm = TRUE)) %>%
-  ungroup() %>% 
-  dplyr::select(indicators_generalized, ipbes_clean_gen,gbf_clean_gen,sua_clean_gen) %>% distinct() %>% arrange(desc(ipbes_clean_gen))
-write_csv(wellness,'input_data/wellness.csv' )
-
-## Anthropogenic assets
-aa = ind_cleaned %>% 
-  filter(indicators_categories %in% c('ILK', 'scientific knowledge', 'financial assets')) %>% 
-  group_by(indicators_generalized) %>% 
-  mutate(across(c(gbf_clean,sua_clean, ipbes_clean), sum, .names = "{.col}_gen", na.rm = TRUE)) %>%
-  ungroup() %>% 
-  dplyr::select(indicators_generalized, ipbes_clean_gen,gbf_clean_gen,sua_clean_gen) %>% distinct() %>% arrange(desc(ipbes_clean_gen))
-write_csv(aa,'input_data/aa.csv' )
-
-
-### Assess uptake of IPBES Core and Highlighted indicatros-----
-
-# against al frameworks
-ipbes_2018_not_used_all = ipbes2018 %>%
-  anti_join(all_indicators_classified, by=('indicators_cleaned')) %>% 
-  dplyr::left_join(select(core_high,indicators, indicator_type), by='indicators') %>% 
-  distinct()
-
-# against IPBES
-ipbes_2018_not_used = ipbes2018 %>%
-  anti_join(filter(all_indicators_classified, ipbes == 1), by=('indicators_cleaned')) %>% 
-  dplyr::left_join(select(core_high,indicators, indicator_type), by='indicators') %>% 
-  distinct()
-
-
-
-# Create an edge list: a list of connections between 10 origin nodes, and 10 destination nodes:
-origin <- paste0("orig ", sample(c(1:10), 20, replace = T))
-destination <- paste0("dest ", sample(c(1:10), 20, replace = T))
-data <- data.frame(origin, destination)
-
-# Transform input data in a adjacency matrix
-adjacencyData <- with(data, table(origin, destination))
-
-# Charge the circlize library
-library(circlize)
-
-# Make the circular plot
-chordDiagram(adjacencyData, transparency = 0.5)
-
-
-
-names(all_indicators_cl3)
-numbers <- sample(c(1:1000), 100, replace = T)
-data <- matrix( numbers, ncol=5)
-rownames(data) <- paste0("orig-", seq(1,20))
-colnames(data) <- paste0("dest-", seq(1,5))
-chordDiagram(data, transparency = 0.5)
-
