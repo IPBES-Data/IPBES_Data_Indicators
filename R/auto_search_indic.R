@@ -57,7 +57,7 @@ assessment = 'ias'
 # List chapters in assessment
 chapters = list.files(file.path(input_dir,organization,assessment), pattern = '.pdf', full.names = TRUE)
 
-# Set where you want to save the extracted indicators (check if git or GDrive)
+# Set where you want to save the extracted indicators 
 save_dir = file.path(output_dir,'matches',organization)
 if (dir.exists(save_dir)){
   print('Directory exists')} else {dir.create(save_dir, recursive = TRUE)}
@@ -583,8 +583,7 @@ indicators_extracted = indicators_extracted %>%
   # clean table
   dplyr::select(-indicators_h, -field_harm) %>%
   # save data
-  write_csv(paste0(git_dir,'input/automated_search/automated_search_indicators.csv')) %>% 
-  write_csv(paste0(gd_dir,'input_data2/automated_search_indicators.csv'))
+  write_csv(paste0(git_dir,'input/automated_search/automated_search_indicators.csv'))
 
 
 

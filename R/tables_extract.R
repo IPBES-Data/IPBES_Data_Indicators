@@ -52,7 +52,6 @@ indic_sua =  ipbes_sua %>%
   dplyr::select(-indicators_h) %>%
   # save input data
   write_csv(paste0(git_dir,'input/tables_extraction/sua_sup_indicators.csv')) %>% 
-  write_csv(paste0(gd_dir,'input_data2/tables_extraction/sua_sup_indicators.csv')) %>% 
   # add source
   dplyr::mutate(sua_sup = 1) %>% 
   dplyr::distinct(indicators_harmonized, .keep_all = TRUE)  %>% 
@@ -96,7 +95,7 @@ indic_ga23 = ipbes_ga23 %>%
   dplyr::distinct(indicators_h, .keep_all = TRUE)  %>% 
   dplyr::select(indic_id, indicators,indicators_h)
 
-ipbes_ga3 = read_sheet("https://docs.google.com/spreadsheets/d/1meGdQdz7g5xeRGm7mD8NPgDv4ugTdutrdVmZTiaZgo0/edit?usp=sharing",
+ipbes_ga3 = readxl::read_excel(paste0(git_dir, "input/tables_extraction/IPBES/IPBES_suppMat_indicators.xlsx"),
                         sheet = "ga_suppMat_ch3")
 
 indic_ga3 = ipbes_ga3 %>% 
@@ -121,7 +120,6 @@ indic_ga = indic_ga21 %>%
   dplyr::select(-indicators_h) %>% 
   # save input data
   write_csv(paste0(git_dir,'input/tables_extraction/ga_sup_indicators.csv')) %>% 
-  write_csv(paste0(gd_dir,'input_data2/tables_extraction/ga_sup_indicators.csv')) %>% 
   # add source
   dplyr::mutate(ga_sup = 1) %>% 
   dplyr::distinct(indicators_harmonized, .keep_all = TRUE) %>% 
@@ -145,7 +143,6 @@ indic_ipcc = ipcc %>%
   dplyr::select(-indicators_h) %>% 
   # save input data
   write_csv(paste0(git_dir,'input/tables_extraction/ipcc_indicators.csv')) %>% 
-  write_csv(paste0(gd_dir,'input_data2/tables_extraction/ipcc_indicators.csv')) %>% 
   # add source
   dplyr::mutate(ipcc_sup = 1) %>% 
   dplyr::distinct(indicators_harmonized, .keep_all = TRUE)  %>% 
@@ -200,10 +197,7 @@ indic_supp_tables = indic_supp_tables %>%
   # clean table
   dplyr::select(-indicators_h, -field_harm) %>%
   # save data
-  write_csv(paste0(git_dir,'input/tables_extraction/IPBES-IPCC_supp_tables_indicators.csv')) %>% 
-  write_csv(paste0(gd_dir,'input_data2/tables_extraction/IPBES-IPCC_supp_tables_indicators.csv'))
-
-#indic_supp_tables = read_csv(paste0(gd_dir,'input_data2/tables_extraction/IPBES-IPCC_supp_tables_indicators.csv'))
+  write_csv(paste0(git_dir,'input/tables_extraction/IPBES-IPCC_supp_tables_indicators.csv'))
 
 
 # Load indicators from conventions (policy)----
@@ -226,7 +220,6 @@ indic_km_gbf = km_gbf %>%
   dplyr::filter(indicators_harmonized != 'none adopted') %>% 
   # save input data
   write_csv(paste0(git_dir,'input/tables_extraction/km_gbf_indicators.csv')) %>% 
-  write_csv(paste0(gd_dir,'input_data2/tables_extraction/km_gbf_indicators.csv')) %>% 
   # add source
   dplyr::mutate(km_gbf = 1) %>% 
   dplyr::distinct(indicators_harmonized, .keep_all = TRUE)  %>% 
@@ -253,7 +246,6 @@ indic_sdg = sdg %>%
   dplyr::filter(!is.na(indicators_harmonized)) %>% 
   # save input data
   write_csv(paste0(git_dir,'input/tables_extraction/sdg_indicators.csv')) %>% 
-  write_csv(paste0(gd_dir,'input_data2/tables_extraction/sdg_indicators.csv')) %>% 
   # add source
   dplyr::mutate(sdg = 1) %>% 
   dplyr::distinct(indicators_harmonized, .keep_all = TRUE)  %>% 
@@ -276,7 +268,6 @@ indic_cites = cites %>%
   dplyr::select(-indicators_h) %>% 
   # save input data
   write_csv(paste0(git_dir,'input/tables_extraction/cites_indicators.csv')) %>% 
-  write_csv(paste0(gd_dir,'input_data2/tables_extraction/cites_indicators.csv')) %>% 
   # add source
   dplyr::mutate(cites = 1) %>% 
   dplyr::distinct(indicators_harmonized, .keep_all = TRUE)  %>% 
@@ -299,7 +290,6 @@ indic_ramsar = ramsar %>%
   dplyr::select(-indicators_h) %>% 
   # save input data
   write_csv(paste0(git_dir,'input/tables_extraction/ramsar_indicators.csv')) %>% 
-  write_csv(paste0(gd_dir,'input_data2/tables_extraction/ramsar_indicators.csv')) %>% 
   # add source
   dplyr::mutate(ramsar = 1) %>% 
   dplyr::distinct(indicators_harmonized, .keep_all = TRUE)  %>% 
@@ -322,7 +312,6 @@ indic_unccd = unccd %>%
   dplyr::select(-indicators_h) %>% 
   # save input data
   write_csv(paste0(git_dir,'input/tables_extraction/unccd_indicators.csv')) %>% 
-  write_csv(paste0(gd_dir,'input_data2/tables_extraction/unccd_indicators.csv')) %>% 
   # add source
   dplyr::mutate(unccd = 1) %>% 
   dplyr::distinct(indicators_harmonized, .keep_all = TRUE)  %>% 
@@ -347,7 +336,6 @@ indic_cms = cms %>%
   dplyr::select(-indicators_h) %>% 
   # save input data
   write_csv(paste0(git_dir,'input/tables_extraction/cms_indicators.csv')) %>% 
-  write_csv(paste0(gd_dir,'input_data2/tables_extraction/cms_indicators.csv')) %>% 
   # add source
   dplyr::mutate(cms = 1) %>% 
   dplyr::distinct(indicators_harmonized, .keep_all = TRUE)  %>% 
@@ -370,7 +358,6 @@ indic_iccwc = iccwc %>%
   dplyr::select(-indicators_h) %>% 
   # save input data
   write_csv(paste0(git_dir,'input/tables_extraction/iccwc_indicators.csv')) %>% 
-  write_csv(paste0(gd_dir,'input_data2/tables_extraction/iccwc_indicators.csv')) %>% 
   # add source
   dplyr::mutate(iccwc = 1) %>% 
   dplyr::distinct(indicators_harmonized, .keep_all = TRUE)  %>% 
@@ -447,8 +434,7 @@ indic_policy = indic_policy %>%
   # clean table
   dplyr::select(-indicators_h, -field_harm) %>%
   # save data
-  write_csv(paste0(git_dir,'input/tables_extraction/policy_indicators.csv')) %>% 
-  write_csv(paste0(gd_dir,'input_data2/tables_extraction/policy_indicators.csv'))
+  write_csv(paste0(git_dir,'input/tables_extraction/policy_indicators.csv')) 
 
 
 
@@ -484,7 +470,6 @@ indicators_policy_supp_tables = indicators_policy_supp_tables %>%
   dplyr::mutate(indic = 1) %>%
   # save data
   write_csv(paste0(git_dir,'input/tables_extraction/policy_supp_tables_indicators.csv')) %>% 
-  write_csv(paste0(gd_dir,'input_data2/tables_extraction/policy_supp_tables_indicators.csv'))
 
 
 ### IPBES core and highlighted indicators (D&K TF 2017-2018)-----
@@ -507,7 +492,6 @@ indic_core_high = core_high %>%
   dplyr::select(-indicators_h) %>% 
   # save input data
   write_csv(paste0(git_dir,'input/tables_extraction/ipbes_core_high_indicators.csv')) %>% 
-  write_csv(paste0(gd_dir,'input_data2/tables_extraction/ipbes_core_high_indicators.csv')) %>% 
   # add source
   dplyr::mutate(core_high = 1) %>% 
   dplyr::distinct(indicators_harmonized, .keep_all = TRUE)  %>% 
