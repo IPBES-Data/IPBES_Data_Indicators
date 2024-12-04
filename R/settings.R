@@ -23,7 +23,7 @@ set_working_dir <- function(your_user,your_node){
   # Install required packages
   listOfPackages <- c("readr", "dplyr", "stringr", "tidyr", "data.table", 
                       "gtools", "pdftools","tesseract","purrr",
-                      "googlesheets4")
+                      "googlesheets4","circlize","ggalluvial")
   
   
   # Install Packages, if needed

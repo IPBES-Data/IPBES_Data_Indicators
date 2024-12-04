@@ -10,12 +10,14 @@ rm(list=ls())
 
 ### Settings----
 
-## Source useful functions from folders downloaded from GitHub
-your_workdir <- "C:/Users/yanis/Documents/scripts/IPBES-Data/IPBES_Data_Indicators/"
-source(paste0(your_workdir,"R/useful_functions_indic.R"))
-source(paste0(your_workdir,"R/settings.R"))
+## Source useful functions from folder downloaded from GitHub
+your_workdir <- dirname(rstudioapi::getSourceEditorContext()$path) # works only in RStudio
+#your_workdir <- "your/working/dir" # if not using RStudio complete accordingly
 
-## Set working directory
+source(paste0(your_workdir,"/useful_functions_indic.R"))
+source(paste0(your_workdir,"/settings.R"))
+
+## Set working directory ans install required libraries
 your_user <- Sys.info()["user"]
 your_node <- Sys.info()["nodename"]
 
@@ -34,18 +36,16 @@ library(purrr)
 library(googlesheets4)
 library(ggplot2)
 library(circlize)
-# install.packages("ggalluvial")
 library(ggalluvial)
 
 # Set data directories 
-git_dir = "C:/Users/yanis/Documents/scripts/IPBES-Data/IPBES_Data_Indicators/"
+git_dir = "C:/Users/JLU-SU/Documents/GitHub/IPBES-Data/IPBES_Data_Indicators/"
 
 # 1-Append all indicators to classify-----
 # Indicators extracted using auto_search_indic.R
 # Tables (indicators used policy and indicators used in supplementary material in assessments) extracted using tables_extract.R
-
-indicators_extracted = read_csv(paste0(git_dir,'input/automated_search/automated_search_indicators.csv'))
-indicators_policy_supp_tables = read_csv(paste0(git_dir,'input/tables_extraction/policy_supp_tables_indicators.csv'))
+indicators_extracted = read_csv('../input/automated_search/automated_search_indicators.csv')
+indicators_policy_supp_tables = read_csv('../input/tables_extraction/policy_supp_tables_indicators.csv')
 
 all_indicators = indicators_policy_supp_tables %>% 
   full_join(indicators_extracted, by = 'indicators_harmonized') %>% 
@@ -83,15 +83,16 @@ all_indicators = indicators_policy_supp_tables %>%
   dplyr::select(-var_ext, -indic_ext) %>% 
   dplyr::select(indicators_harmonized, ga, sua, va = va_extracted, ias = ias_extracted,ipbes, geo = geo_extracted, ipcc, km_gbf, sdg,cites,cms,iccwc,ramsar, unccd,policy,indic, indic_ext =indic_ext2, var_ext=var_ext2,ILK_ext) %>% 
   dplyr::filter(!is.na(indicators_harmonized)) %>% 
-  write_csv(paste0(git_dir,'input/all_indicators.csv'))
+  write_csv('../input/all_indicators.csv')
 
 all_indicators %>% distinct(indicators_harmonized) %>% count() #2106 unique indicators
-
 
 ## 1.a-Merge with previously classified indicators ----
 
 #Load previously classified indicators (version April 2024)
-classified = readxl::read_excel(paste0(git_dir, "input/all_indicators_classifiedApr24.xlsx"),
+# can also be found (https://docs.google.com/spreadsheets/d/1SJJBBOYYfUE7pkGaLqbj-ialx6g1RGGubVXK5CfcG3o/edit?gid=1682891338#gid=1682891338)
+
+classified = readxl::read_excel("../input/all_indicators_classifiedApr24.xlsx",
                         sheet = "indicators_to_classify_full2") %>% 
   dplyr::select(indicators_harmonized, Categories,	Categories_2,	Subcategories,	Subcategories_2) %>% 
   filter(!is.na(indicators_harmonized)) %>% 
@@ -100,23 +101,24 @@ classified = readxl::read_excel(paste0(git_dir, "input/all_indicators_classified
 # Join
 all_indicators_cl = left_join(all_indicators, classified, by = 'indicators_harmonized')
 
-changes = anti_join(classified, all_indicators, by = 'indicators_harmonized')
-changes = anti_join(all_indicators,classified, by = 'indicators_harmonized')
-# seems good
+changes = anti_join(classified, all_indicators, by = 'indicators_harmonized')#16 from old extraction were classified (no need to add them)
+changes = anti_join(all_indicators,classified, by = 'indicators_harmonized')#5 indicator from last extraction were not classified
+# these 5 indicators do not add info (associated species,circulation, radio occultation, pollen deposition==pollen presence)
 
 all_indicators_cl %>% filter(!is.na(Categories)) %>% count() #2101 classified
 all_indicators_cl %>% filter(is.na(Categories)) %>% count() #5 NOT classified yet
-# associated species,circulationadio occultation --> are NOT indicators
+
+# Remove not classified indicators (they do not add info)
 all_indicators_cl = all_indicators_cl %>%  filter(!is.na(Categories))
 
 all_indicators_cl %>% filter(indic == 1 & is.na(Categories)) %>% count() #0 real indicators NOT classifed yet
 
 # save
-write_csv(all_indicators_cl, paste0(git_dir,'input/all_indicators_classifiedMay24.csv'))
-#all_indicators_cl = read_csv(paste0(git_dir,'input/all_indicators_classifiedMay24.csv'))
+write_csv(all_indicators_cl, '../input/all_indicators_classifiedMay24.csv')
 
 # 2-Classify indicators----
-# This is a manual process happened in multiple iterations (May24 was the last one)
+# This was manual process that happened in multiple iterations (based on the April24 version, this May24 is the latest one)
+
 # 3-Summaries----
 
 all_indicators_cl %>% filter(!is.na(indicators_harmonized)) %>% distinct(indicators_harmonized) %>% count() #2101 unique indicators
@@ -163,13 +165,10 @@ all_indicators_cl2 = all_indicators_cl %>%
                 "usage","usage_policy","usage_assess","usage_ipbes",
                 "indic","indic_ext","var_ext",
                 "Categories","Categories_2","Subcategories","Subcategories_2") %>% 
-  write_csv(paste0(git_dir,'output/all_harmonized_classified_indicatorsMay24.csv'))
+  write_csv('../output/all_harmonized_classified_indicatorsMay24.csv')
 names(all_indicators_cl2)
 
-# save clean version
-#all_indicators_cl2 = read_csv(paste0(git_dir,'output/all_harmonized_classified_indicatorsMay24.csv'))
-
-# 3-Summaries of indicators by source----
+# 3.a-Summaries of indicators by source----
 
 all_indicators_cl2 %>% 
   mutate(sources = strsplit(as.character(sources), ",")) %>% 
@@ -229,34 +228,35 @@ ggplot(data=data_hist2, aes(x=source, y=n, fill=source,legend = FALSE )) +
   scale_x_discrete(limits=c("UNCCD","RAMSAR","CMS", "CITES","ICCWC","SDG","GBF")) +
   theme_minimal()
 
-# shared indicators
+# 3.b-Summaries of shared indicators ----
 
 # by common indicators
 all_indicators_cl2 %>% filter(usage >= 2) %>% distinct(indicators_harmonized) %>% count() #235
 235/2001
 all_indicators_cl2 %>% arrange(desc(usage)) %>% distinct(indicators_harmonized, .keep_all = TRUE) %>%  
   dplyr::select(indicators_harmonized, sources, usage) %>% View()
-# red list index
+# red list index (6)
 # GA,SUA,IAS,GEO,GBF,SDG
-# proportion of fish stocks within biologically sustainable levels
+# proportion of fish stocks within biologically sustainable levels (5)
 # GA,SUA,GEO,GBF,SDG
-# proportion of agricultural area under productive and sustainable agriculture
+# proportion of agricultural area under productive and sustainable agriculture (5)
 # GA,SUA,GEO,GBF,SDG
-# forest area as a percentage of total land area
+# forest area as a percentage of total land area (5)
 # GA,SUA,GEO,GBF,SDG
-# proportion of land that is degraded over total land area
+# proportion of land that is degraded over total land area (5)
 # SUA,GEO,GBF,SDG,UNCCD
 
 # by common sources
 all_indicators_cl2 %>% filter(grepl('[,]',sources)) %>% group_by(sources) %>% 
   count() %>% arrange(desc(n)) %>% View()
-# SUA,SDG
-# GA,GBF
-# SUA,GBF,SDG
+# SUA,SDG (96)
+# GA,GBF (29)
+# SUA,GBF,SDG (29)
 # GA,GEO
 # GBF,SDG
 # GEO,GBF
 # SUA,VA,GBF,SDG
+
 all_indicators_cl %>% filter(!is.na(indicators_harmonized)) %>% filter(!is.na(Categories)) %>% distinct(indicators_harmonized, .keep_all = TRUE) %>% 
    filter(sua == 1 & sdg == 1) %>% count() # 145
   # filter(sdg == 1 & km_gbf == 1 ) %>% count() # 53
@@ -265,7 +265,7 @@ all_indicators_cl %>% filter(!is.na(indicators_harmonized)) %>% filter(!is.na(Ca
   # filter(sua == 1 & sdg == 1 & km_gbf == 1 ) %>% count() # 43
   # filter(ga == 1 & geo == 1) %>% count() # 21
 
-# 3-Summaries of indicators by category----
+# 3.c-Summaries of indicators by category----
 
 all_indicators_cl2 %>% distinct(Categories)
 # 1 ecosystems        
@@ -315,7 +315,7 @@ all_indicators_cl2 %>%
   unnest(source) %>% 
   group_by(Categories, sources) %>% count() %>% arrange(desc(n)) %>% View()
 
-## 3.a-Policy indicators-----
+## 4-Policy indicators-----
 
 policy_indic_cl = all_indicators_cl2 %>% 
   # unsplit sources to get each policy source per row --> source
@@ -332,22 +332,38 @@ policy_indic_cl = all_indicators_cl2 %>%
   distinct(indicators_harmonized, meas, .keep_all = TRUE) %>%
   # remove source to avoid confusion
   dplyr::select(-source) %>% 
-  write_csv(paste0(git_dir,'output/policy_indicatorsMay24.csv'))
+  write_csv('../output/policy_indicatorsMay24.csv')
   
 #unique indicators and categories
-#policy_indic_cl %>% distinct(indicators_harmonized) %>% count()#648 indicators
-#policy_indic_cl %>% distinct(Categories)#8 categories
-#policy_indic_cl %>% distinct(Categories, Subcategories) %>% View()#51 Subcategories
-
-policy_indic_cl %>% distinct(indicators_harmonized, .keep_all = TRUE) %>%   count() # 647 policy indicators
+policy_indic_cl %>% distinct(indicators_harmonized) %>% count()#647 indicators
+policy_indic_cl %>% distinct(Categories)#8 categories
+policy_indic_cl %>% distinct(Categories, Subcategories) %>% count()#51 Subcategories
 policy_indic_cl %>% distinct(indicators_harmonized, .keep_all = TRUE) %>% filter(assessment == 1) %>%  count() #194
-194/647
+194/647 #--> less that 30% used in assessments
 
 # indicators usage
 policy_indic_cl %>% filter(usage_policy>=3) %>% distinct(indicators_harmonized) %>% count() #1
+policy_indic_cl %>% filter(usage_policy>=3) %>% distinct(indicators_harmonized)
 policy_indic_cl %>% filter(usage_policy==2) %>% distinct(indicators_harmonized) %>% count() #53
 
-# unique policy indic by source
+## 4.a-Policy indicators by source-----
+
+# all  policy indic by source
+policy_indic_cl %>%   
+  # unsplit meas to get each policy source per row --> source
+  mutate(source = strsplit(as.character(meas), ",")) %>% 
+  unnest(source) %>% group_by(source) %>% 
+  count() %>% arrange(desc(n))
+# source     n
+# 1 GBF      307
+# 2 SDG      257
+# 3 ICCWC     50
+# 4 CITES     41
+# 5 CMS       25
+# 6 RAMSAR    18
+# 7 UNCCD      4
+
+# unique by source
 policy_indic_cl %>% filter(!grepl('[,]',meas)) %>% group_by(meas) %>% 
   count() %>% arrange(desc(n))
 # meas       n
@@ -366,19 +382,16 @@ policy_indic_cl %>% filter(grepl('[,]',meas)) %>% group_by(meas) %>%
 # 2 GBF,SDG,UNCCD     1
 # 3 GBF,UNCCD         1
 
-# all  policy indic by source
-policy_indic_cl %>%   
-  # unsplit meas to get each policy source per row --> source
-  mutate(source = strsplit(as.character(meas), ",")) %>% 
-  unnest(source) %>% group_by(source) %>% 
-  count() %>% arrange(desc(n))
 
-# all  policy indic by category
+
+## 4.b-Policy indicators by category-----
 
 policy_indic_cl %>%   
   # unsplit meas to get each policy source per row --> source
   mutate(source = strsplit(as.character(meas), ",")) %>% 
-  unnest(source) %>% group_by(Categories)  %>% 
+  unnest(source) %>% 
+  # summary Cat
+  group_by(Categories)  %>% 
   summarize(n = n()) %>%
   mutate(prop = (n / colSums(across(n)))*100) %>% 
   arrange(desc(n))
@@ -386,7 +399,9 @@ policy_indic_cl %>%
 policy_indic_cl %>%   
   # unsplit meas to get each policy source per row --> source
   mutate(source = strsplit(as.character(meas), ",")) %>% 
-  unnest(source) %>% group_by(Subcategories)  %>% 
+  unnest(source) %>% 
+  # summary Subcat
+  group_by(Subcategories)  %>% 
   summarize(n = n()) %>%
   mutate(prop = (n / colSums(across(n)))*100) %>% 
   arrange(desc(n))
@@ -396,12 +411,16 @@ policy_indic_cl %>%
   # unsplit meas to get each policy source per row --> source
   mutate(source = strsplit(as.character(meas), ",")) %>% 
   unnest(source) %>% 
-  group_by(Categories, meas) %>% count() %>% arrange(desc(n))
+  # summary cat + mea
+  group_by(Categories, meas) %>% 
+  count() %>% arrange(desc(n))
 
 policy_categories = policy_indic_cl %>%   
   # unsplit meas to get each policy source per row --> source
   mutate(source = strsplit(as.character(meas), ",")) %>% 
-  unnest(source) %>% group_by(source,Categories)  %>% 
+  unnest(source) %>% 
+  # summary cat + source
+  group_by(source,Categories)  %>% 
   count() %>% arrange(desc(n))
 
 
@@ -421,14 +440,95 @@ ggplot(policy_categories,
   scale_x_continuous(breaks = 1:2) +
   theme_void()
 
-#ILK
+## 4.c-ILK indicators in policy-----
 policy_indic_cl %>%   
   # unsplit meas to get each policy source per row --> source
   mutate(source = strsplit(as.character(meas), ",")) %>% 
   unnest(source) %>% 
   filter(Subcategories =="Ilk")
 
-## 3.b-Indicators in assessments-----
+## 4.d-Trace back policy indicators to original name-----
+
+#load original tables
+cites_indic = read.csv('../input/tables_extraction/cites_indicators.csv') %>% 
+  mutate(meas = "CITES") %>% 
+  dplyr::select(indic_id, indicators, indicators_harmonized,meas) #%>% 
+  #distinct(indicators, .keep_all = TRUE)
+ramsar_indic = read.csv('../input/tables_extraction/ramsar_indicators.csv') %>% 
+  mutate(meas = "RAMSAR") %>% 
+  dplyr::select(indic_id, indicators, indicators_harmonized,meas) #%>% 
+  #distinct(indicators, .keep_all = TRUE)
+sdg_indic = read.csv('../input/tables_extraction/sdg_indicators.csv') %>% 
+  mutate(meas = "SDG") %>% 
+  mutate(Indicator = gsub("^\\S+ ", "", sdg_indicators)) %>% 
+  dplyr::select(indic_id, indicators = Indicator, indicators_harmonized,meas) #%>% 
+  #distinct(indicators, .keep_all = TRUE)
+unccd_indic = read.csv('../input/tables_extraction/unccd_indicators.csv') %>% 
+  mutate(meas = "UNCCD") %>% 
+  dplyr::select(indic_id, indicators, indicators_harmonized, meas) #%>% 
+  #distinct(indicators, .keep_all = TRUE)
+gbf_indic = read.csv('../input/tables_extraction/km_gbf_indicators.csv') %>% 
+  mutate(meas = "GBF") %>% 
+  dplyr::select(indic_id, indicators = Indicator, indicators_harmonized,meas) #%>% 
+  #distinct(indicators, .keep_all = TRUE)
+iccwc_indic = read.csv('../input/tables_extraction/iccwc_indicators.csv') %>% 
+  mutate(meas = "ICCWC") %>% 
+  dplyr::select(indic_id, indicators, indicators_harmonized,meas) #%>% 
+  #distinct(indicators, .keep_all = TRUE)
+cms_indic = read.csv('../input/tables_extraction/cms_indicators.csv') %>% 
+  mutate(meas = "CMS") %>% 
+  dplyr::select(indic_id, indicators, indicators_harmonized,meas) #%>% 
+  #distinct(indicators, .keep_all = TRUE)
+
+policy_indic = rbind(cites_indic, ramsar_indic, sdg_indic, unccd_indic, gbf_indic, iccwc_indic,cms_indic)
+policy_indic %>%  distinct(indicators) %>% count() #651
+policy_indic %>%  distinct(indicators_harmonized) %>% count() #647
+
+policy_indic_complete = policy_indic_cl %>%   
+  # unsplit meas to get each policy source per row 
+  mutate(meas = strsplit(as.character(meas), ",")) %>% 
+  unnest(meas) %>% 
+  #join 
+  left_join(policy_indic, by = c('indicators_harmonized', 'meas'))
+policy_indic_complete %>%  distinct(indicators) %>% count() #651
+policy_indic_complete %>%  distinct(indicators_harmonized) %>% count() #647
+
+#checks
+missing = policy_indic %>%   
+  # unsplit meas to get each policy source per row --> source
+  mutate(meas = strsplit(as.character(meas), ",")) %>% 
+  unnest(meas) %>% 
+  anti_join(policy_indic, by = c('indicators_harmonized', 'meas'))
+missing = policy_indic %>%   
+  anti_join(mutate(policy_indic_cl,meas = strsplit(as.character(meas), ",")) %>% 
+              unnest(meas), by = c('indicators_harmonized', 'meas'))
+#ALL GOOD
+
+policy_indic_clean = policy_indic_complete %>% 
+  # paste all indic_id together
+  group_by(indicators) %>%
+  mutate(ids = paste0(indic_id,collapse = ",")) %>%
+  ungroup() %>% 
+  # paste all meas sources together
+  group_by(indicators) %>%
+  mutate(mea = paste0(meas,collapse = ",")) %>%
+  ungroup() %>% 
+  mutate(mea = gsub('GBF,GBF,GBF',"GBF",mea)) %>%
+  mutate(mea = gsub('GBF,GBF',"GBF",mea)) %>%
+  mutate(mea = gsub('SDG,SDG,SDG',"SDG",mea)) %>%
+  mutate(mea = gsub('SDG,SDG',"SDG",mea)) %>%
+  mutate(mea = gsub('GBF,SDG,GBF,SDG',"GBF,SDG",mea)) %>%
+  mutate(mea = gsub('RAMSAR,RAMSAR',"RAMSAR",mea)) %>%
+  mutate(mea = gsub('SDG,SDG',"SDG",mea)) %>%
+  distinct(indicators, .keep_all = TRUE) %>% 
+  dplyr::select("indicators","mea",'ipbes',
+                "Categories","Subcategories","Categories_2","Subcategories_2",
+                "indicators_harmonized","ids") %>% 
+  write_csv('../output/policy_indicatorsMay24_orignames.csv')
+  
+
+
+## 5-Indicators in assessments-----
 assess_indic_cl = all_indicators_cl2 %>% 
   # unsplit sources to get each assessment source per row --> source
   mutate(source = strsplit(as.character(sources), ",")) %>% 
@@ -444,21 +544,21 @@ assess_indic_cl = all_indicators_cl2 %>%
   distinct(indicators_harmonized, assess, .keep_all = TRUE) %>%
   # remove source to avoid confusion
   dplyr::select(-source) %>% 
-  write_csv(paste0(git_dir,'output/assessment_indicatorsMay24.csv'))
+  write_csv('../output/assessment_indicatorsMay24.csv')
 
 assess_indic_cl %>% distinct(indicators_harmonized) %>% count()#1648
 assess_indic_cl %>% distinct(indicators_harmonized, .keep_all = TRUE) %>% filter(policy == 1) %>% count()#194
 
 # indicators usage
-assess_indic_cl %>% filter(usage_assess>=4) %>% distinct(indicators_harmonized, assess) %>% View() #4
-assess_indic_cl %>% filter(usage_assess==3) %>% distinct(indicators_harmonized, assess) %>%  View() #10
+assess_indic_cl %>% filter(usage_assess>=4) %>% distinct(indicators_harmonized, assess)  #4
+assess_indic_cl %>% filter(usage_assess==3) %>% distinct(indicators_harmonized, assess)  #10
 assess_indic_cl %>% filter(usage_assess==2) %>% distinct(indicators_harmonized) %>% count() #44
 assess_indic_cl %>% filter(usage_assess==1) %>% distinct(indicators_harmonized) %>% count() #1590
 
 # unique indicators in each assess 
 assess_indic_cl %>% filter(!grepl('[,]',assess)) %>% 
   group_by(assess) %>% count() %>% arrange(desc(n))
-#GA 720
+#GA 721
 #IPCC 368
 #GEO 192
 #SUA 185
@@ -476,14 +576,14 @@ assess_indic_cl %>%
   unnest(source) %>% group_by(source) %>% 
   count() %>% arrange(desc(n))
 # source     n
-# 1 GA       763
+# 1 GA       764
 # 2 IPCC     374
 # 3 GEO      223
 # 4 SUA      213
-# 5 IAS       80
+# 5 IAS       78
 # 6 VA        72
 
-### 3.b.1-Indicators in IPBES assessments-----
+### 5.a-Indicators in IPBES assessments-----
 IPBES_indic_cl = all_indicators_cl2 %>% 
   # unsplit sources to get each IPBES source per row --> source
   mutate(source = strsplit(as.character(sources), ",")) %>% 
@@ -499,10 +599,10 @@ IPBES_indic_cl = all_indicators_cl2 %>%
   distinct(indicators_harmonized, ipbes_assess, .keep_all = TRUE) %>%
   # remove source to avoid confusion
   dplyr::select(-source) %>% 
-  write_csv(paste0(git_dir,'output/ipbes_assessment_indicatorsMay24.csv'))
+  write_csv('../output/ipbes_assessment_indicatorsMay24.csv')
 
 # summaries  
-IPBES_indic_cl %>% distinct(indicators_harmonized) %>% count()#1083
+IPBES_indic_cl %>% distinct(indicators_harmonized) %>% count()#1085
 
 # all asses indic by source
 IPBES_indic_cl %>%   
@@ -510,11 +610,11 @@ IPBES_indic_cl %>%
   mutate(source = strsplit(as.character(ipbes_assess), ",")) %>% 
   unnest(source) %>% group_by(source) %>% 
   count() %>% arrange(desc(n))
-# 1 GA       763
+# 1 GA       764
 # 2 SUA      213
 # 3 IAS       78
 # 4 VA        72
-763/1091
+764/1091
 213/1091
 78/1091
 72/1091
@@ -537,7 +637,7 @@ IPBES_indic_cl %>% filter(usage_ipbes==3) %>% distinct(indicators_harmonized, ip
 IPBES_indic_cl %>% filter(usage_ipbes==2) %>% distinct(indicators_harmonized,ipbes_assess) %>%  count() #27
 IPBES_indic_cl %>% filter(usage_ipbes==1) %>% distinct(indicators_harmonized,ipbes_assess) %>% count() #1052
 
-# all  policy indic by category
+# all IPBES indic by category
 
 IPBES_indic_cl %>%   
   # unsplit meas to get each policy source per row --> source
@@ -594,8 +694,8 @@ IPBES_indic_cl %>%
   filter(Subcategories =="Ilk")
 
 
-#### 3.b.1.1-IPBES core and highlighted indicators (D&K TF 2017-2018)-----
-indic_core_high = read_csv(paste0(git_dir,'input/tables_extraction/ipbes_core_high_indicators.csv')) %>% 
+### 5.b-IPBES core and highlighted indicators (D&K TF 2017-2018)-----
+indic_core_high = read_csv('../input/tables_extraction/ipbes_core_high_indicators.csv') %>% 
   # add source
   dplyr::mutate(core_high = 1) %>% 
   dplyr::distinct(indicators_harmonized, .keep_all = TRUE)  %>% 
