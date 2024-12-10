@@ -334,6 +334,8 @@ policy_indic_cl = all_indicators_cl2 %>%
   dplyr::select(-source) %>% 
   write_csv('../output/policy_indicatorsMay24.csv')
   
+policy_indic_cl = read_csv('../output/policy_indicatorsMay24.csv')
+
 #unique indicators and categories
 policy_indic_cl %>% distinct(indicators_harmonized) %>% count()#647 indicators
 policy_indic_cl %>% distinct(Categories)#8 categories
@@ -462,6 +464,7 @@ sdg_indic = read.csv('../input/tables_extraction/sdg_indicators.csv') %>%
   mutate(meas = "SDG") %>% 
   mutate(Indicator = gsub("^\\S+ ", "", sdg_indicators)) %>% 
   dplyr::select(indic_id, indicators = Indicator, indicators_harmonized,meas) #%>% 
+
   #distinct(indicators, .keep_all = TRUE)
 unccd_indic = read.csv('../input/tables_extraction/unccd_indicators.csv') %>% 
   mutate(meas = "UNCCD") %>% 
@@ -469,6 +472,26 @@ unccd_indic = read.csv('../input/tables_extraction/unccd_indicators.csv') %>%
   #distinct(indicators, .keep_all = TRUE)
 gbf_indic = read.csv('../input/tables_extraction/km_gbf_indicators.csv') %>% 
   mutate(meas = "GBF") %>% 
+  mutate(Indicator = gsub(' [(]SDG 4[.]7[.]1[)]','',Indicator)) %>% 
+  mutate(Indicator = gsub('Intact Wilderness','Intact wilderness',Indicator)) %>% 
+  # mutate(Indicator = gsub('secured in either medium','secured in medium',Indicator)) %>%
+  mutate(Indicator = gsub('Food Insecurity Experience Scale','Food Insecurity Experience Scale (FIES)',Indicator)) %>%
+  mutate(Indicator = gsub("Proportion of countries where the legal framework [(]including customary law[)] guarantees women[']s equal rights to land ownership and[/]or control","Proportion of countries where the legal framework (including customary law) guarantees women’s equal rights to land ownership and/or control",Indicator)) %>%
+  mutate(Indicator = gsub("flow safely treated","flows safely treated",Indicator)) %>%
+  mutate(Indicator = gsub("as being at risk extinction","as being at risk of extinction",Indicator)) %>%
+  mutate(Indicator = gsub("Dollar value of financial and technical assistance [(]including through North[-]South[,] South[-]South and triangular cooperation[)] committed to developing countries","Dollar value of financial and technical assistance (including through North-South, South‑South and triangular cooperation) committed to developing countries",Indicator)) %>%
+  mutate(Indicator = gsub("Amount of fossil[-]fuel subsidies per unit of GDP [(]production and consumption[)]","Amount of fossil-fuel subsidies (production and consumption) per unit of GDP",Indicator)) %>%
+  mutate(Indicator = gsub("Red List index","Red List Index",Indicator)) %>%
+  mutate(Indicator = gsub("North[]South ","North-South ",Indicator)) %>%
+  mutate(Indicator = gsub("Expected Loss of Phylogenetic diversity","Expected loss of Phylogenetic Diversity",Indicator)) %>%
+  mutate(Indicator = gsub("Species status index","Species Status Index",Indicator)) %>%
+  mutate(Indicator = gsub("Species habitat Index","Species Habitat Index",Indicator)) %>%
+  mutate(Indicator = gsub("Species Status Information Index","Species Status Index",Indicator)) %>%
+  mutate(Indicator = gsub("Status of key biodiversity areas","Status of Key Biodiversity Areas",Indicator)) %>%
+  mutate(Indicator = gsub("Volume of production per labour unit by classes of farming[/]pastoral[/] forestry enterprise size","Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size",Indicator)) %>%
+  # mutate(Indicator = gsub("Index of coastal eutrophication[;] [(]b[)] plastic debris density","(a) Index of coastal eutrophication; and (b) plastic debris density",Indicator)) %>%
+  #mutate(Indicator = gsub("Volume of production per labour unit by classes of farming[/]pastoral[/] forestry enterprise size","Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size",Indicator)) %>%
+  #mutate(Indicator = gsub("Volume of production per labour unit by classes of farming[/]pastoral[/] forestry enterprise size","Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size",Indicator)) %>%
   dplyr::select(indic_id, indicators = Indicator, indicators_harmonized,meas) #%>% 
   #distinct(indicators, .keep_all = TRUE)
 iccwc_indic = read.csv('../input/tables_extraction/iccwc_indicators.csv') %>% 
@@ -481,20 +504,23 @@ cms_indic = read.csv('../input/tables_extraction/cms_indicators.csv') %>%
   #distinct(indicators, .keep_all = TRUE)
 
 policy_indic = rbind(cites_indic, ramsar_indic, sdg_indic, unccd_indic, gbf_indic, iccwc_indic,cms_indic)
-policy_indic %>%  distinct(indicators) %>% count() #651
+policy_indic %>%  distinct(indicators) %>% count() #636
 policy_indic %>%  distinct(indicators_harmonized) %>% count() #647
 
 policy_indic_complete = policy_indic_cl %>%   
   # unsplit meas to get each policy source per row 
   mutate(meas = strsplit(as.character(meas), ",")) %>% 
-  unnest(meas) %>% 
+  unnest(meas) %>% #702
   #join 
   left_join(policy_indic, by = c('indicators_harmonized', 'meas'))
-policy_indic_complete %>%  distinct(indicators) %>% count() #651
-policy_indic_complete %>%  distinct(indicators_harmonized) %>% count() #647
 
 #checks
-missing = policy_indic %>%   
+policy_indic_complete %>%  distinct(indicators) %>% count() #636 (options are aggregated, as text from documents)
+policy_indic_complete %>%  distinct(indicators_harmonized) %>% count() #647 (options are dis-aggregated, but there is more harmonization)
+policy_indic_cl %>%  distinct(indicators_harmonized) %>% count() #647
+#ALL GOOD
+
+missing = policy_indic_cl %>%   
   # unsplit meas to get each policy source per row --> source
   mutate(meas = strsplit(as.character(meas), ",")) %>% 
   unnest(meas) %>% 
@@ -505,12 +531,18 @@ missing = policy_indic %>%
 #ALL GOOD
 
 policy_indic_clean = policy_indic_complete %>% 
+  # fix an issue in harmonized indicators
+  mutate(indicators_harmonized = gsub("south[‑]south","south-south",indicators_harmonized)) %>%
   # paste all indic_id together
-  group_by(indicators) %>%
+  group_by(indicators_harmonized) %>%
   mutate(ids = paste0(indic_id,collapse = ",")) %>%
   ungroup() %>% 
+  # paste all textual indicators together
+  group_by(indicators_harmonized) %>%
+  mutate(indicators_orig = paste0(indicators,collapse = ",")) %>%
+  ungroup() %>% 
   # paste all meas sources together
-  group_by(indicators) %>%
+  group_by(indicators_harmonized) %>%
   mutate(mea = paste0(meas,collapse = ",")) %>%
   ungroup() %>% 
   mutate(mea = gsub('GBF,GBF,GBF',"GBF",mea)) %>%
@@ -520,12 +552,25 @@ policy_indic_clean = policy_indic_complete %>%
   mutate(mea = gsub('GBF,SDG,GBF,SDG',"GBF,SDG",mea)) %>%
   mutate(mea = gsub('RAMSAR,RAMSAR',"RAMSAR",mea)) %>%
   mutate(mea = gsub('SDG,SDG',"SDG",mea)) %>%
-  distinct(indicators, .keep_all = TRUE) %>% 
-  dplyr::select("indicators","mea",'ipbes',
+  #mutate(mea = gsub('GBF,GBF',"GBF",mea)) %>%
+  distinct(indicators_harmonized, .keep_all = TRUE) %>% 
+  dplyr::select("indicators_harmonized","ids","mea",'ipbes',
                 "Categories","Subcategories","Categories_2","Subcategories_2",
-                "indicators_harmonized","ids") %>% 
+                "indicators_orig",
+                ) %>% 
   write_csv('../output/policy_indicatorsMay24_orignames.csv')
   
+#checks
+policy_indic_clean %>%  distinct(indicators_orig) #619
+policy_indic_clean %>%  distinct(indicators_harmonized) #646
+
+dup = check_dup(policy_indic_clean,indicators_orig)
+dup = check_dup(policy_indic_clean,indicators_harmonized)
+
+policy_indic_clean %>%  distinct(mea)
+policy_indic_clean %>%  distinct(ipbes)
+policy_indic_clean %>%  distinct(Categories)
+policy_indic_clean %>%  distinct(Subcategories) %>% count()
 
 
 ## 5-Indicators in assessments-----
