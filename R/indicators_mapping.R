@@ -89,6 +89,7 @@ gbf_2025 = headline %>%
   dplyr::select(-indicators_h) %>% 
   dplyr::rename(indicators_orig = `Indicator name`)
 write_csv(gbf_2025, '../input/tables_extraction/km_gbf_indicators2025.csv')
+gbf_2025 = read_csv('../input/tables_extraction/km_gbf_indicators2025.csv')
 
 
 gbf_2025 %>%  group_by(indicator_type) %>% count()
@@ -133,4 +134,12 @@ meas = gbf_2025 %>%
          indicators_orig = coalesce(indicators_orig.x, indicators_orig.y)) %>% 
   dplyr::select(-indic_id.x, -indic_id.y,-indicators_orig.x, -indicators_orig.y)
 
-write_csv(meas, '../input/gbf_framework/meas_gbf.csv')
+# Join with classified indicators
+policy_indic_class = read_csv('../output/policy_indicatorsMay24_orignames.csv')
+
+meas_classified =  meas %>%
+  left_join(policy_indic_class, by = 'indicators_harmonized') %>% 
+  rename(indicators_orig = indicators_orig.x) %>% 
+  dplyr::select(-ids, -indicators_orig.y)
+write_csv(meas_classified, '../input/gbf_framework/meas_classified_gbf.csv')
+meas = read_csv('../input/gbf_framework/meas_gbf.csv')
