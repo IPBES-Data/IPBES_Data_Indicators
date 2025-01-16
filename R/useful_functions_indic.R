@@ -211,7 +211,7 @@ harmonize_indic <- function(file_name = file_name,
     dplyr::mutate(field_harm = gsub("pacific decadal oscillation [(]pdo[)] index", "pacific decadal oscillation (pdo)",field_harm)) %>%
     dplyr::mutate(field_harm = gsub("pacific decadal variability [(]pdv[)] index", "pacific decadal variability (pdv)",field_harm)) %>%
     dplyr::mutate(field_harm = gsub("^calorie intake$", "caloric intake",field_harm)) %>% 
-    #dplyr::mutate(field_harm = gsub("sdg index", "sustainable development goals (sdg) index",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("^the proportion of populations within species with an effective population", "proportion of populations within species with an effective population",field_harm)) %>% 
     
     # harmonize names
     dplyr::mutate(field_harm = gsub('amount of fossil[-]fuel subsidies [(]production and consumption[)] per unit of  gross domestic product', 'amount of fossil-fuel subsidies per unit of gross domestic product (production and consumption)',field_harm)) %>%

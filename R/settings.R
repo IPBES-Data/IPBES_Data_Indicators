@@ -1,41 +1,38 @@
 ################################################
 # Settings for indicator extraction and analysis
+# working directory
+# packages
 ################################################
 
 ## Settings----
-# check for nodename (or username) and set directories accordingly
-set_working_dir <- function(your_user,your_node){
+settings <- function(){
+
+  # 1. Type the working directory of your choose 
+  workdir <- your_dir # already set in previous file
+  # workdir <- 'set_your_own_working_directory'
   
-  # get current user and node
-  user <- Sys.info()["user"]
-  node <- Sys.info()["nodename"]
+  cat('Your working dir: ', workdir, '\n')
   
-  print(user)
+  # 1.a. Set working directory
+  setwd(workdir)
   
-  if (node == your_node && user == your_user){ 
-    workdir <- your_workdir
-    print(workdir)
-    
-    #set working directory
-    setwd(workdir)
-  }
- 
-  # Install required packages
+  # 2. List of packages needed
   listOfPackages <- c("readr", "dplyr", "stringr", "tidyr", "data.table", 
                       "gtools", "pdftools","tesseract","purrr",
                       "googlesheets4","circlize","ggalluvial")
   
-  
-  # Install Packages, if needed
+
+  # 3.a. Install Packages  (if needed)
   for (i in listOfPackages){
     if(! i %in% installed.packages()){
       print('Installing packages')
       install.packages(i, dependencies = TRUE)
     }
   }
-  
-  #return(workdir)
-}
+  cat('All packages installed')
+
+  }  
+
 
 
 # Install tabulizer from https://stackoverflow.com/questions/70036429/having-issues-installing-tabulizer-package-in-r

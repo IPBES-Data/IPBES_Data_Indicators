@@ -9,37 +9,32 @@ rm(list=ls())
 
 ### Settings----
 
-## Source useful functions from folders downloaded from GitHub
-your_workdir <- "C:/Users/yanis/Documents/scripts/IPBES-Data/IPBES_Data_Indicators/"
-source(paste0(your_workdir,"R/useful_functions_indic.R"))
-source(paste0(your_workdir,"R/settings.R"))
+## Your working directory (will be set using function in setting.R)
+your_dir <- dirname(rstudioapi::getSourceEditorContext()$path) # works only in RStudio
+#your_dir <- "path_to_where_code_is" # complete accordingly
 
-## Set working directory
-your_user <- Sys.info()["user"]
-your_node <- Sys.info()["nodename"]
+## Source useful functions from folder downloaded from GitHub
+source(paste0(your_dir,"/useful_functions_indic.R"))
+source(paste0(your_dir,"/settings.R"))
 
-set_working_dir(your_user,your_node)
+## Set working directory and install required libraries
+settings()
 
-## Packages
+## Read installed libraries
 
 library(tidyverse)
 library(dplyr)
-
 library(stringr)
 library(readxl)
 library(readr)
 
-#install.packages("googlesheets4")
-library(googlesheets4)
-
-# Set data directories
-git_dir = "C:/Users/yanis/Documents/scripts/IPBES-Data/IPBES_Data_Indicators/"
+input_dir = 'C:/Users/JLU-SU/Documents/GitHub/IPBES-Data/IPBES_Data_Indicators/'
 
 # Load indicators from supplementary material (tables)----
 ## Indicators from tables and appendices in IPBES----
 
 # SUA
-ipbes_sua = readxl::read_excel(paste0(git_dir, "input/tables_extraction/IPBES/IPBES_suppMat_indicators.xlsx"),
+ipbes_sua = readxl::read_excel(paste0(input_dir, "input/tables_extraction/IPBES/IPBES_suppMat_indicators.xlsx"),
                    sheet = "sua_dmr_ch2")
 
 indic_sua =  ipbes_sua %>% 

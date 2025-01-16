@@ -10,21 +10,21 @@ rm(list=ls())
 
 ### Settings----
 
+## Your working directory (will be set using function in setting.R)
+your_dir <- dirname(rstudioapi::getSourceEditorContext()$path) # works only in RStudio
+#your_dir <- "path_to_where_code_is" # complete accordingly
+
 ## Source useful functions from folder downloaded from GitHub
-your_workdir <- dirname(rstudioapi::getSourceEditorContext()$path) # works only in RStudio
-#your_workdir <- "your/working/dir" # if not using RStudio complete accordingly
+source(paste0(your_dir,"/useful_functions_indic.R"))
+source(paste0(your_dir,"/settings.R"))
 
-source(paste0(your_workdir,"/useful_functions_indic.R"))
-source(paste0(your_workdir,"/settings.R"))
-
-## Set working directory ans install required libraries
+## Set working directory and install required libraries
 your_user <- Sys.info()["user"]
 your_node <- Sys.info()["nodename"]
 
-set_working_dir(your_user,your_node)
+settings(your_user,your_node)
 
-## Packages
-# Read installed libraries
+## Read installed libraries
 
 library(stringr)
 library(gtools)
@@ -37,9 +37,6 @@ library(googlesheets4)
 library(ggplot2)
 library(circlize)
 library(ggalluvial)
-
-# Set data directories 
-git_dir = "C:/Users/JLU-SU/Documents/GitHub/IPBES-Data/IPBES_Data_Indicators/"
 
 # 1-Append all indicators to classify-----
 # Indicators extracted using auto_search_indic.R
