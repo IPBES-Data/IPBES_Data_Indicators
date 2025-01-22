@@ -81,6 +81,7 @@ harmonize_indic <- function(file_name = file_name,
     dplyr::mutate(field_harm = gsub('forstry', 'forestry',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('fossil fuel', 'fossil-fuel',field_harm)) %>%
     dplyr::mutate(field_harm = gsub("\\bnumber of extinctions\\b", "number of species extinctions",field_harm)) %>%     
+    dplyr::mutate(field_harm = gsub("\\b[%]", "percentage",field_harm)) %>%     
     # dplyr::mutate(field_harm = gsub(" [(]$[)]\\b", "sustainable development goals index",field_harm)) %>% 
     
     # red list/iucn
