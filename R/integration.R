@@ -14,26 +14,24 @@ rm(list=ls())
 your_dir <- dirname(rstudioapi::getSourceEditorContext()$path) # works only in RStudio
 #your_dir <- "path_to_where_code_is" # complete accordingly
 
-## Source useful functions from folder downloaded from GitHub
-source(paste0(your_dir,"/useful_functions_indic.R"))
-source(paste0(your_dir,"/settings.R"))
+## Choose directories where you want to read/store data 
+#input_dir='set_your_own_input_dir'
+#output_dir='set_your_own_output_dir'
 
 ## Set working directory and install required libraries
-your_user <- Sys.info()["user"]
-your_node <- Sys.info()["nodename"]
-
-settings(your_user,your_node)
+settings()
 
 ## Read installed libraries
 
 library(stringr)
-library(gtools)
+#library(gtools)
 library(dplyr)
 library(tidyr)
 library(readr)
 library(data.table)
-library(purrr)
 library(googlesheets4)
+#library(purrr)
+
 library(ggplot2)
 library(circlize)
 library(ggalluvial)
