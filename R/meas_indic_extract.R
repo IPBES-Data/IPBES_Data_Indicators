@@ -20,7 +20,18 @@ source(paste0(your_dir,"/settings.R"))
 ## Set working directory and install required libraries
 settings()
 
-
+## Read installed libraries
+library(stringr)
+library(gtools)
+library(dplyr)
+library(tidyr)
+library(readr)
+library(data.table)
+library(purrr)
+library(googlesheets4)
+library(ggplot2)
+library(circlize)
+library(ggalluvial)
 
 # Load indicators from conventions (policy)----
 ## Indicators from KM_GBF----
@@ -51,7 +62,7 @@ headline =  read_csv("../input/tables_extraction/GBF/2025/headline_indicators_20
   mutate(indic_id = gsub('Goal ', 'G', indic_id)) %>% 
   mutate(indic_id = gsub('Target ', 'T', indic_id)) 
 
-names(headline)
+#names(headline)
 
 # Join all indicators
 gbf_2025 = headline %>% 
@@ -77,6 +88,9 @@ gbf_2025 = gbf_2025 %>%
   dplyr::rename(indicator_orig = `Indicator name`)
 write_csv(gbf_2025, '../input/meas/GBF/gbf_indic_harm.csv')
 #gbf_2025 = read_csv('../input/meas/GBF/gbf_indic_harm.csv')
+
+gbf_2025 %>% distinct(indicator_harmonized) %>% count() # 323
+gbf_2025 %>% distinct(indicator_orig) %>% count() # 331
 
 # Prepare indicators for analisys
 indic_gbf = gbf_2025 %>% 
