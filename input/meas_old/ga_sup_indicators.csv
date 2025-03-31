@@ -1,0 +1,507 @@
+indic_id,indicators,indicators_harmonized
+GA21sup_D_1,GDP,gross domestic product
+GA21sup_D_2,Globalization index,globalization index
+GA21sup_D_3,Poverty gap,poverty gap
+GA21sup_D_4,Food Security Index,food security index
+GA21sup_D_5,Depth of the food deficit (kcal/capit a/day) (3- year average),depth of the food deficit (kcal/capit a/day) (3- year average)
+GA21sup_D_6,Access to improved sanitation facilities,access to improved sanitation facilities
+GA21sup_D_7,Domestic Material Consumption,domestic material consumption
+GA21sup_D_8,per capita calorie intake,per capita calorie intake
+GA21sup_D_9,Prevalence of obesity in the adult population (18 years and older),prevalence of obesity in the adult population (18 years and older)
+GA21sup_D_10,Energy use (kg of oil equivalent per capita),energy use (kg of oil equivalent per capita)
+GA21sup_D_11,Mobile cellular subscriptions,mobile cellular subscriptions
+GA21sup_D_12,Fossil fuel energy consumption (% of total),fossil-fuel energy consumption (% of total)
+GA21sup_D_13,Renewable electricity consumption (% of total electricity output),renewable electricity consumption (% of total electricity output)
+GA21sup_D_14,Electric power consumption (kWh per capita),electric power consumption (kwh per capita)
+GA21sup_D_15,Access to electricity,access to electricity
+GA21sup_D_16,Alternative and nuclear energy (% of total energy use),alternative and nuclear energy (% of total energy use)
+GA21sup_D_17,Protein intake per country per person,protein intake per country per person
+GA21sup_D_18,"Energy supply derived from cereals, roots and tubers","energy supply derived from cereals, roots and tubers"
+GA21sup_D_19,People per ouletlet McDonals,people per ouletlet mcdonals
+GA21sup_D_20,Population growth (annual %),population growth (annual %)
+GA21sup_D_21,Population density,population density
+GA21sup_D_22,Child mortality rate,child mortality rate
+GA21sup_D_23,Urban Population,urban population
+GA21sup_D_24,Total International migrant stock,total international migrant stock
+GA21sup_D_25,Refugee population,refugee population
+GA21sup_D_26,Migration Net,migration net
+GA21sup_D_27,Population in the largest city,population in the largest city
+GA21sup_D_28,Population in megacities,population in megacities
+GA21sup_D_29,GDP per capita,gross domestic product
+GA21sup_D_30,Agricultural land,agricultural land
+GA21sup_D_31,livestock indigenous animals,livestock indigenous animals
+GA21sup_D_32,livestock density of cattle,livestock density of cattle
+GA21sup_D_33,livestock density of animals (chickens),livestock density of animals (chickens)
+GA21sup_D_34,agricultural organic area,area of agricultural land under organic production
+GA21sup_D_35,"International tourism, number of departures","international tourism, number of departures"
+GA21sup_D_36,"International tourism, number of arrivals","international tourism, number of arrivals"
+GA21sup_D_37,Container port traffic (TEU: 20 foot equivalent units),container port traffic (teu: 20 foot equivalent units)
+GA21sup_D_38,Air passengers,air passengers
+GA21sup_D_39,Air departures,air departures
+GA21sup_D_40,Deaths from air pollution,deaths from air pollution
+GA21sup_D_41,GHG emissions (in tonnes CO2 eq and tonnes per capita),ghg emissions
+GA21sup_D_42,Pesticides used per unit area,pesticide use
+GA21sup_D_43,Fertilizers used per unit area,fertilizers used
+GA21sup_D_44,Air pollution,air pollution
+GA21sup_D_45,Nitrogenen deposition trends,nitrogenen deposition trends
+GA21sup_D_46,GHG emissions change,ghg emissions change
+GA21sup_D_47,Extraction ores,extraction ores
+GA21sup_D_48,Extraction all of biomass,extraction all of biomass
+GA21sup_D_49,Extraction of ind. & const. minerals,extraction of ind. and const. minerals
+GA21sup_D_50,Extraction biomass food,extraction biomass food
+GA21sup_D_51,Extraction Biomass Forstry,extraction biomass forestry
+GA21sup_D_52,Extraction biomass feed,extraction biomass feed
+GA21sup_D_53,Extraction biomass animals,extraction biomass animals
+GA21sup_D_54,Extraction other biomass,extraction other biomass
+GA21sup_D_55,Extraction fossil fuel,extraction fossil-fuel
+GA21sup_D_56,Water withdrawal,water withdrawal
+GA21sup_D_57,Renewable internal freshwater resource,renewable internal freshwater resource
+GA21sup_D_58,Agricultural water withdrawal,agricultural water withdrawal
+GA21sup_D_59,Ramsar Sites,ramsar sites
+GA21sup_D_60,Certified Forest Area,certified forest area
+GA21sup_D_61,United Nations Framework Convention on Climate Change,united nations framework convention on climate change
+GA21sup_D_62,Convention of fishing and conservation of the living resources of the high seas,convention of fishing and conservation of the living resources of the high seas
+GA21sup_D_63,Montreal Protocol,montreal protocol
+GA21sup_D_64,Convention on Biological Diversity,convention on biological diversity
+GA21sup_D_65,Convention on the Conservation of Antarctic Marine Living Resources,convention on the conservation of antarctic marine living resources
+GA21sup_D_66,"Credit to Agriculture, Forestry and Fishing","credit to agriculture, forestry and fishing"
+GA21sup_D_67,Political stability and absence of violence/terrorism,political stability and absence of violence/terrorism
+GAsup22_N_1,Above ground biomass,above-ground biomass
+GAsup22_N_2,Biodiversity Habitat Index,biodiversity habitat index
+GAsup22_N_3,Biodiversity Habitat Index (hotspots),biodiversity habitat index (hotspots)
+GAsup22_N_4,Coastal carbon-rich habitat,coastal carbon-rich habitat
+GAsup22_N_5,Coastal protection habitats,coastal protection habitats
+GAsup22_N_6,Forest area,forest area
+GAsup22_N_7,Extent of intact forest landscapes,extent of intact forest landscapes
+GAsup22_N_8,Extent of marine wilderness,extent of marine wilderness
+GAsup22_N_9,Extent of terrestrial wilderness,extent of terrestrial wilderness
+GAsup22_N_10,Fraction of ocean not fished per year,fraction of ocean not fished per year
+GAsup22_N_11,Land not cultivated or urban,land not cultivated or urban
+GAsup22_N_12,Land not cultivated or urban (Hotspots),land not cultivated or urban (hotspots)
+GAsup22_N_13,Land not cultivated or urban (Indigenous Lands),land not cultivated or urban (indigenous lands)
+GAsup22_N_14,Leaf Area Index,leaf area index (lai)
+GAsup22_N_15,Mangrove forest area,mangrove forest area
+GAsup22_N_16,Natural habitat extent,extent of suitable habitat
+GAsup22_N_17,Percentage live coral cover,live coral cover
+GAsup22_N_18,Permanent surface water extent,permanent surface water extent
+GAsup22_N_19,Remaining primary vegetation,remaining primary vegetation
+GAsup22_N_20,Remaining primary vegetation (Hotspots),remaining primary vegetation (hotspots)
+GAsup22_N_21,Remaining primary vegetation (Indigenous Lands),remaining primary vegetation (indigenous lands)
+GAsup22_N_22,Seagrass meadow area,seagrass meadow area
+GAsup22_N_23,Soil organic carbon (correlative model),soil organic carbon (correlative model)
+GAsup22_N_24,Soil organic carbon (mechanistic models),soil organic carbon (mechanistic models)
+GAsup22_N_25,Tree cover,tree cover
+GAsup22_N_26,Vegetation biomass (mechanistic models),vegetation biomass (mechanistic models)
+GAsup22_N_27,Wetland Extent Trend Index,wetland extent trends index
+GAsup22_N_28,Biological pump efficiency,biological pump efficiency
+GAsup22_N_29,Biomass turnover rate,biomass turnover rate
+GAsup22_N_30,Evapotranspiration (model ensemble),evapotranspiration (model ensemble)
+GAsup22_N_31,Marine NPP (remote sensing),marine net primary production
+GAsup22_N_32,NPP remaining in ecosystems,net primary production remaining in ecosystems
+GAsup22_N_33,Oceanic carbon sequestration,oceanic carbon sequestration
+GAsup22_N_34,Terrestrial C sequestration (model ensemble),terrestrial c sequestration (model ensemble)
+GAsup22_N_35,Terrestrial NPP (model ensemble),terrestrial net primary production (model ensemble)
+GAsup22_N_36,Terrestrial NPP (remote-sensing),terrestrial net primary production (remote-sensing)
+GAsup22_N_37,Biodiversity Intactness Index (Hotspots),biodiversity intactness index (hotspots)
+GAsup22_N_38,Biodiversity Intactness Index (Indigenous Lands),biodiversity intactness index (indigenous lands)
+GAsup22_N_39,Biodiversity Intactness Index,biodiversity intactness index
+GAsup22_N_40,Local species richness (BioTime),local species richness (biotime)
+GAsup22_N_41,Local species richness (PREDICTS),local species richness (predicts)
+GAsup22_N_42,Mean Species Abundance index,mean species abundance (msa)
+GAsup22_N_43,Mean Species Abundance index (Hotspots),mean species abundance (msa) (hotspots)
+GAsup22_N_44,Mean Species Abundance index (Indigenous Lands),mean species abundance (msa) (indigenous lands)
+GAsup22_N_45,"Biodiversity Intactness Index (Tropical forest, hotspots)","biodiversity intactness index (tropical forest, hotspots)"
+GAsup22_N_46,"Biodiversity Intactness Index (Tropical forest, Indigenous Lands)","biodiversity intactness index (tropical forest, indigenous lands)"
+GAsup22_N_47,Biodiversity Intactness Index (Tropical forest),biodiversity intactness index (tropical forest)
+GAsup22_N_48,Bird species per grid cell (cSAR),bird species per grid cell
+GAsup22_N_49,Cumulative introduced invasive aliens species,cumulative introduced invasive aliens
+GAsup22_N_50,Cumulative number of alien species,cumulative introduced invasive aliens
+GAsup22_N_51,Forest-specialist bird species per grid cell (cSAR),forest-specialist bird species per grid cell
+GAsup22_N_52,Functional intactness (Madingley),functional intactness (madingley) (madingley)
+GAsup22_N_53,Species richness per grid cell (AIM),species richness per grid cell
+GAsup22_N_56,Global bird richness (cSAR),global bird richness (csar)
+GAsup22_N_57,Global forest-specialist bird richness (cSAR),global forest-specialist bird richness (csar)
+GAsup22_N_58,Global mammal and bird species remaining,global mammal and bird species remaining
+GAsup22_N_59,Red List Index,red list index
+GAsup22_N_60,Red List Index (forest specialists),red list index (forest specialists)
+GAsup22_N_61,Red List Index (internationally traded birds),red list index (internationally traded birds)
+GAsup22_N_62,Red List Index (pollinators),red list index (pollinators)
+GAsup22_N_63,Red List Index (for utilized species),red list index (for utilized species)
+GAsup22_N_64,Red List Index (wild relatives),red list index (wild relatives of farmed and domesticated species)
+GAsup22_N_65,Extent of suitable habitat (mammals),extent of suitable habitat (mammals)
+GAsup22_N_66,Mammalian range size,mammalian range size
+GAsup22_N_67,Megafaunal range size,megafaunal range size
+GAsup22_N_68,Species Habitat Index,species habitat index
+GAsup22_N_69,fish stocks within biologically sustainable levels,proportion of fish stocks within biologically sustainable levels
+GAsup22_N_70,Living Planet Index (freshwater),living planet index (freshwater)
+GAsup22_N_71,Living Planet Index (marine),living planet index (marine)
+GAsup22_N_72,Living Planet Index,living planet index
+GAsup22_N_73,Living Planet Index (terrestrial),living planet index (terrestrial)
+GAsup22_N_74,Predatory fish biomass,predatory fish biomass
+GAsup22_N_75,Prey fish biomass,prey fish biomass
+GAsup22_N_76,Wild Bird Index (habitat specialists),wild bird index (habitat specialists)
+GAsup22_N_77,Wild mammal biomass,wild mammal biomass
+GAsup22_N_78,Functional richness (Madingley),functional richness (madingley)
+GAsup22_N_79,Mammalian body mass,mammalian body mass
+GAsup22_N_80,Marine Trophic Index,marine trophic index (mti)
+GAsup23_NCP1 _1,Biodiversity Intactness Index,biodiversity intactness index
+GAsup23_NCP1_2,Extent of each ecoregion globally,extent of each ecoregion globally
+GAsup23_NCP1_3,Extent of Suitable Habitat,extent of suitable habitat
+GAsup23_NCP2_5,Landscape dominance of habitat,landscape dominance of habitat
+GAsup23_NCP2_6,Number of managed bee hives,number of managed bee hives
+GAsup23_NCP2_7,Biodiversity Habitat Index,biodiversity habitat index
+GAsup23_NCP2_8,Abundance of managed and wild pollinators,abundance of managed and wild pollinators
+GAsup23_NCP2_9,Pollinator diversity,pollinator diversity
+GAsup23_NCP3_10,Proportion pollinator dependent vegetables/fruit in food supply,proportion pollinator dependent vegetables/fruit in food supply
+GAsup23_NCP4_11,Number of visitors to National Parks in the EEUU,number of visitors to national parks in the eeuu
+GAsup23_NCP5_12,Output from pollinator dependent crops,output from pollinator dependent crops
+GAsup23_NCP3_13,Carbon stocks in ecosystems,carbon stocks in ecosystems
+GAsup23_NCP3_14,Prevented emissions from biofuel use,prevented emissions from biofuel use
+GAsup23_NCP3_15,Vegetation type and cover in areas prone to soil dust emission,vegetation type and cover in areas prone to soil dust emission
+GAsup23_NCP3_16,Vegetatio leaf area index (LAI),leaf area index (lai)
+GAsup23_NCP3_17,Leaf properties,leaf properties
+GAsup23_NCP3_18,Vegetation type and cover in areas prone to soil dust movement,vegetation type and cover in areas prone to soil dust movement
+GAsup23_NCP3_19,Concentration of air pollutants in the air,concentration of air pollutants in the air
+GAsup23_NCP4_20,Retention and prevented emissions of air pollutants by ecosystems,retention and prevented emissions of air pollutants by ecosystems
+GAsup23_NCP3_21,Amelioration of health problems caused by air pollution resulted from ecosystem contributions to air quality,amelioration of health problems caused by air pollution resulted from ecosystem contributions to air quality
+GAsup23_NCP3_22,Reduction in the number of deaths caused by air pollution reduction by ecosystems,reduction in the number of deaths caused by air pollution reduction by ecosystems
+GAsup23_NCP3_23,"Premature deaths caused by pollution emissions by natural sources, biomass burning, firewood use and agriculture","premature deaths caused by pollution emissions by natural sources, biomass burning, firewood use and agriculture"
+GAsup23_NCP3_24,Cost reduction with healthcare resulted from ecosystem contributions to air quality,cost reduction with healthcare resulted from ecosystem contributions to air quality
+GAsup23_NCP3_25,Cost reduction associated to prevented deaths caused by air pollution as consequence of ecosystems’ deposition of air pollutants,cost reduction associated to prevented deaths caused by air pollution as consequence of ecosystems’ deposition of air pollutants
+GAsup23_NCP4_26,Vegetation-atmosphere CO2 exchange,vegetation-atmosphere co2 exchange
+GAsup23_NCP4_27,Below- and above-ground biomass stocks,below- and above-ground biomass stocks
+GAsup23_NCP4_28,Leaf area index,leaf area index (lai)
+GAsup23_NCP4_29,Biomass changes,biomass changes
+GAsup23_NCP4_30,Remote sensed vegetation,remote sensed vegetation
+GAsup23_NCP4_31,Mechanistic models that quantify and disentangle effects of vegetation on climate and hydrological cycle,mechanistic models that quantify and disentangle effects of vegetation on climate and hydrological cycle
+GAsup23_NCP4_32,Atmospheric sounding,atmospheric sounding
+GAsup23_NCP4_33,Infiltrability,infiltrability
+GAsup23_NCP4_34,Air temperature Low-cost thermal imagery,air temperature low-cost thermal imagery
+GAsup23_NCP4_35,Soil organic carbon,soil organic carbon
+GAsup23_NCP4_36,Dust emissions,dust emissions
+GAsup23_NCP4_37,Net greenhouse gases emissions,net greenhouse gases emissions
+GAsup23_NCP4_38,Air-sea and sediment-water fluxes of carbon and CO2,air-sea and sediment-water fluxes of carbon and co2
+GAsup23_NCP4_39,Air-sea fluxes of other greenhouse gases such as dimethyl sulfide,air-sea fluxes of other greenhouse gases such as dimethyl sulfide
+GAsup23_NCP4_40,Dissolved organic carbon,dissolved organic carbon
+GAsup23_NCP4_41,CO2 removal from atmosphere,co2 removal from atmosphere
+GAsup23_NCP4_42,Net primary production,net primary production
+GAsup23_NCP4_43,Abundance of sulfate reducing microorganisms,abundance of sulfate reducing microorganisms
+GAsup23_NCP4_45,Carbon sequestration,carbon sequestration
+GAsup23_NCP4_46,Concentration of greenhouse gases in the atmosphere,concentration of greenhouse gases in the atmosphere
+GAsup23_NCP4_47,Prevented emissions and uptake of greenhouse gases by ecosystems,prevented emissions and uptake of greenhouse gases by ecosystems
+GAsup23_NCP4_48,Number of deaths caused by extreme climatic events,number of deaths caused by extreme climatic events
+GAsup23_NCP4_49,Food security and climate change,food security and climate change
+GAsup23_NCP4_50,Number of undernourished people,number of undernourished people
+GAsup23_NCP4_51,Crop production breaks caused by climate change,crop production breaks caused by climate change
+GAsup23_NCP4_52,"Economic impacts of climate change on specific aspects of regional economic activity, such as labour productivity, the supply of production factors such as capital, and changes in the structure of demand","economic impacts of climate change on specific aspects of regional economic activity, such as labour productivity, the supply of production factors such as capital, and changes in the structure of demand"
+GAsup23_NCP5_53,Extent of marine vegetation,extent of marine vegetation
+GAsup23_NCP5_54,Extent of marine calcification,extent of marine calcification
+GAsup23_NCP5_55,Air–sea and sediment–water fluxes of carbon and CO2,air-sea and sediment-water fluxes of carbon and co2
+GAsup23_NCP5_57,net primary production seaweed aquaculture,net primary production seaweed aquaculture
+GAsup23_NCP5_58,Extent of Coral Reefs,extent of coral reefs
+GAsup23_NCP6_59,Land use change that causes a change in ET,land use change that causes a change in et
+GAsup23_NCP6_60,Change in terrestrial biomass,change in terrestrial biomass
+GAsup23_NCP6_61,change in extent of wetlands and inland water bodies,change in extent of wetlands and inland water bodies
+GAsup23_NCP6_62,"Biotic mediation of air-surface-groundwater partitioning (water demand by vegetation, infiltration)","biotic mediation of air-surface-groundwater partitioning (water demand by vegetation, infiltration)"
+GAsup23_NCP6_63,Water availability,water availability
+GAsup23_NCP6_64,Water available for people relative to demand,water available for people relative to demand
+GAsup23_NCP6_65,extent of irrigated area,extent of irrigated area
+GAsup23_NCP6_66,water shortage,water shortage
+GAsup23_NCP6_67,desertification,desertification
+GAsup23_NCP6_68,how much kw hrs that are dependent on water Ag (irrigated area),how much kw hrs that are dependent on water ag (irrigated area)
+GAsup23_NCP4_69,Suspended organic carbon,suspended organic carbon
+GAsup23_NCP7_70,existence of non-crop or urban in a place dominated by either,existence of non-crop or urban in a place dominated by either
+GAsup23_NCP7_71,Capacity of ecosystem to filter (or add) constituent components (extent of vegetation),capacity of ecosystem to filter (or add) constituent components (extent of vegetation)
+GAsup23_NCP7_72,Concentration of constituents (pollutants) in the water,concentration of constituents (pollutants) in the water
+GAsup23_NCP7_73,Reduced incidence of water borne disease,reduced incidence of water borne disease
+GAsup23_NCP7_74,Avoided water treatment costs,avoided water treatment costs
+GAsup23_NCP8_75,Rain-use efficiency adjusted NDVI,rain-use efficiency adjusted ndvi
+GAsup23_NCP8_76,Crop yield,crop yield
+GAsup23_NCP8_77,Soil depth,soil depth
+GAsup23_NCP8_78,Food security,food security
+GAsup23_NCP8_79,Soil biodiversity,soil biodiversity
+GAsup23_NCP8_80,Soil Quality,soil quality
+GAsup23_NCP8_81,Soil degradation impact on crop productivity,soil degradation impact on crop productivity
+GAsup23_NCP9_82,Coral reefs distribution and extent,coral reefs distribution and extent
+GAsup23_NCP9_83,Mangrove distribution and abundance,mangrove distribution and abundance
+GAsup23_NCP9_84,Saltmarsh distribution and abundance,saltmarsh distribution and abundance
+GAsup23_NCP9_85,Coastal forest distribution and extent,coastal forest distribution and extent
+GAsup23_NCP9_86,Globally available combined Bathy/Topo,globally available combined bathy/topo
+GAsup23_NCP9_87,Globally available data for waves and wind,globally available data for waves and wind
+GAsup23_NCP9_88,Globally available continental shelf,globally available continental shelf
+GAsup23_NCP9_89,Thousands of deaths each year,thousands of deaths each year
+GAsup23_NCP9_90,Billions of dollars each year,billions of dollars each year
+GAsup23_NCP9_91,Fraction of people die due to flood,fraction of people die due to flood
+GAsup23_NCP9_92,Fraction of people infected with disease of flood,fraction of people infected with disease of flood
+GAsup23_NCP9_93,post-traumatic stress disorder score,post-traumatic stress disorder score
+GAsup23_NCP9_94,cumulative exposure indicators,cumulative exposure indicators
+GAsup23_NCP9_95,Psychological health indicators,psychological health indicators
+GAsup23_NCP9_96,direct tangible damage loss,direct tangible damage loss
+GAsup23_NCP9_97,Landscape inundated by the flood,landscape inundated by the flood
+GAsup23_NCP9_98,"Absolute damage to roads and transportation, power plant,etc","absolute damage to roads and transportation, power plant,etc"
+GAsup23_NCP9_99,Lowered incidence and impact of hazards,lowered incidence and impact of hazards
+GAsup23_NCP9_100,lowered flood peaks,lowered flood peaks
+GAsup23_NCP9_101,lowered fuel load (fires),lowered fuel load (fires)
+GAsup23_NCP9_102,Coastal protection,coastal protection
+GAsup23_NCP9_103,Landslides stabilization,landslides stabilization
+GAsup23_NCP9_104,Incidence of hazards,incidence of hazards
+GAsup23_NCP9_105,Reduced morbidity and premature mortality,reduced morbidity and premature mortality
+GAsup23_NCP9_106,Reduced property loss,reduced property loss
+GAsup23_NCP10_107,Near- or on-farm habitat diversity,near- or on-farm habitat diversity
+GAsup23_NCP10_108,Landscape complexity,landscape complexity
+GAsup23_NCP10_109,Abundance of alternative hosts species,abundance of alternative hosts species
+GAsup23_NCP10_110,Species richness,species richness
+GAsup23_NCP10_111,Avoided costs of pesticide use,avoided costs of pesticide use
+GAsup23_NCP10_112,Avoided costs of health treatment of VBD,avoided costs of health treatment of vbd
+GAsup23_NCP10_113,Reduced pesticide use,reduced pesticide use
+GAsup23_NCP10_114,Reduced prevalence of VBD,reduced prevalence of vbd
+GAsup23_NCP10_115,Diversity of biological controllers of pests,diversity of biological controllers of pests
+GAsup23_NCP10_116,Diversity of competent hosts of vector-borne and zoonotic diseases,diversity of competent hosts of vector-borne and zoonotic diseases
+GAsup23_NCP10_117,Abundance of wild and managed biological controllers of pests,abundance of wild and managed biological controllers of pests
+GAsup23_NCP10_118,Abundance of competent hosts of vector-born and zoonotic diseases,abundance of competent hosts of vector-born and zoonotic diseases
+GAsup23_NCP10_119,Avoided pest damage to crop and livestock,avoided pest damage to crop and livestock
+GAsup23_NCP10_121,Reduced incidence rate of vector-borne and zoonotic diseases,reduced incidence rate of vector-borne and zoonotic diseases
+GAsup23_NCP 11_122,"Tonnage of biomass (sugar cane, corn, palm oil)","tonnage of biomass (sugar cane, corn, palm oil)"
+GAsup23_NCP 11_123,land area in biomass production,land area in biomass production
+GAsup23_NCP 11_124,Tonnage of fuelwood,tonnage of fuelwood
+GAsup23_NCP 11_125,biomass estimates in forests,biomass estimates in forests
+GAsup23_NCP 11_126,Numbers of livestock and use rate,numbers of livestock and use rate
+GAsup23_NCP 11_127,"Tonnage of biomass (sugar cane, corn, palm oil), other energy crops","tonnage of biomass (sugar cane, corn, palm oil), other energy crops"
+GAsup23_NCP 11_129,Yield (production) in tonnage,yield (production) in tonnage
+GAsup23_NCP 11_130,Biofuel yield in Joules or Liters,biofuel yield in joules or liters
+GAsup23_NCP 11_131,"Biofuel yield in Joules or Liters from agricultural/horticultural residue, forestry industry residue, other organic residues or by-products from various industries/process","biofuel yield in joules or liters from agricultural/horticultural residue, forestry industry residue, other organic residues or by-products from various industries/process"
+GAsup23_NCP 11_132,Biofuel yield in Joules or Liters from industrial effluents and/or municipal solid waste,biofuel yield in joules or liters from industrial effluents and/or municipal solid waste
+GAsup23_NCP 11_133,Biofuel yield Joules or Liters from algal/microalgae biomass,biofuel yield joules or liters from algal/microalgae biomass
+GAsup23_NCP 11_134,Population directly reliant on biomass,population directly reliant on biomass
+GAsup23_NCP 11_135,KWH x price,kwh x price
+GAsup23_NCP 11_136,Tons of oil equivalent x price,tons of oil equivalent x price
+GAsup23_NCP 11_137,Land suitability and extent of bioenergy crop and livestock producing and harvesting areas,land suitability and extent of bioenergy crop and livestock producing and harvesting areas
+GAsup23_NCP 11_138,Diversity and abundance of species for bioenergy use,diversity and abundance of species for bioenergy use
+GAsup23_NCP 11_139,Energy content of bioenergy crops,energy content of bioenergy crops
+GAsup23_NCP 11_140,Tonnage of animal waste used for energy,tonnage of animal waste used for energy
+GAsup23_NCP 11_141,Increased energy security,increased energy security
+GAsup23_NCP 11_142,Revenue from bioenergy production,revenue from bioenergy production
+GAsup23_NCP 12_143,Yield per hectare converted to caloric or nutrient yield,yield per hectare converted to caloric or nutrient yield
+GAsup23_NCP 12_144,Agrodiversity and landraces known to date for major crops,agrodiversity and landraces known to date for major crops
+GAsup23_NCP 12_145,Remote sensing of croplands,remote sensing of croplands
+GAsup23_NCP 12_146,Biodiversity richness,species richness
+GAsup23_NCP 12_147,types of agroecosystems,types of agroecosystems
+GAsup23_NCP 12_148,Landed catch (capture fisheries production),landed catch
+GAsup23_NCP 12_149,Aquaculture production,aquaculture production
+GAsup23_NCP 12_150,Quantity of fish produced for animal/aquaculture feed,quantity of fish produced for animal/aquaculture feed
+GAsup23_NCP 12_151,Mean length of catch,mean length of catch
+GAsup23_NCP 12_152,Large Fish Indicator,large fish indicator
+GAsup23_NCP 12_153,TL of the landed catch,trophic level of the landed catch
+GAsup23_NCP 12_154,Mean length of fish in the community,mean length of fish in the community
+GAsup23_NCP 12_155,Proportion of Predatory fish in the community,proportion of predatory fish
+GAsup23_NCP 12_156,TL of the community,trophic level of the community
+GAsup23_NCP 12_157,Proportion of Non-declining species in the surveyed community,proportion of non-declining species in the surveyed community
+GAsup23_NCP 12_158,Net Primary Production (NPP),net primary production
+GAsup23_NCP 12_159,MTI (Marine Trophic Index),marine trophic index (mti)
+GAsup23_NCP 12_160,Change in mean fish size,change in mean fish size
+GAsup23_NCP 12_161,Proportion of fish stocks within biologically sustainable levels,proportion of fish stocks within biologically sustainable levels
+GAsup23_NCP 12_162,Trends in fisheries certified by the MSC,trends in fisheries certified by the msc
+GAsup23_NCP 12_163,Status of Assessed Fish Stocks,status of assessed fish stocks
+GAsup23_NCP 12_164,IUU (Indicator of unsustainable fisheries),indicator of unsustainable fisheries (iuu)
+GAsup23_NCP 12_165,Ocean Health Index,ocean health index
+GAsup23_NCP 12_166,EBFM Performance Index,ebfm performance index
+GAsup23_NCP 12_167,Fisheries Management Effectiveness Index,fisheries management effectiveness index
+GAsup23_NCP 12_168,Fisheries Management Index,fisheries management index
+GAsup23_NCP 12_169,Value of production,value of production
+GAsup23_NCP 12_170,Value of catch,value of catch
+GAsup23_NCP 12_171,"Nutritional output (calories, nutrients)","nutritional output (calories, nutrients)"
+GAsup23_NCP 12_172,Farm size distribution,farm size distribution
+GAsup23_NCP 12_173,Nutrition derived from fish,nutrition derived from fish
+GAsup23_NCP 12_174,Fisheries revenues,fisheries revenues
+GAsup23_NCP 12_175,Gross Value Added (GVA),gross value added (gva)
+GAsup23_NCP 12_176,Potential catch loss,potential catch loss
+GAsup23_NCP 12_177,Production of fish meal and fish oil use in aquaculture/animal feeds,production of fish meal and fish oil use in aquaculture/animal feeds
+GAsup23_NCP 12_178,No. of jobs,number of jobs
+GAsup23_NCP 12_179,Arable Land Remaining,arable land remaining
+GAsup23_NCP 12_180,Fish Catch Potential,fish catch potential
+GAsup23_NCP 12_181,kcal capita,kcal capita
+GAsup23_NCP 12_182,Dietary Diversity,dietary diversity
+GAsup23_NCP 12_183,Hunger,hunger
+GAsup23_NCP 12_184,Malnutrition,malnutrition
+GAsup23_NCP 13_185,Timber harvest (m3/ha/year),timber harvest (m3/ha/year)
+GAsup23_NCP 13_186,Grass/Fodder (kg),grass/fodder (kg)
+GAsup23_NCP 13_187,Bamboos and rattans Market value,bamboos and rattans market value
+GAsup23_NCP 13_188,Market value,market value
+GAsup23_NCP 13_189,Gums (Kg),gums (kg)
+GAsup23_NCP 13_190,resins (Kg),resins (kg)
+GAsup23_NCP 13_191,latexes (Kg),latexes (kg)
+GAsup23_NCP 13_192,oil (Kg),oil (kg)
+GAsup23_NCP 13_193,waxes (kg),waxes (kg)
+GAsup23_NCP 13_194,tannins (Kg),tannins (kg)
+GAsup23_NCP 13_195,dyes (Kg),dyes (kg)
+GAsup23_NCP 13_196,cork (Kg),cork (kg)
+GAsup23_NCP 13_197,bark (Kg),bark (kg)
+GAsup23_NCP 13_198,cotton (t/ha),cotton (t/ha)
+GAsup23_NCP 13_199,flax (t/ha/year)),flax (t/ha/year))
+GAsup23_NCP 13_200,Jute Yields (t/ha/year),jute yields (t/ha/year)
+GAsup23_NCP 13_201,Sisal Yields (t/ha/year),sisal yields (t/ha/year)
+GAsup23_NCP 13_202,Hemp Yields (t/ha/year),hemp yields (t/ha/year)
+GAsup23_NCP 13_203,Silk Cocoons (t/hear),silk cocoons (t/hear)
+GAsup23_NCP 13_204,Coral Solid units (number/year),coral solid units (number/year)
+GAsup23_NCP 13_205,Pearls Sold units (number/year),pearls sold units (number/year)
+GAsup23_NCP 13_206,Shell Sold units (number/year),shell sold units (number/year)
+GAsup23_NCP 13_207,Ornamental plants Sold units (number/year or kg/year),ornamental plants sold units (number/year or kg/year)
+GAsup23_NCP 13_208,Pet fish Sold units (number and species diversity/year),pet fish sold units (number and species diversity/year)
+GAsup23_NCP 13_209,Pet bird Sold units (number and species diversity/year),pet bird sold units (number and species diversity/year)
+GAsup23_NCP 13_210,Pet reptile Sold units (number and species diversity/year),pet reptile sold units (number and species diversity/year)
+GAsup23_NCP 13_211,Pet amphibian Sold units (number and species diversity/year),pet amphibian sold units (number and species diversity/year)
+GAsup23_NCP 13_212,"Other living organism for assistance Number, stock density (number of horse/household)","other living organism for assistance number, stock density (number of horse/household)"
+GAsup23_NCP 13_213,Health benefits provide by companion animals,health benefits provide by companion animals
+GAsup23_NCP 13_214,"Supply of fiber crops, resins, gum arabic","supply of fiber crops, resins, gum arabic"
+GAsup23_NCP 13_215,Trade of silk,trade of silk
+GAsup23_NCP 13_216,"Production of industrial roundwood, paper pulps","production of industrial roundwood, paper pulps"
+GAsup23_NCP 13_217,Export and import of commodity data,export and import of commodity data
+GAsup23_NCP 13_218,Export and import data,export and import data
+GAsup23_NCP 13_219,Number of traded live animals/plants listed in cites databases,number of traded live animals/plants listed in cites databases
+GAsup23_NCP 13_220,Forest area,forest area
+GAsup23_NCP 13_221,Land suitability and extent of cotton producing area,land suitability and extent of cotton producing area
+GAsup23_NCP 13_222,Volume of round wood production,volume of round wood production
+GAsup23_NCP 13_223,Tonnage of cotton production,tonnage of cotton production
+GAsup23_NCP 13_224,Number of people employed in forest industry,number of people employed in forest industry
+GAsup23_NCP 13_225,"Number of people employed in garment industry (include fibre, cotton industry)","number of people employed in garment industry (include fibre, cotton industry)"
+GAsup23_NCP 14_226,MAP of Medicinal Plants overlaying plant richness at the global level,map of medicinal plants overlaying plant richness at the global level
+GAsup23_NCP 14_227,Percentage of New drugs discovered over the last 30 years based on Natural Medicinal Products,percentage of new drugs discovered over the last 30 years based on natural medicinal products
+GAsup23_NCP 14_228,"Biodiversity with high potential for having bioactive principles for medicines or represent genetic resources useful for medicines agriculture or other purposes, that have been identified locally through ILK or by other knowledge systems at global levels for health treatments or other purposes (agriculture or other)","biodiversity with high potential for having bioactive principles for medicines or represent genetic resources useful for medicines agriculture or other purposes, that have been identified locally through ilk or by other knowledge systems at global levels for health treatments or other purposes (agriculture or other)"
+GAsup23_NCP 14_229,"Biodiversity richness at global level (Plants, Animals and Fungi, terrestrial and Marine)",species richness
+GAsup23_NCP 14_230,Medicinal plants known to date and accessible for health care as a proxy for all Natural Medicinal Products (NMPs),medicinal plants known to date and accessible for health care as a proxy for all natural medicinal products (national medicines policies)
+GAsup23_NCP 14_231,Genetic resources and especially agrodiversity known to date and its linkage to food security,genetic resources and especially agrodiversity known to date and its linkage to food security
+GAsup23_NCP 14_232,More than 25% of new chemical entities developed for drugs for all diseases treated at the global level over the last 30 years are derived from natural products or chemical leads from NMPs and more than 70% of drugs to treat cancers derive directly from NMPs,more than 25% of new chemical entities developed for drugs for all diseases treated at the global level over the last 30 years are derived from natural products or chemical leads from national medicines policies and more than 70% of drugs to treat cancers derive directly from national medicines policies
+GAsup23_NCP 14_233,Percentage of world population relying almost entirely on NMPs,percentage of world population relying almost entirely on national medicines policies
+GAsup23_NCP 14_234,Percentage of modern drugs based on NMPs or bio-inspired molecules used for diseases at the global level,percentage of modern drugs based on national medicines policies or bio-inspired molecules used for diseases at the global level
+GAsup23_NCP 14_235,"percentages of wild plant collection harvested, traded","percentages of wild plant collection harvested, traded"
+GAsup23_NCP 14_236,New drugs production and sales,new drugs production and sales
+GAsup23_NCP 14_237,Maps showing areas where humans mostly rely NMPs for health,maps showing areas where humans mostly rely national medicines policies for health
+GAsup23_NCP 15_238,Biodiversity intactness index (for plants and vertebrates),biodiversity intactness index (for plants and vertebrates)
+GAsup23_NCP 15_239,linguistic diversity index,linguistic diversity index
+GAsup23_NCP 15_240,In situ genetic resources of interest to science and ex situ gene banks or genetic and or chemical related informations,in situ genetic resources of interest to science and ex situ gene banks or genetic and or chemical related informations
+GAsup23_NCP 15_241,Ability of learning through direct proximity of people with nature in biodiversity-rich landscapes or agroecosystems,ability of learning through direct proximity of people with nature in biodiversity-rich landscapes or agroecosystems
+GAsup23_NCP 15_242,"Elements (parts) of nature used in scientific experiments, from species to genes and their continued natural functional and evolutionary roles","elements (parts) of nature used in scientific experiments, from species to genes and their continued natural functional and evolutionary roles"
+GAsup23_NCP 15_243,"care, mental health, cultural security, life-satisfaction","care, mental health, cultural security, life-satisfaction"
+GAsup23_NCP 15_244,Diversity and economic value of bioinspired production,diversity and economic value of bioinspired production
+GAsup23_NCP 15_245,Areas including all UoA where people mainly rely on Nature for their well being,areas including all uoa where people mainly rely on nature for their well being
+GAsup23_NCP 15_246,Recognition of ILPCs lifestyles in close interaction with nature and their access to their lands and resources,recognition of ilpcs lifestyles in close interaction with nature and their access to their lands and resources
+GAsup23_NCP 15_247,Human mobility to access different natural habitats for outdoor recreation,human mobility to access different natural habitats for outdoor recreation
+GAsup23_NCP 15_248,Indirect access to natural products from natural habitats,indirect access to natural products from natural habitats
+GAsup23_NCP 15_249,Creation of new rural urban network,creation of new rural urban network
+GAsup23_NCP 16_250,Visitation rates of parks,visitation rates of parks
+GAsup23_NCP 16_251,People in proximity to parks or natural areas,people in proximity to parks or natural areas
+GAsup23_NCP 16_252,Indigenous lands,indigenous lands
+GAsup23_NCP 16_253,Green space in cities,green space in cities
+GAsup23_NCP 16_254,Area of natural and traditional landscapes and seascapes,area of natural and traditional landscapes and seascapes
+GAsup23_NCP 16_255,"Number of protected areas, parks and gardens","number of protected areas, parks and gardens"
+GAsup23_NCP 16_256,"Visitation rate to natural terrestrial, coastal and marine areas","visitation rate to natural terrestrial, coastal and marine areas"
+GAsup23_NCP 16_257,"Increased awareness, care, mental health, cultural security, life-satisfaction","increased awareness, care, mental health, cultural security, life-satisfaction"
+GAsup23_NCP 16_258,NA,NA
+GAsup23_NCP 17_259,Abundance of slowly changing ecosystems (time past last land use change),abundance of slowly changing ecosystems (time past last land use change)
+GAsup23_NCP 17_260,Identity value,identity value
+GAsup23_NCP 17_261,Happyness,happyness
+GAsup23_NCP 18_263,Quantitative genetic variation,quantitative genetic variation
+GAsup23_NCP 18_264,Phenotypic variation,phenotypic variation
+GAsup23_NCP 18_265,Neutral variation (markers not linked to traits under selection),neutral variation (markers not linked to traits under selection)
+GAsup23_NCP 18_266,Non-neutral variation (markers linked to traits under selection),non-neutral variation (markers linked to traits under selection)
+GAsup23_NCP 18_267,Phylogenetic variation (of genes or populations within species),phylogenetic variation (of genes or populations within species)
+GAsup23_NCP 18_268,Demographic variation,demographic variation
+GAsup23_NCP 18_269,"functional diversity (FD), rarity, redundancy, vulnerability","functional diversity (fd), rarity, redundancy, vulnerability"
+GAsup23_NCP 18_270,community-weighted mean trait value (CWM),community-weighted mean trait value (cwm)
+GAsup23_NCP 18_271,phylogenetic diversity (PD),phylogenetic diversity (pd)
+GAsup23_NCP 18_272,overdisperion/ underdispersion,overdisperion/ underdispersion
+GAsup23_NCP 18_273,taxonomic diversity and distinctness,taxonomic diversity and distinctness
+GAsup23_NCP 18_274,"phylogenetic species richness (PSR), clustering (PSC), evenness (PSE), variability (PSV)","phylogenetic species richness (psr), clustering (psc), evenness (pse), variability (psv)"
+GAsup23_NCP 18_275,number of species,number of species
+GAsup23_NCP 18_276,equitability (commonness and rareness),equitability (commonness and rareness)
+GAsup23_NCP 18_277,species abundance distribution,species abundance distribution
+GAsup23_NCP 18_278,mean species abundance (MSA),mean species abundance (msa)
+GAsup23_NCP 18_279,endemism (% endemics in community),endemism (% endemics in community)
+GAsup23_NCP 18_280,emergence (Shannon’s Information),emergence (shannon’s information)
+GAsup23_NCP 18_281,genetic variation (self-organization),genetic variation (self-organization)
+GAsup23_NCP 18_282,genetic variation (complexity),genetic variation (complexity)
+GAsup23_NCP 18_283,genetic variation (homeostasis),genetic variation (homeostasis)
+GAsup23_NCP 18_284,genetic variation (hamming distance),genetic variation (hamming distance)
+GAsup23_NCP 18_285,genetic variation (dissimilarity),genetic variation (dissimilarity)
+GAsup23_NCP 18_286,genetic variation (cohesion),genetic variation (cohesion)
+GAsup23_NCP 18_287,"genetic variation (connectance, numbers of links by the number of nodes)","genetic variation (connectance, numbers of links by the number of nodes)"
+GAsup23_NCP 18_288,betadiversity (species turnover),betadiversity (species turnover)
+GAsup23_NCP 18_289,gamma diversity (total diversity of species in a landscape),gamma diversity (total diversity of species in a landscape)
+GAsup23_NCP 18_290,genetic variation (nestedness),genetic variation (nestedness)
+GAsup23_NCP 18_291,phylobeta diversity,phylogenetic betadiversity
+GAsup23_NCP 18_292,Phylogenetic structure of a community,phylogenetic structure of a community
+GAsup23_NCP 18_293,Phylogenetic betadiversity,phylogenetic betadiversity
+GAsup23_NCP 18_294,community weighted mean of traits,community-weighted mean trait value (cwm)
+GAsup23_NCP 18_295,trait convergence assembly pattern (TCAP),trait convergence assembly pattern (tcap)
+GAsup23_NCP 18_296,trait divergence assembly pattern (TDAP),trait divergence assembly pattern (tdap)
+GAsup23_NCP 18_297,functional betadiversity,functional betadiversity
+GAsup23_NCP 18_298,loss of species,loss of species
+GAsup23_NCP 18_299,loss of phylogenetic diversity (PD),loss of phylogenetic diversity
+GAsup3_Ai_1,Biodiversity Barometer (% of respondents that have heard of biodiversity),biodiversity barometer (% of respondents that have heard of biodiversity)
+GAsup3_Ai_2,Biodiversity Barometer (% of respondents giving correct definition of biodiversity),biodiversity barometer (% of respondents giving correct definition of biodiversity)
+GAsup3_Ai_3,Funding towards environmental education ($),funding towards environmental education
+GAsup3_Ai_4,Online interest in biodiversity (proportion of google searches),online interest in biodiversity (proportion of google searches)
+GAsup3_Ai_5,Funding towards Environmental Impact Assessment ($),funding towards environmental impact assessment
+GAsup3_Ai_6,Number of research studies involving economic valuation,number of research studies involving economic valuation
+GAsup3_Ai_7,World Trade Organisation green box agricultural subsidies ($),world trade organisation greenbox agricultural subsidies
+GAsup3_Ai_8,Funding towards institutional capacity building in fisheries ($),funding towards institutional capacity building in fisheries
+GAsup3_Ai_9,Percentage of countries that are Category 1 CITES Parties†,percentage of countries that are category 1 cites parties
+GAsup3_Ai_10,Ecological Footprint (number of earths needed to support human society)†,ecological footprint
+GAsup3_Ai_11,Red List Index (impacts of utilisation),red list index (for utilized species)
+GAsup3_Ai_12,Red List Index (internationally traded species),red list index (internationally traded species)
+GAsup3_Ai_13,Human appropriation of net primary productivity (Pg C),human appropriation of net primary productivity
+GAsup3_Ai_14,Human appropriation of fresh water (water footprint) (thousand km3)†,human appropriation of fresh water (water footprint) (thousand km3)
+GAsup3_Ai_15,Wetland Extent Trends Index,wetland extent trends index
+GAsup3_Ai_16,Area of tree cover loss (ha)†,tree cover
+GAsup3_Ai_17,Percentage natural habitat extent,extent of suitable habitat
+GAsup3_Ai_18,Wild Bird Index (habitat specialists),wild bird index (habitat specialists)
+GAsup3_Ai_19,Red List index (forest specialists),red list index (forest specialists)
+GAsup3_Ai_20,Proportion of fish stocks in safe biological limits†,proportion of fish stocks within biologically sustainable levels
+GAsup3_Ai_21,Marine Stewardship Council certified fisheries (tonnes)†,marine stewardship council certified fisheries
+GAsup3_Ai_22,Marine trophic index†,marine trophic index (mti)
+GAsup3_Ai_23,Red List Index (impacts of fisheries),red list index (impacts of fisheries)
+GAsup3_Ai_24,Global effort in bottom-trawling (kW sea-days),global effort in bottom-trawling
+GAsup3_Ai_25,Nitrogen use balance (kg/km2)†,nitrogen use balance
+GAsup3_Ai_26,Wild Bird Index (farmland birds),wild bird index (farmland birds)
+GAsup3_Ai_27,Area of agricultural land under organic production (million ha),area of agricultural land under organic production
+GAsup3_Ai_28,Area of agricultural land under conservation agriculture (thousand ha),area of agricultural land under conservation agriculture
+GAsup3_Ai_29,Area of forest under sustainable management: total FSC and PEFC forest management certification (million ha)†,area of forest under sustainable management: total forest management certification by forest stewardship council and programme for the endorsement of forest certification
+GAsup3_Ai_30,Red List Index (impacts of pollution),red list index (impacts of pollution)
+GAsup3_Ai_31,Pesticide use (tonnes)†,pesticide use
+GAsup3_Ai_32,Nitrogen surplus (Tg N),nitrogen surplus (tg n)
+GAsup3_Ai_33,Number of invasive alien species introductions,number of invasive alien species introduction events
+GAsup3_Ai_34,Red List Index (impacts of invasive alien species),red list index (impacts of invasive alien species)
+GAsup3_Ai_35,Percentage of countries with invasive alien species legislation,percentage of countries with invasive alien species legislation
+GAsup3_Ai_36,Percentage live coral cover,live coral cover
+GAsup3_Ai_37,Glacial mass balance (mm water equivalent),glacial mass balance
+GAsup3_Ai_38,Mean polar sea ice extent (million km2),mean polar sea ice extent
+GAsup3_Ai_39,Climatic Impact Index for birds,climatic impact index for birds
+GAsup3_Ai_40,Area of mangrove forest cover (km2),mangrove forest area
+GAsup3_Ai_41,Percentage of marine and coastal areas covered by protected areas†,percentage of marine and coastal areas covered by protected areas
+GAsup3_Ai_42,Percentage of terrestrial areas covered by protected areas†,percentage of terrestrial ecoregions covered by protected areas
+GAsup3_Ai_43,Percentage of Key Biodiversity Areas covered by protected areas†,protected area coverage of key biodiversity areas
+GAsup3_Ai_44,Percentage of terrestrial ecoregions covered by protected areas,percentage of terrestrial ecoregions covered by protected areas
+GAsup3_Ai_45,Percentage of marine ecoregions covered by protected areas,percentage of marine ecoregions covered by protected areas
+GAsup3_Ai_46,"Protected area coverage of bird, mammal and amphibian distributions","protected area coverage of bird, mammal and amphibian distributions"
+GAsup3_Ai_47,Number of protected area management effectiveness assessments†,number of protected area management effectiveness (pame) assessments
+GAsup3_Ai_48,Funding towards nature reserves ($),funding towards nature reserves
+GAsup3_Ai_49,Living Planet Index,living planet index
+GAsup3_Ai_50,Red List Index†,red list index
+GAsup3_Ai_51,Funding towards species protection ($),funding towards species protection
+GAsup3_Ai_52,Number of plant genetic resources for food and agriculture secured in conservation facilities,number of plant and animal genetic resources secured in medium or long-term conservation facilities
+GAsup3_Ai_53,Percentage of terrestrial domesticated animal breeds at risk†,percentage of terrestrial domesticated animal breeds at risk
+GAsup3_Ai_54,Red List Index (wild relatives of farmed and domesticated species),red list index (wild relatives of farmed and domesticated species)
+GAsup3_Ai_55,Percentage change in local species richness,percentage change in local species richness
+GAsup3_Ai_56,Red List Index (species used for food and medicine),red list index (for utilized species)
+GAsup3_Ai_57,Red List Index (pollinator species),red list index (pollinators)
+GAsup3_Ai_58,Percentage of global rural population with access to improved water resources,percentage of global rural population with access to improved water resources
+GAsup3_Ai_59,Percentage of countries that have ratified the Nagoya Protocol,percentage of countries that have ratified the nagoya protocol
+GAsup3_Ai_60,Percentage of countries with revised NBSAPs†,percentage of countries with revised nbsaps
+GAsup3_Ai_61,Species Status Information Index†,species status index
+GAsup3_Ai_62,Number of biodiversity papers published,number of biodiversity papers published
+GAsup3_Ai_63,Proportion of known species assessed through the IUCN Red List †,proportion of known species assessed through the red list index
+GAsup3_Ai_64,Number of species occurrence records in the Global Biodiversity Information Facility,species occurrence records accessible through the global biodiversity information facility
+GAsup3_Ai_65,Funding committed to environmental research ($),funding committed to environmental research
+GAsup3_Ai_66,Funding provided by the Global Environment Facility ($),funding provided by the global environment facility
+GAsup3_Ai_67,Official Development Assistance provided in support of the CBD objectives ($),official development assistance provided in support of the cbd objectives
+GAsup3_Ai_68,"Global funding committed towards environmental policy, laws, regulations and economic instruments ($)","global funding committed towards environmental policy, laws, regulations and economic instruments"

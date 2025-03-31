@@ -3,7 +3,7 @@
 .RData
 .Ruserdata
 
-input/automated_search/assessments_to_search
+input/assessments/automated_search/assessments_to_search
 code
 b3
 zenodo

@@ -85,7 +85,7 @@ harmonize_indic <- function(file_name = file_name,
     # dplyr::mutate(field_harm = gsub(" [(]$[)]\\b", "sustainable development goals index",field_harm)) %>% 
     
     # red list/iucn
-    dplyr::mutate(field_harm = gsub('rli ', 'red list index ',field_harm)) %>% 
+    #dplyr::mutate(field_harm = gsub('rli ', 'red list index ',field_harm)) %>% 
     dplyr::mutate(field_harm = gsub('^rli$', 'red list index',field_harm)) %>% 
     dplyr::mutate(field_harm = gsub('total extinction risk', 'extinction risk',field_harm)) %>% 
     dplyr::mutate(field_harm = gsub('red list index [(]overall[)]', 'red list index',field_harm)) %>%
@@ -419,6 +419,10 @@ harmonize_indic <- function(file_name = file_name,
     dplyr::mutate(field_harm = gsub("index index", "index",field_harm)) %>% 
     dplyr::mutate(field_harm = gsub("red list index red list index [(]internationally traded birds[)]", "red list index (internationally traded birds)",field_harm)) %>%
     dplyr::mutate(field_harm = gsub("index index", "index",field_harm)) %>% 
+    
+    # SDGs and GBF
+    dplyr::mutate(field_harm = gsub("extent to which [(]i[)] global citizenship education and [(]ii[)] education for sustainable development are mainstreamed in [(]a[)] national education policies[;] [(]b[)] curricula[;] [(]c[)] teacher education[;] and [(]d[)] student assessment", 
+                                    "extent to which (i) global citizenship education and (ii) education for sustainable development, including gender equality and human rights, are mainstreamed at all levels in: (a) national education policies, (b) curricula, (c) teacher education and (d) student assessments",field_harm)) %>%
     dplyr::mutate(field_harm = gsub('  ', ' ',field_harm))
 
   

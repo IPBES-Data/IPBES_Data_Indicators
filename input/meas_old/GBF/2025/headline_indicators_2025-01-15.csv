@@ -1,0 +1,52 @@
+Goal/target,Indicator name,Description,Status,Time series,Group,Update frequency,Data relevant at global scale,Data available/collated national scale,National methodology available,Institution,Other MEAs/Processes,BIP Indicator
+Goal A,A.1 Red List of Ecosystems,"",4,"",Headline,"","","","","","",""
+Goal A,A.2 Extent of natural ecosystems,"",4,"",Headline,"","","","","","",""
+Goal A,A.3 Red List Index,"",5,"",Headline,"","","","","","",""
+Goal A,A.4 The proportion of populations within species with an effective population size > 500,"",4,"",Headline,"","","","","","",""
+Goal B,B.1 Services provided by ecosystems,"",3,"",Headline,"","","","","","",""
+Goal B,"B.b Number of countries with policies or action plans for [[implementing and monitoring] the sustainable use of biodiversity and the maintenance and enhancement of nature’s contributions to people, including ecosystem functions and services [in a manner supportive of sustainable development][and processes to value biodiversity as well as policies to ensure the provision of ecosystem services for present and future generations]][promoting the achievement of Goal B].",,N/A,,Binary,,,,,"","",
+Goal C,C.1 Monetary benefits received in accordance with applicable internationally agreed Access and Benefit-sharing instruments,"",2,"",Headline,"","","","","","",""
+Goal C,C.2 Non-monetary benefits arising from applicable international Access and Benefit-sharing instruments,"",3,"",Headline,"","","","","","",""
+Goal C,"13.b Number of countries that have taken effective legal, policy, administrative and capacity-building measures at all levels, as appropriate, to ensure the fair and equitable sharing of benefits from the utilization of genetic resources and from digital sequence information on genetic resources, as well as traditional knowledge associated with genetic resources.",,N/A,,Binary,,,,,"","",
+Goal D ,"D.1 International public funding, including official development assistance (ODA) for conservation and sustainable use of biodiversity and ecosystems","",5,"",Headline,"","","","","","",""
+Goal D ,D.2 Domestic public funding on conservation and sustainable use of biodiversity and ecosystems,"",4,"",Headline,"","","","","","",""
+Goal D ,D.3 Private funding (domestic and international) on conservation and sustainable use of biodiversity and ecosystems,"",2,"",Headline,"","","","","","",""
+Target 1,A.1 Red List of Ecosystems,"",4,"",Headline,"","","","","","",""
+Target 1,A.2 Extent of natural ecosystems,"",4,"",Headline,"","","","","","",""
+Target 1,1.1 Percentage of land and seas covered by biodiversity-inclusive spatial plans,"",1,"",Headline,"","","","","","",""
+Target 1,"1.b Number of countries using participatory, integrated and biodiversity-inclusive spatial planning or effective management processes to address land and sea use change.",,N/A,,Binary,,,,,"","",
+Target 2,2.1 Area under restoration,"",4,"",Headline,"","","","","","",""
+Target 3,3.1 Coverage of protected areas and other effective area-based conservation measures,"",5,"",Headline,"","","","","","",""
+Target 4,A.3 Red List Index,"",5,"",Headline,"","","","","","",""
+Target 4,A.4 The proportion of populations within species with an effective population size > 500,"",4,"",Headline,"","","","","","",""
+Target 5,5.1 Proportion of fish stocks within biologically sustainable levels,"",5,"",Headline,"","","","","","",""
+Target 6,6.1 Rate of invasive alien species establishment,"",4,"",Headline,"","","","","","",""
+Target 6,"6.b Number of countries adopting relevant regulation, processes and measures and allocating resources to reduce the impact of invasive alien species.",,N/A,,Binary,,,,,"","",
+Target 7,7.1 Index of coastal eutrophication potential,"",4,"",Headline,"","","","","","",""
+Target 7,7.2 Aggregated Total Applied Toxicity,"",3,"",Headline,"","","","","","",""
+Target 8,8.b Number of countries with agreed policies to minimize the impact of climate change and ocean acidification on biodiversity and that minimize negative and foster positive impacts of climate action on biodiversity.,,N/A,,Binary,,,,,"","",
+Target 9,9.1 Benefits from the sustainable use of wild species,"",1,"",Headline,"","","","","","",""
+Target 9,9.2 Percentage of the population in traditional occupations,"",3,"",Headline,"","","","","","",""
+Target 9,"9.b Number of countries with policies to sustainably manage, use [and trade] wild species, providing social, economic and environmental benefits for people, and that protect and encourage customary sustainable use [of wild species] by indigenous peoples and local communities.",,N/A,,Binary,,,,,"","",
+Target 10,10.1 Proportion of agricultural area under productive and sustainable agriculture,"",5,"",Headline,"","","","","","",""
+Target 10,10.2 Progress towards sustainable forest management,"",5,"",Headline,"","","","","","",""
+Target 11,11.1 Services provided by ecosystems,"",3,"",Headline,"","","","","","",""
+Target 12,12.1 Average share of the built-up area of cities that is green/blue space for public use for all,"",5,"",Headline,"","","","","","",""
+Target 12,12.b Number of countries with biodiversity-inclusive urban planning referring to green or blue urban spaces.,,N/A,,Binary,,,,,"","",
+Target 13,C.1 Indicator on monetary benefits received,"",2,"",Headline,"","","","","","",""
+Target 13,C.2 Indicator on non-monetary benefits,"",3,"",Headline,"","","","","","",""
+Target 13,"13.b Number of countries that have taken effective legal, policy, administrative and capacity-building measures at all levels, as appropriate, to ensure the fair and equitable sharing of benefits from the utilization of genetic resources and from digital sequence information on genetic resources, as well as traditional knowledge associated with genetic resources.",,N/A,,Binary,,,,,"","",
+Target 14,"14.b Number of countries integrating biodiversity and its multiple values into policies, regulations, planning, development processes, poverty [reduction][eradication] strategies and accounts at all levels, [ensuring that biodiversity values are mainstreamed] [and] across all sectors [ and fiscal and financial flows are aligned with it].",,N/A,,Binary,,,,,"","",
+Target 15 ,"15.1 Number of companies disclosing their biodiversity-related risks, dependencies and impacts","",2,"",Headline,"","","","","","",""
+Target 15 ,"15.b Number of countries taking legal, administrative or policy measures aimed at encouraging and enabling business and financial institutions, and in particular, ensuring that large and transnational companies and financial institutions, to progressively reduce negative impacts from business and financial institutions on biodiversity, increase their positive impacts, reduce their biodiversity-related risks and promote actions to ensure sustainable patterns of production. ",,N/A,,Binary,,,,,"","",
+Target 16,"16.b Number of countries developing, adopting or implementing policy instruments aimed at encouraging and enabling people to make sustainable consumption choices.",,N/A,,Binary,,,,,"","",
+Target 17,17.b Number of countries that have taken action to implement biosafety measures as set out in Article 8(g) of the Convention and measures for the handling of biotechnology and the distribution of its benefits as set out in Article 19.,,N/A,,Binary,,,,,"","",
+Target 18,18.1 Positive incentives in place to promote biodiversity conservation and sustainable use,"",4,"",Headline,"","","","","","",""
+Target 18,18.2 Value of subsidies and other incentives harmful to biodiversity,"",3,"",Headline,"","","","","","",""
+Target 19,"D.1 International public funding, including official development assistance (ODA) for conservation and sustainable use of biodiversity and ecosystems","",5,"",Headline,"","","","","","",""
+Target 19,D.2 Domestic public funding on conservation and sustainable use of biodiversity and ecosystems,"",4,"",Headline,"","","","","","",""
+Target 19,D.3 Private funding (domestic and international) on conservation and sustainable use of biodiversity and ecosystems,"",2,"",Headline,"","","","","","",""
+Target 20,"20.b Number of countries that have taken significant action to strengthen capacity-building and development, access to and transfer of technology, and to promote the development of and access to innovation and technical and scientific cooperation.",,N/A,,Binary,,,,,"","",
+Target 21,21.1 Indicator on biodiversity information for monitoring the global biodiversity framework,"",2,"",Headline,"","","","","","",""
+Target 22,"22.b Number of countries [promoting the full, equitable, inclusive, effective and gender-responsive representation and participation] and [recognizing the rights of indigenous peoples and local communities with respect to their traditional territories, cultures and practices as well as the rights of environmental human rights defenders, women, youth, and persons with disabilities] [ensuring representation and participation in decision-making and access to justice and information in relation with biodiversity and ensuring the legal rights of indigenous peoples and local communities, including respecting their rights over lands, territories, resources and traditional knowledge, women and girls, children and youth and persons with disabilities, and ensuring the full protection of human rights of environmental defenders.]",,N/A,,Binary,,,,,"","",
+Target 23,"23.b Number of countries with legal, administrative or policy frameworks, including the Gender Plan of Action, as well as the allocation of specific financial resources to ensure that all women and girls have equal opportunity and capacity to contribute to the three objectives of the Convention, including by ensuring women’s equal rights and access to land and natural resources.",,N/A,,Binary,,,,,"","",
