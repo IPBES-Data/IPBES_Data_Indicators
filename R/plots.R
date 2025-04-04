@@ -29,159 +29,239 @@ library(readr)
 library(data.table)
 library(purrr)
 library(googlesheets4)
+
 library(ggplot2)
 library(circlize)
 library(ggalluvial)
+library(patchwork)
 
 # Load indicators----
 
 indic =  read_csv("../output/all_harmonized_classified_indicatorsMay24.csv")
 
-# 3-Summaries----
-
-indic %>% filter(!is.na(indicators_harmonized)) %>% distinct(indicators_harmonized) %>% count() #2101 unique indicators
+# Merge all IPBES assessments (sources2) and remove ICCWC
+indic = indic %>% 
+  dplyr::mutate(source = strsplit(as.character(sources), ",")) %>% 
+  tidyr::unnest(source) %>% 
+  dplyr::filter(source != 'ICCWC') %>% 
+  dplyr::mutate(source2 = if_else(source %in% c('VA', 'IAS','GA','SUA'),
+                                  true = 'IPBES',
+                                  false = source)) %>% 
+  dplyr::distinct(indicators_harmonized, source2, .keep_all = TRUE) %>% 
+  dplyr::group_by(indicators_harmonized) %>% 
+  dplyr::mutate(sources2 = str_flatten(source2, ",")) %>% 
+  dplyr::distinct(indicators_harmonized, sources2, .keep_all = TRUE) %>% 
+  dplyr::select(-source,-source2) %>% 
+  relocate(sources2, .after = sources) %>% 
+  dplyr::ungroup()
+  
+# Checks
+indic %>% filter(!is.na(indicators_harmonized)) %>% distinct(indicators_harmonized) %>% count() #2051 unique indicators
 indic %>% filter(!is.na(indicators_harmonized)) %>% filter(!is.na(Categories)) %>% distinct(indicators_harmonized) %>% count() #2101 unique indicators categorized
 
-# re-format table
-indic_plotting = indic %>% 
-  # clean dataset
-  filter(!is.na(indicators_harmonized)) %>% 
-  filter(!is.na(Categories)) %>% 
-  dplyr::select(-ILK_ext) %>% 
-  dplyr::relocate(ipbes, .after = policy) %>% 
-  # calculate how many times the indicators were used
-  dplyr::mutate(usage = rowSums(across(ga:unccd), na.rm = TRUE)) %>% 
-  dplyr::mutate(usage_policy = rowSums(across(km_gbf:unccd), na.rm = TRUE)) %>% 
-  dplyr::mutate(usage_assess = rowSums(across(ga:ipcc), na.rm = TRUE)) %>% 
-  dplyr::mutate(usage_ipbes = rowSums(across(ga:ias), na.rm = TRUE)) %>% 
-  # get source in a column (1 source by entry --> source)
-  pivot_longer(
-    cols = ga:unccd,
-    names_to = "source",
-    values_to = "value") %>%
-  filter(value != 0) %>%
-  dplyr::select(-value) %>% 
-  # create assessment field
-  mutate(source = toupper(source)) %>% 
-  mutate(source = gsub('KM_GBF','GBF', source)) %>% 
-  mutate(assessment = if_else(source %in% c("GA", "SUA", "IAS","VA", "IPCC", "GEO"),
-                              true = 1,
-                              false = 0)) %>% 
-  # paste all sources together (multiple sources by entry--> sources))
-  group_by(indicators_harmonized) %>%
-  mutate(sources = paste0(source,collapse = ",")) %>%
-  ungroup() %>%
-  dplyr::select(-source) %>%
-  # 1 indicator == 1 entry (keep sources)
-  distinct(indicators_harmonized, sources, .keep_all = TRUE) %>%
-  # improve categories
-  mutate(Categories = str_to_title(Categories)) %>% 
-  mutate(Categories_2 = str_to_title(Categories_2)) %>% 
-  mutate(Subcategories = str_to_title(Subcategories)) %>% 
-  mutate(Subcategories_2 = str_to_title(Subcategories_2)) %>% 
-  dplyr::select("indicators_harmonized","policy", "assessment","sources","ipbes",
-                "usage","usage_policy","usage_assess","usage_ipbes",
-                "indic","indic_ext","var_ext",
-                "Categories","Categories_2","Subcategories","Subcategories_2") %>% 
-  write_csv('../output/all_harmonized_classified_indicatorsMay24.csv')
-names(all_indicators_cl2)
 
-# 3.a-Summaries of indicators by source----
+# 1-Summaries of indicators by source----
 
-all_indicators_cl2 %>% 
-  mutate(sources = strsplit(as.character(sources), ",")) %>% 
-  unnest(sources) %>% 
-  group_by(sources) %>% count() %>% arrange(desc(n))
-# 1 GA        764
-# 2 IPCC      374
-# 3 GBF       307
-# 4 SDG       257
-# 5 GEO       223
-# 6 SUA       213
-# 7 IAS        78
-# 8 VA         72
-# 9 ICCWC      50
-# 10 CITES      41
-# 11 CMS        25
-# 12 RAMSAR     18
-# 13 UNCCD       4
+indic %>% 
+  mutate(source = strsplit(as.character(sources2), ",")) %>% 
+  unnest(source) %>% 
+  group_by(source) %>% count() %>% arrange(desc(n))
+# source     n
+# 1 IPBES   1085
+# 2 IPCC     374
+# 3 GBF      307
+# 4 SDG      257
+# 5 GEO      223
+# 6 CITES     41
+# 7 CMS       25
+# 8 RAMSAR    18
+# 9 UNCCD      4
 
-all_indicators_cl2 %>% filter(assessment ==1) %>% distinct(indicators_harmonized) %>% count() #1648
-all_indicators_cl2 %>% filter(policy ==1) %>% distinct(indicators_harmonized) %>% count() #647
+# Assessments
+indic %>% filter(assessment ==1) %>% distinct(indicators_harmonized) %>% count() #1648
 
-#filter(!sources %in% c('GBF','SDG','UNCCD','CITES','CMS','ICCWC','RAMSAR' )) %>% #1653 indic in assessments
-#filter(sources %in% c('GBF','SDG','UNCCD','CITES','CMS','ICCWC','RAMSAR' )) %>% # 648 indic in policy
+# MEAs
+indic %>% filter(policy ==1) %>% distinct(indicators_harmonized) %>% count() #647
 
-data_hist1 = all_indicators_cl2 %>% 
-  mutate(source = strsplit(as.character(sources), ",")) %>% 
+# Figure 1: Summaries of indicators by source----
+data_hist_assess = indic %>% 
+  mutate(source = strsplit(as.character(sources2), ",")) %>% 
   unnest(source) %>% 
   filter(assessment ==1) %>%
-  filter(!source %in% c('GBF','SDG','UNCCD','CITES','CMS','ICCWC','RAMSAR' )) %>% 
-  mutate(organization = if_else(source %in% c('VA', 'IAS','GA','SUA'),
-                                true = 'IPBES',
-                                false = 'UNEP')) %>%
-  mutate(organization = if_else(source == 'IPCC',
-                                true = 'IPCC',
-                                false = organization)) %>% 
-  group_by(source, organization) %>%  count() %>% arrange(organization)
+  filter(!source %in% c('GBF','SDG','UNCCD','CITES','CMS','RAMSAR' )) %>% 
+  group_by(source) %>%  count() %>% arrange(n)
 
-ggplot(data=data_hist1, aes(x=source, y=n, fill=organization)) +
+hist_assess = ggplot(data=data_hist_assess, aes(x=source, y=n, fill=source)) +
   geom_bar(stat="identity", color="black") + 
-  labs(y="Number of indicators", x = "") +
-  scale_fill_brewer(palette="Greens", limits=c("UNEP", "IPCC", "IPBES"),name = '') +
-  scale_x_discrete(limits=c("GA", "SUA", "IAS","VA", "IPCC", "GEO")) +
-  theme_minimal()
+  labs(y="Number of metrics", x = "") +
+  scale_fill_brewer(palette="Greens", limits=c("IPBES", "IPCC","GEO" ),name = '') +
+  scale_x_discrete(limits=c("IPBES", "IPCC", "GEO")) +
+  scale_y_continuous(limits = c(0,1200), expand = expansion(mult = c(0, .1))) +
+  theme_minimal() +
+  theme(legend.position = "none", 
+        panel.background = element_blank(),
+        axis.line = element_line(colour = "black"),
+        panel.grid = element_blank(),
+        panel.border = element_blank())
 
-data_hist2 = all_indicators_cl2 %>% 
-  mutate(source = strsplit(as.character(sources), ",")) %>% 
+
+data_hist_meas = indic %>% 
+  mutate(source = strsplit(as.character(sources2), ",")) %>% 
   unnest(source) %>% 
   filter(policy ==1) %>%
-  filter(source %in% c('GBF','SDG','UNCCD','CITES','CMS','ICCWC','RAMSAR' )) %>% 
+  filter(source %in% c('GBF','SDG','CITES','CMS','RAMSAR','UNCCD' )) %>% 
   group_by(source) %>% count() %>% arrange(desc(n))
 
-ggplot(data=data_hist2, aes(x=source, y=n, fill=source,legend = FALSE )) +
+hist_meas = ggplot(data=data_hist_meas, aes(x=source, y=n, fill=source,legend = FALSE )) +
   geom_bar(stat="identity", color="black") + 
-  labs(y="Number of indicators", x = "") +
-  scale_fill_brewer(palette="Blues", limits=c("UNCCD","RAMSAR","CMS", "CITES","ICCWC","SDG","GBF"),name = '') +
-  scale_x_discrete(limits=c("UNCCD","RAMSAR","CMS", "CITES","ICCWC","SDG","GBF")) +
-  theme_minimal()
+  labs(y="Number of metrics", x = "") +
+  scale_fill_brewer(palette="Blues", limits=c('GBF','SDG','CITES','CMS','RAMSAR','UNCCD'),name = '') +
+  scale_x_discrete(limits=c('GBF','SDG','CITES','CMS','RAMSAR','UNCCD')) +
+  scale_y_continuous(limits = c(0,310), expand = expansion(mult = c(0, .1))) +
+  theme_minimal() +
+  theme(legend.position = "none", 
+        panel.background = element_blank(),
+        axis.line = element_line(colour = "black"),
+        panel.grid = element_blank(),
+        panel.border = element_blank())
 
-# 3.b-Summaries of shared indicators ----
+hist_meas + hist_assess
 
-# by common indicators
-all_indicators_cl2 %>% filter(usage >= 2) %>% distinct(indicators_harmonized) %>% count() #235
-235/2001
-all_indicators_cl2 %>% arrange(desc(usage)) %>% distinct(indicators_harmonized, .keep_all = TRUE) %>%  
-  dplyr::select(indicators_harmonized, sources, usage) %>% View()
-# red list index (6)
-# GA,SUA,IAS,GEO,GBF,SDG
-# proportion of fish stocks within biologically sustainable levels (5)
-# GA,SUA,GEO,GBF,SDG
-# proportion of agricultural area under productive and sustainable agriculture (5)
-# GA,SUA,GEO,GBF,SDG
-# forest area as a percentage of total land area (5)
-# GA,SUA,GEO,GBF,SDG
-# proportion of land that is degraded over total land area (5)
-# SUA,GEO,GBF,SDG,UNCCD
+# 2-Summaries of shared indicators ----
 
-# by common sources
-all_indicators_cl2 %>% filter(grepl('[,]',sources)) %>% group_by(sources) %>% 
-  count() %>% arrange(desc(n)) %>% View()
-# SUA,SDG (96)
-# GA,GBF (29)
-# SUA,GBF,SDG (29)
-# GA,GEO
-# GBF,SDG
-# GEO,GBF
-# SUA,VA,GBF,SDG
+indic %>% filter(usage >= 2) %>% distinct(indicators_harmonized) %>% count() #235
+(indic %>% filter(usage >= 2) %>% distinct(indicators_harmonized) %>% count() * 100) / indic  %>% distinct(indicators_harmonized) %>% count() #11.18
 
-all_indicators_cl %>% filter(!is.na(indicators_harmonized)) %>% filter(!is.na(Categories)) %>% distinct(indicators_harmonized, .keep_all = TRUE) %>% 
-  filter(sua == 1 & sdg == 1) %>% count() # 145
-# filter(sdg == 1 & km_gbf == 1 ) %>% count() # 53
-# filter(sua == 1 & km_gbf == 1 ) %>% count() # 47
-# filter(ga == 1 & km_gbf == 1) %>% count() # 42
-# filter(sua == 1 & sdg == 1 & km_gbf == 1 ) %>% count() # 43
-# filter(ga == 1 & geo == 1) %>% count() # 21
+# common indicators
+indic %>% arrange(desc(usage)) %>% distinct(indicators_harmonized, .keep_all = TRUE) %>%  
+  dplyr::select(indicators_harmonized, sources2) %>% head()
+# red list index                                                               IPBES,GEO,GBF,SDG      
+# proportion of fish stocks within biologically sustainable levels             IPBES,GEO,GBF,SDG      
+# proportion of agricultural area under productive and sustainable agriculture IPBES,GEO,GBF,SDG      
+# forest area as a percentage of total land area                               IPBES,GEO,GBF,SDG      
+# proportion of land that is degraded over total land area                     IPBES,GEO,GBF,SDG,UNCCD
+# index of coastal eutrophication potential (icep)                             IPBES,GEO,GBF,SDG
+
+# Get matrix of shared indicators
+# ## matrix
+# Define a comprehensive list of all treaties and assessments
+all_entities <- c("CITES", "CMS", "RAMSAR", "SDG", "UNCCD", "GBF", "GEO", "IPBES", "IPCC")
+
+# Initialize an empty matrix with all entities
+chord_matrix <- matrix(0, nrow = length(all_entities), ncol = length(all_entities),
+                       dimnames = list(all_entities, all_entities))
+
+# Fill the matrix with counts of connections between sources
+for (i in 1:nrow(indic)) {
+  sources <- unique(unlist(strsplit(indic$sources2[i], ",")))
+  sources <- intersect(sources, all_entities) 
+  if (length(sources) > 1) { # this is the problem
+    pairs <- combn(sources, 2)
+    for (j in 1:ncol(pairs)) {
+      chord_matrix[pairs[1, j], pairs[2, j]] <- chord_matrix[pairs[1, j], pairs[2, j]] + 1
+      chord_matrix[pairs[2, j], pairs[1, j]] <- chord_matrix[pairs[2, j], pairs[1, j]] + 1
+    }
+  }
+}
+
+# Fig 2: links----
+
+# Split sources into a list
+indic$sources2 <- strsplit(as.character(indic$sources2), ",")
+
+# Create a new data frame for links between treaties and assessments
+treaties <- c("GBF", "SDG", "CITES", "CMS", "RAMSAR", "UNCCD")
+assessments <- c("IPBES", "GEO", "IPCC")
+
+# Initialize a matrix to store counts
+link_matrix <- matrix(0, nrow = length(treaties), ncol = length(assessments),
+                      dimnames = list(treaties, assessments))
+
+# Fill the matrix with counts of links
+for (i in 1:nrow(indic)) {
+  sources <- indic$sources2[[i]]
+  for (source in sources) {
+    if (source %in% treaties) {
+      for (assessment in assessments) {
+        if (grepl(assessment, indic$sources2[i], fixed = TRUE)) {
+          link_matrix[source, assessment] <- link_matrix[source, assessment] + 1
+        }
+      }
+    }
+  }
+}
+
+# Create a complete data frame including zero links
+links <- as.data.frame(as.table(link_matrix))
+colnames(links) <- c("treaties", "assessments", "Freq")
+
+
+
+# Define a color scheme for the different entities
+grid_color <- c(
+  IPBES = "#E5F5E0", IPCC = "#A1D99B", GEO = "#31A354",
+  GBF = "#EFF3FF", SDG = "#C6DBEF", 
+  CITES = "#FFC107", CMS = "#FFC107", RAMSAR = "#FFC107",
+  UNCCD = "#08519C"
+)
+# library(RColorBrewer)
+# display.brewer.all()
+# brewer.pal(n=6,"Blues")
+# "#EFF3FF": GBF
+# "#C6DBEF": SDG
+# "#9ECAE1": CITES
+# "#6BAED6": CMS
+# "#3182BD":RAMSAR
+# "#08519C": UNCCD
+# brewer.pal(n=3,"Greens")
+# "#E5F5E0": IPBES
+# "#A1D99B": IPCC
+# "#31A354":GEO
+
+
+# Define the order of entities where treaties are at the top and assessments at the bottom
+entity_order <- c("IPBES", "IPCC", "GEO","GBF","SDG","CITES", "CMS", "RAMSAR", "UNCCD")
+
+# Set plot parameters and create the chord diagram with specified order
+circos.clear()
+circos.par(start.degree = 173, track.margin = c(0.01, 0.01), gap.after = 5,
+           cell.padding = c(0, 0, 0, 0))
+
+# Create the chord diagram
+chordDiagram(
+  links,
+  order = entity_order,
+  transparency = 0.1,
+  annotationTrack = c("grid"),
+  preAllocateTracks = 1,
+  grid.col = grid_color
+)
+
+# Add labels to the sectors
+circos.trackPlotRegion(
+  track.index = 1, panel.fun = function(x, y) {
+    circos.text(CELL_META$xcenter, CELL_META$ylim[1], CELL_META$sector.index,
+                facing = "inside", niceFacing = TRUE, adj = c(0.5, 0))
+  },
+  bg.border = NA
+)
+
+# Finalize and clear the circos plot
+circos.clear()
+
+# 3.c-Summaries of indicators by categories----
+indic %>% group_by(Categories) %>% count() %>% arrange(desc(n))
+# Categories             n
+# 1 Ecosystems           568
+# 2 Biodiversity         269
+# 3 Governance           263
+# 4 Direct Drivers       246
+# 5 Human Assets         218
+# 6 Ecosystem Services   198
+# 7 Human Well-Being     180
+# 8 Knowledge Systems    159
+
+263/ indic %>% distinct(indicators_harmonized) %>% count() * 100
 
 # 3.c-Summaries of indicators by category----
 
@@ -232,9 +312,6 @@ all_indicators_cl2 %>%
   mutate(source = strsplit(as.character(sources), ",")) %>% 
   unnest(source) %>% 
   group_by(Categories, sources) %>% count() %>% arrange(desc(n)) %>% View()
-
-
-## 
 
 ## 4-Policy indicators-----
 
