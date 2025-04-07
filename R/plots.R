@@ -34,6 +34,7 @@ library(ggplot2)
 library(circlize)
 library(ggalluvial)
 library(patchwork)
+library(reshape2)
 
 # Load indicators----
 
@@ -142,27 +143,135 @@ indic %>% arrange(desc(usage)) %>% distinct(indicators_harmonized, .keep_all = T
 # proportion of land that is degraded over total land area                     IPBES,GEO,GBF,SDG,UNCCD
 # index of coastal eutrophication potential (icep)                             IPBES,GEO,GBF,SDG
 
-# Get matrix of shared indicators
-# ## matrix
-# Define a comprehensive list of all treaties and assessments
-all_entities <- c("CITES", "CMS", "RAMSAR", "SDG", "UNCCD", "GBF", "GEO", "IPBES", "IPCC")
+## Get matrix of shared indicators
 
-# Initialize an empty matrix with all entities
-chord_matrix <- matrix(0, nrow = length(all_entities), ncol = length(all_entities),
-                       dimnames = list(all_entities, all_entities))
+# Split the 'source' column into separate lists
+source_list <- strsplit(as.character(indic$sources2), ",")
 
-# Fill the matrix with counts of connections between sources
-for (i in 1:nrow(indic)) {
-  sources <- unique(unlist(strsplit(indic$sources2[i], ",")))
-  sources <- intersect(sources, all_entities) 
-  if (length(sources) > 1) { # this is the problem
-    pairs <- combn(sources, 2)
-    for (j in 1:ncol(pairs)) {
-      chord_matrix[pairs[1, j], pairs[2, j]] <- chord_matrix[pairs[1, j], pairs[2, j]] + 1
-      chord_matrix[pairs[2, j], pairs[1, j]] <- chord_matrix[pairs[2, j], pairs[1, j]] + 1
+# Create a vector of unique sources
+unique_sources <- sort(unique(unlist(source_list)))
+
+# Initialize an empty matrix to store counts
+co_occurrence_matrix <- matrix(0, nrow = length(unique_sources), ncol = length(unique_sources), 
+                               dimnames = list(unique_sources, unique_sources))
+
+# Fill the matrix with counts
+for (sources in source_list) {
+  unique_pair <- unique(sources)  # Ensure uniqueness within a row
+  if (length(unique_pair) == 1) {
+    # Increment the diagonal for single-source occurrences
+    co_occurrence_matrix[unique_pair, unique_pair] <- 
+      co_occurrence_matrix[unique_pair, unique_pair] + 1
+  } else {
+    # Handle co-occurrences between multiple sources
+    for (i in 1:(length(unique_pair) - 1)) {
+      for (j in (i + 1):length(unique_pair)) {
+        source_i <- unique_pair[i]
+        source_j <- unique_pair[j]
+        
+        # Check to ensure indexes are within bounds
+        if (source_i %in% unique_sources && source_j %in% unique_sources) {
+          co_occurrence_matrix[source_i, source_j] <- 
+            co_occurrence_matrix[source_i, source_j] + 1
+          co_occurrence_matrix[source_j, source_i] <- 
+            co_occurrence_matrix[source_j, source_i] + 1
+        }
+      }
     }
   }
 }
+
+# Display the resulting matrix
+print(co_occurrence_matrix)
+
+# Figure 2: matrix of shared indicators
+
+# Melt the matrix into a long format suitable for ggplot2
+melted_matrix <- melt(co_occurrence_matrix)
+
+# Filter to only include the upper triangle and diagonal
+melted_matrix_upper <- melted_matrix[as.character(melted_matrix$Var1) <= as.character(melted_matrix$Var2), ]
+
+# Ensure non-zero presence check and plot creation
+print(melted_matrix_upper) 
+
+# Create the heatmap plot
+ggplot(melted_matrix_upper, aes(x = Var1, y = Var2, fill = value)) +
+  geom_tile(color = "white") +
+  #scale_fill_gradient(low = "#ffe1e1", high = "#ff9d9d", na.value = "grey80", guide = "colorbar") +
+  scale_fill_gradient(low = munsell::mnsl("5P 2/12"), high = munsell::mnsl("5P 7/12"))+
+  #scale_fill_distiller(palette = "RdPu") +
+  theme_minimal() +
+  labs(title = "Co-occurrence Matrix",
+       x = "Source",
+       y = "Source",
+       fill = "Count") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+## order
+
+# Split the 'source' column into separate lists
+source_list <- strsplit(as.character(indic$sources2), ",")
+
+# Create a vector of unique sources
+unique_sources <- sort(unique(unlist(source_list)))
+
+# Define a custom order for the sources
+custom_order <- c("IPBES", "IPCC", "GEO","GBF","SDG","CITES", "CMS", "RAMSAR", "UNCCD")
+
+# Initialize an empty matrix to store counts
+co_occurrence_matrix <- matrix(0, nrow = length(unique_sources), ncol = length(unique_sources), 
+                               dimnames = list(unique_sources, unique_sources))
+
+# Fill the matrix with counts
+for (sources in source_list) {
+  unique_pair <- unique(sources)  # Ensure uniqueness within a row
+  if (length(unique_pair) == 1) {
+    co_occurrence_matrix[unique_pair, unique_pair] <- 
+      co_occurrence_matrix[unique_pair, unique_pair] + 1
+  } else {
+    for (i in 1:(length(unique_pair) - 1)) {
+      for (j in (i + 1):length(unique_pair)) {
+        source_i <- unique_pair[i]
+        source_j <- unique_pair[j]
+        
+        if (source_i %in% unique_sources && source_j %in% unique_sources) {
+          co_occurrence_matrix[source_i, source_j] <- 
+            co_occurrence_matrix[source_i, source_j] + 1
+          co_occurrence_matrix[source_j, source_i] <- 
+            co_occurrence_matrix[source_j, source_i] + 1
+        }
+      }
+    }
+  }
+}
+
+# Melt the matrix into a long format suitable for ggplot2
+melted_matrix <- melt(co_occurrence_matrix)
+# Ensure factors (levels) are ordered according to custom_order
+melted_matrix$Var1 <- factor(melted_matrix$Var1, levels = custom_order)
+melted_matrix$Var2 <- factor(melted_matrix$Var2, levels = custom_order)
+
+# Filter to only include the upper triangle and diagonal
+melted_matrix_upper <- melted_matrix[as.character(melted_matrix$Var1) <= as.character(melted_matrix$Var2), ]
+
+# Create the heatmap plot
+ggplot(melted_matrix_upper, aes(x = Var1, y = Var2, fill = value), color = "white") +
+  geom_tile(color = "white") +
+  #scale_fill_gradient(low = "white", high = "steelblue", na.value = "grey80", guide = "colorbar") +
+  scale_fill_gradient(low = "#fff0e1", high = "#ff9d9d", na.value = "grey80", guide = "colorbar",
+                      limits = c(1, 400), # not sure why 0 still has a color
+                      oob = scales::squish) +
+  #scale_fill_gradient(low = munsell::mnsl("5P 7/12"), high = munsell::mnsl("5P 2/12"))+
+  #scale_fill_distiller(palette = "RdPu") +
+  scale_x_discrete(position = "top") +  # Move x-axis to the top
+  theme_minimal() +
+  labs(title = "Co-occurrence Matrix",
+       x = "Source",
+       y = "Source",
+       fill = "Shared metrics") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 0))
+
 
 # Fig 2: links----
 
