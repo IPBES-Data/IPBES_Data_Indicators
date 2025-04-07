@@ -149,11 +149,12 @@ indic %>% arrange(desc(usage)) %>% distinct(indicators_harmonized, .keep_all = T
 source_list <- strsplit(as.character(indic$sources2), ",")
 
 # Create a vector of unique sources
-unique_sources <- sort(unique(unlist(source_list)))
+#unique_sources <- sort(unique(unlist(source_list)))
+sources_ordered <- c("IPBES","GEO","IPCC","GBF","SDG","CITES","CMS","RAMSAR","UNCCD")
 
 # Initialize an empty matrix to store counts
-co_occurrence_matrix <- matrix(0, nrow = length(unique_sources), ncol = length(unique_sources), 
-                               dimnames = list(unique_sources, unique_sources))
+co_occurrence_matrix <- matrix(0, nrow = length(sources_ordered), ncol = length(sources_ordered), 
+                               dimnames = list(sources_ordered, sources_ordered))
 
 # Fill the matrix with counts
 for (sources in source_list) {
@@ -189,74 +190,33 @@ print(co_occurrence_matrix)
 # Melt the matrix into a long format suitable for ggplot2
 melted_matrix <- melt(co_occurrence_matrix)
 
-# Filter to only include the upper triangle and diagonal
-melted_matrix_upper <- melted_matrix[as.character(melted_matrix$Var1) <= as.character(melted_matrix$Var2), ]
+# Define the desired order to fill in the upper triangle of the matrix
+desired_order <- data.frame(
+  Var1 = c("IPBES", "IPBES", "GEO", "IPBES", "GEO", "IPCC", "IPBES", "GEO", "IPCC", "GBF",
+           "IPBES", "GEO", "IPCC", "GBF", "SDG", "IPBES", "GEO", "IPCC", "GBF", "SDG",
+           "CITES", "IPBES", "GEO", "IPCC", "GBF", "SDG", "CITES", "CMS", "IPBES", "GEO",
+           "IPCC", "GBF", "SDG", "CITES", "CMS", "RAMSAR", "IPBES", "GEO", "IPCC", "GBF",
+           "SDG", "CITES", "CMS", "RAMSAR", "UNCCD"),
+  Var2 = c("IPBES", "GEO", "GEO", "IPCC", "IPCC", "IPCC", "GBF", "GBF", "GBF", "GBF",
+           "SDG", "SDG", "SDG", "SDG", "SDG", "CITES", "CITES", "CITES", "CITES", "CITES",
+           "CITES", "CMS", "CMS", "CMS", "CMS", "CMS", "CMS", "CMS", "RAMSAR", "RAMSAR",
+           "RAMSAR", "RAMSAR", "RAMSAR", "RAMSAR", "RAMSAR", "RAMSAR", "UNCCD", "UNCCD",
+           "UNCCD", "UNCCD", "UNCCD", "UNCCD", "UNCCD", "UNCCD", "UNCCD")
+)
 
-# Ensure non-zero presence check and plot creation
-print(melted_matrix_upper) 
+# Filter the melted matrix to include only rows matching the desired order
+melted_matrix_upper <- merge(melted_matrix, desired_order, by = c("Var1", "Var2"))
 
-# Create the heatmap plot
-ggplot(melted_matrix_upper, aes(x = Var1, y = Var2, fill = value)) +
-  geom_tile(color = "white") +
-  #scale_fill_gradient(low = "#ffe1e1", high = "#ff9d9d", na.value = "grey80", guide = "colorbar") +
-  scale_fill_gradient(low = munsell::mnsl("5P 2/12"), high = munsell::mnsl("5P 7/12"))+
-  #scale_fill_distiller(palette = "RdPu") +
-  theme_minimal() +
-  labs(title = "Co-occurrence Matrix",
-       x = "Source",
-       y = "Source",
-       fill = "Count") +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+# Order the filtered matrix according to the given order
+melted_matrix_upper <- melted_matrix_upper[match(paste(melted_matrix_upper$Var2, melted_matrix_upper$Var1),
+                                         paste(desired_order$Var2, desired_order$Var1)), ]
 
-## order
-
-# Split the 'source' column into separate lists
-source_list <- strsplit(as.character(indic$sources2), ",")
-
-# Create a vector of unique sources
-unique_sources <- sort(unique(unlist(source_list)))
-
-# Define a custom order for the sources
-custom_order <- c("IPBES", "IPCC", "GEO","GBF","SDG","CITES", "CMS", "RAMSAR", "UNCCD")
-
-# Initialize an empty matrix to store counts
-co_occurrence_matrix <- matrix(0, nrow = length(unique_sources), ncol = length(unique_sources), 
-                               dimnames = list(unique_sources, unique_sources))
-
-# Fill the matrix with counts
-for (sources in source_list) {
-  unique_pair <- unique(sources)  # Ensure uniqueness within a row
-  if (length(unique_pair) == 1) {
-    co_occurrence_matrix[unique_pair, unique_pair] <- 
-      co_occurrence_matrix[unique_pair, unique_pair] + 1
-  } else {
-    for (i in 1:(length(unique_pair) - 1)) {
-      for (j in (i + 1):length(unique_pair)) {
-        source_i <- unique_pair[i]
-        source_j <- unique_pair[j]
-        
-        if (source_i %in% unique_sources && source_j %in% unique_sources) {
-          co_occurrence_matrix[source_i, source_j] <- 
-            co_occurrence_matrix[source_i, source_j] + 1
-          co_occurrence_matrix[source_j, source_i] <- 
-            co_occurrence_matrix[source_j, source_i] + 1
-        }
-      }
-    }
-  }
-}
-
-# Melt the matrix into a long format suitable for ggplot2
-melted_matrix <- melt(co_occurrence_matrix)
-# Ensure factors (levels) are ordered according to custom_order
-melted_matrix$Var1 <- factor(melted_matrix$Var1, levels = custom_order)
-melted_matrix$Var2 <- factor(melted_matrix$Var2, levels = custom_order)
-
-# Filter to only include the upper triangle and diagonal
-melted_matrix_upper <- melted_matrix[as.character(melted_matrix$Var1) <= as.character(melted_matrix$Var2), ]
+# Filter 0 values so they are not shown in plt
+melted_matrix_upper_filtered <- melted_matrix_upper %>%
+  filter(value != 0)
 
 # Create the heatmap plot
-ggplot(melted_matrix_upper, aes(x = Var1, y = Var2, fill = value), color = "white") +
+ggplot(melted_matrix_upper_filtered, aes(x = Var1, y = Var2, fill = value), color = "white") +
   geom_tile(color = "white") +
   #scale_fill_gradient(low = "white", high = "steelblue", na.value = "grey80", guide = "colorbar") +
   scale_fill_gradient(low = "#fff0e1", high = "#ff9d9d", na.value = "grey80", guide = "colorbar",
