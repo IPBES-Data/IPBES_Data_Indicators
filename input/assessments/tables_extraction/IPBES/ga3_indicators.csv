@@ -1,0 +1,69 @@
+indicator_orig,indic_id,indicator_harmonized
+Biodiversity Barometer (% of respondents that have heard of biodiversity),IPBES_GA3_sup_1,biodiversity barometer (percentage of respondents that have heard of biodiversity)
+Biodiversity Barometer (% of respondents giving correct definition of biodiversity),IPBES_GA3_sup_2,biodiversity barometer (percentage of respondents giving correct definition of biodiversity)
+Funding towards environmental education ($),IPBES_GA3_sup_3,funding towards environmental education
+Online interest in biodiversity (proportion of google searches),IPBES_GA3_sup_4,online interest in biodiversity (proportion of google searches)
+Funding towards Environmental Impact Assessment ($),IPBES_GA3_sup_5,funding towards environmental impact assessment
+Number of research studies involving economic valuation,IPBES_GA3_sup_6,number of research studies involving economic valuation
+World Trade Organisation green box agricultural subsidies ($),IPBES_GA3_sup_7,world trade organisation greenbox agricultural subsidies
+Funding towards institutional capacity building in fisheries ($),IPBES_GA3_sup_8,funding towards institutional capacity building in fisheries
+Percentage of countries that are Category 1 CITES Parties†,IPBES_GA3_sup_9,percentage of countries that are category 1 cites parties
+Ecological Footprint (number of earths needed to support human society)†,IPBES_GA3_sup_10,ecological footprint
+Red List Index (impacts of utilisation),IPBES_GA3_sup_11,red list index (for utilized species)
+Red List Index (internationally traded species),IPBES_GA3_sup_12,red list index (internationally traded species)
+Human appropriation of net primary productivity (Pg C),IPBES_GA3_sup_13,human appropriation of net primary productivity
+Human appropriation of fresh water (water footprint) (thousand km3)†,IPBES_GA3_sup_14,human appropriation of fresh water
+Wetland Extent Trends Index,IPBES_GA3_sup_15,wetland extent trends index
+Area of tree cover loss (ha)†,IPBES_GA3_sup_16,tree cover
+Percentage natural habitat extent,IPBES_GA3_sup_17,extent of suitable habitat
+Wild Bird Index (habitat specialists),IPBES_GA3_sup_18,wild bird index (habitat specialists)
+Red List index (forest specialists),IPBES_GA3_sup_19,red list index (forest specialists)
+Proportion of fish stocks in safe biological limits†,IPBES_GA3_sup_20,proportion of fish stocks within biologically sustainable levels
+Marine Stewardship Council certified fisheries (tonnes)†,IPBES_GA3_sup_21,marine stewardship council certified fisheries
+Marine trophic index†,IPBES_GA3_sup_22,marine trophic index (mti)
+Red List Index (impacts of fisheries),IPBES_GA3_sup_23,red list index (impacts of fisheries)
+Global effort in bottom-trawling (kW sea-days),IPBES_GA3_sup_24,global effort in bottom-trawling
+Nitrogen use balance (kg/km2)†,IPBES_GA3_sup_25,nitrogen use balance
+Wild Bird Index (farmland birds),IPBES_GA3_sup_26,wild bird index (farmland birds)
+Area of agricultural land under organic production (million ha),IPBES_GA3_sup_27,area of agricultural land under organic production
+Area of agricultural land under conservation agriculture (thousand ha),IPBES_GA3_sup_28,area of agricultural land under conservation
+Area of forest under sustainable management: total FSC and PEFC forest management certification (million ha)†,IPBES_GA3_sup_29,area of forest under sustainable management
+Red List Index (impacts of pollution),IPBES_GA3_sup_30,red list index (impacts of pollution)
+Pesticide use (tonnes)†,IPBES_GA3_sup_31,pesticide use
+Nitrogen surplus (Tg N),IPBES_GA3_sup_32,nitrogen surplus (tg n)
+Number of invasive alien species introductions,IPBES_GA3_sup_33,number of invasive alien species introduction events
+Red List Index (impacts of invasive alien species),IPBES_GA3_sup_34,red list index (impacts of invasive alien species)
+Percentage of countries with invasive alien species legislation,IPBES_GA3_sup_35,percentage of countries with invasive alien species legislation
+Percentage live coral cover,IPBES_GA3_sup_36,live coral cover
+Glacial mass balance (mm water equivalent),IPBES_GA3_sup_37,glacial mass balance
+Mean polar sea ice extent (million km2),IPBES_GA3_sup_38,mean polar sea ice extent
+Climatic Impact Index for birds,IPBES_GA3_sup_39,climatic impact index for birds
+Area of mangrove forest cover (km2),IPBES_GA3_sup_40,mangrove forest area
+Percentage of marine and coastal areas covered by protected areas†,IPBES_GA3_sup_41,protected area coverage of marine and coastal areas
+Percentage of terrestrial areas covered by protected areas†,IPBES_GA3_sup_42,percentage of terrestrial ecoregions covered by protected areas
+Percentage of Key Biodiversity Areas covered by protected areas†,IPBES_GA3_sup_43,protected area coverage of key biodiversity areas
+Percentage of terrestrial ecoregions covered by protected areas,IPBES_GA3_sup_44,percentage of terrestrial ecoregions covered by protected areas
+Percentage of marine ecoregions covered by protected areas,IPBES_GA3_sup_45,percentage of marine ecoregions covered by protected areas
+"Protected area coverage of bird, mammal and amphibian distributions",IPBES_GA3_sup_46,"protected area coverage of bird, mammal and amphibian distributions"
+Number of protected area management effectiveness assessments†,IPBES_GA3_sup_47,number of protected area management effectiveness (pame) assessments
+Funding towards nature reserves ($),IPBES_GA3_sup_48,funding towards nature reserves
+Living Planet Index,IPBES_GA3_sup_49,living planet index
+Red List Index†,IPBES_GA3_sup_50,red list index
+Funding towards species protection ($),IPBES_GA3_sup_51,funding towards species protection
+Number of plant genetic resources for food and agriculture secured in conservation facilities,IPBES_GA3_sup_52,number of plant and animal genetic resources secured in medium or long-term conservation facilities
+Percentage of terrestrial domesticated animal breeds at risk†,IPBES_GA3_sup_53,percentage of terrestrial domesticated animal breeds at risk
+Red List Index (wild relatives of farmed and domesticated species),IPBES_GA3_sup_54,red list index (wild relatives of farmed and domesticated species)
+Percentage change in local species richness,IPBES_GA3_sup_55,percentage change in local species richness
+Red List Index (species used for food and medicine),IPBES_GA3_sup_56,red list index (for utilized species)
+Red List Index (pollinator species),IPBES_GA3_sup_57,red list index (pollinators)
+Percentage of global rural population with access to improved water resources,IPBES_GA3_sup_58,percentage of global rural population with access to improved water resources
+Percentage of countries that have ratified the Nagoya Protocol,IPBES_GA3_sup_59,percentage of countries that have ratified the nagoya protocol
+Percentage of countries with revised NBSAPs†,IPBES_GA3_sup_60,percentage of countries with revised nbsaps
+Species Status Information Index†,IPBES_GA3_sup_61,species status index
+Number of biodiversity papers published,IPBES_GA3_sup_62,number of biodiversity papers published
+Proportion of known species assessed through the IUCN Red List †,IPBES_GA3_sup_63,proportion of known species assessed through the red list index
+Number of species occurrence records in the Global Biodiversity Information Facility,IPBES_GA3_sup_64,species occurrence records accessible through the global biodiversity information facility
+Funding committed to environmental research ($),IPBES_GA3_sup_65,funding committed to environmental research
+Funding provided by the Global Environment Facility ($),IPBES_GA3_sup_66,funding provided by the global environment facility
+Official Development Assistance provided in support of the CBD objectives ($),IPBES_GA3_sup_67,official development assistance provided in support of the cbd objectives
+"Global funding committed towards environmental policy, laws, regulations and economic instruments ($)",IPBES_GA3_sup_68,"global funding committed towards environmental policy, laws, regulations and economic instruments"

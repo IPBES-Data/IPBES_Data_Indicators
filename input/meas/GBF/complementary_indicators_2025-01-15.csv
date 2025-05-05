@@ -1,299 +1,303 @@
-Goal/target,Indicator name,Availability,Time series,Update frequency,Global indicator,National data,National methodology available,Institution,Other MEAs/Processes,Used in 5NR/6NR,BIP Indicator,Gender
+Goal/target,Indicator name,Availability,Time series,Update frequency,Global indicator,National data,National methodology available,Institution,Other MEAs/Processes,Used in 5NR/6NR,BIP Indicator,Gender,notes_ys
 Goal A,Forest area as a proportion of total land area ,Available,"1990 - 2020
 
-","1990, 2000, 2010, 2015, then annually to 2020",Y ,Y,Y,Food and Agriculture Organization (FAO),IPBES; SDG,6NR 7 out of 20 countries sampled ,Y,N
-Goal A,Forest distribution,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
+","1990, 2000, 2010, 2015, then annually to 2020",Y ,Y,Y,Food and Agriculture Organization (FAO),IPBES; SDG,6NR 7 out of 20 countries sampled ,Y,N,
+Goal A,Forest distribution,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
 Goal A,"Tree cover loss
-",Available,2001 - 2020,Yearly,Y,N,Y,Global Forest Watch - World Resource Institute (WRI); University of Maryland Global Land Analysis & Discovery lab (GLAD),N,N,N,N
-Goal A,Grassland and savannah extent,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
+",Available,2001 - 2020,Yearly,Y,N,Y,Global Forest Watch - World Resource Institute (WRI); University of Maryland Global Land Analysis & Discovery lab (GLAD),N,N,N,N,
+Goal A,Grassland and savannah extent,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
 Goal A,"Mountain Green Cover Index
-",Available,"2000, 2010, 2015, 2018",Data pending,Y,Y,Y,Food and Agriculture Organization(FAO),SDG,N,N,N
+",Available,"2000, 2010, 2015, 2018",Data pending,Y,Y,Y,Food and Agriculture Organization(FAO),SDG,N,N,N,
 Goal A,"Peatland extent and condition
-",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
+",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
 Goal A,"Permafrost thickness, depth and extent
-",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
+",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
 Goal A,"Continuous Global Mangrove Forest Cover
-",Available,2000 - 2014,5 years,Y ,N,Y,Salisbury University,N,N,Y,N
+",Available,2000 - 2014,5 years,Y ,N,Y,Salisbury University,N,N,Y,N,
 Goal A,"Trends in mangrove forest fragmentation
-",Available,2000 - 2012,Data pending,Y,N,N,Griffith University (Australian Rivers Institute),N,N,N,N
+",Available,2000 - 2012,Data pending,Y,N,N,Griffith University (Australian Rivers Institute),N,N,N,N,
 Goal A,"Trends in mangrove extent
-",Available,1996 - 2016,Yearly,Y,Y,Y,Global Mangrove Watch,SDG,N,N,N
+",Available,1996 - 2016,Yearly,Y,Y,Y,Global Mangrove Watch,SDG,N,N,N,
 Goal A,"Live coral cover 
-",Available,1970s - 2020,Yearly,Y ,N,Y,Global Coral Reef Monitoring Network; Global Ocean Observing System,N,6NR 8 out of 20 countries sampled,Y,N
+",Available,1970s - 2020,Yearly,Y ,N,Y,Global Coral Reef Monitoring Network; Global Ocean Observing System,N,6NR 8 out of 20 countries sampled,Y,N,
 Goal A,"Hard coral cover and composition 
-",In development,Data pending,Data pending,Data pending,Data pending,Data pending,"Global Coral Reef Monitoring Network; Intergovernmental Oceanographic Commission - United Nations Educational, Scientific and Cultural Organization (IOC-UNESCO)",Data pending,N,N,Data pending
+",In development,Data pending,Data pending,Data pending,Data pending,Data pending,"Global Coral Reef Monitoring Network; Intergovernmental Oceanographic Commission - United Nations Educational, Scientific and Cultural Organization (IOC-UNESCO)",Data pending,N,N,Data pending,
 Goal A,"Global coral reef extent 
-",Available,2001 - 2018,Data pending,Y,N,N,WorldFish Centre; United Nations Environment Programme World Conservation Monitoring Centre (UNEP-WCMC); The Nature Conservancy (TNC); World Resources Institute (WRI),N,N,N,N
-Goal A,Global Seagrass Extent (Seagrass Cover and composition) ,In development,1934 - 2015,Data pending,Y,Y,N,"United Nations Environment Programme World Conservation Monitoring Centre (UNEP-WCMC); Intergovernmental Oceanographic Commission - United Nations Educational, Scientific and Cultural Organization (IOC-UNESCO)",N,N,N,N
+",Available,2001 - 2018,Data pending,Y,N,N,WorldFish Centre; United Nations Environment Programme World Conservation Monitoring Centre (UNEP-WCMC); The Nature Conservancy (TNC); World Resources Institute (WRI),N,N,N,N,
+Goal A,Global Seagrass Extent (Seagrass Cover and composition) ,In development,1934 - 2015,Data pending,Y,Y,N,"United Nations Environment Programme World Conservation Monitoring Centre (UNEP-WCMC); Intergovernmental Oceanographic Commission - United Nations Educational, Scientific and Cultural Organization (IOC-UNESCO)",N,N,N,N,
 Goal A,"Global saltmarsh extent
-",Available,Data pending,Data pending,Y,N,N,United Nations Environment Programme World Conservation Monitoring Centre (UNEP-WCMC),N,N,N,N
+",Available,Data pending,Data pending,Y,N,N,United Nations Environment Programme World Conservation Monitoring Centre (UNEP-WCMC),N,N,N,N,
 Goal A,"Kelp canopy extent
-",In development,1984 - Present,16 days,Y,N,N,KEEP; Zooniverse; Santa Barbara Coastal; Long Term Ecological Research (SBC-LTER),N,N,N,N
+",In development,1984 - Present,16 days,Y,N,N,KEEP; Zooniverse; Santa Barbara Coastal; Long Term Ecological Research (SBC-LTER),N,N,N,N,
 Goal A,"Macroalgal Canopy Cover and Composition
-",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
+",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
 Goal A,"Cover of key benthic groups
-",In development,2020,Data pending,Y,Y,N,Global Coral Reef Monitoring Network,N,N,N,N
+",In development,2020,Data pending,Y,Y,N,Global Coral Reef Monitoring Network,N,N,N,N,
 Goal A,"Fleshy algae cover
-",In development,Data pending,Data pending,Y,Y,N,Global Coral Reef Monitoring Network,N,N,N,N
+",In development,Data pending,Data pending,Y,Y,N,Global Coral Reef Monitoring Network,N,N,N,N,
 Goal A,"Wetland Extent Trends Index
-",Available,1970 - 2015,Data pending,Y ,N,Y,United Nations Environment Programme World Conservation Monitoring Centre (UNEP-WCMC); Secretariat of the Ramsar Convention on Wetlands,Ramsar Convention on Wetlands,6NR 8 out of 20 countries sampled,Y,N
-Goal A,Change in the extent of inland water ecosystems over time,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
+",Available,1970 - 2015,Data pending,Y ,N,Y,United Nations Environment Programme World Conservation Monitoring Centre (UNEP-WCMC); Secretariat of the Ramsar Convention on Wetlands,Ramsar Convention on Wetlands,6NR 8 out of 20 countries sampled,Y,N,
+Goal A,Change in the extent of inland water ecosystems over time,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
 Goal A,"Forest Fragmentation Index
-",Available,Data pending,Yearly,Y,N,Y,Food and Agriculture Organization (FAO),N,N,N,N
+",Available,Data pending,Yearly,Y,N,Y,Food and Agriculture Organization (FAO),N,N,N,N,
 Goal A,"Forest Landscape Integrity Index
-",Available,2019,Yearly,Y,N,Y,Wildlife Conservation Society (WCS),N,N,Y,N
+",Available,2019,Yearly,Y,N,Y,Wildlife Conservation Society (WCS),N,N,Y,N,
 Goal A,"Biomass of selected natural ecosystems 
-",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal A,Biodiversity Habitat Index ,Available,"2005, 2010, 2015",5 years,Y ,Y,Y,Commonwealth Scientific and Industrial Research Organisation (CSIRO),IPBES,N,Y,N
+",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal A,Biodiversity Habitat Index ,Available,"2005, 2010, 2015",5 years,Y ,Y,Y,Commonwealth Scientific and Industrial Research Organisation (CSIRO),IPBES,N,Y,N,
 Goal A,"Global Vegetation Health Products
-",Available,1982 - 2021,Near real-time,Y,N,N,United Nations Platform for Space-based Information for Disaster Management and Emergency Response (UN-SPIDER); National Oceanic and Atmospheric Administration Center for Satellite Applications and Research (NOAA-STAR),N,N,N,N
-Goal A,Bioclimatic Ecosystem Resilience Index (BERI) ,Available,2000 - 2020 ,5 years ,Y ,Y,Y,Commonwealth Scientific and Industrial Research Organisation (CSIRO),N,N,Y,N
+",Available,1982 - 2021,Near real-time,Y,N,N,United Nations Platform for Space-based Information for Disaster Management and Emergency Response (UN-SPIDER); National Oceanic and Atmospheric Administration Center for Satellite Applications and Research (NOAA-STAR),N,N,N,N,
+Goal A,Bioclimatic Ecosystem Resilience Index (BERI) ,Available,2000 - 2020 ,5 years ,Y ,Y,Y,Commonwealth Scientific and Industrial Research Organisation (CSIRO),N,N,Y,N,
 Goal A,"Relative Magnitude of Fragmentation (RMF) 
-",Available,1992 - 2018,Yearly,Y,N,Y,University of Amsterdam,N,N,N,N
+",Available,1992 - 2018,Yearly,Y,N,Y,University of Amsterdam,N,N,N,N,
 Goal A,"Ecosystem Intactness Index
-",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
+",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
 Goal A,"Biodiversity Intactness Index 
-",Available,1900 - 2014,Data pending,Y ,N,Y,Natural History Museum (NHM),IPBES,6NR 1 out of 20 countries sampled,Y,N
+",Available,1900 - 2014,Data pending,Y ,N,Y,Natural History Museum (NHM),IPBES,6NR 1 out of 20 countries sampled,Y,N,
 Goal A,"Ocean Health Index 
-",Available,2012 - 2019,Yearly,Y ,N,Y,National Centre for Ecological Analysis and Synthesis (NCEAS),N,6NR 1 out of 20 countries sampled,Y,N
-Goal A,Extent of physical damage indicator to predominant seafloor habitats physical damage ,Available,2010 - 2015,6 years,Y,Y,Y,Joint Nature Conservation Committee (JNCC),N,N,N,N
-Goal A,River Fragmentation Index,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal A,Dendritic Connectivity Index,Available,Data pending,Data pending,N,N,Y,Memorial University of Newfoundland,N,N,N,N
-Goal A,Percentage of threatened species that are improving in status according to the Red List,Available,Data pending,Anticipated 2024,Y,N,Y,International Union for Conservation of Nature (IUCN),N,N,N,N
-Goal A,Number of threatened species by species group,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal A,Wild bird index ,Available,1968 - 2017,Yearly,N,Y,Y,USGS; BirdLife International (BLI); Royal Society for the Protection of Birds (RSPB); PanEuropean Common Bird Monitoring Scheme (PECBMS),SPMS,N,Y,N
-Goal A,Mean Species Abundance (MSA) ,Available,1992 - 2020,2 years,Y,N,Y,Global biodiversity model for policy support (GLOBIO) consortium partner  Netherlands Environmental Assessment Agency (PBL),IPBES,N,N,N
-Goal A,Species Protection Index,Available,2001 - 2018,Yearly,Y ,Y,Y,Yale University; Map of Life (MOL),IPBES,N,Y,N
-Goal A,Changes in plankton biomass and abundance,Available,1950s - 2014,Data pending,Y,N,N,Plymouth University; Healthy & Biologically Diverse Seas Evidence Group (HBDSEG),N,N,N,N
-Goal A,Fish abundance and biomass ,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal A,Genetic scorecard for wild species ,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal A,Species richness/Changes in local terrestrial diversity (PREDICTS) ,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
+",Available,2012 - 2019,Yearly,Y ,N,Y,National Centre for Ecological Analysis and Synthesis (NCEAS),N,6NR 1 out of 20 countries sampled,Y,N,
+Goal A,Extent of physical damage indicator to predominant seafloor habitats physical damage ,Available,2010 - 2015,6 years,Y,Y,Y,Joint Nature Conservation Committee (JNCC),N,N,N,N,
+Goal A,River Fragmentation Index,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal A,Dendritic Connectivity Index,Available,Data pending,Data pending,N,N,Y,Memorial University of Newfoundland,N,N,N,N,
+Goal A,Percentage of threatened species that are improving in status according to the Red List,Available,Data pending,Anticipated 2024,Y,N,Y,International Union for Conservation of Nature (IUCN),N,N,N,N,
+Goal A,Number of threatened species by species group,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal A,Wild bird index ,Available,1968 - 2017,Yearly,N,Y,Y,USGS; BirdLife International (BLI); Royal Society for the Protection of Birds (RSPB); PanEuropean Common Bird Monitoring Scheme (PECBMS),SPMS,N,Y,N,
+Goal A,Mean Species Abundance (MSA) ,Available,1992 - 2020,2 years,Y,N,Y,Global biodiversity model for policy support (GLOBIO) consortium partner  Netherlands Environmental Assessment Agency (PBL),IPBES,N,N,N,
+Goal A,Species Protection Index,Available,2001 - 2018,Yearly,Y ,Y,Y,Yale University; Map of Life (MOL),IPBES,N,Y,N,
+Goal A,Changes in plankton biomass and abundance,Available,1950s - 2014,Data pending,Y,N,N,Plymouth University; Healthy & Biologically Diverse Seas Evidence Group (HBDSEG),N,N,N,N,
+Goal A,Fish abundance and biomass ,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal A,Genetic scorecard for wild species ,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal A,local species richness (predicts),Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,updated
 Goal A,"Marine species richness 
-",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal A,Comprehensiveness of conservation of socioeconomically as well as culturally valuable species. ,Available,2017 - 2018,5 years ,Y ,N,Y,International Center for Tropical Agriculture (CIAT); Global Crop Diversity Trust (Crop Trust),N,N,Y,N
-Goal A,Number of plant and animal genetic resources for food and agriculture secured in either medium- or long-term conservation facilities ,Available,2016 - 2020,Yearly,Y,Y,Y,Food and Agriculture Organization (FAO),SDG,6NR 4 out of 20 countries sampled,Y,N
-Goal A,Proportion of local breeds classified as being at risk extinction ,Available,2000 - 2020,Yearly,N,Y,Y,Food and Agriculture Organization (FAO),IPBES; SDG,N,Y,N
-Goal A,Red List Index (wild relatives of domesticated animals),Available,1988 - 2016,1988 - 2016  Annually; 2020 onwards every 4-5 years,Y ,N,Y,International Union for Conservation of Nature (IUCN); BirdLife International (BLI),N,N,Y,N
-Goal A,CMS Connectivity Indicator,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal A,Species Status Index,Available,1950 - 2019,Yearly,Y,N,Y,Yale University; Map of Life (MOL); Global Biodiversity Information Facility (GBIF),IPBES,N,N,N
+",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal A,Comprehensiveness of conservation of socioeconomically as well as culturally valuable species. ,Available,2017 - 2018,5 years ,Y ,N,Y,International Center for Tropical Agriculture (CIAT); Global Crop Diversity Trust (Crop Trust),N,N,Y,N,
+Goal A,Number of plant and animal genetic resources for food and agriculture secured in either medium- or long-term conservation facilities ,Available,2016 - 2020,Yearly,Y,Y,Y,Food and Agriculture Organization (FAO),SDG,6NR 4 out of 20 countries sampled,Y,N,
+Goal A,Proportion of local breeds classified as being at risk extinction ,Available,2000 - 2020,Yearly,N,Y,Y,Food and Agriculture Organization (FAO),IPBES; SDG,N,Y,N,
+Goal A,Red List Index (wild relatives of domesticated animals),Available,1988 - 2016,1988 - 2016  Annually; 2020 onwards every 4-5 years,Y ,N,Y,International Union for Conservation of Nature (IUCN); BirdLife International (BLI),N,N,Y,N,
+Goal A,CMS Connectivity Indicator,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal A,Species Status Index,Available,1950 - 2019,Yearly,Y,N,Y,Yale University; Map of Life (MOL); Global Biodiversity Information Facility (GBIF),IPBES,N,N,N,
 Goal A,"Intact Wilderness 
-",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal A,Expected Loss of Phylogenetic diversity ,In development,Data pending,Yearly,Y,Y,N,Australian Museum; International Union for Conservation of Natur Species Survival Commission (IUCN SSC) Phylogenetic Diversity Task Force; Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES),N,N,N,N
-Goal A,Proportion of populations maintained within species,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal A,Free flowing rivers,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal B,Levels of poverty in biodiversity depended communities,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal B,Ecological footprint,Available,1961 - 2018 ,Yearly,Y ,Y,Y,Global Footprint Network,IPBES,6NR 4 ouf of 20 countries sampled,Y,N
-Goal B,Number of certified forest areas under sustainable management with verified impacts on biodiversity conservation,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal B,Expected loss of Phylogenetic Diversity ,In development,Data pending,Yearly,Y,Y,N,Australian Museum; International Union for Conservation of Natur Species Survival Commission (IUCN SSC) Phylogenetic Diversity Task Force; Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES),N,N,N,N
-Goal B,Red List Index (pollinating species),Available,1988 - 2016,1988 - 2016  Annually; 2020 onwards every 4-5 years,Y ,N,Y,International Union for Conservation of Nature (IUCN); BirdLife International (BLI),N,N,Y,N
-Goal B,Green status index (pollinators),Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal B,Air quality index,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal B,Air pollution emissions account,Available,2008 - 2018,Yearly,Y,Y,Y,Organisation for Economic Co-operation and Development (OECD),N,N,N,N
-Goal B,Zoonotic disease in wildlife,Available,2010 - 2018,Yearly,N,Y,Y,World Health Organization (WHO),N,N,N,N
-Goal B,Climatic impact index,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal B,Ocean acidification,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal B,Level of water stress: freshwater withdrawal as a proportion of available freshwater resources,Available,2000 - 2018,Yearly,Y,Y,Y,Food and Agriculture Organization (FAO) AQUASTAT,SDG,6NR 1 out of 20 countries sampled,N,N
-Goal B,Proportion of bodies of water with good ambient water quality,Available,2017 - 2020,Data pending,Y,Y,Y,United Nations Environment Programme (UNEP); Global Environment Monitoring System(GEMS),SDG,6NR 2 out of 20 countries sampled,N,N
-Goal B,Eflow index,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal B,Change in the quality of inland water ecosystems over time,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal B,Change in the quality of coastal water ecosystems over time,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal B,Level of erosion,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal B,"Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",Available,2005 - 2019,Data pending,Y,Y,Y,United Nations Office for Disaster Risk Reduction (UNDRR),SDG,N,N,Y
-Goal B,Intact wilderness,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal B,Biofuel production,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal B,Maximum fish catch potential,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal B,Population involved in hunting and gathering,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal B,"Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal B,Forestry Production & Trade (Wood Fuel),Available,1961 - 2018,Yearly,Y,Y,Y,Food and Agriculture Organization (FAO),N,N,N,N
-Goal B,Trends in the legal trade of medicinal plants,In development,2007 - Present,Yearly,Y,Y,N,United Nations Conference on Trade and Development (UNCTAD),N,N,N,N
-Goal B,Visitor management assessment,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal B,Number of formal and nonformal education programmes transmitting spiritual and cultural values in the UNESCO World Network of Biosphere Reserves,Available,2013 - 2020,Data pending,N,Y,N,"United Nations Educational, Scientific and Cultural Organization (UNESCO)",N,N,N,N
-Goal B,"Number of mixed sites (having both natural and cultural Outstanding Universal Values), cultural landscapes (recognized as combined works of nature and people) and natural sites with cultural values including those supporting local and indigenous knowledge and practices inscribed on the UNESCO World Heritage List and UNESCO World Network of Biosphere Reserves",In development,1972 - Present,Data pending,Y,Y,N,"United Nations Educational, Scientific and Cultural Organization (UNESCO)",N,N,N,Data pending
-Goal B,Index of Linguistic Diversity - Trends of Bilinguistic diversity and numbers of speakers of indigenous languages,Available,1970 - 2005,Data pending,Y,N,Y,Terralingua,N,N,Y,N
-Goal B,"Index of development of the standard - setting framework for the protection and promotion of culture, cultural rights and cultural diversity",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal B,Cultural vitality index,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal B,UNESCO Culture 2030 (multiple indicators),In development,Data pending,Data pending,Y,Data pending,N,"United Nations Educational, Scientific and Cultural Organization (UNESCO)",N,N,N,Data pending
-Goal B,Processes and tools to monitor the implementation of a right to a healthy environment (e.g. Included in NBSAPs and reported in national reports,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal B,Red List Index (for internationally traded species),Available,1993 - 2020,Yearly,Y,N,Y,International Union for Conservation of Nature (IUCN); BirdLife International (BLI),N,N,Y,N
-Goal C,Number of users that have provided information relevant to the utilization of genetic resources to designated checkpoints,Available,2018 - Present,Real time,Y,Y,Y,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N
-Goal C,Total number of internationally recognized certificates published in the ABS Clearing-House,Available,2016 - 2021,Real time,N,Y,Y,Access and Benefit Sharing Clearing-House (ABSCH) of the Convention on Biological Diversity (CBD),N,N,N,N
-Goal C,Number of checkpoint communiques published in the ABS Clearing-House,Available,2018,Real time,Y,Y,Y,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N
-Goal C,Number of internationally recognized certificates of compliance for non-commercial purposes,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal C,"Integration of biodiversity into national accounting and reporting systems, defined as implementation of the System of Environmental-Economic Accounting.",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal D,Finance mobilized for capacity-building,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal D,"Financial and technical assistance provided in dollars (including through South-South, NorthSouth and triangular cooperation)",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal D,"Finance mobilized for promoting the development, transfer, dissemination and diffusion of technology",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
+",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal A,Expected Loss of Phylogenetic diversity ,In development,Data pending,Yearly,Y,Y,N,Australian Museum; International Union for Conservation of Natur Species Survival Commission (IUCN SSC) Phylogenetic Diversity Task Force; Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES),N,N,N,N,
+Goal A,Proportion of populations maintained within species,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal A,Free flowing rivers,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal B,Levels of poverty in biodiversity depended communities,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal B,Ecological footprint,Available,1961 - 2018 ,Yearly,Y ,Y,Y,Global Footprint Network,IPBES,6NR 4 ouf of 20 countries sampled,Y,N,
+Goal B,Number of certified forest areas under sustainable management with verified impacts on biodiversity conservation,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal B,Expected loss of Phylogenetic Diversity ,In development,Data pending,Yearly,Y,Y,N,Australian Museum; International Union for Conservation of Natur Species Survival Commission (IUCN SSC) Phylogenetic Diversity Task Force; Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES),N,N,N,N,
+Goal B,Red List Index (pollinating species),Available,1988 - 2016,1988 - 2016  Annually; 2020 onwards every 4-5 years,Y ,N,Y,International Union for Conservation of Nature (IUCN); BirdLife International (BLI),N,N,Y,N,
+Goal B,Green status index (pollinators),Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal B,Air quality index,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal B,Air pollution emissions account,Available,2008 - 2018,Yearly,Y,Y,Y,Organisation for Economic Co-operation and Development (OECD),N,N,N,N,
+Goal B,Zoonotic disease in wildlife,Available,2010 - 2018,Yearly,N,Y,Y,World Health Organization (WHO),N,N,N,N,
+Goal B,Climatic impact index,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal B,Ocean acidification,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal B,Level of water stress: freshwater withdrawal as a proportion of available freshwater resources,Available,2000 - 2018,Yearly,Y,Y,Y,Food and Agriculture Organization (FAO) AQUASTAT,SDG,6NR 1 out of 20 countries sampled,N,N,
+Goal B,Proportion of bodies of water with good ambient water quality,Available,2017 - 2020,Data pending,Y,Y,Y,United Nations Environment Programme (UNEP); Global Environment Monitoring System(GEMS),SDG,6NR 2 out of 20 countries sampled,N,N,
+Goal B,Eflow index,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal B,Change in the quality of inland water ecosystems over time,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal B,Change in the quality of coastal water ecosystems over time,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal B,Level of erosion,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal B,"Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",Available,2005 - 2019,Data pending,Y,Y,Y,United Nations Office for Disaster Risk Reduction (UNDRR),SDG,N,N,Y,
+Goal B,Intact wilderness,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal B,Biofuel production,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal B,Maximum fish catch potential,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal B,Population involved in hunting and gathering,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal B,"Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal B,Forestry Production & Trade (Wood Fuel),Available,1961 - 2018,Yearly,Y,Y,Y,Food and Agriculture Organization (FAO),N,N,N,N,
+Goal B,Trends in the legal trade of medicinal plants,In development,2007 - Present,Yearly,Y,Y,N,United Nations Conference on Trade and Development (UNCTAD),N,N,N,N,
+Goal B,Visitor management assessment,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal B,Number of formal and nonformal education programmes transmitting spiritual and cultural values in the UNESCO World Network of Biosphere Reserves,Available,2013 - 2020,Data pending,N,Y,N,"United Nations Educational, Scientific and Cultural Organization (UNESCO)",N,N,N,N,
+Goal B,"Number of mixed sites (having both natural and cultural Outstanding Universal Values), cultural landscapes (recognized as combined works of nature and people) and natural sites with cultural values including those supporting local and indigenous knowledge and practices inscribed on the UNESCO World Heritage List and UNESCO World Network of Biosphere Reserves",In development,1972 - Present,Data pending,Y,Y,N,"United Nations Educational, Scientific and Cultural Organization (UNESCO)",N,N,N,Data pending,
+Goal B,Index of Linguistic Diversity,Available,1970 - 2005,Data pending,Y,N,Y,Terralingua,N,N,Y,N,updated
+Goal B,Trends of Bilinguistic diversity and numbers of speakers of indigenous languages,Available,1970 - 2005,Data pending,Y,N,Y,Terralingua,N,N,Y,N,updated
+Goal B,"Index of development of the standard - setting framework for the protection and promotion of culture, cultural rights and cultural diversity",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal B,Cultural vitality index,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal B,UNESCO Culture 2030 (multiple indicators),In development,Data pending,Data pending,Y,Data pending,N,"United Nations Educational, Scientific and Cultural Organization (UNESCO)",N,N,N,Data pending,
+Goal B,Processes and tools to monitor the implementation of a right to a healthy environment (e.g. Included in NBSAPs and reported in national reports,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal B,Red List Index (for internationally traded species),Available,1993 - 2020,Yearly,Y,N,Y,International Union for Conservation of Nature (IUCN); BirdLife International (BLI),N,N,Y,N,
+Goal C,Number of users that have provided information relevant to the utilization of genetic resources to designated checkpoints,Available,2018 - Present,Real time,Y,Y,Y,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N,
+Goal C,Total number of internationally recognized certificates published in the ABS Clearing-House,Available,2016 - 2021,Real time,N,Y,Y,Access and Benefit Sharing Clearing-House (ABSCH) of the Convention on Biological Diversity (CBD),N,N,N,N,
+Goal C,Number of checkpoint communiques published in the ABS Clearing-House,Available,2018,Real time,Y,Y,Y,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N,
+Goal C,Number of internationally recognized certificates of compliance for non-commercial purposes,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal C,"Integration of biodiversity into national accounting and reporting systems, defined as implementation of the System of Environmental-Economic Accounting.",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal D,Finance mobilized for capacity-building,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal D,"Financial and technical assistance provided in dollars (including through South-South, North-South and triangular cooperation)",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal D,"Finance mobilized for promoting the development, transfer, dissemination and diffusion of technology",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
 Goal D,"Number of scientists per population
-",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal D,Joint scientific papers published in Ocean Biodiversity Information System (OBIS) by sector,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal D,Nationally maintained research vessels,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Goal D,Proportion of total research budget allocated to research in the field of marine technology,Available,2009 - 2016,2 years,Y,Y,Y,"Intergovernmental Oceanographic Commission United Nations Educational, Scientific and Cultural Organization (IOC-UNESCO)",SDG,N,N,N
-Goal D,Volume of official development assistance flows for scholarships by sector and type of study,Available,Data pending,Yearly,Y,Y,Y,Organisation for Economic Co-operation and Development (OECD),SDG,N,N,N
-Goal D,Global imports of information and communication technology (ICT) goods as presented by bilateral trade flows by ICT goods categories,Available,2000 - 2019,Yearly,Y,N,N,United Nations Conference on Trade and Development (UNCTAD),N,N,N,N
-Goal D,"Total amount of funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 1,Number of countries using natural capital accounts in planning processes,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 1,Percentage of spatial plans utilizing information on key biodiversity areas,Available,2019 - 2020,Yearly,Y,Y,N,Key Biodiversity Areas (KBA) Secretariat,N,N,N,N
-Target 1,Habitat patches located within marine protected areas or integrated coastal zone management (ICZM),Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 1,Other spatial management plans (not captured as ICZM or marine spatial planning in 14.2.1),Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 1,Number of countries using ocean accounts in planning processes,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 1,Proportion of transboundary basin area with an operational arrangement for water cooperation ,Available,2017 - 2020,3 years,Y,Y,Y,"United Nations Economic Commission for Europe (UNECE); United Nations Educational, Scientific and Cultural Organization Intergovernmental Hydrological Programme (UNESCO-IHP)",SDG,N,N,N
-Target 1,Percent of total land area that is under cultivation,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 1,Extent of natural ecosystems by type,In development,1992 - Present ,In development,In development,In development,In development,United Nations Statistics Division (UNSD),N,N,N,N
-Target 1,"Number of countries implementing national legislation, policies or other measures regarding FPIC related to conservation would work here for IPs (not necessarily LCs), if spatial planning was substituted for conservation.",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 1,Ecosystem Integrity Index,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 2,Habitat distributional range,Available,2017,3 - 6 years,Y,Y,N,UNEP/MAP; SPA/RAC,N,N,N,N
-Target 2,"Index of Species Rarity Sites, High Biodiversity Areas, Large Mammal Landscapes, Intact Wilderness and Climate Stabilization Areas",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 2,Increase in secondary natural forest cover,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 2,Annual Tropical Primary Tree Cover Loss,Available,2001 - 2018,Data pending,Y,N,N,New York Declaration on Forests (NYDF); University of Maryland,N,N,N,N
-Target 2,Forest Landscape Integrity Index,Available,2019,Yearly,Y,N,Y,Wildlife Conservation Society (WCS),N,N,Y,N
-Target 2,Global Ecosystem Restoration Index,In development,2011 - 2020,5 years,Y,N,N,Group on Earth Observations - Biodiversity Observation Network (GEO BON) - iDiv,N,N,N,N
-Target 2,Free flowing rivers,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 2,Percentage of cropped landscapes with at least 10 % natural land,Available,1992 - 2018,Yearly,Y,N,N,Alliance of Bioversity; Chartered Institute of Architectural Technologists (CIAT),N,N,N,N
-Target 2,Bioclimatic Ecosystem Resilience Index (BERI),Available,2000 - 2020 ,5 years ,Y ,Y,Y,Commonwealth Scientific and Industrial Research Organisation (CSIRO),N,N,Y,N
-Target 2,Priority retention of intact / wilderness areas,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 2,Status of Key Biodiversity Areas,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 2,Biodiversity Habitat Index,Available,"2005, 2010, 2015",5 years,Y ,N,Y,Commonwealth Scientific and Industrial Research Organisation (CSIRO),IPBES,N,Y,N
-Target 2,Red List Index,Available,1980 - 2021,Yearly,Y,Y,Y,International Union for Conservation of Nature (IUCN); BirdLife International (BLI),IPBES; SDG; CMS SPMS,N,Y,N
-Target 2,Red List of Ecosystems,In development,2014 - 2025,5 years ,Y ,Y,N,International Union for Conservation of Nature (IUCN); Commission on Ecosystem Management (CEM); Deakin University?,N,N,Y,N
-Target 2,Living Planet Index,Available,1970 - 2018,3 - 4 years,Y ,Y,Y,Zoological Society of London (ZSL); Institute of Zoology (IOZ),IPBES; CMS; Ramsar Convention on Wetlands,N,Y,N
-Target 2,Species habitat Index,Available,2001 - 2020,Yearly,Y ,Y,Y,Yale University; Group on Earth Observations - Biodiversity Observation Network (GEO BON),IPBES,N,Y,N
-Target 3,"Protected area downgrading, downsizing and degazettement (PD)",Available,1892 - 2018,Data pending,Y,N,Y,"Protected area downgrading, downsizing and degazettement  (PADDD) Tracker",N,N,N,N
-Target 3,Status of key biodiversity areas,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 3,IUCN Green List of Protected and Conserved Areas,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 3,Number of hectares of UNESCO designated sites (natural and mixed World Heritage sites and Biosphere Reserves),Available,1976 - Present,Yearly,Y,Y,Y,"United Nations Educational, Scientific and Cultural Organization (UNESCO)",N,N,N,N
-Target 3,Protected area and OECM management effectiveness (MEPCA) indicator,Available,2017 - 2021,Monthly,Y,Y,Y,United Nations Environment Programme World Conservation Monitoring Centre (UNEP-WCMC),N,N,Y ,N
-Target 3,Protected Area Isolation Index (PAI),Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 3,Protected Areas Network metric (ProNet),Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 3,Extent to which protected areas and other effective area-based conservation measures (OECMs) cover Key Biodiversity Areas that are important for migratory species,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 3,Coverage of Protected areas and OECMS and traditional territories (by governance type),Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 3,Ramsar Management Effectiveness Tracking Tool (R-METT),Available,2015 - 2020,Yearly,N,Y,Y,Secretariat of the Ramsar Convention on Wetlands,N,N,N,N
-Target 3,Percentage of biosphere reserves that have a positive conservation outcome and effective management,Available,2013 - 2020,10 years,Y,Y,N,"United Nations Educational, Scientific and Cultural Organization (UNESCO)",N,N,N,N
-Target 3,Extent of indigenous peoples and local communities lands that have some form of recognition,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 3,Species Protection Index,Available,2001 - 2018,Yearly,Y ,Y,Y,Yale University; Map of Life (MOL),IPBES,N,Y,N
-Target 3,"Number of countries implementing national legislation, policies or other measures regarding FPIC related to conservation",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 3,Red List of Ecosystems,In development,2014 - 2025,5 years ,Y ,Y,N,International Union for Conservation of Nature (IUCN); Commission on Ecosystem Management (CEM); Deakin University,N,N,Y,N
-Target 3,"Proportion of terrestrial, freshwater and marine ecological regions which are conserved by protected areas or other effective area-based conservation measures",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 4,Species threat abatement and restoration metric,In development,2021,Yearly,Y,N,Y,International Union for Conservation of Nature (IUCN),N,N,N,N
-Target 4,Changing status of evolutionary distinct and globally endangered species (EDGE Index),Available,Data pending,Yearly,Y,N,N,International Union for Conservation of Nature (IUCN) Species Survival Commission (SSC) Phylogenetic Diversity Task Force; Zoological Society of London (ZSL),N,N,N,N
-Target 4,Percentage of threatened species that are improving in status,Available,Data pending,Data pending,Y,N,Y,International Union for Conservation of Nature (IUCN),N,N,N,N
-Target 4,Number of CMS daughter agreements,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 4,Proportion of local breeds classified as being at risk extinction,Available,2000 - 2020,Yearly,N,Y,Y,Food and Agriculture Organization (FAO),IPBES; SDG,N,Y,N
-Target 4,Red List Index (wild relatives of domesticated animals),Available,1988 - 2016,1988 - 2016  Annually; 2020 onwards every 4-5 years,Y ,N,Y,International Union for Conservation of Nature (IUCN); BirdLife International (BLI),N,N,Y,N
-Target 4,Rate of invasive alien species establishment ,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 5,Sustainable watershed and inland fisheries index,In development,Data pending,2 years,N,Y,N,Food and Agriculture Organization (FAO); United States Geological Survey (USGS),IPBES; CMS,N,N,N
-Target 5,Red List Index (for internationally traded species and for migratory species),Available,1993 - 2020,Yearly,Y,N,Y,International Union for Conservation of Nature (IUCN); BirdLife International (BLI),N,N,Y,N
-Target 5,Marine Stewardship Council Fish catch,Available,2000 - 2020,Quarterly,Y,N,Data pending,Marine Stewardship Council (MSC),IPBES,6NR 1 out of 20 countries sampled,Y,N
-Target 5,Total catch of cetaceans under International Convention for the Regulation of Whaling,Available,1985 - 2018,Yearly,N,Y,Y,International Whaling Commission (IWC),N,N,N,N
-Target 5,By catch of vulnerable and non-target species,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 5,"Degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing ",Available,2018 - 2020,Data pending,N,Y,Y,Food and Agriculture Organization (FAO),SDG,6NR 3 out of 20 countries sampled,N,N
-Target 5,Proportion of legal and illegal wildlife trade consisting of species threatened with extinction,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 5,Illegal trade by CITES species classification,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 5,Number of countries incorporating trade in their national biodiversity policy,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 5,"Proportion of terrestrial, freshwater and marine ecological regions which are conserved by protected areas or other effective area-based conservation measures ",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 5,Implementation of measures designed to minimize the impacts of fisheries and hunting on migratory species and their habitats,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 5,Number of MSC Chain of Custody Certification holders by distribution country,Available,2000 - 2020,Quarterly,Y,N,Y,Marine Stewardship Council (MSC),N,N,Y,N
-Target 5,Trends of trade and commercialization in biodiversity-based products that is sustainable and legal (in line with BioTrade Principles and/or CITES requirements),Available,2019,Yearly,Y,Y,Y,United Nations Conference on Trade and Development (UNCTAD),N,N,N,N
-Target 6,Number of invasive alien species in national lists as per the Global Register of Introduced and Invasive Species,Available,2017 - 2019,Data pending,Y,Y,Y,International Union for Conservation of Nature Invasive Species Specialist Group  (IUCN-ISSG),N,N,N,N
-Target 6,"Trends in abundance, temporal occurrence, and spatial distribution of non-indigenous species, particularly invasive, non-indigenous species, notably in risk areas (in relation to the main vectors and pathways of spreading of such species)",Available,Data pending,Yearly,Y,Y,Y,UNEP/MAP; SPA/RAC,N,N,N,N
-Target 6,Red List Index (impacts of invasive alien species),Available,1993 - 2020,Yearly,Y ,N,Y,International Union for Conservation of Nature (IUCN); Birdlife International (BLI),N,N,N,N
-Target 7,Trends in Loss of Reactive Nitrogen to the Environment.,Available,2008,Data pending,Y ,N,Y,International Nitrogen Initiative,N,N,Y,N
-Target 7,Trends in Nitrogen Deposition,Available,1860 - 2100 ,Data pending,Y ,N,Y,International Nitrogen Initiative,N,6NR 2 out of 20 countries sampled,Y,N
-Target 7,Municipal solid waste collected and managed ,Available,Data pending,Yearly,Data pending,Y,Data pending,"United Nations (UN) -Habitat, United Nations Statistics Division (UNSD)",Data pending,Data pending,N,Data pending
-Target 7,Hazardous waste generation ,Available,Data pending,2 years,N,Y,Y,United Nations Statistics Division (UNSD); United Nations Environment Programme (UNEP),N,N,N,N
-Target 7,Trends in the amount of litter in the water column including microplastics and on the seafloor,Available,2016 - 2017,Yearly,Y,Y,N,UNEP/MAP; MEDPol,N,N,N,N
-Target 7,Index of coastal eutrophication; (b) plastic debris density,Available,Data pending,5 years,Y ,N,Y,United Nations Environment Programme (UNEP),SDG,N,N,N
-Target 7,Red List of Ecosystems,In development,2014 - 2025,5 years ,Y ,Y,N,International Union for Conservation of Nature (IUCN); Commission on Ecosystem Management (CEM); Deakin University?,N,N,Y,N
-Target 7,Underwater noise pollution,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 7,"Name, amount/ volume/ concentration of highly hazardous pesticides by type (per land/marine area)",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,N,Data pending
-Target 7,Pesticide use per area of cropland,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 8,Above-ground biomass stock in forest (tonnes/ha),Available,"2000, 2005, 2010, 2015, 2020",Data pending,N,Y,Y,Food and Agriculture Organization (FAO),SDG; UNFCCC,N,N,N
-Target 8,National greenhouse inventories from land use and land use change,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,N,Data pending
-Target 8,Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies ,Available,2015,Yearly,Y ,Y,Y,United Nations Office for Disaster Risk Reduction (UNDRR),SDG,N,N,N
-Target 8,"Number of least developed countries and small island developing States with nationally determined contributions, long-term strategies, national adaptation plans, strategies as reported in adaptation communications and national communications ",Available,2000 - 2021,Yearly,Y ,Y,Y,United Nations Framework Convention on Climate Change (UNFCCC),Paris Agreement; UNFCCC,N,N,N
-Target 8,Index of coastal eutrophication ,Available,Data pending,5 years,Y ,N,Y,United Nations Environment Programme (UNEP),SDG,N,N,N
-Target 8,"Carbon stocks and annual net GHG emissions, by landuse category, split by natural and non-natural land cover",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 9,Proportion of fish stocks within biologically sustainable levels ,Available,1974 - 2017 ,2 years,Y,N,N,Food and Agriculture Organization (FAO),IPBES; SDG,N,Y,N
-Target 9,"Degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing ",Available,2018 - 2020,2 years,Y ,Y,Y,Food and Agriculture Organization (FAO),SDG,6NR 3 out of 20 countries sampled,N,N
-Target 9,Number of MSC Chain of Custody Certification holders by distribution country,Available,2000 - 2020,Quarterly,Y ,N,Y,Marine Stewardship Council (MSC),N,N,Y,N
-Target 9,Spawning stock biomass (related to commercially exploited species),Available,Data pending,Data pending,Y,N,Y,General Fisheries Commission for the Mediterranean (GFCM),N,N,N,N
-Target 9,Number of plant and animal genetic resources for food and agriculture secured in medium- or longterm conservation facilities ,Available,2016 - 2020,Yearly,Y,Y,Y,Food and Agriculture Organization (FAO),SDG,6NR 4 out of 20 countries sampled,Y,N
-Target 9,Volume of production per labour unit by classes of farming/pastoral/ forestry enterprise size ,Available,2011 - 2016,Data pending,Y,Y,Y,Food and Agriculture Organization (FAO),SDG,N,N,Y
-Target 10,Agrobiodiversity Index,In development,Data pending,Yearly,Y ,N,Y,Chartered Institute of Architectural Technologists (CIAT); Alliance Biodiversity,N,N,N,N
-Target 10,Changes in soil organic carbon stocks,Available,2000 - 2018,Data pending,Y ,Y,Y,United Nations Convention to Combat Desertification (UNCCD),SDG; UNCCD,N,N,N
-Target 10,Red List Index (wild relatives of domesticated animals),Available,1988 - 2016,1988 - 2016  Annually; 2020 onwards every 4-5 years,Y ,N,Y,International Union for Conservation of Nature (IUCN); BirdLife International (BLI),N,N,Y,N
-Target 10,Red List Index (pollinating species),Available,1988 - 2016,1988 - 2016  Annually; 2020 onwards every 4-5 years,Y ,N,Y,International Union for Conservation of Nature (IUCN); BirdLife International (BLI),N,N,Y,N
-Target 10,Proportion of local breeds classified as being at risk extinction,Available,2000 - 2020,Yearly,N,Y,Y,Food and Agriculture Organization (FAO),IPBES; SDG,N,Y,N
-Target 10,Proportion of land that is degraded over total land area,Available,2000 - 2018,Yearly,Y,Y,Y,United Nations Convention to Combat Desertification (UNCCD),SDG; UNCCD,6NR 1 out of 20 countries sampled,Y,N
-Target 11,Air emission accounts,Available,2008 - 2018,Yearly,Y,Y,Y,Organisation for Economic Co-operation and Development (OECD),N,N,N,N
-Target 11,Proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management,Available,2008 - 2019,Data pending,Y,Y,Y,United Nations Environment Programme (UNEP); Organisation for Economic Co-operation and Development (OECD); World Health Organization (WHO),SDG,N,N,N
-Target 11,Proportion of population using safely managed drinking water services ,Available,2000 - 2017,2 years,Y,Y,Y,World Health Organization (WHO); United Nations International Children's Emergency Fund (UNICEF),SDG,N,N,Y
-Target 11,Mortality rate attributed to household and ambient air pollution,Available,2016,Data pending,Y,N,Y,World Health Organization (WHO),SDG,N,N,Y
-Target 12,None adopted,N,N,N,N,N,N,N,N,N,N,N
-Target 13,Total number of transfers of crop material from the Multilateral System of the International Treaty on Plant Genetic Resources for Food and Agriculture (ITPGRFA) received in a country,Available,Data pending,Yearly,N,Y,N,International Treaty on Plant Genetic Resources for Food and Agriculture (ITPGRFA),N,N,N,N
-Target 13,"Total number of permits, or their equivalent, granted for access to genetic resources",Available,Data pending,4 years,N,Y,Y,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N
-Target 13,Total number of internationally recognized certificates of compliance published in the ABS Clearing-House,Available,2016 - 2021,Real time,N,Y,Y,Access and Benefit Sharing Clearing-House (ABSCH) of the Convention on Biological Diversity (CBD),N,N,N,N
-Target 13,"Number of countries that require prior informed consent that have published legislative, administrative or policy measures on access and benefit-sharing in the ABS Clearing-House",Available,2018,Data pending,N,Y,Y,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N
-Target 13,Number of countries that require prior informed consent that have published information on ABS procedures in the ABS Clearing-House,Available,2018,Real time,N,Y,Y,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N
-Target 13,"Number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits ",Available,2012 - 2021,Yearly,Y,Y,Y,Secretariat of the Convention on Biological Diversity (SCBD),SDG,6NR 2 out of 20 countries sampled,N,N
-Target 13,Estimated percentage of monetary and nonmonetary benefits directed towards conservation and sustainable use of biodiversity,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
+",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal D,Joint scientific papers published in Ocean Biodiversity Information System (OBIS) by sector,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal D,Nationally maintained research vessels,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Goal D,Proportion of total research budget allocated to research in the field of marine technology,Available,2009 - 2016,2 years,Y,Y,Y,"Intergovernmental Oceanographic Commission United Nations Educational, Scientific and Cultural Organization (IOC-UNESCO)",SDG,N,N,N,
+Goal D,Volume of official development assistance flows for scholarships by sector and type of study,Available,Data pending,Yearly,Y,Y,Y,Organisation for Economic Co-operation and Development (OECD),SDG,N,N,N,
+Goal D,Global imports of information and communication technology (ICT) goods as presented by bilateral trade flows by ICT goods categories,Available,2000 - 2019,Yearly,Y,N,N,United Nations Conference on Trade and Development (UNCTAD),N,N,N,N,
+Goal D,"Total amount of funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 1,Number of countries using natural capital accounts in planning processes,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 1,Percentage of spatial plans utilizing information on key biodiversity areas,Available,2019 - 2020,Yearly,Y,Y,N,Key Biodiversity Areas (KBA) Secretariat,N,N,N,N,
+Target 1,Habitat patches located within marine protected areas or integrated coastal zone management (ICZM),Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 1,Other spatial management plans (not captured as ICZM or marine spatial planning in 14.2.1),Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 1,Number of countries using ocean accounts in planning processes,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 1,Proportion of transboundary basin area with an operational arrangement for water cooperation ,Available,2017 - 2020,3 years,Y,Y,Y,"United Nations Economic Commission for Europe (UNECE); United Nations Educational, Scientific and Cultural Organization Intergovernmental Hydrological Programme (UNESCO-IHP)",SDG,N,N,N,
+Target 1,Percent of total land area that is under cultivation,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 1,Extent of natural ecosystems by type,In development,1992 - Present ,In development,In development,In development,In development,United Nations Statistics Division (UNSD),N,N,N,N,
+Target 1,"Number of countries implementing national legislation, policies or other measures regarding FPIC related to conservation would work here for IPs (not necessarily LCs), if spatial planning was substituted for conservation.",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 1,Ecosystem Integrity Index,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 2,Habitat distributional range,Available,2017,3 - 6 years,Y,Y,N,UNEP/MAP; SPA/RAC,N,N,N,N,
+Target 2,"Index of Species Rarity Sites, High Biodiversity Areas, Large Mammal Landscapes, Intact Wilderness and Climate Stabilization Areas",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 2,Increase in secondary natural forest cover,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 2,Annual Tropical Primary Tree Cover Loss,Available,2001 - 2018,Data pending,Y,N,N,New York Declaration on Forests (NYDF); University of Maryland,N,N,N,N,
+Target 2,Forest Landscape Integrity Index,Available,2019,Yearly,Y,N,Y,Wildlife Conservation Society (WCS),N,N,Y,N,
+Target 2,Global Ecosystem Restoration Index,In development,2011 - 2020,5 years,Y,N,N,Group on Earth Observations - Biodiversity Observation Network (GEO BON) - iDiv,N,N,N,N,
+Target 2,Free flowing rivers,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 2,Percentage of cropped landscapes with at least 10 % natural land,Available,1992 - 2018,Yearly,Y,N,N,Alliance of Bioversity; Chartered Institute of Architectural Technologists (CIAT),N,N,N,N,
+Target 2,Bioclimatic Ecosystem Resilience Index (BERI),Available,2000 - 2020 ,5 years ,Y ,Y,Y,Commonwealth Scientific and Industrial Research Organisation (CSIRO),N,N,Y,N,
+Target 2,Priority retention of intact / wilderness areas,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 2,Status of Key Biodiversity Areas,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 2,Biodiversity Habitat Index,Available,"2005, 2010, 2015",5 years,Y ,N,Y,Commonwealth Scientific and Industrial Research Organisation (CSIRO),IPBES,N,Y,N,
+Target 2,Red List Index,Available,1980 - 2021,Yearly,Y,Y,Y,International Union for Conservation of Nature (IUCN); BirdLife International (BLI),IPBES; SDG; CMS SPMS,N,Y,N,
+Target 2,Red List of Ecosystems,In development,2014 - 2025,5 years ,Y ,Y,N,International Union for Conservation of Nature (IUCN); Commission on Ecosystem Management (CEM); Deakin University?,N,N,Y,N,
+Target 2,Living Planet Index,Available,1970 - 2018,3 - 4 years,Y ,Y,Y,Zoological Society of London (ZSL); Institute of Zoology (IOZ),IPBES; CMS; Ramsar Convention on Wetlands,N,Y,N,
+Target 2,Species habitat Index,Available,2001 - 2020,Yearly,Y ,Y,Y,Yale University; Group on Earth Observations - Biodiversity Observation Network (GEO BON),IPBES,N,Y,N,
+Target 3,"Protected area downgrading, downsizing and degazettement (PD)",Available,1892 - 2018,Data pending,Y,N,Y,"Protected area downgrading, downsizing and degazettement  (PADDD) Tracker",N,N,N,N,
+Target 3,Status of key biodiversity areas,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 3,IUCN Green List of Protected and Conserved Areas,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 3,Number of hectares of UNESCO designated sites (natural and mixed World Heritage sites and Biosphere Reserves),Available,1976 - Present,Yearly,Y,Y,Y,"United Nations Educational, Scientific and Cultural Organization (UNESCO)",N,N,N,N,
+Target 3,Protected area and OECM management effectiveness (MEPCA) indicator,Available,2017 - 2021,Monthly,Y,Y,Y,United Nations Environment Programme World Conservation Monitoring Centre (UNEP-WCMC),N,N,Y ,N,
+Target 3,Protected Area Isolation Index (PAI),Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 3,Protected Areas Network metric (ProNet),Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 3,Extent to which protected areas and other effective area-based conservation measures (OECMs) cover Key Biodiversity Areas that are important for migratory species,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 3,Coverage of Protected areas and OECMS and traditional territories (by governance type),Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 3,Ramsar Management Effectiveness Tracking Tool (R-METT),Available,2015 - 2020,Yearly,N,Y,Y,Secretariat of the Ramsar Convention on Wetlands,N,N,N,N,
+Target 3,Percentage of biosphere reserves that have a positive conservation outcome and effective management,Available,2013 - 2020,10 years,Y,Y,N,"United Nations Educational, Scientific and Cultural Organization (UNESCO)",N,N,N,N,
+Target 3,Extent of indigenous peoples and local communities lands that have some form of recognition,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 3,Species Protection Index,Available,2001 - 2018,Yearly,Y ,Y,Y,Yale University; Map of Life (MOL),IPBES,N,Y,N,
+Target 3,"Number of countries implementing national legislation, policies or other measures regarding FPIC related to conservation",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 3,Red List of Ecosystems,In development,2014 - 2025,5 years ,Y ,Y,N,International Union for Conservation of Nature (IUCN); Commission on Ecosystem Management (CEM); Deakin University,N,N,Y,N,
+Target 3,"Proportion of terrestrial, freshwater and marine ecological regions which are conserved by protected areas or other effective area-based conservation measures",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 4,Species threat abatement and restoration metric,In development,2021,Yearly,Y,N,Y,International Union for Conservation of Nature (IUCN),N,N,N,N,
+Target 4,Changing status of evolutionary distinct and globally endangered species (EDGE Index),Available,Data pending,Yearly,Y,N,N,International Union for Conservation of Nature (IUCN) Species Survival Commission (SSC) Phylogenetic Diversity Task Force; Zoological Society of London (ZSL),N,N,N,N,
+Target 4,Percentage of threatened species that are improving in status,Available,Data pending,Data pending,Y,N,Y,International Union for Conservation of Nature (IUCN),N,N,N,N,
+Target 4,Number of CMS daughter agreements,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 4,Proportion of local breeds classified as being at risk extinction,Available,2000 - 2020,Yearly,N,Y,Y,Food and Agriculture Organization (FAO),IPBES; SDG,N,Y,N,
+Target 4,Red List Index (wild relatives of domesticated animals),Available,1988 - 2016,1988 - 2016  Annually; 2020 onwards every 4-5 years,Y ,N,Y,International Union for Conservation of Nature (IUCN); BirdLife International (BLI),N,N,Y,N,
+Target 4,Rate of invasive alien species establishment ,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 5,Sustainable watershed and inland fisheries index,In development,Data pending,2 years,N,Y,N,Food and Agriculture Organization (FAO); United States Geological Survey (USGS),IPBES; CMS,N,N,N,
+Target 5,Red List Index (for internationally traded species and for migratory species),Available,1993 - 2020,Yearly,Y,N,Y,International Union for Conservation of Nature (IUCN); BirdLife International (BLI),N,N,Y,N,
+Target 5,Marine Stewardship Council Fish catch,Available,2000 - 2020,Quarterly,Y,N,Data pending,Marine Stewardship Council (MSC),IPBES,6NR 1 out of 20 countries sampled,Y,N,
+Target 5,Total catch of cetaceans under International Convention for the Regulation of Whaling,Available,1985 - 2018,Yearly,N,Y,Y,International Whaling Commission (IWC),N,N,N,N,
+Target 5,By catch of vulnerable and non-target species,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 5,"Degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing ",Available,2018 - 2020,Data pending,N,Y,Y,Food and Agriculture Organization (FAO),SDG,6NR 3 out of 20 countries sampled,N,N,
+Target 5,Proportion of legal and illegal wildlife trade consisting of species threatened with extinction,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 5,Illegal trade by CITES species classification,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 5,Number of countries incorporating trade in their national biodiversity policy,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 5,"Proportion of terrestrial, freshwater and marine ecological regions which are conserved by protected areas or other effective area-based conservation measures ",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 5,Implementation of measures designed to minimize the impacts of fisheries and hunting on migratory species and their habitats,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 5,Number of MSC Chain of Custody Certification holders by distribution country,Available,2000 - 2020,Quarterly,Y,N,Y,Marine Stewardship Council (MSC),N,N,Y,N,
+Target 5,Trends of trade and commercialization in biodiversity-based products that is sustainable and legal (in line with BioTrade Principles and/or CITES requirements),Available,2019,Yearly,Y,Y,Y,United Nations Conference on Trade and Development (UNCTAD),N,N,N,N,
+Target 6,Number of invasive alien species in national lists as per the Global Register of Introduced and Invasive Species,Available,2017 - 2019,Data pending,Y,Y,Y,International Union for Conservation of Nature Invasive Species Specialist Group  (IUCN-ISSG),N,N,N,N,
+Target 6,"Trends in abundance, temporal occurrence, and spatial distribution of non-indigenous species, particularly invasive, non-indigenous species, notably in risk areas (in relation to the main vectors and pathways of spreading of such species)",Available,Data pending,Yearly,Y,Y,Y,UNEP/MAP; SPA/RAC,N,N,N,N,
+Target 6,Red List Index (impacts of invasive alien species),Available,1993 - 2020,Yearly,Y ,N,Y,International Union for Conservation of Nature (IUCN); Birdlife International (BLI),N,N,N,N,
+Target 7,Trends in Loss of Reactive Nitrogen to the Environment.,Available,2008,Data pending,Y ,N,Y,International Nitrogen Initiative,N,N,Y,N,
+Target 7,Trends in Nitrogen Deposition,Available,1860 - 2100 ,Data pending,Y ,N,Y,International Nitrogen Initiative,N,6NR 2 out of 20 countries sampled,Y,N,
+Target 7,Municipal solid waste collected and managed ,Available,Data pending,Yearly,Data pending,Y,Data pending,"United Nations (UN) -Habitat, United Nations Statistics Division (UNSD)",Data pending,Data pending,N,Data pending,
+Target 7,Hazardous waste generation ,Available,Data pending,2 years,N,Y,Y,United Nations Statistics Division (UNSD); United Nations Environment Programme (UNEP),N,N,N,N,
+Target 7,Trends in the amount of litter in the water column including microplastics and on the seafloor,Available,2016 - 2017,Yearly,Y,Y,N,UNEP/MAP; MEDPol,N,N,N,N,
+Target 7,Index of coastal eutrophication (icep),Available,Data pending,5 years,Y ,N,Y,United Nations Environment Programme (UNEP),SDG,N,N,N,updated
+Target 7,plastic debris density,Available,Data pending,5 years,Y ,N,Y,United Nations Environment Programme (UNEP),SDG,N,N,N,updated
+Target 7,Red List of Ecosystems,In development,2014 - 2025,5 years ,Y ,Y,N,International Union for Conservation of Nature (IUCN); Commission on Ecosystem Management (CEM); Deakin University?,N,N,Y,N,
+Target 7,Underwater noise pollution,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 7,"Name, amount/ volume/ concentration of highly hazardous pesticides by type (per land/marine area)",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,N,Data pending,
+Target 7,Pesticide use per area of cropland,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 8,Above-ground biomass stock in forest (tonnes/ha),Available,"2000, 2005, 2010, 2015, 2020",Data pending,N,Y,Y,Food and Agriculture Organization (FAO),SDG; UNFCCC,N,N,N,
+Target 8,National greenhouse inventories from land use and land use change,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,N,Data pending,
+Target 8,Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies ,Available,2015,Yearly,Y ,Y,Y,United Nations Office for Disaster Risk Reduction (UNDRR),SDG,N,N,N,
+Target 8,"Number of least developed countries and small island developing States with nationally determined contributions, long-term strategies, national adaptation plans, strategies as reported in adaptation communications and national communications ",Available,2000 - 2021,Yearly,Y ,Y,Y,United Nations Framework Convention on Climate Change (UNFCCC),Paris Agreement; UNFCCC,N,N,N,
+Target 8,Index of coastal eutrophication ,Available,Data pending,5 years,Y ,N,Y,United Nations Environment Programme (UNEP),SDG,N,N,N,
+Target 8,"Carbon stocks and annual net GHG emissions, by landuse category, split by natural and non-natural land cover",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 9,Proportion of fish stocks within biologically sustainable levels ,Available,1974 - 2017 ,2 years,Y,N,N,Food and Agriculture Organization (FAO),IPBES; SDG,N,Y,N,
+Target 9,"Degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing ",Available,2018 - 2020,2 years,Y ,Y,Y,Food and Agriculture Organization (FAO),SDG,6NR 3 out of 20 countries sampled,N,N,
+Target 9,Number of MSC Chain of Custody Certification holders by distribution country,Available,2000 - 2020,Quarterly,Y ,N,Y,Marine Stewardship Council (MSC),N,N,Y,N,
+Target 9,Spawning stock biomass (related to commercially exploited species),Available,Data pending,Data pending,Y,N,Y,General Fisheries Commission for the Mediterranean (GFCM),N,N,N,N,
+Target 9,Number of plant and animal genetic resources for food and agriculture secured in medium- or longterm conservation facilities ,Available,2016 - 2020,Yearly,Y,Y,Y,Food and Agriculture Organization (FAO),SDG,6NR 4 out of 20 countries sampled,Y,N,
+Target 9,Volume of production per labour unit by classes of farming/pastoral/ forestry enterprise size ,Available,2011 - 2016,Data pending,Y,Y,Y,Food and Agriculture Organization (FAO),SDG,N,N,Y,
+Target 10,Agrobiodiversity Index,In development,Data pending,Yearly,Y ,N,Y,Chartered Institute of Architectural Technologists (CIAT); Alliance Biodiversity,N,N,N,N,
+Target 10,Changes in soil organic carbon stocks,Available,2000 - 2018,Data pending,Y ,Y,Y,United Nations Convention to Combat Desertification (UNCCD),SDG; UNCCD,N,N,N,
+Target 10,Red List Index (wild relatives of domesticated animals),Available,1988 - 2016,1988 - 2016  Annually; 2020 onwards every 4-5 years,Y ,N,Y,International Union for Conservation of Nature (IUCN); BirdLife International (BLI),N,N,Y,N,
+Target 10,Red List Index (pollinating species),Available,1988 - 2016,1988 - 2016  Annually; 2020 onwards every 4-5 years,Y ,N,Y,International Union for Conservation of Nature (IUCN); BirdLife International (BLI),N,N,Y,N,
+Target 10,Proportion of local breeds classified as being at risk extinction,Available,2000 - 2020,Yearly,N,Y,Y,Food and Agriculture Organization (FAO),IPBES; SDG,N,Y,N,
+Target 10,Proportion of land that is degraded over total land area,Available,2000 - 2018,Yearly,Y,Y,Y,United Nations Convention to Combat Desertification (UNCCD),SDG; UNCCD,6NR 1 out of 20 countries sampled,Y,N,
+Target 11,Air emission accounts,Available,2008 - 2018,Yearly,Y,Y,Y,Organisation for Economic Co-operation and Development (OECD),N,N,N,N,
+Target 11,Proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management,Available,2008 - 2019,Data pending,Y,Y,Y,United Nations Environment Programme (UNEP); Organisation for Economic Co-operation and Development (OECD); World Health Organization (WHO),SDG,N,N,N,
+Target 11,Proportion of population using safely managed drinking water services ,Available,2000 - 2017,2 years,Y,Y,Y,World Health Organization (WHO); United Nations International Children's Emergency Fund (UNICEF),SDG,N,N,Y,
+Target 11,Mortality rate attributed to household and ambient air pollution,Available,2016,Data pending,Y,N,Y,World Health Organization (WHO),SDG,N,N,Y,
+Target 12,None adopted,N,N,N,N,N,N,N,N,N,N,N,
+Target 13,Total number of transfers of crop material from the Multilateral System of the International Treaty on Plant Genetic Resources for Food and Agriculture (ITPGRFA) received in a country,Available,Data pending,Yearly,N,Y,N,International Treaty on Plant Genetic Resources for Food and Agriculture (ITPGRFA),N,N,N,N,
+Target 13,"Total number of permits, or their equivalent, granted for access to genetic resources",Available,Data pending,4 years,N,Y,Y,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N,
+Target 13,Total number of internationally recognized certificates of compliance published in the ABS Clearing-House,Available,2016 - 2021,Real time,N,Y,Y,Access and Benefit Sharing Clearing-House (ABSCH) of the Convention on Biological Diversity (CBD),N,N,N,N,
+Target 13,"Number of countries that require prior informed consent that have published legislative, administrative or policy measures on access and benefit-sharing in the ABS Clearing-House",Available,2018,Data pending,N,Y,Y,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N,
+Target 13,Number of countries that require prior informed consent that have published information on ABS procedures in the ABS Clearing-House,Available,2018,Real time,N,Y,Y,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N,
+Target 13,"Number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits ",Available,2012 - 2021,Yearly,Y,Y,Y,Secretariat of the Convention on Biological Diversity (SCBD),SDG,6NR 2 out of 20 countries sampled,N,N,
+Target 13,Estimated percentage of monetary and non monetary benefits directed towards conservation and sustainable use of biodiversity,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
 Target 14,Human Appropriation of Net Primary Production (HANPP),Available,1960 - 2005,"1960 - 2000: every 10 years; 2000 - 2005: five years
 
- ",Y,Y,Y,"Institute of Social Ecology (SEC), University of Natural Resources and Life Sciences - Vienna",N,N,Y,N
-Target 14,CO2 emission per unit of value added ,Available,1997 - 2017,Yearly,Y,Y,Y,International Energy Agency (IEA); United Nations Industrial Development Organization (UNIDO),SDG,N,N,N
-Target 14,Change in water-use efficiency over time ,Available,2000 - 2017,Yearly,Y,Y,Y,Food and Agriculture Organization (FAO) AQUASTAT,SDG,6NR 1 out of 20 countries sampled,N,N
-Target 15 ,Species threat abatement and restoration metric,In development,2021,Yearly,Y,N,Y,International Union for Conservation of Nature (IUCN),N,N,N,N
-Target 15 ,Number of companies publishing sustainability reports,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 16,"Extent to which (i) global citizenship education and (ii) education for sustainable development, including gender equality and human rights, are mainstreamed at all levels in: (a) national education policies, (b) curricula, (c) teacher education and (d) student assessments (SDG 4.7.1)",Available,Data pending,4 years,N,Y,Y,"United Nations Educational, Scientific and Cultural Organization (UNESCO)",SDG; UNESCO,N,N,N
-Target 16,Recycling rate,Available,Data pending,Yearly,Y,Y,Y,United Nations Statistics Division (UNSD); United Nations Environment Programme (UNEP),SDG,N,N,N
-Target 16,Life cycle Impact assessment (LCIA) e.g. LIME ; Lifecycle Impact Assessment Method based on Endpoint Modelling,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 16,Levels of poverty in developing communities,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 17,Number of countries that have the necessary biosafety legal and administrative measures in place,Available,2019,2 - 4 years,N,Y,N,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N
-Target 17,Number of countries that implement their biosafety measures,Available,2019,2 - 4 years,N,Y,N,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N
-Target 17,Number of countries that have the necessary measures and means for detection and identification of products of biotechnology,Available,2019,2 - 4 years,N,Y,N,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N
-Target 17,Number of countries that carry out scientifically sound risk assessments to support biosafety decision-making,Available,2019,2 - 4 years,N,Y,Y,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N
-Target 17,Number of countries that establish and implement risk management measures,Available,2019,2 - 4 years,N,Y,Y,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N
-Target 17,Percentage of Parties to the Cartagena Protocol on Biosafety implementing the relevant provisions of the Protocol,Available,2019,2 - 4 years,N,Y,N,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N
-Target 17,Number of countries with legal and technical measures for restoration and compensation,Available,2020,2 - 4 years,N,Y,N,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N
-Target 17,Percentage of Parties to the Nagoya - Kuala Lumpur Supplementary Protocol,Available,2021,2 years,N,Y,N,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N
-Target 17,Percentage of countries with systems in place for restoration and compensation of damage to conservation and sustainable use of biological diversity,Available,2020,2 - 4 years,N,Y,N,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N
-Target 17,Number of countries that establish and implement risk management measures,Available,2020,2 - 4 years,N,Y,N,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N
-Target 17,Number of countries with mechanisms to facilitate the sharing of and access to information on potential adverse impacts of biotechnology on biodiversity and human health,Available,2020,2 - 4 years,N,Y,N,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N
-Target 18,Number of countries with biodiversity-relevant taxes,Available,1980 - 2020,Yearly,Y,Y,Y,Organisation for Economic Co-operation and Development (OECD),SDG,6NR 2 out of 20 countries sampled,Y,N
-Target 18,Number of countries with biodiversity-relevant charges and fees,Available,1980 - 2020,Yearly,Y,Y,Y,Organisation for Economic Co-operation and Development (OECD),SDG,N,Y,N
-Target 18,Number of countries with biodiversity-relevant tradable permit schemes,Available,1980 - 2021,Yearly,Y,Y,Y,Organisation for Economic Co-operation and Development (OECD),N,N,Y,N
-Target 18,Trends in potentially environmentally harmful elements of government support to agriculture (producer support estimate),Available,1990 - 2019,Yearly,Y,Y,N,Organisation for Economic Co-operation and Development (OECD),N,N,Y,N
-Target 18,Trends in the number and value of government fossil fuel support measures,Available,2010 - 2020,Yearly,N,Y,Y,International Energy Agency (IEA); Organisation for Economic Co-operation and Development (OECD),N,N,N,N
-Target 18,Amount of fossil-fuel subsidies per unit of GDP (production and consumption) ,Available,Data pending,Yearly,Y,Y,Y,United Nations Environment Programme (UNEP),N,N,N,N
-Target 19,Amount of funding provided through the Global Environment Facility and allocated to the biodiversity focal area ,Available,2002 - 2020,Yearly,N,Y,N,Global Environment Facility (GEF),N,N,N,N
-Target 19,"Foreign direct investment (FDI), official development assistance and South-South cooperation as a proportion of total domestic budget",In development,Data pending,Yearly,N,Y,Y,Organisation for Economic Co-operation and Development  (OECD); United Nations Conference on Trade and Development  (UNCTAD),SDG,N,N,N
-Target 19,Amount and composition of biodiversity-related finance reported to the OECD Creditor reporting system,Available,2002 - 2016,Data pending,N,Y,N,Organisation for Economic Co-operation and Development (OECD),N,N,N,N
-Target 19,"Dollar value of financial and technical assistance (including through North-South, South-South and triangular cooperation) committed to developing countries",Available,2002 - 2018,Yearly,Y,Y,Y,Organisation for Economic Co-operation and Development (OECD),SDG,N,N,N
-Target 19,Dollar value of all resources made available to strengthen statistical capacity in developing countries ,Available,2000 - 2018,Yearly,Y,Y,Y,Organisation for Economic Co-operation and Development (OECD),SDG,N,N,N
-Target 19,Amount of biodiversity-related philanthropic funding,Available,2017 - 2018,Yearly,N,Y,N,Organisation for Economic Co-operation and Development (OECD),N,N,N,N
-Target 19,Proportion of total research budget allocated to research in the field of marine technology,Available,Data pending,2 years,Y,Y,Y,"Intergovernmental Oceanographic Commission United Nations Educational, Scientific and Cultural Organization  (IOC-UNESCO)",SDG,N,N,N
-Target 19,"Total amount of approved funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",Available,Data pending,2 years ,Y,Y,Y,United Nations Environment Programme (UNEP); Organisation for Economic Co-operation and Development (OECD),SDG,N,N,N
-Target 19,Number of countries (and number of instruments) with payments for ecosystem services (PES) programmes,In development,1980 - 2020,Data pending,Y,Y,Y,Organisation for Economic Co-operation and Development (OECD),N,N,N,N
-Target 19,"Number of countries that have (a) Assessed values of biodiversity, in accordance with the Convention, (b) Identified and reported funding needs, gaps and priorities (c)Developed national financial plans for biodiversity; (d) Been provided with the necessary funding and capacity building to undertake the above activities",Available,Data pending,Data pending,N,Y,Y,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N
-Target 20,None adopted,N,N,N,N,N,N,N,N,N,N,N
-Target 21,Growth in number of records and species in the Living Planet Index database,Available,2006 - 2020,Yearly,Y,N,N,Zoological Society London (ZSL),N,N,N,N
-Target 21,Growth in species occurrence records accessible through the Global Biodiversity Information Facility,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 21,Growth in marine species occurrence records accessible through OBIS,Available,2000 - 2020,Data pending,Y,N,N,"Intergovernmental Oceanographic Commission United Nations Educational, Scientific and Cultural Organization (IOC-UNESCO)",N,N,N,N
-Target 21,Proportion of known species assessed through the IUCN Red List.,Available,1993 - 2021,Yearly,Y,N,Y,International Union for Conservation of Nature (IUCN),N,6NR 2 out of 20 countries sampled,Y,N
-Target 21,Number of assessments on the IUCN Red List of threatened species,Available,1993 - 2021,Yearly,Y,N,N,International Union for Conservation of Nature (IUCN),N,N,Y,N
-Target 21,World Association of Zoos and Aquariums (WAZA) bio-literacy survey (Biodiversity literacy in global zoo and aquarium visitors),Available,2012 - 2015,Data pending,Y,N,N,Chester Zoo; World Association of Zoos and Aquariums (WAZA),N,N,Y,Y
+ ",Y,Y,Y,"Institute of Social Ecology (SEC), University of Natural Resources and Life Sciences - Vienna",N,N,Y,N,
+Target 14,CO2 emission per unit of value added ,Available,1997 - 2017,Yearly,Y,Y,Y,International Energy Agency (IEA); United Nations Industrial Development Organization (UNIDO),SDG,N,N,N,
+Target 14,Change in water-use efficiency over time ,Available,2000 - 2017,Yearly,Y,Y,Y,Food and Agriculture Organization (FAO) AQUASTAT,SDG,6NR 1 out of 20 countries sampled,N,N,
+Target 15 ,Species threat abatement and restoration metric,In development,2021,Yearly,Y,N,Y,International Union for Conservation of Nature (IUCN),N,N,N,N,
+Target 15 ,Number of companies publishing sustainability reports,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 16,"Extent to which (i) global citizenship education and (ii) education for sustainable development, including gender equality and human rights, are mainstreamed at all levels in: (a) national education policies, (b) curricula, (c) teacher education and (d) student assessments (SDG 4.7.1)",Available,Data pending,4 years,N,Y,Y,"United Nations Educational, Scientific and Cultural Organization (UNESCO)",SDG; UNESCO,N,N,N,
+Target 16,Recycling rate,Available,Data pending,Yearly,Y,Y,Y,United Nations Statistics Division (UNSD); United Nations Environment Programme (UNEP),SDG,N,N,N,
+Target 16,Life cycle Impact assessment (LCIA) e.g. LIME ; Lifecycle Impact Assessment Method based on Endpoint Modelling,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 16,Levels of poverty in developing communities,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 17,Number of countries that have the necessary biosafety legal and administrative measures in place,Available,2019,2 - 4 years,N,Y,N,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N,
+Target 17,Number of countries that implement their biosafety measures,Available,2019,2 - 4 years,N,Y,N,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N,
+Target 17,Number of countries that have the necessary measures and means for detection and identification of products of biotechnology,Available,2019,2 - 4 years,N,Y,N,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N,
+Target 17,Number of countries that carry out scientifically sound risk assessments to support biosafety decision-making,Available,2019,2 - 4 years,N,Y,Y,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N,
+Target 17,Number of countries that establish and implement risk management measures,Available,2019,2 - 4 years,N,Y,Y,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N,
+Target 17,Percentage of Parties to the Cartagena Protocol on Biosafety implementing the relevant provisions of the Protocol,Available,2019,2 - 4 years,N,Y,N,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N,
+Target 17,Number of countries with legal and technical measures for restoration and compensation,Available,2020,2 - 4 years,N,Y,N,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N,
+Target 17,Percentage of Parties to the Nagoya - Kuala Lumpur Supplementary Protocol,Available,2021,2 years,N,Y,N,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N,
+Target 17,Percentage of countries with systems in place for restoration and compensation of damage to conservation and sustainable use of biological diversity,Available,2020,2 - 4 years,N,Y,N,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N,
+Target 17,Number of countries that establish and implement risk management measures,Available,2020,2 - 4 years,N,Y,N,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N,
+Target 17,Number of countries with mechanisms to facilitate the sharing of and access to information on potential adverse impacts of biotechnology on biodiversity and human health,Available,2020,2 - 4 years,N,Y,N,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N,
+Target 18,Number of countries with biodiversity-relevant taxes,Available,1980 - 2020,Yearly,Y,Y,Y,Organisation for Economic Co-operation and Development (OECD),SDG,6NR 2 out of 20 countries sampled,Y,N,
+Target 18,Number of countries with biodiversity-relevant charges and fees,Available,1980 - 2020,Yearly,Y,Y,Y,Organisation for Economic Co-operation and Development (OECD),SDG,N,Y,N,
+Target 18,Number of countries with biodiversity-relevant tradable permit schemes,Available,1980 - 2021,Yearly,Y,Y,Y,Organisation for Economic Co-operation and Development (OECD),N,N,Y,N,
+Target 18,Trends in potentially environmentally harmful elements of government support to agriculture (producer support estimate),Available,1990 - 2019,Yearly,Y,Y,N,Organisation for Economic Co-operation and Development (OECD),N,N,Y,N,
+Target 18,Trends in the number and value of government fossil fuel support measures,Available,2010 - 2020,Yearly,N,Y,Y,International Energy Agency (IEA); Organisation for Economic Co-operation and Development (OECD),N,N,N,N,
+Target 18,Amount of fossil-fuel subsidies per unit of GDP (production and consumption) ,Available,Data pending,Yearly,Y,Y,Y,United Nations Environment Programme (UNEP),N,N,N,N,
+Target 19,Amount of funding provided through the Global Environment Facility and allocated to the biodiversity focal area ,Available,2002 - 2020,Yearly,N,Y,N,Global Environment Facility (GEF),N,N,N,N,
+Target 19,"Foreign direct investment (FDI), official development assistance and South-South cooperation as a proportion of total domestic budget",In development,Data pending,Yearly,N,Y,Y,Organisation for Economic Co-operation and Development  (OECD); United Nations Conference on Trade and Development  (UNCTAD),SDG,N,N,N,
+Target 19,Amount and composition of biodiversity-related finance reported to the OECD Creditor reporting system,Available,2002 - 2016,Data pending,N,Y,N,Organisation for Economic Co-operation and Development (OECD),N,N,N,N,
+Target 19,"Dollar value of financial and technical assistance (including through North-South, South-South and triangular cooperation) committed to developing countries",Available,2002 - 2018,Yearly,Y,Y,Y,Organisation for Economic Co-operation and Development (OECD),SDG,N,N,N,
+Target 19,Dollar value of all resources made available to strengthen statistical capacity in developing countries ,Available,2000 - 2018,Yearly,Y,Y,Y,Organisation for Economic Co-operation and Development (OECD),SDG,N,N,N,
+Target 19,Amount of biodiversity-related philanthropic funding,Available,2017 - 2018,Yearly,N,Y,N,Organisation for Economic Co-operation and Development (OECD),N,N,N,N,
+Target 19,Proportion of total research budget allocated to research in the field of marine technology,Available,Data pending,2 years,Y,Y,Y,"Intergovernmental Oceanographic Commission United Nations Educational, Scientific and Cultural Organization  (IOC-UNESCO)",SDG,N,N,N,
+Target 19,"Total amount of approved funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",Available,Data pending,2 years ,Y,Y,Y,United Nations Environment Programme (UNEP); Organisation for Economic Co-operation and Development (OECD),SDG,N,N,N,
+Target 19,Number of countries (and number of instruments) with payments for ecosystem services (PES) programmes,In development,1980 - 2020,Data pending,Y,Y,Y,Organisation for Economic Co-operation and Development (OECD),N,N,N,N,
+Target 19,"Number of countries that have (a) Assessed values of biodiversity, in accordance with the Convention, (b) Identified and reported funding needs, gaps and priorities (c)Developed national financial plans for biodiversity; (d) Been provided with the necessary funding and capacity building to undertake the above activities",Available,Data pending,Data pending,N,Y,Y,Secretariat of the Convention on Biological Diversity (SCBD),N,N,N,N,
+Target 20,None adopted,N,N,N,N,N,N,N,N,N,N,N,
+Target 21,Growth in number of records and species in the Living Planet Index database,Available,2006 - 2020,Yearly,Y,N,N,Zoological Society London (ZSL),N,N,N,N,
+Target 21,Growth in species occurrence records accessible through the Global Biodiversity Information Facility,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 21,Growth in marine species occurrence records accessible through OBIS,Available,2000 - 2020,Data pending,Y,N,N,"Intergovernmental Oceanographic Commission United Nations Educational, Scientific and Cultural Organization (IOC-UNESCO)",N,N,N,N,
+Target 21,Proportion of known species assessed through the IUCN Red List.,Available,1993 - 2021,Yearly,Y,N,Y,International Union for Conservation of Nature (IUCN),N,6NR 2 out of 20 countries sampled,Y,N,
+Target 21,Number of assessments on the IUCN Red List of threatened species,Available,1993 - 2021,Yearly,Y,N,N,International Union for Conservation of Nature (IUCN),N,N,Y,N,
+Target 21,World Association of Zoos and Aquariums (WAZA) bio-literacy survey (Biodiversity literacy in global zoo and aquarium visitors),Available,2012 - 2015,Data pending,Y,N,N,Chester Zoo; World Association of Zoos and Aquariums (WAZA),N,N,Y,Y,
 Target 21,"Species Status Information Index
-",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 22,"Percentage of positions in national and local institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups",Available,2000 - 2021,Yearly,Y,Y,Y,"","",N,N,Y
-Target 22,Number of countries with systems to track and make public allocations for gender equality and women's empowerment ,Available,Data pending,6 months,Y,Y,Y,Organisation for Economic Co-operation and Development (OECD); United Nations (UN) Women; United Nations Development Programme (UNDP),SDG,N,N,Y
-Target 22,"Proportion of total agricultural population with ownership or secure tenure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure",Available,2009 - 2019,Data pending,N,Y,Y,Food and Agriculture Organization (FAO),SDG,N,Data pending,Y
-Target 22,Number of countries where the legal framework (including customary law) guarantees women's equal rights to land ownership and/or control,Available,2019,2 years,Y,Y,Y,Food and Agriculture Organization (FAO),SDG,N,N,Y
-Target 22,Number of protected areas that have completed a site-level assessment of governance and equity (SAGE),In development,Data pending,Data pending,N,N,N,International Institute for Environment and Development (IIED),N,N,N,Y
-Target 22,"Trends in number of environmental human rights defenders killed annually, disaggregated by country, gender; number of indigenous environmental human rights defenders kill",Available,2016 - 2020,Yearly,Y,N,Y,Global Witness,N,N,N,Y
-Target 22,Land tenure [in the traditional territories] of indigenous peoples and local communities [by sex and type of tenure],Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 22,"Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 23,"Percentage of positions in national and local institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups",Available,2000 - 2021,Yearly,Y,Y,Y,Inter-Parliamentary Union (IPU); United Nations Development Programme (UNDP); Oslo Governance Centre,SDG,N,N,Y
-Target 23,"Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure ",Available,2009 - 2019,Data pending,N,Y,Y,Food and Agriculture Organization (FAO),SDG,N,Data pending,Y
-Target 23,Number of countries with systems to track and make public allocations for gender equality and women's empowerment ,Available,Data pending,6 months,Y,Y,Y,United Nations Development Programme (UNDP); United Nations Women; Organisation for Economic Co-operation and Development  (OECD),SDG,N,N,Y
-Target 23,Number of protected areas that have completed a site-level assessment of governance and equity (SAGE),In development,Data pending,Data pending,N,N,N,International Institute for Environment and Development (IIED),N,N,N,Y
-Target 23,"Percentage of population who believe decision making is inclusive and responsive, by sex, age, disability and population group",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
-Target 23,Proportion of countries where the legal framework (including customary law) guarantees women's equal rights to land ownership and/or control,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending
+",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 22,"Percentage of positions in national and local institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups",Available,2000 - 2021,Yearly,Y,Y,Y,,,N,N,Y,
+Target 22,Number of countries with systems to track and make public allocations for gender equality and women's empowerment ,Available,Data pending,6 months,Y,Y,Y,Organisation for Economic Co-operation and Development (OECD); United Nations (UN) Women; United Nations Development Programme (UNDP),SDG,N,N,Y,
+Target 22,"Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex",Available,2009 - 2019,Data pending,N,Y,Y,Food and Agriculture Organization (FAO),SDG,N,Data pending,Y,updated
+Target 22,"share of women among owners or rights-bearers of agricultural land, by type of tenure ",Available,2009 - 2019,Data pending,N,Y,Y,Food and Agriculture Organization (FAO),SDG,N,Data pending,Y,updated
+Target 22,Number of countries where the legal framework (including customary law) guarantees women's equal rights to land ownership and/or control,Available,2019,2 years,Y,Y,Y,Food and Agriculture Organization (FAO),SDG,N,N,Y,
+Target 22,Number of protected areas that have completed a site-level assessment of governance and equity (SAGE),In development,Data pending,Data pending,N,N,N,International Institute for Environment and Development (IIED),N,N,N,Y,
+Target 22,"Trends in number of environmental human rights defenders killed annually, disaggregated by country, gender; number of indigenous environmental human rights defenders kill",Available,2016 - 2020,Yearly,Y,N,Y,Global Witness,N,N,N,Y,
+Target 22,Land tenure [in the traditional territories] of indigenous peoples and local communities [by sex and type of tenure],Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 22,"Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 23,"Percentage of positions in national and local institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups",Available,2000 - 2021,Yearly,Y,Y,Y,Inter-Parliamentary Union (IPU); United Nations Development Programme (UNDP); Oslo Governance Centre,SDG,N,N,Y,
+Target 23,"Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex",Available,2009 - 2019,Data pending,N,Y,Y,Food and Agriculture Organization (FAO),SDG,N,Data pending,Y,updated
+Target 23,"share of women among owners or rights-bearers of agricultural land, by type of tenure ",Available,2009 - 2019,Data pending,N,Y,Y,Food and Agriculture Organization (FAO),SDG,N,Data pending,Y,updated
+Target 23,Number of countries with systems to track and make public allocations for gender equality and women's empowerment ,Available,Data pending,6 months,Y,Y,Y,United Nations Development Programme (UNDP); United Nations Women; Organisation for Economic Co-operation and Development  (OECD),SDG,N,N,Y,
+Target 23,Number of protected areas that have completed a site-level assessment of governance and equity (SAGE),In development,Data pending,Data pending,N,N,N,International Institute for Environment and Development (IIED),N,N,N,Y,
+Target 23,"Percentage of population who believe decision making is inclusive and responsive, by sex, age, disability and population group",Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,
+Target 23,Proportion of countries where the legal framework (including customary law) guarantees women's equal rights to land ownership and/or control,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,Data pending,

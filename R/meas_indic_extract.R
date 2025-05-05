@@ -27,17 +27,13 @@ library(dplyr)
 library(tidyr)
 library(readr)
 library(data.table)
-library(purrr)
-library(googlesheets4)
-library(ggplot2)
-library(circlize)
-library(ggalluvial)
+
 
 # Load indicators from conventions (policy)----
 ## Indicators from KM_GBF----
 
 complementary =  read_csv("../input/meas/GBF/complementary_indicators_2025-01-15.csv") %>% 
-  dplyr::select("Goal/target","Indicator name") %>% 
+  dplyr::select("Goal/target", "indicator_name" = "Indicator name") %>% 
   mutate(indicator_type = 'complementary') %>% 
   # create ID
   mutate(indic_id = paste0('GBF_',`Goal/target`,'_CY_',row_number())) %>% 
@@ -45,7 +41,7 @@ complementary =  read_csv("../input/meas/GBF/complementary_indicators_2025-01-15
   mutate(indic_id = gsub('Target ', 'T', indic_id)) 
 
 component =  read_csv("../input/meas/GBF/component_indicators_2025-01-15.csv") %>% 
-  dplyr::select("Goal/target","Indicator name") %>% 
+  dplyr::select("Goal/target","indicator_name" = "Indicator name") %>% 
   mutate(indicator_type = 'component') %>% 
   # create ID
   mutate(indic_id = paste0('GBF_',`Goal/target`,'_C_',row_number())) %>% 
@@ -53,10 +49,10 @@ component =  read_csv("../input/meas/GBF/component_indicators_2025-01-15.csv") %
   mutate(indic_id = gsub('Target ', 'T', indic_id)) 
 
 headline =  read_csv("../input/meas/GBF/headline_indicators_2025-01-15.csv") %>% 
-  dplyr::select("Goal/target","Indicator name", "Group") %>% 
+  dplyr::select("Goal/target","indicator_name" = "Indicator name", "Group") %>% 
   rename(indicator_type = Group) %>% 
   # remove the goals in indicator name
-  dplyr::mutate(`Indicator name` = word(`Indicator name`, start = 2,end = -1, sep = ' ')) %>% 
+  dplyr::mutate(indicator_name = word(indicator_name, start = 2,end = -1, sep = ' ')) %>% 
   # create ID
   mutate(indic_id = paste0('GBF_',`Goal/target`,'_H_',row_number())) %>% 
   mutate(indic_id = gsub('Goal ', 'G', indic_id)) %>% 
@@ -66,8 +62,10 @@ headline =  read_csv("../input/meas/GBF/headline_indicators_2025-01-15.csv") %>%
 gbf = headline %>% 
   # Join all types of indicators proposed
   rbind(component,complementary) %>% 
-  mutate(indicator_name = gsub('None adopted','',`Indicator name`))
-write_csv(gbf, '../input/meas/GBF/gbf_indicators.csv')
+  # remove non adopted indicators
+  filter(indicator_name != "None adopted") %>% 
+  # save all gbf indicators
+  write_csv('../input/meas/GBF/gbf_indicators.csv')
 
 # Harmonize indicators
 gbf = gbf %>% 
@@ -99,7 +97,7 @@ indic_gbf = gbf %>%
   # add source
   dplyr::mutate(gbf = 1)
 
-rm(headline, component, complementary)
+rm(headline, component, complementary,gbf)
 
 ## Indicators from SDGs----
 
@@ -206,8 +204,34 @@ ramsar = ramsar %>%
   dplyr::mutate(indic_id = paste0(id,"_",row_number())) %>% 
   dplyr::mutate(indic_id = gsub("_T",".",indic_id)) %>% 
   # harmonize indicators
-  dplyr::mutate(indicators_h = gsub("[(]Data source[:] National Reports[)][.]","",indic)) %>% 
-  dplyr::mutate(indicators_h = gsub("[(]Data source[:] National Reports[)]","",indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.] [(]Data source[:] National Reports[)][.]","",indic)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.] [(]Data source[:] National Reports[)]","",indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.] [(]Data source[:] National Report[)]","",indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.] indicator from resolution ix[.]1 to be developed","",indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.] [(]Data source[:] Ramsar web[-]site analytics[)]","",indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.] [(]Data source[:] Ramsar web[-]site[)][.] ","",indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.] [(]Data source[:] Ramsar web[-]site[)]","",indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.] [(]Data source[:] internet analysis[)][.]","",indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.] [(]Data source[:] internet analysis[)]","",indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.] [(]National Reports to COP12[)][.] ","",indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.] [(]National Reports to COP12[)][.]","",indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.] [(]Data source[:] new question for National Reports[)][.]","",indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.] [(]Data source[:] new National Report question[)][.]","",indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.] [(]Data source[:] Ramsar Sites database[)]","",indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.] [(]Data source[:] Ramsar Site database[)]","",indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.] [(]Data source[:] Ramsar Sites Database[)][.]","",indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub(" [(]Data source[:] Ramsar Sites database[)]","",indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.] [(]Data source[:] National Reports[)][.] ","",indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[(]Data source[:] National Reports[)][.]","",indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.] [(]Data source[:] National Reports[)][.]","",indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.] [(]Data Source[:] National Reports[)][.]","",indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.] [(]Data source[:] Google Analytics Ramsar web[-]site[,] May[-]June[,] 2015[)][)][.] ","",indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.] [(]Data source[:] Ramsar CEPA program[)]","",indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.] [(]Data source[:] Ramsar CEPA program[)][.] ","",indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.] [(]Data source[:] Ramsar CEPA program[)][.]","",indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.] [(]Data source[:] social media analysis[)][.]","",indicators_h)) %>% 
+  #dplyr::mutate(indicators_h = gsub(" [(]Data source[:] Ramsar Sites database[)]","",indicators_h)) %>% 
+  
   dplyr::mutate(indicators_h = gsub('  ', '',indicators_h)) %>% 
   dplyr::mutate(indicators_h = tolower(indicators_h)) %>%
   dplyr::mutate(indicators_h = str_trim(indicators_h)) %>% 
@@ -230,6 +254,8 @@ indic_ramsar = ramsar %>%
   dplyr::summarise(indic_ids = paste0(indic_id, collapse = ";")) %>% 
   # add source
   dplyr::mutate(ramsar = 1)
+
+rm(ramsar)
 
 ## Indicators from tables and appendices in UNCCD----
 
@@ -263,6 +289,8 @@ indic_unccd = unccd %>%
   dplyr::summarise(indic_ids = paste0(indic_id, collapse = ";")) %>% 
   # add source
   dplyr::mutate(unccd = 1)
+
+rm(unccd)
 
 ## Indicators from tables and appendices in CMS----
 
@@ -307,6 +335,7 @@ indic_cms = cms %>%
   # add source
   dplyr::mutate(cms = 1)
 
+rm(cms)
 
 # ## Indicators from tables and appendices in ICCWC----
 # 
@@ -345,3 +374,5 @@ indic_policy = indic_gbf %>%
   dplyr::select("indicator_harmonized","indic_ids","gbf","sdg", "cites","cms","ramsar","unccd") %>% 
   # save data
   write_csv('../input/meas/policy_indicators.csv')
+
+#indic_policy = read_csv('../input/meas/policy_indicators.csv')

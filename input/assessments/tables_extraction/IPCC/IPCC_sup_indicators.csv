@@ -1,0 +1,54 @@
+indicator_orig,indic_id,indicator_harmonized
+Monthly maximum value of daily maximum temperature,IPCC_sup_1,monthly maximum value of daily maximum temperature
+Monthly minimum value of daily maximum temperature,IPCC_sup_2,monthly minimum value of daily maximum temperature
+Monthly minimum value of daily minimum temperature,IPCC_sup_3,monthly minimum value of daily minimum temperature
+Monthly maximum value of daily minimum temperature,IPCC_sup_4,monthly maximum value of daily minimum temperature
+Percentage of days when daily maximum temperature is greater than the 90th percentile,IPCC_sup_5,percentage of days when daily maximum temperature is greater than the 90th percentile
+Percentage of days when daily maximum temperature is less than the 10th percentile,IPCC_sup_6,percentage of days when daily maximum temperature is less than the 10th percentile
+Percentage of days when daily minimum temperature is greater than the 90th percentile,IPCC_sup_7,percentage of days when daily minimum temperature is greater than the 90th percentile
+Percentage of days when daily minimum temperature is less than the 10th percentile,IPCC_sup_8,percentage of days when daily minimum temperature is less than the 10th percentile
+Number of icing days: annual count of days when TX (daily maximum temperature) <0°C,IPCC_sup_9,number of icing days: annual count of days when tx (daily maximum temperature) <0°c
+Number of frost days: annual count of days when TN (daily minimum temperature) <0°C,IPCC_sup_10,number of frost days: annual count of days when tn (daily minimum temperature) <0°c
+Warm spell duration index: annual count of days with at least six consecutive days when TX >90th percentile,IPCC_sup_11,warm spell duration index (wsdi)
+Cold spell duration index: annual count of days with at least six consecutive days when TN <10th percentile,IPCC_sup_12,cold spell duration index: annual count of days with at least six consecutive days when tn <10th percentile
+Number of summer days: annual count of days when TX (daily maximum temperature) >25°C,IPCC_sup_13,number of summer days: annual count of days when tx (daily maximum temperature) >25°c
+Number of tropical nights: annual count of days when TN (daily minimum temperature) >20°C,IPCC_sup_14,number of tropical nights: annual count of days when tn (daily minimum temperature) >20°c
+Daily temperature range: monthly mean difference between TX and TN,IPCC_sup_15,daily temperature range: monthly mean difference between tx and tn
+"Growing season length: annual (1 Jan to 31 Dec in Northern Hemisphere (NH), 1 July to 30 June in Southern Hemisphere (SH)) count between first span of at least six days with daily mean temperature TG >5°C and first span after July 1 (Jan 1 in SH) of six days with TG <5°C",IPCC_sup_16,"growing season length: annual (1 jan to 31 dec in northern hemisphere (nh), 1 july to 30 june in southern hemisphere (sh)) count between first span of at least six days with daily mean temperature tg >5°c and first span after july 1 (jan 1 in sh) of six days with tg <5°c"
+One-in-20 year return value of monthly maximum value of daily maximum temperature,IPCC_sup_17,one-in-20 year return value of monthly maximum value of daily maximum temperature
+One-in-20 year return value of monthly minimum value of daily maximum temperature,IPCC_sup_18,one-in-20 year return value of monthly minimum value of daily maximum temperature
+One-in-20 year return value of monthly minimum value of daily minimum temperature,IPCC_sup_19,one-in-20 year return value of monthly minimum value of daily minimum temperature
+One-in-20 year return value of monthly maximum value of daily minimum temperature,IPCC_sup_20,one-in-20 year return value of monthly maximum value of daily minimum temperature
+Maximum one-day precipitation,IPCC_sup_21,maximum one-day precipitation
+Maximum five-day precipitation,IPCC_sup_22,maximum five-day precipitation
+Annual count of days when precipitation is greater than or equal to 5 mm,IPCC_sup_23,annual count of days when precipitation is greater than or equal to 5 mm
+Annual count of days when precipitation is greater than or equal to 10 mm,IPCC_sup_24,annual count of days when precipitation is greater than or equal to 10 mm
+Annual count of days when precipitation is greater than or equal to 20 mm,IPCC_sup_25,annual count of days when precipitation is greater than or equal to 20 mm
+Annual count of days when precipitation is greater than or equal to 50 mm,IPCC_sup_26,annual count of days when precipitation is greater than or equal to 50 mm
+Maximum number of consecutive days with less than 1 mm of precipitation per day,IPCC_sup_27,maximum number of consecutive days with less than 1 mm of precipitation per day
+Maximum number of consecutive days with more than or equal to 1 mm of precipitation per day,IPCC_sup_28,maximum number of consecutive days with more than or equal to 1 mm of precipitation per day
+Annual total precipitation when the daily precipitation exceeds the 95th percentile of the wet-day (>1 mm) precipitation,IPCC_sup_29,annual total precipitation when the daily precipitation exceeds the 95th percentile of the wet-day (>1 mm) precipitation
+Annual precipitation amount when the daily precipitation exceeds the 99th percentile of the wet-day precipitation,IPCC_sup_30,annual precipitation amount when the daily precipitation exceeds the 99th percentile of the wet-day precipitation
+Simple precipitation intensity index,IPCC_sup_31,simple precipitation intensity index
+One-in-20 year return value of maximum one-day precipitation,IPCC_sup_32,one-in-20 year return value of maximum one-day precipitation
+One-in-20 year return value of maximum five-day precipitation,IPCC_sup_33,one-in-20 year return value of maximum five-day precipitation
+Standardized precipitation index,IPCC_sup_34,standardized precipitation index
+"Potential evaporation, evaporative demand drought index",IPCC_sup_35,"potential evaporation, evaporative demand drought index"
+Soil moisture anomalies,IPCC_sup_36,soil moisture anomalies
+Standardized soil moisture index,IPCC_sup_37,standardized soil moisture index
+Standardized runoff index,IPCC_sup_38,standardized runoff index
+Standardized streamflow index,IPCC_sup_39,standardized streamflow index
+Palmer drought severity index,IPCC_sup_40,palmer drought severity index (pdsi)
+Standardized precipitation evapotranspiration index,IPCC_sup_41,standardized precipitation evapotranspiration index (spei)
+Cooling degree days above 22°C,IPCC_sup_42,cooling degree days
+"Number of days with Tmax >35°C or 40°C (TX35, TX40)",IPCC_sup_43,"number of days with tmax >35°c or 40°c (tx35, tx40)"
+NOAA heat index (HI): number of days above 41°C threshold,IPCC_sup_44,noaa heat index (hi): number of days above 41°c threshold
+Heating degree days below 15.5°C,IPCC_sup_45,heating degree days below 15.5°c
+Number of frost days below 0°C (FD),IPCC_sup_46,number of frost days below 0°c (fd)
+Flood index (FI),IPCC_sup_47,flood index (fi)
+Soil moisture (SM),IPCC_sup_48,soil moisture
+Standardized Precipitation Index accumulated over 6 months (SPI-6),IPCC_sup_49,standardized precipitation index accumulated over 6 months (spi-6)
+Annual mean wind speed,IPCC_sup_50,annual mean wind speed
+Number of days with snow water equivalent >100 mm (SWE100) over the snow season (Nov–Mar for NH),IPCC_sup_51,number of days with snow water equivalent >100 mm (swe100) over the snow season (nov-mar for nh)
+1-in-100-year return period level (ETWL),IPCC_sup_52,1-in-100-year return period level (etwl)
+Shoreline retreat by mid- and end of century,IPCC_sup_53,shoreline retreat by mid- and end of century

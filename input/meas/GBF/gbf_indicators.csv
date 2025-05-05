@@ -1,445 +1,414 @@
-Goal/target,Indicator name,indicator_type,indic_id,indicator_name
-Goal A,Red List of Ecosystems,Headline,GBF_GA_H_1,Red List of Ecosystems
-Goal A,Extent of natural ecosystems,Headline,GBF_GA_H_2,Extent of natural ecosystems
-Goal A,Red List Index,Headline,GBF_GA_H_3,Red List Index
-Goal A,The proportion of populations within species with an effective population size > 500,Headline,GBF_GA_H_4,The proportion of populations within species with an effective population size > 500
-Goal B,Services provided by ecosystems,Headline,GBF_GB_H_5,Services provided by ecosystems
-Goal B,"Number of countries with policies or action plans for [[implementing and monitoring] the sustainable use of biodiversity and the maintenance and enhancement of nature’s contributions to people, including ecosystem functions and services [in a manner supportive of sustainable development][and processes to value biodiversity as well as policies to ensure the provision of ecosystem services for present and future generations]][promoting the achievement of Goal B].",Binary,GBF_GB_H_6,"Number of countries with policies or action plans for [[implementing and monitoring] the sustainable use of biodiversity and the maintenance and enhancement of nature’s contributions to people, including ecosystem functions and services [in a manner supportive of sustainable development][and processes to value biodiversity as well as policies to ensure the provision of ecosystem services for present and future generations]][promoting the achievement of Goal B]."
-Goal C,Monetary benefits received in accordance with applicable internationally agreed Access and Benefit-sharing instruments,Headline,GBF_GC_H_7,Monetary benefits received in accordance with applicable internationally agreed Access and Benefit-sharing instruments
-Goal C,Non-monetary benefits arising from applicable international Access and Benefit-sharing instruments,Headline,GBF_GC_H_8,Non-monetary benefits arising from applicable international Access and Benefit-sharing instruments
-Goal C,"Number of countries that have taken effective legal, policy, administrative and capacity-building measures at all levels, as appropriate, to ensure the fair and equitable sharing of benefits from the utilization of genetic resources and from digital sequence information on genetic resources, as well as traditional knowledge associated with genetic resources.",Binary,GBF_GC_H_9,"Number of countries that have taken effective legal, policy, administrative and capacity-building measures at all levels, as appropriate, to ensure the fair and equitable sharing of benefits from the utilization of genetic resources and from digital sequence information on genetic resources, as well as traditional knowledge associated with genetic resources."
-Goal D,"International public funding, including official development assistance (ODA) for conservation and sustainable use of biodiversity and ecosystems",Headline,GBF_GD_H_10,"International public funding, including official development assistance (ODA) for conservation and sustainable use of biodiversity and ecosystems"
-Goal D,Domestic public funding on conservation and sustainable use of biodiversity and ecosystems,Headline,GBF_GD_H_11,Domestic public funding on conservation and sustainable use of biodiversity and ecosystems
-Goal D,Private funding (domestic and international) on conservation and sustainable use of biodiversity and ecosystems,Headline,GBF_GD_H_12,Private funding (domestic and international) on conservation and sustainable use of biodiversity and ecosystems
-Target 1,Red List of Ecosystems,Headline,GBF_T1_H_13,Red List of Ecosystems
-Target 1,Extent of natural ecosystems,Headline,GBF_T1_H_14,Extent of natural ecosystems
-Target 1,Percentage of land and seas covered by biodiversity-inclusive spatial plans,Headline,GBF_T1_H_15,Percentage of land and seas covered by biodiversity-inclusive spatial plans
-Target 1,"Number of countries using participatory, integrated and biodiversity-inclusive spatial planning or effective management processes to address land and sea use change.",Binary,GBF_T1_H_16,"Number of countries using participatory, integrated and biodiversity-inclusive spatial planning or effective management processes to address land and sea use change."
-Target 2,Area under restoration,Headline,GBF_T2_H_17,Area under restoration
-Target 3,Coverage of protected areas and other effective area-based conservation measures,Headline,GBF_T3_H_18,Coverage of protected areas and other effective area-based conservation measures
-Target 4,Red List Index,Headline,GBF_T4_H_19,Red List Index
-Target 4,The proportion of populations within species with an effective population size > 500,Headline,GBF_T4_H_20,The proportion of populations within species with an effective population size > 500
-Target 5,Proportion of fish stocks within biologically sustainable levels,Headline,GBF_T5_H_21,Proportion of fish stocks within biologically sustainable levels
-Target 6,Rate of invasive alien species establishment,Headline,GBF_T6_H_22,Rate of invasive alien species establishment
-Target 6,"Number of countries adopting relevant regulation, processes and measures and allocating resources to reduce the impact of invasive alien species.",Binary,GBF_T6_H_23,"Number of countries adopting relevant regulation, processes and measures and allocating resources to reduce the impact of invasive alien species."
-Target 7,Index of coastal eutrophication potential,Headline,GBF_T7_H_24,Index of coastal eutrophication potential
-Target 7,Aggregated Total Applied Toxicity,Headline,GBF_T7_H_25,Aggregated Total Applied Toxicity
-Target 8,Number of countries with agreed policies to minimize the impact of climate change and ocean acidification on biodiversity and that minimize negative and foster positive impacts of climate action on biodiversity.,Binary,GBF_T8_H_26,Number of countries with agreed policies to minimize the impact of climate change and ocean acidification on biodiversity and that minimize negative and foster positive impacts of climate action on biodiversity.
-Target 9,Benefits from the sustainable use of wild species,Headline,GBF_T9_H_27,Benefits from the sustainable use of wild species
-Target 9,Percentage of the population in traditional occupations,Headline,GBF_T9_H_28,Percentage of the population in traditional occupations
-Target 9,"Number of countries with policies to sustainably manage, use [and trade] wild species, providing social, economic and environmental benefits for people, and that protect and encourage customary sustainable use [of wild species] by indigenous peoples and local communities.",Binary,GBF_T9_H_29,"Number of countries with policies to sustainably manage, use [and trade] wild species, providing social, economic and environmental benefits for people, and that protect and encourage customary sustainable use [of wild species] by indigenous peoples and local communities."
-Target 10,Proportion of agricultural area under productive and sustainable agriculture,Headline,GBF_T10_H_30,Proportion of agricultural area under productive and sustainable agriculture
-Target 10,Progress towards sustainable forest management,Headline,GBF_T10_H_31,Progress towards sustainable forest management
-Target 11,Services provided by ecosystems,Headline,GBF_T11_H_32,Services provided by ecosystems
-Target 12,Average share of the built-up area of cities that is green/blue space for public use for all,Headline,GBF_T12_H_33,Average share of the built-up area of cities that is green/blue space for public use for all
-Target 12,Number of countries with biodiversity-inclusive urban planning referring to green or blue urban spaces.,Binary,GBF_T12_H_34,Number of countries with biodiversity-inclusive urban planning referring to green or blue urban spaces.
-Target 13,Indicator on monetary benefits received,Headline,GBF_T13_H_35,Indicator on monetary benefits received
-Target 13,Indicator on non-monetary benefits,Headline,GBF_T13_H_36,Indicator on non-monetary benefits
-Target 13,"Number of countries that have taken effective legal, policy, administrative and capacity-building measures at all levels, as appropriate, to ensure the fair and equitable sharing of benefits from the utilization of genetic resources and from digital sequence information on genetic resources, as well as traditional knowledge associated with genetic resources.",Binary,GBF_T13_H_37,"Number of countries that have taken effective legal, policy, administrative and capacity-building measures at all levels, as appropriate, to ensure the fair and equitable sharing of benefits from the utilization of genetic resources and from digital sequence information on genetic resources, as well as traditional knowledge associated with genetic resources."
-Target 14,"Number of countries integrating biodiversity and its multiple values into policies, regulations, planning, development processes, poverty [reduction][eradication] strategies and accounts at all levels, [ensuring that biodiversity values are mainstreamed] [and] across all sectors [ and fiscal and financial flows are aligned with it].",Binary,GBF_T14_H_38,"Number of countries integrating biodiversity and its multiple values into policies, regulations, planning, development processes, poverty [reduction][eradication] strategies and accounts at all levels, [ensuring that biodiversity values are mainstreamed] [and] across all sectors [ and fiscal and financial flows are aligned with it]."
-Target 15,"Number of companies disclosing their biodiversity-related risks, dependencies and impacts",Headline,GBF_T15_H_39,"Number of companies disclosing their biodiversity-related risks, dependencies and impacts"
-Target 15,"Number of countries taking legal, administrative or policy measures aimed at encouraging and enabling business and financial institutions, and in particular, ensuring that large and transnational companies and financial institutions, to progressively reduce negative impacts from business and financial institutions on biodiversity, increase their positive impacts, reduce their biodiversity-related risks and promote actions to ensure sustainable patterns of production.",Binary,GBF_T15_H_40,"Number of countries taking legal, administrative or policy measures aimed at encouraging and enabling business and financial institutions, and in particular, ensuring that large and transnational companies and financial institutions, to progressively reduce negative impacts from business and financial institutions on biodiversity, increase their positive impacts, reduce their biodiversity-related risks and promote actions to ensure sustainable patterns of production."
-Target 16,"Number of countries developing, adopting or implementing policy instruments aimed at encouraging and enabling people to make sustainable consumption choices.",Binary,GBF_T16_H_41,"Number of countries developing, adopting or implementing policy instruments aimed at encouraging and enabling people to make sustainable consumption choices."
-Target 17,Number of countries that have taken action to implement biosafety measures as set out in Article 8(g) of the Convention and measures for the handling of biotechnology and the distribution of its benefits as set out in Article 19.,Binary,GBF_T17_H_42,Number of countries that have taken action to implement biosafety measures as set out in Article 8(g) of the Convention and measures for the handling of biotechnology and the distribution of its benefits as set out in Article 19.
-Target 18,Positive incentives in place to promote biodiversity conservation and sustainable use,Headline,GBF_T18_H_43,Positive incentives in place to promote biodiversity conservation and sustainable use
-Target 18,Value of subsidies and other incentives harmful to biodiversity,Headline,GBF_T18_H_44,Value of subsidies and other incentives harmful to biodiversity
-Target 19,"International public funding, including official development assistance (ODA) for conservation and sustainable use of biodiversity and ecosystems",Headline,GBF_T19_H_45,"International public funding, including official development assistance (ODA) for conservation and sustainable use of biodiversity and ecosystems"
-Target 19,Domestic public funding on conservation and sustainable use of biodiversity and ecosystems,Headline,GBF_T19_H_46,Domestic public funding on conservation and sustainable use of biodiversity and ecosystems
-Target 19,Private funding (domestic and international) on conservation and sustainable use of biodiversity and ecosystems,Headline,GBF_T19_H_47,Private funding (domestic and international) on conservation and sustainable use of biodiversity and ecosystems
-Target 20,"Number of countries that have taken significant action to strengthen capacity-building and development, access to and transfer of technology, and to promote the development of and access to innovation and technical and scientific cooperation.",Binary,GBF_T20_H_48,"Number of countries that have taken significant action to strengthen capacity-building and development, access to and transfer of technology, and to promote the development of and access to innovation and technical and scientific cooperation."
-Target 21,Indicator on biodiversity information for monitoring the global biodiversity framework,Headline,GBF_T21_H_49,Indicator on biodiversity information for monitoring the global biodiversity framework
-Target 22,"Number of countries [promoting the full, equitable, inclusive, effective and gender-responsive representation and participation] and [recognizing the rights of indigenous peoples and local communities with respect to their traditional territories, cultures and practices as well as the rights of environmental human rights defenders, women, youth, and persons with disabilities] [ensuring representation and participation in decision-making and access to justice and information in relation with biodiversity and ensuring the legal rights of indigenous peoples and local communities, including respecting their rights over lands, territories, resources and traditional knowledge, women and girls, children and youth and persons with disabilities, and ensuring the full protection of human rights of environmental defenders.]",Binary,GBF_T22_H_50,"Number of countries [promoting the full, equitable, inclusive, effective and gender-responsive representation and participation] and [recognizing the rights of indigenous peoples and local communities with respect to their traditional territories, cultures and practices as well as the rights of environmental human rights defenders, women, youth, and persons with disabilities] [ensuring representation and participation in decision-making and access to justice and information in relation with biodiversity and ensuring the legal rights of indigenous peoples and local communities, including respecting their rights over lands, territories, resources and traditional knowledge, women and girls, children and youth and persons with disabilities, and ensuring the full protection of human rights of environmental defenders.]"
-Target 23,"Number of countries with legal, administrative or policy frameworks, including the Gender Plan of Action, as well as the allocation of specific financial resources to ensure that all women and girls have equal opportunity and capacity to contribute to the three objectives of the Convention, including by ensuring women’s equal rights and access to land and natural resources.",Binary,GBF_T23_H_51,"Number of countries with legal, administrative or policy frameworks, including the Gender Plan of Action, as well as the allocation of specific financial resources to ensure that all women and girls have equal opportunity and capacity to contribute to the three objectives of the Convention, including by ensuring women’s equal rights and access to land and natural resources."
-Goal A,Ecosystem Intactness Index,component,GBF_GA_C_1,Ecosystem Intactness Index
-Goal A,Ecosystem Integrity Index,component,GBF_GA_C_2,Ecosystem Integrity Index
-Goal A,Species habitat Index,component,GBF_GA_C_3,Species habitat Index
-Goal A,Biodiversity Habitat Index,component,GBF_GA_C_4,Biodiversity Habitat Index
-Goal A,Protected Connected (Protconn) index,component,GBF_GA_C_5,Protected Connected (Protconn) index
-Goal A,Protected Area Connectedness Index (PARC-Connectedness),component,GBF_GA_C_6,Protected Area Connectedness Index (PARC-Connectedness)
-Goal A,Evolutionarily Distinct and Globally Endangered (EDGE),component,GBF_GA_C_7,Evolutionarily Distinct and Globally Endangered (EDGE)
-Goal A,Living Planet Index,component,GBF_GA_C_8,Living Planet Index
-Goal A,Change in the extent of water-related ecosystems over time,component,GBF_GA_C_9,Change in the extent of water-related ecosystems over time
-Goal B,Red List Index (for utilized species),component,GBF_GB_C_10,Red List Index (for utilized species)
-Goal B,Living Planet Index (for used species),component,GBF_GB_C_11,Living Planet Index (for used species)
-Goal C,None adopted,component,GBF_GC_C_12,
-Goal D,None adopted,component,GBF_GD_C_13,
-Target 1,Priority retention of intact / wilderness areas,component,GBF_T1_C_14,Priority retention of intact / wilderness areas
-Target 2,Extent of natural ecosystems by type,component,GBF_T2_C_15,Extent of natural ecosystems by type
-Target 2,Maintenance and restoration of connectivity of natural ecosystems,component,GBF_T2_C_16,Maintenance and restoration of connectivity of natural ecosystems
-Target 3,Protected area coverage of key biodiversity areas,component,GBF_T3_C_17,Protected area coverage of key biodiversity areas
-Target 3,Protected Area Management Effectiveness (PAME),component,GBF_T3_C_18,Protected Area Management Effectiveness (PAME)
-Target 3,Protconn,component,GBF_T3_C_19,Protconn
-Target 3,Protected Area Connectedness Index (PARC-Connectedness),component,GBF_T3_C_20,Protected Area Connectedness Index (PARC-Connectedness)
-Target 3,Red List of Ecosystems,component,GBF_T3_C_21,Red List of Ecosystems
-Target 3,Connectivity Indicator (in development),component,GBF_T3_C_22,Connectivity Indicator (in development)
-Target 3,The number of protected areas that have completed a site-level assessment of governance and equity (SAGE),component,GBF_T3_C_23,The number of protected areas that have completed a site-level assessment of governance and equity (SAGE)
-Target 3,Species Protection Index,component,GBF_T3_C_24,Species Protection Index
-Target 4,Living Planet Index,component,GBF_T4_C_25,Living Planet Index
-Target 4,Number of plant and animal genetic resources secured in medium or long-term conservation facilities,component,GBF_T4_C_26,Number of plant and animal genetic resources secured in medium or long-term conservation facilities
-Target 4,Trends in effective and sustainable management of human-wildlife conflict and coexistence,component,GBF_T4_C_27,Trends in effective and sustainable management of human-wildlife conflict and coexistence
-Target 4,Green Status of Species Index,component,GBF_T4_C_28,Green Status of Species Index
-Target 4,Conservation status of species listed in the CITES Appendices has stabilized or improved,component,GBF_T4_C_29,Conservation status of species listed in the CITES Appendices has stabilized or improved
-Target 5,Red List Index for used species,component,GBF_T5_C_30,Red List Index for used species
-Target 5,Living Planet Index for used species,component,GBF_T5_C_31,Living Planet Index for used species
-Target 5,Sustainable use of Wild Species,component,GBF_T5_C_32,Sustainable use of Wild Species
-Target 6,Rate of invasive species impact and rate of impact,component,GBF_T6_C_33,Rate of invasive species impact and rate of impact
-Target 6,Rate of invasive alien species spread,component,GBF_T6_C_34,Rate of invasive alien species spread
-Target 6,Number of invasive alien species introduction events,component,GBF_T6_C_35,Number of invasive alien species introduction events
-Target 7,Fertilizer use,component,GBF_T7_C_36,Fertilizer use
-Target 7,Proportion of domestic and industrial wastewater flow safely treated,component,GBF_T7_C_37,Proportion of domestic and industrial wastewater flow safely treated
-Target 7,Floating plastic debris density [by micro and macro plastics],component,GBF_T7_C_38,Floating plastic debris density [by micro and macro plastics]
-Target 7,Red List Index (impact of pollution),component,GBF_T7_C_39,Red List Index (impact of pollution)
-Target 8,Total climate regulation services provided by ecosystems by ecosystem type (System of Environmental Economic Accounts),component,GBF_T8_C_40,Total climate regulation services provided by ecosystems by ecosystem type (System of Environmental Economic Accounts)
-Target 8,Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030 which include biodiversity,component,GBF_T8_C_41,Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030 which include biodiversity
-Target 8,National greenhouse inventories from land use and land use change,component,GBF_T8_C_42,National greenhouse inventories from land use and land use change
-Target 8,Bioclimatic Ecosystem Resilience Index (BERI),component,GBF_T8_C_43,Bioclimatic Ecosystem Resilience Index (BERI)
-Target 9,"Number of people using wild resources for energy, food or culture (including firewood collection, hunting and fishing, gathering, medicinal use, craft making, etc.)",component,GBF_T9_C_44,"Number of people using wild resources for energy, food or culture (including firewood collection, hunting and fishing, gathering, medicinal use, craft making, etc.)"
-Target 9,Red List Index (species used for food and medicine),component,GBF_T9_C_45,Red List Index (species used for food and medicine)
-Target 9,Living Planet Index (for used species),component,GBF_T9_C_46,Living Planet Index (for used species)
-Target 10,Area of forest under sustainable management: total forest management certification by Forest Stewardship Council and Programme for the Endorsement of Forest Certification,component,GBF_T10_C_47,Area of forest under sustainable management: total forest management certification by Forest Stewardship Council and Programme for the Endorsement of Forest Certification
-Target 10,"Average income of small-scale food producers, by sex and indigenous status",component,GBF_T10_C_48,"Average income of small-scale food producers, by sex and indigenous status"
-Target 11,"Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",component,GBF_T11_C_49,"Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population"
-Target 11,"Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services)",component,GBF_T11_C_50,"Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services)"
-Target 11,Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities,component,GBF_T11_C_51,Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities
-Target 11,Proportion of bodies of water with good ambient water quality,component,GBF_T11_C_52,Proportion of bodies of water with good ambient water quality
-Target 11,Level of water stress,component,GBF_T11_C_53,Level of water stress
-Target 12,Recreation and cultural ecosystem services provided,component,GBF_T12_C_54,Recreation and cultural ecosystem services provided
-Target 13,Number of permits or their equivalents for genetic resources (including those related to traditional knowledge) by type of permit,component,GBF_T13_C_55,Number of permits or their equivalents for genetic resources (including those related to traditional knowledge) by type of permit
-Target 14,Number of countries with Implementation of the System of Environmental Economic Accounting,component,GBF_T14_C_56,Number of countries with Implementation of the System of Environmental Economic Accounting
-Target 15,Indicator based on Task Force for Naturerelated Financial Disclosures,component,GBF_T15_C_57,Indicator based on Task Force for Naturerelated Financial Disclosures
-Target 16,Food waste index,component,GBF_T16_C_58,Food waste index
-Target 16,Material footprint per capita,component,GBF_T16_C_59,Material footprint per capita
-Target 16,Global environmental impacts of consumption,component,GBF_T16_C_60,Global environmental impacts of consumption
-Target 16,Ecological footprint,component,GBF_T16_C_61,Ecological footprint
-Target 17,None adopted,component,GBF_T17_C_62,
-Target 18,"Value of subsidies and other incentives harmful to biodiversity, that are redirected, repurposed or eliminated",component,GBF_T18_C_63,"Value of subsidies and other incentives harmful to biodiversity, that are redirected, repurposed or eliminated"
-Target 19,None adopted,component,GBF_T19_C_64,
-Target 20,None adopted,component,GBF_T20_C_65,
-Target 21,Species status index,component,GBF_T21_C_66,Species status index
-Target 21,"Extent to which (i) global citizenship education and (ii) education for sustainable development, including gender equality and human rights, are mainstreamed at all levels in: (a) national education policies, (b) curricula, (c) teacher education and (d) student assessments",component,GBF_T21_C_67,"Extent to which (i) global citizenship education and (ii) education for sustainable development, including gender equality and human rights, are mainstreamed at all levels in: (a) national education policies, (b) curricula, (c) teacher education and (d) student assessments"
-Target 22,"Proportion of total adult population with secure tenure rights to land, (a) with legally recognized documentation, and (b) who perceive their rights to land as secure, by sex and type of tenure",component,GBF_T22_C_68,"Proportion of total adult population with secure tenure rights to land, (a) with legally recognized documentation, and (b) who perceive their rights to land as secure, by sex and type of tenure"
-Target 23,Proportion of seats held by women in (a) national parliaments and (b) local governments,component,GBF_T23_C_69,Proportion of seats held by women in (a) national parliaments and (b) local governments
-Target 23,Indicator on national implementation of the Gender Plan of Action 2023-2030,component,GBF_T23_C_70,Indicator on national implementation of the Gender Plan of Action 2023-2030
-Target 23,"Proportion of total adult population with secure tenure rights to land, (a) with legally recognized documentation, and (b) who perceive their rights to land as secure, by sex and type of tenure",component,GBF_T23_C_71,"Proportion of total adult population with secure tenure rights to land, (a) with legally recognized documentation, and (b) who perceive their rights to land as secure, by sex and type of tenure"
-Goal A,Forest area as a proportion of total land area,complementary,GBF_GA_CY_1,Forest area as a proportion of total land area
-Goal A,Forest distribution,complementary,GBF_GA_CY_2,Forest distribution
+Goal/target,indicator_name,indicator_type,indic_id
+Goal A,Red List of Ecosystems,Headline,GBF_GA_H_1
+Goal A,Extent of natural ecosystems,Headline,GBF_GA_H_2
+Goal A,Red List Index,Headline,GBF_GA_H_3
+Goal A,The proportion of populations within species with an effective population size > 500,Headline,GBF_GA_H_4
+Goal B,Services provided by ecosystems,Headline,GBF_GB_H_5
+Goal B,"Number of countries with policies or actions for implementing and monitoring the sustainable use of biodiversity and the maintenance and enhancement of nature's contributions to people, including ecosystem functions and services",Binary,GBF_GB_H_6
+Goal C,Monetary benefits received in accordance with applicable internationally agreed Access and Benefit-sharing instruments,Headline,GBF_GC_H_7
+Goal C,Non-monetary benefits arising from applicable international Access and Benefit-sharing instruments,Headline,GBF_GC_H_8
+Goal C,"Number of countries that have taken effective legal, policy, administrative and capacity-building measures at all levels, as appropriate, to ensure the fair and equitable sharing of benefits from the utilization of genetic resources and from digital sequence information on genetic resources, as well as traditional knowledge associated with genetic resources.",Binary,GBF_GC_H_9
+Goal D,"International public funding, including official development assistance (ODA) for conservation and sustainable use of biodiversity and ecosystems",Headline,GBF_GD_H_10
+Goal D,Domestic public funding on conservation and sustainable use of biodiversity and ecosystems,Headline,GBF_GD_H_11
+Goal D,Private funding (domestic and international) on conservation and sustainable use of biodiversity and ecosystems,Headline,GBF_GD_H_12
+Target 1,Red List of Ecosystems,Headline,GBF_T1_H_13
+Target 1,Extent of natural ecosystems,Headline,GBF_T1_H_14
+Target 1,Percentage of land and seas covered by biodiversity-inclusive spatial plans,Headline,GBF_T1_H_15
+Target 1,"Number of countries using participatory, integrated and biodiversity-inclusive spatial planning or effective management processes to address land and sea use change.",Binary,GBF_T1_H_16
+Target 2,Area under restoration,Headline,GBF_T2_H_17
+Target 3,Coverage of protected areas and other effective area-based conservation measures,Headline,GBF_T3_H_18
+Target 4,Red List Index,Headline,GBF_T4_H_19
+Target 4,The proportion of populations within species with an effective population size > 500,Headline,GBF_T4_H_20
+Target 5,Proportion of fish stocks within biologically sustainable levels,Headline,GBF_T5_H_21
+Target 6,Rate of invasive alien species establishment,Headline,GBF_T6_H_22
+Target 6,"Number of countries adopting relevant regulation, processes and measures and allocating resources to reduce the impact of invasive alien species.",Binary,GBF_T6_H_23
+Target 7,Index of coastal eutrophication potential,Headline,GBF_T7_H_24
+Target 7,Aggregated Total Applied Toxicity,Headline,GBF_T7_H_25
+Target 8,Number of countries with agreed policies to minimize the impact of climate change and ocean acidification on biodiversity and that minimize negative and foster positive impacts of climate action on biodiversity.,Binary,GBF_T8_H_26
+Target 9,Benefits from the sustainable use of wild species,Headline,GBF_T9_H_27
+Target 9,Percentage of the population in traditional occupations,Headline,GBF_T9_H_28
+Target 9,"Number or countries with policies to manage the use of wild species sustainably, providing social, economic and environmental benefits for people, and to protect and encourage customary sustainable use by indigenous peoples and local communities",Binary,GBF_T9_H_29
+Target 10,Proportion of agricultural area under productive and sustainable agriculture,Headline,GBF_T10_H_30
+Target 10,Progress towards sustainable forest management,Headline,GBF_T10_H_31
+Target 11,Services provided by ecosystems,Headline,GBF_T11_H_32
+Target 12,Average share of the built-up area of cities that is green/blue space for public use for all,Headline,GBF_T12_H_33
+Target 12,Number of countries with biodiversity-inclusive urban planning referring to green or blue urban spaces.,Binary,GBF_T12_H_34
+Target 13,Indicator on monetary benefits received,Headline,GBF_T13_H_35
+Target 13,Indicator on non-monetary benefits,Headline,GBF_T13_H_36
+Target 13,"Number of countries that have taken effective legal, policy, administrative and capacity-building measures at all levels, as appropriate, to ensure the fair and equitable sharing of benefits from the utilization of genetic resources and from digital sequence information on genetic resources, as well as traditional knowledge associated with genetic resources.",Binary,GBF_T13_H_37
+Target 14,"Number of countries integrating biodiversity and its multiple values into policies, regulations, planning, development processes, poverty [reduction][eradication] strategies and accounts at all levels, [ensuring that biodiversity values are mainstreamed] [and] across all sectors [ and fiscal and financial flows are aligned with it].",Binary,GBF_T14_H_38
+Target 15,"Number of companies disclosing their biodiversity-related risks, dependencies and impacts",Headline,GBF_T15_H_39
+Target 15,"Number of countries taking legal, administrative or policy measures aimed at encouraging and enabling business and financial institutions, and in particular, ensuring that large and transnational companies and financial institutions, to progressively reduce negative impacts from business and financial institutions on biodiversity, increase their positive impacts, reduce their biodiversity-related risks and promote actions to ensure sustainable patterns of production.",Binary,GBF_T15_H_40
+Target 16,"Number of countries developing, adopting or implementing policy instruments aimed at encouraging and enabling people to make sustainable consumption choices.",Binary,GBF_T16_H_41
+Target 17,Number of countries that have taken action to implement biosafety measures as set out in Article 8(g) of the Convention and measures for the handling of biotechnology and the distribution of its benefits as set out in Article 19.,Binary,GBF_T17_H_42
+Target 18,Positive incentives in place to promote biodiversity conservation and sustainable use,Headline,GBF_T18_H_43
+Target 18,Value of subsidies and other incentives harmful to biodiversity,Headline,GBF_T18_H_44
+Target 19,"International public funding, including official development assistance (ODA) for conservation and sustainable use of biodiversity and ecosystems",Headline,GBF_T19_H_45
+Target 19,Domestic public funding on conservation and sustainable use of biodiversity and ecosystems,Headline,GBF_T19_H_46
+Target 19,Private funding (domestic and international) on conservation and sustainable use of biodiversity and ecosystems,Headline,GBF_T19_H_47
+Target 20,"Number of countries that have taken significant action to strengthen capacity-building and development, access to and transfer of technology, and to promote the development of and access to innovation and technical and scientific cooperation.",Binary,GBF_T20_H_48
+Target 21,Indicator on biodiversity information for monitoring the global biodiversity framework,Headline,GBF_T21_H_49
+Target 22,"Number of countries taking action towards the full, equitable, inclusive, effective and gender-responsive representation and participation in decision-making and access to justice and information related to biodiversity by indigenous peoples and local communities, respecting their cultures and their rights over lands, territories, resources and traditional knowledge, as well as by women and girls, children and youth, and persons with disabilities, and the full protection of environmental human rights defenders",Binary,GBF_T22_H_50
+Target 23,"Number of countries with legal, administrative or policy frameworks, including the Gender Plan of Action, as well as the allocation of specific financial resources to ensure that all women and girls have equal opportunity and capacity to contribute to the three objectives of the Convention, including by ensuring women’s equal rights and access to land and natural resources.",Binary,GBF_T23_H_51
+Goal A,Ecosystem Intactness Index,component,GBF_GA_C_1
+Goal A,Ecosystem Integrity Index,component,GBF_GA_C_2
+Goal A,Species habitat Index,component,GBF_GA_C_3
+Goal A,Biodiversity Habitat Index,component,GBF_GA_C_4
+Goal A,Protected Connected (Protconn) index,component,GBF_GA_C_5
+Goal A,Protected Area Connectedness Index (PARC-Connectedness),component,GBF_GA_C_6
+Goal A,Evolutionarily Distinct and Globally Endangered (EDGE),component,GBF_GA_C_7
+Goal A,Living Planet Index,component,GBF_GA_C_8
+Goal A,Change in the extent of water-related ecosystems over time,component,GBF_GA_C_9
+Goal B,Red List Index (for utilized species),component,GBF_GB_C_10
+Goal B,Living Planet Index (for used species),component,GBF_GB_C_11
+Target 1,Priority retention of intact / wilderness areas,component,GBF_T1_C_14
+Target 2,Extent of natural ecosystems by type,component,GBF_T2_C_15
+Target 2,Maintenance and restoration of connectivity of natural ecosystems,component,GBF_T2_C_16
+Target 3,Protected area coverage of key biodiversity areas,component,GBF_T3_C_17
+Target 3,Protected Area Management Effectiveness (PAME),component,GBF_T3_C_18
+Target 3,Protconn,component,GBF_T3_C_19
+Target 3,Protected Area Connectedness Index (PARC-Connectedness),component,GBF_T3_C_20
+Target 3,Red List of Ecosystems,component,GBF_T3_C_21
+Target 3,Connectivity Indicator (in development),component,GBF_T3_C_22
+Target 3,The number of protected areas that have completed a site-level assessment of governance and equity (SAGE),component,GBF_T3_C_23
+Target 3,Species Protection Index,component,GBF_T3_C_24
+Target 4,Living Planet Index,component,GBF_T4_C_25
+Target 4,Number of plant and animal genetic resources secured in medium or long-term conservation facilities,component,GBF_T4_C_26
+Target 4,Trends in effective and sustainable management of human-wildlife conflict and coexistence,component,GBF_T4_C_27
+Target 4,Green Status of Species Index,component,GBF_T4_C_28
+Target 4,Conservation status of species listed in the CITES Appendices has stabilized or improved,component,GBF_T4_C_29
+Target 5,Red List Index for used species,component,GBF_T5_C_30
+Target 5,Living Planet Index for used species,component,GBF_T5_C_31
+Target 5,Sustainable use of Wild Species,component,GBF_T5_C_32
+Target 6,Rate of invasive species impact and rate of impact,component,GBF_T6_C_33
+Target 6,Rate of invasive alien species spread,component,GBF_T6_C_34
+Target 6,Number of invasive alien species introduction events,component,GBF_T6_C_35
+Target 7,Fertilizer use,component,GBF_T7_C_36
+Target 7,Proportion of domestic and industrial wastewater flow safely treated,component,GBF_T7_C_37
+Target 7,Floating plastic debris density [by micro and macro plastics],component,GBF_T7_C_38
+Target 7,Red List Index (impact of pollution),component,GBF_T7_C_39
+Target 8,Total climate regulation services provided by ecosystems by ecosystem type (System of Environmental Economic Accounts),component,GBF_T8_C_40
+Target 8,Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030 which include biodiversity,component,GBF_T8_C_41
+Target 8,National greenhouse inventories from land use and land use change,component,GBF_T8_C_42
+Target 8,Bioclimatic Ecosystem Resilience Index (BERI),component,GBF_T8_C_43
+Target 9,"Number of people using wild resources for energy, food or culture (including firewood collection, hunting and fishing, gathering, medicinal use, craft making, etc.)",component,GBF_T9_C_44
+Target 9,Red List Index (species used for food and medicine),component,GBF_T9_C_45
+Target 9,Living Planet Index (for used species),component,GBF_T9_C_46
+Target 10,Area of forest under sustainable management: total forest management certification by Forest Stewardship Council and Programme for the Endorsement of Forest Certification,component,GBF_T10_C_47
+Target 10,"Average income of small-scale food producers, by sex and indigenous status",component,GBF_T10_C_48
+Target 11,"Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",component,GBF_T11_C_49
+Target 11,"Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services)",component,GBF_T11_C_50
+Target 11,Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities,component,GBF_T11_C_51
+Target 11,Proportion of bodies of water with good ambient water quality,component,GBF_T11_C_52
+Target 11,Level of water stress,component,GBF_T11_C_53
+Target 12,Recreation and cultural ecosystem services provided,component,GBF_T12_C_54
+Target 13,Number of permits or their equivalents for genetic resources (including those related to traditional knowledge) by type of permit,component,GBF_T13_C_55
+Target 14,Number of countries with Implementation of the System of Environmental Economic Accounting,component,GBF_T14_C_56
+Target 15,Indicator based on Task Force for Naturerelated Financial Disclosures,component,GBF_T15_C_57
+Target 16,Food waste index,component,GBF_T16_C_58
+Target 16,Material footprint per capita,component,GBF_T16_C_59
+Target 16,Global environmental impacts of consumption,component,GBF_T16_C_60
+Target 16,Ecological footprint,component,GBF_T16_C_61
+Target 18,"Value of subsidies and other incentives harmful to biodiversity, that are redirected, repurposed or eliminated",component,GBF_T18_C_63
+Target 21,Species status index,component,GBF_T21_C_66
+Target 21,"Extent to which (i) global citizenship education and (ii) education for sustainable development, including gender equality and human rights, are mainstreamed at all levels in: (a) national education policies, (b) curricula, (c) teacher education and (d) student assessments",component,GBF_T21_C_67
+Target 22,"Proportion of total adult population with secure tenure rights to land, (a) with legally recognized documentation, and (b) who perceive their rights to land as secure, by sex and type of tenure",component,GBF_T22_C_68
+Target 23,Proportion of seats held by women in (a) national parliaments and (b) local governments,component,GBF_T23_C_69
+Target 23,Indicator on national implementation of the Gender Plan of Action 2023-2030,component,GBF_T23_C_70
+Target 23,"Proportion of total adult population with secure tenure rights to land, (a) with legally recognized documentation, and (b) who perceive their rights to land as secure, by sex and type of tenure",component,GBF_T23_C_71
+Goal A,Forest area as a proportion of total land area,complementary,GBF_GA_CY_1
+Goal A,Forest distribution,complementary,GBF_GA_CY_2
 Goal A,"Tree cover loss
-",complementary,GBF_GA_CY_3,"Tree cover loss
-"
-Goal A,Grassland and savannah extent,complementary,GBF_GA_CY_4,Grassland and savannah extent
+",complementary,GBF_GA_CY_3
+Goal A,Grassland and savannah extent,complementary,GBF_GA_CY_4
 Goal A,"Mountain Green Cover Index
-",complementary,GBF_GA_CY_5,"Mountain Green Cover Index
-"
+",complementary,GBF_GA_CY_5
 Goal A,"Peatland extent and condition
-",complementary,GBF_GA_CY_6,"Peatland extent and condition
-"
+",complementary,GBF_GA_CY_6
 Goal A,"Permafrost thickness, depth and extent
-",complementary,GBF_GA_CY_7,"Permafrost thickness, depth and extent
-"
+",complementary,GBF_GA_CY_7
 Goal A,"Continuous Global Mangrove Forest Cover
-",complementary,GBF_GA_CY_8,"Continuous Global Mangrove Forest Cover
-"
+",complementary,GBF_GA_CY_8
 Goal A,"Trends in mangrove forest fragmentation
-",complementary,GBF_GA_CY_9,"Trends in mangrove forest fragmentation
-"
+",complementary,GBF_GA_CY_9
 Goal A,"Trends in mangrove extent
-",complementary,GBF_GA_CY_10,"Trends in mangrove extent
-"
+",complementary,GBF_GA_CY_10
 Goal A,"Live coral cover 
-",complementary,GBF_GA_CY_11,"Live coral cover 
-"
+",complementary,GBF_GA_CY_11
 Goal A,"Hard coral cover and composition 
-",complementary,GBF_GA_CY_12,"Hard coral cover and composition 
-"
+",complementary,GBF_GA_CY_12
 Goal A,"Global coral reef extent 
-",complementary,GBF_GA_CY_13,"Global coral reef extent 
-"
-Goal A,Global Seagrass Extent (Seagrass Cover and composition),complementary,GBF_GA_CY_14,Global Seagrass Extent (Seagrass Cover and composition)
+",complementary,GBF_GA_CY_13
+Goal A,Global Seagrass Extent (Seagrass Cover and composition),complementary,GBF_GA_CY_14
 Goal A,"Global saltmarsh extent
-",complementary,GBF_GA_CY_15,"Global saltmarsh extent
-"
+",complementary,GBF_GA_CY_15
 Goal A,"Kelp canopy extent
-",complementary,GBF_GA_CY_16,"Kelp canopy extent
-"
+",complementary,GBF_GA_CY_16
 Goal A,"Macroalgal Canopy Cover and Composition
-",complementary,GBF_GA_CY_17,"Macroalgal Canopy Cover and Composition
-"
+",complementary,GBF_GA_CY_17
 Goal A,"Cover of key benthic groups
-",complementary,GBF_GA_CY_18,"Cover of key benthic groups
-"
+",complementary,GBF_GA_CY_18
 Goal A,"Fleshy algae cover
-",complementary,GBF_GA_CY_19,"Fleshy algae cover
-"
+",complementary,GBF_GA_CY_19
 Goal A,"Wetland Extent Trends Index
-",complementary,GBF_GA_CY_20,"Wetland Extent Trends Index
-"
-Goal A,Change in the extent of inland water ecosystems over time,complementary,GBF_GA_CY_21,Change in the extent of inland water ecosystems over time
+",complementary,GBF_GA_CY_20
+Goal A,Change in the extent of inland water ecosystems over time,complementary,GBF_GA_CY_21
 Goal A,"Forest Fragmentation Index
-",complementary,GBF_GA_CY_22,"Forest Fragmentation Index
-"
+",complementary,GBF_GA_CY_22
 Goal A,"Forest Landscape Integrity Index
-",complementary,GBF_GA_CY_23,"Forest Landscape Integrity Index
-"
+",complementary,GBF_GA_CY_23
 Goal A,"Biomass of selected natural ecosystems 
-",complementary,GBF_GA_CY_24,"Biomass of selected natural ecosystems 
-"
-Goal A,Biodiversity Habitat Index,complementary,GBF_GA_CY_25,Biodiversity Habitat Index
+",complementary,GBF_GA_CY_24
+Goal A,Biodiversity Habitat Index,complementary,GBF_GA_CY_25
 Goal A,"Global Vegetation Health Products
-",complementary,GBF_GA_CY_26,"Global Vegetation Health Products
-"
-Goal A,Bioclimatic Ecosystem Resilience Index (BERI),complementary,GBF_GA_CY_27,Bioclimatic Ecosystem Resilience Index (BERI)
+",complementary,GBF_GA_CY_26
+Goal A,Bioclimatic Ecosystem Resilience Index (BERI),complementary,GBF_GA_CY_27
 Goal A,"Relative Magnitude of Fragmentation (RMF) 
-",complementary,GBF_GA_CY_28,"Relative Magnitude of Fragmentation (RMF) 
-"
+",complementary,GBF_GA_CY_28
 Goal A,"Ecosystem Intactness Index
-",complementary,GBF_GA_CY_29,"Ecosystem Intactness Index
-"
+",complementary,GBF_GA_CY_29
 Goal A,"Biodiversity Intactness Index 
-",complementary,GBF_GA_CY_30,"Biodiversity Intactness Index 
-"
+",complementary,GBF_GA_CY_30
 Goal A,"Ocean Health Index 
-",complementary,GBF_GA_CY_31,"Ocean Health Index 
-"
-Goal A,Extent of physical damage indicator to predominant seafloor habitats physical damage,complementary,GBF_GA_CY_32,Extent of physical damage indicator to predominant seafloor habitats physical damage
-Goal A,River Fragmentation Index,complementary,GBF_GA_CY_33,River Fragmentation Index
-Goal A,Dendritic Connectivity Index,complementary,GBF_GA_CY_34,Dendritic Connectivity Index
-Goal A,Percentage of threatened species that are improving in status according to the Red List,complementary,GBF_GA_CY_35,Percentage of threatened species that are improving in status according to the Red List
-Goal A,Number of threatened species by species group,complementary,GBF_GA_CY_36,Number of threatened species by species group
-Goal A,Wild bird index,complementary,GBF_GA_CY_37,Wild bird index
-Goal A,Mean Species Abundance (MSA),complementary,GBF_GA_CY_38,Mean Species Abundance (MSA)
-Goal A,Species Protection Index,complementary,GBF_GA_CY_39,Species Protection Index
-Goal A,Changes in plankton biomass and abundance,complementary,GBF_GA_CY_40,Changes in plankton biomass and abundance
-Goal A,Fish abundance and biomass,complementary,GBF_GA_CY_41,Fish abundance and biomass
-Goal A,Genetic scorecard for wild species,complementary,GBF_GA_CY_42,Genetic scorecard for wild species
-Goal A,Species richness/Changes in local terrestrial diversity (PREDICTS),complementary,GBF_GA_CY_43,Species richness/Changes in local terrestrial diversity (PREDICTS)
+",complementary,GBF_GA_CY_31
+Goal A,Extent of physical damage indicator to predominant seafloor habitats physical damage,complementary,GBF_GA_CY_32
+Goal A,River Fragmentation Index,complementary,GBF_GA_CY_33
+Goal A,Dendritic Connectivity Index,complementary,GBF_GA_CY_34
+Goal A,Percentage of threatened species that are improving in status according to the Red List,complementary,GBF_GA_CY_35
+Goal A,Number of threatened species by species group,complementary,GBF_GA_CY_36
+Goal A,Wild bird index,complementary,GBF_GA_CY_37
+Goal A,Mean Species Abundance (MSA),complementary,GBF_GA_CY_38
+Goal A,Species Protection Index,complementary,GBF_GA_CY_39
+Goal A,Changes in plankton biomass and abundance,complementary,GBF_GA_CY_40
+Goal A,Fish abundance and biomass,complementary,GBF_GA_CY_41
+Goal A,Genetic scorecard for wild species,complementary,GBF_GA_CY_42
+Goal A,local species richness (predicts),complementary,GBF_GA_CY_43
 Goal A,"Marine species richness 
-",complementary,GBF_GA_CY_44,"Marine species richness 
-"
-Goal A,Comprehensiveness of conservation of socioeconomically as well as culturally valuable species.,complementary,GBF_GA_CY_45,Comprehensiveness of conservation of socioeconomically as well as culturally valuable species.
-Goal A,Number of plant and animal genetic resources for food and agriculture secured in either medium- or long-term conservation facilities,complementary,GBF_GA_CY_46,Number of plant and animal genetic resources for food and agriculture secured in either medium- or long-term conservation facilities
-Goal A,Proportion of local breeds classified as being at risk extinction,complementary,GBF_GA_CY_47,Proportion of local breeds classified as being at risk extinction
-Goal A,Red List Index (wild relatives of domesticated animals),complementary,GBF_GA_CY_48,Red List Index (wild relatives of domesticated animals)
-Goal A,CMS Connectivity Indicator,complementary,GBF_GA_CY_49,CMS Connectivity Indicator
-Goal A,Species Status Index,complementary,GBF_GA_CY_50,Species Status Index
+",complementary,GBF_GA_CY_44
+Goal A,Comprehensiveness of conservation of socioeconomically as well as culturally valuable species.,complementary,GBF_GA_CY_45
+Goal A,Number of plant and animal genetic resources for food and agriculture secured in either medium- or long-term conservation facilities,complementary,GBF_GA_CY_46
+Goal A,Proportion of local breeds classified as being at risk extinction,complementary,GBF_GA_CY_47
+Goal A,Red List Index (wild relatives of domesticated animals),complementary,GBF_GA_CY_48
+Goal A,CMS Connectivity Indicator,complementary,GBF_GA_CY_49
+Goal A,Species Status Index,complementary,GBF_GA_CY_50
 Goal A,"Intact Wilderness 
-",complementary,GBF_GA_CY_51,"Intact Wilderness 
-"
-Goal A,Expected Loss of Phylogenetic diversity,complementary,GBF_GA_CY_52,Expected Loss of Phylogenetic diversity
-Goal A,Proportion of populations maintained within species,complementary,GBF_GA_CY_53,Proportion of populations maintained within species
-Goal A,Free flowing rivers,complementary,GBF_GA_CY_54,Free flowing rivers
-Goal B,Levels of poverty in biodiversity depended communities,complementary,GBF_GB_CY_55,Levels of poverty in biodiversity depended communities
-Goal B,Ecological footprint,complementary,GBF_GB_CY_56,Ecological footprint
-Goal B,Number of certified forest areas under sustainable management with verified impacts on biodiversity conservation,complementary,GBF_GB_CY_57,Number of certified forest areas under sustainable management with verified impacts on biodiversity conservation
-Goal B,Expected loss of Phylogenetic Diversity,complementary,GBF_GB_CY_58,Expected loss of Phylogenetic Diversity
-Goal B,Red List Index (pollinating species),complementary,GBF_GB_CY_59,Red List Index (pollinating species)
-Goal B,Green status index (pollinators),complementary,GBF_GB_CY_60,Green status index (pollinators)
-Goal B,Air quality index,complementary,GBF_GB_CY_61,Air quality index
-Goal B,Air pollution emissions account,complementary,GBF_GB_CY_62,Air pollution emissions account
-Goal B,Zoonotic disease in wildlife,complementary,GBF_GB_CY_63,Zoonotic disease in wildlife
-Goal B,Climatic impact index,complementary,GBF_GB_CY_64,Climatic impact index
-Goal B,Ocean acidification,complementary,GBF_GB_CY_65,Ocean acidification
-Goal B,Level of water stress: freshwater withdrawal as a proportion of available freshwater resources,complementary,GBF_GB_CY_66,Level of water stress: freshwater withdrawal as a proportion of available freshwater resources
-Goal B,Proportion of bodies of water with good ambient water quality,complementary,GBF_GB_CY_67,Proportion of bodies of water with good ambient water quality
-Goal B,Eflow index,complementary,GBF_GB_CY_68,Eflow index
-Goal B,Change in the quality of inland water ecosystems over time,complementary,GBF_GB_CY_69,Change in the quality of inland water ecosystems over time
-Goal B,Change in the quality of coastal water ecosystems over time,complementary,GBF_GB_CY_70,Change in the quality of coastal water ecosystems over time
-Goal B,Level of erosion,complementary,GBF_GB_CY_71,Level of erosion
-Goal B,"Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",complementary,GBF_GB_CY_72,"Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population"
-Goal B,Intact wilderness,complementary,GBF_GB_CY_73,Intact wilderness
-Goal B,Biofuel production,complementary,GBF_GB_CY_74,Biofuel production
-Goal B,Maximum fish catch potential,complementary,GBF_GB_CY_75,Maximum fish catch potential
-Goal B,Population involved in hunting and gathering,complementary,GBF_GB_CY_76,Population involved in hunting and gathering
-Goal B,"Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale",complementary,GBF_GB_CY_77,"Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale"
-Goal B,Forestry Production & Trade (Wood Fuel),complementary,GBF_GB_CY_78,Forestry Production & Trade (Wood Fuel)
-Goal B,Trends in the legal trade of medicinal plants,complementary,GBF_GB_CY_79,Trends in the legal trade of medicinal plants
-Goal B,Visitor management assessment,complementary,GBF_GB_CY_80,Visitor management assessment
-Goal B,Number of formal and nonformal education programmes transmitting spiritual and cultural values in the UNESCO World Network of Biosphere Reserves,complementary,GBF_GB_CY_81,Number of formal and nonformal education programmes transmitting spiritual and cultural values in the UNESCO World Network of Biosphere Reserves
-Goal B,"Number of mixed sites (having both natural and cultural Outstanding Universal Values), cultural landscapes (recognized as combined works of nature and people) and natural sites with cultural values including those supporting local and indigenous knowledge and practices inscribed on the UNESCO World Heritage List and UNESCO World Network of Biosphere Reserves",complementary,GBF_GB_CY_82,"Number of mixed sites (having both natural and cultural Outstanding Universal Values), cultural landscapes (recognized as combined works of nature and people) and natural sites with cultural values including those supporting local and indigenous knowledge and practices inscribed on the UNESCO World Heritage List and UNESCO World Network of Biosphere Reserves"
-Goal B,Index of Linguistic Diversity - Trends of Bilinguistic diversity and numbers of speakers of indigenous languages,complementary,GBF_GB_CY_83,Index of Linguistic Diversity - Trends of Bilinguistic diversity and numbers of speakers of indigenous languages
-Goal B,"Index of development of the standard - setting framework for the protection and promotion of culture, cultural rights and cultural diversity",complementary,GBF_GB_CY_84,"Index of development of the standard - setting framework for the protection and promotion of culture, cultural rights and cultural diversity"
-Goal B,Cultural vitality index,complementary,GBF_GB_CY_85,Cultural vitality index
-Goal B,UNESCO Culture 2030 (multiple indicators),complementary,GBF_GB_CY_86,UNESCO Culture 2030 (multiple indicators)
-Goal B,Processes and tools to monitor the implementation of a right to a healthy environment (e.g. Included in NBSAPs and reported in national reports,complementary,GBF_GB_CY_87,Processes and tools to monitor the implementation of a right to a healthy environment (e.g. Included in NBSAPs and reported in national reports
-Goal B,Red List Index (for internationally traded species),complementary,GBF_GB_CY_88,Red List Index (for internationally traded species)
-Goal C,Number of users that have provided information relevant to the utilization of genetic resources to designated checkpoints,complementary,GBF_GC_CY_89,Number of users that have provided information relevant to the utilization of genetic resources to designated checkpoints
-Goal C,Total number of internationally recognized certificates published in the ABS Clearing-House,complementary,GBF_GC_CY_90,Total number of internationally recognized certificates published in the ABS Clearing-House
-Goal C,Number of checkpoint communiques published in the ABS Clearing-House,complementary,GBF_GC_CY_91,Number of checkpoint communiques published in the ABS Clearing-House
-Goal C,Number of internationally recognized certificates of compliance for non-commercial purposes,complementary,GBF_GC_CY_92,Number of internationally recognized certificates of compliance for non-commercial purposes
-Goal C,"Integration of biodiversity into national accounting and reporting systems, defined as implementation of the System of Environmental-Economic Accounting.",complementary,GBF_GC_CY_93,"Integration of biodiversity into national accounting and reporting systems, defined as implementation of the System of Environmental-Economic Accounting."
-Goal D,Finance mobilized for capacity-building,complementary,GBF_GD_CY_94,Finance mobilized for capacity-building
-Goal D,"Financial and technical assistance provided in dollars (including through South-South, NorthSouth and triangular cooperation)",complementary,GBF_GD_CY_95,"Financial and technical assistance provided in dollars (including through South-South, NorthSouth and triangular cooperation)"
-Goal D,"Finance mobilized for promoting the development, transfer, dissemination and diffusion of technology",complementary,GBF_GD_CY_96,"Finance mobilized for promoting the development, transfer, dissemination and diffusion of technology"
+",complementary,GBF_GA_CY_51
+Goal A,Expected Loss of Phylogenetic diversity,complementary,GBF_GA_CY_52
+Goal A,Proportion of populations maintained within species,complementary,GBF_GA_CY_53
+Goal A,Free flowing rivers,complementary,GBF_GA_CY_54
+Goal B,Levels of poverty in biodiversity depended communities,complementary,GBF_GB_CY_55
+Goal B,Ecological footprint,complementary,GBF_GB_CY_56
+Goal B,Number of certified forest areas under sustainable management with verified impacts on biodiversity conservation,complementary,GBF_GB_CY_57
+Goal B,Expected loss of Phylogenetic Diversity,complementary,GBF_GB_CY_58
+Goal B,Red List Index (pollinating species),complementary,GBF_GB_CY_59
+Goal B,Green status index (pollinators),complementary,GBF_GB_CY_60
+Goal B,Air quality index,complementary,GBF_GB_CY_61
+Goal B,Air pollution emissions account,complementary,GBF_GB_CY_62
+Goal B,Zoonotic disease in wildlife,complementary,GBF_GB_CY_63
+Goal B,Climatic impact index,complementary,GBF_GB_CY_64
+Goal B,Ocean acidification,complementary,GBF_GB_CY_65
+Goal B,Level of water stress: freshwater withdrawal as a proportion of available freshwater resources,complementary,GBF_GB_CY_66
+Goal B,Proportion of bodies of water with good ambient water quality,complementary,GBF_GB_CY_67
+Goal B,Eflow index,complementary,GBF_GB_CY_68
+Goal B,Change in the quality of inland water ecosystems over time,complementary,GBF_GB_CY_69
+Goal B,Change in the quality of coastal water ecosystems over time,complementary,GBF_GB_CY_70
+Goal B,Level of erosion,complementary,GBF_GB_CY_71
+Goal B,"Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",complementary,GBF_GB_CY_72
+Goal B,Intact wilderness,complementary,GBF_GB_CY_73
+Goal B,Biofuel production,complementary,GBF_GB_CY_74
+Goal B,Maximum fish catch potential,complementary,GBF_GB_CY_75
+Goal B,Population involved in hunting and gathering,complementary,GBF_GB_CY_76
+Goal B,"Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale",complementary,GBF_GB_CY_77
+Goal B,Forestry Production & Trade (Wood Fuel),complementary,GBF_GB_CY_78
+Goal B,Trends in the legal trade of medicinal plants,complementary,GBF_GB_CY_79
+Goal B,Visitor management assessment,complementary,GBF_GB_CY_80
+Goal B,Number of formal and nonformal education programmes transmitting spiritual and cultural values in the UNESCO World Network of Biosphere Reserves,complementary,GBF_GB_CY_81
+Goal B,"Number of mixed sites (having both natural and cultural Outstanding Universal Values), cultural landscapes (recognized as combined works of nature and people) and natural sites with cultural values including those supporting local and indigenous knowledge and practices inscribed on the UNESCO World Heritage List and UNESCO World Network of Biosphere Reserves",complementary,GBF_GB_CY_82
+Goal B,Index of Linguistic Diversity,complementary,GBF_GB_CY_83
+Goal B,Trends of Bilinguistic diversity and numbers of speakers of indigenous languages,complementary,GBF_GB_CY_84
+Goal B,"Index of development of the standard - setting framework for the protection and promotion of culture, cultural rights and cultural diversity",complementary,GBF_GB_CY_85
+Goal B,Cultural vitality index,complementary,GBF_GB_CY_86
+Goal B,UNESCO Culture 2030 (multiple indicators),complementary,GBF_GB_CY_87
+Goal B,Processes and tools to monitor the implementation of a right to a healthy environment (e.g. Included in NBSAPs and reported in national reports,complementary,GBF_GB_CY_88
+Goal B,Red List Index (for internationally traded species),complementary,GBF_GB_CY_89
+Goal C,Number of users that have provided information relevant to the utilization of genetic resources to designated checkpoints,complementary,GBF_GC_CY_90
+Goal C,Total number of internationally recognized certificates published in the ABS Clearing-House,complementary,GBF_GC_CY_91
+Goal C,Number of checkpoint communiques published in the ABS Clearing-House,complementary,GBF_GC_CY_92
+Goal C,Number of internationally recognized certificates of compliance for non-commercial purposes,complementary,GBF_GC_CY_93
+Goal C,"Integration of biodiversity into national accounting and reporting systems, defined as implementation of the System of Environmental-Economic Accounting.",complementary,GBF_GC_CY_94
+Goal D,Finance mobilized for capacity-building,complementary,GBF_GD_CY_95
+Goal D,"Financial and technical assistance provided in dollars (including through South-South, North-South and triangular cooperation)",complementary,GBF_GD_CY_96
+Goal D,"Finance mobilized for promoting the development, transfer, dissemination and diffusion of technology",complementary,GBF_GD_CY_97
 Goal D,"Number of scientists per population
-",complementary,GBF_GD_CY_97,"Number of scientists per population
-"
-Goal D,Joint scientific papers published in Ocean Biodiversity Information System (OBIS) by sector,complementary,GBF_GD_CY_98,Joint scientific papers published in Ocean Biodiversity Information System (OBIS) by sector
-Goal D,Nationally maintained research vessels,complementary,GBF_GD_CY_99,Nationally maintained research vessels
-Goal D,Proportion of total research budget allocated to research in the field of marine technology,complementary,GBF_GD_CY_100,Proportion of total research budget allocated to research in the field of marine technology
-Goal D,Volume of official development assistance flows for scholarships by sector and type of study,complementary,GBF_GD_CY_101,Volume of official development assistance flows for scholarships by sector and type of study
-Goal D,Global imports of information and communication technology (ICT) goods as presented by bilateral trade flows by ICT goods categories,complementary,GBF_GD_CY_102,Global imports of information and communication technology (ICT) goods as presented by bilateral trade flows by ICT goods categories
-Goal D,"Total amount of funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",complementary,GBF_GD_CY_103,"Total amount of funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies"
-Target 1,Number of countries using natural capital accounts in planning processes,complementary,GBF_T1_CY_104,Number of countries using natural capital accounts in planning processes
-Target 1,Percentage of spatial plans utilizing information on key biodiversity areas,complementary,GBF_T1_CY_105,Percentage of spatial plans utilizing information on key biodiversity areas
-Target 1,Habitat patches located within marine protected areas or integrated coastal zone management (ICZM),complementary,GBF_T1_CY_106,Habitat patches located within marine protected areas or integrated coastal zone management (ICZM)
-Target 1,Other spatial management plans (not captured as ICZM or marine spatial planning in 14.2.1),complementary,GBF_T1_CY_107,Other spatial management plans (not captured as ICZM or marine spatial planning in 14.2.1)
-Target 1,Number of countries using ocean accounts in planning processes,complementary,GBF_T1_CY_108,Number of countries using ocean accounts in planning processes
-Target 1,Proportion of transboundary basin area with an operational arrangement for water cooperation,complementary,GBF_T1_CY_109,Proportion of transboundary basin area with an operational arrangement for water cooperation
-Target 1,Percent of total land area that is under cultivation,complementary,GBF_T1_CY_110,Percent of total land area that is under cultivation
-Target 1,Extent of natural ecosystems by type,complementary,GBF_T1_CY_111,Extent of natural ecosystems by type
-Target 1,"Number of countries implementing national legislation, policies or other measures regarding FPIC related to conservation would work here for IPs (not necessarily LCs), if spatial planning was substituted for conservation.",complementary,GBF_T1_CY_112,"Number of countries implementing national legislation, policies or other measures regarding FPIC related to conservation would work here for IPs (not necessarily LCs), if spatial planning was substituted for conservation."
-Target 1,Ecosystem Integrity Index,complementary,GBF_T1_CY_113,Ecosystem Integrity Index
-Target 2,Habitat distributional range,complementary,GBF_T2_CY_114,Habitat distributional range
-Target 2,"Index of Species Rarity Sites, High Biodiversity Areas, Large Mammal Landscapes, Intact Wilderness and Climate Stabilization Areas",complementary,GBF_T2_CY_115,"Index of Species Rarity Sites, High Biodiversity Areas, Large Mammal Landscapes, Intact Wilderness and Climate Stabilization Areas"
-Target 2,Increase in secondary natural forest cover,complementary,GBF_T2_CY_116,Increase in secondary natural forest cover
-Target 2,Annual Tropical Primary Tree Cover Loss,complementary,GBF_T2_CY_117,Annual Tropical Primary Tree Cover Loss
-Target 2,Forest Landscape Integrity Index,complementary,GBF_T2_CY_118,Forest Landscape Integrity Index
-Target 2,Global Ecosystem Restoration Index,complementary,GBF_T2_CY_119,Global Ecosystem Restoration Index
-Target 2,Free flowing rivers,complementary,GBF_T2_CY_120,Free flowing rivers
-Target 2,Percentage of cropped landscapes with at least 10 % natural land,complementary,GBF_T2_CY_121,Percentage of cropped landscapes with at least 10 % natural land
-Target 2,Bioclimatic Ecosystem Resilience Index (BERI),complementary,GBF_T2_CY_122,Bioclimatic Ecosystem Resilience Index (BERI)
-Target 2,Priority retention of intact / wilderness areas,complementary,GBF_T2_CY_123,Priority retention of intact / wilderness areas
-Target 2,Status of Key Biodiversity Areas,complementary,GBF_T2_CY_124,Status of Key Biodiversity Areas
-Target 2,Biodiversity Habitat Index,complementary,GBF_T2_CY_125,Biodiversity Habitat Index
-Target 2,Red List Index,complementary,GBF_T2_CY_126,Red List Index
-Target 2,Red List of Ecosystems,complementary,GBF_T2_CY_127,Red List of Ecosystems
-Target 2,Living Planet Index,complementary,GBF_T2_CY_128,Living Planet Index
-Target 2,Species habitat Index,complementary,GBF_T2_CY_129,Species habitat Index
-Target 3,"Protected area downgrading, downsizing and degazettement (PD)",complementary,GBF_T3_CY_130,"Protected area downgrading, downsizing and degazettement (PD)"
-Target 3,Status of key biodiversity areas,complementary,GBF_T3_CY_131,Status of key biodiversity areas
-Target 3,IUCN Green List of Protected and Conserved Areas,complementary,GBF_T3_CY_132,IUCN Green List of Protected and Conserved Areas
-Target 3,Number of hectares of UNESCO designated sites (natural and mixed World Heritage sites and Biosphere Reserves),complementary,GBF_T3_CY_133,Number of hectares of UNESCO designated sites (natural and mixed World Heritage sites and Biosphere Reserves)
-Target 3,Protected area and OECM management effectiveness (MEPCA) indicator,complementary,GBF_T3_CY_134,Protected area and OECM management effectiveness (MEPCA) indicator
-Target 3,Protected Area Isolation Index (PAI),complementary,GBF_T3_CY_135,Protected Area Isolation Index (PAI)
-Target 3,Protected Areas Network metric (ProNet),complementary,GBF_T3_CY_136,Protected Areas Network metric (ProNet)
-Target 3,Extent to which protected areas and other effective area-based conservation measures (OECMs) cover Key Biodiversity Areas that are important for migratory species,complementary,GBF_T3_CY_137,Extent to which protected areas and other effective area-based conservation measures (OECMs) cover Key Biodiversity Areas that are important for migratory species
-Target 3,Coverage of Protected areas and OECMS and traditional territories (by governance type),complementary,GBF_T3_CY_138,Coverage of Protected areas and OECMS and traditional territories (by governance type)
-Target 3,Ramsar Management Effectiveness Tracking Tool (R-METT),complementary,GBF_T3_CY_139,Ramsar Management Effectiveness Tracking Tool (R-METT)
-Target 3,Percentage of biosphere reserves that have a positive conservation outcome and effective management,complementary,GBF_T3_CY_140,Percentage of biosphere reserves that have a positive conservation outcome and effective management
-Target 3,Extent of indigenous peoples and local communities lands that have some form of recognition,complementary,GBF_T3_CY_141,Extent of indigenous peoples and local communities lands that have some form of recognition
-Target 3,Species Protection Index,complementary,GBF_T3_CY_142,Species Protection Index
-Target 3,"Number of countries implementing national legislation, policies or other measures regarding FPIC related to conservation",complementary,GBF_T3_CY_143,"Number of countries implementing national legislation, policies or other measures regarding FPIC related to conservation"
-Target 3,Red List of Ecosystems,complementary,GBF_T3_CY_144,Red List of Ecosystems
-Target 3,"Proportion of terrestrial, freshwater and marine ecological regions which are conserved by protected areas or other effective area-based conservation measures",complementary,GBF_T3_CY_145,"Proportion of terrestrial, freshwater and marine ecological regions which are conserved by protected areas or other effective area-based conservation measures"
-Target 4,Species threat abatement and restoration metric,complementary,GBF_T4_CY_146,Species threat abatement and restoration metric
-Target 4,Changing status of evolutionary distinct and globally endangered species (EDGE Index),complementary,GBF_T4_CY_147,Changing status of evolutionary distinct and globally endangered species (EDGE Index)
-Target 4,Percentage of threatened species that are improving in status,complementary,GBF_T4_CY_148,Percentage of threatened species that are improving in status
-Target 4,Number of CMS daughter agreements,complementary,GBF_T4_CY_149,Number of CMS daughter agreements
-Target 4,Proportion of local breeds classified as being at risk extinction,complementary,GBF_T4_CY_150,Proportion of local breeds classified as being at risk extinction
-Target 4,Red List Index (wild relatives of domesticated animals),complementary,GBF_T4_CY_151,Red List Index (wild relatives of domesticated animals)
-Target 4,Rate of invasive alien species establishment,complementary,GBF_T4_CY_152,Rate of invasive alien species establishment
-Target 5,Sustainable watershed and inland fisheries index,complementary,GBF_T5_CY_153,Sustainable watershed and inland fisheries index
-Target 5,Red List Index (for internationally traded species and for migratory species),complementary,GBF_T5_CY_154,Red List Index (for internationally traded species and for migratory species)
-Target 5,Marine Stewardship Council Fish catch,complementary,GBF_T5_CY_155,Marine Stewardship Council Fish catch
-Target 5,Total catch of cetaceans under International Convention for the Regulation of Whaling,complementary,GBF_T5_CY_156,Total catch of cetaceans under International Convention for the Regulation of Whaling
-Target 5,By catch of vulnerable and non-target species,complementary,GBF_T5_CY_157,By catch of vulnerable and non-target species
-Target 5,"Degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing",complementary,GBF_T5_CY_158,"Degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing"
-Target 5,Proportion of legal and illegal wildlife trade consisting of species threatened with extinction,complementary,GBF_T5_CY_159,Proportion of legal and illegal wildlife trade consisting of species threatened with extinction
-Target 5,Illegal trade by CITES species classification,complementary,GBF_T5_CY_160,Illegal trade by CITES species classification
-Target 5,Number of countries incorporating trade in their national biodiversity policy,complementary,GBF_T5_CY_161,Number of countries incorporating trade in their national biodiversity policy
-Target 5,"Proportion of terrestrial, freshwater and marine ecological regions which are conserved by protected areas or other effective area-based conservation measures",complementary,GBF_T5_CY_162,"Proportion of terrestrial, freshwater and marine ecological regions which are conserved by protected areas or other effective area-based conservation measures"
-Target 5,Implementation of measures designed to minimize the impacts of fisheries and hunting on migratory species and their habitats,complementary,GBF_T5_CY_163,Implementation of measures designed to minimize the impacts of fisheries and hunting on migratory species and their habitats
-Target 5,Number of MSC Chain of Custody Certification holders by distribution country,complementary,GBF_T5_CY_164,Number of MSC Chain of Custody Certification holders by distribution country
-Target 5,Trends of trade and commercialization in biodiversity-based products that is sustainable and legal (in line with BioTrade Principles and/or CITES requirements),complementary,GBF_T5_CY_165,Trends of trade and commercialization in biodiversity-based products that is sustainable and legal (in line with BioTrade Principles and/or CITES requirements)
-Target 6,Number of invasive alien species in national lists as per the Global Register of Introduced and Invasive Species,complementary,GBF_T6_CY_166,Number of invasive alien species in national lists as per the Global Register of Introduced and Invasive Species
-Target 6,"Trends in abundance, temporal occurrence, and spatial distribution of non-indigenous species, particularly invasive, non-indigenous species, notably in risk areas (in relation to the main vectors and pathways of spreading of such species)",complementary,GBF_T6_CY_167,"Trends in abundance, temporal occurrence, and spatial distribution of non-indigenous species, particularly invasive, non-indigenous species, notably in risk areas (in relation to the main vectors and pathways of spreading of such species)"
-Target 6,Red List Index (impacts of invasive alien species),complementary,GBF_T6_CY_168,Red List Index (impacts of invasive alien species)
-Target 7,Trends in Loss of Reactive Nitrogen to the Environment.,complementary,GBF_T7_CY_169,Trends in Loss of Reactive Nitrogen to the Environment.
-Target 7,Trends in Nitrogen Deposition,complementary,GBF_T7_CY_170,Trends in Nitrogen Deposition
-Target 7,Municipal solid waste collected and managed,complementary,GBF_T7_CY_171,Municipal solid waste collected and managed
-Target 7,Hazardous waste generation,complementary,GBF_T7_CY_172,Hazardous waste generation
-Target 7,Trends in the amount of litter in the water column including microplastics and on the seafloor,complementary,GBF_T7_CY_173,Trends in the amount of litter in the water column including microplastics and on the seafloor
-Target 7,Index of coastal eutrophication; (b) plastic debris density,complementary,GBF_T7_CY_174,Index of coastal eutrophication; (b) plastic debris density
-Target 7,Red List of Ecosystems,complementary,GBF_T7_CY_175,Red List of Ecosystems
-Target 7,Underwater noise pollution,complementary,GBF_T7_CY_176,Underwater noise pollution
-Target 7,"Name, amount/ volume/ concentration of highly hazardous pesticides by type (per land/marine area)",complementary,GBF_T7_CY_177,"Name, amount/ volume/ concentration of highly hazardous pesticides by type (per land/marine area)"
-Target 7,Pesticide use per area of cropland,complementary,GBF_T7_CY_178,Pesticide use per area of cropland
-Target 8,Above-ground biomass stock in forest (tonnes/ha),complementary,GBF_T8_CY_179,Above-ground biomass stock in forest (tonnes/ha)
-Target 8,National greenhouse inventories from land use and land use change,complementary,GBF_T8_CY_180,National greenhouse inventories from land use and land use change
-Target 8,Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies,complementary,GBF_T8_CY_181,Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies
-Target 8,"Number of least developed countries and small island developing States with nationally determined contributions, long-term strategies, national adaptation plans, strategies as reported in adaptation communications and national communications",complementary,GBF_T8_CY_182,"Number of least developed countries and small island developing States with nationally determined contributions, long-term strategies, national adaptation plans, strategies as reported in adaptation communications and national communications"
-Target 8,Index of coastal eutrophication,complementary,GBF_T8_CY_183,Index of coastal eutrophication
-Target 8,"Carbon stocks and annual net GHG emissions, by landuse category, split by natural and non-natural land cover",complementary,GBF_T8_CY_184,"Carbon stocks and annual net GHG emissions, by landuse category, split by natural and non-natural land cover"
-Target 9,Proportion of fish stocks within biologically sustainable levels,complementary,GBF_T9_CY_185,Proportion of fish stocks within biologically sustainable levels
-Target 9,"Degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing",complementary,GBF_T9_CY_186,"Degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing"
-Target 9,Number of MSC Chain of Custody Certification holders by distribution country,complementary,GBF_T9_CY_187,Number of MSC Chain of Custody Certification holders by distribution country
-Target 9,Spawning stock biomass (related to commercially exploited species),complementary,GBF_T9_CY_188,Spawning stock biomass (related to commercially exploited species)
-Target 9,Number of plant and animal genetic resources for food and agriculture secured in medium- or longterm conservation facilities,complementary,GBF_T9_CY_189,Number of plant and animal genetic resources for food and agriculture secured in medium- or longterm conservation facilities
-Target 9,Volume of production per labour unit by classes of farming/pastoral/ forestry enterprise size,complementary,GBF_T9_CY_190,Volume of production per labour unit by classes of farming/pastoral/ forestry enterprise size
-Target 10,Agrobiodiversity Index,complementary,GBF_T10_CY_191,Agrobiodiversity Index
-Target 10,Changes in soil organic carbon stocks,complementary,GBF_T10_CY_192,Changes in soil organic carbon stocks
-Target 10,Red List Index (wild relatives of domesticated animals),complementary,GBF_T10_CY_193,Red List Index (wild relatives of domesticated animals)
-Target 10,Red List Index (pollinating species),complementary,GBF_T10_CY_194,Red List Index (pollinating species)
-Target 10,Proportion of local breeds classified as being at risk extinction,complementary,GBF_T10_CY_195,Proportion of local breeds classified as being at risk extinction
-Target 10,Proportion of land that is degraded over total land area,complementary,GBF_T10_CY_196,Proportion of land that is degraded over total land area
-Target 11,Air emission accounts,complementary,GBF_T11_CY_197,Air emission accounts
-Target 11,Proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management,complementary,GBF_T11_CY_198,Proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management
-Target 11,Proportion of population using safely managed drinking water services,complementary,GBF_T11_CY_199,Proportion of population using safely managed drinking water services
-Target 11,Mortality rate attributed to household and ambient air pollution,complementary,GBF_T11_CY_200,Mortality rate attributed to household and ambient air pollution
-Target 12,None adopted,complementary,GBF_T12_CY_201,
-Target 13,Total number of transfers of crop material from the Multilateral System of the International Treaty on Plant Genetic Resources for Food and Agriculture (ITPGRFA) received in a country,complementary,GBF_T13_CY_202,Total number of transfers of crop material from the Multilateral System of the International Treaty on Plant Genetic Resources for Food and Agriculture (ITPGRFA) received in a country
-Target 13,"Total number of permits, or their equivalent, granted for access to genetic resources",complementary,GBF_T13_CY_203,"Total number of permits, or their equivalent, granted for access to genetic resources"
-Target 13,Total number of internationally recognized certificates of compliance published in the ABS Clearing-House,complementary,GBF_T13_CY_204,Total number of internationally recognized certificates of compliance published in the ABS Clearing-House
-Target 13,"Number of countries that require prior informed consent that have published legislative, administrative or policy measures on access and benefit-sharing in the ABS Clearing-House",complementary,GBF_T13_CY_205,"Number of countries that require prior informed consent that have published legislative, administrative or policy measures on access and benefit-sharing in the ABS Clearing-House"
-Target 13,Number of countries that require prior informed consent that have published information on ABS procedures in the ABS Clearing-House,complementary,GBF_T13_CY_206,Number of countries that require prior informed consent that have published information on ABS procedures in the ABS Clearing-House
-Target 13,"Number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits",complementary,GBF_T13_CY_207,"Number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits"
-Target 13,Estimated percentage of monetary and nonmonetary benefits directed towards conservation and sustainable use of biodiversity,complementary,GBF_T13_CY_208,Estimated percentage of monetary and nonmonetary benefits directed towards conservation and sustainable use of biodiversity
-Target 14,Human Appropriation of Net Primary Production (HANPP),complementary,GBF_T14_CY_209,Human Appropriation of Net Primary Production (HANPP)
-Target 14,CO2 emission per unit of value added,complementary,GBF_T14_CY_210,CO2 emission per unit of value added
-Target 14,Change in water-use efficiency over time,complementary,GBF_T14_CY_211,Change in water-use efficiency over time
-Target 15,Species threat abatement and restoration metric,complementary,GBF_T15_CY_212,Species threat abatement and restoration metric
-Target 15,Number of companies publishing sustainability reports,complementary,GBF_T15_CY_213,Number of companies publishing sustainability reports
-Target 16,"Extent to which (i) global citizenship education and (ii) education for sustainable development, including gender equality and human rights, are mainstreamed at all levels in: (a) national education policies, (b) curricula, (c) teacher education and (d) student assessments (SDG 4.7.1)",complementary,GBF_T16_CY_214,"Extent to which (i) global citizenship education and (ii) education for sustainable development, including gender equality and human rights, are mainstreamed at all levels in: (a) national education policies, (b) curricula, (c) teacher education and (d) student assessments (SDG 4.7.1)"
-Target 16,Recycling rate,complementary,GBF_T16_CY_215,Recycling rate
-Target 16,Life cycle Impact assessment (LCIA) e.g. LIME ; Lifecycle Impact Assessment Method based on Endpoint Modelling,complementary,GBF_T16_CY_216,Life cycle Impact assessment (LCIA) e.g. LIME ; Lifecycle Impact Assessment Method based on Endpoint Modelling
-Target 16,Levels of poverty in developing communities,complementary,GBF_T16_CY_217,Levels of poverty in developing communities
-Target 17,Number of countries that have the necessary biosafety legal and administrative measures in place,complementary,GBF_T17_CY_218,Number of countries that have the necessary biosafety legal and administrative measures in place
-Target 17,Number of countries that implement their biosafety measures,complementary,GBF_T17_CY_219,Number of countries that implement their biosafety measures
-Target 17,Number of countries that have the necessary measures and means for detection and identification of products of biotechnology,complementary,GBF_T17_CY_220,Number of countries that have the necessary measures and means for detection and identification of products of biotechnology
-Target 17,Number of countries that carry out scientifically sound risk assessments to support biosafety decision-making,complementary,GBF_T17_CY_221,Number of countries that carry out scientifically sound risk assessments to support biosafety decision-making
-Target 17,Number of countries that establish and implement risk management measures,complementary,GBF_T17_CY_222,Number of countries that establish and implement risk management measures
-Target 17,Percentage of Parties to the Cartagena Protocol on Biosafety implementing the relevant provisions of the Protocol,complementary,GBF_T17_CY_223,Percentage of Parties to the Cartagena Protocol on Biosafety implementing the relevant provisions of the Protocol
-Target 17,Number of countries with legal and technical measures for restoration and compensation,complementary,GBF_T17_CY_224,Number of countries with legal and technical measures for restoration and compensation
-Target 17,Percentage of Parties to the Nagoya - Kuala Lumpur Supplementary Protocol,complementary,GBF_T17_CY_225,Percentage of Parties to the Nagoya - Kuala Lumpur Supplementary Protocol
-Target 17,Percentage of countries with systems in place for restoration and compensation of damage to conservation and sustainable use of biological diversity,complementary,GBF_T17_CY_226,Percentage of countries with systems in place for restoration and compensation of damage to conservation and sustainable use of biological diversity
-Target 17,Number of countries that establish and implement risk management measures,complementary,GBF_T17_CY_227,Number of countries that establish and implement risk management measures
-Target 17,Number of countries with mechanisms to facilitate the sharing of and access to information on potential adverse impacts of biotechnology on biodiversity and human health,complementary,GBF_T17_CY_228,Number of countries with mechanisms to facilitate the sharing of and access to information on potential adverse impacts of biotechnology on biodiversity and human health
-Target 18,Number of countries with biodiversity-relevant taxes,complementary,GBF_T18_CY_229,Number of countries with biodiversity-relevant taxes
-Target 18,Number of countries with biodiversity-relevant charges and fees,complementary,GBF_T18_CY_230,Number of countries with biodiversity-relevant charges and fees
-Target 18,Number of countries with biodiversity-relevant tradable permit schemes,complementary,GBF_T18_CY_231,Number of countries with biodiversity-relevant tradable permit schemes
-Target 18,Trends in potentially environmentally harmful elements of government support to agriculture (producer support estimate),complementary,GBF_T18_CY_232,Trends in potentially environmentally harmful elements of government support to agriculture (producer support estimate)
-Target 18,Trends in the number and value of government fossil fuel support measures,complementary,GBF_T18_CY_233,Trends in the number and value of government fossil fuel support measures
-Target 18,Amount of fossil-fuel subsidies per unit of GDP (production and consumption),complementary,GBF_T18_CY_234,Amount of fossil-fuel subsidies per unit of GDP (production and consumption)
-Target 19,Amount of funding provided through the Global Environment Facility and allocated to the biodiversity focal area,complementary,GBF_T19_CY_235,Amount of funding provided through the Global Environment Facility and allocated to the biodiversity focal area
-Target 19,"Foreign direct investment (FDI), official development assistance and South-South cooperation as a proportion of total domestic budget",complementary,GBF_T19_CY_236,"Foreign direct investment (FDI), official development assistance and South-South cooperation as a proportion of total domestic budget"
-Target 19,Amount and composition of biodiversity-related finance reported to the OECD Creditor reporting system,complementary,GBF_T19_CY_237,Amount and composition of biodiversity-related finance reported to the OECD Creditor reporting system
-Target 19,"Dollar value of financial and technical assistance (including through North-South, South-South and triangular cooperation) committed to developing countries",complementary,GBF_T19_CY_238,"Dollar value of financial and technical assistance (including through North-South, South-South and triangular cooperation) committed to developing countries"
-Target 19,Dollar value of all resources made available to strengthen statistical capacity in developing countries,complementary,GBF_T19_CY_239,Dollar value of all resources made available to strengthen statistical capacity in developing countries
-Target 19,Amount of biodiversity-related philanthropic funding,complementary,GBF_T19_CY_240,Amount of biodiversity-related philanthropic funding
-Target 19,Proportion of total research budget allocated to research in the field of marine technology,complementary,GBF_T19_CY_241,Proportion of total research budget allocated to research in the field of marine technology
-Target 19,"Total amount of approved funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",complementary,GBF_T19_CY_242,"Total amount of approved funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies"
-Target 19,Number of countries (and number of instruments) with payments for ecosystem services (PES) programmes,complementary,GBF_T19_CY_243,Number of countries (and number of instruments) with payments for ecosystem services (PES) programmes
-Target 19,"Number of countries that have (a) Assessed values of biodiversity, in accordance with the Convention, (b) Identified and reported funding needs, gaps and priorities (c)Developed national financial plans for biodiversity; (d) Been provided with the necessary funding and capacity building to undertake the above activities",complementary,GBF_T19_CY_244,"Number of countries that have (a) Assessed values of biodiversity, in accordance with the Convention, (b) Identified and reported funding needs, gaps and priorities (c)Developed national financial plans for biodiversity; (d) Been provided with the necessary funding and capacity building to undertake the above activities"
-Target 20,None adopted,complementary,GBF_T20_CY_245,
-Target 21,Growth in number of records and species in the Living Planet Index database,complementary,GBF_T21_CY_246,Growth in number of records and species in the Living Planet Index database
-Target 21,Growth in species occurrence records accessible through the Global Biodiversity Information Facility,complementary,GBF_T21_CY_247,Growth in species occurrence records accessible through the Global Biodiversity Information Facility
-Target 21,Growth in marine species occurrence records accessible through OBIS,complementary,GBF_T21_CY_248,Growth in marine species occurrence records accessible through OBIS
-Target 21,Proportion of known species assessed through the IUCN Red List.,complementary,GBF_T21_CY_249,Proportion of known species assessed through the IUCN Red List.
-Target 21,Number of assessments on the IUCN Red List of threatened species,complementary,GBF_T21_CY_250,Number of assessments on the IUCN Red List of threatened species
-Target 21,World Association of Zoos and Aquariums (WAZA) bio-literacy survey (Biodiversity literacy in global zoo and aquarium visitors),complementary,GBF_T21_CY_251,World Association of Zoos and Aquariums (WAZA) bio-literacy survey (Biodiversity literacy in global zoo and aquarium visitors)
+",complementary,GBF_GD_CY_98
+Goal D,Joint scientific papers published in Ocean Biodiversity Information System (OBIS) by sector,complementary,GBF_GD_CY_99
+Goal D,Nationally maintained research vessels,complementary,GBF_GD_CY_100
+Goal D,Proportion of total research budget allocated to research in the field of marine technology,complementary,GBF_GD_CY_101
+Goal D,Volume of official development assistance flows for scholarships by sector and type of study,complementary,GBF_GD_CY_102
+Goal D,Global imports of information and communication technology (ICT) goods as presented by bilateral trade flows by ICT goods categories,complementary,GBF_GD_CY_103
+Goal D,"Total amount of funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",complementary,GBF_GD_CY_104
+Target 1,Number of countries using natural capital accounts in planning processes,complementary,GBF_T1_CY_105
+Target 1,Percentage of spatial plans utilizing information on key biodiversity areas,complementary,GBF_T1_CY_106
+Target 1,Habitat patches located within marine protected areas or integrated coastal zone management (ICZM),complementary,GBF_T1_CY_107
+Target 1,Other spatial management plans (not captured as ICZM or marine spatial planning in 14.2.1),complementary,GBF_T1_CY_108
+Target 1,Number of countries using ocean accounts in planning processes,complementary,GBF_T1_CY_109
+Target 1,Proportion of transboundary basin area with an operational arrangement for water cooperation,complementary,GBF_T1_CY_110
+Target 1,Percent of total land area that is under cultivation,complementary,GBF_T1_CY_111
+Target 1,Extent of natural ecosystems by type,complementary,GBF_T1_CY_112
+Target 1,"Number of countries implementing national legislation, policies or other measures regarding FPIC related to conservation would work here for IPs (not necessarily LCs), if spatial planning was substituted for conservation.",complementary,GBF_T1_CY_113
+Target 1,Ecosystem Integrity Index,complementary,GBF_T1_CY_114
+Target 2,Habitat distributional range,complementary,GBF_T2_CY_115
+Target 2,"Index of Species Rarity Sites, High Biodiversity Areas, Large Mammal Landscapes, Intact Wilderness and Climate Stabilization Areas",complementary,GBF_T2_CY_116
+Target 2,Increase in secondary natural forest cover,complementary,GBF_T2_CY_117
+Target 2,Annual Tropical Primary Tree Cover Loss,complementary,GBF_T2_CY_118
+Target 2,Forest Landscape Integrity Index,complementary,GBF_T2_CY_119
+Target 2,Global Ecosystem Restoration Index,complementary,GBF_T2_CY_120
+Target 2,Free flowing rivers,complementary,GBF_T2_CY_121
+Target 2,Percentage of cropped landscapes with at least 10 % natural land,complementary,GBF_T2_CY_122
+Target 2,Bioclimatic Ecosystem Resilience Index (BERI),complementary,GBF_T2_CY_123
+Target 2,Priority retention of intact / wilderness areas,complementary,GBF_T2_CY_124
+Target 2,Status of Key Biodiversity Areas,complementary,GBF_T2_CY_125
+Target 2,Biodiversity Habitat Index,complementary,GBF_T2_CY_126
+Target 2,Red List Index,complementary,GBF_T2_CY_127
+Target 2,Red List of Ecosystems,complementary,GBF_T2_CY_128
+Target 2,Living Planet Index,complementary,GBF_T2_CY_129
+Target 2,Species habitat Index,complementary,GBF_T2_CY_130
+Target 3,"Protected area downgrading, downsizing and degazettement (PD)",complementary,GBF_T3_CY_131
+Target 3,Status of key biodiversity areas,complementary,GBF_T3_CY_132
+Target 3,IUCN Green List of Protected and Conserved Areas,complementary,GBF_T3_CY_133
+Target 3,Number of hectares of UNESCO designated sites (natural and mixed World Heritage sites and Biosphere Reserves),complementary,GBF_T3_CY_134
+Target 3,Protected area and OECM management effectiveness (MEPCA) indicator,complementary,GBF_T3_CY_135
+Target 3,Protected Area Isolation Index (PAI),complementary,GBF_T3_CY_136
+Target 3,Protected Areas Network metric (ProNet),complementary,GBF_T3_CY_137
+Target 3,Extent to which protected areas and other effective area-based conservation measures (OECMs) cover Key Biodiversity Areas that are important for migratory species,complementary,GBF_T3_CY_138
+Target 3,Coverage of Protected areas and OECMS and traditional territories (by governance type),complementary,GBF_T3_CY_139
+Target 3,Ramsar Management Effectiveness Tracking Tool (R-METT),complementary,GBF_T3_CY_140
+Target 3,Percentage of biosphere reserves that have a positive conservation outcome and effective management,complementary,GBF_T3_CY_141
+Target 3,Extent of indigenous peoples and local communities lands that have some form of recognition,complementary,GBF_T3_CY_142
+Target 3,Species Protection Index,complementary,GBF_T3_CY_143
+Target 3,"Number of countries implementing national legislation, policies or other measures regarding FPIC related to conservation",complementary,GBF_T3_CY_144
+Target 3,Red List of Ecosystems,complementary,GBF_T3_CY_145
+Target 3,"Proportion of terrestrial, freshwater and marine ecological regions which are conserved by protected areas or other effective area-based conservation measures",complementary,GBF_T3_CY_146
+Target 4,Species threat abatement and restoration metric,complementary,GBF_T4_CY_147
+Target 4,Changing status of evolutionary distinct and globally endangered species (EDGE Index),complementary,GBF_T4_CY_148
+Target 4,Percentage of threatened species that are improving in status,complementary,GBF_T4_CY_149
+Target 4,Number of CMS daughter agreements,complementary,GBF_T4_CY_150
+Target 4,Proportion of local breeds classified as being at risk extinction,complementary,GBF_T4_CY_151
+Target 4,Red List Index (wild relatives of domesticated animals),complementary,GBF_T4_CY_152
+Target 4,Rate of invasive alien species establishment,complementary,GBF_T4_CY_153
+Target 5,Sustainable watershed and inland fisheries index,complementary,GBF_T5_CY_154
+Target 5,Red List Index (for internationally traded species and for migratory species),complementary,GBF_T5_CY_155
+Target 5,Marine Stewardship Council Fish catch,complementary,GBF_T5_CY_156
+Target 5,Total catch of cetaceans under International Convention for the Regulation of Whaling,complementary,GBF_T5_CY_157
+Target 5,By catch of vulnerable and non-target species,complementary,GBF_T5_CY_158
+Target 5,"Degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing",complementary,GBF_T5_CY_159
+Target 5,Proportion of legal and illegal wildlife trade consisting of species threatened with extinction,complementary,GBF_T5_CY_160
+Target 5,Illegal trade by CITES species classification,complementary,GBF_T5_CY_161
+Target 5,Number of countries incorporating trade in their national biodiversity policy,complementary,GBF_T5_CY_162
+Target 5,"Proportion of terrestrial, freshwater and marine ecological regions which are conserved by protected areas or other effective area-based conservation measures",complementary,GBF_T5_CY_163
+Target 5,Implementation of measures designed to minimize the impacts of fisheries and hunting on migratory species and their habitats,complementary,GBF_T5_CY_164
+Target 5,Number of MSC Chain of Custody Certification holders by distribution country,complementary,GBF_T5_CY_165
+Target 5,Trends of trade and commercialization in biodiversity-based products that is sustainable and legal (in line with BioTrade Principles and/or CITES requirements),complementary,GBF_T5_CY_166
+Target 6,Number of invasive alien species in national lists as per the Global Register of Introduced and Invasive Species,complementary,GBF_T6_CY_167
+Target 6,"Trends in abundance, temporal occurrence, and spatial distribution of non-indigenous species, particularly invasive, non-indigenous species, notably in risk areas (in relation to the main vectors and pathways of spreading of such species)",complementary,GBF_T6_CY_168
+Target 6,Red List Index (impacts of invasive alien species),complementary,GBF_T6_CY_169
+Target 7,Trends in Loss of Reactive Nitrogen to the Environment.,complementary,GBF_T7_CY_170
+Target 7,Trends in Nitrogen Deposition,complementary,GBF_T7_CY_171
+Target 7,Municipal solid waste collected and managed,complementary,GBF_T7_CY_172
+Target 7,Hazardous waste generation,complementary,GBF_T7_CY_173
+Target 7,Trends in the amount of litter in the water column including microplastics and on the seafloor,complementary,GBF_T7_CY_174
+Target 7,Index of coastal eutrophication (icep),complementary,GBF_T7_CY_175
+Target 7,plastic debris density,complementary,GBF_T7_CY_176
+Target 7,Red List of Ecosystems,complementary,GBF_T7_CY_177
+Target 7,Underwater noise pollution,complementary,GBF_T7_CY_178
+Target 7,"Name, amount/ volume/ concentration of highly hazardous pesticides by type (per land/marine area)",complementary,GBF_T7_CY_179
+Target 7,Pesticide use per area of cropland,complementary,GBF_T7_CY_180
+Target 8,Above-ground biomass stock in forest (tonnes/ha),complementary,GBF_T8_CY_181
+Target 8,National greenhouse inventories from land use and land use change,complementary,GBF_T8_CY_182
+Target 8,Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies,complementary,GBF_T8_CY_183
+Target 8,"Number of least developed countries and small island developing States with nationally determined contributions, long-term strategies, national adaptation plans, strategies as reported in adaptation communications and national communications",complementary,GBF_T8_CY_184
+Target 8,Index of coastal eutrophication,complementary,GBF_T8_CY_185
+Target 8,"Carbon stocks and annual net GHG emissions, by landuse category, split by natural and non-natural land cover",complementary,GBF_T8_CY_186
+Target 9,Proportion of fish stocks within biologically sustainable levels,complementary,GBF_T9_CY_187
+Target 9,"Degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing",complementary,GBF_T9_CY_188
+Target 9,Number of MSC Chain of Custody Certification holders by distribution country,complementary,GBF_T9_CY_189
+Target 9,Spawning stock biomass (related to commercially exploited species),complementary,GBF_T9_CY_190
+Target 9,Number of plant and animal genetic resources for food and agriculture secured in medium- or longterm conservation facilities,complementary,GBF_T9_CY_191
+Target 9,Volume of production per labour unit by classes of farming/pastoral/ forestry enterprise size,complementary,GBF_T9_CY_192
+Target 10,Agrobiodiversity Index,complementary,GBF_T10_CY_193
+Target 10,Changes in soil organic carbon stocks,complementary,GBF_T10_CY_194
+Target 10,Red List Index (wild relatives of domesticated animals),complementary,GBF_T10_CY_195
+Target 10,Red List Index (pollinating species),complementary,GBF_T10_CY_196
+Target 10,Proportion of local breeds classified as being at risk extinction,complementary,GBF_T10_CY_197
+Target 10,Proportion of land that is degraded over total land area,complementary,GBF_T10_CY_198
+Target 11,Air emission accounts,complementary,GBF_T11_CY_199
+Target 11,Proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management,complementary,GBF_T11_CY_200
+Target 11,Proportion of population using safely managed drinking water services,complementary,GBF_T11_CY_201
+Target 11,Mortality rate attributed to household and ambient air pollution,complementary,GBF_T11_CY_202
+Target 13,Total number of transfers of crop material from the Multilateral System of the International Treaty on Plant Genetic Resources for Food and Agriculture (ITPGRFA) received in a country,complementary,GBF_T13_CY_204
+Target 13,"Total number of permits, or their equivalent, granted for access to genetic resources",complementary,GBF_T13_CY_205
+Target 13,Total number of internationally recognized certificates of compliance published in the ABS Clearing-House,complementary,GBF_T13_CY_206
+Target 13,"Number of countries that require prior informed consent that have published legislative, administrative or policy measures on access and benefit-sharing in the ABS Clearing-House",complementary,GBF_T13_CY_207
+Target 13,Number of countries that require prior informed consent that have published information on ABS procedures in the ABS Clearing-House,complementary,GBF_T13_CY_208
+Target 13,"Number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits",complementary,GBF_T13_CY_209
+Target 13,Estimated percentage of monetary and non monetary benefits directed towards conservation and sustainable use of biodiversity,complementary,GBF_T13_CY_210
+Target 14,Human Appropriation of Net Primary Production (HANPP),complementary,GBF_T14_CY_211
+Target 14,CO2 emission per unit of value added,complementary,GBF_T14_CY_212
+Target 14,Change in water-use efficiency over time,complementary,GBF_T14_CY_213
+Target 15,Species threat abatement and restoration metric,complementary,GBF_T15_CY_214
+Target 15,Number of companies publishing sustainability reports,complementary,GBF_T15_CY_215
+Target 16,"Extent to which (i) global citizenship education and (ii) education for sustainable development, including gender equality and human rights, are mainstreamed at all levels in: (a) national education policies, (b) curricula, (c) teacher education and (d) student assessments (SDG 4.7.1)",complementary,GBF_T16_CY_216
+Target 16,Recycling rate,complementary,GBF_T16_CY_217
+Target 16,Life cycle Impact assessment (LCIA) e.g. LIME ; Lifecycle Impact Assessment Method based on Endpoint Modelling,complementary,GBF_T16_CY_218
+Target 16,Levels of poverty in developing communities,complementary,GBF_T16_CY_219
+Target 17,Number of countries that have the necessary biosafety legal and administrative measures in place,complementary,GBF_T17_CY_220
+Target 17,Number of countries that implement their biosafety measures,complementary,GBF_T17_CY_221
+Target 17,Number of countries that have the necessary measures and means for detection and identification of products of biotechnology,complementary,GBF_T17_CY_222
+Target 17,Number of countries that carry out scientifically sound risk assessments to support biosafety decision-making,complementary,GBF_T17_CY_223
+Target 17,Number of countries that establish and implement risk management measures,complementary,GBF_T17_CY_224
+Target 17,Percentage of Parties to the Cartagena Protocol on Biosafety implementing the relevant provisions of the Protocol,complementary,GBF_T17_CY_225
+Target 17,Number of countries with legal and technical measures for restoration and compensation,complementary,GBF_T17_CY_226
+Target 17,Percentage of Parties to the Nagoya - Kuala Lumpur Supplementary Protocol,complementary,GBF_T17_CY_227
+Target 17,Percentage of countries with systems in place for restoration and compensation of damage to conservation and sustainable use of biological diversity,complementary,GBF_T17_CY_228
+Target 17,Number of countries that establish and implement risk management measures,complementary,GBF_T17_CY_229
+Target 17,Number of countries with mechanisms to facilitate the sharing of and access to information on potential adverse impacts of biotechnology on biodiversity and human health,complementary,GBF_T17_CY_230
+Target 18,Number of countries with biodiversity-relevant taxes,complementary,GBF_T18_CY_231
+Target 18,Number of countries with biodiversity-relevant charges and fees,complementary,GBF_T18_CY_232
+Target 18,Number of countries with biodiversity-relevant tradable permit schemes,complementary,GBF_T18_CY_233
+Target 18,Trends in potentially environmentally harmful elements of government support to agriculture (producer support estimate),complementary,GBF_T18_CY_234
+Target 18,Trends in the number and value of government fossil fuel support measures,complementary,GBF_T18_CY_235
+Target 18,Amount of fossil-fuel subsidies per unit of GDP (production and consumption),complementary,GBF_T18_CY_236
+Target 19,Amount of funding provided through the Global Environment Facility and allocated to the biodiversity focal area,complementary,GBF_T19_CY_237
+Target 19,"Foreign direct investment (FDI), official development assistance and South-South cooperation as a proportion of total domestic budget",complementary,GBF_T19_CY_238
+Target 19,Amount and composition of biodiversity-related finance reported to the OECD Creditor reporting system,complementary,GBF_T19_CY_239
+Target 19,"Dollar value of financial and technical assistance (including through North-South, South-South and triangular cooperation) committed to developing countries",complementary,GBF_T19_CY_240
+Target 19,Dollar value of all resources made available to strengthen statistical capacity in developing countries,complementary,GBF_T19_CY_241
+Target 19,Amount of biodiversity-related philanthropic funding,complementary,GBF_T19_CY_242
+Target 19,Proportion of total research budget allocated to research in the field of marine technology,complementary,GBF_T19_CY_243
+Target 19,"Total amount of approved funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",complementary,GBF_T19_CY_244
+Target 19,Number of countries (and number of instruments) with payments for ecosystem services (PES) programmes,complementary,GBF_T19_CY_245
+Target 19,"Number of countries that have (a) Assessed values of biodiversity, in accordance with the Convention, (b) Identified and reported funding needs, gaps and priorities (c)Developed national financial plans for biodiversity; (d) Been provided with the necessary funding and capacity building to undertake the above activities",complementary,GBF_T19_CY_246
+Target 21,Growth in number of records and species in the Living Planet Index database,complementary,GBF_T21_CY_248
+Target 21,Growth in species occurrence records accessible through the Global Biodiversity Information Facility,complementary,GBF_T21_CY_249
+Target 21,Growth in marine species occurrence records accessible through OBIS,complementary,GBF_T21_CY_250
+Target 21,Proportion of known species assessed through the IUCN Red List.,complementary,GBF_T21_CY_251
+Target 21,Number of assessments on the IUCN Red List of threatened species,complementary,GBF_T21_CY_252
+Target 21,World Association of Zoos and Aquariums (WAZA) bio-literacy survey (Biodiversity literacy in global zoo and aquarium visitors),complementary,GBF_T21_CY_253
 Target 21,"Species Status Information Index
-",complementary,GBF_T21_CY_252,"Species Status Information Index
-"
-Target 22,"Percentage of positions in national and local institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups",complementary,GBF_T22_CY_253,"Percentage of positions in national and local institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups"
-Target 22,Number of countries with systems to track and make public allocations for gender equality and women's empowerment,complementary,GBF_T22_CY_254,Number of countries with systems to track and make public allocations for gender equality and women's empowerment
-Target 22,"Proportion of total agricultural population with ownership or secure tenure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure",complementary,GBF_T22_CY_255,"Proportion of total agricultural population with ownership or secure tenure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure"
-Target 22,Number of countries where the legal framework (including customary law) guarantees women's equal rights to land ownership and/or control,complementary,GBF_T22_CY_256,Number of countries where the legal framework (including customary law) guarantees women's equal rights to land ownership and/or control
-Target 22,Number of protected areas that have completed a site-level assessment of governance and equity (SAGE),complementary,GBF_T22_CY_257,Number of protected areas that have completed a site-level assessment of governance and equity (SAGE)
-Target 22,"Trends in number of environmental human rights defenders killed annually, disaggregated by country, gender; number of indigenous environmental human rights defenders kill",complementary,GBF_T22_CY_258,"Trends in number of environmental human rights defenders killed annually, disaggregated by country, gender; number of indigenous environmental human rights defenders kill"
-Target 22,Land tenure [in the traditional territories] of indigenous peoples and local communities [by sex and type of tenure],complementary,GBF_T22_CY_259,Land tenure [in the traditional territories] of indigenous peoples and local communities [by sex and type of tenure]
-Target 22,"Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group",complementary,GBF_T22_CY_260,"Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group"
-Target 23,"Percentage of positions in national and local institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups",complementary,GBF_T23_CY_261,"Percentage of positions in national and local institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups"
-Target 23,"Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure",complementary,GBF_T23_CY_262,"Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure"
-Target 23,Number of countries with systems to track and make public allocations for gender equality and women's empowerment,complementary,GBF_T23_CY_263,Number of countries with systems to track and make public allocations for gender equality and women's empowerment
-Target 23,Number of protected areas that have completed a site-level assessment of governance and equity (SAGE),complementary,GBF_T23_CY_264,Number of protected areas that have completed a site-level assessment of governance and equity (SAGE)
-Target 23,"Percentage of population who believe decision making is inclusive and responsive, by sex, age, disability and population group",complementary,GBF_T23_CY_265,"Percentage of population who believe decision making is inclusive and responsive, by sex, age, disability and population group"
-Target 23,Proportion of countries where the legal framework (including customary law) guarantees women's equal rights to land ownership and/or control,complementary,GBF_T23_CY_266,Proportion of countries where the legal framework (including customary law) guarantees women's equal rights to land ownership and/or control
+",complementary,GBF_T21_CY_254
+Target 22,"Percentage of positions in national and local institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups",complementary,GBF_T22_CY_255
+Target 22,Number of countries with systems to track and make public allocations for gender equality and women's empowerment,complementary,GBF_T22_CY_256
+Target 22,"Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex",complementary,GBF_T22_CY_257
+Target 22,"share of women among owners or rights-bearers of agricultural land, by type of tenure",complementary,GBF_T22_CY_258
+Target 22,Number of countries where the legal framework (including customary law) guarantees women's equal rights to land ownership and/or control,complementary,GBF_T22_CY_259
+Target 22,Number of protected areas that have completed a site-level assessment of governance and equity (SAGE),complementary,GBF_T22_CY_260
+Target 22,"Trends in number of environmental human rights defenders killed annually, disaggregated by country, gender; number of indigenous environmental human rights defenders kill",complementary,GBF_T22_CY_261
+Target 22,Land tenure [in the traditional territories] of indigenous peoples and local communities [by sex and type of tenure],complementary,GBF_T22_CY_262
+Target 22,"Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group",complementary,GBF_T22_CY_263
+Target 23,"Percentage of positions in national and local institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups",complementary,GBF_T23_CY_264
+Target 23,"Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex",complementary,GBF_T23_CY_265
+Target 23,"share of women among owners or rights-bearers of agricultural land, by type of tenure",complementary,GBF_T23_CY_266
+Target 23,Number of countries with systems to track and make public allocations for gender equality and women's empowerment,complementary,GBF_T23_CY_267
+Target 23,Number of protected areas that have completed a site-level assessment of governance and equity (SAGE),complementary,GBF_T23_CY_268
+Target 23,"Percentage of population who believe decision making is inclusive and responsive, by sex, age, disability and population group",complementary,GBF_T23_CY_269
+Target 23,Proportion of countries where the legal framework (including customary law) guarantees women's equal rights to land ownership and/or control,complementary,GBF_T23_CY_270

@@ -1,0 +1,81 @@
+indicator_orig,indic_id,indicator_harmonized
+Aboveground biomass,IPBES_GA2.2_sup_1,above-ground biomass
+BHI (overall habitat integrity),IPBES_GA2.2_sup_2,biodiversity habitat index
+BHI (overall habitat integrity) - Hotspots,IPBES_GA2.2_sup_3,biodiversity habitat index
+Coastal carbon-rich habitat,IPBES_GA2.2_sup_4,coastal carbon-rich habitat
+Coastal protection habitats,IPBES_GA2.2_sup_5,coastal protection habitats
+Extent of forests,IPBES_GA2.2_sup_6,extent of forests
+Extent of intact forest landscapes,IPBES_GA2.2_sup_7,extent of intact forest landscapes
+Extent of marine wilderness,IPBES_GA2.2_sup_8,extent of marine wilderness
+Extent of terrestrial wilderness,IPBES_GA2.2_sup_9,extent of terrestrial wilderness
+Fraction of ocean not fished per year,IPBES_GA2.2_sup_10,fraction of ocean not fished per year
+Land not cultivated or urban (global),IPBES_GA2.2_sup_11,land not cultivated or urban
+Land not cultivated or urban (Hotspots),IPBES_GA2.2_sup_12,land not cultivated or urban (hotspots)
+Land not cultivated or urban (Indigenous Lands),IPBES_GA2.2_sup_13,land not cultivated or urban (indigenous lands)
+Leaf Area Index,IPBES_GA2.2_sup_14,leaf area index (lai)
+Mangrove forest area,IPBES_GA2.2_sup_15,mangrove forest area
+Natural habitat extent,IPBES_GA2.2_sup_16,extent of suitable habitat
+Percentage live coral cover,IPBES_GA2.2_sup_17,live coral cover
+Permanent surface water extent,IPBES_GA2.2_sup_18,permanent surface water extent
+Remaining primary vegetation,IPBES_GA2.2_sup_19,remaining primary vegetation
+Remaining primary vegetation (Hotspots),IPBES_GA2.2_sup_20,remaining primary vegetation (hotspots)
+Remaining primary vegetation (Indigenous Lands),IPBES_GA2.2_sup_21,remaining primary vegetation (indigenous lands)
+Seagrass meadow area,IPBES_GA2.2_sup_22,seagrass meadow area
+Soil organic carbon (correlative model),IPBES_GA2.2_sup_23,soil organic carbon
+Soil organic carbon (mechanistic models),IPBES_GA2.2_sup_24,soil organic carbon
+Tree cover,IPBES_GA2.2_sup_25,tree cover
+Vegetation biomass (mechanistic models),IPBES_GA2.2_sup_26,vegetation biomass
+Wetland Extent Trends Index,IPBES_GA2.2_sup_27,wetland extent trends index
+Biological pump efficiency,IPBES_GA2.2_sup_28,biological pump efficiency
+Biomass turnover rate,IPBES_GA2.2_sup_29,biomass turnover rate
+Evapotranspiration (model ensemble),IPBES_GA2.2_sup_30,evapotranspiration
+Marine NPP (remote sensing),IPBES_GA2.2_sup_31,marine net primary production
+NPP remaining in ecosystems,IPBES_GA2.2_sup_32,net primary production
+Oceanic carbon sequestration,IPBES_GA2.2_sup_33,oceanic carbon sequestration
+Terrestrial C sequestration (model ensemble),IPBES_GA2.2_sup_34,terrestrial c sequestration
+Terrestrial NPP (model ensemble),IPBES_GA2.2_sup_35,terrestrial net primary production
+Terrestrial NPP (remote-sensing),IPBES_GA2.2_sup_36,terrestrial net primary production
+Biodiversity Intactness Index (Hotspots),IPBES_GA2.2_sup_37,biodiversity intactness index (hotspots)
+Biodiversity Intactness Index (Indigenous Lands),IPBES_GA2.2_sup_38,biodiversity intactness index (indigenous lands)
+Biodiversity Intactness Index (overall),IPBES_GA2.2_sup_39,biodiversity intactness index
+Local species richness (BioTime),IPBES_GA2.2_sup_40,local species richness (biotime)
+Local species richness (PREDICTS),IPBES_GA2.2_sup_41,local species richness (predicts)
+Mean Species Abundance index,IPBES_GA2.2_sup_42,mean species abundance (msa)
+Mean Species Abundance index (Hotspots),IPBES_GA2.2_sup_43,mean species abundance (msa) (hotspots)
+Mean Species Abundance index (Indigenous Lands),IPBES_GA2.2_sup_44,mean species abundance (msa) (indigenous lands)
+Tropical forest BII (hotspots),IPBES_GA2.2_sup_45,"biodiversity intactness index (tropical forest, hotspots)"
+Tropical forest BII (Indigenous Lands),IPBES_GA2.2_sup_46,"biodiversity intactness index (tropical forest, indigenous lands)"
+Tropical forest BII (overall),IPBES_GA2.2_sup_47,biodiversity intactness index (tropical forest)
+Bird species per grid cell (cSAR),IPBES_GA2.2_sup_48,bird species per grid cell
+Cumulative introduced invasive aliens,IPBES_GA2.2_sup_49,cumulative introduced invasive aliens
+Cumulative number of alien species,IPBES_GA2.2_sup_50,cumulative introduced invasive aliens
+Forest-specialist bird species per grid cell (cSAR),IPBES_GA2.2_sup_51,forest-specialist bird species per grid cell
+Functional intactness (Madingley),IPBES_GA2.2_sup_52,functional intactness (madingley)
+Species richness per grid cell (AIM),IPBES_GA2.2_sup_53,species richness per grid cell
+BHI (species persisting) - Hotspots,IPBES_GA2.2_sup_54,"biodiversity habitat index (species persisting, hotspots)"
+Biodiversity Habitat Index (species persisting),IPBES_GA2.2_sup_55,biodiversity habitat index (species persisting)
+Global bird richness (cSAR),IPBES_GA2.2_sup_56,global bird richness (csar)
+Global forest-specialist bird richness (cSAR),IPBES_GA2.2_sup_57,global forest-specialist bird richness (csar)
+Global mammal & bird species remaining,IPBES_GA2.2_sup_58,global mammal and bird species remaining
+Red List Index (overall),IPBES_GA2.2_sup_59,red list index
+RLI (forest specialists),IPBES_GA2.2_sup_60,red list index (forest specialists)
+RLI (internationally traded birds),IPBES_GA2.2_sup_61,red list index (internationally traded birds)
+RLI (pollinators),IPBES_GA2.2_sup_62,red list index (pollinators)
+RLI (species used in food & medicine),IPBES_GA2.2_sup_63,red list index (for utilized species)
+RLI (wild relatives),IPBES_GA2.2_sup_64,red list index (wild relatives of farmed and domesticated species)
+Extent of suitable habitat (mammals),IPBES_GA2.2_sup_65,extent of suitable habitat (mammals)
+Mammalian range size,IPBES_GA2.2_sup_66,mammalian range size
+Megafaunal range size,IPBES_GA2.2_sup_67,megafaunal range size
+Species Habitat Index,IPBES_GA2.2_sup_68,species habitat index
+Fish stocks biologically sustainable,IPBES_GA2.2_sup_69,proportion of fish stocks within biologically sustainable levels
+Living Planet Index (freshwater),IPBES_GA2.2_sup_70,living planet index (freshwater)
+Living Planet Index (marine),IPBES_GA2.2_sup_71,living planet index (marine)
+Living Planet Index (overall),IPBES_GA2.2_sup_72,living planet index
+Living Planet Index (terrestrial),IPBES_GA2.2_sup_73,living planet index (terrestrial)
+Predatory fish biomass,IPBES_GA2.2_sup_74,predatory fish biomass
+Prey fish biomass,IPBES_GA2.2_sup_75,prey fish biomass
+Wild Bird Index (habitat specialists),IPBES_GA2.2_sup_76,wild bird index (habitat specialists)
+Wild mammal biomass,IPBES_GA2.2_sup_77,wild mammal biomass
+Functional richness (Madingley),IPBES_GA2.2_sup_78,functional richness (madingley)
+Mammalian body mass,IPBES_GA2.2_sup_79,mammalian body mass
+Marine Trophic Index,IPBES_GA2.2_sup_80,marine trophic index (mti)

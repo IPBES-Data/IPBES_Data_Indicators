@@ -1,0 +1,68 @@
+indicator_orig,indic_id,indicator_harmonized
+GDP,IPBES_GA2.1_sup_1,gross domestic product
+Globalization index,IPBES_GA2.1_sup_2,globalization index
+Poverty gap,IPBES_GA2.1_sup_3,poverty gap
+Food Security Index,IPBES_GA2.1_sup_4,food security index
+Depth of the food deficit (kcal/capit a/day) (3- year average),IPBES_GA2.1_sup_5,food deficit (kcal/capit a/day) (3- year average)
+Access to improved sanitation facilities,IPBES_GA2.1_sup_6,access to improved sanitation facilities
+Domestic Material Consumption,IPBES_GA2.1_sup_7,domestic material consumption
+per capita calorie intake,IPBES_GA2.1_sup_8,per capita calorie intake
+Prevalence of obesity in the adult population (18 years and older),IPBES_GA2.1_sup_9,prevalence of obesity in the adult population (18 years and older)
+Energy use (kg of oil equivalent per capita),IPBES_GA2.1_sup_10,energy use (kg of oil equivalent per capita)
+Mobile cellular subscriptions,IPBES_GA2.1_sup_11,mobile cellular subscriptions
+Fossil fuel energy consumption (% of total),IPBES_GA2.1_sup_12,fossil-fuel energy consumption (percentage of total)
+Renewable electricity consumption (% of total electricity output),IPBES_GA2.1_sup_13,renewable electricity consumption (percentage of total electricity output)
+Electric power consumption (kWh per capita),IPBES_GA2.1_sup_14,electric power consumption (kwh per capita)
+Access to electricity,IPBES_GA2.1_sup_15,access to electricity
+Alternative and nuclear energy (% of total energy use),IPBES_GA2.1_sup_16,alternative and nuclear energy (percentage of total energy use)
+Protein intake per country per person,IPBES_GA2.1_sup_17,protein intake per country per person
+"Energy supply derived from cereals, roots and tubers",IPBES_GA2.1_sup_18,"energy supply derived from cereals, roots and tubers"
+People per ouletlet McDonals,IPBES_GA2.1_sup_19,people per ouletlet mcdonals
+Population growth (annual %),IPBES_GA2.1_sup_20,population growth (annual percentage)
+Population density,IPBES_GA2.1_sup_21,population density
+Child mortality rate,IPBES_GA2.1_sup_22,child mortality rate
+Urban Population,IPBES_GA2.1_sup_23,urban population
+International migrant stock,IPBES_GA2.1_sup_24,international migrant stock
+Refugee population,IPBES_GA2.1_sup_25,refugee population
+Migration Net,IPBES_GA2.1_sup_26,migration net
+Population in the largest city,IPBES_GA2.1_sup_27,population in the largest city
+Population in megacities,IPBES_GA2.1_sup_28,population in megacities
+GDP per capita,IPBES_GA2.1_sup_29,gross domestic product
+Agricultural land,IPBES_GA2.1_sup_30,agricultural land
+livestock indigenous animals,IPBES_GA2.1_sup_31,livestock indigenous animals
+livestock density of cattle,IPBES_GA2.1_sup_32,livestock density of cattle
+livestock density of animals (chickens),IPBES_GA2.1_sup_33,livestock density of animals (chickens)
+agricultural organic area,IPBES_GA2.1_sup_34,area of agricultural land under organic production
+"International tourism, number of departures",IPBES_GA2.1_sup_35,"international tourism, number of departures"
+"International tourism, number of arrivals",IPBES_GA2.1_sup_36,"international tourism, number of arrivals"
+Container port traffic (TEU: 20 foot equivalent units),IPBES_GA2.1_sup_37,container port traffic (teu: 20 foot equivalent units)
+Air passengers,IPBES_GA2.1_sup_38,air passengers
+Air departures,IPBES_GA2.1_sup_39,air departures
+Deaths from air pollution,IPBES_GA2.1_sup_40,deaths from air pollution
+GHG emissions (in tonnes CO2 eq and tonnes per capita),IPBES_GA2.1_sup_41,ghg emissions
+Pesticides used per unit area,IPBES_GA2.1_sup_42,pesticide use
+Fertilizers used per unit area,IPBES_GA2.1_sup_43,fertilizers used
+Air pollution,IPBES_GA2.1_sup_44,air pollution
+Nitrogenen deposition trends,IPBES_GA2.1_sup_45,nitrogenen deposition trends
+GHG emissions change,IPBES_GA2.1_sup_46,ghg emissions
+Extraction ores,IPBES_GA2.1_sup_47,extraction ores
+Extraction all of biomass,IPBES_GA2.1_sup_48,extraction all of biomass
+Extraction of ind. & const. minerals,IPBES_GA2.1_sup_49,extraction of industrial and constrution minerals
+Extraction biomass food,IPBES_GA2.1_sup_50,extraction biomass food
+Extraction Biomass Forstry,IPBES_GA2.1_sup_51,extraction biomass forestry
+Extraction biomass feed,IPBES_GA2.1_sup_52,extraction biomass feed
+Extraction biomass animals,IPBES_GA2.1_sup_53,extraction biomass animals
+Extraction other biomass,IPBES_GA2.1_sup_54,extraction other biomass
+Extraction fossil fuel,IPBES_GA2.1_sup_55,extraction fossil-fuel
+Water withdrawal,IPBES_GA2.1_sup_56,water withdrawal
+Renewable internal freshwater resource,IPBES_GA2.1_sup_57,renewable internal freshwater resource
+Agricultural water withdrawal,IPBES_GA2.1_sup_58,agricultural water withdrawal
+Ramsar Sites,IPBES_GA2.1_sup_59,ramsar sites
+Certified Forest Area,IPBES_GA2.1_sup_60,certified forest area
+United Nations Framework Convention on Climate Change,IPBES_GA2.1_sup_61,united nations framework convention on climate change
+Convention of fishing and conservation of the living resources of the high seas,IPBES_GA2.1_sup_62,convention of fishing and conservation of the living resources of the high seas
+Montreal Protocol,IPBES_GA2.1_sup_63,montreal protocol
+Convention on Biological Diversity,IPBES_GA2.1_sup_64,convention on biological diversity
+Convention on the Conservation of Antarctic Marine Living Resources,IPBES_GA2.1_sup_65,convention on the conservation of antarctic marine living resources
+"Credit to Agriculture, Forestry and Fishing",IPBES_GA2.1_sup_66,"credit to agriculture, forestry and fishing"
+Political stability and absence of violence/terrorism,IPBES_GA2.1_sup_67,political stability and absence of violence/terrorism

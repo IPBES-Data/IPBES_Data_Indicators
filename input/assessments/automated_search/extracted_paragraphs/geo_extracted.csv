@@ -1,0 +1,253 @@
+indicator_harmonized,indic_id,var_indic,ILK
+greenhouse gas index (national oceanic and atmospheric administration),GEO_2_23_6,2,NA
+glacier mass balance,GEO_2_26_7,2,NA
+northern hemisphere (mar-apr) snow cover,GEO_2_26_7,2,NA
+specific humidity,GEO_2_26_7,2,NA
+ocean acidification,GEO_2_26_7,2,NA
+annual global mean surface temperature,GEO_2_26_7,2,NA
+world trade organisation greenbox agricultural subsidies,GEO_2_26_7,2,NA
+marine air temperature,GEO_2_26_7,2,NA
+sea level,GEO_2_26_7,2,NA
+tropospheric temperature,GEO_2_26_7,2,NA
+ocean heat content and specific humidity,GEO_2_26_7,2,NA
+shrinking of the arctic ice cover,GEO_2_26_7,2,NA
+increase in the global mean sea level,GEO_2_26_7,2,NA
+altering of the carbon and biogeochemical cycles,GEO_2_26_7,2,NA
+extent of ice cover,GEO_2_26_7,2,NA
+tropospheric temperature,GEO_2_26_7,2,NA
+world trade organisation greenbox agricultural subsidies,GEO_2_26_7,2,NA
+summer arctic sea ice extent,GEO_2_26_7,2,NA
+climate related loss events,GEO_2_28_8,1,NA
+poverty,GEO_3_5_16,1,NA
+zoonotic disease,GEO_3_5_16,1,NA
+nutrition,GEO_3_5_16,1,NA
+life expectancy,GEO_3_5_16,1,NA
+economic growth,GEO_3_5_16,1,NA
+inclusive societies,GEO_3_5_16,1,NA
+environmentally friendly policy processes,GEO_3_5_16,1,NA
+normalized difference vegetation index (ndvi),GEO_3_7_18,1,NA
+gender-disaggregated agricultural indices,GEO_3_10_20,2,NA
+agricultural employment and landholders,GEO_3_10_20,2,NA
+cross-natrional comparative information on access to and ownership of land,GEO_3_10_20,2,NA
+sex-disaggregated burden-of-disease data,GEO_3_10_20,2,NA
+underweight children,GEO_3_12_24,1,NA
+malnutrition,GEO_3_12_24,1,NA
+food security,GEO_3_12_24,1,NA
+global human settlement layer (ghsl),GEO_3_14_30,2,NA
+sustainability and/or environmental themes as one of the general goals of education,GEO_4_9_33,2,NA
+integration of education for sustainable development (esd) in curricula,GEO_4_9_33,2,NA
+integration of education for sustainable development (esd) in higher education,GEO_4_9_33,2,NA
+loss of mass of mountain glaciers and polar ice sheets,GEO_4_13_34,2,NA
+sea level rise,GEO_4_13_34,2,NA
+mountain glaciers,GEO_4_13_34,2,NA
+polar ice sheets,GEO_4_13_34,2,NA
+antimicrobial resistence in pathogens,GEO_4_15_35,2,NA
+toxocological potential of nanoparticals,GEO_4_15_36,2,NA
+greenhouse gas emissions,GEO_4_20_39,2,NA
+global temperature increase,GEO_4_20_39,2,NA
+measured concentrations of o in the upper stratospere,GEO_5_17_41,1,NA
+odss and ghgs,GEO_5_17_41,1,NA
+o3 concentration,GEO_5_17_41,1,NA
+ghg emissions,GEO_5_17_41,1,NA
+o3 concentration,GEO_5_17_42,1,NA
+pressure ozone trend,GEO_5_17_42,1,NA
+o recovery,GEO_5_17_42,1,NA
+national oceanic and atmospheric administration annual greenhouse gas index (aggi),GEO_5_18_43,2,NA
+air pollution exposure,GEO_5_19_45,1,NA
+"years of healthy life lost from heart disease, stroke, lung cancer, chronic lung disease and respiratory infections",GEO_5_19_45,1,NA
+exposure to ambient pm,GEO_5_19_45,1,NA
+"high blood pressure, smoking, low birth weight, high levels of blood sugar",GEO_5_19_45,1,NA
+high body mass index,GEO_5_19_45,1,NA
+premature deaths,GEO_5_19_45,1,NA
+exposure to high concentrations of pollutants,GEO_5_19_45,1,NA
+safe level of annual average pm exposure,GEO_5_19_45,1,NA
+disability-adjusted life years (dalys) lost,GEO_5_19_45,1,NA
+premature deaths in 2016 to household air pollution,GEO_5_19_45,1,NA
+ocean health index,GEO_6_8_48,2,NA
+urban growth,GEO_6_8_49,1,NA
+land use change,GEO_6_8_49,1,NA
+habitat loss,GEO_6_8_49,1,NA
+deforestation,GEO_6_8_49,1,NA
+road construction,GEO_6_8_49,1,NA
+red list index,GEO_6_15_50,2,NA
+living planet index,GEO_6_16_52,2,NA
+species abundance,GEO_6_16_54,2,NA
+red list index,GEO_6_16_54,2,NA
+living planet index,GEO_6_16_54,2,NA
+biodiversity intactness index,GEO_6_16_55,2,NA
+invertebrate abundance and biomass,GEO_6_16_56,1,NA
+biodiversity intactness index,GEO_6_17_57,2,NA
+enhanced vegetation index,GEO_6_18_58,2,NA
+land cover change,GEO_6_18_58,2,NA
+arctic species trend index,GEO_6_24_60,2,NA
+deforestation rate,GEO_6_26_61,1,NA
+coral bleaching,GEO_7_7_63,1,NA
+global atmospheric co levels,GEO_7_7_63,1,NA
+co2 concentration,GEO_7_7_63,1,NA
+marine litter,GEO_7_19_66,2,NA
+index of coastal eutrophication potential (icep),GEO_7_19_66,2,NA
+floating plastic litter density,GEO_7_19_66,2,NA
+build up area,GEO_8_14_67,1,NA
+build up area,GEO_8_14_67,1,NA
+biofuel production,GEO_8_26_75,1,NA
+fertilizer price,GEO_8_26_75,1,NA
+maize price,GEO_8_26_75,1,NA
+wetland area index,GEO_9_16_77,2,NA
+living planet index (migratory fish),GEO_9_18_79,2,NA
+water infrastructure,GEO_9_18_80,2,NA
+"drinking water supply, treatment and distribution",GEO_9_18_80,2,NA
+"provision of safe, reliable drinking water",GEO_9_18_80,2,NA
+air quality index,GEO_12_12_111,2,NA
+us national ambient air quality standards,GEO_12_12_111,2,NA
+population-weighted annual mean concentration of pm2.5,GEO_12_15_115,2,NA
+emissions of ozone-depleting substances,GEO_12_15_115,2,NA
+anthropogenic emissions of long-lived greenhouse gases (co2 equivalents),GEO_12_15_115,2,NA
+exposure to pm concentrations (population-weighted annual mean concentration of pm2.5),GEO_12_16_117,2,NA
+pm2.5 emissions,GEO_12_16_119,2,NA
+so2 emissions,GEO_12_16_119,2,NA
+no emissions,GEO_12_16_119,2,NA
+nh3 emissions,GEO_12_16_119,2,NA
+emissions of ozone-depleting substances,GEO_12_17_120,2,NA
+anthropogenic emissions of long-lived greenhouse gases (ghg emissions),GEO_12_18_121,2,NA
+ghg emissions,GEO_12_18_122,2,NA
+global warming potential index,GEO_12_18_122,2,NA
+global temperature potential,GEO_12_18_124,2,NA
+city biodiversity index,GEO_13_14_128,2,NA
+ecological footprint,GEO_13_14_129,2,NA
+global capacity,GEO_13_14_129,2,NA
+proportion of countries adopting relevant national legislation and adequately resourcing the prevention or control of invasive alien species,GEO_13_17_134,2,NA
+presense of endemic species,GEO_13_18_135,1,NA
+red list index (for utilized species),GEO_13_18_136,2,NA
+ecological footprint,GEO_13_19_142,2,NA
+biocapacity,GEO_13_19_143,2,NA
+willingness-to-participate,GEO_14_7_145,2,NA
+coverage of protected areas in relation to marine areas,GEO_14_14_147,2,NA
+beach litter,GEO_14_14_151,2,NA
+floating plastic debris density,GEO_14_15_152,2,NA
+beach litter,GEO_14_15_152,2,NA
+nutrient pollution,GEO_14_15_152,2,NA
+regional seas and action plans,GEO_14_15_152,2,NA
+floating plastic debris density,GEO_14_15_154,2,NA
+stranded debris,GEO_14_15_154,2,NA
+number of vulnerable marine ecosystems,GEO_14_16_155,2,NA
+stock status,GEO_14_16_156,2,NA
+red list of ecosystems,GEO_14_16_157,2,NA
+proportion of land that is degraded over total land area,GEO_15_17_161,2,NA
+proportion of terrestrial protected area as a share of the total land area,GEO_15_17_161,2,NA
+ratio of land consumption rate to population growth rate,GEO_15_17_161,2,NA
+soil carbon sequestration,GEO_15_18_165,2,NA
+proportion of terrestrial protected area as a share of the total land area,GEO_15_19_166,2,NA
+proportion of terrestrial protected area as a share of the total land area,GEO_15_19_167,2,NA
+proportion of terrestrial protected area as a share of the total land area,GEO_15_19_168,2,NA
+deforestation rate,GEO_15_19_169,2,NA
+impacts of agricultural outpic prices on deforestation rates both inside and outside of protected areas,GEO_15_19_169,2,NA
+forest area as a percentage of total land area,GEO_15_19_170,2,NA
+ratio of land consumption rate to population growth rate,GEO_15_20_171,2,NA
+resources per capita invested in human settlement per km2,GEO_15_21_173,2,NA
+"percentage of cities with direct participation structure of civil society in urban planning and management, which operate regularly and democratically",GEO_15_21_173,2,NA
+ratio of land consumption rate to urban population growth rate at comparable scale,GEO_15_21_173,2,NA
+proportion of population using safely managed drinking water services,GEO_16_14_181,2,NA
+proportion of population using safely managed sanitation services,GEO_16_14_181,2,NA
+freshwater withdrawal as a proportion of available freshwater resources,GEO_16_14_181,2,NA
+millenium development goals indicators,GEO_16_15_183,2,NA
+improved/unimproved sources of drinking water,GEO_16_16_184,2,NA
+proportion of the global population using piped water supplies on premises,GEO_16_16_185,2,NA
+proportion of population using safely managed drinking water services,GEO_16_16_185,2,NA
+proportion of population using safely managed sanitation services,GEO_16_17_187,2,NA
+number of people without access to safe sanitation services,GEO_16_17_189,2,NA
+improved water supply and sanitation,GEO_16_18_190,2,NA
+level of water stress (freshwater withdrawal as a proportion of available freshwater resources),GEO_16_18_192,2,NA
+level of water stress,GEO_16_18_193,2,NA
+freshwater change over time,GEO_16_19_194,2,NA
+gender equality,GEO_17_8_199,1,NA
+empowerment of women and girls,GEO_17_8_199,1,NA
+reduction of inequality within and among countries,GEO_17_8_199,1,NA
+quantity of land area known to have (in)sufficient infrastructure against flooding,GEO_17_8_200,1,NA
+number of residents living in floodplains,GEO_17_8_200,1,NA
+low-elevation coastal zones,GEO_17_8_200,1,NA
+network of communication channels in times of crisis or disaster,GEO_17_8_200,1,NA
+drought-resistant vegetation,GEO_17_8_200,1,NA
+water- saving devices,GEO_17_8_200,1,NA
+buffer zones to protect catchment areas,GEO_17_8_200,1,NA
+amend policies that lead to destruction of mangroves,GEO_17_8_200,1,NA
+laws preventing recycling of water,GEO_17_8_200,1,NA
+laws allowing building in vulnerable areas,GEO_17_8_200,1,NA
+land-use models for efficient farming,GEO_17_8_200,1,NA
+sustainable fishing practices,GEO_17_8_200,1,NA
+community awareness,GEO_17_8_200,1,NA
+ghg emissions from agriculture,GEO_17_9_201,2,NA
+agricultural emissions from different farming sectors,GEO_17_11_203,2,NA
+proportion of agricultural area under productive and sustainable agriculture,GEO_17_11_203,2,NA
+sustainability and nutrient efficiency of national dietary outcomes,GEO_17_11_203,2,NA
+dietary health and sustainability,GEO_17_11_203,2,NA
+dietary health and sustainability,GEO_17_12_205,2,NA
+including annual estimates of national food supplies per capita for each primary commodity and a number of processed commodities that are potentially available for human consumption,GEO_17_12_205,2,NA
+recommended intake values for the food groups,GEO_17_12_206,2,NA
+energy production,GEO_17_14_210,2,NA
+energy consumption,GEO_17_14_210,2,NA
+achievement of a circular economic system,GEO_17_20_212,1,NA
+sustainable resource management,GEO_17_20_212,1,NA
+societal behaviour,GEO_17_20_212,1,NA
+business operations,GEO_17_20_212,1,NA
+material flow accounting,GEO_17_20_212,1,NA
+material flow analysis,GEO_17_20_212,1,NA
+domestic material consumption,GEO_17_20_213,2,NA
+societal behaviour,GEO_17_22_214,2,NA
+under-five child mortality rate,GEO_20_6_228,2,NA
+pm 2.5 emissions,GEO_20_6_228,2,NA
+o3 emissions,GEO_20_6_228,2,NA
+volatile organic compounds emissions,GEO_20_6_228,2,NA
+pm 10 emissions,GEO_20_6_228,2,NA
+air quality,GEO_20_6_228,2,NA
+mortality rate attributable to household and ambient air pollution,GEO_20_7_232,2,NA
+deaths due to unsafe water,GEO_20_7_232,2,NA
+sanitation and hygiene,GEO_20_7_232,2,NA
+mortality from unintentional poisoning,GEO_20_7_232,2,NA
+percentage of the population exposed to annual mean pm concentrations above the highest interim target of 35 μg/m,GEO_20_8_233,2,NA
+united nations framework convention on climate change,GEO_20_8_233,2,NA
+freshwater withdrawal as a proportion of available freshwater resources,GEO_20_8_234,2,NA
+total gobal population living in water scarce areas,GEO_20_8_234,2,NA
+marine nutirent pollution,GEO_20_8_234,2,NA
+index of coastal eutrophication potential (icep),GEO_20_8_234,2,NA
+floating plastic debris density,GEO_20_8_234,2,NA
+nutrient runoff into oceans (n and p),GEO_20_8_234,2,NA
+proportion of fish stocks within biologically sustainable levels,GEO_20_8_234,2,NA
+proportion of land that is degraded over total land area,GEO_20_8_234,2,NA
+soil organic carbon (soc) stocks,GEO_20_8_234,2,NA
+number of people living on less than 1.90 usd per day,GEO_21_8_241,1,NA
+land-use change,GEO_21_10_246,2,NA
+"changes in terrestrial, marine and freshwater vertebrate populations",GEO_21_10_246,2,NA
+species dispersal ability,GEO_21_11_248,2,NA
+proportion of fish stocks within biologically sustainable levels,GEO_21_17_250,2,NA
+projections of global fisheries under an unchanged climate and current management scenario,GEO_21_17_250,2,NA
+proportion of fish stocks within biologically sustainable levels,GEO_21_17_250,2,NA
+body mass index,GEO_21_17_251,1,NA
+blood pressure,GEO_21_17_251,1,NA
+smoking,GEO_21_17_251,1,NA
+childhood undernutrition,GEO_21_17_251,1,NA
+alcohol use,GEO_21_17_251,1,NA
+under-five child mortality rate,GEO_21_17_252,2,NA
+under-five child mortality rate,GEO_21_18_253,2,NA
+beef consumption,GEO_22_8_255,1,NA
+energy-intensity,GEO_22_12_256,1,NA
+share of low-carbon options,GEO_22_12_256,1,NA
+measure of income,GEO_22_21_257,1,NA
+health,GEO_22_21_257,1,NA
+levels of education,GEO_22_21_257,1,NA
+low income,GEO_22_21_257,1,NA
+women and girl’s education,GEO_22_21_257,1,NA
+inclusive and equitable quality education,GEO_22_21_257,1,NA
+child mortality,GEO_22_21_257,1,NA
+fertility rates,GEO_22_21_257,1,NA
+democracy,GEO_22_21_257,1,NA
+universal female education,GEO_22_21_257,1,NA
+piped drinking water,GEO_22_21_257,1,NA
+advanced malaria control,GEO_22_21_257,1,NA
+complete phase-out of biomass use for cooking,GEO_22_21_257,1,NA
+food waste,GEO_23_24_262,1,NA
+yield (improvement),GEO_23_24_262,1,NA
+agro-biodiversity,GEO_23_24_262,1,NA
+forest and land management,GEO_23_24_262,1,NA
+investment costs of groundwater abstraction and desalination for continued water supply and sanitation of rapidly expanding cities,GEO_23_24_263,1,NA
+wastewater treatment,GEO_23_24_263,1,NA
+chemical contaminants,GEO_23_24_263,1,NA

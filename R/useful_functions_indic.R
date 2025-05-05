@@ -81,7 +81,9 @@ harmonize_indic <- function(file_name = file_name,
     dplyr::mutate(field_harm = gsub('forstry', 'forestry',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('fossil fuel', 'fossil-fuel',field_harm)) %>%
     dplyr::mutate(field_harm = gsub("\\bnumber of extinctions\\b", "number of species extinctions",field_harm)) %>%     
-    dplyr::mutate(field_harm = gsub("\\b[%]", "percentage",field_harm)) %>%     
+    dplyr::mutate(field_harm = gsub("[%]", " percentage",field_harm)) %>%  
+    dplyr::mutate(field_harm = gsub("per cent", "percent",field_harm)) %>%  
+    dplyr::mutate(field_harm = gsub("percentages", "percentage",field_harm)) %>%  
     # dplyr::mutate(field_harm = gsub(" [(]$[)]\\b", "sustainable development goals index",field_harm)) %>% 
     
     # red list/iucn
@@ -95,14 +97,17 @@ harmonize_indic <- function(file_name = file_name,
     dplyr::mutate(field_harm = gsub('red list index [(]impacts of utilisation[)]', 'red list index (for utilized species)',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('red list index [(]impacts of utilization[)]', 'red list index (for utilized species)',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('red list index [(]species used for food and medicine[)]', 'red list index (for utilized species)',field_harm)) %>%
+    dplyr::mutate(field_harm = gsub('red list index [(]species used in food and medicine[)]', 'red list index (for utilized species)',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('red list index for vertebrate pollinators', 'red list index (vertebrate pollinators)',field_harm)) %>%
+    dplyr::mutate(field_harm = gsub('red list index for migratory species', 'red list index (migratory species)',field_harm)) %>%
+    dplyr::mutate(field_harm = gsub('red list index for used species', 'red list index (for utilized species)',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('red list index [(]wild species used for food and medicine[)]', 'red list index (wild relatives of farmed and domesticated species)',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('red list index [(]wild relatives of farmed and domesticated species[)]', 'red list index (wild relatives of farmed and domesticated species)',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('red list index (internationally traded species and migratory species)', 'red list index (internationally traded species)',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('[(]species used in food [&] medicine[)]', 'red list index (for utilized species)',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('red list index [(]forest specialist species[)]', 'red list index (forest specialists)',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('red list index [(]forest tree specialist species[)]', 'red list index (forest specialists)',field_harm)) %>%
-    dplyr::mutate(field_harm = gsub('[(]internationally traded birds[)]', 'red list index (internationally traded birds)',field_harm)) %>%
+    #dplyr::mutate(field_harm = gsub('[(]internationally traded birds[)]', 'red list index (internationally traded birds)',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('red list index [(]for internationally traded species and for migratory species[)]', 'red list index (internationally traded species and migratory species)',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('red list index [(]for internationally traded species[)]', 'red list index (internationally traded species)',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('red list index [(]internationally traded wild species[)]', 'red list index (internationally traded species)',field_harm)) %>%
@@ -128,27 +133,71 @@ harmonize_indic <- function(file_name = file_name,
     dplyr::mutate(field_harm = gsub("iucn red list of threatened species[.]", "red list index",field_harm)) %>%
     dplyr::mutate(field_harm = gsub("migratory birds threatened or near threatened on the iucn red list of threatened species",'red list index (migratory bird species)',field_harm)) %>%
     dplyr::mutate(field_harm = gsub("taxa assessed for the iucn red list of threatened species",'proportion of known species assessed through the iucn red list of threatened species',field_harm)) %>%
-    #dplyr::mutate(field_harm = gsub("iucn red list of threatened species[.]", "iucn red list of threatened species",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("rli [(]forest specialists[)]", "red list index (forest specialists)",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("rli [(]pollinators[)]", "red list index (pollinators)",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("rli [(]species used in food and medicine[)]", "red list index (for utilized species)",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("rli [(]wild relatives[)]", "red list index (wild relatives of farmed and domesticated species)",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("rli [(]internationally traded birds[)]", "red list index (internationally traded birds)",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("rli red list index [(]internationally traded birds[)]", "red list index (internationally traded birds)",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("predicts species[-]richness indicator", "local species richness (predicts)",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("species richness[-]local species richness [(]predicts[)]", "local species richness (predicts)",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("species richness[-]changes in local species richness [(]predicts[)]", "local species richness (predicts)",field_harm)) %>%
     
+    # GA
+    dplyr::mutate(field_harm = gsub("remaining primary vegetations", "remaining primary vegetation",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub(" [(]global[)]", "",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub(" [(]correlative model[)]", "",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub(" [(]mechanistic models[)]", "",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub(" [(]model ensemble[)]", "",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub(" [(]remote sensing[)]", "",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub(" [(]remote-sensing[)]", "",field_harm)) %>%
+    
+    dplyr::mutate(field_harm = gsub("tropical forest bii [(]hotspots[)]", "biodiversity intactness index (tropical forest, hotspots)",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("tropical forest bii [(]indigenous lands[)]", "biodiversity intactness index (tropical forest, indigenous lands)",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("tropical forest bii", "biodiversity intactness index (tropical forest)",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("bhi [(]species persisting[)] [-] hotspots", "biodiversity habitat index (species persisting, hotspots)",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("bhi [(]overall habitat integrity[)] [-] hotspots", "biodiversity habitat index ",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("bhi [(]overall habitat integrity[)]", "biodiversity habitat index",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("extraction of ind[.] and const[.] minerals", "extraction of industrial and constrution minerals",field_harm)) %>%
+    
+    dplyr::mutate(field_harm = gsub("[,] e[.]g[.] net primary production and seaweed aquaculture", "",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("extent of marine vegetation[:] ", "",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("how much kw hrs that are dependent on water ag[:] irrigated area", "how much kw hrs that are dependent on water (irrigated area)",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("land use change that causes a change in et", "land use change that causes a change in evapotranspiration",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("floods[:] lowered flood peaks", "lowered flood peaks",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("fires[:] lowered fuel load", "lowered fuel load (fires)",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("coastal[:] protection", "coastal protection",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("landslides[:] stabilization", "landslides stabilization",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("indirect access to natural products from natural habitats [(]e[.]g[.] natural products consumed in towns[,] food[,] medicine materials for architecture[,] horticulture[)] typically related rich urban dwellers", "indirect access to natural products from natural habitats",field_harm)) %>%
+    
+    dplyr::mutate(field_harm = gsub("coverage by protected areas of important sites for mountain biodiversity", "protected area coverage of important sites for mountain biodiversity",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("coverage of protected areas in relation to marine areas", "protected area coverage of marine and coastal areas",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("percentage of marine and coastal areas covered by protected areas", "protected area coverage of marine and coastal areas",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type", "protected area coverage of important sites for terrestrial and freshwater biodiversity",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("depth of the food deficit ", "food deficit ",field_harm)) %>%
+    
+    dplyr::mutate(field_harm = gsub("direct economic loss in relation to global gross domestic product[,] damage to critical infrastructure and number of disruptions to basic services[,] attributed to disasters", "direct economic loss attributed to disasters in relation to global gross domestic product",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("domestic material consumption, domestic material consumption, and domestic material consumption per gross domestic product", "domestic material consumption",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("ghg emissions change", "ghg emissions",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("hazardous waste generated per capita", "hazardous waste",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("material footprint[,] material footprint per capita[,] and material footprint per gross domestic product", "material footprint",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("tonnage of biomass [(]sugar cane[,] corn[,] palm oil[)][,] other energy crops", "tonnage of biomass (sugar cane, corn, palm oil)",field_harm)) %>%
+
     # SDGs
-    #dplyr::mutate(field_harm = gsub('[(]a[)] damage to critical infrastructure and', 'damage to critical infrastructure and',field_harm)) %>%
-    #dplyr::mutate(field_harm = gsub('[(]a[)] food loss index and', 'food loss index and',field_harm)) %>%
-    #dplyr::mutate(field_harm = gsub('[(]a[)] hazardous waste generated per capita[;]', 'hazardous waste generated per capita',field_harm)) %>%
-    #dplyr::mutate(field_harm = gsub('[(]a[)] index of coastal eutrophication[;]', 'index of coastal eutrophication',field_harm)) %>%
-    #dplyr::mutate(field_harm = gsub('[(]a[)] number of commercial bank branches per 1adults', 'number of commercial bank branches per 1adults',field_harm)) %>%
-    #dplyr::mutate(field_harm = gsub("[(]a[)] number of countries that have established national", "number of countries that have established national",field_harm)) %>%
-    #dplyr::mutate(field_harm = gsub("[(]a[)] official development assistance on conservation and sustainable use of biodiversity[;]", "official development assistance on conservation and sustainable use of biodiversity",field_harm)) %>%
-    #dplyr::mutate(field_harm = gsub("[(]a[)] proportion of total agricultural population with ownership or secure rights over agricultural land[,] by sex[;]", "proportion of total agricultural population with ownership or secure rights over agricultural land, by sex",field_harm)) %>%
-    #dplyr::mutate(field_harm = gsub("proportion of total agricultural population with ownership or secure tenure rights over agricultural land[,] by sex[;]", "proportion of total agricultural population with ownership or secure rights over agricultural land, by sex",field_harm)) %>%
-    #dplyr::mutate(field_harm = gsub("1adults", "adults",field_harm)) %>% 
-    #dplyr::mutate(field_harm = gsub("national pared list indexaments and", "national parliaments and",field_harm)) %>% 
-    
+    dplyr::mutate(field_harm = gsub('statistical capacity indicators', 'statistical capacity indicator for sustainable development goal monitoring',field_harm)) %>%
+    dplyr::mutate(field_harm = gsub('installed renewable energy[-]generating capacity in developing and developed countries [(]in watts per capita[)]', 'installed renewable energy-generating capacity in developing countries (in watts per capita)',field_harm)) %>%
+    dplyr::mutate(field_harm = gsub('hazardous waste generated per capita', 'hazardous waste',field_harm)) %>%
+    dplyr::mutate(field_harm = gsub('number of countries developing[,] adopting or implementing policy instruments aimed at supporting the shift to sustainable consumption and production', 'number of countries developing, adopting or implementing policy instruments aimed at encouraging and enabling people to make sustainable consumption choices',field_harm)) %>%
+    dplyr::mutate(field_harm = gsub('proportion of persons victim of non-sexual or sexual harassment[,] by sex[,] age[,] disability status and place of occurrence[,] in the previous 12 months', 'proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months',field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("biodiversity[-]relevant", "biodiversity relevant",field_harm)) %>%
+
     # indeces
     dplyr::mutate(field_harm = gsub('gross domestic product [(]gdp[)]', 'gross domestic product',field_harm)) %>%	
     dplyr::mutate(field_harm = gsub('gdp', ' gross domestic product',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('gross value added [(]gva[)]',  'gross value added',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('gva\\b', 'gross value added',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('gross value added',  'gross value added (gva)',field_harm)) %>%
+    
     dplyr::mutate(field_harm = gsub('mti [(]marine trophic index[)]', 'marine trophic index',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('marine trophic index [(]mti[)]', 'marine trophic index',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('mti\\b', 'marine trophic index',field_harm)) %>%
@@ -157,6 +206,9 @@ harmonize_indic <- function(file_name = file_name,
     dplyr::mutate(field_harm = gsub('mean species abundance index', 'mean species abundance',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('mean species abundance', 'mean species abundance (msa)',field_harm)) %>%
     dplyr::mutate(field_harm = gsub("genuine progress indicator [(]gpi[)]", "genuine progress indicator",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("wild bird index for migratory birds", "wild bird index (migratory birds)",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("annual mean levels of fine particulate matter [(]e[.]g[.] pm2[.]5 and pm10[)] in cities", "annual mean levels of fine particulate matter in cities",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("annual mean levels of fine particulate matter [(]e[.]g[.] pm2[.]5 and pm10[)] in cities [(]population weighted[)]", "annual mean levels of fine particulate matter in cities",field_harm)) %>% 
     
     dplyr::mutate(field_harm = gsub("index of coastal eutrophication (icep)", "index of coastal eutrophication potential (icep)",field_harm)) %>% 
     dplyr::mutate(field_harm = gsub("index of coastal eutrophication", "index of coastal eutrophication potential (icep)",field_harm)) %>% 
@@ -183,13 +235,13 @@ harmonize_indic <- function(file_name = file_name,
     dplyr::mutate(field_harm = gsub('atlantic multi[-]decadal variability amv', 'atlantic multi-decadal variability (amv) index',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('net primary production [(]npp[)]', 'net primary production',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('npp\\b', 'net primary production',field_harm)) %>%
-    dplyr::mutate(field_harm = gsub("marine net primary production [(]remote sensing[)]", "marine net primary production",field_harm)) %>%
     dplyr::mutate(field_harm = gsub("marine npp", "marine net primary production",field_harm)) %>% 
     dplyr::mutate(field_harm = gsub("terrestrial npp", "terrestrial net primary production",field_harm)) %>% 
     dplyr::mutate(field_harm = gsub("bird species per grid cell [(]csar[)]", "bird species per grid cell",field_harm)) %>%    
     dplyr::mutate(field_harm = gsub("el niño[-]southern oscillation [(]enso]", "el niño-southern oscillation (enso) index",field_harm)) %>% 
     dplyr::mutate(field_harm = gsub("north atlantic oscillation nao index", "north atlantic oscillation nao",field_harm)) %>%
     dplyr::mutate(field_harm = gsub("northern annular mode nam index", "northern annular mode (nam) index",field_harm)) %>%
+    
     dplyr::mutate(field_harm = gsub("northern annular mode nam", "northern annular mode (nam) index",field_harm)) %>%
     dplyr::mutate(field_harm = gsub("human development index [(]hdi[)]", "human development index",field_harm)) %>% 
     dplyr::mutate(field_harm = gsub("human development index", "human development index (hdi)",field_harm)) %>% 
@@ -216,6 +268,10 @@ harmonize_indic <- function(file_name = file_name,
     
     # harmonize names
     dplyr::mutate(field_harm = gsub('amount of fossil[-]fuel subsidies [(]production and consumption[)] per unit of  gross domestic product', 'amount of fossil-fuel subsidies per unit of gross domestic product (production and consumption)',field_harm)) %>%
+    dplyr::mutate(field_harm = gsub('trends in establishments ', 'trends in establishment ',field_harm)) %>%
+    dplyr::mutate(field_harm = gsub(' [(]sub[-]indicators on specific threat types[)]', '',field_harm)) %>%
+    #dplyr::mutate(field_harm = gsub('total amount of funding for developing countries and countries with economies in transition to promote the development[,] transfer[,] dissemination and diffusion of environmentally sound technologies', 'total amount of funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies',field_harm)) %>%
+    dplyr::mutate(field_harm = gsub('soil moisture [(]sm[)]', 'soil moisture',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('nmps\\b', 'national medicines policies',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('human appropriation of net primary production [(]hanet primary production[)]', 'human appropriation of net primary production',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('area of mangrove forest cover [(]km2[)]', 'mangrove forest area',field_harm)) %>%
@@ -227,19 +283,20 @@ harmonize_indic <- function(file_name = file_name,
     dplyr::mutate(field_harm = gsub('plans3', 'plans',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('number of countries with nationally determined contributions[,] long[-]term strategies[,] national adaptation plans[,] strategies as reported in adaptation communications and national communications', 'number of countries with nationally determined contributions, long-term strategies, national adaptation plans and adaptation communications, as reported to the secretariat of the united nations framework convention on climate change',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('number of least developed countries and small island developing states with nationally determined contributions[,] long[-]term strategies, national adaptation plans[,] strategies as reported in adaptation communications and national communications', 'number of least developed countries and small island developing states with nationally determined contributions, long-term strategies, national adaptation plans and adaptation communications, as reported to the secretariat of the united nations framework convention on climate change',field_harm)) %>%
-    dplyr::mutate(field_harm = gsub('total amount of approved funding for developing countries','total amount of funding for developing countries',field_harm)) %>%
+    dplyr::mutate(field_harm = gsub('total amount of approved funding for developing countries and countries with economies in transition to promote the development','total amount of funding for developing countries to promote the development',field_harm)) %>%
+    dplyr::mutate(field_harm = gsub('total amount of approved funding for developing countries to promote the development','total amount of funding for developing countries to promote the development',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('number of plant and animal genetic resources for food and agriculture secured in medium[-] or longterm conservation facilities','number of plant and animal genetic resources for food and agriculture secured in either medium- or long-term conservation facilities',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('number of plant genetic resources for food and agriculture secured in conservation facilities','number of plant and animal genetic resources secured in medium or long-term conservation facilities', field_harm)) %>%
     dplyr::mutate(field_harm = gsub('land not cultivated or urban (global)','land not cultivated or urban',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('student assessments [(]sdg 4[.]7[.]1[)]', 'student assessments',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('warm spell duration index[:] annual count of days with at least six consecutive days when tx [>]90th percentile', 'warm spell duration index (wsdi)',field_harm)) %>%
     dplyr::mutate(field_harm = gsub(" [(]kg[/]km2[)]", "",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("hazardous waste generation", "hazardous waste",field_harm)) %>%
     
     dplyr::mutate(field_harm = gsub('^area of agricultural land under conservation agriculture$', 'area of agricultural land under conservation',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('area of agricultural land under conservation agriculture [(]thousand ha[)]', 'area of agricultural land under conservation',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('areas of agricultural land under convervation agriculture', 'area of agricultural land under conservation',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('area of agricultural land under organic production [(]million ha[)]', 'area of agricultural land under organic production',field_harm)) %>%
-    dplyr::mutate(field_harm = gsub('area of forest under sustainable management[:] total fsc and pefc forest management certification [(]million ha[)]', 'area of forest under sustainable management: total forest management certification by forest stewardship council and programme for the endorsement of forest certification',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('area of tree cover loss [(]ha[)]', 'area of tree cover loss',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('extent of marine vegetation[,] e[.]g[.] net primary production and seaweed aquaculture', 'extent of marine vegetation',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('extent of marine vegetation[:] net primary production seaweed aquaculture', 'extent of marine vegetation',field_harm)) %>%
@@ -321,10 +378,18 @@ harmonize_indic <- function(file_name = file_name,
     dplyr::mutate(field_harm = gsub("proportion of population using an improved drinking water source", "proportion of population using safely managed drinking water services",field_harm)) %>% 
     dplyr::mutate(field_harm = gsub("proportion of population using safely managed sanitation services[,] including a hand[-]washing facility with soap and water", "proportion of population using safely managed sanitation services",field_harm)) %>% 
     dplyr::mutate(field_harm = gsub("proportion of population using safely managed sanitation services[,] including a hand[-]washing facility with soap and water", "proportion of population using a hand-washing facility with soap and water",field_harm)) %>% 
-    
+ 
     dplyr::mutate(field_harm = gsub("proportion of local breeds[,] classified as being at risk[,] not[-]at[-]risk or unknown level of risk of extinction", "proportion of local breeds classified as being at risk of extinction",field_harm)) %>%    
     dplyr::mutate(field_harm = gsub("proportion of land degraded over total land", "proportion of land that is degraded over total land area",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("area of forest under sustainable management[:] total forest management certification by forest stewardship council and programme for the endorsement of forest certification", "area of forest under sustainable management",field_harm)) %>%    
+    dplyr::mutate(field_harm = gsub("area of forest under sustainable management[:] total fsc and pefc forest management certification [(]million ha[)]", "area of forest under sustainable management",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub('cooling degree days above 22[°]c', 'cooling degree days',field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("human appropriation of fresh water [(]water footprint[)] [(]thousand km3[)]", "human appropriation of fresh water",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("growth in human appropriation of net primary productivity", "human appropriation of net primary productivity",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("green status index [(]pollinators[)]", "green status of species index (pollinators)",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("life expectancy at birth", "life expectancy",field_harm)) %>% 
     
+  
     dplyr::mutate(field_harm = gsub("biodiversity richness at global level [(]plants[,] animals and fungi[,] terrestrial and marine)", "species richness",field_harm)) %>%
     dplyr::mutate(field_harm = gsub("changes in local terrestrial diversity [(]predicts[)]", "local species richness (predicts)",field_harm)) %>%
     dplyr::mutate(field_harm = gsub("biodiversity richness", "species richness",field_harm)) %>% 
@@ -395,6 +460,21 @@ harmonize_indic <- function(file_name = file_name,
     dplyr::mutate(field_harm = gsub("biodiversity[-]relevant", "biodiversity relevant",field_harm)) %>% 
     dplyr::mutate(field_harm = gsub("remanining primary vegetations", "remanining primary vegetation",field_harm)) %>% 
     
+    #GBF
+    dplyr::mutate(field_harm = gsub("above[-]ground biomass stock in forest", "above-ground biomass in forests",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("life cycle impact assessment [(]lcia[)] e[.]g[.] lime [;] lifecycle impact assessment method based on endpoint modelling", "life cycle impact assessment (lcia)",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("living planet index for migratory species", "living planet index (migratory species)",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("living planet index [(]for used species[)]", "living planet index (used species)",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("living planet index for used species", "living planet index (used species)",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("would work here for ips [(]not necessarily lcs[)][,] if spatial planning was substituted for conservation", "",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub(" which include biodiversity", "",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("proportion of countries where the legal framework [(]including customary law[)] guarantees women[']s equal rights to land ownership and[/]or control", "proportion of countries where the legal framework (including customary law) guarantees women equal rights to land ownership and/or control",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("zoonotic disease in wildlife", "zoonotic disease",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("\\bprotconn\\b", "protected connected (protconn) index",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("[,] that are redirected[,] repurposed or eliminated", "",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("volume of production per labour unit by classes of farming[/]pastoral[/] forestry enterprise size", "volume of production per labour unit by classes of farming/pastoral/forestry enterprise size",field_harm)) %>% 
+    
+    
     # protected areas
     dplyr::mutate(field_harm = gsub("protected area connectedness index [(]parc[-]connectedness[)]", "protected area connectedness index",field_harm)) %>%
     dplyr::mutate(field_harm = gsub("protected area connectedness index", "protected area connectedness (parc-connectedness) index",field_harm)) %>%
@@ -414,17 +494,28 @@ harmonize_indic <- function(file_name = file_name,
     dplyr::mutate(field_harm = gsub("trends in carbon stocks [(]above and below ground[)][,] which is currently represented by soil organic carbon [(]soc[)] stocks", "soil organic carbon (soc) stocks",field_harm)) %>% 
     dplyr::mutate(field_harm = gsub("trends in soil organic carbon stock", "soil organic carbon (soc) stocks",field_harm)) %>%  
     dplyr::mutate(field_harm = gsub("number of countries that have been provided with the necessary funding and capacity building to undertake the above activities", "number of countries that have been provided with the necessary funding and capacity building to undertake assessment values of biodiversity, in accordance with the Convention, and/or identified and reported funding needs, gaps and priorities, and/or developed national financial plans for biodiversity",field_harm)) %>% 
-    
     dplyr::mutate(field_harm = gsub("trends in fisheries certified by the marine stewardship council", "trends in fisheries certified by the msc",field_harm)) %>%
     dplyr::mutate(field_harm = gsub("index index", "index",field_harm)) %>% 
     dplyr::mutate(field_harm = gsub("red list index red list index [(]internationally traded birds[)]", "red list index (internationally traded birds)",field_harm)) %>%
-    dplyr::mutate(field_harm = gsub("index index", "index",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("oecms", "other effective area-based conservation measures",field_harm)) %>% 
     
     # SDGs and GBF
     dplyr::mutate(field_harm = gsub("extent to which [(]i[)] global citizenship education and [(]ii[)] education for sustainable development are mainstreamed in [(]a[)] national education policies[;] [(]b[)] curricula[;] [(]c[)] teacher education[;] and [(]d[)] student assessment", 
                                     "extent to which (i) global citizenship education and (ii) education for sustainable development, including gender equality and human rights, are mainstreamed at all levels in: (a) national education policies, (b) curricula, (c) teacher education and (d) student assessments",field_harm)) %>%
+    # final corrections
+    dplyr::mutate(field_harm = gsub('[(]madingley[)] [(]madingley[)]', '(madingley)',field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("[(] ", "(",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub(" [(]in development[)]", "",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("index index", "index",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub(" [(]population weighted[)]", "",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("other effective area[-]based conservation measures [(]other effective area[-]based conservation measures[)]", "other effective area-based conservation measures",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("[.] [(]data source[:] internet analysis[)]", "",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("10 percentage", "10 percent",field_harm)) %>%
+    dplyr::mutate(indicators_h = gsub("number of ramsar sites that have effective[,] implemented management planning","number of ramsar sites that have effective, implemented management plans",indicators_h)) %>% 
+    dplyr::mutate(field_harm = gsub("protected connected [(]protected connected [(]protconn[)] index[)] index", "protected connected (protconn) index",field_harm)) %>%
+    #dplyr::mutate(field_harm = gsub("remaining primary vegetations", "remaining primary vegetation",field_harm)) %>% 
     dplyr::mutate(field_harm = gsub('  ', ' ',field_harm))
-
   
+
   return(harmonized)
 }

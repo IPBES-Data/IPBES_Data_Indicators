@@ -14,9 +14,9 @@ rm(list=ls())
 your_dir <- dirname(rstudioapi::getSourceEditorContext()$path) # works only in RStudio
 #your_dir <- "path_to_where_code_is" # complete accordingly
 
-## Choose directories where you want to read/store data 
-#input_dir='set_your_own_input_dir'
-#output_dir='set_your_own_output_dir'
+## Source useful functions from folder downloaded from GitHub
+source(paste0(your_dir,"/useful_functions_indic.R"))
+source(paste0(your_dir,"/settings.R"))
 
 ## Set working directory and install required libraries
 settings()
@@ -32,87 +32,108 @@ library(data.table)
 library(googlesheets4)
 #library(purrr)
 
-library(ggplot2)
-library(circlize)
-library(ggalluvial)
-
 # 1-Append all indicators to classify-----
-# Indicators extracted using auto_search_indic.R
-# Tables (indicators used policy and indicators used in supplementary material in assessments) extracted using tables_extract.R
-indicators_extracted = read_csv('../input/automated_search/automated_search_indicators.csv')
-indicators_policy_supp_tables = read_csv('../input/tables_extraction/policy_supp_tables_indicators.csv')
+# Indicators and other metrics extracted using `auto_search_indic.R`
+ipbes_extracted = read_csv('../input/assessments/automated_search/ipbes_extracted_indicators.csv') %>% 
+  dplyr::mutate(sources = 'ipbes') %>% 
+  dplyr::select(-ipbes_extracted)
+ipcc_extracted = read_csv('../input/assessments/automated_search/ipcc_extracted_indicators.csv') %>% 
+  dplyr::mutate(sources = 'ipcc') %>% 
+  dplyr::select(-ipcc_extracted)
+geo_extracted = read_csv('../input/assessments/automated_search/geo_extracted_indicators.csv') %>% 
+  dplyr::mutate(sources = 'geo') %>% 
+  dplyr::select(-geo_extracted)
 
-all_indicators = indicators_policy_supp_tables %>% 
-  full_join(indicators_extracted, by = 'indicators_harmonized') %>% 
-  dplyr::mutate(ga = if_else(ga_sup == 1 | ga_extracted == 1,
-                             true = 1,
-                             false = 0)) %>% 
-  dplyr::mutate(sua = if_else(sua_sup == 1 | sua_extracted == 1,
-                              true = 1,
-                              false = 0)) %>% 
-  dplyr::mutate(ipcc = if_else(ipcc_sup == 1 | ipcc_extracted == 1,
-                               true = 1,
-                               false = 0)) %>% 
-  dplyr::mutate(ipbes = if_else(ga == 1 | va_extracted == 1 | sua ==1 | ias_extracted == 1,
-                                true = 1,
-                                false = 0)) %>% 
-  dplyr::mutate(policy = if_else(km_gbf == 1 | sdg == 1 | cites ==1 | cms == 1 | iccwc == 1 | ramsar == 1 | unccd ==1,
-                                true = 1,
-                                false = 0)) %>% 
-  # add as indic_ext all indicators that include the word 'index'
-  dplyr::mutate(indic_ext2 = if_else(grepl('index', indicators_harmonized),
-                                 true = 1,
-                                 false = indic_ext)) %>%
-  dplyr::mutate(var_ext2 = if_else(grepl('index', indicators_harmonized),
-                               true = NA,
-                               false = var_ext)) %>%
-  # add other indices as indic_ext
-  dplyr::mutate(indic_ext2 = if_else(indicators_harmonized %in% c('indicator of unsustainable fisheries [(]iuu[)]', 'genuine progress indicator','gross domestic product',
-                                                              'mean species abundance (msa)', 'mean species abundance [(]msa[)] [(]hotspots[)]','mean species abundance [(]msa[)] [(]indigenous lands[)]'),
-                                 true = 1,
-                                 false = indic_ext2)) %>%
-  dplyr::mutate(var_ext2 = if_else(indicators_harmonized %in% c('indicator of unsustainable fisheries [(]iuu[)]', 'genuine progress indicator','gross domestic product',
-                                                            'mean species abundance (msa)', 'mean species abundance [(]msa[)] [(]hotspots[)]','mean species abundance [(]msa[)] [(]indigenous lands[)]'),
-                               true = NA,
-                               false = var_ext2)) %>%
-  dplyr::select(-var_ext, -indic_ext) %>% 
-  dplyr::select(indicators_harmonized, ga, sua, va = va_extracted, ias = ias_extracted,ipbes, geo = geo_extracted, ipcc, km_gbf, sdg,cites,cms,iccwc,ramsar, unccd,policy,indic, indic_ext =indic_ext2, var_ext=var_ext2,ILK_ext) %>% 
-  dplyr::filter(!is.na(indicators_harmonized)) %>% 
-  write_csv('../input/all_indicators.csv')
+# Indicators used in tables in supplementary material in assessments extracted using `tables_extract.R`
+ipbes_sup = read_csv('../input/assessments/tables_extraction/ipbes_sup_indicators.csv') %>% 
+  dplyr::mutate(sources = 'ipbes') %>% 
+  dplyr::select(-ipbes_sup)
+ipcc_sup = read_csv('../input/assessments/tables_extraction/ipcc_sup_indicators.csv') %>% 
+  dplyr::mutate(sources = 'ipcc') %>% 
+  dplyr::select(-ipcc_sup)
 
-all_indicators %>% distinct(indicators_harmonized) %>% count() #2106 unique indicators
+# Join all indicators and other metrics used in assessments
+assess_metrics = ipbes_extracted %>% 
+  rbind(ipcc_extracted,geo_extracted,ipbes_sup,ipcc_sup) %>% 
+  # Group_by indicator_harmonized and concatenate indic_ids and sourcces
+  dplyr::group_by(indicator_harmonized) %>% 
+  dplyr::summarise(indic_ids = paste0(indic_ids, collapse = ";"),
+                   sources = paste0(sources, collapse = ";")) %>% 
+  dplyr::mutate(sources = toupper(sources)) %>% 
+  dplyr::mutate(sources = gsub('IPBES[;]IPBES[;]IPBES',"IPBES", sources)) %>% 
+  dplyr::mutate(sources = gsub('IPBES[;]IPBES',"IPBES", sources)) %>%
+  dplyr::mutate(sources = gsub('IPBES[;]GEO[;]IPBES',"IPBES;GEO", sources)) %>% 
+  dplyr::mutate(sources = gsub('GEO[;]IPBES',"IPBES;GEO", sources)) %>% 
+  dplyr::mutate(sources = gsub('IPCC[;]IPCC',"IPCC", sources)) %>% 
+  dplyr::mutate(sources = gsub('IPBES[;]IPCC[;]IPBES',"IPBES;IPCC", sources)) %>% 
+  dplyr::mutate(sources = gsub('IPBES[;]IPCC[;]GEO[;]IPBES',"IPBES;IPCC;GEO", sources)) %>% 
+  # Save file
+  write_csv('../input/assessments/assess_indicators.csv') %>% 
+  # Format to merge with policy indicators
+  dplyr::mutate(policy = 0) 
 
-## 1.a-Merge with previously classified indicators ----
+# Indicators used in MEAs extracted using `meas_indic_extract.R`
+policy_indic = read_csv('../input/meas/policy_indicators.csv') %>% 
+  # Concatenate sources in one column
+  dplyr::mutate(indic_ids = strsplit(as.character(indic_ids), ";")) %>% 
+  tidyr::unnest(indic_ids) %>% 
+  dplyr::mutate(source = word(indic_ids,1, sep = '_')) %>% 
+  dplyr::group_by(indicator_harmonized) %>% 
+  dplyr::summarise(sources = paste0(source, collapse = ";"),indic_ids = paste0(indic_ids, collapse = ";")) %>% 
+  dplyr::mutate(sources = gsub('GBF[;]GBF[;]GBF',"GBF", sources)) %>% 
+  dplyr::mutate(sources = gsub('GBF[;]GBF',"GBF", sources)) %>%
+  dplyr::mutate(sources = gsub('SDG[;]SDG[;]SDG',"SDG", sources)) %>% 
+  dplyr::mutate(sources = gsub('SDG[;]SDG',"SDG", sources)) %>% 
+  dplyr::mutate(sources = gsub('UNCCD[;]UNCCD',"UNCCD", sources)) %>% 
+  dplyr::mutate(sources = gsub('RAMSAR[;]RAMSAR',"RAMSAR", sources)) %>% 
+  dplyr::mutate(sources = gsub('CITES[;]CITES',"CITES", sources)) %>% 
+  dplyr::mutate(sources = gsub('CMS[;]CMS',"CMS", sources)) %>% 
+  dplyr::mutate(sources = gsub('GBF[;]GBF',"GBF", sources)) %>%
+  dplyr::mutate(policy = 1)
 
-#Load previously classified indicators (version April 2024)
-# can also be found (https://docs.google.com/spreadsheets/d/1SJJBBOYYfUE7pkGaLqbj-ialx6g1RGGubVXK5CfcG3o/edit?gid=1682891338#gid=1682891338)
+# Join all indicators and other metrics together (assessments + MEAs)
 
-classified = readxl::read_excel("../input/all_indicators_classifiedApr24.xlsx",
-                        sheet = "indicators_to_classify_full2") %>% 
-  dplyr::select(indicators_harmonized, Categories,	Categories_2,	Subcategories,	Subcategories_2) %>% 
-  filter(!is.na(indicators_harmonized)) %>% 
-  filter(!is.na(Categories))
-  
-# Join
-all_indicators_cl = left_join(all_indicators, classified, by = 'indicators_harmonized')
+all_indicators = policy_indic %>% 
+  rbind(assess_metrics) %>% 
+  dplyr::group_by(indicator_harmonized) %>% 
+  dplyr::summarise(indic_ids = paste0(indic_ids, collapse = ";"),
+                   sources = paste0(sources, collapse = ";"),
+                   policy = sum(policy)) 
 
-changes = anti_join(classified, all_indicators, by = 'indicators_harmonized')#16 from old extraction were classified (no need to add them)
-changes = anti_join(all_indicators,classified, by = 'indicators_harmonized')#5 indicator from last extraction were not classified
-# these 5 indicators do not add info (associated species,circulation, radio occultation, pollen deposition==pollen presence)
-
-all_indicators_cl %>% filter(!is.na(Categories)) %>% count() #2101 classified
-all_indicators_cl %>% filter(is.na(Categories)) %>% count() #5 NOT classified yet
-
-# Remove not classified indicators (they do not add info)
-all_indicators_cl = all_indicators_cl %>%  filter(!is.na(Categories))
-
-all_indicators_cl %>% filter(indic == 1 & is.na(Categories)) %>% count() #0 real indicators NOT classifed yet
-
-# save
-write_csv(all_indicators_cl, '../input/all_indicators_classifiedMay24.csv')
+# checks
+all_indicators %>% group_by(sources) %>% count()
+all_indicators %>% group_by(policy) %>% count()
+all_indicators %>% filter(is.na(indic_ids))
 
 # 2-Classify indicators----
-# This was manual process that happened in multiple iterations (based on the April24 version, this May24 is the latest one)
+# This was manual process that happened in multiple iterations (based on the April24, May24 and May25 versions)
+# See May25 version here: https://docs.google.com/spreadsheets/d/1SxRkXLkBcSrQHqKiT3wWrU4XODB7J24MKCdc0tCD2m4/edit?gid=801923522#gid=801923522
+
+# Merge with previously classified indicators
+# classified = read_csv("../input/all_indicators_classifiedMay25.csv") %>% 
+#   dplyr::mutate(classif = 'old') %>%
+#   dplyr::select(indicator_harmonized, Categories,	Categories_2,	Subcategories,	Subcategories_2, classif) %>%
+#   filter(!is.na(indicator_harmonized)) %>%
+#   filter(!is.na(Categories))
+#   
+# # Join
+# all_indicators_cl = left_join(all_indicators, classified, by = 'indicator_harmonized')
+# all_indicators_cl %>% filter(is.na(Categories)) %>% count()#1
+# all_indicators_cl %>% filter(is.na(Categories)) %>% View()
+# #all_indicators_to_cl %>% filter(is.na(Categories)) %>% count()
+# 
+# # CHECKS
+# changes = anti_join(classified, all_indicators, by = 'indicator_harmonized')#423 from old extraction were classified (no need to add them)
+# changes = anti_join(all_indicators,classified, by = 'indicator_harmonized')#0 indicator from last extraction were not classified
+# 
+# all_indicators_cl %>% filter(!is.na(Categories)) %>% count() #1864 classified
+# all_indicators_cl %>% filter(is.na(Categories)) %>% count() #0 NOT classified yet
+# 
+# # save
+# write_csv(dplyr::select(all_indicators_cl, -classif),'../input/all_indicators_classified.csv')
+
+# 5 May 25 version
+all_indicators_cl = read_csv('../input/all_indicators_classified.csv')
 
 # 3-Summaries----
 

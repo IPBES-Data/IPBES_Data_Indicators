@@ -10,21 +10,18 @@ rm(list=ls())
 # Created by Yanina Sica in January 2023
 # Updated May 2024
 
-# Settings----
+### Settings----
 
-## Source useful functions from folders downloaded from GitHub
-your_workdir <- "C:/Users/yanis/Documents/scripts/IPBES-Data/IPBES_Data_Indicators/"
-source(paste0(your_workdir,"R/useful_functions_indic.R"))
-source(paste0(your_workdir,"R/settings.R"))
+## Your working directory (will be set using function in setting.R)
+your_dir <- dirname(rstudioapi::getSourceEditorContext()$path) # works only in RStudio
+#your_dir <- "path_to_where_code_is" # complete accordingly
 
-## Set working directory
-your_user <- Sys.info()["user"]
-your_node <- Sys.info()["nodename"]
+## Source useful functions from folder downloaded from GitHub
+source(paste0(your_dir,"/useful_functions_indic.R"))
+source(paste0(your_dir,"/settings.R"))
 
-set_working_dir(your_user,your_node)
-
-## Packages
-# Read installed libraries
+## Set working directory and install required libraries
+settings()
 
 library("pdftools")
 #library(tesseract)
@@ -305,8 +302,6 @@ if(pdf_col == 2){
 
 # 3- Harmonization of manually extracted indicators----
 
-# Set data directories for harmonization
-git_dir = "C:/Users/yanis/Documents/scripts/IPBES-Data/IPBES_Data_Indicators/"
 
 # Load indicators from extracted var/indices/indicators in assessments----
 ## Indicators extracted from IPBES------
@@ -314,11 +309,13 @@ git_dir = "C:/Users/yanis/Documents/scripts/IPBES-Data/IPBES_Data_Indicators/"
 # Manual validation
 
 ## Global Assessment
-ga = readxl::read_excel(paste0(git_dir, "input/automated_search/extracted_paragraphs/manual_validation/validated_global_matches2.xlsx"),
+ga = readxl::read_excel("../input/assessments/automated_search/extracted_paragraphs/manual_validation/validated_global_matches2.xlsx",
                 sheet = "global_matches2") %>% 
+  # re do ID to include page
+  dplyr::mutate(indic_id = paste0('GA_',chapter,'_',page,'_', row_number())) %>% 
   dplyr::select(indic_id,agree_val = `Agreement_validation (1,2,3)`,agree_indic = `Agreement_extracted`, ILK = ILK_indicators)
 
-indic_ga_ext = ga %>% 
+ipbes_ga_ext = ga %>% 
   # remove no hits
   dplyr::filter(!is.na(agree_val)) %>% 
   dplyr::filter(!is.na(agree_indic)) %>% 
@@ -331,259 +328,315 @@ indic_ga_ext = ga %>%
   unnest(indicator) %>% 
   # remove duplicates
   dplyr::distinct(indicator, .keep_all = TRUE) %>% 
-  # clean table
-  dplyr::select(-agree_indic, -indic_id) %>% 
-  # harmonize
-  dplyr::mutate(indicators_h = tolower(indicator)) %>%
+  # harmonize indicators
+  dplyr::mutate(indicators_h = gsub('  ', ' ',indicator)) %>% 
+  dplyr::mutate(indicators_h = tolower(indicators_h)) %>%
   dplyr::mutate(indicators_h = str_trim(indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.]$","",indicators_h)) %>% 
   harmonize_indic(indicators_h) %>% 
-  dplyr::rename(indicators_harmonized = field_harm) %>% 
-  dplyr::mutate(indicators_harmonized = str_trim(indicators_harmonized)) %>% 
-  # add source
-  dplyr::mutate(ga_extracted = 1) %>% 
-  dplyr::distinct(indicators_harmonized, .keep_all = TRUE)  %>% 
-  dplyr::select(indicators_harmonized, var_indic  = agree_val, ga_extracted, ILK) %>% 
+  dplyr::rename(indicator_harmonized = field_harm) %>% 
+  dplyr::mutate(indicator_harmonized = str_trim(indicator_harmonized)) %>% 
+  # keep original name
+  dplyr::rename(indicator_orig = indicator) %>%
+  # clean columns
+  dplyr::select(indicator_harmonized, indic_id, var_indic  = agree_val, ILK) %>% 
   # save
-  write_csv(paste0(git_dir,'input/automated_search/ga_extracted.csv')) 
+  write_csv('../input/assessments/automated_search/extracted_paragraphs/ga_extracted.csv')
 
-rm(ga)
+# Prepare indicators for analysis
+indic_ga = ipbes_ga_ext %>% 
+  dplyr::group_by(indicator_harmonized) %>% 
+  dplyr::summarise(indic_ids = paste0(indic_id, collapse = ";"))
+
+rm(ga, ipbes_ga_ext)
 
 ## Sustainable Use
 
-sua = readxl::read_excel(paste0(git_dir, "input/automated_search/extracted_paragraphs/manual_validation/validated_sua_matches2.xlsx"),
+sua = readxl::read_excel("../input/assessments/automated_search/extracted_paragraphs/manual_validation/validated_sua_matches2.xlsx",
                  sheet = "sua_matches2") %>% 
-  dplyr::mutate(indic_id = paste0('SUA_', row_number(),'_',chapter)) %>% 
+  # re do ID to include page
+  dplyr::mutate(indic_id = paste0('SUA_',chapter,'_',page,'_', row_number())) %>% 
   dplyr::select(indic_id,agree_val = `Agreement_validation (1,2,3)`,agree_indic = `Agreement_extracted`, ILK = ILK_indicators)
 
-indic_sua_ext = sua %>% 
+ipbes_sua_ext = sua %>% 
   # remove no hits
   dplyr::filter(!is.na(agree_val)) %>% 
   dplyr::filter(!is.na(agree_indic)) %>% 
   # remove no indicators (category 3)
   dplyr::filter(agree_val != 3) %>% 
   # Convert 'ILK' in 1
-  dplyr::mutate(ILK= gsub('ILK', 1, ILK)) %>% 
+  dplyr::mutate(ILK = gsub('ILK', 1, ILK)) %>% 
   # spread long
   mutate(indicator = strsplit(as.character(agree_indic), ";")) %>% 
   unnest(indicator) %>% 
   # remove duplicates
   dplyr::distinct(indicator, .keep_all = TRUE) %>% 
-  # clean table
-  dplyr::select(-agree_indic, -indic_id) %>% 
-  # harmonize
-  dplyr::mutate(indicators_h = tolower(indicator)) %>%
+  # harmonize indicators
+  dplyr::mutate(indicators_h = gsub('  ', ' ',indicator)) %>% 
+  dplyr::mutate(indicators_h = tolower(indicators_h)) %>%
   dplyr::mutate(indicators_h = str_trim(indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.]$","",indicators_h)) %>% 
   harmonize_indic(indicators_h) %>% 
-  dplyr::rename(indicators_harmonized = field_harm) %>% 
-  dplyr::mutate(indicators_harmonized = str_trim(indicators_harmonized)) %>% 
-  # add source
-  dplyr::mutate(sua_extracted = 1) %>% 
-  dplyr::distinct(indicators_harmonized, .keep_all = TRUE)  %>% 
-  dplyr::select(indicators_harmonized, var_indic  = agree_val, sua_extracted, ILK) %>% 
+  dplyr::rename(indicator_harmonized = field_harm) %>% 
+  dplyr::mutate(indicator_harmonized = str_trim(indicator_harmonized)) %>% 
+  # keep original name
+  dplyr::rename(indicator_orig = indicator) %>%
+  # clean columns
+  dplyr::select(indicator_harmonized, indic_id, var_indic  = agree_val, ILK) %>% 
   # save
-  write_csv(paste0(git_dir,'input/automated_search/sua_extracted.csv')) 
+  write_csv('../input/assessments/automated_search/extracted_paragraphs/sua_extracted.csv')
 
-rm(sua) 
+# Prepare indicators for analysis
+indic_sua = ipbes_sua_ext %>% 
+  dplyr::group_by(indicator_harmonized) %>% 
+  dplyr::summarise(indic_ids = paste0(indic_id, collapse = ";"))
+
+rm(sua,ipbes_sua_ext)
 
 ## values
 
-va = readxl::read_excel(paste0(git_dir, "input/automated_search/extracted_paragraphs/manual_validation/validated_values_matches.xlsx"),
+va = readxl::read_excel("../input/assessments/automated_search/extracted_paragraphs/manual_validation/validated_values_matches.xlsx",
                 sheet = "values_matches2") %>% 
+  # re do ID to include page
+  dplyr::mutate(indic_id = paste0('VA_',chapter,'_',page,'_', row_number())) %>% 
   dplyr::select(indic_id,agree_val = `Agreement_validation (1,2,3)`,agree_indic = `Agreement_extracted`, ILK = ILK_indicators)
 
-indic_va_ext = va %>% 
+ipbes_va_ext = va %>% 
   # remove no hits
   dplyr::filter(!is.na(agree_val)) %>% 
   dplyr::filter(!is.na(agree_indic)) %>% 
   # remove no indicators (category 3)
   dplyr::filter(agree_val != 3) %>% 
   # Convert 'ILK' in 1
-  dplyr::mutate(ILK= gsub('ILK', 1, ILK)) %>% 
+  dplyr::mutate(ILK = gsub('ILK', 1, ILK)) %>% 
   # spread long
   mutate(indicator = strsplit(as.character(agree_indic), ";")) %>% 
   unnest(indicator) %>% 
   # remove duplicates
   dplyr::distinct(indicator, .keep_all = TRUE) %>% 
-  # clean table
-  dplyr::select(-agree_indic, -indic_id) %>% 
-  # harmonize
-  dplyr::mutate(indicators_h = tolower(indicator)) %>%
+  # harmonize indicators
+  dplyr::mutate(indicators_h = gsub('  ', ' ',indicator)) %>% 
+  dplyr::mutate(indicators_h = tolower(indicators_h)) %>%
   dplyr::mutate(indicators_h = str_trim(indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.]$","",indicators_h)) %>% 
   harmonize_indic(indicators_h) %>% 
-  dplyr::rename(indicators_harmonized = field_harm) %>% 
-  dplyr::mutate(indicators_harmonized = str_trim(indicators_harmonized)) %>% 
-  # add source
-  dplyr::mutate(va_extracted = 1) %>% 
-  dplyr::distinct(indicators_harmonized, .keep_all = TRUE)  %>% 
-  dplyr::select(indicators_harmonized, var_indic  = agree_val, va_extracted, ILK) %>% 
+  dplyr::rename(indicator_harmonized = field_harm) %>% 
+  dplyr::mutate(indicator_harmonized = str_trim(indicator_harmonized)) %>% 
+  # keep original name
+  dplyr::rename(indicator_orig = indicator) %>%
+  # clean columns
+  dplyr::select(indicator_harmonized, indic_id, var_indic  = agree_val, ILK) %>% 
   # save
-  write_csv(paste0(git_dir,'input/automated_search/va_extracted.csv')) 
+  write_csv('../input/assessments/automated_search/extracted_paragraphs/va_extracted.csv')
 
-rm(va)
+# Prepare indicators for analysis
+indic_va = ipbes_va_ext %>% 
+  dplyr::group_by(indicator_harmonized) %>% 
+  dplyr::summarise(indic_ids = paste0(indic_id, collapse = ";"))
 
+rm(va,ipbes_va_ext)
 ## ias
 
-ias = readxl::read_excel(paste0(git_dir, "input/automated_search/extracted_paragraphs/manual_validation/validated_ias_matches.xlsx"),
+ias = readxl::read_excel("../input/assessments/automated_search/extracted_paragraphs/manual_validation/validated_ias_matches.xlsx",
                  sheet = "ias_matches") %>% 
+  # re do ID to include page
+  dplyr::mutate(indic_id = paste0('IAS_',chapter,'_',page,'_', row_number())) %>% 
   dplyr::select(indic_id,agree_val = `Agreement_validation (1,2,3)`,agree_indic = `Agreement_extracted`, ILK = ILK_indicators)
 
-indic_ias_ext = ias %>% 
+ipbes_ias_ext = ias %>% 
   # remove no hits
   dplyr::filter(!is.na(agree_val)) %>% 
   dplyr::filter(!is.na(agree_indic)) %>% 
   # remove no indicators (category 3)
-  dplyr::filter(agree_val != 3 & agree_val != 0) %>% 
+  dplyr::filter(agree_val != 3) %>% 
   # Convert 'ILK' in 1
-  dplyr::mutate(ILK= gsub('ILK', 1, ILK)) %>% 
+  dplyr::mutate(ILK = gsub('ILK', 1, ILK)) %>% 
   # spread long
   mutate(indicator = strsplit(as.character(agree_indic), ";")) %>% 
   unnest(indicator) %>% 
-  # fix
-  dplyr::mutate(indicator = if_else(grepl('Proportion of rban area', indicator),
-                                    true = 'proportion of urban area',
-                                    false = indicator)) %>%
-  dplyr::mutate(indicator = if_else(grepl('cvountries', indicator),
-                                    true = 'trends in numbers of countries with national legislation and other policy measures relevant to the prevention and/or control of invasive alien species',
-                                    false = indicator)) %>%
-  dplyr::mutate(indicator = if_else(grepl('establishments', indicator),
-                                    true = 'trends in establishment and national adoption of international agreements relevant to the prevention and control of invasive alien species',
-                                    false = indicator)) %>%
   # remove duplicates
   dplyr::distinct(indicator, .keep_all = TRUE) %>% 
-  # clean table
-  dplyr::select(-agree_indic, -indic_id) %>% 
-  # harmonize
-  dplyr::mutate(indicators_h = tolower(indicator)) %>%
+  # harmonize indicators
+  dplyr::mutate(indicators_h = gsub('  ', ' ',indicator)) %>% 
+  dplyr::mutate(indicators_h = tolower(indicators_h)) %>%
   dplyr::mutate(indicators_h = str_trim(indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.]$","",indicators_h)) %>% 
   harmonize_indic(indicators_h) %>% 
-  dplyr::rename(indicators_harmonized = field_harm) %>% 
-  dplyr::mutate(indicators_harmonized = str_trim(indicators_harmonized)) %>% 
-  # add source
-  dplyr::mutate(ias_extracted = 1) %>% 
-  dplyr::distinct(indicators_harmonized, .keep_all = TRUE)  %>% 
-  dplyr::select(indicators_harmonized, var_indic  = agree_val, ias_extracted, ILK) %>% 
+  dplyr::rename(indicator_harmonized = field_harm) %>% 
+  dplyr::mutate(indicator_harmonized = str_trim(indicator_harmonized)) %>% 
+  # keep original name
+  dplyr::rename(indicator_orig = indicator) %>%
+  # clean columns
+  dplyr::select(indicator_harmonized, indic_id, var_indic  = agree_val, ILK) %>% 
   # save
-  write_csv(paste0(git_dir,'input/automated_search/ias_extracted.csv')) 
+  write_csv('../input/assessments/automated_search/extracted_paragraphs/ias_extracted.csv')
 
-rm(ias)
+# Prepare indicators for analysis
+indic_ias = ipbes_ias_ext %>% 
+  dplyr::group_by(indicator_harmonized) %>% 
+  dplyr::summarise(indic_ids = paste0(indic_id, collapse = ";"))
+
+rm(ias, ipbes_ias_ext)
+
+# combine all IPBES indicators from extracted paragraphs
+indic_ipbes = indic_ga %>% 
+  rbind(indic_sua) %>% 
+  rbind(indic_va) %>% 
+  rbind(indic_ias) %>% 
+  dplyr::group_by(indicator_harmonized) %>% 
+  dplyr::summarise(indic_ids = paste0(indic_ids, collapse = ";")) %>% 
+  #create source
+  dplyr::mutate(ipbes_extracted = 1) %>% 
+  # clean columns
+  dplyr::select(indicator_harmonized,indic_ids,ipbes_extracted) %>% 
+  # save input data
+  write_csv('../input/assessments/automated_search/ipbes_extracted_indicators.csv')
+
+rm(indic_ga, indic_sua,indic_va,indic_ias)
 
 ## Indicators from manual extraction in GEO------
 
-geo = readxl::read_excel(paste0(git_dir, "input/automated_search/extracted_paragraphs/manual_validation/validated_GEO6_matches.xlsx"),
+geo = readxl::read_excel("../input/assessments/automated_search/extracted_paragraphs/manual_validation/validated_GEO6_matches.xlsx",
                  sheet = "GEO6_matches") %>% 
-  dplyr::select(indic_id,agree_val = `Agreement_validation (1,2,3)`,agree_indic = `Agreement_extracted`, ILK=ILK_indicators)
+  # re do ID to include page
+  dplyr::mutate(indic_id = paste0('GEO_',chapter,'_',page,'_', row_number())) %>% 
+  dplyr::select(indic_id,agree_val = `Agreement_validation (1,2,3)`,agree_indic = `Agreement_extracted`, ILK = ILK_indicators)
 
-indic_geo_ext = geo %>% 
+geo_ext = geo %>% 
   # remove no hits
   dplyr::filter(!is.na(agree_val)) %>% 
   dplyr::filter(!is.na(agree_indic)) %>% 
   # remove no indicators (category 3)
   dplyr::filter(agree_val != 3) %>% 
   # Convert 'ILK' in 1
-  dplyr::mutate(ILK= gsub('ILK', 1, ILK)) %>% 
+  dplyr::mutate(ILK = gsub('ILK', 1, ILK)) %>% 
   # spread long
   mutate(indicator = strsplit(as.character(agree_indic), ";")) %>% 
   unnest(indicator) %>% 
   # remove duplicates
   dplyr::distinct(indicator, .keep_all = TRUE) %>% 
-  # clean table
-  dplyr::select(-agree_indic, -indic_id) %>% 
-  # harmonize
-  dplyr::mutate(indicators_h = tolower(indicator)) %>%
+  # harmonize indicators
+  dplyr::mutate(indicators_h = gsub('  ', ' ',indicator)) %>% 
+  dplyr::mutate(indicators_h = tolower(indicators_h)) %>%
   dplyr::mutate(indicators_h = str_trim(indicators_h)) %>% 
+  dplyr::mutate(indicators_h = gsub("[.]$","",indicators_h)) %>% 
   harmonize_indic(indicators_h) %>% 
-  dplyr::rename(indicators_harmonized = field_harm) %>% 
-  dplyr::mutate(indicators_harmonized = str_trim(indicators_harmonized)) %>% 
-  # add source
-  dplyr::mutate(geo_extracted = 1) %>% 
-  dplyr::distinct(indicators_harmonized, .keep_all = TRUE)  %>% 
-  dplyr::select(indicators_harmonized, var_indic  = agree_val, geo_extracted, ILK) %>% 
+  dplyr::rename(indicator_harmonized = field_harm) %>% 
+  dplyr::mutate(indicator_harmonized = str_trim(indicator_harmonized)) %>% 
+  # keep original name
+  dplyr::rename(indicator_orig = indicator) %>%
+  # clean columns
+  dplyr::select(indicator_harmonized, indic_id, var_indic  = agree_val, ILK) %>% 
   # save
-  write_csv(paste0(git_dir,'input/automated_search/geo_extracted.csv')) 
+  write_csv('../input/assessments/automated_search/extracted_paragraphs/geo_extracted.csv')
 
-rm(geo)
+# Prepare indicators for analysis
+indic_geo = geo_ext %>% 
+  dplyr::group_by(indicator_harmonized) %>% 
+  dplyr::summarise(indic_ids = paste0(indic_id, collapse = ";"))%>% 
+  #create source
+  dplyr::mutate(geo_extracted = 1) %>% 
+  # save
+  write_csv('../input/assessments/automated_search/geo_extracted_indicators.csv')
+
+rm(geo, geo_ext)
+
 ## Indicators from manual extraction in IPCC------
 
-ipcc = readxl::read_excel(paste0(git_dir, "input/automated_search/extracted_paragraphs/manual_validation/validated_AR6_WG1_matches.xlsx"),
+ipcc = readxl::read_excel("../input/assessments/automated_search/extracted_paragraphs/manual_validation/validated_AR6_WG1_matches.xlsx",
                   sheet = "AR6_WG1_matches") %>% 
-  dplyr::select(indic_id,agree_val = `Agreement_validation (1,2,3)`,agree_indic = `Agreement_extracted`, ILK = ILK_indicators) 
+  # re do ID to include page
+  dplyr::mutate(indic_id = paste0('IPCC_',chapter,'_',page,'_', row_number())) %>% 
+  dplyr::select(indic_id,agree_val = `Agreement_validation (1,2,3)`,agree_indic = `Agreement_extracted`, ILK = ILK_indicators)
 
-indic_ipcc_ext = ipcc %>% 
+ipcc_ext = ipcc %>% 
   # remove no hits
   dplyr::filter(!is.na(agree_val)) %>% 
   dplyr::filter(!is.na(agree_indic)) %>% 
   # remove no indicators (category 3)
   dplyr::filter(agree_val != 3) %>% 
   # Convert 'ILK' in 1
-  dplyr::mutate(ILK= gsub('ILK', 1, ILK)) %>% 
+  dplyr::mutate(ILK = gsub('ILK', 1, ILK)) %>% 
   # spread long
   mutate(indicator = strsplit(as.character(agree_indic), ";")) %>% 
   unnest(indicator) %>% 
   # remove duplicates
   dplyr::distinct(indicator, .keep_all = TRUE) %>% 
-  # clean table
-  dplyr::select(-agree_indic, -indic_id) %>% 
-  # harmonize
-  dplyr::mutate(indicators_h = tolower(indicator)) %>%
-  dplyr::mutate(indicators_h = str_trim(indicators_h)) %>% 
-  harmonize_indic(indicators_h) %>% 
-  dplyr::rename(indicators_harmonized = field_harm) %>% 
-  dplyr::mutate(indicators_harmonized = str_trim(indicators_harmonized)) %>% 
-  # add source
-  dplyr::mutate(ipcc_extracted = 1) %>% 
-  dplyr::distinct(indicators_harmonized, .keep_all = TRUE)  %>% 
-  dplyr::select(indicators_harmonized, var_indic  = agree_val, ipcc_extracted, ILK) %>% 
-  # save
-  write_csv(paste0(git_dir,'input/automated_search/ipcc_extracted.csv')) 
-
-
-### Append all extracted and harmonized indicators----
-indic_va_ext = read_csv(paste0(git_dir,'input/automated_search/va_extracted.csv'))
-indic_sua_ext = read_csv(paste0(git_dir,'input/automated_search/sua_extracted.csv'))
-indic_ga_ext = read_csv(paste0(git_dir,'input/automated_search/ga_extracted.csv'))
-indic_ias_ext = read_csv(paste0(git_dir,'input/automated_search/ias_extracted.csv'))
-indic_geo_ext = read_csv(paste0(git_dir,'input/automated_search/geo_extracted.csv'))
-indic_ipcc_ext = read_csv(paste0(git_dir,'input/automated_search/ipcc_extracted.csv'))
-
-# Check independent files
-dup = check_dup(indic_ias_ext, indicators_harmonized) # no exact duplicates
-dup = check_dup(indic_sua_ext, indicators_harmonized) # no exact duplicates
-rm(dup)
-
-# Join
-indicators_extracted = indic_ga_ext %>% 
-  full_join(indic_sua_ext, by = 'indicators_harmonized') %>% 
-  full_join(indic_va_ext, by = 'indicators_harmonized') %>% 
-  full_join(indic_ias_ext, by = 'indicators_harmonized') %>% 
-  full_join(indic_ipcc_ext, by = 'indicators_harmonized') %>% 
-  full_join(indic_geo_ext, by = 'indicators_harmonized') %>% 
-  dplyr::mutate(ILK_ext = if_else(ILK.x==1 | ILK.y==1 | ILK.x.x==1 | ILK.y.y==1 | ILK.x.x.x==1 | ILK.y.y.y==1 ,
-                                  true = 1,
-                                  false = NA)) %>% 
-  dplyr::mutate(var_ext = if_else(var_indic.x==1 | var_indic.y==1 | var_indic.x.x==1 | var_indic.y.y==1 | var_indic.x.x.x==1 | var_indic.y.y.y==1 ,
-                                  true = 1,
-                                  false = NA)) %>% 
-  dplyr::mutate(indic_ext = if_else(var_indic.x==2 | var_indic.y==2 | var_indic.x.x==2 | var_indic.y.y==2 | var_indic.x.x.x==2 | var_indic.y.y.y==2 ,
-                                    true = 1,
-                                    false = NA)) %>% 
-  dplyr::select(indicators_harmonized, ga_extracted, sua_extracted, va_extracted, ias_extracted, ipcc_extracted, geo_extracted, ILK_ext, indic_ext, var_ext) 
-
-# checks joined indicators
-dup = check_dup(indicators_extracted, indicators_harmonized) # no exact duplicates
-
-indicators_extracted = indicators_extracted %>% 
   # harmonize indicators
-  dplyr::mutate(indicators_h = tolower(indicators_harmonized)) %>%
+  dplyr::mutate(indicators_h = gsub('  ', ' ',indicator)) %>% 
+  dplyr::mutate(indicators_h = tolower(indicators_h)) %>%
   dplyr::mutate(indicators_h = str_trim(indicators_h)) %>% 
-  harmonize_indic(indicators_h)
-dup = check_dup(indicators_extracted, indicators_h) # no exact duplicates
+  dplyr::mutate(indicators_h = gsub("[.]$","",indicators_h)) %>% 
+  harmonize_indic(indicators_h) %>% 
+  dplyr::rename(indicator_harmonized = field_harm) %>% 
+  dplyr::mutate(indicator_harmonized = str_trim(indicator_harmonized)) %>% 
+  # keep original name
+  dplyr::rename(indicator_orig = indicator) %>%
+  # clean columns
+  dplyr::select(indicator_harmonized, indic_id, var_indic  = agree_val, ILK) %>% 
+  # save
+  write_csv('../input/assessments/automated_search/extracted_paragraphs/ipcc_extracted.csv')
 
-# save
-indicators_extracted = indicators_extracted %>% 
-  # clean table
-  dplyr::select(-indicators_h, -field_harm) %>%
-  # save data
-  write_csv(paste0(git_dir,'input/automated_search/automated_search_indicators.csv'))
+# Prepare indicators for analysis
+indic_ipcc = ipcc_ext %>% 
+  dplyr::group_by(indicator_harmonized) %>% 
+  dplyr::summarise(indic_ids = paste0(indic_id, collapse = ";"))%>% 
+  #create source
+  dplyr::mutate(ipcc_extracted = 1) %>% 
+  # save
+  write_csv('../input/assessments/automated_search/ipcc_extracted_indicators.csv')
+
+rm(ipcc, ipcc_ext)
+
+
+
+# ### Append all extracted and harmonized indicators----
+# indic_va_ext = read_csv(paste0(git_dir,'input/automated_search/va_extracted.csv'))
+# indic_sua_ext = read_csv(paste0(git_dir,'input/automated_search/sua_extracted.csv'))
+# indic_ga_ext = read_csv(paste0(git_dir,'input/automated_search/ga_extracted.csv'))
+# indic_ias_ext = read_csv(paste0(git_dir,'input/automated_search/ias_extracted.csv'))
+# indic_geo_ext = read_csv(paste0(git_dir,'input/automated_search/geo_extracted.csv'))
+# indic_ipcc_ext = read_csv(paste0(git_dir,'input/automated_search/ipcc_extracted.csv'))
+# 
+# # Check independent files
+# dup = check_dup(indic_ias_ext, indicators_harmonized) # no exact duplicates
+# dup = check_dup(indic_sua_ext, indicators_harmonized) # no exact duplicates
+# rm(dup)
+# 
+# # Join
+# indicators_extracted = indic_ga_ext %>% 
+#   full_join(indic_sua_ext, by = 'indicators_harmonized') %>% 
+#   full_join(indic_va_ext, by = 'indicators_harmonized') %>% 
+#   full_join(indic_ias_ext, by = 'indicators_harmonized') %>% 
+#   full_join(indic_ipcc_ext, by = 'indicators_harmonized') %>% 
+#   full_join(indic_geo_ext, by = 'indicators_harmonized') %>% 
+#   dplyr::mutate(ILK_ext = if_else(ILK.x==1 | ILK.y==1 | ILK.x.x==1 | ILK.y.y==1 | ILK.x.x.x==1 | ILK.y.y.y==1 ,
+#                                   true = 1,
+#                                   false = NA)) %>% 
+#   dplyr::mutate(var_ext = if_else(var_indic.x==1 | var_indic.y==1 | var_indic.x.x==1 | var_indic.y.y==1 | var_indic.x.x.x==1 | var_indic.y.y.y==1 ,
+#                                   true = 1,
+#                                   false = NA)) %>% 
+#   dplyr::mutate(indic_ext = if_else(var_indic.x==2 | var_indic.y==2 | var_indic.x.x==2 | var_indic.y.y==2 | var_indic.x.x.x==2 | var_indic.y.y.y==2 ,
+#                                     true = 1,
+#                                     false = NA)) %>% 
+#   dplyr::select(indicators_harmonized, ga_extracted, sua_extracted, va_extracted, ias_extracted, ipcc_extracted, geo_extracted, ILK_ext, indic_ext, var_ext) 
+# 
+# # checks joined indicators
+# dup = check_dup(indicators_extracted, indicators_harmonized) # no exact duplicates
+# 
+# indicators_extracted = indicators_extracted %>% 
+#   # harmonize indicators
+#   dplyr::mutate(indicators_h = tolower(indicators_harmonized)) %>%
+#   dplyr::mutate(indicators_h = str_trim(indicators_h)) %>% 
+#   harmonize_indic(indicators_h)
+# dup = check_dup(indicators_extracted, indicators_h) # no exact duplicates
+# 
+# # save
+# indicators_extracted = indicators_extracted %>% 
+#   # clean table
+#   dplyr::select(-indicators_h, -field_harm) %>%
+#   # save data
+#   write_csv(paste0(git_dir,'input/automated_search/automated_search_indicators.csv'))
 
 
 
