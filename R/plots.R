@@ -38,37 +38,12 @@ library(reshape2)
 
 # Load indicators----
 
-indic =  read_csv("../output/all_indicators_classified_05052025.csv")
-
-# 1-Summaries of indicators by source----
-
-indic %>% 
-  mutate(source = strsplit(as.character(sources2), ",")) %>% 
-  unnest(source) %>% 
-  group_by(source) %>% count() %>% arrange(desc(n))
-# source     n
-# 1 IPBES   1085
-# 2 IPCC     374
-# 3 GBF      307
-# 4 SDG      257
-# 5 GEO      223
-# 6 CITES     41
-# 7 CMS       25
-# 8 RAMSAR    18
-# 9 UNCCD      4
-
-# Assessments
-indic %>% filter(assessment ==1) %>% distinct(indicators_harmonized) %>% count() #1648
-
-# MEAs
-indic %>% filter(policy ==1) %>% distinct(indicators_harmonized) %>% count() #647
+indic = read_csv('../output/all_indicators_classified_05052025_lv.csv')
 
 # Figure 1: Summaries of indicators by source----
 data_hist_assess = indic %>% 
-  mutate(source = strsplit(as.character(sources2), ",")) %>% 
-  unnest(source) %>% 
-  filter(assessment ==1) %>%
-  filter(!source %in% c('GBF','SDG','UNCCD','CITES','CMS','RAMSAR' )) %>% 
+  filter(mea == FALSE) %>%
+  #filter(!source %in% c('GBF','SDG','UNCCD','CITES','CMS','RAMSAR' )) %>% 
   group_by(source) %>%  count() %>% arrange(n)
 
 hist_assess = ggplot(data=data_hist_assess, aes(x=source, y=n, fill=source)) +
@@ -76,7 +51,7 @@ hist_assess = ggplot(data=data_hist_assess, aes(x=source, y=n, fill=source)) +
   labs(y="Number of metrics", x = "") +
   scale_fill_brewer(palette="Greens", limits=c("IPBES", "IPCC","GEO" ),name = '') +
   scale_x_discrete(limits=c("IPBES", "IPCC", "GEO")) +
-  scale_y_continuous(limits = c(0,1200), expand = expansion(mult = c(0, .1))) +
+  scale_y_continuous(limits = c(0,820), expand = expansion(mult = c(0, .1))) +
   theme_minimal() +
   theme(legend.position = "none", 
         panel.background = element_blank(),
@@ -84,12 +59,11 @@ hist_assess = ggplot(data=data_hist_assess, aes(x=source, y=n, fill=source)) +
         panel.grid = element_blank(),
         panel.border = element_blank())
 
+hist_assess
 
 data_hist_meas = indic %>% 
-  mutate(source = strsplit(as.character(sources2), ",")) %>% 
-  unnest(source) %>% 
-  filter(policy ==1) %>%
-  filter(source %in% c('GBF','SDG','CITES','CMS','RAMSAR','UNCCD' )) %>% 
+  filter(mea == TRUE) %>%
+  #filter(source %in% c('GBF','SDG','CITES','CMS','RAMSAR','UNCCD' )) %>% 
   group_by(source) %>% count() %>% arrange(desc(n))
 
 hist_meas = ggplot(data=data_hist_meas, aes(x=source, y=n, fill=source,legend = FALSE )) +
@@ -97,7 +71,7 @@ hist_meas = ggplot(data=data_hist_meas, aes(x=source, y=n, fill=source,legend = 
   labs(y="Number of metrics", x = "") +
   scale_fill_brewer(palette="Blues", limits=c('GBF','SDG','CITES','CMS','RAMSAR','UNCCD'),name = '') +
   scale_x_discrete(limits=c('GBF','SDG','CITES','CMS','RAMSAR','UNCCD')) +
-  scale_y_continuous(limits = c(0,310), expand = expansion(mult = c(0, .1))) +
+  scale_y_continuous(limits = c(0,320), expand = expansion(mult = c(0, .1))) +
   theme_minimal() +
   theme(legend.position = "none", 
         panel.background = element_blank(),
@@ -105,27 +79,15 @@ hist_meas = ggplot(data=data_hist_meas, aes(x=source, y=n, fill=source,legend = 
         panel.grid = element_blank(),
         panel.border = element_blank())
 
+hist_meas 
 hist_meas + hist_assess
 
-# 2-Summaries of shared indicators ----
-
-indic %>% filter(usage >= 2) %>% distinct(indicators_harmonized) %>% count() #235
-(indic %>% filter(usage >= 2) %>% distinct(indicators_harmonized) %>% count() * 100) / indic  %>% distinct(indicators_harmonized) %>% count() #11.18
-
-# common indicators
-indic %>% arrange(desc(usage)) %>% distinct(indicators_harmonized, .keep_all = TRUE) %>%  
-  dplyr::select(indicators_harmonized, sources2) %>% head()
-# red list index                                                               IPBES,GEO,GBF,SDG      
-# proportion of fish stocks within biologically sustainable levels             IPBES,GEO,GBF,SDG      
-# proportion of agricultural area under productive and sustainable agriculture IPBES,GEO,GBF,SDG      
-# forest area as a percentage of total land area                               IPBES,GEO,GBF,SDG      
-# proportion of land that is degraded over total land area                     IPBES,GEO,GBF,SDG,UNCCD
-# index of coastal eutrophication potential (icep)                             IPBES,GEO,GBF,SDG
+# Figure 2: Summaries of shared indicators ----
 
 ## Get matrix of shared indicators
 
 # Split the 'source' column into separate lists
-source_list <- strsplit(as.character(indic$sources2), ",")
+source_list <- strsplit(as.character(all_indicators_cl$sources), ";")
 
 # Create a vector of unique sources
 #unique_sources <- sort(unique(unlist(source_list)))
@@ -150,7 +112,7 @@ for (sources in source_list) {
         source_j <- unique_pair[j]
         
         # Check to ensure indexes are within bounds
-        if (source_i %in% unique_sources && source_j %in% unique_sources) {
+        if (source_i %in% sources_ordered && source_j %in% sources_ordered) {
           co_occurrence_matrix[source_i, source_j] <- 
             co_occurrence_matrix[source_i, source_j] + 1
           co_occurrence_matrix[source_j, source_i] <- 
@@ -163,7 +125,7 @@ for (sources in source_list) {
 
 # Display the resulting matrix
 print(co_occurrence_matrix)
-
+write.csv(co_occurrence_matrix, '../output/all_indicators_matrix.csv')
 # Figure 2: matrix of shared indicators
 
 # Melt the matrix into a long format suitable for ggplot2
@@ -205,17 +167,17 @@ ggplot(melted_matrix_upper_filtered, aes(x = Var1, y = Var2, fill = value), colo
   #scale_fill_distiller(palette = "RdPu") +
   scale_x_discrete(position = "top") +  # Move x-axis to the top
   theme_minimal() +
-  labs(title = "Co-occurrence Matrix",
+  labs(title = "",
        x = "Source",
        y = "Source",
        fill = "Shared metrics") +
   theme(axis.text.x = element_text(angle = 45, hjust = 0))
 
 
-# Fig 2: links----
+# Figure 3: links between assess and MEAs----
 
 # Split sources into a list
-indic$sources2 <- strsplit(as.character(indic$sources2), ",")
+indic$sources2 <- strsplit(as.character(indic$sources), ";")
 
 # Create a new data frame for links between treaties and assessments
 treaties <- c("GBF", "SDG", "CITES", "CMS", "RAMSAR", "UNCCD")
@@ -297,19 +259,63 @@ circos.trackPlotRegion(
 # Finalize and clear the circos plot
 circos.clear()
 
-# 3.c-Summaries of indicators by categories----
-indic %>% group_by(Categories) %>% count() %>% arrange(desc(n))
-# Categories             n
-# 1 Ecosystems           568
-# 2 Biodiversity         269
-# 3 Governance           263
-# 4 Direct Drivers       246
-# 5 Human Assets         218
-# 6 Ecosystem Services   198
-# 7 Human Well-Being     180
-# 8 Knowledge Systems    159
 
-263/ indic %>% distinct(indicators_harmonized) %>% count() * 100
+# Figure 4: Summaries of indicators by categories----
+
+indic_categories = indic %>%   
+  # summary cat + source
+  group_by(source,Categories)  %>% 
+  count() %>% arrange(desc(n))
+
+
+ggplot(indic_categories,
+       aes(y = n,
+           axis1 = source, axis2 = Categories)) +
+  geom_alluvium(aes(fill = Categories),
+                width = 1/6, knot.pos = 0, reverse = FALSE) +
+  scale_fill_manual(values =c('Human well-being'="#a0da39",'Governance'="#365c8d",
+                              'Knowledge systems'="#fde725",'Human assets'="#1fa187",
+                              'Direct drivers'="#277f8e",'Ecosystem services'="#4ac16d",
+                              'ecosystems'="#440154",'biodiversity'="#46327e")) +
+  #scale_x_discrete(limits=c("IPBES","GEO","IPCC","GBF","SDG","CITES","CMS","RAMSAR","UNCCD")) +
+  guides(fill = "none") +
+  geom_stratum(alpha = .1, width = 1/6, reverse = FALSE) +
+  geom_text(stat = "stratum", aes(label = after_stat(stratum)),
+            reverse = FALSE) +
+  scale_x_continuous(breaks = 1:2) +
+  theme_void()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # 3.c-Summaries of indicators by category----
 

@@ -145,17 +145,22 @@ dup = check_dup(all_indicators_cl,indicator_harmonized)
 
 # 3-Summaries----
 
+# 3.a-Summaries of indicators by source----
+
 all_indicators_cl %>% count() #1857 unique indicators
 all_indicators_cl %>%  distinct(indicator_harmonized) %>% count() # all unique
 all_indicators_cl %>% filter(!is.na(Categories)) %>% distinct(indicator_harmonized) %>% count() # all classified
 
-# re-format table
+# re-format table (long table with repetiions)
 indic = all_indicators_cl %>% 
   mutate(source = strsplit(as.character(sources), ";")) %>% 
   unnest(source) %>% 
   mutate(mea = if_else(source %in% c("IPBES","IPCC", "GEO"),
          true = FALSE,
          false = TRUE))
+
+#write_csv(indic,'../output/all_indicators_classified_05052025_lv.csv')
+#indic = read_csv('../output/all_indicators_classified_05052025_lv.csv')
 
 indic %>% count() #2123 indicators
 indic %>% distinct(indicator_harmonized) %>% count() # 1857 unique indicators
@@ -177,6 +182,8 @@ indic %>% group_by(source) %>% count() %>% arrange(desc(n))
 # 8 CMS       25
 # 9 UNCCD     13
 
+### Fig 1 in plots.R----
+
 indic %>% distinct(indicator_harmonized, .keep_all = TRUE) %>% 
   mutate(multiple_use = grepl(';', sources)) %>% group_by(multiple_use) %>% count()
 # multiple_use     n
@@ -193,8 +200,13 @@ fr_indic = indic %>%
   filter(n>1) %>% 
   left_join(distinct(indic,indicator_harmonized, .keep_all = TRUE))
 
+fr_indic[,1:3]
+
+#### Co_occurrence_matrix in plots.R-----
+#### Fig 2 in plots.R-----
+
 indic %>% distinct(indicator_harmonized, .keep_all = TRUE) %>% 
-  group_by(sources) %>% count() %>% arrange(desc(n)) %>% filter(grepl('[;]',sources))
+  group_by(sources) %>% count() %>% arrange(desc(n)) %>% filter(grepl('[;]',sources)) %>%  View()
 # sources             n
 # SDG;IPBES          94
 # GBF;IPBES          33
@@ -212,6 +224,54 @@ indic %>% distinct(indicator_harmonized, .keep_all = TRUE) %>%
 # SDG;GEO             1
 
 
+#### Fig 3 in plots.R-----
+
+# 3.b-Summaries of indicators by category----
+
+all_indicators_cl %>% distinct(Categories)
+# 1 ecosystems        
+# 2 biodiversity      
+# 3 Ecosystem services
+# 4 Human assets      
+# 5 Governance        
+# 6 Direct drivers    
+# 7 Human well-being  
+# 8 Knowledge systems
+
+all_indicators_cl %>% filter(!is.na(Categories)) %>% count()#1857
+all_indicators_cl %>% filter(!is.na(Categories_2)) %>% count()#366
+ 
+(all_indicators_cl %>% filter(!is.na(Categories_2)) %>% count())/(all_indicators_cl %>% filter(!is.na(Categories)) %>% count())
+
+all_indicators_cl %>% 
+  group_by(Categories) %>%
+  summarize(n = n()) %>%
+  mutate(prop = (n / colSums(across(n)))*100) %>% 
+  arrange(desc(n))
+# Categories             n  prop
+# 1 ecosystems           530 28.5 
+# 2 Governance           268 14.4 
+# 3 Direct drivers       222 12.0 
+# 4 biodiversity         203 10.9 
+# 5 Human assets         189 10.2 
+# 6 Knowledge systems    162  8.72
+# 7 Human well-being     148  7.97
+# 8 Ecosystem services   135  7.27
+
+# # Basic piechart
+# ggplot(data_categories, aes(x="", y=prop, fill=Categories)) +
+#   geom_bar(stat="identity", width=1, color="white") +
+#   coord_polar("y", start=0) +
+#   scale_fill_manual(values =c('Ecosystems'="#440154",'Biodiversity'="#46327e",
+#                               'Governance'="#365c8d",'Direct Drivers'="#277f8e",
+#                               'Human Assets'="#1fa187",'Ecosystem Services'="#4ac16d",
+#                               'Human Well-Being'="#a0da39",'Knowledge Systems'="#fde725")) +
+#   # scale_x_discrete(limits=c('Ecosystems','Biodiversity',
+#   #                           'Governance','Direct Drivers',
+#   #                           'Human Assets','Ecosystem Services',
+#   #                           'Human Well-Being','Knowledge Systems')) +
+#   
+#   theme_void() # remove background, grid, numeric labels
 
 
 
@@ -224,6 +284,42 @@ indic %>% distinct(indicator_harmonized, .keep_all = TRUE) %>%
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# categories
+all_indicators_cl2 %>%   
+  # unsplit meas to get each policy source per row --> source
+  mutate(source = strsplit(as.character(sources), ",")) %>% 
+  unnest(source) %>% 
+  group_by(Categories, sources) %>% count() %>% arrange(desc(n)) %>% View()
 
 
 
