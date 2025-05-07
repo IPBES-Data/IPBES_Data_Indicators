@@ -24,7 +24,6 @@ achievement of a circular economic system,GEO_17_20_212,GEO,0,Knowledge systems,
 activity status/viability of cms family of instruments,CMS_G1.3_4,CMS,1,Governance,NA,Nature-based legislation,NA
 adaptive capacity index (aci),GA_4_129_208,IPBES,0,biodiversity,NA,State of biodiversity,NA
 additional financial resources mobilized for developing countries from multiple sources,SDG_G17.3.1_239,SDG,1,Human assets,NA,Information on society and socio-economics,NA
-"adolescent birth rate (aged 10-14 years; aged 15-19 years) per 1,000 women in that age group",SDG_G3.7.2_43,SDG,1,Human well-being,Human assets,Wellness,Coverage of basic needs
 "adolescent birth rate (aged 10-14 years; aged 15-19 years) per 1,000 women in that age group",SDG_G3.7.2_43,SDG,1,Human assets,Knowledge systems,Coverage of basic needs,Information on society and socio-economics
 advanced malaria control,GEO_22_21_257,GEO,0,Human well-being,Direct drivers,Healthy living conditions,(Infectious) diseases
 adverse changes in woody or shrubby vegetation,GA_2.2_81_123,IPBES,0,ecosystems,NA,Change in ecosystems,NA
@@ -32,7 +31,6 @@ adverse changes of unpalatable species,GA_2.2_81_123,IPBES,0,biodiversity,NA,Cha
 aerosol abundance,IPCC_2_24_45,IPCC,0,Direct drivers,NA,Pollution,NA
 aerosol changes,IPCC_3_17_173,IPCC,0,Direct drivers,NA,Climate change,NA
 aerosol index,IPCC_7_29_329,IPCC,0,Direct drivers,NA,Pollution,NA
-age-standardized prevalence of current tobacco use among persons aged 15 years and older,SDG_G3.a.1_49,SDG,1,Human well-being,Human assets,Wellness,Coverage of basic needs
 age-standardized prevalence of current tobacco use among persons aged 15 years and older,SDG_G3.a.1_49,SDG,1,Human assets,Knowledge systems,Coverage of basic needs,Information on society and socio-economics
 aggregated total applied toxicity,GBF_T7_H_25,GBF,1,Direct drivers,NA,Pollution,NA
 agricultural emissions from different farming sectors,GEO_17_11_203,GEO,0,Direct drivers,NA,Pollution,NA
@@ -253,7 +251,6 @@ condition index,IAS_4_64_104,IPBES,0,biodiversity,NA,State of biodiversity,NA
 "conflict-related deaths per 100,000 population, by sex, age and cause",SDG_G16.1.2_213,SDG,1,Human assets,Governance,Information on society and socio-economics,Broken governance
 connection to land,GA_2.3_36_133,IPBES,0,Knowledge systems,NA,Specific information on ILK and IPLC,NA
 connection to sea,GA_2.3_36_133,IPBES,0,Knowledge systems,NA,Specific information on ILK and IPLC,NA
-connectivity indicator,GBF_T3_C_22,GBF,1,ecosystems,NA,State of ecosystems (configuration),NA
 connectivity indicator,GBF_T3_C_22,GBF,1,ecosystems,NA,State of ecosystems (configuration),NA
 consecutive dry days (cdd),IPCC_11_58_543;IPCC_11_93_579;IPCC_12_17_601;IPCC_12_57_665,IPCC,0,ecosystems,NA,Abiotic conditions,NA
 conservation status of species listed in the cites appendices has stabilized or improved,GBF_T4_C_29,GBF,1,ecosystems,NA,Species conservation,NA
@@ -756,7 +753,6 @@ living planet index (freshwater),IPBES_GA2.2_sup_70,IPBES,0,ecosystems,NA,State 
 living planet index (marine),IPBES_GA2.2_sup_71,IPBES,0,ecosystems,NA,State of biodiversity,NA
 living planet index (migratory fish),GEO_9_18_79,GEO,0,biodiversity,NA,State of biodiversity,NA
 living planet index (migratory species),CMS_G3.8_13,CMS,1,biodiversity,NA,State of biodiversity,NA
-living planet index (migratory species),CMS_G3.8_13,CMS,1,biodiversity,NA,State of biodiversity,NA
 living planet index (terrestrial),IPBES_GA2.2_sup_73,IPBES,0,ecosystems,NA,State of biodiversity,NA
 living planet index (used species),GBF_GB_C_11;GBF_T5_C_31;GBF_T9_C_46,GBF,1,ecosystems,Ecosystem services,State of biodiversity,Nature contribution
 local species richness,GA_2.2_37_70;GA_2.2_70_120;IAS_4_22_102,IPBES,0,biodiversity,NA,State of biodiversity,NA
@@ -1242,8 +1238,7 @@ piped drinking water,GEO_22_21_257,GEO,0,Human well-being,NA,Healthy living cond
 planck temperature response,IPCC_7_56_335,IPCC,0,ecosystems,NA,Abiotic conditions,NA
 planetary pressures adjusted human development index (hdi),VA_2_38_29,IPBES,0,Knowledge systems,NA,Information on society and socio-economics,NA
 plant water use efficiency (wue),IPCC_8_65_401,IPCC,0,Ecosystem services,NA,Nature contribution,NA
-plastic debris density,GBF_T7_CY_176;SDG_G14.1.1.b_184;IPBES_SUA_sup_14.1.1.b_111,GBF;SDG;IPBES,1,ecosystems,Direct drivers,State of ecosystems (integrity),Pollution
-plastic debris density,GBF_T7_CY_176;SDG_G14.1.1.b_184;IPBES_SUA_sup_14.1.1.b_111,GBF;SDG;IPBES,1,Direct drivers,ecosystems,Pollution,State of ecosystems (integrity)
+plastic debris density,GBF_T7_CY_176;SDG_G14.1.1.b_184;IPBES_SUA_sup_14.1.1.b_111,GBF;SDG;IPBES,1,Direct drivers,NA,Pollution,NA
 pm 10 emissions,GEO_20_6_228,GEO,0,Direct drivers,NA,Pollution,NA
 pm 2.5 emissions,GEO_20_6_228,GEO,0,Direct drivers,NA,Pollution,NA
 pm2.5 emissions,GEO_12_16_119,GEO,0,Direct drivers,NA,Pollution,NA
@@ -1775,7 +1770,6 @@ trends in the prevention and eradication and control of invasive alien species,I
 trends in the prevention of invasive alien species,IAS_6_11_138,IPBES,0,Direct drivers,Governance,Invasive alien species,Nature-based legislation
 trends in threats to migratory species,CMS_G2.7_9;CMS_G2.7_10,CMS,1,biodiversity,Knowledge systems,State of biodiversity,Information on biodiversity
 trends of bilinguistic diversity and numbers of speakers of indigenous languages,GBF_GB_CY_84,GBF,1,Knowledge systems,Human well-being,Specific information on ILK and IPLC,Cultural diversity
-trends of bilinguistic diversity and numbers of speakers of indigenous languages,GBF_GB_CY_84,GBF,1,Human well-being,Knowledge systems,Cultural diversity,ILK
 trends of populations of palatable or unpalatable species,GA_2.2_63_107,IPBES,0,biodiversity,NA,Change in biodiversity,NA
 trends of trade and commercialization in biodiversity-based products that is sustainable and legal (in line with biotrade principles and/or cites requirements),GBF_T5_CY_166,GBF,1,Ecosystem services,NA,Specific mention of sustainable use of species/ecosystems,NA
 "trends, mechanisms and severity of invasive alien species impacts",IAS_6_11_138;IAS_6_119_174,IPBES,0,Direct drivers,NA,Invasive alien species,NA
@@ -1846,7 +1840,6 @@ wild bird index,GBF_GA_CY_37;GA_2.2_37_70,GBF;IPBES,1,biodiversity,NA,State of b
 wild bird index (farmland birds),GA_3_15_329;GA_3_31_358;IPBES_GA3_sup_26,IPBES,0,biodiversity,NA,State of biodiversity,NA
 wild bird index (habitat specialists),GA_3_15_329;GA_3_51_381;IPBES_GA2.2_sup_76;IPBES_GA3_sup_18,IPBES,0,biodiversity,NA,State of biodiversity,NA
 wild bird index (migratory birds),CMS_G3.8_14,CMS,1,biodiversity,NA,State of biodiversity,NA
-wild bird index (migratory birds),CMS_G3.8_14,CMS,1,biodiversity,Knowledge systems,State of biodiversity,Information on biodiversity
 wild mammal biomass,GA_2.2_37_70;IPBES_GA2.2_sup_77,IPBES,0,biodiversity,NA,State of biodiversity,NA
 wildfires,IPCC_3_64_190,IPCC,0,Direct drivers,NA,Natural drivers,NA
 wildlife picture index,GA_1_52_19,IPBES,0,Knowledge systems,NA,Information on biodiversity,NA

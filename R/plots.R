@@ -38,28 +38,7 @@ library(reshape2)
 
 # Load indicators----
 
-indic =  read_csv("../output/all_harmonized_classified_indicatorsMay24.csv")
-
-# Merge all IPBES assessments (sources2) and remove ICCWC
-indic = indic %>% 
-  dplyr::mutate(source = strsplit(as.character(sources), ",")) %>% 
-  tidyr::unnest(source) %>% 
-  dplyr::filter(source != 'ICCWC') %>% 
-  dplyr::mutate(source2 = if_else(source %in% c('VA', 'IAS','GA','SUA'),
-                                  true = 'IPBES',
-                                  false = source)) %>% 
-  dplyr::distinct(indicators_harmonized, source2, .keep_all = TRUE) %>% 
-  dplyr::group_by(indicators_harmonized) %>% 
-  dplyr::mutate(sources2 = str_flatten(source2, ",")) %>% 
-  dplyr::distinct(indicators_harmonized, sources2, .keep_all = TRUE) %>% 
-  dplyr::select(-source,-source2) %>% 
-  relocate(sources2, .after = sources) %>% 
-  dplyr::ungroup()
-  
-# Checks
-indic %>% filter(!is.na(indicators_harmonized)) %>% distinct(indicators_harmonized) %>% count() #2051 unique indicators
-indic %>% filter(!is.na(indicators_harmonized)) %>% filter(!is.na(Categories)) %>% distinct(indicators_harmonized) %>% count() #2101 unique indicators categorized
-
+indic =  read_csv("../output/all_indicators_classified_05052025.csv")
 
 # 1-Summaries of indicators by source----
 

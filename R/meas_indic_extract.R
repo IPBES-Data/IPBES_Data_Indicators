@@ -87,8 +87,8 @@ gbf = gbf %>%
   # save input data
   write_csv('../input/meas/GBF/gbf_indic_harm.csv')
 
-gbf %>% distinct(indicator_harmonized) %>% count() # 315
-gbf %>% distinct(indicator_orig) %>% count() # 331
+gbf %>% distinct(indicator_harmonized) %>% count() # 312
+gbf %>% distinct(indicator_orig) %>% count() # 333
 
 # Prepare indicators for analisys
 indic_gbf = gbf %>% 
