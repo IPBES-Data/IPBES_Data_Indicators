@@ -205,6 +205,21 @@ fr_indic = indic %>%
 fr_indic[,1:3]
 
 #### Co_occurrence_matrix in plots.R-----
+co_occurrence_matrix = read.csv('../output/all_indicators_matrix.csv')
+
+#GBF
+# 80+21+48+1 shared
+# 150
+# 150/312
+# 0.4807692 prop of shared indic
+
+# SDG
+# 138+11+48+1 shared
+# 198
+# 198/240
+# 0.825 prop of shared indic
+
+
 #### Fig 2 in plots.R-----
 
 indic %>% distinct(indicator_harmonized, .keep_all = TRUE) %>% 

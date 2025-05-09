@@ -130,7 +130,10 @@ for (sources in source_list) {
 
 # Display the resulting matrix
 print(co_occurrence_matrix)
-write.csv(co_occurrence_matrix, '../output/all_indicators_matrix.csv')
+#write.csv(co_occurrence_matrix, '../output/all_indicators_matrix.csv')
+co_occurrence_matrix = read.csv('../output/all_indicators_matrix.csv')
+
+
 # Figure 2: matrix of shared indicators
 
 # Melt the matrix into a long format suitable for ggplot2
