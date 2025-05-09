@@ -84,6 +84,7 @@ harmonize_indic <- function(file_name = file_name,
     dplyr::mutate(field_harm = gsub("[%]", " percentage",field_harm)) %>%  
     dplyr::mutate(field_harm = gsub("per cent", "percent",field_harm)) %>%  
     dplyr::mutate(field_harm = gsub("percentages", "percentage",field_harm)) %>%  
+    dplyr::mutate(field_harm = gsub("ouletlet", "outlet",field_harm)) %>% 
     # dplyr::mutate(field_harm = gsub(" [(]$[)]\\b", "sustainable development goals index",field_harm)) %>% 
     
     # red list/iucn
@@ -150,7 +151,8 @@ harmonize_indic <- function(file_name = file_name,
     dplyr::mutate(field_harm = gsub(" [(]mechanistic models[)]", "",field_harm)) %>%
     dplyr::mutate(field_harm = gsub(" [(]model ensemble[)]", "",field_harm)) %>%
     dplyr::mutate(field_harm = gsub(" [(]remote sensing[)]", "",field_harm)) %>%
-    dplyr::mutate(field_harm = gsub(" [(]remote-sensing[)]", "",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("fraction of species known to be medicinal", "species used for medicine",field_harm)) %>%
+    #dplyr::mutate(field_harm = gsub(" [(]remote-sensing[)]", "",field_harm)) %>%
     
     dplyr::mutate(field_harm = gsub("tropical forest bii [(]hotspots[)]", "biodiversity intactness index (tropical forest, hotspots)",field_harm)) %>%
     dplyr::mutate(field_harm = gsub("tropical forest bii [(]indigenous lands[)]", "biodiversity intactness index (tropical forest, indigenous lands)",field_harm)) %>%
@@ -511,9 +513,10 @@ harmonize_indic <- function(file_name = file_name,
     dplyr::mutate(field_harm = gsub("other effective area[-]based conservation measures [(]other effective area[-]based conservation measures[)]", "other effective area-based conservation measures",field_harm)) %>% 
     dplyr::mutate(field_harm = gsub("[.] [(]data source[:] internet analysis[)]", "",field_harm)) %>% 
     dplyr::mutate(field_harm = gsub("10 percentage", "10 percent",field_harm)) %>%
-    dplyr::mutate(indicators_h = gsub("number of ramsar sites that have effective[,] implemented management planning","number of ramsar sites that have effective, implemented management plans",indicators_h)) %>% 
+    dplyr::mutate(field_harm = gsub("number of ramsar sites that have effective[,] implemented management planning","number of ramsar sites that have effective, implemented management plans",field_harm)) %>% 
     dplyr::mutate(field_harm = gsub("protected connected [(]protected connected [(]protconn[)] index[)] index", "protected connected (protconn) index",field_harm)) %>%
-    #dplyr::mutate(field_harm = gsub("remaining primary vegetations", "remaining primary vegetation",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("percentage of parties that have included wetland issues into national strategies and in the planning processes such as for water resource management and water efficiency plans",
+                                    "percentage of parties that have included wetland issues within national strategies and planning processes such as water resource management and water efficiency plans",field_harm)) %>% 
     dplyr::mutate(field_harm = gsub('  ', ' ',field_harm))
   
 

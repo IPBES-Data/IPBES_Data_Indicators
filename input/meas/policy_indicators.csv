@@ -600,8 +600,7 @@ number of ramsar sites designated for the following under represented wetland ty
 number of ramsar sites removed from the montreux record,RAMSAR_SG2.7_25,NA,NA,NA,NA,1,NA
 number of ramsar sites reported by parties to the ramsar secretariat of negative human-induced change or likely change in the ecological character of ramsar sites pursuant to article 3.2,RAMSAR_SG2.7_27,NA,NA,NA,NA,1,NA
 number of ramsar sites that have been designated,RAMSAR_SG2.6_21,NA,NA,NA,NA,1,NA
-"number of ramsar sites that have effective, implemented management planning",RAMSAR_SG2.5_15,NA,NA,NA,NA,1,NA
-"number of ramsar sites that have effective, implemented management plans",RAMSAR_SG2.5_14,NA,NA,NA,NA,1,NA
+"number of ramsar sites that have effective, implemented management plans",RAMSAR_SG2.5_14;RAMSAR_SG2.5_15,NA,NA,NA,NA,1,NA
 number of regional initiatives successfully implemented,RAMSAR_OG4.15_48;RAMSAR_OG4.18_63,NA,NA,NA,NA,1,NA
 number of relevant ramsar handbooks downloaded from the ramsar web-site and subtotals by country and ramsar region of the source of these downloads,RAMSAR_OG4.14_45,NA,NA,NA,NA,1,NA
 number of social media links to world wetland day,RAMSAR_OG4.16_54,NA,NA,NA,NA,1,NA
@@ -630,9 +629,8 @@ percentage of parties that have established or reviewed national policies or gui
 percentage of parties that have established restoration plans [or activities] for sites,RAMSAR_SG3.12_39,NA,NA,NA,NA,1,NA
 percentage of parties that have implemented effective restoration or rehabilitation projects,RAMSAR_SG3.12_40,NA,NA,NA,NA,1,NA
 percentage of parties that have implemented programmes or projects that contribute to poverty alleviation objectives or food and water security plans,RAMSAR_SG3.11_38,NA,NA,NA,NA,1,NA
-percentage of parties that have included wetland issues into national strategies and in the planning processes such as for water resource management and water efficiency plans,RAMSAR_SG1.2_4,NA,NA,NA,NA,1,NA
 percentage of parties that have included wetland issues within national policies or measures on agriculture,RAMSAR_SG1.1_3,NA,NA,NA,NA,1,NA
-percentage of parties that have included wetland issues within national strategies and planning processes such as water resource management and water efficiency plans,RAMSAR_SG1.1_2,NA,NA,NA,NA,1,NA
+percentage of parties that have included wetland issues within national strategies and planning processes such as water resource management and water efficiency plans,RAMSAR_SG1.1_2;RAMSAR_SG1.2_4,NA,NA,NA,NA,1,NA
 percentage of parties that have incorporated wetlands issues into poverty eradication strategies,RAMSAR_SG3.11_37,NA,NA,NA,NA,1,NA
 percentage of parties that have made an assessment of national and local training needs for the implementation of the convention,RAMSAR_OG4.19_70,NA,NA,NA,NA,1,NA
 percentage of parties that have made assessment of ecosystem services of ramsar sites,RAMSAR_SG1.1_1;RAMSAR_SG3.11_36,NA,NA,NA,NA,1,NA

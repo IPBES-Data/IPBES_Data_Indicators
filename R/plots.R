@@ -38,6 +38,9 @@ library(reshape2)
 
 # Load indicators----
 
+all_indicators_cl = read_csv('../output/all_indicators_classified_05052025.csv')
+
+# long format with duplication
 indic = read_csv('../output/all_indicators_classified_05052025_lv.csv')
 
 # Figure 1: Summaries of indicators by source----
@@ -50,6 +53,7 @@ hist_assess = ggplot(data=data_hist_assess, aes(x=source, y=n, fill=source)) +
   geom_bar(stat="identity", color="black") + 
   labs(y="Number of metrics", x = "") +
   scale_fill_brewer(palette="Greens", limits=c("IPBES", "IPCC","GEO" ),name = '') +
+  # order high to low
   scale_x_discrete(limits=c("IPBES", "IPCC", "GEO")) +
   scale_y_continuous(limits = c(0,820), expand = expansion(mult = c(0, .1))) +
   theme_minimal() +
@@ -69,8 +73,9 @@ data_hist_meas = indic %>%
 hist_meas = ggplot(data=data_hist_meas, aes(x=source, y=n, fill=source,legend = FALSE )) +
   geom_bar(stat="identity", color="black") + 
   labs(y="Number of metrics", x = "") +
-  scale_fill_brewer(palette="Blues", limits=c('GBF','SDG','CITES','CMS','RAMSAR','UNCCD'),name = '') +
-  scale_x_discrete(limits=c('GBF','SDG','CITES','CMS','RAMSAR','UNCCD')) +
+  scale_fill_brewer(palette="Blues", limits=c('GBF','SDG','RAMSAR','CITES','CMS','UNCCD'),name = '') +
+  # order high to low
+  scale_x_discrete(limits=c('GBF','SDG','RAMSAR','CITES','CMS','UNCCD')) +
   scale_y_continuous(limits = c(0,320), expand = expansion(mult = c(0, .1))) +
   theme_minimal() +
   theme(legend.position = "none", 
@@ -264,30 +269,41 @@ circos.clear()
 
 indic_categories = indic %>%   
   # summary cat + source
-  group_by(source,Categories)  %>% 
-  count() %>% arrange(desc(n))
+  group_by(Categories,source)  %>% 
+  count() %>% arrange(desc(n)) %>% 
+  # improve viz
+  mutate(Categories = gsub('ecosystems', 'Ecosystems', Categories)) %>% 
+  mutate(Categories = gsub('biodiversity', 'Biodiversity', Categories)) %>% 
+  mutate(Categories = gsub('Human well-being', 'Human\n well-being', Categories)) %>% 
+  mutate(Categories = gsub('Knowledge systems', 'Knowledge\n systems', Categories)) %>% 
+  mutate(Categories = gsub('Ecosystem services', 'Ecosystem\n services', Categories)) %>% 
+  mutate(Categories = gsub('Direct drivers', 'Direct\n drivers', Categories)) %>% 
+  mutate(Categories = gsub('Human assets', 'Human\n assets', Categories)) %>% 
+  mutate(source = factor(source, 
+                                levels=c("IPBES","IPCC","GEO",'GBF','SDG','RAMSAR','CITES','CMS','UNCCD'))) %>% 
+  mutate(Categories = factor(Categories, 
+                         levels=c('Biodiversity','Ecosystems','Ecosystem\n services','Human\n well-being',
+                                  'Direct\n drivers','Human\n assets','Knowledge\n systems','Governance'))) %>% 
+  # add more space for CMS and UNCCD
+  mutate(n = if_else(source %in% c('CITES','RAMSAR','CMS','UNCCD'),
+                     true = n + 5,false = n))
 
 
 ggplot(indic_categories,
        aes(y = n,
            axis1 = source, axis2 = Categories)) +
   geom_alluvium(aes(fill = Categories),
-                width = 1/6, knot.pos = 0, reverse = FALSE) +
-  scale_fill_manual(values =c('Human well-being'="#a0da39",'Governance'="#365c8d",
-                              'Knowledge systems'="#fde725",'Human assets'="#1fa187",
-                              'Direct drivers'="#277f8e",'Ecosystem services'="#4ac16d",
-                              'ecosystems'="#440154",'biodiversity'="#46327e")) +
+                width = 1/6, knot.pos = 0.2, reverse = FALSE) +
+  scale_fill_manual(values =c('Governance'="#440154",'Knowledge\n systems'= "#46327e",
+                              'Human\n assets'="#365c8d",'Direct\n drivers'="#277f8e",
+                              'Human\n well-being'="#1fa187",'Ecosystem\n services'="#4ac16d" ,
+                              'Ecosystems'="#a0da39",'Biodiversity'="#fde725")) +
   #scale_x_discrete(limits=c("IPBES","GEO","IPCC","GBF","SDG","CITES","CMS","RAMSAR","UNCCD")) +
   guides(fill = "none") +
-  geom_stratum(alpha = .1, width = 1/6, reverse = FALSE) +
-  geom_text(stat = "stratum", aes(label = after_stat(stratum)),
-            reverse = FALSE) +
-  scale_x_continuous(breaks = 1:2) +
+  geom_stratum(alpha = 0, width = 1/6, reverse = FALSE) +
+  geom_text(stat = "stratum", aes(label = after_stat(stratum)),reverse = FALSE, size = 3) +
+  #scale_x_continuous(breaks = 1:2, labels = c("Sources", "Indicator category")) +
   theme_void()
-
-
-
-
 
 
 

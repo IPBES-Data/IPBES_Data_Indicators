@@ -1,0 +1,62 @@
+Categories,Source,Counts of indicators
+Biodiversity,IPBES,139
+Biodiversity,GBF,51
+Biodiversity,GEO,16
+Biodiversity,CMS,9
+Biodiversity,IPCC,9
+Biodiversity,SDG,4
+Biodiversity,RAMSAR,3
+Biodiversity,CITES,2
+Biodiversity,UNCCD,1
+Ecosystems,IPCC,314
+Ecosystems,IPBES,105
+Ecosystems,GBF,71
+Ecosystems,GEO,49
+Ecosystems,RAMSAR,11
+Ecosystems,SDG,10
+Ecosystems,UNCCD,3
+Ecosystems,CMS,2
+Ecosystem services,IPBES,93
+Ecosystem services,GBF,23
+Ecosystem services,GEO,15
+Ecosystem services,IPCC,8
+Ecosystem services,SDG,6
+Ecosystem services,CITES,2
+Ecosystem services,RAMSAR,2
+Ecosystem services,CMS,1
+Human well-being,IPBES,65
+Human well-being,GEO,42
+Human well-being,SDG,40
+Human well-being,GBF,22
+Human well-being,IPCC,2
+Human well-being,UNCCD,2
+Human well-being,RAMSAR,1
+Direct drivers,IPBES,114
+Direct drivers,GEO,51
+Direct drivers,IPCC,44
+Direct drivers,GBF,34
+Direct drivers,SDG,16
+Direct drivers,RAMSAR,1
+Human assets,SDG,100
+Human assets,IPBES,97
+Human assets,GEO,25
+Human assets,GBF,19
+Human assets,IPCC,3
+Human assets,UNCCD,1
+Knowledge systems,IPBES,92
+Knowledge systems,GBF,19
+Knowledge systems,SDG,17
+Knowledge systems,RAMSAR,15
+Knowledge systems,GEO,14
+Knowledge systems,CITES,9
+Knowledge systems,CMS,5
+Knowledge systems,IPCC,3
+Governance,IPBES,100
+Governance,GBF,73
+Governance,SDG,47
+Governance,CITES,39
+Governance,RAMSAR,34
+Governance,GEO,11
+Governance,CMS,8
+Governance,UNCCD,6
+Governance,IPCC,3
