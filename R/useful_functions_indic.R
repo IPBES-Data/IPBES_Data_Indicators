@@ -152,7 +152,9 @@ harmonize_indic <- function(file_name = file_name,
     dplyr::mutate(field_harm = gsub(" [(]model ensemble[)]", "",field_harm)) %>%
     dplyr::mutate(field_harm = gsub(" [(]remote sensing[)]", "",field_harm)) %>%
     dplyr::mutate(field_harm = gsub("fraction of species known to be medicinal", "species used for medicine",field_harm)) %>%
-    #dplyr::mutate(field_harm = gsub(" [(]remote-sensing[)]", "",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("time needed or distance travelled to harvest resources", "distance travelled to harvest resources",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("distance travelled to reach a resource", "distance travelled to harvest resources",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("spatial distribution$", "spatial distribution of species",field_harm)) %>%
     
     dplyr::mutate(field_harm = gsub("tropical forest bii [(]hotspots[)]", "biodiversity intactness index (tropical forest, hotspots)",field_harm)) %>%
     dplyr::mutate(field_harm = gsub("tropical forest bii [(]indigenous lands[)]", "biodiversity intactness index (tropical forest, indigenous lands)",field_harm)) %>%
@@ -306,6 +308,8 @@ harmonize_indic <- function(file_name = file_name,
     dplyr::mutate(field_harm = gsub("forest area as a proportion of total land area", "forest area as a percentage of total land area",field_harm)) %>%
     dplyr::mutate(field_harm = gsub("forest area as a percentage of land area", "forest area as a percentage of total land area",field_harm)) %>%  
     dplyr::mutate(field_harm = gsub("mangrove forest cover", "mangrove forest area",field_harm)) %>%    
+    dplyr::mutate(field_harm = gsub("food security$", "food security index",field_harm)) %>%    
+    dplyr::mutate(field_harm = gsub("food waste$", "food waste index",field_harm)) %>%    
     
     dplyr::mutate(field_harm = gsub("atmospheric co2 concentration\\b", "atmospheric co2 concentrations",field_harm)) %>%
     dplyr::mutate(field_harm = gsub("atmospheric concentrations", "atmospheric co2 concentrations",field_harm)) %>%
