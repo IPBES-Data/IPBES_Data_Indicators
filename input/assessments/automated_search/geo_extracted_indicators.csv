@@ -49,7 +49,6 @@ drought-resistant vegetation,GEO_17_8_200,1
 ecological footprint,GEO_13_14_129;GEO_13_19_142,1
 economic growth,GEO_3_5_16,1
 emissions of ozone-depleting substances,GEO_12_15_115;GEO_12_17_120,1
-empowerment of women and girls,GEO_17_8_199,1
 energy consumption,GEO_17_14_210,1
 energy production,GEO_17_14_210,1
 energy-intensity,GEO_22_12_256,1
@@ -63,13 +62,12 @@ fertility rates,GEO_22_21_257,1
 fertilizer price,GEO_8_26_75,1
 floating plastic debris density,GEO_14_15_152;GEO_14_15_154;GEO_20_8_234,1
 floating plastic litter density,GEO_7_19_66,1
-food security,GEO_3_12_24,1
-food waste,GEO_23_24_262,1
+food security index,GEO_3_12_24,1
+food waste index,GEO_23_24_262,1
 forest and land management,GEO_23_24_262,1
 forest area as a percentage of total land area,GEO_15_19_170,1
 freshwater change over time,GEO_16_19_194,1
 freshwater withdrawal as a proportion of available freshwater resources,GEO_16_14_181;GEO_20_8_234,1
-gender equality,GEO_17_8_199,1
 gender-disaggregated agricultural indices,GEO_3_10_20,1
 ghg emissions,GEO_5_17_41;GEO_12_18_122,1
 ghg emissions from agriculture,GEO_17_9_201,1
@@ -83,7 +81,6 @@ global warming potential index,GEO_12_18_122,1
 greenhouse gas emissions,GEO_4_20_39,1
 greenhouse gas index (national oceanic and atmospheric administration),GEO_2_23_6,1
 habitat loss,GEO_6_8_49,1
-health,GEO_22_21_257,1
 "high blood pressure, smoking, low birth weight, high levels of blood sugar",GEO_5_19_45,1
 high body mass index,GEO_5_19_45,1
 impacts of agricultural outpic prices on deforestation rates both inside and outside of protected areas,GEO_15_19_169,1
@@ -176,7 +173,6 @@ recommended intake values for the food groups,GEO_17_12_206,1
 red list index,GEO_6_15_50;GEO_6_16_54,1
 red list index (for utilized species),GEO_13_18_136,1
 red list of ecosystems,GEO_14_16_157,1
-reduction of inequality within and among countries,GEO_17_8_199,1
 regional seas and action plans,GEO_14_15_152,1
 resources per capita invested in human settlement per km2,GEO_15_21_173,1
 road construction,GEO_6_8_49,1

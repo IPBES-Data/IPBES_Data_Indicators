@@ -39,7 +39,7 @@ avoided costs from air pollution,GA_2.3_42_143,1
 avoided morbidity and premature mortality from air pollution,GA_2.3_42_143,1
 avoided water treatment costs,GA_2.3_42_143,1
 bare area,GA_2.3_39_137,1
-"behavior of animals with importance as food, changes in crop phenology",GA_2.3_22_127,1
+behavior of animals with importance as food,GA_2.3_22_127,1
 benefits derived from healthy ecosystems and costs caused by its depletion,VA_2_38_28,1
 better life index,GA_1_52_19,1
 biochemical oxygen demand (bod),GA_3_74_399,1
@@ -66,8 +66,8 @@ body fat,SUA_4_78_130,1
 c pool,GA_4_34_176,1
 caloric intake,GA_2_22_28;GA_2_24_29,1
 carbon sequestration,GA_2.3_56_155,1
-catch per unit effort,SUA_2_96_79;SUA_2_97_80,1
-catch per unit per effort,SUA_6_115_207,1
+catch per unit effort,GA_2.3_40_140;SUA_2_96_79;SUA_2_97_80;SUA_6_115_207,1
+changes in crop phenology,GA_2.3_22_127,1
 changing range of wild species,GA_2.2_6_56,1
 child mortality,GA_2_22_28,1
 cites parties that have implemented relevant resolutions and decisions,SUA_4_68_125,1
@@ -84,7 +84,6 @@ companies with policies for biodiversity-friendly practices,VA_4_28_109,1
 comparison of the number of available first records of established alien species for a region with the total number of species recorded for the same region,IAS_2_14_17,1
 concentration of hydrogen ions (h+),IAS_4_8_100,1
 condition and size of wild animals,GA_2.2_65_113,1
-condition index,IAS_4_64_104,1
 connection to land,GA_2.3_36_133,1
 connection to sea,GA_2.3_36_133,1
 correlation between high cultural diversity and areas of high biodiversity,GA_2.3_71_160,1
@@ -96,7 +95,6 @@ coverage of fisheries with management measures to reduce bycatch and discards,GA
 crops and their dietary roles,GA_2.3_22_127,1
 cultivated area,GA_2.3_39_137,1
 cultural continuity,SUA_2_95_77,1
-cultural identity,GA_2_25_33,1
 culturally salient species,GA_2.2_5_55;GA_2.2_65_113,1
 cumulative human impacts on marine ecosystems,GA_4_155_228,1
 cumulative introduced invasive aliens,GA_2.2_37_70;GA_2.2_37_70,1
@@ -107,7 +105,7 @@ demand for greener products and services,GA_3_26_355,1
 density of preferred and palatable species,GA_2.3_40_140,1
 development of crop varieties or landraces,GA_2.3_22_127,1
 discontinued traditional land-management practices,GA_2.2_6_56,1
-distance travelled to reach a resource,GA_2.3_40_140,1
+distance travelled to harvest resources,GA_2.2_5_55;GA_2.2_65_113;GA_2.3_40_140,1
 diversity of competent hosts of vector-borne diseases,GA_2.3_42_143,1
 diversity of life from which to learn,GA_2.3_42_143,1
 domestic material consumption,GA_2_24_29,1
@@ -161,7 +159,6 @@ forest area as a percentage of total land area,GA_1_52_19,1
 forest-specialist bird species per grid cell,GA_2.2_37_70,1
 forests and grazing lands loss,GA_2.2_5_55,1
 fraction of ocean not fished per year,GA_2.2_37_70,1
-fraction of species known to be medicinal,GA_2.3_42_143,1
 functional diversity,IAS_5_109_131,1
 functional intactness (madingley),GA_2.2_37_70;GA_2.2_47_90,1
 funding for environmental education,GA_3_15_329,1
@@ -194,7 +191,6 @@ gross national happiness index of bhutan,VA_6_21_143,1
 gross national product,IAS_6_85_153,1
 growth in human appropriation of net primary productivity,GA_3_26_355,1
 growth in information relevant to informing policy on invasive alien species prevention and control,IAS_6_11_138;IAS_6_119_174,1
-growth rates,IAS_4_64_104,1
 habitat area and quality,GA_4_34_176,1
 habitat conditions,SUA_4_89_132,1
 habitat quality,SUA_2_95_77,1
@@ -250,7 +246,7 @@ leaf surface area,GA_2.3_56_155,1
 "less biomass, more annuals and shrubs on pastures",GA_2.2_65_113,1
 life expectancy,GA_2_25_31,1
 life satisfaction,VA_3_41_70,1
-linguistic diversity index,GA_2_25_33,1
+linguistic diversity index,GA_2_41_36,1
 live coral cover,GA_2.2_37_70;GA_2.2_38_74;GA_2.2_91_124,1
 livelihood dependence,VA_3_2_52,1
 living conditions in the arctic,VA_3_63_79,1
@@ -456,7 +452,6 @@ reproductive success,SUA_4_78_130;SUA_4_89_132,1
 resilience of forest-dependent communities,SUA_2_92_69,1
 resourcing of invasive alien species prevention and control activities,IAS_6_14_142,1
 retention and prevented emissions of air pollutants by ecosystems,GA_2.3_42_143,1
-retention over time of indigenous ecological knowledge and practices,GA_2_25_33,1
 revenue from bioenergy production,GA_2.3_42_143,1
 revenue from forestry,GA_2.3_42_143,1
 rule of law index,GA_5_104_261,1
@@ -473,10 +468,11 @@ soil organic carbon,GA_2.2_37_70;GA_2.3_39_137,1
 soil quality impact on crop production,GA_2.3_42_143,1
 sounds associated with the forest,SUA_2_97_80,1
 spatial densities of relational values in an area,VA_2_38_28,1
-spatial distribution,GA_2.3_40_140,1
-spatial distribution of species,SUA_2_96_79,1
+spatial distribution of species,GA_2.3_40_140;SUA_2_96_79,1
 species area relationship,GA_5_34_243,1
+species condition index,IAS_4_64_104,1
 species distribution area and shift,GA_4_34_176,1
+species growth rate,IAS_4_64_104,1
 species habitat index,GA_1_52_19;GA_1_52_19;GA_2.2_37_70;GA_3_54_387,1
 species negatively impacting biodiversity,IAS_6_56_150,1
 species occurrence records accessible through the global biodiversity information facility,GA_1_52_19,1
@@ -485,7 +481,7 @@ species represented in the barcode of life data system,GA_1_52_19,1
 species richness,GA_4_34_176;IAS_3_84_95,1
 species richness per grid cell,GA_2.2_37_70;GA_2.2_47_90,1
 species status index,GA_1_52_19,1
-species used for medicine,GA_2.3_22_127,1
+species used for medicine,GA_2.3_22_127;GA_2.3_42_143,1
 species with data included in the global biodiversity information facility,GA_3_49_379,1
 spread of alien species by pathway,IAS_6_97_160,1
 stability of land use and land cover,GA_2.3_42_143,1
@@ -494,8 +490,7 @@ stock values of natural capital,VA_2_38_28,1
 strength of people’s connection to the forest,SUA_2_97_80,1
 structural and functional connectivity of habitat,VA_2_38_28,1
 sustainability dashboard,VA_2_8_10,1
-sustainable development goals (sdg) index,GA_4_147_220,1
-sustainable development goals index,VA_2_38_29,1
+sustainable development goals index,GA_4_147_220;VA_2_38_29,1
 sustainable development index (sdi),VA_5_78_136,1
 sustainable economic welfare (isew),VA_5_78_136,1
 sustainable well-being index (swi),VA_2_38_29,1
@@ -507,8 +502,7 @@ terrestrial net primary production,GA_2.2_37_70;GA_2.2_42_82;GA_2.3_39_137,1
 terrestrial vegetation biomass,GA_2.2_1_50,1
 themes in a text representing nature´s values,VA_2_38_28,1
 timber production (m3),GA_2.3_42_143,1
-time needed or distance travelled to harvest resources,GA_2.2_65_113,1
-"time needed to harvest resources, distance travelled to harvest resources",GA_2.2_5_55,1
+time needed to harvest resources,GA_2.2_5_55,1
 total dissolved solids (tds),GA_3_74_399,1
 total greenhouse gas emissions per year,GA_2_118_47,1
 total imports,IAS_2_5_11,1

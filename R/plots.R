@@ -38,10 +38,10 @@ library(reshape2)
 
 # Load indicators----
 
-all_indicators_cl = read_csv('../output/all_indicators_classified_05052025.csv')
+all_indicators_cl = read_csv('../output/all_indicators_classified_14052025.csv')
 
 # long format with duplication
-indic = read_csv('../output/all_indicators_classified_05052025_lv.csv')
+indic = read_csv('../output/all_indicators_classified_14052025_lv.csv')
 
 # Figure 1: Summaries of indicators by source----
 data_hist_assess = indic %>% 
@@ -57,11 +57,14 @@ hist_assess = ggplot(data=data_hist_assess, aes(x=source, y=n, fill=source)) +
   scale_x_discrete(limits=c("IPBES", "IPCC", "GEO")) +
   scale_y_continuous(limits = c(0,820), expand = expansion(mult = c(0, .1))) +
   theme_minimal() +
+  labs(tag = "A") +
   theme(legend.position = "none", 
         panel.background = element_blank(),
         axis.line = element_line(colour = "black"),
         panel.grid = element_blank(),
-        panel.border = element_blank())
+        panel.border = element_blank(),        
+        plot.tag = element_text(),
+        plot.tag.position = c(0.9, 0.9))
 
 hist_assess
 
@@ -78,14 +81,23 @@ hist_meas = ggplot(data=data_hist_meas, aes(x=source, y=n, fill=source,legend = 
   scale_x_discrete(limits=c('GBF','SDG','RAMSAR','CITES','CMS','UNCCD')) +
   scale_y_continuous(limits = c(0,320), expand = expansion(mult = c(0, .1))) +
   theme_minimal() +
+  labs(tag = "B") +
   theme(legend.position = "none", 
         panel.background = element_blank(),
         axis.line = element_line(colour = "black"),
         panel.grid = element_blank(),
-        panel.border = element_blank())
+        panel.border = element_blank(),
+        plot.tag = element_text(),
+        plot.tag.position = c(0.9, 0.9))
 
 hist_meas 
-hist_meas + hist_assess
+plot = hist_assess + hist_meas
+
+
+ggsave(file="../output/figures/fig1_120525.svg", plot=plot, 
+       width=7, height=3.5, units = "in", dpi = 300)
+ggsave(file="../output/figures/fig1_120525.png", plot=plot, 
+       width=7, height=3.5, units = "in", dpi = 300)
 
 # Figure 2: Summaries of shared indicators ----
 
@@ -130,8 +142,8 @@ for (sources in source_list) {
 
 # Display the resulting matrix
 print(co_occurrence_matrix)
-#write.csv(co_occurrence_matrix, '../output/all_indicators_matrix.csv')
-co_occurrence_matrix = read.csv('../output/all_indicators_matrix.csv')
+write.csv(co_occurrence_matrix, '../output/all_indicators_matrix_14052025.csv')
+#co_occurrence_matrix = read.csv('../output/all_indicators_matrix_14052025.csv')
 
 
 # Figure 2: matrix of shared indicators
@@ -165,7 +177,7 @@ melted_matrix_upper_filtered <- melted_matrix_upper %>%
   filter(value != 0)
 
 # Create the heatmap plot
-ggplot(melted_matrix_upper_filtered, aes(x = Var1, y = Var2, fill = value), color = "white") +
+fig2 = ggplot(melted_matrix_upper_filtered, aes(x = Var1, y = Var2, fill = value), color = "white") +
   geom_tile(color = "white") +
   #scale_fill_gradient(low = "white", high = "steelblue", na.value = "grey80", guide = "colorbar") +
   scale_fill_gradient(low = "#fff0e1", high = "#ff9d9d", na.value = "grey80", guide = "colorbar",
@@ -181,11 +193,17 @@ ggplot(melted_matrix_upper_filtered, aes(x = Var1, y = Var2, fill = value), colo
        fill = "Shared metrics") +
   theme(axis.text.x = element_text(angle = 45, hjust = 0))
 
+fig2
+ggsave(file="../output/figures/fig2_120525.svg", plot=fig2, 
+       width=7, height=4, units = "in", dpi = 300)
+ggsave(file="../output/figures/fig2_120525.png", plot=fig2, 
+       width=7, height=4, units = "in", dpi = 300)
 
 # Figure 3: links between assess and MEAs----
 
 # Split sources into a list
-indic$sources2 <- strsplit(as.character(indic$sources), ";")
+#indic$sources2 <- strsplit(as.character(indic$sources), ";")
+source_list2 <- strsplit(as.character(all_indicators_cl$sources), ";")
 
 # Create a new data frame for links between treaties and assessments
 treaties <- c("GBF", "SDG", "CITES", "CMS", "RAMSAR", "UNCCD")
@@ -197,11 +215,11 @@ link_matrix <- matrix(0, nrow = length(treaties), ncol = length(assessments),
 
 # Fill the matrix with counts of links
 for (i in 1:nrow(indic)) {
-  sources <- indic$sources2[[i]]
+  sources <- source_list2[[i]]
   for (source in sources) {
     if (source %in% treaties) {
       for (assessment in assessments) {
-        if (grepl(assessment, indic$sources2[i], fixed = TRUE)) {
+        if (grepl(assessment, source_list2[i], fixed = TRUE)) {
           link_matrix[source, assessment] <- link_matrix[source, assessment] + 1
         }
       }
@@ -219,7 +237,7 @@ colnames(links) <- c("treaties", "assessments", "Freq")
 grid_color <- c(
   IPBES = "#E5F5E0", IPCC = "#A1D99B", GEO = "#31A354",
   GBF = "#EFF3FF", SDG = "#C6DBEF", 
-  CITES = "#FFC107", CMS = "#FFC107", RAMSAR = "#FFC107",
+  CITES = "#9ECAE1", CMS = "#6BAED6", RAMSAR = "#3182BD",
   UNCCD = "#08519C"
 )
 # library(RColorBrewer)
@@ -240,9 +258,14 @@ grid_color <- c(
 # Define the order of entities where treaties are at the top and assessments at the bottom
 entity_order <- c("IPBES", "IPCC", "GEO","GBF","SDG","CITES", "CMS", "RAMSAR", "UNCCD")
 
-# Set plot parameters and create the chord diagram with specified order
+# Set plot saving file and parameters
+png(filename = "../output/figures/fig3_120525.png",
+    width = 4, height = 4, units = "in", 
+    bg = "white", res = 300) 
+
+# chord parameters
 circos.clear()
-circos.par(start.degree = 173, track.margin = c(0.01, 0.01), gap.after = 5,
+circos.par(start.degree = 165, track.margin = c(0.01, 0.01), gap.after = 5,
            cell.padding = c(0, 0, 0, 0))
 
 # Create the chord diagram
@@ -253,7 +276,7 @@ chordDiagram(
   annotationTrack = c("grid"),
   preAllocateTracks = 1,
   grid.col = grid_color
-)
+  )
 
 # Add labels to the sectors
 circos.trackPlotRegion(
@@ -262,11 +285,39 @@ circos.trackPlotRegion(
                 facing = "inside", niceFacing = TRUE, adj = c(0.5, 0))
   },
   bg.border = NA
-)
+  )
 
 # Finalize and clear the circos plot
 circos.clear()
+dev.off()
 
+# Alternative fig 3
+fig3_alt = ggplot(mutate(melted_matrix_upper, value = value + 5),
+       aes(y = value,
+           axis2 = Var1, axis1 = Var2)) +
+  geom_alluvium(aes(fill = Var1),
+                width = 1/6, knot.pos = 0.2, reverse = FALSE) +
+  scale_fill_manual(values =c(
+    IPBES = "#d5efcd", IPCC = "#A1D99B", GEO = "#31A354",
+    GBF = "#d6e0ff", SDG = "#C6DBEF", 
+    CITES = "#9ECAE1", CMS = "#6BAED6", RAMSAR = "#3182BD",
+    UNCCD = "#08519C"
+  )) +
+  # scale_fill_manual(values =c('Governance'="#440154",'Knowledge\n systems'= "#46327e",
+  #                             'Human\n assets'="#365c8d",'Direct\n drivers'="#277f8e",
+  #                             'Human\n well-being'="#1fa187",'Ecosystem\n services'="#4ac16d" ,
+  #                             'Ecosystems'="#a0da39",'Biodiversity'="#fde725")) +
+  #scale_x_discrete(limits=c("IPBES","GEO","IPCC","GBF","SDG","CITES","CMS","RAMSAR","UNCCD")) +
+  guides(fill = "none") +
+  geom_stratum(alpha = 0, width = 1/6, reverse = FALSE) +
+  geom_text(stat = "stratum", aes(label = after_stat(stratum)),reverse = FALSE, size = 3) +
+  #scale_x_continuous(breaks = 1:2, labels = c("Sources", "Indicator category")) +
+  theme_void()
+
+ggsave(file="../output/figures/fig3_120525_alt.svg", plot=fig3_alt, 
+       width=7, height=8, units = "in", dpi = 300)
+ggsave(file="../output/figures/fig3_120525_alt.png", plot=fig3_alt, 
+       width=7, height=8, units = "in", dpi = 300)
 
 # Figure 4: Summaries of indicators by categories----
 
@@ -291,8 +342,8 @@ indic_categories = indic %>%
   mutate(n = if_else(source %in% c('CITES','RAMSAR','CMS','UNCCD'),
                      true = n + 5,false = n))
 
-
-ggplot(indic_categories,
+# Plot
+fig4 = ggplot(indic_categories,
        aes(y = n,
            axis1 = source, axis2 = Categories)) +
   geom_alluvium(aes(fill = Categories),
@@ -309,12 +360,10 @@ ggplot(indic_categories,
   theme_void()
 
 
-
-
-
-
-
-
+ggsave(file="../output/figures/fig4_120525_alt.svg", plot=fig4, 
+       width=7, height=8, units = "in", dpi = 300)
+ggsave(file="../output/figures/fig4_120525_alt.png", plot=fig4, 
+       width=7, height=8, units = "in", dpi = 300)
 
 
 
@@ -349,7 +398,7 @@ all_indicators_cl2 %>% distinct(Categories)
 # 8 Knowledge systems
 all_indicators_cl2 %>% distinct(Subcategories) %>% count()#46
 
-data_categories = all_indicators_cl2 %>% 
+data_categories = all_indicators_cl %>% 
   group_by(Categories) %>%
   summarize(n = n()) %>%
   mutate(prop = (n / colSums(across(n)))*100) %>% 

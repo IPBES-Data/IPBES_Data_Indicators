@@ -33,8 +33,8 @@ number of species at risk of extinction,IAS_4_22_102,1,NA
 local species richness,IAS_4_22_102,1,NA
 mean body length,IAS_4_22_102,1,NA
 red list index,IAS_4_22_102,1,NA
-growth rates,IAS_4_64_104,2,NA
-condition index,IAS_4_64_104,2,NA
+species growth rate,IAS_4_64_104,2,NA
+species condition index,IAS_4_64_104,2,NA
 totem or culturally important species,IAS_4_140_116,2,1
 red list index,IAS_5_52_127,2,NA
 functional diversity,IAS_5_109_131,1,NA

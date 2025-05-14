@@ -101,13 +101,11 @@ human development index (hdi),GA_2_22_30,2,NA
 income,GA_2_25_31,1,NA
 life expectancy,GA_2_25_31,1,NA
 average number of years of schooling,GA_2_25_31,1,NA
-linguistic diversity index,GA_2_25_33,1,NA
-cultural identity,GA_2_25_33,1,NA
-retention over time of indigenous ecological knowledge and practices,GA_2_25_33,1,NA
 world happiness index,GA_2_25_34,2,NA
 social progress index,GA_2_25_34,2,NA
 environmental performance index,GA_2_25_34,2,NA
 environmental component of the social sustainability index,GA_2_25_34,2,NA
+linguistic diversity index,GA_2_41_36,1,NA
 fertilizer use,GA_2_83_42,2,NA
 land use change,GA_2_83_42,2,NA
 extraction of living biomass,GA_2_83_42,2,NA
@@ -129,7 +127,8 @@ terrestrial vegetation biomass,GA_2.2_1_50,1,NA
 extent of forests,GA_2.2_1_50,1,NA
 tree cover,GA_2.2_1_50,1,NA
 extinction risk,GA_2.2_1_50,1,NA
-"time needed to harvest resources, distance travelled to harvest resources",GA_2.2_5_55,1,1
+time needed to harvest resources,GA_2.2_5_55,1,1
+distance travelled to harvest resources,GA_2.2_5_55,1,1
 culturally salient species,GA_2.2_5_55,1,1
 native newcomer species arrive,GA_2.2_5_55,1,1
 new pests and invasive alien species colonize,GA_2.2_5_55,1,1
@@ -233,7 +232,7 @@ marine trophic index (mti),GA_2.2_59_101,2,NA
 human footprint,GA_2.2_62_105,2,NA
 trends of populations of palatable or unpalatable species,GA_2.2_63_107,1,1
 culturally salient species,GA_2.2_65_113,1,1
-time needed or distance travelled to harvest resources,GA_2.2_65_113,1,1
+distance travelled to harvest resources,GA_2.2_65_113,1,1
 native newcomer species arrive,GA_2.2_65_113,1,1
 opening up of forest canopy,GA_2.2_65_113,1,1
 "less biomass, more annuals and shrubs on pastures",GA_2.2_65_113,1,1
@@ -256,7 +255,8 @@ pollinator diversity,GA_2.3_2_125,2,NA
 species used for medicine,GA_2.3_22_127,2,1
 crops and their dietary roles,GA_2.3_22_127,2,1
 forest and its role in protecting water sources,GA_2.3_22_127,2,1
-"behavior of animals with importance as food, changes in crop phenology",GA_2.3_22_127,2,1
+behavior of animals with importance as food,GA_2.3_22_127,2,1
+changes in crop phenology,GA_2.3_22_127,2,1
 development of crop varieties or landraces,GA_2.3_22_127,2,1
 visitation to national parks,GA_2.3_32_132,2,NA
 visitation to urban green spaces,GA_2.3_32_132,2,NA
@@ -273,10 +273,11 @@ medicinal species as a fraction of total vascular plant species,GA_2.3_39_137,2,
 geographical overlay of linguistic diversity and biodiversity,GA_2.3_39_137,2,NA
 rate of land use change,GA_2.3_39_137,2,NA
 population size,GA_2.3_40_140,1,1
-spatial distribution,GA_2.3_40_140,1,1
+spatial distribution of species,GA_2.3_40_140,1,1
 animal behavior,GA_2.3_40_140,1,1
 phenology of economically and/or culturally important wild plant and animal species,GA_2.3_40_140,1,1
-distance travelled to reach a resource,GA_2.3_40_140,1,1
+catch per unit effort,GA_2.3_40_140,1,1
+distance travelled to harvest resources,GA_2.3_40_140,1,1
 health of the soil,GA_2.3_40_140,1,1
 density of preferred and palatable species,GA_2.3_40_140,1,1
 health of the forest,GA_2.3_41_142,2,1
@@ -331,7 +332,7 @@ agriculture-based materials produced (tons),GA_2.3_42_143,2,NA
 employment in materials production,GA_2.3_42_143,2,NA
 timber production (m3),GA_2.3_42_143,2,NA
 revenue from forestry,GA_2.3_42_143,2,NA
-fraction of species known to be medicinal,GA_2.3_42_143,2,NA
+species used for medicine,GA_2.3_42_143,2,NA
 natural medicinal products and manufactured bio-derived medicines,GA_2.3_42_143,2,NA
 improved health from natural medicines or bio-derived medicines,GA_2.3_42_143,2,NA
 phylogenetic diversity,GA_2.3_42_143,2,NA
@@ -373,7 +374,7 @@ global scale ecosystem carbon storage,GA_4_87_186,2,NA
 adaptive capacity index (aci),GA_4_129_208,2,NA
 oecd better life index,GA_4_131_209,2,NA
 living planet index,GA_4_144_217,2,NA
-sustainable development goals (sdg) index,GA_4_147_220,2,NA
+sustainable development goals index,GA_4_147_220,2,NA
 proportion of fish stocks within biologically sustainable levels,GA_4_152_225,2,NA
 global effort in bottom-trawling,GA_4_152_225,2,NA
 marine stewardship council certified fisheries,GA_4_152_225,2,NA

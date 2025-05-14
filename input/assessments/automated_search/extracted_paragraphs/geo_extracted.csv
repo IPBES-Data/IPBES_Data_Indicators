@@ -32,7 +32,7 @@ cross-natrional comparative information on access to and ownership of land,GEO_3
 sex-disaggregated burden-of-disease data,GEO_3_10_20,2,NA
 underweight children,GEO_3_12_24,1,NA
 malnutrition,GEO_3_12_24,1,NA
-food security,GEO_3_12_24,1,NA
+food security index,GEO_3_12_24,1,NA
 global human settlement layer (ghsl),GEO_3_14_30,2,NA
 sustainability and/or environmental themes as one of the general goals of education,GEO_4_9_33,2,NA
 integration of education for sustainable development (esd) in curricula,GEO_4_9_33,2,NA
@@ -159,9 +159,6 @@ improved water supply and sanitation,GEO_16_18_190,2,NA
 level of water stress (freshwater withdrawal as a proportion of available freshwater resources),GEO_16_18_192,2,NA
 level of water stress,GEO_16_18_193,2,NA
 freshwater change over time,GEO_16_19_194,2,NA
-gender equality,GEO_17_8_199,1,NA
-empowerment of women and girls,GEO_17_8_199,1,NA
-reduction of inequality within and among countries,GEO_17_8_199,1,NA
 quantity of land area known to have (in)sufficient infrastructure against flooding,GEO_17_8_200,1,NA
 number of residents living in floodplains,GEO_17_8_200,1,NA
 low-elevation coastal zones,GEO_17_8_200,1,NA
@@ -232,7 +229,6 @@ beef consumption,GEO_22_8_255,1,NA
 energy-intensity,GEO_22_12_256,1,NA
 share of low-carbon options,GEO_22_12_256,1,NA
 measure of income,GEO_22_21_257,1,NA
-health,GEO_22_21_257,1,NA
 levels of education,GEO_22_21_257,1,NA
 low income,GEO_22_21_257,1,NA
 women and girl’s education,GEO_22_21_257,1,NA
@@ -244,7 +240,7 @@ universal female education,GEO_22_21_257,1,NA
 piped drinking water,GEO_22_21_257,1,NA
 advanced malaria control,GEO_22_21_257,1,NA
 complete phase-out of biomass use for cooking,GEO_22_21_257,1,NA
-food waste,GEO_23_24_262,1,NA
+food waste index,GEO_23_24_262,1,NA
 yield (improvement),GEO_23_24_262,1,NA
 agro-biodiversity,GEO_23_24_262,1,NA
 forest and land management,GEO_23_24_262,1,NA

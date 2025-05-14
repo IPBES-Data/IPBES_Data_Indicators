@@ -112,7 +112,7 @@ beach erosion volume due to the 100-year recurrence storm wave height,IPCC_12_20
 beach litter,GEO_14_14_151;GEO_14_15_152,GEO
 bedrock topography,IPCC_9_48_440,IPCC
 beef consumption,GEO_22_8_255,GEO
-"behavior of animals with importance as food, changes in crop phenology",GA_2.3_22_127,IPBES
+behavior of animals with importance as food,GA_2.3_22_127,IPBES
 benefits derived from healthy ecosystems and costs caused by its depletion,VA_2_38_28,IPBES
 benthich isotopes,IPCC_2_28_57,IPCC
 better life index,GA_1_52_19,IPBES
@@ -155,8 +155,7 @@ c-haines index,IPCC_12_43_643,IPCC
 caloric intake,GA_2_22_28;GA_2_24_29,IPBES
 carbon sequestration,GA_2.3_56_155,IPBES
 carbon uptake by land and ocean,IPCC_4_8_220,IPCC
-catch per unit effort,SUA_2_96_79;SUA_2_97_80,IPBES
-catch per unit per effort,SUA_6_115_207,IPBES
+catch per unit effort,GA_2.3_40_140;SUA_2_96_79;SUA_2_97_80;SUA_6_115_207,IPBES
 certified forest area,IPBES_GA2.1_sup_60,IPBES
 change in # days hi>41°c,IPCC_12_24_613,IPCC
 change in # days tx>35°c,IPCC_12_24_613,IPCC
@@ -166,6 +165,7 @@ change in extreme total water level,IPCC_12_24_613,IPCC
 change in mean wind,IPCC_12_24_613,IPCC
 change in the extent of water-related ecosystems over time,IPBES_SUA_sup_6.6.1_36,IPBES
 change in water-use efficiency over time,IPBES_SUA_sup_6.4.1_32,IPBES
+changes in crop phenology,GA_2.3_22_127,IPBES
 changes in evapotranspiration demand,IPCC_12_17_599,IPCC
 changes in groundwater,IPCC_12_17_599,IPCC
 changes in land versus world trade organisation greenbox agricultural subsidies,IPCC_2_31_65,IPCC
@@ -217,7 +217,6 @@ comparison of the number of available first records of established alien species
 complete phase-out of biomass use for cooking,GEO_22_21_257,GEO
 concentration of hydrogen ions (h+),IAS_4_8_100,IPBES
 condition and size of wild animals,GA_2.2_65_113,IPBES
-condition index,IAS_4_64_104,IPBES
 connection to land,GA_2.3_36_133,IPBES
 connection to sea,GA_2.3_36_133,IPBES
 consecutive dry days (cdd),IPCC_11_58_543;IPCC_11_93_579;IPCC_12_17_601;IPCC_12_57_665,IPCC
@@ -242,7 +241,6 @@ crops and their dietary roles,GA_2.3_22_127,IPBES
 cross-natrional comparative information on access to and ownership of land,GEO_3_10_20,GEO
 cultivated area,GA_2.3_39_137,IPBES
 cultural continuity,SUA_2_95_77,IPBES
-cultural identity,GA_2_25_33,IPBES
 culturally salient species,GA_2.2_5_55;GA_2.2_65_113,IPBES
 cumulative ghg emissions,IPCC_1_58_23,IPCC
 cumulative human impacts on marine ecosystems,GA_4_155_228,IPBES
@@ -277,7 +275,7 @@ direct economic loss attributed to disasters in relation to global gross domesti
 "direct economic loss in relation to global gross domestic product, damage to critical infrastructure and number of disruptions to basic services, attributed to disasters",IPBES_SUA_sup_11.5.2_82,IPBES
 disability-adjusted life years (dalys) lost,GEO_5_19_45,GEO
 discontinued traditional land-management practices,GA_2.2_6_56,IPBES
-distance travelled to reach a resource,GA_2.3_40_140,IPBES
+distance travelled to harvest resources,GA_2.2_5_55;GA_2.2_65_113;GA_2.3_40_140,IPBES
 distribution of marine biota,IPCC_2_26_47,IPCC
 distribution of species,IPCC_2_75_120,IPCC
 distribution of terrestrial biota,IPCC_2_26_47,IPCC
@@ -306,7 +304,6 @@ electric power consumption (kwh per capita),IPBES_GA2.1_sup_14,IPBES
 emission of particular compounds,IPCC_7_90_359,IPCC
 emissions of ozone-depleting substances,GEO_12_15_115;GEO_12_17_120,GEO
 employment in materials production,GA_2.3_42_143,IPBES
-empowerment of women and girls,GEO_17_8_199,GEO
 encounter rates with supernatural forest dwelling entities,GA_2.3_41_142,IPBES
 endemic species richness,VA_2_10_12,IPBES
 endemism richness,GA_2.2_21_61,IPBES
@@ -394,10 +391,8 @@ food deficit (kcal/capit a/day) (3- year average),IPBES_GA2.1_sup_5,IPBES
 food loss index,IPBES_SUA_sup_12.3.1.a_91,IPBES
 food produced (kcal),GA_2.3_42_143,IPBES
 food quality (nutrients),GA_2.3_42_143,IPBES
-food security,GEO_3_12_24,GEO
-food security index,IPBES_GA2.1_sup_4,IPBES
-food waste,GEO_23_24_262,GEO
-food waste index,IPBES_SUA_sup_12.3.1.b_92,IPBES
+food security index,GEO_3_12_24;IPBES_GA2.1_sup_4,IPBES;GEO
+food waste index,GEO_23_24_262;IPBES_SUA_sup_12.3.1.b_92,IPBES;GEO
 "foreign direct investment (fdi), official development assistance and south-south cooperation as a proportion of total domestic budget",IPBES_SUA_sup_17.3.1_141,IPBES
 forest and its role in protecting water sources,GA_2.3_22_127,IPBES
 forest and land management,GEO_23_24_262,GEO
@@ -410,7 +405,6 @@ fossil-fuel energy consumption (percentage of total),IPBES_GA2.1_sup_12,IPBES
 fraction of absorbed photosynthetically active radiation (fapar),IPCC_1_66_27;IPCC_2_79_128,IPCC
 fraction of ocean not fished per year,GA_2.2_37_70;IPBES_GA2.2_sup_10,IPBES
 fraction of precipitation falling as snow,IPCC_12_19_604,IPCC
-fraction of species known to be medicinal,GA_2.3_42_143,IPBES
 free tropospheric ozone,IPCC_2_21_42,IPCC
 freshwater change over time,GEO_16_19_194,GEO
 freshwater withdrawal as a proportion of available freshwater resources,GEO_16_14_181;GEO_20_8_234,GEO
@@ -428,7 +422,6 @@ funding towards environmental impact assessment,IPBES_GA3_sup_5,IPBES
 funding towards institutional capacity building in fisheries,GA_3_15_329;IPBES_GA3_sup_8,IPBES
 funding towards nature reserves,IPBES_GA3_sup_48,IPBES
 funding towards species protection,IPBES_GA3_sup_51,IPBES
-gender equality,GEO_17_8_199,GEO
 gender-disaggregated agricultural indices,GEO_3_10_20,GEO
 gene bank accession and available genetic resources,GA_2.3_42_143,IPBES
 genesis potential index,IPCC_11_78_568,IPCC
@@ -501,7 +494,6 @@ growing degree days,IPCC_12_46_648,IPCC
 growing season of terrestrial biota,IPCC_2_26_47,IPCC
 growth in human appropriation of net primary productivity,GA_3_26_355,IPBES
 growth in information relevant to informing policy on invasive alien species prevention and control,IAS_6_11_138;IAS_6_119_174,IPBES
-growth rates,IAS_4_64_104,IPBES
 growth rates of household expenditure or income per capita among the bottom 40 percent of the population and the total population,IPBES_SUA_sup_10.1.1_70,IPBES
 habitat area and quality,GA_4_34_176,IPBES
 habitat conditions,SUA_4_89_132,IPBES
@@ -514,7 +506,6 @@ happiness,VA_3_41_70,IPBES
 happy planet index,GA_5_69_253;GA_5_108_263,IPBES
 harvest intensity,SUA_2_95_77,IPBES
 hazardous waste,IPBES_SUA_sup_12.4.2.a_93,IPBES
-health,GEO_22_21_257,GEO
 health associated with intake of pollinator dependent foods,GA_2.3_42_143,IPBES
 health condition and body size of wild animals decrease,GA_2.2_5_55,IPBES
 health of the forest,GA_2.3_41_142,IPBES
@@ -621,7 +612,7 @@ levels of education,GEO_22_21_257,GEO
 life expectancy,GA_2_25_31;GEO_3_5_16,IPBES;GEO
 life satisfaction,VA_3_41_70,IPBES
 lightning frequency,IPCC_12_18_602,IPCC
-linguistic diversity index,GA_2_25_33,IPBES
+linguistic diversity index,GA_2_41_36,IPBES
 live coral cover,GA_2.2_37_70;GA_2.2_38_74;GA_2.2_91_124;IPBES_GA2.2_sup_17;IPBES_GA3_sup_36,IPBES
 livelihood dependence,VA_3_2_52,IPBES
 livestock density of animals (chickens),IPBES_GA2.1_sup_33,IPBES
@@ -1082,7 +1073,6 @@ reduced property loss due to natural hazards,GA_2.3_42_143,IPBES
 reduced risk of disease transmission,GA_2.3_42_143,IPBES
 reduction in climate related costs,GA_2.3_42_143,IPBES
 reduction in post-volcanic eruption extreme precipitation,IPCC_11_50_537,IPCC
-reduction of inequality within and among countries,GEO_17_8_199,GEO
 reef growth,IPCC_2_67_109,IPCC
 refugee population,IPBES_GA2.1_sup_25,IPBES
 regional deficit index,IPCC_12_72_695,IPCC
@@ -1102,7 +1092,6 @@ resilience of forest-dependent communities,SUA_2_92_69,IPBES
 resources per capita invested in human settlement per km2,GEO_15_21_173,GEO
 resourcing of invasive alien species prevention and control activities,IAS_6_14_142,IPBES
 retention and prevented emissions of air pollutants by ecosystems,GA_2.3_42_143,IPBES
-retention over time of indigenous ecological knowledge and practices,GA_2_25_33,IPBES
 retreat of ice sheet,IPCC_9_59_445,IPCC
 revenue from bioenergy production,GA_2.3_42_143,IPBES
 revenue from forestry,GA_2.3_42_143,IPBES
@@ -1170,13 +1159,14 @@ south pacific convergence zone (spcz),IPCC_8_39_378,IPCC
 southern annular mode (sam) index,IPCC_2_85_141,IPCC
 southern oscillation index (soi),IPCC_2_86_146,IPCC
 spatial densities of relational values in an area,VA_2_38_28,IPBES
-spatial distribution,GA_2.3_40_140,IPBES
-spatial distribution of species,SUA_2_96_79,IPBES
+spatial distribution of species,GA_2.3_40_140;SUA_2_96_79,IPBES
 spatiotemporal variability of meteorological parameters,IPCC_10_24_481,IPCC
 species abundance,GEO_6_16_54,GEO
 species area relationship,GA_5_34_243,IPBES
+species condition index,IAS_4_64_104,IPBES
 species dispersal ability,GEO_21_11_248,GEO
 species distribution area and shift,GA_4_34_176,IPBES
+species growth rate,IAS_4_64_104,IPBES
 species habitat index,GA_1_52_19;GA_1_52_19;GA_2.2_37_70;GA_3_54_387;IPBES_GA2.2_sup_68,IPBES
 species negatively impacting biodiversity,IAS_6_56_150,IPBES
 species occurrence records accessible through the global biodiversity information facility,GA_1_52_19;IPBES_GA3_sup_64,IPBES
@@ -1185,7 +1175,7 @@ species represented in the barcode of life data system,GA_1_52_19,IPBES
 species richness,GA_4_34_176;IAS_3_84_95,IPBES
 species richness per grid cell,GA_2.2_37_70;GA_2.2_47_90;IPBES_GA2.2_sup_53,IPBES
 species status index,GA_1_52_19;IPBES_GA3_sup_61,IPBES
-species used for medicine,GA_2.3_22_127,IPBES
+species used for medicine,GA_2.3_22_127;GA_2.3_42_143,IPBES
 species with data included in the global biodiversity information facility,GA_3_49_379,IPBES
 specific humidity,GEO_2_26_7,GEO
 speleothem records,IPCC_2_62_100,IPCC
@@ -1225,8 +1215,7 @@ surface warming,IPCC_6_56_315,IPCC
 sustainability and nutrient efficiency of national dietary outcomes,GEO_17_11_203,GEO
 sustainability and/or environmental themes as one of the general goals of education,GEO_4_9_33,GEO
 sustainability dashboard,VA_2_8_10,IPBES
-sustainable development goals (sdg) index,GA_4_147_220,IPBES
-sustainable development goals index,VA_2_38_29,IPBES
+sustainable development goals index,GA_4_147_220;VA_2_38_29,IPBES
 sustainable development index (sdi),VA_5_78_136,IPBES
 sustainable economic welfare (isew),VA_5_78_136,IPBES
 "sustainable fisheries as a proportion of gross domestic product in small island developing states, least developed countries and all countries",IPBES_SUA_sup_14.7.1_117,IPBES
@@ -1251,8 +1240,7 @@ thresholds related to antecedent extreme rainfall intensities,IPCC_12_17_598,IPC
 thresholds related to antecedent wet periods,IPCC_12_17_598,IPCC
 tide gauge,IPCC_9_85_462;IPCC_12_73_700,IPCC
 timber production (m3),GA_2.3_42_143,IPBES
-time needed or distance travelled to harvest resources,GA_2.2_65_113,IPBES
-"time needed to harvest resources, distance travelled to harvest resources",GA_2.2_5_55,IPBES
+time needed to harvest resources,GA_2.2_5_55,IPBES
 time series of normalized difference vegetation index (ndvi),IPCC_1_67_28,IPCC
 toa energy budget,IPCC_7_82_356,IPCC
 "total amount of funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",IPBES_SUA_sup_17.7.1_144,IPBES
@@ -1313,7 +1301,6 @@ tropical forest-monocrop conversions,GA_2.2_6_56,IPBES
 tropical precipitation,IPCC_8_83_420,IPCC
 tropospheric no2 abundance,IPCC_6_23_302,IPCC
 tropospheric temperature,GEO_2_26_7;GEO_2_26_7,GEO
-uk summer temperatures,IPCC_1_50_21,IPCC
 under-five child mortality rate,GEO_20_6_228;GEO_21_17_252;GEO_21_18_253,GEO
 underweight children,GEO_3_12_24,GEO
 undp human development dashboard,VA_2_8_10,IPBES
