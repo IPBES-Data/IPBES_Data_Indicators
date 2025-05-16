@@ -324,14 +324,10 @@ indic_subcategories = indic %>%
 
 #### Fig 4 in plots.R-----
 
-## 3.c-Summaries of policy indicators-----
+## 4.a-Policy indicators-----
 
-policy_indic_cl = indic %>% 
-  filter(mea == TRUE) 
-
-# remove duplicates and assessments from sources
-indic_policy = policy_indic_cl %>%
-  distinct(indicator_harmonized, .keep_all = TRUE) %>% 
+indic_policy = indic %>% 
+  filter(mea == TRUE) %>% 
   mutate(sources = gsub('SDG[;]IPBES[;]GEO$','SDG', sources),
          sources = gsub('GBF[;]IPBES[;]GEO$','GBF', sources),
          sources = gsub('GBF[;]SDG[;]IPBES$','GBF;SDG', sources),
@@ -342,7 +338,12 @@ indic_policy = policy_indic_cl %>%
          sources = gsub('GBF[;]IPBES$','GBF', sources),
          sources = gsub('GBF[;]GEO$','GBF', sources)) 
 
- indic_policy %>% 
+# remove duplicates
+policy_indicators_cl = indic_policy %>% 
+  distinct(indicator_harmonized, .keep_all = TRUE) %>% 
+  dplyr::select(-source,-"mea",-"assess")
+
+policy_indicators_cl %>% 
   group_by(sources) %>% 
   count() %>% 
   left_join(total_by_source, by= c('sources'='source')) %>% 
@@ -359,28 +360,87 @@ indic_policy = policy_indic_cl %>%
 # 8 UNCCD            12      13
 
 #unique indicators 
-policy_indic_cl %>% count()# 707 indicators
-indic_policy %>% count() #658 unique indicators
+policy_indicators_cl %>% count()#658 unique indicators
+indic_policy %>% count() # 707 indicators
 
 # categories
 
-policy_indic_cl %>% distinct(Categories)#8 categories
-policy_indic_cl %>% distinct(Categories,Subcategories) %>% count()#44 Subcategories (ILK is missing)
+policy_indicators_cl %>% distinct(Categories)#8 categories
+policy_indicators_cl %>% distinct(Categories,Subcategories) %>% count()#44 Subcategories (ILK is missing)
 
-policy_indic_cl %>% group_by(Categories) %>% count() %>%  View()
-policy_indic_cl %>% group_by(Categories,Subcategories) %>% count() %>%  View()
+policy_indicators_cl %>% group_by(Categories) %>% count() %>%  View()
+policy_indicators_cl %>% group_by(Categories,Subcategories) %>% count() %>%  View()
 
 
-policy_indic_cl %>% distinct(Subcategories) %>% View()#47 Subcategories
-policy_indic_cl %>% distinct(indicator_harmonized, .keep_all = TRUE) %>% filter(assessment == 1) %>%  count() #194
-194/647 #--> less that 30% used in assessments
+## 4.b- Assessment indicators-----
 
-# indicators usage
-policy_indic_cl %>% filter(usage_policy>=3) %>% distinct(indicator_harmonized) %>% count() #1
-policy_indic_cl %>% filter(usage_policy>=3) %>% distinct(indicator_harmonized)
-policy_indic_cl %>% filter(usage_policy==2) %>% distinct(indicator_harmonized) %>% count() #53
+indic_assess = indic %>% 
+  filter(assess == TRUE) %>% 
+  mutate(sources = gsub('GBF[;]GEO$','GEO', sources),
+         sources = gsub('GBF[;]IPBES$','IPBES', sources),
+         sources = gsub('GBF[;]IPBES[;]GEO$','IPBES;GEO', sources),
+         sources = gsub('GBF[;]SDG[;]IPBES$','IPBES', sources),
+         sources = gsub('GBF[;]SDG[;]IPBES[;]GEO$','IPBES;GEO', sources),
+         sources = gsub('GBF[;]SDG[;]UNCCD[;]IPBES$','IPBES', sources),
+         sources = gsub('SDG[;]GEO$','GEO', sources),
+         sources = gsub('SDG[;]IPBES$','IPBES', sources),
+         sources = gsub('SDG[;]IPBES[;]GEO$','IPBES;GEO', sources)) 
+#indic_assess %>%  group_by(sources) %>% count()
 
-## 4.a-Policy indicators by source-----
+# remove duplicates
+assess_indicators_cl = indic_assess %>% 
+  distinct(indicator_harmonized, .keep_all = TRUE) %>% 
+  dplyr::select(-source,-"mea",-"assess")
+
+
+assess_indicators_cl %>% 
+  group_by(sources) %>% 
+  count() %>% 
+  left_join(total_by_source, by= c('sources'='source')) %>% 
+  rename('n'='n.x', 'n_total'='n.y') %>% 
+  arrange(sources)
+# sources            n    n_total
+# 1 GEO              188     219
+# 2 IPBES            769     799
+# 3 IPBES;GEO         27      NA
+# 4 IPBES;IPCC         2      NA
+# 5 IPBES;IPCC;GEO     1      NA
+# 6 IPCC             379     385
+# 7 IPCC;GEO           3      NA
+
+#unique indicators 
+assess_indicators_cl %>% count()# 707 indicators
+indic_assess %>% count() #658 unique indicators
+
+# categories
+
+assess_indicators_cl %>% distinct(Categories)#8 categories
+assess_indicators_cl %>% distinct(Categories,Subcategories) %>% count()#44 Subcategories (ILK is missing)
+indic_assess %>% filter(source == 'IPCC') %>% group_by(Categories) %>% count()#8 categories
+
+assess_indicators_cl %>% group_by(Categories) %>% count() %>%  View()
+assess_indicators_cl %>% group_by(Categories,Subcategories) %>% count() %>%  View()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # all  policy indic by source
 policy_indic_cl %>%   
