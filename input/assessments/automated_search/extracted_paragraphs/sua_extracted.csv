@@ -1,74 +1,74 @@
 indicator_harmonized,indic_id,var_indic,ILK
-red list index,SUA_1_1_1,2,NA
-gross domestic product,SUA_1_11_4,2,NA
-human development index (hdi),SUA_1_12_5,2,NA
-inclusive wealth,SUA_1_12_5,2,NA
-gross national happiness index,SUA_1_12_5,2,NA
-red list index,SUA_1_22_10,2,NA
-number of countries with policies to secure that [fish] mortalities are accounted for and kept within safe biological limits,SUA_2_90_65,2,NA
-number of countries with regulations requiring recovered of depleted species,SUA_2_90_65,2,NA
-marine stewardship council certified catch,SUA_2_90_65,2,NA
-share of main groups of species in fish trade in terms of value,SUA_2_90_65,2,NA
-importance of forests to people,SUA_2_92_69,2,NA
-"area and percent of forests managed primarily to protect the range of cultural, social and spiritual needs and values",SUA_2_92_69,2,NA
-recognition and value of forest-management knowledge and skills of local people,SUA_2_92_69,2,NA
-area and percent of forests used for subsistence purposes,SUA_2_92_69,2,NA
-resilience of forest-dependent communities,SUA_2_92_69,2,NA
-ecolabel index,SUA_2_93_72,2,NA
-quality and abundance of food and medicine species,SUA_2_95_77,2,NA
-habitat quality,SUA_2_95_77,2,NA
-harvest intensity,SUA_2_95_77,2,NA
-sharing and trading institutions,SUA_2_95_77,2,NA
-accessibility of resources,SUA_2_95_77,2,NA
-weather patterns,SUA_2_95_77,2,NA
-cultural continuity,SUA_2_95_77,2,NA
-abnormal occurrences in the territory,SUA_2_95_77,2,NA
-abundance of food species,SUA_2_96_79,2,NA
-catch per unit effort,SUA_2_96_79,2,NA
-spatial distribution of species,SUA_2_96_79,2,NA
-associated species,SUA_2_96_79,2,NA
-cyclical patterns of abundance,SUA_2_96_79,2,NA
-quality and abundance of food and medicine species,SUA_2_96_79,2,NA
-prevalence of certain species,SUA_2_97_80,2,1
-sounds associated with the forest,SUA_2_97_80,2,1
-intensity of weather,SUA_2_97_80,2,1
-strength of people’s connection to the forest,SUA_2_97_80,2,1
-body condition,SUA_2_97_80,2,1
-population size,SUA_2_97_80,2,1
-variability in migration patterns,SUA_2_97_80,2,1
-environmental change,SUA_2_97_80,2,1
-hunting success,SUA_2_97_80,2,1
-prevalence of knowledge about seasonal cycles in their communities,SUA_2_97_80,2,1
-mean body mass,SUA_2_97_80,2,1
-abundance of preferred harvest species,SUA_2_97_80,2,1
-catch per unit effort,SUA_2_97_80,2,1
-number of publications,SUA_4_2_109,2,NA
-impact of agricultural habitat conversion on birds,SUA_4_42_113,1,NA
-loss of lichen diversity,SUA_4_47_115,2,NA
-farmland bird index,SUA_4_51_116,2,NA
-quality of governance index,SUA_4_61_118,2,NA
-number of cites parties that have adopted standard procedures for non-detrimental findings,SUA_4_65_122,2,NA
-number of surveys of cites listed species undertaken by exporting states to support non-detrimental findings,SUA_4_65_122,2,NA
-number of appendix-ii species for which trade is determined to be non-detrimental to the survival of the species as a result of implementing recommendations from the review of significant trade,SUA_4_66_123,2,NA
-uplisting of species or populations from appendix ii to appendix i,SUA_4_66_123,2,NA
-number of cites parties with increased capacity,SUA_4_68_125,2,NA
-cites parties that have implemented relevant resolutions and decisions,SUA_4_68_125,2,NA
-red list index,SUA_4_70_126,2,NA
-commercial trade in wild-collected specimens,SUA_4_71_127,2,NA
-red list index,SUA_4_71_127,2,NA
-body fat,SUA_4_78_130,2,1
-reproductive success,SUA_4_78_130,2,1
-abundance and location of habitat,SUA_4_78_130,2,1
-body condition,SUA_4_89_132,2,1
-reproductive success,SUA_4_89_132,2,1
-habitat conditions,SUA_4_89_132,2,1
-income,SUA_4_149_137,2,NA
-gross domestic product,SUA_4_149_137,2,NA
-access to land,SUA_4_149_137,2,NA
-multidimensional poverty index,SUA_4_149_138,2,NA
-material wealth,SUA_4_149_140,1,NA
-trade in wild mammals,SUA_4_184_143,1,NA
-trade in wild animals,SUA_4_184_143,1,NA
-living planet index,SUA_4_256_160,2,NA
-governance index,SUA_6_77_200,2,NA
-catch per unit effort,SUA_6_115_207,1,NA
+red list index,IPBES_SUA_1_1_1,2,NA
+gross domestic product,IPBES_SUA_1_11_4,2,NA
+human development index (hdi),IPBES_SUA_1_12_5,2,NA
+inclusive wealth,IPBES_SUA_1_12_5,2,NA
+gross national happiness index,IPBES_SUA_1_12_5,2,NA
+red list index,IPBES_SUA_1_22_10,2,NA
+number of countries with policies to secure that [fish] mortalities are accounted for and kept within safe biological limits,IPBES_SUA_2_90_65,2,NA
+number of countries with regulations requiring recovered of depleted species,IPBES_SUA_2_90_65,2,NA
+marine stewardship council certified catch,IPBES_SUA_2_90_65,2,NA
+share of main groups of species in fish trade in terms of value,IPBES_SUA_2_90_65,2,NA
+importance of forests to people,IPBES_SUA_2_92_69,2,NA
+"area and percent of forests managed primarily to protect the range of cultural, social and spiritual needs and values",IPBES_SUA_2_92_69,2,NA
+recognition and value of forest-management knowledge and skills of local people,IPBES_SUA_2_92_69,2,NA
+area and percent of forests used for subsistence purposes,IPBES_SUA_2_92_69,2,NA
+resilience of forest-dependent communities,IPBES_SUA_2_92_69,2,NA
+ecolabel index,IPBES_SUA_2_93_72,2,NA
+quality and abundance of food and medicine species,IPBES_SUA_2_95_77,2,NA
+habitat quality,IPBES_SUA_2_95_77,2,NA
+harvest intensity,IPBES_SUA_2_95_77,2,NA
+sharing and trading institutions,IPBES_SUA_2_95_77,2,NA
+accessibility of resources,IPBES_SUA_2_95_77,2,NA
+weather patterns,IPBES_SUA_2_95_77,2,NA
+cultural continuity,IPBES_SUA_2_95_77,2,NA
+abnormal occurrences in the territory,IPBES_SUA_2_95_77,2,NA
+abundance of food species,IPBES_SUA_2_96_79,2,NA
+catch per unit effort,IPBES_SUA_2_96_79,2,NA
+spatial distribution of species,IPBES_SUA_2_96_79,2,NA
+associated species,IPBES_SUA_2_96_79,2,NA
+cyclical patterns of abundance,IPBES_SUA_2_96_79,2,NA
+quality and abundance of food and medicine species,IPBES_SUA_2_96_79,2,NA
+prevalence of certain species,IPBES_SUA_2_97_80,2,1
+sounds associated with the forest,IPBES_SUA_2_97_80,2,1
+intensity of weather,IPBES_SUA_2_97_80,2,1
+strength of people’s connection to the forest,IPBES_SUA_2_97_80,2,1
+body condition,IPBES_SUA_2_97_80,2,1
+population size,IPBES_SUA_2_97_80,2,1
+variability in migration patterns,IPBES_SUA_2_97_80,2,1
+environmental change,IPBES_SUA_2_97_80,2,1
+hunting success,IPBES_SUA_2_97_80,2,1
+prevalence of knowledge about seasonal cycles in their communities,IPBES_SUA_2_97_80,2,1
+mean body mass,IPBES_SUA_2_97_80,2,1
+abundance of preferred harvest species,IPBES_SUA_2_97_80,2,1
+catch per unit effort,IPBES_SUA_2_97_80,2,1
+number of publications,IPBES_SUA_4_2_109,2,NA
+impact of agricultural habitat conversion on birds,IPBES_SUA_4_42_113,1,NA
+loss of lichen diversity,IPBES_SUA_4_47_115,2,NA
+farmland bird index,IPBES_SUA_4_51_116,2,NA
+quality of governance index,IPBES_SUA_4_61_118,2,NA
+number of cites parties that have adopted standard procedures for non-detrimental findings,IPBES_SUA_4_65_122,2,NA
+number of surveys of cites listed species undertaken by exporting states to support non-detrimental findings,IPBES_SUA_4_65_122,2,NA
+number of appendix-ii species for which trade is determined to be non-detrimental to the survival of the species as a result of implementing recommendations from the review of significant trade,IPBES_SUA_4_66_123,2,NA
+uplisting of species or populations from appendix ii to appendix i,IPBES_SUA_4_66_123,2,NA
+number of cites parties with increased capacity,IPBES_SUA_4_68_125,2,NA
+cites parties that have implemented relevant resolutions and decisions,IPBES_SUA_4_68_125,2,NA
+red list index,IPBES_SUA_4_70_126,2,NA
+commercial trade in wild-collected specimens,IPBES_SUA_4_71_127,2,NA
+red list index,IPBES_SUA_4_71_127,2,NA
+body fat,IPBES_SUA_4_78_130,2,1
+reproductive success,IPBES_SUA_4_78_130,2,1
+abundance and location of habitat,IPBES_SUA_4_78_130,2,1
+body condition,IPBES_SUA_4_89_132,2,1
+reproductive success,IPBES_SUA_4_89_132,2,1
+habitat conditions,IPBES_SUA_4_89_132,2,1
+income,IPBES_SUA_4_149_137,2,NA
+gross domestic product,IPBES_SUA_4_149_137,2,NA
+access to land,IPBES_SUA_4_149_137,2,NA
+multidimensional poverty index,IPBES_SUA_4_149_138,2,NA
+material wealth,IPBES_SUA_4_149_140,1,NA
+trade in wild mammals,IPBES_SUA_4_184_143,1,NA
+trade in wild animals,IPBES_SUA_4_184_143,1,NA
+living planet index,IPBES_SUA_4_256_160,2,NA
+governance index,IPBES_SUA_6_77_200,2,NA
+catch per unit effort,IPBES_SUA_6_115_207,1,NA

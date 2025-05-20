@@ -187,8 +187,9 @@ harmonize_indic <- function(file_name = file_name,
     dplyr::mutate(field_harm = gsub("hazardous waste generated per capita", "hazardous waste",field_harm)) %>%
     dplyr::mutate(field_harm = gsub("material footprint[,] material footprint per capita[,] and material footprint per gross domestic product", "material footprint",field_harm)) %>%
     dplyr::mutate(field_harm = gsub("tonnage of biomass [(]sugar cane[,] corn[,] palm oil[)][,] other energy crops", "tonnage of biomass (sugar cane, corn, palm oil)",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("taxa assessed for the red list index", "proportion of known species assessed through the red list index",field_harm)) %>%
 
-    # SDGs
+        # SDGs
     dplyr::mutate(field_harm = gsub('statistical capacity indicators', 'statistical capacity indicator for sustainable development goal monitoring',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('installed renewable energy[-]generating capacity in developing and developed countries [(]in watts per capita[)]', 'installed renewable energy-generating capacity in developing countries (in watts per capita)',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('hazardous waste generated per capita', 'hazardous waste',field_harm)) %>%
@@ -260,12 +261,16 @@ harmonize_indic <- function(file_name = file_name,
     dplyr::mutate(field_harm = gsub("heat index hi[>]41[°]c", "heat index (hi)",field_harm)) %>% 
     dplyr::mutate(field_harm = gsub("global land monsoon precipitation index", "land monsoon precipitation index",field_harm)) %>% 
     dplyr::mutate(field_harm = gsub("bhi [(]overall habitat integrity[)]", "biodiversity habitat index",field_harm)) %>% 
-    dplyr::mutate(field_harm = gsub("sea surface temperature [(]sst index[)]", "sea surface temperature",field_harm)) %>% 
-    dplyr::mutate(field_harm = gsub("sea surface temperature [(]sst[)]", "sea surface temperature",field_harm)) %>% 
-    dplyr::mutate(field_harm = gsub("sea surface temperature [(]sst[)] index", "sea surface temperature",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("sea surface temperature [(]sst index[)]", "sea surface temperature (sst)",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("sea surface temperature sst", "sea surface temperature (sst)",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("^sea surface temperature$", "sea surface temperature (sst)",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("sea surface temperature [(]sst[)] index", "sea surface temperature (sst)",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("^index of sustainable economic welfare$", "index of sustainable economic welfare (isew)",field_harm)) %>% 
+    #dplyr::mutate(field_harm = gsub("sea surface temperature index", "sea surface temperature (sst)",field_harm)) %>% 
+    #dplyr::mutate(field_harm = gsub("sea surface temperature index", "sea surface temperature (sst)",field_harm)) %>% 
+    
+    dplyr::mutate(field_harm = gsub("observation-based estimate of global mean surface air temperature [(]gmst[)]", "global mean surface temperature (gmst)",field_harm)) %>%
     dplyr::mutate(field_harm = gsub("[.] indicator from resolution ix[.]1 to be developed", "",field_harm)) %>% 
-    dplyr::mutate(field_harm = gsub("sea surface temperature index", "sea surface temperature",field_harm)) %>% 
-    dplyr::mutate(field_harm = gsub("sea surface temperature", "sea surface temperature (sst) index",field_harm)) %>%
     dplyr::mutate(field_harm = gsub("standardized precipitation index$", "standardized precipitation index (spi)",field_harm)) %>%
     dplyr::mutate(field_harm = gsub("standardized runoff index$", "standardized runoff index (sri)",field_harm)) %>%
     dplyr::mutate(field_harm = gsub("standardized soil moisture index$", "standardized soil moisture index (ssmi)",field_harm)) %>%
@@ -324,7 +329,7 @@ harmonize_indic <- function(file_name = file_name,
     dplyr::mutate(field_harm = gsub("community weighted mean of traits", "community-weighted mean trait value (cwm)",field_harm)) %>% 
     dplyr::mutate(field_harm = gsub('fertilizers used per unit area', 'fertilizers used',field_harm)) %>%
     dplyr::mutate(field_harm = gsub('fish stocks biologically sustainable', 'fish stocks within biologically sustainable levels',field_harm)) %>%
-    dplyr::mutate(field_harm = gsub("floating plastic debris density [[]by micro and macro plastics[]]", "floating plastic debris density",field_harm)) %>%
+    dplyr::mutate(field_harm = gsub("floating plastic debris density [[]by micro and macro plastics[]]", "plastic debris density",field_harm)) %>%
     dplyr::mutate(field_harm = gsub("cumulative introduced invasive aliens species", "cumulative introduced invasive aliens",field_harm)) %>%
     dplyr::mutate(field_harm = gsub("cumulative number of alien species", "cumulative introduced invasive aliens",field_harm)) %>%
     dplyr::mutate(field_harm = gsub("ecological footprint [(]number of earths needed to support human society[)]", "ecological footprint",field_harm)) %>% 
@@ -454,7 +459,13 @@ harmonize_indic <- function(file_name = file_name,
     dplyr::mutate(field_harm = gsub("agriculture agriculture [(]thousand ha[)]", "agriculture",field_harm)) %>% 
     dplyr::mutate(field_harm = gsub("hectares of mangroves", "mangrove forest area",field_harm)) %>% 
     dplyr::mutate(field_harm = gsub("domestic material consumption per capita", "domestic material consumption",field_harm)) %>% 
-    dplyr::mutate(field_harm = gsub("floating debris density", "floating plastic debris density",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("floating debris density", "plastic debris density",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("floating plastic litter density", "plastic debris density",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("floating plastic debris density", "plastic debris density",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("annual global mean surface temperature", "global mean surface temperature (gmst)",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("global surface temperature", "global mean surface temperature (gmst)",field_harm)) %>% 
+    dplyr::mutate(field_harm = gsub("global surface air temperature [(]gmst[)]", "global mean surface temperature (gmst)",field_harm)) %>% 
+    
     dplyr::mutate(field_harm = gsub("bottom trawling", "bottom-trawling",field_harm)) %>% 
     dplyr::mutate(field_harm = gsub("human appropriation of net primary production", "human appropriation of net primary productivity",field_harm)) %>% 
     dplyr::mutate(field_harm = gsub("marine stewardship council fish catch", "marine stewardship council certified catch",field_harm)) %>% 
@@ -469,6 +480,7 @@ harmonize_indic <- function(file_name = file_name,
     dplyr::mutate(field_harm = gsub("^native newcomer species$", "native newcomer species arrive",field_harm)) %>% 
     dplyr::mutate(field_harm = gsub("biodiversity[-]relevant", "biodiversity relevant",field_harm)) %>% 
     dplyr::mutate(field_harm = gsub("remanining primary vegetations", "remanining primary vegetation",field_harm)) %>% 
+    #dplyr::mutate(field_harm = gsub("indicator[(]s[)] relating to [(]numbers of[)] ramsar sites at risk", "numbers of ramsar sites at risk",field_harm)) %>% 
     
     #GBF
     dplyr::mutate(field_harm = gsub("above[-]ground biomass stock in forest", "above-ground biomass in forests",field_harm)) %>% 

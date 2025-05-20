@@ -64,7 +64,6 @@ finance mobilized for capacity-building,GBF_GD_CY_95,1,NA,NA,NA,NA,NA
 fish abundance and biomass,GBF_GA_CY_41,1,NA,NA,NA,NA,NA
 fish catch potential,GBF_GB_CY_75,1,NA,NA,NA,NA,NA
 fleshy algae cover,GBF_GA_CY_19,1,NA,NA,NA,NA,NA
-floating plastic debris density,GBF_T7_C_38,1,NA,NA,NA,NA,NA
 food waste index,GBF_T16_C_58;SDG_G12.3.1.b_164,1,1,NA,NA,NA,NA
 "foreign direct investment (fdi), official development assistance and south-south cooperation as a proportion of total domestic budget",GBF_T19_CY_238,1,NA,NA,NA,NA,NA
 forest area as a percentage of total land area,GBF_GA_CY_1;SDG_G15.1.1_194,1,1,NA,NA,NA,NA
@@ -214,7 +213,7 @@ percentage of the population in traditional occupations,GBF_T9_H_28,1,NA,NA,NA,N
 percentage of threatened species that are improving in status,GBF_GA_CY_35;GBF_T4_CY_149,1,NA,NA,NA,NA,NA
 "permafrost thickness, depth and extent",GBF_GA_CY_7,1,NA,NA,NA,NA,NA
 pesticide use per area of cropland,GBF_T7_CY_180,1,NA,NA,NA,NA,NA
-plastic debris density,GBF_T7_CY_176;SDG_G14.1.1.b_184,1,1,NA,NA,NA,NA
+plastic debris density,GBF_T7_C_38;GBF_T7_CY_176;SDG_G14.1.1.b_184,1,1,NA,NA,NA,NA
 population involved in hunting and gathering,GBF_GB_CY_76,1,NA,NA,NA,NA,NA
 positive incentives in place to promote biodiversity conservation and sustainable use,GBF_T18_H_43,1,NA,NA,NA,NA,NA
 "prevalence of moderate or severe food insecurity in the population, based on the food insecurity experience scale",GBF_GB_CY_77;SDG_G2.1.2_15,1,1,NA,NA,NA,NA
@@ -580,8 +579,8 @@ trends in range-related coverage of migratory species agreements and other conce
 "trends in the degree to which traditional knowledge and practices are respected through full integration, participation and safeguards in national implementation of the strategic plan for migratory species",CMS_G5.14_24,NA,NA,NA,1,NA,NA
 trends in threats to migratory species,CMS_G2.7_9;CMS_G2.7_10,NA,NA,NA,1,NA,NA
 wild bird index (migratory birds),CMS_G3.8_14,NA,NA,NA,1,NA,NA
-coverage of wetland dependent bird populations by designated ramsar sites. indicator from resolution ix.1 to be developed,RAMSAR_SG2.5_18,NA,NA,NA,NA,1,NA
-coverage of wetland dependent non-avian populations by designated ramsar sites. indicator from resolution ix.1 to be developed,RAMSAR_SG2.5_19,NA,NA,NA,NA,1,NA
+coverage of wetland dependent bird populations by designated ramsar sites,RAMSAR_SG2.5_18,NA,NA,NA,NA,1,NA
+coverage of wetland dependent non-avian populations by designated ramsar sites,RAMSAR_SG2.5_19,NA,NA,NA,NA,1,NA
 effectiveness of wetland invasive alien species control programmes,RAMSAR_SG1.4_13,NA,NA,NA,NA,1,NA
 indicator(s) related to flows of financing related to different aspects of strategic plan implementation,RAMSAR_OG4.17_62,NA,NA,NA,NA,1,NA
 indicator(s) related to the use of guidance and availability in various language versions,RAMSAR_OG4.14_47,NA,NA,NA,NA,1,NA

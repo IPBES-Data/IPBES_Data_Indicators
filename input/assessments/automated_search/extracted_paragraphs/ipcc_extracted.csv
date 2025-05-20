@@ -3,7 +3,7 @@ antarctic ice cores,IPCC_1_13_4,2,NA
 direct co2 air measurements,IPCC_1_13_4,2,NA
 global precipitation climatology centre (gpcc) v8,IPCC_1_13_4,2,NA
 glacier mass loss,IPCC_1_13_4,2,NA
-global surface air temperature (gmst),IPCC_1_13_4,2,NA
+global mean surface temperature (gmst),IPCC_1_13_4,2,NA
 sea level change,IPCC_1_13_4,2,NA
 ocean heat content,IPCC_1_13_4,2,NA
 atmospheric co2 concentrations,IPCC_1_16_6,2,NA
@@ -14,7 +14,7 @@ global energy budget,IPCC_1_38_17,2,NA
 simulated global mean surface air temperature (gsat),IPCC_1_45_19,1,NA
 simulated global mean surface air temperature (gsat) anomalies,IPCC_1_45_19,1,NA
 estimate of gsat (era-5),IPCC_1_45_19,1,NA
-observation-based estimate of global mean surface air temperature (gmst),IPCC_1_45_19,1,NA
+global mean surface temperature (gmst),IPCC_1_45_19,1,NA
 mean gsat,IPCC_1_45_19,1,NA
 global mean surface temperature (gmst),IPCC_1_47_20,1,NA
 annual gsat change,IPCC_1_50_21,1,NA
@@ -79,7 +79,7 @@ marine sediment cores,IPCC_2_29_60,1,NA
 paleo-temperature records,IPCC_2_29_62,1,NA
 zonally averaged mean annual temperature reconstructions,IPCC_2_31_64,1,NA
 subsurface borehole temperature profiles,IPCC_2_31_65,1,NA
-changes in land versus world trade organisation greenbox agricultural subsidies,IPCC_2_31_65,1,NA
+changes in land versus sea surface temperature,IPCC_2_31_65,1,NA
 radio occultation,IPCC_2_42_69,1,NA
 global vegetation cover,IPCC_2_43_71,1,NA
 atmospheric dust deposition,IPCC_2_43_71,1,NA
@@ -130,7 +130,7 @@ ocenan ph,IPCC_2_81_132,2,NA
 north atlantic oscillation (nao) index,IPCC_2_84_139,2,NA
 northern annular mode (nam) index,IPCC_2_84_139,2,NA
 southern annular mode (sam) index,IPCC_2_85_141,2,NA
-world trade organisation greenbox agricultural subsidies,IPCC_2_86_146,2,NA
+sea surface temperature (sst),IPCC_2_86_146,2,NA
 oceanic niño index (oni),IPCC_2_86_146,2,NA
 southern oscillation index (soi),IPCC_2_86_146,2,NA
 marine sediment cores,IPCC_2_89_153,2,NA
@@ -141,7 +141,7 @@ precipitation,IPCC_3_8_164,1,NA
 volcanic activity,IPCC_3_17_173,1,NA
 ghg changes,IPCC_3_17_173,1,NA
 aerosol changes,IPCC_3_17_173,1,NA
-world trade organisation greenbox agricultural subsidies,IPCC_3_22_174,1,NA
+sea surface temperature (sst),IPCC_3_22_174,1,NA
 tree rings,IPCC_3_27_176,1,NA
 hadley circulation cell,IPCC_3_37_179,2,NA
 sea ice thermodynamic,IPCC_3_45_183,1,NA
@@ -163,7 +163,7 @@ indian ocean dipole (ipo),IPCC_3_80_205,2,NA
 pacific decadal variability (pdv),IPCC_3_80_206,2,NA
 pacific decadal variability (pdv),IPCC_3_81_208,2,NA
 atlantic multi-decadal variability (amv) index,IPCC_3_83_210,2,NA
-world trade organisation greenbox agricultural subsidies,IPCC_3_84_211,2,NA
+sea surface temperature (sst),IPCC_3_84_211,2,NA
 ocean salinity,IPCC_3_84_212,1,NA
 global surface air temperature (gsat),IPCC_4_7_219,2,NA
 global land precipitation,IPCC_4_7_219,2,NA
@@ -178,7 +178,7 @@ circulation index,IPCC_4_8_221,2,NA
 atlantic meridional overturning circulation (amoc),IPCC_4_18_229,2,NA
 ocean ph,IPCC_4_18_229,2,NA
 northern annular mode (nam) index,IPCC_4_26_231,2,NA
-world trade organisation greenbox agricultural subsidies,IPCC_4_26_231,2,NA
+sea surface temperature (sst),IPCC_4_26_231,2,NA
 el niño-southern oscillation (enso) index,IPCC_4_27_234,2,NA
 land monsoon precipitation index,IPCC_4_34_236,2,NA
 northern hemisphere summer monsoon circulation index,IPCC_4_34_236,2,NA
@@ -219,18 +219,18 @@ transient climate response tcr,IPCC_7_44_330,2,NA
 antarctic ice sheet loss,IPCC_7_55_334,1,NA
 net climate feedback,IPCC_7_56_335,1,NA
 planck temperature response,IPCC_7_56_335,1,NA
-world trade organisation greenbox agricultural subsidies,IPCC_7_67_343,1,NA
+sea surface temperature (sst),IPCC_7_67_343,1,NA
 global energy budget,IPCC_7_77_351,1,NA
-global surface temperature,IPCC_7_82_356,2,NA
+global mean surface temperature (gmst),IPCC_7_82_356,2,NA
 toa energy budget,IPCC_7_82_356,2,NA
 profile of effective radiative forcing (erf),IPCC_7_90_359,1,NA
 emission of particular compounds,IPCC_7_90_359,1,NA
 radiative forcing,IPCC_7_91_360,1,NA
 absolute global forcing potential (agfp),IPCC_7_91_360,1,NA
-global surface temperature,IPCC_7_91_360,1,NA
+global mean surface temperature (gmst),IPCC_7_91_360,1,NA
 absolute global temperature change potential (agtp),IPCC_7_91_360,1,NA
 changes in precipitation frequency and intensity,IPCC_8_27_367,1,NA
-precipiation,IPCC_8_28_370,1,NA
+precipitation,IPCC_8_28_370,1,NA
 snowfall,IPCC_8_28_371,1,NA
 leaf area index (lai),IPCC_8_30_372,2,NA
 tree rings,IPCC_8_33_374,1,NA
@@ -238,7 +238,6 @@ soil moisture,IPCC_8_33_375,1,NA
 south pacific convergence zone (spcz),IPCC_8_39_378,1,NA
 inter-tropical convergence zone (itcz) narrowing,IPCC_8_39_378,1,NA
 rainfall,IPCC_8_42_382,1,NA
-precipitation,IPCC_8_43_384,1,NA
 poleward shifts in the south atlantic convergence zone (sacz),IPCC_8_45_390,1,NA
 land rainfall over mc,IPCC_8_46_393,1,NA
 marine cloudiness over mc,IPCC_8_46_393,1,NA
@@ -248,14 +247,14 @@ water vapour residence time,IPCC_8_53_397,1,NA
 plant water use efficiency (wue),IPCC_8_65_401,2,NA
 leaf area index (lai),IPCC_8_65_401,2,NA
 palmer drought severity index (pdsi),IPCC_8_66_403,2,NA
-world trade organisation greenbox agricultural subsidies,IPCC_8_71_406,1,NA
+sea surface temperature (sst),IPCC_8_71_406,1,NA
 rainfall variability,IPCC_8_77_414,1,NA
 tropical precipitation,IPCC_8_83_420,1,NA
 atmospheric internal variability,IPCC_8_88_422,1,NA
-world trade organisation greenbox agricultural subsidies,IPCC_8_88_422,1,NA
+sea surface temperature (sst),IPCC_8_88_422,1,NA
 volcanic eruptions,IPCC_8_90_424,1,NA
 global surface air temperature (gsat),IPCC_9_11_426,2,NA
-world trade organisation greenbox agricultural subsidies,IPCC_9_27_430,1,NA
+sea surface temperature (sst),IPCC_9_27_430,1,NA
 ocean heat content ohc,IPCC_9_37_432,1,NA
 arctic sea ice area,IPCC_9_37_433,2,NA
 north atlantic oscillation (nao) index,IPCC_9_47_438,2,NA
@@ -263,7 +262,7 @@ greenland blocking index,IPCC_9_47_438,2,NA
 bedrock topography,IPCC_9_48_440,1,NA
 grounding line retreat,IPCC_9_55_443,1,NA
 retreat of ice sheet,IPCC_9_59_445,1,NA
-glaciar mass loss,IPCC_9_65_447,1,NA
+glacier mass loss,IPCC_9_65_447,1,NA
 lake sediments,IPCC_9_66_448,1,NA
 speleotherm records,IPCC_9_71_451,1,NA
 leaf area index (lai),IPCC_9_76_452,2,NA
@@ -312,7 +311,7 @@ hydrological deficits,IPCC_11_58_544,2,NA
 atmospheric evaporative demand (aed),IPCC_11_60_547,1,NA
 palmer drought severity index (pdsi),IPCC_11_60_549,2,NA
 standardized precipitation evapotranspiration index (spei),IPCC_11_60_549,2,NA
-standardized precipitation index,IPCC_11_60_550,1,NA
+standardized precipitation index (spi),IPCC_11_60_550,1,NA
 number of consecutive dry days (cdd),IPCC_11_60_550,1,NA
 total soil moisture,IPCC_11_60_550,1,NA
 soil moisture-based drought events,IPCC_11_60_550,1,NA
@@ -327,7 +326,7 @@ increase in global tc maximum surface wind speeds,IPCC_11_79_569,2,NA
 power dissipation index,IPCC_11_79_569,2,NA
 accumulated cyclone energy (ace),IPCC_11_79_569,2,NA
 consecutive dry days (cdd),IPCC_11_93_579,2,NA
-standardized runoff index,IPCC_11_94_580,2,NA
+standardized runoff index (sri),IPCC_11_94_580,2,NA
 heat index (hi),IPCC_12_7_581,2,NA
 daily maximum tempreature above 35°c,IPCC_12_11_589,2,NA
 climate velocity,IPCC_12_14_593,1,NA
@@ -350,8 +349,8 @@ water flow volume,IPCC_12_17_600,2,NA
 water intermittency thresholds,IPCC_12_17_600,2,NA
 consecutive dry days (cdd),IPCC_12_17_601,2,NA
 soil moisture,IPCC_12_17_601,2,NA
-standardized precipitation index,IPCC_12_17_601,2,NA
-standardized runoff index,IPCC_12_17_601,2,NA
+standardized precipitation index (spi),IPCC_12_17_601,2,NA
+standardized runoff index (sri),IPCC_12_17_601,2,NA
 standardized precipitation evapotranspiration index (spei),IPCC_12_17_601,2,NA
 low-flows days,IPCC_12_17_601,2,NA
 extreme low runoff,IPCC_12_17_601,2,NA
@@ -398,10 +397,10 @@ cooling degree day index,IPCC_12_54_662,2,NA
 heat stress index,IPCC_12_54_663,2,NA
 wet bulb globe temperature (wbgt) index,IPCC_12_54_663,2,NA
 heating degree day index,IPCC_12_56_664,2,NA
-standardized precipitation index,IPCC_12_57_665,2,NA
+standardized precipitation index (spi),IPCC_12_57_665,2,NA
 consecutive dry days (cdd),IPCC_12_57_665,2,NA
 drought severity index,IPCC_12_57_666,2,NA
-standardized precipitation index,IPCC_12_57_666,2,NA
+standardized precipitation index (spi),IPCC_12_57_666,2,NA
 shoreline change (indicator of coastal erosion),IPCC_12_60_671,1,NA
 humidity,IPCC_12_62_673,1,NA
 monthly drought code fire index,IPCC_12_66_682,2,NA

@@ -38,35 +38,12 @@ library(reshape2)
 
 # Load indicators----
 
-all_indicators_cl = read_csv('../output/all_indicators_classified_14052025.csv')
+all_indicators_cl = read_csv('../output/all_indicators_classified_20052025.csv')
 
 # long format with duplication
-indic = read_csv('../output/all_indicators_classified_14052025_lv.csv')
+indic = read_csv('../output/all_indicators_classified_20052025_lv.csv')
 
 # Figure 1: Summaries of indicators by source----
-data_hist_assess = indic %>% 
-  filter(mea == FALSE) %>%
-  #filter(!source %in% c('GBF','SDG','UNCCD','CITES','CMS','RAMSAR' )) %>% 
-  group_by(source) %>%  count() %>% arrange(n)
-
-hist_assess = ggplot(data=data_hist_assess, aes(x=source, y=n, fill=source)) +
-  geom_bar(stat="identity", color="black") + 
-  labs(y="Number of metrics", x = "") +
-  scale_fill_brewer(palette="Greens", limits=c("IPBES", "IPCC","GEO" ),name = '') +
-  # order high to low
-  scale_x_discrete(limits=c("IPBES", "IPCC", "GEO")) +
-  scale_y_continuous(limits = c(0,820), expand = expansion(mult = c(0, .1))) +
-  theme_minimal() +
-  labs(tag = "A") +
-  theme(legend.position = "none", 
-        panel.background = element_blank(),
-        axis.line = element_line(colour = "black"),
-        panel.grid = element_blank(),
-        panel.border = element_blank(),        
-        plot.tag = element_text(),
-        plot.tag.position = c(0.9, 0.9))
-
-hist_assess
 
 data_hist_meas = indic %>% 
   filter(mea == TRUE) %>%
@@ -81,7 +58,7 @@ hist_meas = ggplot(data=data_hist_meas, aes(x=source, y=n, fill=source,legend = 
   scale_x_discrete(limits=c('GBF','SDG','RAMSAR','CITES','CMS','UNCCD')) +
   scale_y_continuous(limits = c(0,320), expand = expansion(mult = c(0, .1))) +
   theme_minimal() +
-  labs(tag = "B") +
+  labs(tag = "A") +
   theme(legend.position = "none", 
         panel.background = element_blank(),
         axis.line = element_line(colour = "black"),
@@ -91,12 +68,38 @@ hist_meas = ggplot(data=data_hist_meas, aes(x=source, y=n, fill=source,legend = 
         plot.tag.position = c(0.9, 0.9))
 
 hist_meas 
-plot = hist_assess + hist_meas
+
+data_hist_assess = indic %>% 
+  filter(mea == FALSE) %>%
+  #filter(!source %in% c('GBF','SDG','UNCCD','CITES','CMS','RAMSAR' )) %>% 
+  group_by(source) %>%  count() %>% arrange(n)
+
+hist_assess = ggplot(data=data_hist_assess, aes(x=source, y=n, fill=source)) +
+  geom_bar(stat="identity", color="black") + 
+  labs(y="Number of metrics", x = "") +
+  scale_fill_brewer(palette="Greens", limits=c("IPBES", "IPCC","GEO" ),name = '') +
+  # order high to low
+  scale_x_discrete(limits=c("IPBES", "IPCC", "GEO")) +
+  scale_y_continuous(limits = c(0,820), expand = expansion(mult = c(0, .1))) +
+  theme_minimal() +
+  labs(tag = "B") +
+  theme(legend.position = "none", 
+        panel.background = element_blank(),
+        axis.line = element_line(colour = "black"),
+        panel.grid = element_blank(),
+        panel.border = element_blank(),        
+        plot.tag = element_text(),
+        plot.tag.position = c(0.9, 0.9))
+
+hist_assess
 
 
-ggsave(file="../output/figures/fig1_120525.svg", plot=plot, 
+plot = hist_meas + hist_assess
+
+
+ggsave(file="../output/figures/fig1_190525.svg", plot=plot, 
        width=7, height=3.5, units = "in", dpi = 300)
-ggsave(file="../output/figures/fig1_120525.png", plot=plot, 
+ggsave(file="../output/figures/fig1_190525.png", plot=plot, 
        width=7, height=3.5, units = "in", dpi = 300)
 
 # Figure 2: Summaries of shared indicators ----
@@ -142,8 +145,8 @@ for (sources in source_list) {
 
 # Display the resulting matrix
 print(co_occurrence_matrix)
-write.csv(co_occurrence_matrix, '../output/all_indicators_matrix_14052025.csv')
-#co_occurrence_matrix = read.csv('../output/all_indicators_matrix_14052025.csv')
+write.csv(co_occurrence_matrix, '../output/all_indicators_matrix_19052025.csv')
+#co_occurrence_matrix = read.csv('../output/all_indicators_matrix_19052025.csv')
 
 
 # Figure 2: matrix of shared indicators
@@ -194,12 +197,84 @@ fig2 = ggplot(melted_matrix_upper_filtered, aes(x = Var1, y = Var2, fill = value
   theme(axis.text.x = element_text(angle = 45, hjust = 0))
 
 fig2
-ggsave(file="../output/figures/fig2_120525.svg", plot=fig2, 
+ggsave(file="../output/figures/fig2_190525.svg", plot=fig2, 
        width=7, height=4, units = "in", dpi = 300)
-ggsave(file="../output/figures/fig2_120525.png", plot=fig2, 
+ggsave(file="../output/figures/fig2_190525.png", plot=fig2, 
        width=7, height=4, units = "in", dpi = 300)
 
-# Figure 3: links between assess and MEAs----
+# Figure 3----
+# Fig 3a: Indicators shared (and also not shared) among sources----
+
+# ony shared metrics
+melted_matrix_upper_shared = 
+  # Retain only shared indicators
+  filter(melted_matrix_upper, Var1 != Var2) %>% 
+  # improve viz
+  mutate(value = if_else(value <= 5 & value != 0,
+                         true = 7, 
+                         false = value))
+
+# all metrics
+melted_matrix_upper_all = melted_matrix_upper %>% 
+  # Retain only shared indicators
+  #filter(melted_matrix_upper, Var1 != Var2) %>% 
+  # improve viz
+  mutate(value = if_else(value <= 5 & value != 0,
+                         true = 7, 
+                         false = value))
+
+# Define a color scheme for the different entities
+grid_color <- c(
+  IPBES = "#E5F5E0", IPCC = "#A1D99B", GEO = "#31A354",
+  GBF = "#EFF3FF", SDG = "#C6DBEF", 
+  RAMSAR = "#9ECAE1",CITES = "#6BAED6",
+  CMS = "#3182BD",UNCCD = "#08519C"
+)
+# library(RColorBrewer)
+# display.brewer.all()
+# brewer.pal(n=6,"Blues")
+# brewer.pal(n=3,"Greens")
+
+# Define the order of entities where treaties are at the top and assessments at the bottom
+entity_order <- c("IPBES", "IPCC", "GEO","GBF","SDG","RAMSAR","CITES", "CMS","UNCCD")
+
+
+# Set plot saving file and parameters
+png(filename = "../output/figures/fig3all_190525.png",
+    #filename = "../output/figures/fig3shared_190525.png",
+    width = 4, height = 4, units = "in", 
+    bg = "white", res = 300) 
+
+# chord parameters
+circos.clear()
+circos.par(start.degree = 165, track.margin = c(0.01, 0.01), gap.after = 5,
+           cell.padding = c(0, 0, 0, 0))
+
+# Create the chord diagram
+chordDiagram(
+  melted_matrix_upper_all,
+  #melted_matrix_upper_shared,
+  order = entity_order,
+  transparency = 0.1,
+  annotationTrack = c("grid"),
+  preAllocateTracks = 1,
+  grid.col = grid_color
+  )
+
+# Add labels to the sectors
+circos.trackPlotRegion(
+  track.index = 1, panel.fun = function(x, y) {
+    circos.text(CELL_META$xcenter, CELL_META$ylim[1], CELL_META$sector.index,
+                facing = "inside", niceFacing = TRUE, adj = c(0.8, 0))
+  },
+  bg.border = NA
+  )
+
+# Finalize and clear the circos plot
+circos.clear()
+dev.off()
+
+# Fig 3b: Only Indicators shared between assess and MEAs----
 
 # Split sources into a list
 #indic$sources2 <- strsplit(as.character(indic$sources), ";")
@@ -237,29 +312,19 @@ colnames(links) <- c("treaties", "assessments", "Freq")
 grid_color <- c(
   IPBES = "#E5F5E0", IPCC = "#A1D99B", GEO = "#31A354",
   GBF = "#EFF3FF", SDG = "#C6DBEF", 
-  CITES = "#9ECAE1", CMS = "#6BAED6", RAMSAR = "#3182BD",
-  UNCCD = "#08519C"
+  RAMSAR = "#9ECAE1",CITES = "#6BAED6",
+  CMS = "#3182BD",UNCCD = "#08519C"
 )
 # library(RColorBrewer)
 # display.brewer.all()
 # brewer.pal(n=6,"Blues")
-# "#EFF3FF": GBF
-# "#C6DBEF": SDG
-# "#9ECAE1": CITES
-# "#6BAED6": CMS
-# "#3182BD":RAMSAR
-# "#08519C": UNCCD
 # brewer.pal(n=3,"Greens")
-# "#E5F5E0": IPBES
-# "#A1D99B": IPCC
-# "#31A354":GEO
-
 
 # Define the order of entities where treaties are at the top and assessments at the bottom
-entity_order <- c("IPBES", "IPCC", "GEO","GBF","SDG","CITES", "CMS", "RAMSAR", "UNCCD")
+entity_order <- c("IPBES", "IPCC", "GEO","GBF","SDG","RAMSAR","CITES", "CMS","UNCCD")
 
 # Set plot saving file and parameters
-png(filename = "../output/figures/fig3_120525.png",
+png(filename = "../output/figures/fig3b_shared_190525.png",
     width = 4, height = 4, units = "in", 
     bg = "white", res = 300) 
 
@@ -276,7 +341,7 @@ chordDiagram(
   annotationTrack = c("grid"),
   preAllocateTracks = 1,
   grid.col = grid_color
-  )
+)
 
 # Add labels to the sectors
 circos.trackPlotRegion(
@@ -285,38 +350,46 @@ circos.trackPlotRegion(
                 facing = "inside", niceFacing = TRUE, adj = c(0.5, 0))
   },
   bg.border = NA
-  )
+)
 
 # Finalize and clear the circos plot
 circos.clear()
 dev.off()
 
-# Alternative fig 3
-fig3_alt = ggplot(mutate(melted_matrix_upper, value = value + 5),
+# Fig 3c: All Indicators shared (sankey)-----
+
+melted_matrix_upper_viz = melted_matrix_upper %>% 
+  # remove 0
+  filter(value != 0) %>% 
+  # improve viz
+  mutate(value = value + 7) %>% 
+  mutate(Var1 = factor(Var1, 
+                         levels=c("IPBES","IPCC","GEO",'GBF','SDG','RAMSAR','CITES','CMS','UNCCD')))
+  # add more space for CMS and UNCCD
+  # mutate(n = if_else(source %in% c('CITES','RAMSAR','CMS','UNCCD'),
+  #                    true = n + 5,false = n))
+
+fig3c = ggplot(melted_matrix_upper_viz,
        aes(y = value,
-           axis2 = Var1, axis1 = Var2)) +
+           axis1 = Var1, axis2 = Var2)) +
   geom_alluvium(aes(fill = Var1),
                 width = 1/6, knot.pos = 0.2, reverse = FALSE) +
   scale_fill_manual(values =c(
-    IPBES = "#d5efcd", IPCC = "#A1D99B", GEO = "#31A354",
-    GBF = "#d6e0ff", SDG = "#C6DBEF", 
-    CITES = "#9ECAE1", CMS = "#6BAED6", RAMSAR = "#3182BD",
-    UNCCD = "#08519C"
+    IPBES = "#E5F5E0", IPCC = "#A1D99B", GEO = "#31A354",
+    GBF = "#EFF3FF", SDG = "#C6DBEF", 
+    RAMSAR = "#9ECAE1",CITES = "#6BAED6",
+    CMS = "#3182BD",UNCCD = "#08519C"
   )) +
-  # scale_fill_manual(values =c('Governance'="#440154",'Knowledge\n systems'= "#46327e",
-  #                             'Human\n assets'="#365c8d",'Direct\n drivers'="#277f8e",
-  #                             'Human\n well-being'="#1fa187",'Ecosystem\n services'="#4ac16d" ,
-  #                             'Ecosystems'="#a0da39",'Biodiversity'="#fde725")) +
-  #scale_x_discrete(limits=c("IPBES","GEO","IPCC","GBF","SDG","CITES","CMS","RAMSAR","UNCCD")) +
   guides(fill = "none") +
   geom_stratum(alpha = 0, width = 1/6, reverse = FALSE) +
   geom_text(stat = "stratum", aes(label = after_stat(stratum)),reverse = FALSE, size = 3) +
   #scale_x_continuous(breaks = 1:2, labels = c("Sources", "Indicator category")) +
   theme_void()
 
-ggsave(file="../output/figures/fig3_120525_alt.svg", plot=fig3_alt, 
+fig3c
+ggsave(file="../output/figures/fig3c_190525.svg", plot=fig3c, 
        width=7, height=8, units = "in", dpi = 300)
-ggsave(file="../output/figures/fig3_120525_alt.png", plot=fig3_alt, 
+ggsave(file="../output/figures/fig3c_190525.png", plot=fig3c, 
        width=7, height=8, units = "in", dpi = 300)
 
 # Figure 4: Summaries of indicators by categories----
@@ -338,7 +411,7 @@ indic_categories = indic %>%
   mutate(Categories = factor(Categories, 
                          levels=c('Biodiversity','Ecosystems','Ecosystem\n services','Human\n well-being',
                                   'Direct\n drivers','Human\n assets','Knowledge\n systems','Governance'))) %>% 
-  # add more space for CMS and UNCCD
+  # improve viz for figure
   mutate(n = if_else(source %in% c('CITES','RAMSAR','CMS','UNCCD'),
                      true = n + 5,false = n))
 
@@ -359,10 +432,10 @@ fig4 = ggplot(indic_categories,
   #scale_x_continuous(breaks = 1:2, labels = c("Sources", "Indicator category")) +
   theme_void()
 
-
-ggsave(file="../output/figures/fig4_120525_alt.svg", plot=fig4, 
+fig4
+ggsave(file="../output/figures/fig4_190525.svg", plot=fig4, 
        width=7, height=8, units = "in", dpi = 300)
-ggsave(file="../output/figures/fig4_120525_alt.png", plot=fig4, 
+ggsave(file="../output/figures/fig4_190525.png", plot=fig4, 
        width=7, height=8, units = "in", dpi = 300)
 
 
@@ -373,500 +446,3 @@ ggsave(file="../output/figures/fig4_120525_alt.png", plot=fig4,
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-# 3.c-Summaries of indicators by category----
-
-all_indicators_cl2 %>% distinct(Categories)
-# 1 ecosystems        
-# 2 biodiversity      
-# 3 Ecosystem services
-# 4 Human assets      
-# 5 Governance        
-# 6 Direct drivers    
-# 7 Human well-being  
-# 8 Knowledge systems
-all_indicators_cl2 %>% distinct(Subcategories) %>% count()#46
-
-data_categories = all_indicators_cl %>% 
-  group_by(Categories) %>%
-  summarize(n = n()) %>%
-  mutate(prop = (n / colSums(across(n)))*100) %>% 
-  arrange(desc(n))
-
-# Basic piechart
-ggplot(data_categories, aes(x="", y=prop, fill=Categories)) +
-  geom_bar(stat="identity", width=1, color="white") +
-  coord_polar("y", start=0) +
-  scale_fill_manual(values =c('Ecosystems'="#440154",'Biodiversity'="#46327e",
-                              'Governance'="#365c8d",'Direct Drivers'="#277f8e",
-                              'Human Assets'="#1fa187",'Ecosystem Services'="#4ac16d",
-                              'Human Well-Being'="#a0da39",'Knowledge Systems'="#fde725")) +
-  # scale_x_discrete(limits=c('Ecosystems','Biodiversity',
-  #                           'Governance','Direct Drivers',
-  #                           'Human Assets','Ecosystem Services',
-  #                           'Human Well-Being','Knowledge Systems')) +
-  
-  theme_void() # remove background, grid, numeric labels
-
-all_indicators_cl2 %>% filter(!is.na(Categories_2)) %>% count()#356
-all_indicators_cl2 %>% filter(!is.na(Categories_2)) %>% group_by(Categories) %>% count()
-
-data_subcategories = all_indicators_cl2 %>% 
-  group_by(Subcategories) %>%
-  summarize(n = n()) %>%
-  mutate(prop = (n / colSums(across(n)))*100) %>% 
-  arrange(desc(n))
-
-# categories
-all_indicators_cl2 %>%   
-  # unsplit meas to get each policy source per row --> source
-  mutate(source = strsplit(as.character(sources), ",")) %>% 
-  unnest(source) %>% 
-  group_by(Categories, sources) %>% count() %>% arrange(desc(n)) %>% View()
-
-## 4-Policy indicators-----
-
-policy_indic_cl = all_indicators_cl2 %>% 
-  # unsplit sources to get each policy source per row --> source
-  mutate(source = strsplit(as.character(sources), ",")) %>% 
-  unnest(source) %>% 
-  # get only policy indicators
-  #filter(policy == 1) %>%
-  filter(source %in% c('GBF','SDG','UNCCD','CITES','CMS','ICCWC','RAMSAR' )) %>% 
-  # paste all assessment sources together --> meas
-  group_by(indicators_harmonized) %>%
-  mutate(meas = paste0(source,collapse = ",")) %>%
-  ungroup() %>%
-  # keep each indicator per row keeping multiple sources of policies together (assess)
-  distinct(indicators_harmonized, meas, .keep_all = TRUE) %>%
-  # remove source to avoid confusion
-  dplyr::select(-source) %>% 
-  write_csv('../output/policy_indicatorsMay24.csv')
-
-policy_indic_cl = read_csv('../output/policy_indicatorsMay24.csv')
-
-#unique indicators and categories
-policy_indic_cl %>% distinct(indicators_harmonized) %>% count()#647 indicators
-policy_indic_cl %>% distinct(Categories)#8 categories
-policy_indic_cl %>% distinct(Categories, Subcategories) %>% count()#51 Subcategories
-policy_indic_cl %>% distinct(indicators_harmonized, .keep_all = TRUE) %>% filter(assessment == 1) %>%  count() #194
-194/647 #--> less that 30% used in assessments
-
-# indicators usage
-policy_indic_cl %>% filter(usage_policy>=3) %>% distinct(indicators_harmonized) %>% count() #1
-policy_indic_cl %>% filter(usage_policy>=3) %>% distinct(indicators_harmonized)
-policy_indic_cl %>% filter(usage_policy==2) %>% distinct(indicators_harmonized) %>% count() #53
-
-## 4.a-Policy indicators by source-----
-
-# all  policy indic by source
-policy_indic_cl %>%   
-  # unsplit meas to get each policy source per row --> source
-  mutate(source = strsplit(as.character(meas), ",")) %>% 
-  unnest(source) %>% group_by(source) %>% 
-  count() %>% arrange(desc(n))
-# source     n
-# 1 GBF      307
-# 2 SDG      257
-# 3 ICCWC     50
-# 4 CITES     41
-# 5 CMS       25
-# 6 RAMSAR    18
-# 7 UNCCD      4
-
-# unique by source
-policy_indic_cl %>% filter(!grepl('[,]',meas)) %>% group_by(meas) %>% 
-  count() %>% arrange(desc(n))
-# meas       n
-# 1 GBF      253
-# 2 SDG      204
-# 3 ICCWC     50
-# 4 CITES     41
-# 5 CMS       25
-# 6 RAMSAR    18
-# 7 UNCCD      2
-
-# shared policy indic by source
-policy_indic_cl %>% filter(grepl('[,]',meas)) %>% group_by(meas) %>% 
-  count() %>% arrange(desc(n))
-# 1 GBF,SDG          52
-# 2 GBF,SDG,UNCCD     1
-# 3 GBF,UNCCD         1
-
-
-
-## 4.b-Policy indicators by category-----
-
-policy_indic_cl %>%   
-  # unsplit meas to get each policy source per row --> source
-  mutate(source = strsplit(as.character(meas), ",")) %>% 
-  unnest(source) %>% 
-  # summary Cat
-  group_by(Categories)  %>% 
-  summarize(n = n()) %>%
-  mutate(prop = (n / colSums(across(n)))*100) %>% 
-  arrange(desc(n))
-
-policy_indic_cl %>%   
-  # unsplit meas to get each policy source per row --> source
-  mutate(source = strsplit(as.character(meas), ",")) %>% 
-  unnest(source) %>% 
-  # summary Subcat
-  group_by(Subcategories)  %>% 
-  summarize(n = n()) %>%
-  mutate(prop = (n / colSums(across(n)))*100) %>% 
-  arrange(desc(n))
-
-
-policy_indic_cl %>%   
-  # unsplit meas to get each policy source per row --> source
-  mutate(source = strsplit(as.character(meas), ",")) %>% 
-  unnest(source) %>% 
-  # summary cat + mea
-  group_by(Categories, meas) %>% 
-  count() %>% arrange(desc(n))
-
-policy_categories = policy_indic_cl %>%   
-  # unsplit meas to get each policy source per row --> source
-  mutate(source = strsplit(as.character(meas), ",")) %>% 
-  unnest(source) %>% 
-  # summary cat + source
-  group_by(source,Categories)  %>% 
-  count() %>% arrange(desc(n))
-
-
-ggplot(policy_categories,
-       aes(y = n,
-           axis1 = source, axis2 = Categories)) +
-  geom_alluvium(aes(fill = Categories),
-                width = 1/6, knot.pos = 0, reverse = FALSE) +
-  scale_fill_manual(values =c('Ecosystems'="#440154",'Biodiversity'="#46327e",
-                              'Governance'="#365c8d",'Direct Drivers'="#277f8e",
-                              'Human Assets'="#1fa187",'Ecosystem Services'="#4ac16d",
-                              'Human Well-Being'="#a0da39",'Knowledge Systems'="#fde725")) +
-  guides(fill = "none") +
-  geom_stratum(alpha = .1, width = 1/6, reverse = FALSE) +
-  geom_text(stat = "stratum", aes(label = after_stat(stratum)),
-            reverse = FALSE) +
-  scale_x_continuous(breaks = 1:2) +
-  theme_void()
-
-## 4.c-ILK indicators in policy-----
-policy_indic_cl %>%   
-  # unsplit meas to get each policy source per row --> source
-  mutate(source = strsplit(as.character(meas), ",")) %>% 
-  unnest(source) %>% 
-  filter(Subcategories =="Ilk")
-
-## 4.d-Trace back policy indicators to original name-----
-
-#load original tables
-cites_indic = read.csv('../input/tables_extraction/cites_indicators.csv') %>% 
-  mutate(meas = "CITES") %>% 
-  dplyr::select(indic_id, indicators, indicators_harmonized,meas) #%>% 
-#distinct(indicators, .keep_all = TRUE)
-ramsar_indic = read.csv('../input/tables_extraction/ramsar_indicators.csv') %>% 
-  mutate(meas = "RAMSAR") %>% 
-  dplyr::select(indic_id, indicators, indicators_harmonized,meas) #%>% 
-#distinct(indicators, .keep_all = TRUE)
-sdg_indic = read.csv('../input/tables_extraction/sdg_indicators.csv') %>% 
-  mutate(meas = "SDG") %>% 
-  mutate(Indicator = gsub("^\\S+ ", "", sdg_indicators)) %>% 
-  dplyr::select(indic_id, indicators = Indicator, indicators_harmonized,meas) #%>% 
-
-#distinct(indicators, .keep_all = TRUE)
-unccd_indic = read.csv('../input/tables_extraction/unccd_indicators.csv') %>% 
-  mutate(meas = "UNCCD") %>% 
-  dplyr::select(indic_id, indicators, indicators_harmonized, meas) #%>% 
-#distinct(indicators, .keep_all = TRUE)
-gbf_indic = read.csv('../input/tables_extraction/km_gbf_indicators.csv') %>% 
-  mutate(meas = "GBF") %>% 
-  mutate(Indicator = gsub(' [(]SDG 4[.]7[.]1[)]','',Indicator)) %>% 
-  mutate(Indicator = gsub('Intact Wilderness','Intact wilderness',Indicator)) %>% 
-  # mutate(Indicator = gsub('secured in either medium','secured in medium',Indicator)) %>%
-  mutate(Indicator = gsub('Food Insecurity Experience Scale','Food Insecurity Experience Scale (FIES)',Indicator)) %>%
-  mutate(Indicator = gsub("Proportion of countries where the legal framework [(]including customary law[)] guarantees women[']s equal rights to land ownership and[/]or control","Proportion of countries where the legal framework (including customary law) guarantees women’s equal rights to land ownership and/or control",Indicator)) %>%
-  mutate(Indicator = gsub("flow safely treated","flows safely treated",Indicator)) %>%
-  mutate(Indicator = gsub("as being at risk extinction","as being at risk of extinction",Indicator)) %>%
-  mutate(Indicator = gsub("Dollar value of financial and technical assistance [(]including through North[-]South[,] South[-]South and triangular cooperation[)] committed to developing countries","Dollar value of financial and technical assistance (including through North-South, South‑South and triangular cooperation) committed to developing countries",Indicator)) %>%
-  mutate(Indicator = gsub("Amount of fossil[-]fuel subsidies per unit of GDP [(]production and consumption[)]","Amount of fossil-fuel subsidies (production and consumption) per unit of GDP",Indicator)) %>%
-  mutate(Indicator = gsub("Red List index","Red List Index",Indicator)) %>%
-  mutate(Indicator = gsub("North[]South ","North-South ",Indicator)) %>%
-  mutate(Indicator = gsub("Expected Loss of Phylogenetic diversity","Expected loss of Phylogenetic Diversity",Indicator)) %>%
-  mutate(Indicator = gsub("Species status index","Species Status Index",Indicator)) %>%
-  mutate(Indicator = gsub("Species habitat Index","Species Habitat Index",Indicator)) %>%
-  mutate(Indicator = gsub("Species Status Information Index","Species Status Index",Indicator)) %>%
-  mutate(Indicator = gsub("Status of key biodiversity areas","Status of Key Biodiversity Areas",Indicator)) %>%
-  mutate(Indicator = gsub("Volume of production per labour unit by classes of farming[/]pastoral[/] forestry enterprise size","Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size",Indicator)) %>%
-  # mutate(Indicator = gsub("Index of coastal eutrophication[;] [(]b[)] plastic debris density","(a) Index of coastal eutrophication; and (b) plastic debris density",Indicator)) %>%
-  #mutate(Indicator = gsub("Volume of production per labour unit by classes of farming[/]pastoral[/] forestry enterprise size","Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size",Indicator)) %>%
-  #mutate(Indicator = gsub("Volume of production per labour unit by classes of farming[/]pastoral[/] forestry enterprise size","Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size",Indicator)) %>%
-  dplyr::select(indic_id, indicators = Indicator, indicators_harmonized,meas) #%>% 
-#distinct(indicators, .keep_all = TRUE)
-iccwc_indic = read.csv('../input/tables_extraction/iccwc_indicators.csv') %>% 
-  mutate(meas = "ICCWC") %>% 
-  dplyr::select(indic_id, indicators, indicators_harmonized,meas) #%>% 
-#distinct(indicators, .keep_all = TRUE)
-cms_indic = read.csv('../input/tables_extraction/cms_indicators.csv') %>% 
-  mutate(meas = "CMS") %>% 
-  dplyr::select(indic_id, indicators, indicators_harmonized,meas) #%>% 
-#distinct(indicators, .keep_all = TRUE)
-
-policy_indic = rbind(cites_indic, ramsar_indic, sdg_indic, unccd_indic, gbf_indic, iccwc_indic,cms_indic)
-policy_indic %>%  distinct(indicators) %>% count() #636
-policy_indic %>%  distinct(indicators_harmonized) %>% count() #647
-
-policy_indic_complete = policy_indic_cl %>%   
-  # unsplit meas to get each policy source per row 
-  mutate(meas = strsplit(as.character(meas), ",")) %>% 
-  unnest(meas) %>% #702
-  #join 
-  left_join(policy_indic, by = c('indicators_harmonized', 'meas'))
-
-#checks
-policy_indic_complete %>%  distinct(indicators) %>% count() #636 (options are aggregated, as text from documents)
-policy_indic_complete %>%  distinct(indicators_harmonized) %>% count() #647 (options are dis-aggregated, but there is more harmonization)
-policy_indic_cl %>%  distinct(indicators_harmonized) %>% count() #647
-#ALL GOOD
-
-missing = policy_indic_cl %>%   
-  # unsplit meas to get each policy source per row --> source
-  mutate(meas = strsplit(as.character(meas), ",")) %>% 
-  unnest(meas) %>% 
-  anti_join(policy_indic, by = c('indicators_harmonized', 'meas'))
-missing = policy_indic %>%   
-  anti_join(mutate(policy_indic_cl,meas = strsplit(as.character(meas), ",")) %>% 
-              unnest(meas), by = c('indicators_harmonized', 'meas'))
-#ALL GOOD
-
-policy_indic_clean = policy_indic_complete %>% 
-  # fix an issue in harmonized indicators
-  mutate(indicators_harmonized = gsub("south[‑]south","south-south",indicators_harmonized)) %>%
-  # paste all indic_id together
-  group_by(indicators_harmonized) %>%
-  mutate(ids = paste0(indic_id,collapse = ",")) %>%
-  ungroup() %>% 
-  # paste all textual indicators together
-  group_by(indicators_harmonized) %>%
-  mutate(indicators_orig = paste0(indicators,collapse = ",")) %>%
-  ungroup() %>% 
-  # paste all meas sources together
-  group_by(indicators_harmonized) %>%
-  mutate(mea = paste0(meas,collapse = ",")) %>%
-  ungroup() %>% 
-  mutate(mea = gsub('GBF,GBF,GBF',"GBF",mea)) %>%
-  mutate(mea = gsub('GBF,GBF',"GBF",mea)) %>%
-  mutate(mea = gsub('SDG,SDG,SDG',"SDG",mea)) %>%
-  mutate(mea = gsub('SDG,SDG',"SDG",mea)) %>%
-  mutate(mea = gsub('GBF,SDG,GBF,SDG',"GBF,SDG",mea)) %>%
-  mutate(mea = gsub('RAMSAR,RAMSAR',"RAMSAR",mea)) %>%
-  mutate(mea = gsub('SDG,SDG',"SDG",mea)) %>%
-  #mutate(mea = gsub('GBF,GBF',"GBF",mea)) %>%
-  distinct(indicators_harmonized, .keep_all = TRUE) %>% 
-  dplyr::select("indicators_harmonized","ids","mea",'ipbes',
-                "Categories","Subcategories","Categories_2","Subcategories_2",
-                "indicators_orig",
-  ) %>% 
-  write_csv('../output/policy_indicatorsMay24_orignames.csv')
-
-#checks
-policy_indic_clean %>%  distinct(indicators_orig) #619
-policy_indic_clean %>%  distinct(indicators_harmonized) #646
-
-dup = check_dup(policy_indic_clean,indicators_orig)
-dup = check_dup(policy_indic_clean,indicators_harmonized)
-
-policy_indic_clean %>%  distinct(mea)
-policy_indic_clean %>%  distinct(ipbes)
-policy_indic_clean %>%  distinct(Categories)
-policy_indic_clean %>%  distinct(Subcategories) %>% count()
-
-
-## 5-Indicators in assessments-----
-assess_indic_cl = all_indicators_cl2 %>% 
-  # unsplit sources to get each assessment source per row --> source
-  mutate(source = strsplit(as.character(sources), ",")) %>% 
-  unnest(source) %>% 
-  # get only indicators used in assessments
-  #filter(assessment == 1) %>%
-  filter(!source %in% c('GBF','SDG','UNCCD','CITES','CMS','ICCWC','RAMSAR' )) %>% 
-  # paste all assessment sources together --> assess
-  group_by(indicators_harmonized) %>%
-  mutate(assess = paste0(source,collapse = ",")) %>%
-  ungroup() %>%
-  # keep each indicator per row keeping multiple sources of assess together (assess)
-  distinct(indicators_harmonized, assess, .keep_all = TRUE) %>%
-  # remove source to avoid confusion
-  dplyr::select(-source) %>% 
-  write_csv('../output/assessment_indicatorsMay24.csv')
-
-assess_indic_cl %>% distinct(indicators_harmonized) %>% count()#1648
-assess_indic_cl %>% distinct(indicators_harmonized, .keep_all = TRUE) %>% filter(policy == 1) %>% count()#194
-
-# indicators usage
-assess_indic_cl %>% filter(usage_assess>=4) %>% distinct(indicators_harmonized, assess)  #4
-assess_indic_cl %>% filter(usage_assess==3) %>% distinct(indicators_harmonized, assess)  #10
-assess_indic_cl %>% filter(usage_assess==2) %>% distinct(indicators_harmonized) %>% count() #44
-assess_indic_cl %>% filter(usage_assess==1) %>% distinct(indicators_harmonized) %>% count() #1590
-
-# unique indicators in each assess 
-assess_indic_cl %>% filter(!grepl('[,]',assess)) %>% 
-  group_by(assess) %>% count() %>% arrange(desc(n))
-#GA 721
-#IPCC 368
-#GEO 192
-#SUA 185
-#IAS 67
-#VA 57
-
-# shared assess indic --> a lot to put in a table!
-assess_indic_cl %>% filter(grepl('[,]',assess)) %>% 
-  group_by(assess) %>% count() %>% arrange(desc(n))
-
-# all asses indic by source
-assess_indic_cl %>%   
-  # unsplit assess to get each assessment source per row --> source
-  mutate(source = strsplit(as.character(assess), ",")) %>% 
-  unnest(source) %>% group_by(source) %>% 
-  count() %>% arrange(desc(n))
-# source     n
-# 1 GA       764
-# 2 IPCC     374
-# 3 GEO      223
-# 4 SUA      213
-# 5 IAS       78
-# 6 VA        72
-
-### 5.a-Indicators in IPBES assessments-----
-IPBES_indic_cl = all_indicators_cl2 %>% 
-  # unsplit sources to get each IPBES source per row --> source
-  mutate(source = strsplit(as.character(sources), ",")) %>% 
-  unnest(source) %>% 
-  # get only indicators used in IPBES
-  filter(ipbes == 1) %>%
-  filter(source %in% c('GA','VA','SUA','IAS')) %>% 
-  # paste all IPBES sources together --> ipbes_assess
-  group_by(indicators_harmonized) %>%
-  mutate(ipbes_assess = paste0(source,collapse = ",")) %>%
-  ungroup() %>%
-  # keep each indicator per row keeping multiple sources of assess together (ipbes_assess)
-  distinct(indicators_harmonized, ipbes_assess, .keep_all = TRUE) %>%
-  # remove source to avoid confusion
-  dplyr::select(-source) %>% 
-  write_csv('../output/ipbes_assessment_indicatorsMay24.csv')
-
-# summaries  
-IPBES_indic_cl %>% distinct(indicators_harmonized) %>% count()#1085
-
-# all asses indic by source
-IPBES_indic_cl %>%   
-  # unsplit assess to get each assessment source per row --> source
-  mutate(source = strsplit(as.character(ipbes_assess), ",")) %>% 
-  unnest(source) %>% group_by(source) %>% 
-  count() %>% arrange(desc(n))
-# 1 GA       764
-# 2 SUA      213
-# 3 IAS       78
-# 4 VA        72
-764/1091
-213/1091
-78/1091
-72/1091
-
-# shared assess indic --> a lot to put in a table!
-IPBES_indic_cl %>% filter(grepl('[,]',ipbes_assess)) %>% 
-  group_by(ipbes_assess) %>% count() %>% arrange(desc(n))
-# 1 GA,SUA           12
-# 2 GA,VA             6
-# 3 GA,IAS            4
-# 4 SUA,VA            4
-# 5 GA,SUA,VA,IAS     3
-# 6 GA,SUA,IAS        1
-# 7 GA,SUA,VA         1
-# 8 GA,VA,IAS         1
-# 9 SUA,IAS           1
-
-IPBES_indic_cl %>% filter(usage_ipbes==4) %>% distinct(indicators_harmonized, ipbes_assess) #3
-IPBES_indic_cl %>% filter(usage_ipbes==3) %>% distinct(indicators_harmonized, ipbes_assess) #3
-IPBES_indic_cl %>% filter(usage_ipbes==2) %>% distinct(indicators_harmonized,ipbes_assess) %>%  count() #27
-IPBES_indic_cl %>% filter(usage_ipbes==1) %>% distinct(indicators_harmonized,ipbes_assess) %>% count() #1052
-
-# all IPBES indic by category
-
-IPBES_indic_cl %>%   
-  # unsplit meas to get each policy source per row --> source
-  mutate(source = strsplit(as.character(ipbes_assess), ",")) %>% 
-  unnest(source) %>% group_by(Categories)  %>% 
-  summarize(n = n()) %>%
-  mutate(prop = (n / colSums(across(n)))*100) %>% 
-  arrange(desc(n))
-
-IPBES_indic_cl %>%   
-  # unsplit meas to get each policy source per row --> source
-  mutate(source = strsplit(as.character(ipbes_assess), ",")) %>% 
-  unnest(source) %>% group_by(Subcategories)  %>% 
-  summarize(n = n()) %>%
-  mutate(prop = (n / colSums(across(n)))*100) %>% 
-  arrange(desc(n))
-
-
-IPBES_indic_cl %>%   
-  # unsplit meas to get each policy source per row --> source
-  mutate(source = strsplit(as.character(ipbes_assess), ",")) %>% 
-  unnest(source) %>% 
-  group_by(Categories, ipbes_assess) %>% count() %>% arrange(desc(n)) %>% View()
-
-IPBES_categories = IPBES_indic_cl %>%   
-  # unsplit meas to get each policy source per row --> source
-  mutate(source = strsplit(as.character(ipbes_assess), ",")) %>% 
-  unnest(source) %>% group_by(source,Categories)  %>% 
-  count() %>% arrange(desc(n))
-
-
-ggplot(IPBES_categories,
-       aes(y = n,
-           axis1 = source, axis2 = Categories)) +
-  geom_alluvium(aes(fill = Categories),
-                width = 1/6, knot.pos = 0, reverse = FALSE) +
-  scale_fill_manual(values =c('Ecosystems'="#440154",'Biodiversity'="#46327e",
-                              'Governance'="#365c8d",'Direct Drivers'="#277f8e",
-                              'Human Assets'="#1fa187",'Ecosystem Services'="#4ac16d",
-                              'Human Well-Being'="#a0da39",'Knowledge Systems'="#fde725")) +
-  guides(fill = "none") +
-  geom_stratum(alpha = .1, width = 1/6, reverse = FALSE) +
-  geom_text(stat = "stratum", aes(label = after_stat(stratum)),
-            reverse = FALSE) +
-  scale_x_continuous(breaks = 1:2) +
-  theme_void()
-
-
-#ILK
-IPBES_indic_cl %>%   
-  # unsplit meas to get each policy source per row --> source
-  mutate(source = strsplit(as.character(ipbes_assess), ",")) %>% 
-  unnest(source) %>% 
-  filter(Subcategories =="Ilk")
-
-
-### 5.b-IPBES core and highlighted indicators (D&K TF 2017-2018)-----
-indic_core_high = read_csv('../input/tables_extraction/ipbes_core_high_indicators.csv') %>% 
-  # add source
-  dplyr::mutate(core_high = 1) %>% 
-  dplyr::distinct(indicators_harmonized, .keep_all = TRUE)  %>% 
-  dplyr::select(indicators_harmonized, core_high, type_indicators)
-
-
-# core and highlighted indicators NOT used
-not_used = anti_join(indic_core_high,IPBES_indic_cl)
-# if disaggregated this indicators is already included.

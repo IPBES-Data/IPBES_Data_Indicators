@@ -32,12 +32,12 @@ Annual precipitation amount when the daily precipitation exceeds the 99th percen
 Simple precipitation intensity index,IPCC_sup_31,simple precipitation intensity index
 One-in-20 year return value of maximum one-day precipitation,IPCC_sup_32,one-in-20 year return value of maximum one-day precipitation
 One-in-20 year return value of maximum five-day precipitation,IPCC_sup_33,one-in-20 year return value of maximum five-day precipitation
-Standardized precipitation index,IPCC_sup_34,standardized precipitation index
+Standardized precipitation index,IPCC_sup_34,standardized precipitation index (spi)
 "Potential evaporation, evaporative demand drought index",IPCC_sup_35,"potential evaporation, evaporative demand drought index"
 Soil moisture anomalies,IPCC_sup_36,soil moisture anomalies
-Standardized soil moisture index,IPCC_sup_37,standardized soil moisture index
-Standardized runoff index,IPCC_sup_38,standardized runoff index
-Standardized streamflow index,IPCC_sup_39,standardized streamflow index
+Standardized soil moisture index,IPCC_sup_37,standardized soil moisture index (ssmi)
+Standardized runoff index,IPCC_sup_38,standardized runoff index (sri)
+Standardized streamflow index,IPCC_sup_39,standardized streamflow index (ssi)
 Palmer drought severity index,IPCC_sup_40,palmer drought severity index (pdsi)
 Standardized precipitation evapotranspiration index,IPCC_sup_41,standardized precipitation evapotranspiration index (spei)
 Cooling degree days above 22°C,IPCC_sup_42,cooling degree days

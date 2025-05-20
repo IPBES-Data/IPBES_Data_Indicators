@@ -46,9 +46,9 @@ simple precipitation intensity index,IPCC_sup_31,1
 soil moisture,IPCC_sup_48,1
 soil moisture anomalies,IPCC_sup_36,1
 standardized precipitation evapotranspiration index (spei),IPCC_sup_41,1
-standardized precipitation index,IPCC_sup_34,1
+standardized precipitation index (spi),IPCC_sup_34,1
 standardized precipitation index accumulated over 6 months (spi-6),IPCC_sup_49,1
-standardized runoff index,IPCC_sup_38,1
-standardized soil moisture index,IPCC_sup_37,1
-standardized streamflow index,IPCC_sup_39,1
+standardized runoff index (sri),IPCC_sup_38,1
+standardized soil moisture index (ssmi),IPCC_sup_37,1
+standardized streamflow index (ssi),IPCC_sup_39,1
 warm spell duration index (wsdi),IPCC_sup_11,1

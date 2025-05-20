@@ -193,7 +193,7 @@ remove,catch per unit per effort,SUA_6_115_207,IPBES,0,Ecosystem services,Nature
 ,change in water-use efficiency over time,GBF_T14_CY_213;SDG_G6.4.1_87;IPBES_SUA_sup_6.4.1_32,GBF;SDG;IPBES,1,Human assets,Infrastructure (build-up area),NA,NA
 ,changes in evapotranspiration demand,IPCC_12_17_599,IPCC,0,ecosystems,Abiotic conditions,ecosystems,Change in ecosystems
 ,changes in groundwater,IPCC_12_17_599,IPCC,0,ecosystems,Abiotic conditions,ecosystems,Change in ecosystems
-,changes in land versus world trade organisation greenbox agricultural subsidies,IPCC_2_31_65,IPCC,0,Governance,Nature-based funding,NA,NA
+x,changes in land versus sea surface temperature,IPCC_2_31_65,IPCC,0,ecosystems,Abiotic conditions,NA,NA
 ,changes in low flows,IPCC_11_60_550,IPCC,0,ecosystems,Abiotic conditions,NA,NA
 ,changes in mean precipitation,IPCC_4_49_249,IPCC,0,ecosystems,Abiotic conditions,NA,NA
 ,changes in mean streamflow,IPCC_11_60_550,IPCC,0,ecosystems,Abiotic conditions,NA,NA
@@ -278,8 +278,8 @@ x,connection to sea,GA_2.3_36_133,IPBES,0,Knowledge systems,ILK,NA,NA
 ,coverage of protected areas and other effective area-based conservation measures and traditional territories (by governance type),GBF_T3_CY_139,GBF,1,ecosystems,Area conservation,NA,NA
 ,coverage of protected areas in relation to marine areas,GEO_14_14_147,GEO,0,ecosystems,Area conservation,NA,NA
 ,"coverage of treatment interventions (pharmacological, psychosocial and rehabilitation and aftercare services) for substance use disorders",SDG_G3.5.1_39,SDG,1,Human well-being,Wellness,NA,NA
-x,coverage of wetland dependent bird populations by designated ramsar sites. indicator from resolution ix.1 to be developed,RAMSAR_SG2.5_18,RAMSAR,1,ecosystems,Area conservation,ecosystems,Area conservation
-x,coverage of wetland dependent non-avian populations by designated ramsar sites. indicator from resolution ix.1 to be developed,RAMSAR_SG2.5_19,RAMSAR,1,ecosystems,Area conservation,ecosystems,Area conservation
+x,coverage of wetland dependent bird populations by designated ramsar sites,RAMSAR_SG2.5_18,RAMSAR,1,ecosystems,Area conservation,,
+x,coverage of wetland dependent non-avian populations by designated ramsar sites,RAMSAR_SG2.5_19,RAMSAR,1,ecosystems,Area conservation,,
 ,"credit to agriculture, forestry and fishing",IPBES_GA2.1_sup_66,IPBES,0,Governance,Nature detrimental legislation,NA,NA
 ,crops and their dietary roles,GA_2.3_22_127,IPBES,0,Knowledge systems,ILK,Ecosystem services,Nature contribution
 ,cross-natrional comparative information on access to and ownership of land,GEO_3_10_20,GEO,0,Human well-being,Equity,NA,NA
@@ -456,8 +456,8 @@ x,extent of indigenous peoples and local communities lands that have some form o
 ,fisheries stock size,GA_3_164_441,IPBES,0,Ecosystem services,Nature contribution,NA,NA
 ,"fixed broadband subscriptions per 100 inhabitants, by speed",SDG_G17.6.1_243,SDG,1,Knowledge systems,Information on society and socio-economics,NA,NA
 ,fleshy algae cover,GBF_GA_CY_19,GBF,1,biodiversity,State of biodiversity,NA,NA
-x,floating plastic debris density,GBF_T7_C_38;GEO_14_15_152;GEO_14_15_154;GEO_20_8_234,GBF;GEO,1,Direct drivers,Pollution,ecosystems,State of ecosystems (integrity)
-,floating plastic litter density,GEO_7_19_66,GEO,0,ecosystems,State of ecosystems (integrity),Direct drivers,Pollution
+remove,floating plastic debris density,GBF_T7_C_38;GEO_14_15_152;GEO_14_15_154;GEO_20_8_234,GBF;GEO,1,Direct drivers,Pollution,ecosystems,State of ecosystems (integrity)
+remove,floating plastic litter density,GEO_7_19_66,GEO,0,ecosystems,State of ecosystems (integrity),Direct drivers,Pollution
 ,flood index (fi),IPCC_sup_47,IPCC,0,ecosystems,Abiotic conditions,NA,NA
 ,floods,GA_2.2_6_56,IPBES,0,Direct drivers,Natural drivers,NA,NA
 ,food deficit (kcal/capit a/day) (3- year average),IPBES_GA2.1_sup_5,IPBES,0,Human assets,Coverage of basic needs,NA,NA
@@ -517,8 +517,8 @@ remove,gender equality,GEO_17_8_199,GEO,0,Human well-being,Equity,NA,NA
 ,ghg emissions from agriculture,GEO_17_9_201,GEO,0,Direct drivers,Pollution,NA,NA
 ,ghs effective radiative forcing,IPCC_7_44_330,IPCC,0,Direct drivers,Pollution,NA,NA
 ,gini index,GA_5_80_256,IPBES,0,Human well-being,Equity,NA,NA
-,glacial mass balance,GA_3_51_381;IPBES_GA3_sup_37,IPBES,0,ecosystems,Change in ecosystems,NA,NA
-,glaciar mass loss,IPCC_9_65_447,IPCC,0,ecosystems,Change in ecosystems,NA,NA
+remove,glacial mass balance,GA_3_51_381;IPBES_GA3_sup_37,IPBES,0,ecosystems,Change in ecosystems,NA,NA
+remove,glaciar mass loss,IPCC_9_65_447,IPCC,0,ecosystems,Change in ecosystems,NA,NA
 ,glacier areal and mass changes/loss rate,IPCC_2_60_95,IPCC,0,ecosystems,Change in ecosystems,NA,NA
 ,glacier mass and extent,IPCC_2_26_47,IPCC,0,ecosystems,Change in ecosystems,NA,NA
 ,glacier mass balance,GEO_2_26_7,GEO,0,ecosystems,Change in ecosystems,NA,NA
@@ -554,9 +554,9 @@ x,global funding for resourcing of biological invasions policy and management im
 ,global saltmarsh extent,GBF_GA_CY_15,GBF,1,ecosystems,State of ecosystems,NA,NA
 ,global scale ecosystem carbon storage,GA_4_87_186,IPBES,0,Ecosystem services,Nature contribution,NA,NA
 ,global seagrass extent (seagrass cover and composition),GBF_GA_CY_14,GBF,1,biodiversity,State of biodiversity,NA,NA
-,global surface air temperature (gmst),IPCC_1_13_4,IPCC,0,ecosystems,Abiotic conditions,NA,NA
+remove,global surface air temperature (gmst),IPCC_1_13_4,IPCC,0,ecosystems,Abiotic conditions,NA,NA
 ,global surface air temperature (gsat),IPCC_4_7_219;IPCC_9_11_426,IPCC,0,ecosystems,Abiotic conditions,Direct drivers,Climate change
-,global surface temperature,IPCC_7_82_356;IPCC_7_91_360,IPCC,0,ecosystems,Abiotic conditions,NA,NA
+remove,global surface temperature,IPCC_7_82_356;IPCC_7_91_360,IPCC,0,ecosystems,Abiotic conditions,NA,NA
 ,global temperature,IPCC_1_58_23,IPCC,0,ecosystems,Abiotic conditions,NA,NA
 ,global temperature increase,GEO_4_20_39,GEO,0,Direct drivers,Climate change,Direct drivers,Natural drivers
 ,global temperature potential,GEO_12_18_124,GEO,0,ecosystems,Abiotic conditions,NA,NA
@@ -664,7 +664,7 @@ remove,health,GEO_22_21_257,GEO,0,Human well-being,Healthy living conditions,Hum
 ,index of coastal eutrophication potential (icep),GBF_T7_H_24;GBF_T7_CY_175;GBF_T8_CY_185;SDG_G14.1.1.a_183;GEO_7_19_66;GEO_20_8_234;IPBES_SUA_sup_14.1.1.a_110,GBF;SDG;IPBES;GEO,1,Direct drivers,Pollution,ecosystems,State of ecosystems (integrity)
 ,"index of development of the standard - setting framework for the protection and promotion of culture, cultural rights and cultural diversity",GBF_GB_CY_85,GBF,1,Governance,Legislation/governance,Human well-being,Cultural diversity
 ,"index of species rarity sites, high biodiversity areas, large mammal landscapes, intact wilderness and climate stabilization areas",GBF_T2_CY_116,GBF,1,ecosystems,State of ecosystems,biodiversity,Species conservation
-,index of sustaibale economic welfare,IAS_6_85_153,IPBES,0,Human assets,State of economy,NA,NA
+remove,index of sustainable economic welfare,IAS_6_85_153,IPBES,0,Human assets,State of economy,NA,NA
 ,index of sustainable economic welfare (isew),GA_6_139_289;VA_2_38_29;VA_2_39_33,IPBES,0,Human assets,State of economy,NA,NA
 ,indian ocean basin (iob) index,IPCC_3_78_203,IPCC,0,ecosystems,Abiotic conditions,NA,NA
 ,indian ocean dipole (ipo),IPCC_3_80_205,IPCC,0,ecosystems,Abiotic conditions,NA,NA
@@ -896,9 +896,9 @@ x,national funding for resourcing of biological invasions policy and management 
 ,number of alien taxa,IAS_6_56_150,IPBES,0,Direct drivers,Invasive alien species,NA,NA
 ,number of alliances between cites and relevant international partners to advance cites objective and mainstream conservation and sustainable use of biodiversity,CITES_G5.2.1_51,CITES,1,Governance,National/international cooperation,NA,NA
 ,number of appendix-ii species for which trade is determined to be non-detrimental to the survival of the species as a result of implementing recommendations from the review of significant trade,SUA_4_66_123,IPBES,0,Ecosystem services,Specific mention of sustainable use of species/ecosystems,NA,NA
-,number of assessments on the red list index,GBF_T21_CY_252,GBF,1,biodiversity,Species conservation,NA,NA
+,number of assessments on the red list index,GBF_T21_CY_252,GBF,1,Knowledge systems,Information on biodiversity,NA,NA
 ,"number of automated teller machines (atms) per 100,000 adults",SDG_G8.10.1.b_113,SDG,1,Human assets,State of economy,NA,NA
-,number of biodiversity papers published,IPBES_GA3_sup_62,IPBES,0,Knowledge systems,Information on biodiversity,NA,NA
+,number of biodiversity papers published,IPBES_GA3_sup_62,IPBES,0,Knowledge systems,Information on society and socio-economics,Knowledge systems,Information on biodiversity
 ,number of biogeographic regions with risk-associated activities,IAS_6_21_146,IPBES,0,Direct drivers,Specific mention of over-exploitation and unsustainable use of species/ecosystems,ecosystems,State of ecosystems
 ,number of capacity-building activities delivered to parties,CITES_G3.7.1_31,CITES,1,Governance,National/international cooperation,NA,NA
 ,"number of centres (visitor centres, interpretation centres, education centres) have been established in ramsar sites",RAMSAR_OG4.16_57,RAMSAR,1,Knowledge systems,Specific information on human-nature relationship,NA,NA
@@ -1094,7 +1094,7 @@ x,"number of ramsar sites that have effective, implemented management plans",RAM
 ,o recovery,GEO_5_17_42,GEO,0,ecosystems,Abiotic conditions,NA,NA
 ,o3 concentration,GEO_5_17_41;GEO_5_17_42,GEO,0,ecosystems,Abiotic conditions,NA,NA
 ,o3 emissions,GEO_20_6_228,GEO,0,Direct drivers,Pollution,NA,NA
-,observation-based estimate of global mean surface air temperature (gmst),IPCC_1_45_19,IPCC,0,ecosystems,Abiotic conditions,NA,NA
+remove,observation-based estimate of global mean surface air temperature (gmst),IPCC_1_45_19,IPCC,0,ecosystems,Abiotic conditions,NA,NA
 ,occurrence of heat-related human mortality,IPCC_1_62_25,IPCC,0,Human well-being,Healthy living conditions,Direct drivers,Natural drivers
 ,ocean acidification,GBF_GB_CY_65;GEO_2_26_7,GBF;GEO,1,Direct drivers,Pollution,NA,NA
 ,ocean health index,GBF_GA_CY_31;GA_2.2_38_74;GA_4_155_228;GA_6_86_279;GEO_6_8_48,GBF;IPBES;GEO,1,ecosystems,State of ecosystems (freshwater/coastal),NA,NA
@@ -1239,7 +1239,7 @@ x,percentage of parties that have included wetland issues within national strate
 ,planck temperature response,IPCC_7_56_335,IPCC,0,ecosystems,Abiotic conditions,NA,NA
 ,planetary pressures adjusted human development index (hdi),VA_2_38_29,IPBES,0,Knowledge systems,Information on society and socio-economics,Human well-being,Wellness
 ,plant water use efficiency (wue),IPCC_8_65_401,IPCC,0,Ecosystem services,Nature contribution,NA,NA
-,plastic debris density,GBF_T7_CY_176;SDG_G14.1.1.b_184;IPBES_SUA_sup_14.1.1.b_111,GBF;SDG;IPBES,1,Direct drivers,Pollution,NA,NA
+,plastic debris density,GBF_T7_CY_176;SDG_G14.1.1.b_184;IPBES_SUA_sup_14.1.1.b_111,GBF;SDG;IPBES,1,Direct drivers,Pollution,ecosystems,State of ecosystems (integrity)
 ,pm 10 emissions,GEO_20_6_228,GEO,0,Direct drivers,Pollution,NA,NA
 ,pm 2.5 emissions,GEO_20_6_228,GEO,0,Direct drivers,Pollution,NA,NA
 ,pm2.5 emissions,GEO_12_16_119,GEO,0,Direct drivers,Pollution,NA,NA
@@ -1269,7 +1269,7 @@ x,percentage of parties that have included wetland issues within national strate
 ,poverty,GEO_3_5_16,GEO,0,Human assets,State of economy,Human well-being,Healthy living conditions
 ,poverty gap,IPBES_GA2.1_sup_3,IPBES,0,Human assets,Coverage of basic needs,Human assets,Income
 ,power dissipation index,IPCC_9_104_471;IPCC_11_79_569,IPCC,0,ecosystems,Abiotic conditions,NA,NA
-,precipiation,IPCC_8_28_370,IPCC,0,ecosystems,Abiotic conditions,NA,NA
+remove,precipiation,IPCC_8_28_370,IPCC,0,ecosystems,Abiotic conditions,NA,NA
 ,precipitable water vapour,IPCC_2_26_47,IPCC,0,ecosystems,Abiotic conditions,NA,NA
 ,precipitation,IPCC_2_26_47;IPCC_3_8_164;IPCC_8_43_384,IPCC,0,ecosystems,Abiotic conditions,NA,NA
 ,precipitation deciles and percentiles,IPCC_11_58_543,IPCC,0,ecosystems,Abiotic conditions,NA,NA
@@ -1334,7 +1334,7 @@ x,percentage of parties that have included wetland issues within national strate
 ,proportion of individuals using the internet,SDG_G17.8.1_245;IPBES_SUA_sup_17.8.1_145,SDG;IPBES,1,Knowledge systems,Information on society and socio-economics,NA,NA
 ,"proportion of individuals who own a mobile telephone, by sex",SDG_G5.b.1_81,SDG,1,Knowledge systems,Information on society and socio-economics,NA,NA
 ,"proportion of informal employment in total employment, by sector and sex",SDG_G8.3.1_102;IPBES_SUA_sup_8.3.1_46,SDG;IPBES,1,Human assets,Coverage of basic needs,NA,NA
-,proportion of known species assessed through the red list index,GBF_T21_CY_251;GA_1_52_19;IPBES_GA3_sup_63,GBF;IPBES,1,biodiversity,Species conservation,NA,NA
+,proportion of known species assessed through the red list index,GBF_T21_CY_251;GA_1_52_19;IPBES_GA3_sup_63,GBF;IPBES,1,Knowledge systems,Information on biodiversity,biodiversity,Species conservation
 ,proportion of land that is degraded over total land area,GBF_T10_CY_198;SDG_G15.3.1_197;GEO_15_17_161;GEO_20_8_234;IPBES_SUA_sup_15.3.1_124,GBF;SDG;IPBES;GEO,1,Direct drivers,Land conversion,NA,NA
 ,proportion of legal and illegal wildlife trade consisting of species threatened with extinction,GBF_T5_CY_160,GBF,1,Ecosystem services,Specific monetary valuation of nature contribution,Direct drivers,Specific mention of over-exploitation and unsustainable use of species/ecosystems
 ,proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management,GBF_T11_CY_200;SDG_G6.b.1_93;IPBES_SUA_sup_6.b.1_38,GBF;SDG;IPBES,1,Governance,Legislation/governance,NA,NA
@@ -1607,12 +1607,12 @@ remove,spatial distribution,GA_2.3_40_140,IPBES,0,Knowledge systems,ILK,biodiver
 ,stability of land use and land cover,GA_2.3_42_143,IPBES,0,ecosystems,State of ecosystems (coverage),NA,NA
 ,standardized groundwater index (sgi),IPCC_11_58_543,IPCC,0,ecosystems,Abiotic conditions,NA,NA
 ,standardized precipitation evapotranspiration index (spei),IPCC_11_58_543;IPCC_11_60_549;IPCC_12_17_601;IPCC_12_85_726;IPCC_sup_41,IPCC,0,ecosystems,Abiotic conditions,NA,NA
-,standardized precipitation index,IPCC_11_60_550;IPCC_12_17_601;IPCC_12_57_665;IPCC_12_57_666;IPCC_sup_34,IPCC,0,ecosystems,Abiotic conditions,NA,NA
+remove,standardized precipitation index,IPCC_11_60_550;IPCC_12_17_601;IPCC_12_57_665;IPCC_12_57_666;IPCC_sup_34,IPCC,0,ecosystems,Abiotic conditions,NA,NA
 ,standardized precipitation index (spi),IPCC_11_58_543,IPCC,0,ecosystems,Abiotic conditions,NA,NA
 ,standardized precipitation index accumulated over 6 months (spi-6),IPCC_sup_49,IPCC,0,ecosystems,Abiotic conditions,NA,NA
-,standardized runoff index,IPCC_11_94_580;IPCC_12_17_601;IPCC_sup_38,IPCC,0,ecosystems,Abiotic conditions,NA,NA
+remove,standardized runoff index,IPCC_11_94_580;IPCC_12_17_601;IPCC_sup_38,IPCC,0,ecosystems,Abiotic conditions,NA,NA
 ,standardized runoff index (sri),IPCC_11_58_543,IPCC,0,ecosystems,Abiotic conditions,NA,NA
-,standardized soil moisture index,IPCC_sup_37,IPCC,0,ecosystems,Abiotic conditions,NA,NA
+remove,standardized soil moisture index,IPCC_sup_37,IPCC,0,ecosystems,Abiotic conditions,NA,NA
 ,standardized soil moisture index (ssmi),IPCC_11_58_543,IPCC,0,ecosystems,Abiotic conditions,NA,NA
 ,standardized streamflow index,IPCC_sup_39,IPCC,0,ecosystems,Abiotic conditions,NA,NA
 ,standardized streamflow index (ssi),IPCC_11_58_543,IPCC,0,ecosystems,Abiotic conditions,NA,NA
@@ -1652,7 +1652,7 @@ x,sustainable development goals index,VA_2_38_29,IPBES,0,Knowledge systems,Speci
 ,sustainable use of wild species,GBF_T5_C_32,GBF,1,Ecosystem services,Specific mention of sustainable use of species/ecosystems,NA,NA
 ,sustainable watershed and inland fisheries index,GBF_T5_CY_154,GBF,1,Ecosystem services,Specific mention of sustainable use of species/ecosystems,NA,NA
 ,sustainable well-being index (swi),VA_2_38_29,IPBES,0,Ecosystem services,Specific mention of sustainable use of species/ecosystems,NA,NA
-,taxa assessed for the red list index,GA_3_49_379,IPBES,0,Knowledge systems,Information on biodiversity,NA,NA
+remove,taxa assessed for the red list index,GA_3_49_379,IPBES,0,Knowledge systems,Information on biodiversity,NA,NA
 ,temperature,IAS_2_5_11;IPCC_2_28_57;IPCC_10_77_504,IPBES;IPCC,0,ecosystems,Abiotic conditions,NA,NA
 ,temporal species turnover,GA_1_52_19,IPBES,0,biodiversity,Change in biodiversity,NA,NA
 ,terrestrial c sequestration,GA_2.2_37_70;IPBES_GA2.2_sup_34,IPBES,0,Ecosystem services,Nature contribution,NA,NA
@@ -1756,7 +1756,7 @@ x,trends in pathways of introduction and spread,IAS_6_11_138;IAS_6_119_174,IPBES
 ,trends in potentially environmentally harmful elements of government support to agriculture (producer support estimate),GBF_T18_CY_234,GBF,1,Governance,Nature detrimental legislation,NA,NA
 ,trends in potentially harmful elements of government support to agriculture (produced support estimates),GA_1_52_19,IPBES,0,Governance,Nature detrimental legislation,NA,NA
 ,trends in potentially harmful elements of government support to fisheries,GA_1_52_19,IPBES,0,Governance,Nature detrimental legislation,NA,NA
-,trends in publication of papers on migratory species conservation in peer-reviewed literature,CMS_G5.15_25,CMS,1,Knowledge systems,Information on biodiversity,NA,NA
+,trends in publication of papers on migratory species conservation in peer-reviewed literature,CMS_G5.15_25,CMS,1,Knowledge systems,Information on society and socio-economics,Knowledge systems,Information on biodiversity
 ,trends in range-related coverage of migratory species agreements and other concerted actions between states,CMS_G3.9_16,CMS,1,Governance,Nature-based legislation,biodiversity,Species conservation
 ,trends in species at risk of localized extinction in a protected area,IAS_6_56_150,IPBES,0,biodiversity,State of biodiversity,NA,NA
 ,trends in successful control and eradications of invasive alien species,IAS_6_11_138,IPBES,0,Direct drivers,Invasive alien species,Governance,Nature-based legislation
@@ -1786,7 +1786,7 @@ remove,uk summer temperatures,IPCC_1_50_21,IPCC,0,Direct drivers,Climate change,
 ,undp human development dashboard,VA_2_8_10,IPBES,0,Knowledge systems,Information on society and socio-economics,Human well-being,Wellness
 ,"unemployment rate, by sex, age and persons with disabilities",SDG_G8.5.2_106;IPBES_SUA_sup_8.5.2_50,SDG;IPBES,1,Human assets,Income,NA,NA
 ,unesco culture 2030 (multiple indicators),GBF_GB_CY_87,GBF,1,Governance,National/international cooperation,NA,NA
-x,united nations framework convention on climate change,GEO_20_8_233;IPBES_GA2.1_sup_61,IPBES;GEO,0,Knowledge systems,Information on society and socio-economics,Direct drivers,Climate change
+x,united nations framework convention on climate change,GEO_20_8_233;IPBES_GA2.1_sup_61,IPBES;GEO,0,Governance,National/international cooperation,Direct drivers,Climate change
 ,united nations system of environmental economic accounting,VA_2_39_33,IPBES,0,Ecosystem services,Specific monetary valuation of nature contribution,NA,NA
 ,"united states dollar value of financial and technical assistance, including through north-south, south-south and triangular cooperation, committed to developing countries and countries with economies in transition",UNCCD_SO5.7_16,UNCCD,1,Governance,National/international cooperation,Governance,Nature-based funding
 ,universal female education,GEO_22_21_257,GEO,0,Human assets,Coverage of basic needs,Human well-being,Equity
@@ -1857,3 +1857,5 @@ x,united nations framework convention on climate change,GEO_20_8_233;IPBES_GA2.1
 ,yield (improvement),GEO_23_24_262,GEO,0,Human assets,Coverage of basic needs,Ecosystem services,Specific monetary valuation of nature contribution
 ,zonally averaged mean annual temperature reconstructions,IPCC_2_31_64,IPCC,0,ecosystems,Abiotic conditions,NA,NA
 ,zoonotic disease,GBF_GB_CY_63;GEO_3_5_16,GBF;GEO,1,Direct drivers,(Infectious) diseases,NA,NA
+,sea surface temperature (sst),,,,ecosystems,Abiotic conditions,NA,NA
+,sea surface air temperature ,,,,ecosystems,Abiotic conditions,NA,NA

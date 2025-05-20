@@ -312,7 +312,7 @@ if(pdf_col == 2){
 ga = readxl::read_excel("../input/assessments/automated_search/extracted_paragraphs/manual_validation/validated_global_matches2.xlsx",
                 sheet = "global_matches2") %>% 
   # re do ID to include page
-  dplyr::mutate(indic_id = paste0('GA_',chapter,'_',page,'_', row_number())) %>% 
+  dplyr::mutate(indic_id = paste0('IPBES_GA_',chapter,'_',page,'_', row_number())) %>% 
   dplyr::select(indic_id,agree_val = `Agreement_validation (1,2,3)`,agree_indic = `Agreement_extracted`, ILK = ILK_indicators)
 
 ipbes_ga_ext = ga %>% 
@@ -355,7 +355,7 @@ rm(ga, ipbes_ga_ext)
 sua = readxl::read_excel("../input/assessments/automated_search/extracted_paragraphs/manual_validation/validated_sua_matches2.xlsx",
                  sheet = "sua_matches2") %>% 
   # re do ID to include page
-  dplyr::mutate(indic_id = paste0('SUA_',chapter,'_',page,'_', row_number())) %>% 
+  dplyr::mutate(indic_id = paste0('IPBES_SUA_',chapter,'_',page,'_', row_number())) %>% 
   dplyr::select(indic_id,agree_val = `Agreement_validation (1,2,3)`,agree_indic = `Agreement_extracted`, ILK = ILK_indicators)
 
 ipbes_sua_ext = sua %>% 
@@ -398,7 +398,7 @@ rm(sua,ipbes_sua_ext)
 va = readxl::read_excel("../input/assessments/automated_search/extracted_paragraphs/manual_validation/validated_values_matches.xlsx",
                 sheet = "values_matches2") %>% 
   # re do ID to include page
-  dplyr::mutate(indic_id = paste0('VA_',chapter,'_',page,'_', row_number())) %>% 
+  dplyr::mutate(indic_id = paste0('IPBES_VA_',chapter,'_',page,'_', row_number())) %>% 
   dplyr::select(indic_id,agree_val = `Agreement_validation (1,2,3)`,agree_indic = `Agreement_extracted`, ILK = ILK_indicators)
 
 ipbes_va_ext = va %>% 
@@ -440,7 +440,7 @@ rm(va,ipbes_va_ext)
 ias = readxl::read_excel("../input/assessments/automated_search/extracted_paragraphs/manual_validation/validated_ias_matches.xlsx",
                  sheet = "ias_matches") %>% 
   # re do ID to include page
-  dplyr::mutate(indic_id = paste0('IAS_',chapter,'_',page,'_', row_number())) %>% 
+  dplyr::mutate(indic_id = paste0('IPBES_IAS_',chapter,'_',page,'_', row_number())) %>% 
   dplyr::select(indic_id,agree_val = `Agreement_validation (1,2,3)`,agree_indic = `Agreement_extracted`, ILK = ILK_indicators)
 
 ipbes_ias_ext = ias %>% 

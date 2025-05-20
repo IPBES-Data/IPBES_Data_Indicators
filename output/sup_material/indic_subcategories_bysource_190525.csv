@@ -1,0 +1,46 @@
+Elements,Subelements,IPBES,IPCC,GEO,GBF,SDG,RAMSAR,CITES,CMS,UNCCD
+Biodiversity,Change in biodiversity,17,1,2,2,NA,2,1,4,1
+Biodiversity,Genetic diversity,5,NA,NA,2,1,NA,NA,NA,NA
+Biodiversity,Genetic resources,4,NA,NA,5,NA,NA,NA,NA,NA
+Biodiversity,Species conservation,6,NA,NA,8,1,NA,1,NA,NA
+Biodiversity,State of biodiversity,94,8,15,36,2,NA,NA,4,NA
+Ecosystems,Abiotic conditions,12,257,22,2,NA,NA,NA,NA,NA
+Ecosystems,Area conservation,21,NA,4,17,3,7,NA,2,NA
+Ecosystems,Change in ecosystems,10,11,7,7,2,1,NA,1,2
+Ecosystems,State of ecosystems,30,31,13,25,2,NA,NA,NA,NA
+Ecosystems,State of ecosystems (configuration),2,1,NA,3,NA,NA,NA,NA,NA
+Ecosystems,State of ecosystems (coverage),14,2,2,4,2,NA,NA,NA,NA
+Ecosystems,State of ecosystems (freshwater/coastal),2,2,1,4,NA,NA,NA,NA,NA
+Ecosystems,State of ecosystems (integrity),3,NA,1,6,NA,2,NA,NA,1
+Ecosystems,State of ecosystems (marine),3,4,NA,NA,1,NA,NA,NA,NA
+Ecosystem services,Nature contribution,59,8,9,10,2,NA,NA,NA,NA
+Ecosystem services,Specific mention of sustainable use of species/ecosystems,10,NA,5,11,2,2,1,1,NA
+Ecosystem services,Specific monetary valuation of nature contribution,11,NA,1,2,2,NA,1,NA,NA
+Human well-being,Equity,15,1,3,13,24,NA,NA,NA,NA
+Human well-being,Healthy living conditions,28,1,35,5,11,1,NA,NA,2
+Human well-being,Recreation,7,NA,NA,1,NA,NA,NA,NA,NA
+Human well-being,Wellness,11,NA,NA,NA,4,NA,NA,NA,NA
+Direct drivers,(Infectious) diseases,3,NA,1,1,1,NA,NA,NA,NA
+Direct drivers,Climate change,9,26,5,5,2,NA,NA,NA,NA
+Direct drivers,Invasive alien species,37,NA,NA,5,NA,1,NA,NA,NA
+Direct drivers,Land conversion,12,NA,6,3,2,NA,NA,NA,NA
+Direct drivers,Natural drivers,6,10,NA,1,1,NA,NA,NA,NA
+Direct drivers,Pollution,28,7,36,14,5,NA,NA,NA,NA
+Direct drivers,Specific mention of over-exploitation and unsustainable use of species/ecosystems,22,NA,3,4,5,NA,NA,NA,NA
+Human assets,Coverage of basic needs,26,NA,8,3,40,NA,NA,NA,NA
+Human assets,Income,15,NA,3,6,10,NA,NA,NA,NA
+Human assets,Infrastructure (build-up area),30,2,7,3,19,NA,NA,NA,NA
+Human assets,State of economy,23,1,5,3,21,NA,NA,NA,1
+Knowledge systems,ILK,45,NA,NA,NA,NA,NA,NA,NA,NA
+Knowledge systems,Information on biodiversity,18,NA,NA,7,NA,5,3,2,NA
+Knowledge systems,Information on society and socio-economics,36,NA,8,9,26,1,NA,1,NA
+Knowledge systems,Specific information on ILK and IPLC,6,NA,NA,4,NA,1,1,1,NA
+Knowledge systems,Specific information on human-nature relationship,19,2,7,5,2,8,5,1,NA
+Governance,Broken governance,2,NA,NA,1,2,NA,2,NA,NA
+Governance,Legislation/governance,22,1,3,8,15,NA,1,NA,NA
+Governance,National/international cooperation,12,NA,1,10,6,17,21,NA,3
+Governance,Nature detrimental legislation,4,NA,3,3,1,NA,NA,NA,NA
+Governance,Nature-based funding,20,NA,NA,15,6,3,2,1,3
+Governance,Nature-based legislation,38,NA,3,33,16,11,13,7,NA
+Ecosystems,Restoration efforts,NA,NA,NA,2,NA,3,NA,NA,NA
+Human well-being,Cultural diversity,NA,NA,NA,3,1,NA,NA,NA,NA

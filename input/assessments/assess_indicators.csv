@@ -3,28 +3,28 @@ indicator_harmonized,indic_ids,sources
 10-day cumulative precipitation,IPCC_12_17_597,IPCC
 15n/14n isotope ratio,IPCC_5_36_279,IPCC
 2 m air temperatures,IPCC_12_15_596,IPCC
-ability of ecosystems to absorb and buffer hazards,GA_2.3_42_143,IPBES
-abnormal occurrences in the territory,SUA_2_95_77,IPBES
-above-ground biomass,GA_2.2_37_70;GA_2.2_39_76;IPBES_GA2.2_sup_1,IPBES
-above-ground biomass in forests,GA_2.3_39_137,IPBES
-absence of conflict as indicator of political stability,GA_2_24_29,IPBES
+ability of ecosystems to absorb and buffer hazards,IPBES_GA_2.3_42_143,IPBES
+abnormal occurrences in the territory,IPBES_SUA_2_95_77,IPBES
+above-ground biomass,IPBES_GA_2.2_37_70;IPBES_GA_2.2_39_76;IPBES_GA2.2_sup_1,IPBES
+above-ground biomass in forests,IPBES_GA_2.3_39_137,IPBES
+absence of conflict as indicator of political stability,IPBES_GA_2_24_29,IPBES
 absolute global forcing potential (agfp),IPCC_7_91_360,IPCC
 absolute global temperature change potential (agtp),IPCC_7_91_360,IPCC
-abundance and location of habitat,SUA_4_78_130,IPBES
-abundance of food species,SUA_2_96_79,IPBES
-abundance of managed and wild pollinators,GA_2.3_42_143,IPBES
-abundance of preferred harvest species,SUA_2_97_80,IPBES
+abundance and location of habitat,IPBES_SUA_4_78_130,IPBES
+abundance of food species,IPBES_SUA_2_96_79,IPBES
+abundance of managed and wild pollinators,IPBES_GA_2.3_42_143,IPBES
+abundance of preferred harvest species,IPBES_SUA_2_97_80,IPBES
 access to electricity,IPBES_GA2.1_sup_15,IPBES
-access to improved sanitation facilities,GA_2_109_44;IPBES_GA2.1_sup_6,IPBES
-access to land,SUA_4_149_137,IPBES
-accessibility of resources,SUA_2_95_77,IPBES
+access to improved sanitation facilities,IPBES_GA_2_109_44;IPBES_GA2.1_sup_6,IPBES
+access to land,IPBES_SUA_4_149_137,IPBES
+accessibility of resources,IPBES_SUA_2_95_77,IPBES
 accumulated cyclone energy (ace),IPCC_11_79_569,IPCC
 accumulated seasonal heat,IPCC_12_14_594,IPCC
 achievement of a circular economic system,GEO_17_20_212,GEO
-adaptive capacity index (aci),GA_4_129_208,IPBES
+adaptive capacity index (aci),IPBES_GA_4_129_208,IPBES
 advanced malaria control,GEO_22_21_257,GEO
-adverse changes in woody or shrubby vegetation,GA_2.2_81_123,IPBES
-adverse changes of unpalatable species,GA_2.2_81_123,IPBES
+adverse changes in woody or shrubby vegetation,IPBES_GA_2.2_81_123,IPBES
+adverse changes of unpalatable species,IPBES_GA_2.2_81_123,IPBES
 aerosol abundance,IPCC_2_24_45,IPCC
 aerosol changes,IPCC_3_17_173,IPCC
 aerosol index,IPCC_7_29_329,IPCC
@@ -34,20 +34,20 @@ agricultural export subsidies,IPBES_SUA_sup_2.b.1_24,IPBES
 agricultural land,IPBES_GA2.1_sup_30,IPBES
 agricultural water withdrawal,IPBES_GA2.1_sup_58,IPBES
 agriculture orientation index for government expenditures,IPBES_SUA_sup_2.a.1_22,IPBES
-agriculture-based materials produced (tons),GA_2.3_42_143,IPBES
+agriculture-based materials produced (tons),IPBES_GA_2.3_42_143,IPBES
 agro-biodiversity,GEO_23_24_262,GEO
 aid for trade commitments and disbursements,IPBES_SUA_sup_8.a.1_57,IPBES
 air departures,IPBES_GA2.1_sup_39,IPBES
 air moisture,IPCC_2_52_82,IPCC
 air passengers,IPBES_GA2.1_sup_38,IPBES
-air pollution,GA_2_83_42;IPBES_GA2.1_sup_44,IPBES
+air pollution,IPBES_GA_2_83_42;IPBES_GA2.1_sup_44,IPBES
 air pollution exposure,GEO_5_19_45,GEO
-air quality,GA_3_123_420;GEO_20_6_228,IPBES;GEO
+air quality,IPBES_GA_3_123_420;GEO_20_6_228,IPBES;GEO
 air quality index,GEO_12_12_111,GEO
 alcohol use,GEO_21_17_251,GEO
-alien species,GA_2_118_47,IPBES
-alien species occurrence,IAS_6_114_165,IPBES
-alien species richness,GA_2_83_42;IAS_3_8_84,IPBES
+alien species,IPBES_GA_2_118_47,IPBES
+alien species occurrence,IPBES_IAS_6_114_165,IPBES
+alien species richness,IPBES_GA_2_83_42;IPBES_IAS_3_8_84,IPBES
 altering of the carbon and biogeochemical cycles,GEO_2_26_7,GEO
 alternative and nuclear energy (percentage of total energy use),IPBES_GA2.1_sup_16,IPBES
 amend policies that lead to destruction of mangroves,GEO_17_8_200,GEO
@@ -56,12 +56,11 @@ amount in united states dollars committed to public-private partnerships for inf
 amount of fossil-fuel subsidies per unit of gross domestic product (production and consumption),IPBES_SUA_sup_12.c.1_101,IPBES
 amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan,IPBES_SUA_sup_6.a.1_37,IPBES
 amounts provided and mobilized in united states dollars per year in relation to the continued existing collective mobilization goal of the $100 billion commitment through to 2025,IPBES_SUA_sup_13.a.1_108,IPBES
-animal behavior,GA_2.3_40_140,IPBES
+animal behavior,IPBES_GA_2.3_40_140,IPBES
 annual count of days when precipitation is greater than or equal to 10 mm,IPCC_sup_24,IPCC
 annual count of days when precipitation is greater than or equal to 20 mm,IPCC_sup_25,IPCC
 annual count of days when precipitation is greater than or equal to 5 mm,IPCC_sup_23,IPCC
 annual count of days when precipitation is greater than or equal to 50 mm,IPCC_sup_26,IPCC
-annual global mean surface temperature,GEO_2_26_7,GEO
 annual growth rate of real gross domestic product,IPBES_SUA_sup_8.1.1_44,IPBES
 annual growth rate of real gross domestic product per employed person,IPBES_SUA_sup_8.2.1_45,IPBES
 annual gsat change,IPCC_1_50_21,IPCC
@@ -70,7 +69,7 @@ annual mean levels of fine particulate matter in cities,IPBES_SUA_sup_11.6.2_83,
 annual mean wind speed,IPCC_sup_50,IPCC
 annual precipitation amount when the daily precipitation exceeds the 99th percentile of the wet-day precipitation,IPCC_sup_30,IPCC
 annual precipitation from daily precipitation > 95th percentile (r95p),IPCC_11_53_541,IPCC
-annual rate of net forest loss,GA_3_27_356;GA_3_27_356,IPBES
+annual rate of net forest loss,IPBES_GA_3_27_356;IPBES_GA_3_27_356,IPBES
 annual total precipitation when the daily precipitation exceeds the 95th percentile of the wet-day (>1 mm) precipitation,IPCC_sup_29,IPCC
 annular mode index,IPCC_4_51_251,IPCC
 antarctic ice cores,IPCC_1_13_4,IPCC
@@ -78,19 +77,19 @@ antarctic ice sheet loss,IPCC_7_55_334,IPCC
 anthropogenic emissions of long-lived greenhouse gases (co2 equivalents),GEO_12_15_115,GEO
 anthropogenic emissions of long-lived greenhouse gases (ghg emissions),GEO_12_18_121,GEO
 antimicrobial resistence in pathogens,GEO_4_15_35,GEO
-appearance of new grass in grazing areas,VA_3_6_54,IPBES
+appearance of new grass in grazing areas,IPBES_VA_3_6_54,IPBES
 arctic sea ice area,IPCC_4_7_219;IPCC_9_37_433,IPCC
-arctic species trend index,GA_3_169_443;GEO_6_24_60,IPBES;GEO
-"area and percent of forests managed primarily to protect the range of cultural, social and spiritual needs and values",SUA_2_92_69,IPBES
-area and percent of forests used for subsistence purposes,SUA_2_92_69,IPBES
-area of agricultural land under conservation,GA_1_52_19;GA_3_15_329;IPBES_GA3_sup_28,IPBES
-area of agricultural land under organic production,GA_3_15_329;IPBES_GA2.1_sup_34;IPBES_GA3_sup_27,IPBES
-area of floodplain wetlands,GA_2.3_39_137,IPBES
-area of forest under sustainable management,GA_3_72_395;IPBES_GA3_sup_29,IPBES
-area of natural and traditional landscapes and seascapes,GA_2.3_42_143,IPBES
+arctic species trend index,IPBES_GA_3_169_443;GEO_6_24_60,IPBES;GEO
+"area and percent of forests managed primarily to protect the range of cultural, social and spiritual needs and values",IPBES_SUA_2_92_69,IPBES
+area and percent of forests used for subsistence purposes,IPBES_SUA_2_92_69,IPBES
+area of agricultural land under conservation,IPBES_GA_1_52_19;IPBES_GA_3_15_329;IPBES_GA3_sup_28,IPBES
+area of agricultural land under organic production,IPBES_GA_3_15_329;IPBES_GA2.1_sup_34;IPBES_GA3_sup_27,IPBES
+area of floodplain wetlands,IPBES_GA_2.3_39_137,IPBES
+area of forest under sustainable management,IPBES_GA_3_72_395;IPBES_GA3_sup_29,IPBES
+area of natural and traditional landscapes and seascapes,IPBES_GA_2.3_42_143,IPBES
 areas below calcium carbonate saturation thresholds,IPCC_12_24_615,IPCC
-arrival of new native and alien species,GA_2.2_6_56,IPBES
-associated species,SUA_2_96_79,IPBES
+arrival of new native and alien species,IPBES_GA_2.2_6_56,IPBES
+associated species,IPBES_SUA_2_96_79,IPBES
 atlantic meridional overturning circulation (amoc),IPCC_2_69_110;IPCC_4_8_220;IPCC_4_18_229,IPCC
 atlantic multi-decadal variability (amv) index,IPCC_2_90_158;IPCC_3_83_210;IPCC_10_58_493,IPCC
 atmosphere-land co2 fluxes,IPCC_3_64_190,IPCC
@@ -99,63 +98,63 @@ atmospheric dust deposition,IPCC_2_43_71,IPCC
 atmospheric evaporative demand (aed),IPCC_11_60_547,IPCC
 atmospheric internal variability,IPCC_8_88_422,IPCC
 atmospheric inversions,IPCC_5_40_281,IPCC
-average conservation status,GA_4_158_230,IPBES
+average conservation status,IPBES_GA_4_158_230,IPBES
 "average hourly earnings of employees, by sex, age, occupation and persons with disabilities",IPBES_SUA_sup_8.5.1_49,IPBES
 "average income of small-scale food producers, by sex and indigenous status",IPBES_SUA_sup_2.3.2_18,IPBES
 average marine acidity (ph) measured at agreed suite of representative sampling stations,IPBES_SUA_sup_14.3.1_113,IPBES
-average number of years of schooling,GA_2_25_31,IPBES
-avoided costs from air pollution,GA_2.3_42_143,IPBES
-avoided morbidity and premature mortality from air pollution,GA_2.3_42_143,IPBES
-avoided water treatment costs,GA_2.3_42_143,IPBES
-bare area,GA_2.3_39_137,IPBES
+average number of years of schooling,IPBES_GA_2_25_31,IPBES
+avoided costs from air pollution,IPBES_GA_2.3_42_143,IPBES
+avoided morbidity and premature mortality from air pollution,IPBES_GA_2.3_42_143,IPBES
+avoided water treatment costs,IPBES_GA_2.3_42_143,IPBES
+bare area,IPBES_GA_2.3_39_137,IPBES
 beach erosion volume due to the 100-year recurrence storm wave height,IPCC_12_20_606,IPCC
 beach litter,GEO_14_14_151;GEO_14_15_152,GEO
 bedrock topography,IPCC_9_48_440,IPCC
 beef consumption,GEO_22_8_255,GEO
-behavior of animals with importance as food,GA_2.3_22_127,IPBES
-benefits derived from healthy ecosystems and costs caused by its depletion,VA_2_38_28,IPBES
+behavior of animals with importance as food,IPBES_GA_2.3_22_127,IPBES
+benefits derived from healthy ecosystems and costs caused by its depletion,IPBES_VA_2_38_28,IPBES
 benthich isotopes,IPCC_2_28_57,IPCC
-better life index,GA_1_52_19,IPBES
+better life index,IPBES_GA_1_52_19,IPBES
 biocapacity,GEO_13_19_143,GEO
-biochemical oxygen demand (bod),GA_3_74_399,IPBES
-biodiversity barometer (percentage of respondents giving correct definition of biodiversity),GA_3_15_329;IPBES_GA3_sup_2,IPBES
-biodiversity barometer (percentage of respondents that have heard of biodiversity),GA_3_15_329;IPBES_GA3_sup_1,IPBES
-biodiversity habitat index,GA_1_52_19;GA_2.2_37_70;GA_2.2_39_75;GA_2.2_52_95;IPBES_GA2.2_sup_2;IPBES_GA2.2_sup_3,IPBES
+biochemical oxygen demand (bod),IPBES_GA_3_74_399,IPBES
+biodiversity barometer (percentage of respondents giving correct definition of biodiversity),IPBES_GA_3_15_329;IPBES_GA3_sup_2,IPBES
+biodiversity barometer (percentage of respondents that have heard of biodiversity),IPBES_GA_3_15_329;IPBES_GA3_sup_1,IPBES
+biodiversity habitat index,IPBES_GA_1_52_19;IPBES_GA_2.2_37_70;IPBES_GA_2.2_39_75;IPBES_GA_2.2_52_95;IPBES_GA2.2_sup_2;IPBES_GA2.2_sup_3,IPBES
 biodiversity habitat index (species persisting),IPBES_GA2.2_sup_55,IPBES
 "biodiversity habitat index (species persisting, hotspots)",IPBES_GA2.2_sup_54,IPBES
-biodiversity in poverty reduction strategies,VA_4_28_109,IPBES
-biodiversity intactness index,GA_1_52_19;GA_2_117_46;GA_2.2_45_87;GA_2.2_46_88;GA_2.3_42_143;GA_5_10_235;VA_3_26_59;GEO_6_16_55;GEO_6_17_57;IPBES_GA2.2_sup_39,IPBES;GEO
+biodiversity in poverty reduction strategies,IPBES_VA_4_28_109,IPBES
+biodiversity intactness index,IPBES_GA_1_52_19;IPBES_GA_2_117_46;IPBES_GA_2.2_45_87;IPBES_GA_2.2_46_88;IPBES_GA_2.3_42_143;IPBES_GA_5_10_235;IPBES_VA_3_26_59;GEO_6_16_55;GEO_6_17_57;IPBES_GA2.2_sup_39,IPBES;GEO
 biodiversity intactness index (hotspots),IPBES_GA2.2_sup_37,IPBES
 biodiversity intactness index (indigenous lands),IPBES_GA2.2_sup_38,IPBES
-biodiversity intactness index (tropical forest),GA_2.2_37_70;IPBES_GA2.2_sup_47,IPBES
-"biodiversity intactness index (tropical forest, hotspots)",GA_2.2_37_70;IPBES_GA2.2_sup_45,IPBES
-"biodiversity intactness index (tropical forest, indigenous lands)",GA_2.2_37_70;IPBES_GA2.2_sup_46,IPBES
+biodiversity intactness index (tropical forest),IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_47,IPBES
+"biodiversity intactness index (tropical forest, hotspots)",IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_45,IPBES
+"biodiversity intactness index (tropical forest, indigenous lands)",IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_46,IPBES
 biofuel production,GEO_8_26_75,GEO
-biological pump efficiency,GA_2.2_37_70;IPBES_GA2.2_sup_28,IPBES
-biomass abundance,GA_4_34_176,IPBES
-biomass of prey fish,GA_2.2_1_50,IPBES
-biomass turnover rate,GA_2.2_37_70;IPBES_GA2.2_sup_29,IPBES
-biophysical inventories of biodiversity and ecosystem services,VA_4_28_109,IPBES
-biotic productivity,GA_2.3_56_155,IPBES
-biotime species richness indicator,GA_2.2_45_85,IPBES
-biotime-local species richness,GA_1_52_19,IPBES
-bird species per grid cell,GA_2.2_37_70;IPBES_GA2.2_sup_48,IPBES
+biological pump efficiency,IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_28,IPBES
+biomass abundance,IPBES_GA_4_34_176,IPBES
+biomass of prey fish,IPBES_GA_2.2_1_50,IPBES
+biomass turnover rate,IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_29,IPBES
+biophysical inventories of biodiversity and ecosystem services,IPBES_VA_4_28_109,IPBES
+biotic productivity,IPBES_GA_2.3_56_155,IPBES
+biotime species richness indicator,IPBES_GA_2.2_45_85,IPBES
+biotime-local species richness,IPBES_GA_1_52_19,IPBES
+bird species per grid cell,IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_48,IPBES
 blocking index,IPCC_8_47_395,IPCC
 blood pressure,GEO_21_17_251,GEO
-blue water sustainability index,GA_3_76_401,IPBES
-body condition,SUA_2_97_80;SUA_4_89_132,IPBES
-body fat,SUA_4_78_130,IPBES
+blue water sustainability index,IPBES_GA_3_76_401,IPBES
+body condition,IPBES_SUA_2_97_80;IPBES_SUA_4_89_132,IPBES
+body fat,IPBES_SUA_4_78_130,IPBES
 body mass index,GEO_21_17_251,GEO
 boron-isotope,IPCC_2_14_37,IPCC
 buffer zones to protect catchment areas,GEO_17_8_200,GEO
 build up area,GEO_8_14_67;GEO_8_14_67,GEO
 business operations,GEO_17_20_212,GEO
-c pool,GA_4_34_176,IPBES
+c pool,IPBES_GA_4_34_176,IPBES
 c-haines index,IPCC_12_43_643,IPCC
-caloric intake,GA_2_22_28;GA_2_24_29,IPBES
-carbon sequestration,GA_2.3_56_155,IPBES
+caloric intake,IPBES_GA_2_22_28;IPBES_GA_2_24_29,IPBES
+carbon sequestration,IPBES_GA_2.3_56_155,IPBES
 carbon uptake by land and ocean,IPCC_4_8_220,IPCC
-catch per unit effort,GA_2.3_40_140;SUA_2_96_79;SUA_2_97_80;SUA_6_115_207,IPBES
+catch per unit effort,IPBES_GA_2.3_40_140;IPBES_SUA_2_96_79;IPBES_SUA_2_97_80;IPBES_SUA_6_115_207,IPBES
 certified forest area,IPBES_GA2.1_sup_60,IPBES
 change in # days hi>41°c,IPCC_12_24_613,IPCC
 change in # days tx>35°c,IPCC_12_24_613,IPCC
@@ -165,10 +164,10 @@ change in extreme total water level,IPCC_12_24_613,IPCC
 change in mean wind,IPCC_12_24_613,IPCC
 change in the extent of water-related ecosystems over time,IPBES_SUA_sup_6.6.1_36,IPBES
 change in water-use efficiency over time,IPBES_SUA_sup_6.4.1_32,IPBES
-changes in crop phenology,GA_2.3_22_127,IPBES
+changes in crop phenology,IPBES_GA_2.3_22_127,IPBES
 changes in evapotranspiration demand,IPCC_12_17_599,IPCC
 changes in groundwater,IPCC_12_17_599,IPCC
-changes in land versus world trade organisation greenbox agricultural subsidies,IPCC_2_31_65,IPCC
+changes in land versus sea surface temperature,IPCC_2_31_65,IPCC
 changes in low flows,IPCC_11_60_550,IPCC
 changes in mean precipitation,IPCC_4_49_249,IPCC
 changes in mean streamflow,IPCC_11_60_550,IPCC
@@ -180,20 +179,20 @@ changes in soil moisture,IPCC_12_17_599,IPCC
 changes in surface water,IPCC_12_17_599,IPCC
 "changes in terrestrial, marine and freshwater vertebrate populations",GEO_21_10_246,GEO
 "changes in the number of warm nights, warm days, cold nights, and cold days",IPCC_11_40_526,IPCC
-changing range of wild species,GA_2.2_6_56,IPBES
+changing range of wild species,IPBES_GA_2.2_6_56,IPBES
 chemical contaminants,GEO_23_24_263,GEO
-child mortality,GA_2_22_28;GEO_22_21_257,IPBES;GEO
+child mortality,IPBES_GA_2_22_28;GEO_22_21_257,IPBES;GEO
 child mortality rate,IPBES_GA2.1_sup_22,IPBES
 childhood undernutrition,GEO_21_17_251,GEO
 circulation,IPCC_2_26_47,IPCC
 circulation index,IPCC_4_8_221,IPCC
-cites parties that have implemented relevant resolutions and decisions,SUA_4_68_125,IPBES
-city biodiversity index,GA_3_115_417;GEO_13_14_128,IPBES;GEO
+cites parties that have implemented relevant resolutions and decisions,IPBES_SUA_4_68_125,IPBES
+city biodiversity index,IPBES_GA_3_115_417;GEO_13_14_128,IPBES;GEO
 climate related loss events,GEO_2_28_8,GEO
-climate risk index,VA_6_64_156,IPBES
+climate risk index,IPBES_VA_6_64_156,IPBES
 climate velocity,IPCC_12_14_593,IPCC
-climatic impact index,GA_3_35_362,IPBES
-climatic impact index for birds,GA_3_72_395;IPBES_GA3_sup_39,IPBES
+climatic impact index,IPBES_GA_3_35_362,IPBES
+climatic impact index for birds,IPBES_GA_3_72_395;IPBES_GA3_sup_39,IPBES
 climatic impact-driver (cid) duration,IPCC_12_22_609,IPCC
 climatic impact-driver (cid) frequency,IPCC_12_22_609,IPCC
 climatic impact-driver (cid) magnitude,IPCC_12_22_609,IPCC
@@ -202,23 +201,23 @@ climatic impact-driver (cid) timing,IPCC_12_22_609,IPCC
 clorophyll concentration,IPCC_2_75_119,IPCC
 co2 concentration,IPCC_4_79_266;GEO_7_7_63,IPCC;GEO
 co2 emission per unit of value added,IPBES_SUA_sup_9.4.1_65,IPBES
-co2 emissions,GA_3_123_420,IPBES
-coastal carbon-rich habitat,GA_2.2_37_70;IPBES_GA2.2_sup_4,IPBES
-coastal protection habitats,GA_2.2_37_70;IPBES_GA2.2_sup_5,IPBES
+co2 emissions,IPBES_GA_3_123_420,IPBES
+coastal carbon-rich habitat,IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_4,IPBES
+coastal protection habitats,IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_5,IPBES
 cold season temperatures,IPCC_12_19_604,IPCC
 cold spell duration index: annual count of days with at least six consecutive days when tn <10th percentile,IPCC_sup_12,IPCC
 combined extreme index (cei),IPCC_11_40_527,IPCC
 combined sea level due to storm surge and tide,IPCC_12_45_645,IPCC
-commercial trade in wild-collected specimens,SUA_4_71_127,IPBES
-commodity index,GA_6_137_288,IPBES
+commercial trade in wild-collected specimens,IPBES_SUA_4_71_127,IPBES
+commodity index,IPBES_GA_6_137_288,IPBES
 community awareness,GEO_17_8_200,GEO
-companies with policies for biodiversity-friendly practices,VA_4_28_109,IPBES
-comparison of the number of available first records of established alien species for a region with the total number of species recorded for the same region,IAS_2_14_17,IPBES
+companies with policies for biodiversity-friendly practices,IPBES_VA_4_28_109,IPBES
+comparison of the number of available first records of established alien species for a region with the total number of species recorded for the same region,IPBES_IAS_2_14_17,IPBES
 complete phase-out of biomass use for cooking,GEO_22_21_257,GEO
-concentration of hydrogen ions (h+),IAS_4_8_100,IPBES
-condition and size of wild animals,GA_2.2_65_113,IPBES
-connection to land,GA_2.3_36_133,IPBES
-connection to sea,GA_2.3_36_133,IPBES
+concentration of hydrogen ions (h+),IPBES_IAS_4_8_100,IPBES
+condition and size of wild animals,IPBES_GA_2.2_65_113,IPBES
+connection to land,IPBES_GA_2.3_36_133,IPBES
+connection to sea,IPBES_GA_2.3_36_133,IPBES
 consecutive dry days (cdd),IPCC_11_58_543;IPCC_11_93_579;IPCC_12_17_601;IPCC_12_57_665,IPCC
 container port traffic (teu: 20 foot equivalent units),IPBES_GA2.1_sup_37,IPBES
 contrast of mean precipitation between dry and wet regions and between dry and wet seasons,IPCC_4_49_249,IPCC
@@ -229,26 +228,26 @@ convention on the conservation of antarctic marine living resources,IPBES_GA2.1_
 cooling degree day index,IPCC_12_54_662,IPCC
 cooling degree days,IPCC_12_46_648;IPCC_sup_42,IPCC
 coral bleaching,GEO_7_7_63,GEO
-correlation between high cultural diversity and areas of high biodiversity,GA_2.3_71_160,IPBES
-corruption perception index,VA_3_27_60,IPBES
-costs associated with maintaining ncps of past or future projects,VA_3_76_86,IPBES
-costs associated with protecting nature and biodiversity,VA_3_76_86,IPBES
-coverage by protected areas of important sites for mountain biodiversity,GA_3_72_395,IPBES
-coverage of fisheries with management measures to reduce bycatch and discards,GA_1_52_19,IPBES
+correlation between high cultural diversity and areas of high biodiversity,IPBES_GA_2.3_71_160,IPBES
+corruption perception index,IPBES_VA_3_27_60,IPBES
+costs associated with maintaining ncps of past or future projects,IPBES_VA_3_76_86,IPBES
+costs associated with protecting nature and biodiversity,IPBES_VA_3_76_86,IPBES
+coverage by protected areas of important sites for mountain biodiversity,IPBES_GA_3_72_395,IPBES
+coverage of fisheries with management measures to reduce bycatch and discards,IPBES_GA_1_52_19,IPBES
 coverage of protected areas in relation to marine areas,GEO_14_14_147,GEO
 "credit to agriculture, forestry and fishing",IPBES_GA2.1_sup_66,IPBES
-crops and their dietary roles,GA_2.3_22_127,IPBES
+crops and their dietary roles,IPBES_GA_2.3_22_127,IPBES
 cross-natrional comparative information on access to and ownership of land,GEO_3_10_20,GEO
-cultivated area,GA_2.3_39_137,IPBES
-cultural continuity,SUA_2_95_77,IPBES
-culturally salient species,GA_2.2_5_55;GA_2.2_65_113,IPBES
+cultivated area,IPBES_GA_2.3_39_137,IPBES
+cultural continuity,IPBES_SUA_2_95_77,IPBES
+culturally salient species,IPBES_GA_2.2_5_55;IPBES_GA_2.2_65_113,IPBES
 cumulative ghg emissions,IPCC_1_58_23,IPCC
-cumulative human impacts on marine ecosystems,GA_4_155_228,IPBES
-cumulative introduced invasive aliens,GA_2.2_37_70;GA_2.2_37_70;IPBES_GA2.2_sup_49;IPBES_GA2.2_sup_50,IPBES
+cumulative human impacts on marine ecosystems,IPBES_GA_4_155_228,IPBES
+cumulative introduced invasive aliens,IPBES_GA_2.2_37_70;IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_49;IPBES_GA2.2_sup_50,IPBES
 cumulative storm energy and storm power index,IPCC_12_20_606,IPCC
-current distribution of species,IAS_2_155_79,IPBES
-cyclical patterns of abundance,SUA_2_96_79,IPBES
-"daily exposure natural terrestrial, coastal and marine areas",GA_2.3_42_143,IPBES
+current distribution of species,IPBES_IAS_2_155_79,IPBES
+cyclical patterns of abundance,IPBES_SUA_2_96_79,IPBES
+"daily exposure natural terrestrial, coastal and marine areas",IPBES_GA_2.3_42_143,IPBES
 daily maximum tempreature above 35°c,IPCC_12_11_589,IPCC
 daily precipitation,IPCC_11_25_512,IPCC
 daily temperature,IPCC_11_25_512;IPCC_11_37_520,IPCC
@@ -264,97 +263,97 @@ degree of application of a legal/regulatory/ policy/institutional framework whic
 "degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing",IPBES_SUA_sup_14.6.1_116,IPBES
 degree of integrated water resources management,IPBES_SUA_sup_6.5.1_34,IPBES
 degree of sustainable public procurement policies and action plan implementation,IPBES_SUA_sup_12.7.1_97,IPBES
-demand for greener products and services,GA_3_26_355,IPBES
+demand for greener products and services,IPBES_GA_3_26_355,IPBES
 democracy,GEO_22_21_257,GEO
-density of preferred and palatable species,GA_2.3_40_140,IPBES
+density of preferred and palatable species,IPBES_GA_2.3_40_140,IPBES
 developing countries’ and least developed countries’ share of global exports,IPBES_SUA_sup_17.11.1_148,IPBES
-development of crop varieties or landraces,GA_2.3_22_127,IPBES
+development of crop varieties or landraces,IPBES_GA_2.3_22_127,IPBES
 dietary health and sustainability,GEO_17_11_203;GEO_17_12_205,GEO
 direct co2 air measurements,IPCC_1_13_4,IPCC
 direct economic loss attributed to disasters in relation to global gross domestic product,IPBES_SUA_sup_1.5.2_7,IPBES
 "direct economic loss in relation to global gross domestic product, damage to critical infrastructure and number of disruptions to basic services, attributed to disasters",IPBES_SUA_sup_11.5.2_82,IPBES
 disability-adjusted life years (dalys) lost,GEO_5_19_45,GEO
-discontinued traditional land-management practices,GA_2.2_6_56,IPBES
-distance travelled to harvest resources,GA_2.2_5_55;GA_2.2_65_113;GA_2.3_40_140,IPBES
+discontinued traditional land-management practices,IPBES_GA_2.2_6_56,IPBES
+distance travelled to harvest resources,IPBES_GA_2.2_5_55;IPBES_GA_2.2_65_113;IPBES_GA_2.3_40_140,IPBES
 distribution of marine biota,IPCC_2_26_47,IPCC
 distribution of species,IPCC_2_75_120,IPCC
 distribution of terrestrial biota,IPCC_2_26_47,IPCC
-diversity of competent hosts of vector-borne diseases,GA_2.3_42_143,IPBES
-diversity of life from which to learn,GA_2.3_42_143,IPBES
+diversity of competent hosts of vector-borne diseases,IPBES_GA_2.3_42_143,IPBES
+diversity of life from which to learn,IPBES_GA_2.3_42_143,IPBES
 dollar value of all resources made available to strengthen statistical capacity in developing countries,IPBES_SUA_sup_17.19.1_157,IPBES
 "dollar value of financial and technical assistance (including through north-south, south‑south and triangular cooperation) committed to developing countries",IPBES_SUA_sup_17.9.1_146,IPBES
-domestic material consumption,GA_2_24_29;GEO_17_20_213;IPBES_GA2.1_sup_7,IPBES;GEO
+domestic material consumption,IPBES_GA_2_24_29;GEO_17_20_213;IPBES_GA2.1_sup_7,IPBES;GEO
 "domestic material consumption, domestic material consumption, and domestic material consumption per gross domestic product",IPBES_SUA_sup_8.4.2_48;IPBES_SUA_sup_12.2.2_90,IPBES
 "drinking water supply, treatment and distribution",GEO_9_18_80,GEO
 drought frequency (df),IPCC_12_43_641,IPCC
 drought index (di),IPCC_12_43_640,IPCC
 drought severity index,IPCC_12_57_666,IPCC
 drought-resistant vegetation,GEO_17_8_200,GEO
-droughts,GA_2.2_6_56,IPBES
+droughts,IPBES_GA_2.2_6_56,IPBES
 early nimbus satellite visible and infrared imagery,IPCC_2_58_91,IPCC
-ecolabel index,SUA_2_93_72,IPBES
-ecological footprint,GA_1_52_19;GA_5_73_254;GA_3_15_329;GA_3_26_355;VA_2_38_29;GEO_13_14_129;GEO_13_19_142;IPBES_GA3_sup_10,IPBES;GEO
+ecolabel index,IPBES_SUA_2_93_72,IPBES
+ecological footprint,IPBES_GA_1_52_19;IPBES_GA_5_73_254;IPBES_GA_3_15_329;IPBES_GA_3_26_355;IPBES_VA_2_38_29;GEO_13_14_129;GEO_13_19_142;IPBES_GA3_sup_10,IPBES;GEO
 economic damages due to river floods,IPCC_1_62_25,IPCC
 economic growth,GEO_3_5_16,GEO
 economic inequality,IPCC_1_62_25,IPCC
-economic value of bio-inspired production,GA_2.3_42_143,IPBES
+economic value of bio-inspired production,IPBES_GA_2.3_42_143,IPBES
 el niño-southern oscillation (enso) index,IPCC_2_76_122;IPCC_4_8_220;IPCC_4_27_234;IPCC_5_36_278,IPCC
 el niño-southern oscillation (enso) index bjerknes index,IPCC_4_37_241,IPCC
 electric power consumption (kwh per capita),IPBES_GA2.1_sup_14,IPBES
 emission of particular compounds,IPCC_7_90_359,IPCC
 emissions of ozone-depleting substances,GEO_12_15_115;GEO_12_17_120,GEO
-employment in materials production,GA_2.3_42_143,IPBES
-encounter rates with supernatural forest dwelling entities,GA_2.3_41_142,IPBES
-endemic species richness,VA_2_10_12,IPBES
-endemism richness,GA_2.2_21_61,IPBES
+employment in materials production,IPBES_GA_2.3_42_143,IPBES
+encounter rates with supernatural forest dwelling entities,IPBES_GA_2.3_41_142,IPBES
+endemic species richness,IPBES_VA_2_10_12,IPBES
+endemism richness,IPBES_GA_2.2_21_61,IPBES
 energy consumption,GEO_17_14_210,GEO
-energy content of bioenergy crops,GA_2.3_42_143,IPBES
+energy content of bioenergy crops,IPBES_GA_2.3_42_143,IPBES
 energy intensity measured in terms of primary energy and gross domestic product,IPBES_SUA_sup_7.3.1_41,IPBES
 energy production,GEO_17_14_210,GEO
-energy security from bio-energy and fuelwood,GA_2.3_42_143,IPBES
+energy security from bio-energy and fuelwood,IPBES_GA_2.3_42_143,IPBES
 "energy supply derived from cereals, roots and tubers",IPBES_GA2.1_sup_18,IPBES
 energy use (kg of oil equivalent per capita),IPBES_GA2.1_sup_10,IPBES
 energy-intensity,GEO_22_12_256,GEO
 enhanced vegetation index,GEO_6_18_58,GEO
-environmental awareness,VA_2_10_12,IPBES
-environmental change,SUA_2_97_80,IPBES
-environmental component of the social sustainability index,GA_2_25_34,IPBES
-environmental performance index,GA_2_25_34;GA_5_104_261;GA_5_107_262,IPBES
+environmental awareness,IPBES_VA_2_10_12,IPBES
+environmental change,IPBES_SUA_2_97_80,IPBES
+environmental component of the social sustainability index,IPBES_GA_2_25_34,IPBES
+environmental performance index,IPBES_GA_2_25_34;IPBES_GA_5_104_261;IPBES_GA_5_107_262,IPBES
 environmentally friendly policy processes,GEO_3_5_16,GEO
 equilibrium climate sensitivity ecs,IPCC_7_9_323,IPCC
 essential climate variables (ecvs),IPCC_1_64_26,IPCC
 essential ocean variables (eovs),IPCC_1_64_26,IPCC
 estimate of gsat (era-5),IPCC_1_45_19,IPCC
-estimated fisheries catch and fishing effort,GA_1_52_19,IPBES
-ethnographic accounts,VA_2_38_28,IPBES
+estimated fisheries catch and fishing effort,IPBES_GA_1_52_19,IPBES
+ethnographic accounts,IPBES_VA_2_38_28,IPBES
 evaporative demand drought index (eddi),IPCC_11_58_543,IPCC
-evapotranspiration,GA_2.2_37_70;IPBES_GA2.2_sup_30,IPBES
-evolutionary diversity,IAS_3_84_95,IPBES
+evapotranspiration,IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_30,IPBES
+evolutionary diversity,IPBES_IAS_3_84_95,IPBES
 excess of atmospheric evaporative demand (aed),IPCC_11_58_544,IPCC
-existence and uptake of multilateral agreements and national legislation relevant to the prevention and control of invasive alien species,IAS_6_14_142,IPBES
+existence and uptake of multilateral agreements and national legislation relevant to the prevention and control of invasive alien species,IPBES_IAS_6_14_142,IPBES
 "existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy",IPBES_SUA_sup_8.b.1_58,IPBES
 expansion of oligotrophic subtropical gyres of the atlantic and pacific oceans,IPCC_2_74_117,IPCC
-expansion of settlements,GA_2.2_6_56,IPBES
+expansion of settlements,IPBES_GA_2.2_6_56,IPBES
 exposure to ambient pm,GEO_5_19_45,GEO
 exposure to high concentrations of pollutants,GEO_5_19_45,GEO
 exposure to pm concentrations (population-weighted annual mean concentration of pm2.5),GEO_12_16_117,GEO
-extent of agricultural land,GA_2.3_42_143,IPBES
-extent of ecosystems that filter or add constituent components to water,GA_2.3_42_143,IPBES
-extent of forests,GA_2.2_1_50;GA_2.2_37_70;GA_2.2_40_78;GA_2.3_42_143;IPBES_GA2.2_sup_6,IPBES
+extent of agricultural land,IPBES_GA_2.3_42_143,IPBES
+extent of ecosystems that filter or add constituent components to water,IPBES_GA_2.3_42_143,IPBES
+extent of forests,IPBES_GA_2.2_1_50;IPBES_GA_2.2_37_70;IPBES_GA_2.2_40_78;IPBES_GA_2.3_42_143;IPBES_GA2.2_sup_6,IPBES
 extent of ice cover,GEO_2_26_7,GEO
-extent of intact forest landscapes,GA_2.2_37_70;IPBES_GA2.2_sup_7,IPBES
-extent of marine calcification benefits from coral reefs,GA_2.3_42_143,IPBES
-extent of marine wilderness,GA_2.2_37_70;IPBES_GA2.2_sup_8,IPBES
-extent of protected and intact habitat globally,GA_2.3_59_157,IPBES
-extent of suitable habitat,GA_2.2_37_70;GA_2.2_37_70;GA_2.3_42_143;GA_3_15_329;IPBES_GA2.2_sup_16;IPBES_GA3_sup_17,IPBES
+extent of intact forest landscapes,IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_7,IPBES
+extent of marine calcification benefits from coral reefs,IPBES_GA_2.3_42_143,IPBES
+extent of marine wilderness,IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_8,IPBES
+extent of protected and intact habitat globally,IPBES_GA_2.3_59_157,IPBES
+extent of suitable habitat,IPBES_GA_2.2_37_70;IPBES_GA_2.2_37_70;IPBES_GA_2.3_42_143;IPBES_GA_3_15_329;IPBES_GA2.2_sup_16;IPBES_GA3_sup_17,IPBES
 extent of suitable habitat (mammals),IPBES_GA2.2_sup_65,IPBES
-extent of suitable habitat index (esh),GA_5_34_243,IPBES
-extent of terrestrial wilderness,GA_2.2_37_70;IPBES_GA2.2_sup_9,IPBES
+extent of suitable habitat index (esh),IPBES_GA_5_34_243,IPBES
+extent of terrestrial wilderness,IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_9,IPBES
 extent of use of country-owned results frameworks and planning tools by providers of development cooperation,IPBES_SUA_sup_17.15.1_151,IPBES
-extent of which essential policy and management approaches have been adopted,IAS_6_56_150,IPBES
-"extent to which (i) global citizenship education and (ii) education for sustainable development, including gender equality and human rights, are mainstreamed at all levels in: (a) national education policies, (b) curricula, (c) teacher education and (d) student assessments",VA_6_52_152;IPBES_SUA_sup_12.8.1_98;IPBES_SUA_sup_13.3.1_107,IPBES
-extinction risk,GA_2.2_1_50,IPBES
-extinction risk of wild relatives of domesticated or farmed birds and mammals,GA_3_44_371,IPBES
+extent of which essential policy and management approaches have been adopted,IPBES_IAS_6_56_150,IPBES
+"extent to which (i) global citizenship education and (ii) education for sustainable development, including gender equality and human rights, are mainstreamed at all levels in: (a) national education policies, (b) curricula, (c) teacher education and (d) student assessments",IPBES_VA_6_52_152;IPBES_SUA_sup_12.8.1_98;IPBES_SUA_sup_13.3.1_107,IPBES
+extinction risk,IPBES_GA_2.2_1_50,IPBES
+extinction risk of wild relatives of domesticated or farmed birds and mammals,IPBES_GA_3_44_371,IPBES
 extraction all of biomass,IPBES_GA2.1_sup_48,IPBES
 extraction biomass animals,IPBES_GA2.1_sup_53,IPBES
 extraction biomass feed,IPBES_GA2.1_sup_52,IPBES
@@ -362,154 +361,148 @@ extraction biomass food,IPBES_GA2.1_sup_50,IPBES
 extraction biomass forestry,IPBES_GA2.1_sup_51,IPBES
 extraction fossil-fuel,IPBES_GA2.1_sup_55,IPBES
 extraction of industrial and constrution minerals,IPBES_GA2.1_sup_49,IPBES
-extraction of living biomass,GA_2_83_42,IPBES
-extraction of non-human materials,GA_2_118_47,IPBES
-extraction of non-living materials,GA_2_83_42,IPBES
+extraction of living biomass,IPBES_GA_2_83_42,IPBES
+extraction of non-human materials,IPBES_GA_2_118_47,IPBES
+extraction of non-living materials,IPBES_GA_2_83_42,IPBES
 extraction ores,IPBES_GA2.1_sup_47,IPBES
 extraction other biomass,IPBES_GA2.1_sup_54,IPBES
 extreme canopy temperatures,IPCC_12_15_596,IPCC
 extreme low runoff,IPCC_12_17_601,IPCC
 extreme temperatures,IPCC_11_24_511,IPCC
-farmland bird index,SUA_4_51_116,IPBES
+farmland bird index,IPBES_SUA_4_51_116,IPBES
 "fatal and non-fatal occupational injuries per 100,000 workers, by sex and migrant status",IPBES_SUA_sup_8.8.1_53,IPBES
 fertility rates,GEO_22_21_257,GEO
 fertilizer price,GEO_8_26_75,GEO
-fertilizer use,GA_2_83_42,IPBES
+fertilizer use,IPBES_GA_2_83_42,IPBES
 fertilizers used,IPBES_GA2.1_sup_43,IPBES
-fewer lives lost,VA_2_76_48,IPBES
+fewer lives lost,IPBES_VA_2_76_48,IPBES
 fire disturbances/burned areas,IPCC_1_66_27,IPCC
 fire risk,IPCC_12_85_722,IPCC
 fire weather index (fwi),IPCC_12_66_682;IPCC_12_79_710,IPCC
 first and last days of snow cover,IPCC_12_19_604,IPCC
-fisheries exploitation rates,GA_3_164_441,IPBES
-fisheries stock size,GA_3_164_441,IPBES
-floating plastic debris density,GEO_14_15_152;GEO_14_15_154;GEO_20_8_234,GEO
-floating plastic litter density,GEO_7_19_66,GEO
+fisheries exploitation rates,IPBES_GA_3_164_441,IPBES
+fisheries stock size,IPBES_GA_3_164_441,IPBES
 flood index (fi),IPCC_sup_47,IPCC
-floods,GA_2.2_6_56,IPBES
+floods,IPBES_GA_2.2_6_56,IPBES
 food deficit (kcal/capit a/day) (3- year average),IPBES_GA2.1_sup_5,IPBES
 food loss index,IPBES_SUA_sup_12.3.1.a_91,IPBES
-food produced (kcal),GA_2.3_42_143,IPBES
-food quality (nutrients),GA_2.3_42_143,IPBES
+food produced (kcal),IPBES_GA_2.3_42_143,IPBES
+food quality (nutrients),IPBES_GA_2.3_42_143,IPBES
 food security index,GEO_3_12_24;IPBES_GA2.1_sup_4,IPBES;GEO
 food waste index,GEO_23_24_262;IPBES_SUA_sup_12.3.1.b_92,IPBES;GEO
 "foreign direct investment (fdi), official development assistance and south-south cooperation as a proportion of total domestic budget",IPBES_SUA_sup_17.3.1_141,IPBES
-forest and its role in protecting water sources,GA_2.3_22_127,IPBES
+forest and its role in protecting water sources,IPBES_GA_2.3_22_127,IPBES
 forest and land management,GEO_23_24_262,GEO
-forest area as a percentage of total land area,GA_1_52_19;GEO_15_19_170;IPBES_SUA_sup_15.1.1_121,IPBES;GEO
+forest area as a percentage of total land area,IPBES_GA_1_52_19;GEO_15_19_170;IPBES_SUA_sup_15.1.1_121,IPBES;GEO
 forest fire danger index (ffdi),IPCC_12_43_642;IPCC_12_43_643,IPCC
-forest-specialist bird species per grid cell,GA_2.2_37_70;IPBES_GA2.2_sup_51,IPBES
-forests and grazing lands loss,GA_2.2_5_55,IPBES
+forest-specialist bird species per grid cell,IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_51,IPBES
+forests and grazing lands loss,IPBES_GA_2.2_5_55,IPBES
 fossil co2 emissions,IPCC_4_79_266,IPCC
 fossil-fuel energy consumption (percentage of total),IPBES_GA2.1_sup_12,IPBES
 fraction of absorbed photosynthetically active radiation (fapar),IPCC_1_66_27;IPCC_2_79_128,IPCC
-fraction of ocean not fished per year,GA_2.2_37_70;IPBES_GA2.2_sup_10,IPBES
+fraction of ocean not fished per year,IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_10,IPBES
 fraction of precipitation falling as snow,IPCC_12_19_604,IPCC
 free tropospheric ozone,IPCC_2_21_42,IPCC
 freshwater change over time,GEO_16_19_194,GEO
 freshwater withdrawal as a proportion of available freshwater resources,GEO_16_14_181;GEO_20_8_234,GEO
 fuel aridity,IPCC_12_18_602,IPCC
 full exceedance probability distribution of coastal erosion volume,IPCC_12_20_606,IPCC
-functional diversity,IAS_5_109_131,IPBES
-functional intactness (madingley),GA_2.2_37_70;GA_2.2_47_90;IPBES_GA2.2_sup_52,IPBES
+functional diversity,IPBES_IAS_5_109_131,IPBES
+functional intactness (madingley),IPBES_GA_2.2_37_70;IPBES_GA_2.2_47_90;IPBES_GA2.2_sup_52,IPBES
 functional richness (madingley),IPBES_GA2.2_sup_78,IPBES
 funding committed to environmental research,IPBES_GA3_sup_65,IPBES
-funding for environmental education,GA_3_15_329,IPBES
-funding for environmental impact assessments,GA_3_15_329,IPBES
+funding for environmental education,IPBES_GA_3_15_329,IPBES
+funding for environmental impact assessments,IPBES_GA_3_15_329,IPBES
 funding provided by the global environment facility,IPBES_GA3_sup_66,IPBES
 funding towards environmental education,IPBES_GA3_sup_3,IPBES
 funding towards environmental impact assessment,IPBES_GA3_sup_5,IPBES
-funding towards institutional capacity building in fisheries,GA_3_15_329;IPBES_GA3_sup_8,IPBES
+funding towards institutional capacity building in fisheries,IPBES_GA_3_15_329;IPBES_GA3_sup_8,IPBES
 funding towards nature reserves,IPBES_GA3_sup_48,IPBES
 funding towards species protection,IPBES_GA3_sup_51,IPBES
 gender-disaggregated agricultural indices,GEO_3_10_20,GEO
-gene bank accession and available genetic resources,GA_2.3_42_143,IPBES
+gene bank accession and available genetic resources,IPBES_GA_2.3_42_143,IPBES
 genesis potential index,IPCC_11_78_568,IPCC
-genetic diversity,VA_2_10_12;VA_2_38_28,IPBES
-genuine progress indicator,GA_6_139_289;VA_2_8_10;VA_2_38_29;VA_5_78_136;VA_6_21_143;IAS_6_85_153,IPBES
-geographical overlay of linguistic diversity and biodiversity,GA_2.3_39_137,IPBES
+genetic diversity,IPBES_VA_2_10_12;IPBES_VA_2_38_28,IPBES
+genuine progress indicator,IPBES_GA_6_139_289;IPBES_VA_2_8_10;IPBES_VA_2_38_29;IPBES_VA_5_78_136;IPBES_VA_6_21_143;IPBES_IAS_6_85_153,IPBES
+geographical overlay of linguistic diversity and biodiversity,IPBES_GA_2.3_39_137,IPBES
 ghg changes,IPCC_3_17_173,IPCC
 ghg emissions,GEO_5_17_41;GEO_12_18_122;IPBES_GA2.1_sup_41;IPBES_GA2.1_sup_46,IPBES;GEO
 ghg emissions from agriculture,GEO_17_9_201,GEO
 ghs effective radiative forcing,IPCC_7_44_330,IPCC
-gini index,GA_5_80_256,IPBES
-glacial mass balance,GA_3_51_381;IPBES_GA3_sup_37,IPBES
-glaciar mass loss,IPCC_9_65_447,IPCC
+gini index,IPBES_GA_5_80_256,IPBES
 glacier areal and mass changes/loss rate,IPCC_2_60_95,IPCC
 glacier mass and extent,IPCC_2_26_47,IPCC
-glacier mass balance,GEO_2_26_7,GEO
-glacier mass loss,IPCC_1_13_4,IPCC
+glacier mass balance,IPBES_GA_3_51_381;GEO_2_26_7;IPBES_GA3_sup_37,IPBES;GEO
+glacier mass loss,IPCC_1_13_4;IPCC_9_65_447,IPCC
 global annual mean tropospheric ozone burden,IPCC_6_22_300,IPCC
 global atmospheric co levels,GEO_7_7_63,GEO
 global bird richness (csar),IPBES_GA2.2_sup_56,IPBES
 global capacity,GEO_13_14_129,GEO
 global carbon budget,IPCC_5_70_289,IPCC
-global climate risk index,GA_1_52_19,IPBES
-global cover of mangroves,GA_2.2_91_124,IPBES
+global climate risk index,IPBES_GA_1_52_19,IPBES
+global cover of mangroves,IPBES_GA_2.2_91_124,IPBES
 global dust deposition,IPCC_6_16_296,IPCC
-global ecosystem restoration index,GA_1_52_19,IPBES
-global effort in bottom-trawling,GA_1_52_19;GA_4_152_225;GA_3_15_329;IPBES_GA3_sup_24,IPBES
+global ecosystem restoration index,IPBES_GA_1_52_19,IPBES
+global effort in bottom-trawling,IPBES_GA_1_52_19;IPBES_GA_4_152_225;IPBES_GA_3_15_329;IPBES_GA3_sup_24,IPBES
 global energy budget,IPCC_1_38_17;IPCC_7_77_351,IPCC
 global forest-specialist bird richness (csar),IPBES_GA2.2_sup_57,IPBES
 "global funding committed towards environmental policy, laws, regulations and economic instruments",IPBES_GA3_sup_68,IPBES
-global funding for resourcing of biological invasions policy and management implementation,IAS_6_17_143,IPBES
+global funding for resourcing of biological invasions policy and management implementation,IPBES_IAS_6_17_143,IPBES
 global greening/browning,IPCC_2_26_47,IPCC
 global human settlement layer (ghsl),GEO_3_14_30,GEO
-global index on indigenous peoples' well-being,VA_3_63_79,IPBES
+global index on indigenous peoples' well-being,IPBES_VA_3_63_79,IPBES
 global land precipitation,IPCC_4_7_219,IPCC
-global linguistic diversity index and language threat level,GA_1_52_19,IPBES
-global mammal and bird species remaining,GA_2.2_37_70;IPBES_GA2.2_sup_58,IPBES
+global linguistic diversity index and language threat level,IPBES_GA_1_52_19,IPBES
+global mammal and bird species remaining,IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_58,IPBES
 global mean ocean surface ph,IPCC_4_8_220,IPCC
 global mean sea level (gmsl),IPCC_1_16_6;IPCC_9_96_465,IPCC
-global mean surface temperature (gmst),IPCC_1_16_6;IPCC_1_47_20;IPCC_2_8_35,IPCC
+global mean surface temperature (gmst),IPCC_1_13_4;IPCC_1_16_6;IPCC_1_45_19;IPCC_1_47_20;IPCC_2_8_35;IPCC_7_82_356;IPCC_7_91_360;GEO_2_26_7,IPCC;GEO
 global monsoons,IPCC_2_26_47,IPCC
 global precipitation climatology centre (gpcc) v8,IPCC_1_13_4,IPCC
-global scale ecosystem carbon storage,GA_4_87_186,IPBES
-global surface air temperature (gmst),IPCC_1_13_4,IPCC
+global scale ecosystem carbon storage,IPBES_GA_4_87_186,IPBES
 global surface air temperature (gsat),IPCC_4_7_219;IPCC_9_11_426,IPCC
-global surface temperature,IPCC_7_82_356;IPCC_7_91_360,IPCC
 global temperature,IPCC_1_58_23,IPCC
 global temperature increase,GEO_4_20_39,GEO
 global temperature potential,GEO_12_18_124,GEO
 global temperatures,IPCC_1_92_33,IPCC
 global vegetation cover,IPCC_2_43_71,IPCC
 global warming potential index,GEO_12_18_122,GEO
-globalization index,GA_2_24_29;IPBES_GA2.1_sup_2,IPBES
-governance index,SUA_6_77_200,IPBES
-green consumption,GA_3_26_355,IPBES
-green gross domestic product,VA_6_22_145,IPBES
-greenhouse gas emissions,GA_2_83_42;GEO_4_20_39,IPBES;GEO
+globalization index,IPBES_GA_2_24_29;IPBES_GA2.1_sup_2,IPBES
+governance index,IPBES_SUA_6_77_200,IPBES
+green consumption,IPBES_GA_3_26_355,IPBES
+green gross domestic product,IPBES_VA_6_22_145,IPBES
+greenhouse gas emissions,IPBES_GA_2_83_42;GEO_4_20_39,IPBES;GEO
 greenhouse gas index (national oceanic and atmospheric administration),GEO_2_23_6,GEO
 greenland blocking index,IPCC_9_47_438,IPCC
 greenland ice sheet fluctuations,IPCC_2_60_96,IPCC
-gross domestic product,GA_1_19_6;GA_2_20_26;GA_2_24_29;GA_6_139_289;SUA_1_11_4;SUA_4_149_137;VA_2_10_12;VA_2_38_29;VA_5_78_136;VA_6_61_155;IAS_2_5_11;IAS_3_8_84;IAS_3_34_90;IAS_6_85_153;IPBES_GA2.1_sup_1;IPBES_GA2.1_sup_29,IPBES
-gross ecosystem product,VA_4_89_124,IPBES
-gross national happiness index,GA_1_19_6;GA_5_69_253;GA_6_140_290;SUA_1_12_5;VA_2_29_20;IAS_6_85_153,IPBES
-gross national happiness index of bhutan,VA_6_21_143,IPBES
-gross national product,IAS_6_85_153,IPBES
+gross domestic product,IPBES_GA_1_19_6;IPBES_GA_2_20_26;IPBES_GA_2_24_29;IPBES_GA_6_139_289;IPBES_SUA_1_11_4;IPBES_SUA_4_149_137;IPBES_VA_2_10_12;IPBES_VA_2_38_29;IPBES_VA_5_78_136;IPBES_VA_6_61_155;IPBES_IAS_2_5_11;IPBES_IAS_3_8_84;IPBES_IAS_3_34_90;IPBES_IAS_6_85_153;IPBES_GA2.1_sup_1;IPBES_GA2.1_sup_29,IPBES
+gross ecosystem product,IPBES_VA_4_89_124,IPBES
+gross national happiness index,IPBES_GA_1_19_6;IPBES_GA_5_69_253;IPBES_GA_6_140_290;IPBES_SUA_1_12_5;IPBES_VA_2_29_20;IPBES_IAS_6_85_153,IPBES
+gross national happiness index of bhutan,IPBES_VA_6_21_143,IPBES
+gross national product,IPBES_IAS_6_85_153,IPBES
 ground subsidence,IPCC_2_63_102,IPCC
 grounding line retreat,IPCC_9_55_443,IPCC
 growing degree days,IPCC_12_46_648,IPCC
 "growing season length: annual (1 jan to 31 dec in northern hemisphere (nh), 1 july to 30 june in southern hemisphere (sh)) count between first span of at least six days with daily mean temperature tg >5°c and first span after july 1 (jan 1 in sh) of six days with tg <5°c",IPCC_sup_16,IPCC
 growing season of terrestrial biota,IPCC_2_26_47,IPCC
-growth in human appropriation of net primary productivity,GA_3_26_355,IPBES
-growth in information relevant to informing policy on invasive alien species prevention and control,IAS_6_11_138;IAS_6_119_174,IPBES
+growth in human appropriation of net primary productivity,IPBES_GA_3_26_355,IPBES
+growth in information relevant to informing policy on invasive alien species prevention and control,IPBES_IAS_6_11_138;IPBES_IAS_6_119_174,IPBES
 growth rates of household expenditure or income per capita among the bottom 40 percent of the population and the total population,IPBES_SUA_sup_10.1.1_70,IPBES
-habitat area and quality,GA_4_34_176,IPBES
-habitat conditions,SUA_4_89_132,IPBES
+habitat area and quality,IPBES_GA_4_34_176,IPBES
+habitat conditions,IPBES_SUA_4_89_132,IPBES
 habitat loss,GEO_6_8_49,GEO
-habitat quality,SUA_2_95_77,IPBES
+habitat quality,IPBES_SUA_2_95_77,IPBES
 hadley circulation cell,IPCC_3_37_179,IPCC
 hadley/walker circulation,IPCC_2_26_47,IPCC
-hallow coral reefs,GA_2.2_91_124,IPBES
-happiness,VA_3_41_70,IPBES
-happy planet index,GA_5_69_253;GA_5_108_263,IPBES
-harvest intensity,SUA_2_95_77,IPBES
+hallow coral reefs,IPBES_GA_2.2_91_124,IPBES
+happiness,IPBES_VA_3_41_70,IPBES
+happy planet index,IPBES_GA_5_69_253;IPBES_GA_5_108_263,IPBES
+harvest intensity,IPBES_SUA_2_95_77,IPBES
 hazardous waste,IPBES_SUA_sup_12.4.2.a_93,IPBES
-health associated with intake of pollinator dependent foods,GA_2.3_42_143,IPBES
-health condition and body size of wild animals decrease,GA_2.2_5_55,IPBES
-health of the forest,GA_2.3_41_142,IPBES
-health of the soil,GA_2.3_40_140,IPBES
+health associated with intake of pollinator dependent foods,IPBES_GA_2.3_42_143,IPBES
+health condition and body size of wild animals decrease,IPBES_GA_2.2_5_55,IPBES
+health of the forest,IPBES_GA_2.3_41_142,IPBES
+health of the soil,IPBES_GA_2.3_40_140,IPBES
 heat index (hi),IPCC_12_7_581;IPCC_12_27_618;IPCC_12_49_649;IPCC_12_85_724,IPCC
 heat stress (humidity and temperature),IPCC_12_15_596,IPCC
 heat stress index,IPCC_12_54_663,IPCC
@@ -519,82 +512,81 @@ heating degree days below 15.5°c,IPCC_sup_45,IPCC
 high body mass index,GEO_5_19_45,GEO
 highest five day precipitation amount (rx5day),IPCC_11_52_540,IPCC
 highest one day precipitation amount (rx1day),IPCC_11_52_540,IPCC
-historic land use change since 1970,GA_2.3_53_152,IPBES
-holistic health model,VA_3_63_79,IPBES
-human appropriation of fresh water,GA_3_15_329;IPBES_GA3_sup_14,IPBES
-human appropriation of net primary productivity,GA_1_52_19;VA_2_38_29;IPBES_GA3_sup_13,IPBES
-human development index (hdi),GA_1_19_6;GA_1_31_9;GA_2_24_29;GA_2_22_30;GA_5_68_252;GA_3_77_402;GA_3_97_413;SUA_1_12_5;VA_5_78_136;IAS_2_18_24,IPBES
-human footprint,GA_2.2_62_105,IPBES
-human population density,IAS_3_8_84,IPBES
-human population size,IAS_2_5_11,IPBES
+historic land use change since 1970,IPBES_GA_2.3_53_152,IPBES
+holistic health model,IPBES_VA_3_63_79,IPBES
+human appropriation of fresh water,IPBES_GA_3_15_329;IPBES_GA3_sup_14,IPBES
+human appropriation of net primary productivity,IPBES_GA_1_52_19;IPBES_VA_2_38_29;IPBES_GA3_sup_13,IPBES
+human development index (hdi),IPBES_GA_1_19_6;IPBES_GA_1_31_9;IPBES_GA_2_24_29;IPBES_GA_2_22_30;IPBES_GA_5_68_252;IPBES_GA_3_77_402;IPBES_GA_3_97_413;IPBES_SUA_1_12_5;IPBES_VA_5_78_136;IPBES_IAS_2_18_24,IPBES
+human footprint,IPBES_GA_2.2_62_105,IPBES
+human population density,IPBES_IAS_3_8_84,IPBES
+human population size,IPBES_IAS_2_5_11,IPBES
 humidity,IPCC_12_62_673,IPCC
-hunting success,SUA_2_97_80,IPBES
+hunting success,IPBES_SUA_2_97_80,IPBES
 hydrological deficits,IPCC_11_58_544,IPCC
 ice core measurements,IPCC_5_14_270,IPCC
 ice core records,IPCC_2_58_90,IPCC
 ice cores,IPCC_2_63_105,IPCC
-ideas and products mimicking or inspired by nature,GA_2.3_42_143,IPBES
-identity value - rural and iplc,GA_2.3_42_143,IPBES
-identity value - urban,GA_2.3_42_143,IPBES
-impact of agricultural habitat conversion on birds,SUA_4_42_113,IPBES
-"impact of alien species on sensitive places, species and functions",IAS_6_97_160,IPBES
+ideas and products mimicking or inspired by nature,IPBES_GA_2.3_42_143,IPBES
+identity value - rural and iplc,IPBES_GA_2.3_42_143,IPBES
+identity value - urban,IPBES_GA_2.3_42_143,IPBES
+impact of agricultural habitat conversion on birds,IPBES_SUA_4_42_113,IPBES
+"impact of alien species on sensitive places, species and functions",IPBES_IAS_6_97_160,IPBES
 impacts of agricultural outpic prices on deforestation rates both inside and outside of protected areas,GEO_15_19_169,GEO
 implementation of standard accounting tools to monitor the economic and environmental aspects of tourism sustainability,IPBES_SUA_sup_12.b.1_100,IPBES
-importance of forests to people,SUA_2_92_69,IPBES
-improved health from natural medicines or bio-derived medicines,GA_2.3_42_143,IPBES
+importance of forests to people,IPBES_SUA_2_92_69,IPBES
+improved health from natural medicines or bio-derived medicines,IPBES_GA_2.3_42_143,IPBES
 improved water supply and sanitation,GEO_16_18_190,GEO
 improved/unimproved sources of drinking water,GEO_16_16_184,GEO
-improvement in conseration status of species threatened by invasive alien species,IAS_6_119_174,IPBES
+improvement in conseration status of species threatened by invasive alien species,IPBES_IAS_6_119_174,IPBES
 including annual estimates of national food supplies per capita for each primary commodity and a number of processed commodities that are potentially available for human consumption,GEO_17_12_205,GEO
-inclusion of historically disadvantaged stakeholders,VA_2_10_12,IPBES
+inclusion of historically disadvantaged stakeholders,IPBES_VA_2_10_12,IPBES
 inclusive and equitable quality education,GEO_22_21_257,GEO
 inclusive societies,GEO_3_5_16,GEO
-inclusive wealth,GA_1_19_6;SUA_1_12_5;VA_2_7_9;VA_2_39_33;VA_3_114_99;VA_5_78_136,IPBES
-income,GA_2_25_31;SUA_4_149_137,IPBES
+inclusive wealth,IPBES_GA_1_19_6;IPBES_SUA_1_12_5;IPBES_VA_2_7_9;IPBES_VA_2_39_33;IPBES_VA_3_114_99;IPBES_VA_5_78_136,IPBES
+income,IPBES_GA_2_25_31;IPBES_SUA_4_149_137,IPBES
 increase in global tc maximum surface wind speeds,IPCC_11_79_569,IPCC
 increase in the global mean sea level,GEO_2_26_7,GEO
-"increased awareness, care, mental health, cultural security, life satisfaction - rural and iplc",GA_2.3_42_143,IPBES
-"increased awareness, care, mental health, cultural security, life satisfaction - urban",GA_2.3_42_143,IPBES
-increasingly unpredictable annual distribution of rainfall,GA_2.2_6_56,IPBES
+"increased awareness, care, mental health, cultural security, life satisfaction - rural and iplc",IPBES_GA_2.3_42_143,IPBES
+"increased awareness, care, mental health, cultural security, life satisfaction - urban",IPBES_GA_2.3_42_143,IPBES
+increasingly unpredictable annual distribution of rainfall,IPBES_GA_2.2_6_56,IPBES
 index of coastal eutrophication potential (icep),GEO_7_19_66;GEO_20_8_234;IPBES_SUA_sup_14.1.1.a_110,IPBES;GEO
-index of sustaibale economic welfare,IAS_6_85_153,IPBES
-index of sustainable economic welfare (isew),GA_6_139_289;VA_2_38_29;VA_2_39_33,IPBES
+index of sustainable economic welfare (isew),IPBES_GA_6_139_289;IPBES_VA_2_38_29;IPBES_VA_2_39_33;IPBES_IAS_6_85_153,IPBES
 indian ocean basin (iob) index,IPCC_3_78_203,IPCC
 indian ocean dipole (ipo),IPCC_3_80_205,IPCC
 indian ocean dipole index (iod),IPCC_3_78_202,IPCC
 indicator of food price anomalies,IPBES_SUA_sup_2.c.1_25,IPBES
-individual deprivation measure,GA_3_97_413,IPBES
-"information provided through the financial reporting framework, adopted by decision xii/3",GA_1_52_19,IPBES
-inland fishery production,GA_1_52_19;GA_1_52_19,IPBES
+individual deprivation measure,IPBES_GA_3_97_413,IPBES
+"information provided through the financial reporting framework, adopted by decision xii/3",IPBES_GA_1_52_19,IPBES
+inland fishery production,IPBES_GA_1_52_19;IPBES_GA_1_52_19,IPBES
 installed renewable energy-generating capacity in developing countries (in watts per capita),IPBES_SUA_sup_7.b.1_43;IPBES_SUA_sup_12.a.1_99,IPBES
 "integration of biodiversity into national accounting and reporting systems, defined as implementation of the system of environmental-economic accounting",IPBES_SUA_sup_15.9.1.b_132,IPBES
 integration of education for sustainable development (esd) in curricula,GEO_4_9_33,GEO
 integration of education for sustainable development (esd) in higher education,GEO_4_9_33,GEO
-intensity of weather,SUA_2_97_80,IPBES
+intensity of weather,IPBES_SUA_2_97_80,IPBES
 inter-decadal pacific oscillation (ipo) index,IPCC_2_89_154,IPCC
 inter-tropical convergence zone (itcz) narrowing,IPCC_8_39_378,IPCC
 interannual variability of primary production (pp),IPCC_5_57_287,IPCC
 "international financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems",IPBES_SUA_sup_7.a.1_42,IPBES
-international migrant stock,GA_2_24_29;IPBES_GA2.1_sup_24,IPBES
+international migrant stock,IPBES_GA_2_24_29;IPBES_GA2.1_sup_24,IPBES
 "international tourism, number of arrivals",IPBES_GA2.1_sup_36,IPBES
 "international tourism, number of departures",IPBES_GA2.1_sup_35,IPBES
-interventions to limit spread and reduce impact of alien species,IAS_6_97_160,IPBES
-invasive alien species are given new names by indigenous peoples and local communities,IAS_1_53_8,IPBES
-invasive alien species impact,IAS_6_114_165,IPBES
+interventions to limit spread and reduce impact of alien species,IPBES_IAS_6_97_160,IPBES
+invasive alien species are given new names by indigenous peoples and local communities,IPBES_IAS_1_53_8,IPBES
+invasive alien species impact,IPBES_IAS_6_114_165,IPBES
 invertebrate abundance and biomass,GEO_6_16_56,GEO
 investment costs of groundwater abstraction and desalination for continued water supply and sanitation of rapidly expanding cities,GEO_23_24_263,GEO
 isotope-composition of molecular oxygen trapped in polar firn and ice,IPCC_2_21_41,IPCC
 labour share of gross domestic product,IPBES_SUA_sup_10.4.1_73,IPBES
 lake sediments,IPCC_9_66_448,IPCC
-land and ocean carbon sinks,GA_2.3_42_143,IPBES
+land and ocean carbon sinks,IPBES_GA_2.3_42_143,IPBES
 land cover change,GEO_6_18_58,GEO
 land monsoon precipitation index,IPCC_4_34_236;IPCC_4_51_250,IPCC
-land not cultivated or urban,GA_2.2_37_70;IPBES_GA2.2_sup_11,IPBES
-land not cultivated or urban (hotspots),GA_2.2_37_70;IPBES_GA2.2_sup_12,IPBES
-land not cultivated or urban (indigenous lands),GA_2.2_37_70;IPBES_GA2.2_sup_13,IPBES
+land not cultivated or urban,IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_11,IPBES
+land not cultivated or urban (hotspots),IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_12,IPBES
+land not cultivated or urban (indigenous lands),IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_13,IPBES
 land rainfall over mc,IPCC_8_46_393,IPCC
-land under cereal production (ha),GA_1_52_19,IPBES
-land use change,GA_2_83_42;GEO_6_8_49,IPBES;GEO
+land under cereal production (ha),IPBES_GA_1_52_19,IPBES
+land use change,IPBES_GA_2_83_42;GEO_6_8_49,IPBES;GEO
 land-use and management,IPCC_3_64_190,IPCC
 land-use change,GEO_21_10_246,GEO
 land-use co2 emissions,IPCC_4_79_266,IPCC
@@ -602,65 +594,65 @@ land-use models for efficient farming,GEO_17_8_200,GEO
 land-use related non-co2 emissions,IPCC_4_79_266,IPCC
 laws allowing building in vulnerable areas,GEO_17_8_200,GEO
 laws preventing recycling of water,GEO_17_8_200,GEO
-leaf area index (lai),GA_2.2_37_70;GA_2.2_40_79;IPCC_1_66_27;IPCC_2_79_128;IPCC_3_64_190;IPCC_3_65_191;IPCC_8_30_372;IPCC_8_65_401;IPCC_9_76_452;IPCC_10_31_483;IPBES_GA2.2_sup_14,IPBES;IPCC
-leaf surface area,GA_2.3_56_155,IPBES
-"less biomass, more annuals and shrubs on pastures",GA_2.2_65_113,IPBES
+leaf area index (lai),IPBES_GA_2.2_37_70;IPBES_GA_2.2_40_79;IPCC_1_66_27;IPCC_2_79_128;IPCC_3_64_190;IPCC_3_65_191;IPCC_8_30_372;IPCC_8_65_401;IPCC_9_76_452;IPCC_10_31_483;IPBES_GA2.2_sup_14,IPBES;IPCC
+leaf surface area,IPBES_GA_2.3_56_155,IPBES
+"less biomass, more annuals and shrubs on pastures",IPBES_GA_2.2_65_113,IPBES
 "level of national compliance with labour rights (freedom of association and collective bargaining) based on international labour organization (ilo) textual sources and national legislation, by sex and migrant status",IPBES_SUA_sup_8.8.2_54,IPBES
 level of water stress,GEO_16_18_193,GEO
 level of water stress (freshwater withdrawal as a proportion of available freshwater resources),GEO_16_18_192;IPBES_SUA_sup_6.4.2_33,IPBES;GEO
 levels of education,GEO_22_21_257,GEO
-life expectancy,GA_2_25_31;GEO_3_5_16,IPBES;GEO
-life satisfaction,VA_3_41_70,IPBES
+life expectancy,IPBES_GA_2_25_31;GEO_3_5_16,IPBES;GEO
+life satisfaction,IPBES_VA_3_41_70,IPBES
 lightning frequency,IPCC_12_18_602,IPCC
-linguistic diversity index,GA_2_41_36,IPBES
-live coral cover,GA_2.2_37_70;GA_2.2_38_74;GA_2.2_91_124;IPBES_GA2.2_sup_17;IPBES_GA3_sup_36,IPBES
-livelihood dependence,VA_3_2_52,IPBES
+linguistic diversity index,IPBES_GA_2_41_36,IPBES
+live coral cover,IPBES_GA_2.2_37_70;IPBES_GA_2.2_38_74;IPBES_GA_2.2_91_124;IPBES_GA2.2_sup_17;IPBES_GA3_sup_36,IPBES
+livelihood dependence,IPBES_VA_3_2_52,IPBES
 livestock density of animals (chickens),IPBES_GA2.1_sup_33,IPBES
 livestock density of cattle,IPBES_GA2.1_sup_32,IPBES
 livestock indigenous animals,IPBES_GA2.1_sup_31,IPBES
-living conditions in the arctic,VA_3_63_79,IPBES
-living planet index,GA_1_52_19;GA_4_144_217;GA_5_10_235;GA_5_34_243;GA_3_41_369;SUA_4_256_160;GEO_6_16_52;GEO_6_16_54;IPBES_GA2.2_sup_72;IPBES_GA3_sup_49,IPBES;GEO
+living conditions in the arctic,IPBES_VA_3_63_79,IPBES
+living planet index,IPBES_GA_1_52_19;IPBES_GA_4_144_217;IPBES_GA_5_10_235;IPBES_GA_5_34_243;IPBES_GA_3_41_369;IPBES_SUA_4_256_160;GEO_6_16_52;GEO_6_16_54;IPBES_GA2.2_sup_72;IPBES_GA3_sup_49,IPBES;GEO
 living planet index (freshwater),IPBES_GA2.2_sup_70,IPBES
 living planet index (marine),IPBES_GA2.2_sup_71,IPBES
 living planet index (migratory fish),GEO_9_18_79,GEO
 living planet index (terrestrial),IPBES_GA2.2_sup_73,IPBES
-local species richness,GA_2.2_37_70;GA_2.2_70_120;IAS_4_22_102,IPBES
+local species richness,IPBES_GA_2.2_37_70;IPBES_GA_2.2_70_120;IPBES_IAS_4_22_102,IPBES
 local species richness (biotime),IPBES_GA2.2_sup_40,IPBES
-local species richness (predicts),GA_2.2_45_85;IPBES_GA2.2_sup_41,IPBES
+local species richness (predicts),IPBES_GA_2.2_45_85;IPBES_GA2.2_sup_41,IPBES
 local wind circulations,IPCC_12_18_602,IPCC
-loss of lichen diversity,SUA_4_47_115,IPBES
+loss of lichen diversity,IPBES_SUA_4_47_115,IPBES
 loss of mass of mountain glaciers and polar ice sheets,GEO_4_13_34,GEO
 loss of older ice,IPCC_2_56_85,IPCC
 low income,GEO_22_21_257,GEO
 low-elevation coastal zones,GEO_17_8_200,GEO
 low-flows days,IPCC_12_17_601,IPCC
-macroinvertebrate-based indices,IAS_5_130_134,IPBES
+macroinvertebrate-based indices,IPBES_IAS_5_130_134,IPBES
 magnitude of shoreline retreat by a pre-determined planning horizon such as 50 or 100 years into the future,IPCC_12_20_606,IPCC
 maize price,GEO_8_26_75,GEO
 malnutrition,GEO_3_12_24,GEO
 mammalian body mass,IPBES_GA2.2_sup_79,IPBES
-mammalian range size,GA_2.2_37_70;IPBES_GA2.2_sup_66,IPBES
-mangrove forest area,GA_2.2_37_70;GA_2.2_38_74;GA_2.2_70_120;VA_2_76_48;IPBES_GA2.2_sup_15;IPBES_GA3_sup_40,IPBES
+mammalian range size,IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_66,IPBES
+mangrove forest area,IPBES_GA_2.2_37_70;IPBES_GA_2.2_38_74;IPBES_GA_2.2_70_120;IPBES_VA_2_76_48;IPBES_GA2.2_sup_15;IPBES_GA3_sup_40,IPBES
 manufacturing employment as a proportion of total employment,IPBES_SUA_sup_9.2.2_62,IPBES
 manufacturing value added as a proportion of gross domestic product and per capita,IPBES_SUA_sup_9.2.1_61,IPBES
 marine air temperature,GEO_2_26_7,GEO
 marine cloudiness over mc,IPCC_8_46_393,IPCC
 marine litter,GEO_7_19_66,GEO
-marine net primary production,GA_2.2_37_70;IPBES_GA2.2_sup_31,IPBES
+marine net primary production,IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_31,IPBES
 marine nutirent pollution,GEO_20_8_234,GEO
 marine sediment cores,IPCC_2_29_60;IPCC_2_89_153,IPCC
 marine sediments,IPCC_2_57_89;IPCC_2_61_98,IPCC
 marine sediments below the ice sheet,IPCC_2_61_99,IPCC
-marine stewardship council certified catch,SUA_2_90_65,IPBES
-marine stewardship council certified fisheries,GA_4_152_225;GA_3_15_329;IPBES_GA3_sup_21,IPBES
-marine stewardship council engaged fisheries,GA_3_72_395,IPBES
-marine stocks,GA_2.3_42_143,IPBES
-marine trophic index (mti),GA_1_52_19;GA_2.2_59_101;GA_3_15_329;GA_3_55_389;IPBES_GA2.2_sup_80;IPBES_GA3_sup_22,IPBES
+marine stewardship council certified catch,IPBES_SUA_2_90_65,IPBES
+marine stewardship council certified fisheries,IPBES_GA_4_152_225;IPBES_GA_3_15_329;IPBES_GA3_sup_21,IPBES
+marine stewardship council engaged fisheries,IPBES_GA_3_72_395,IPBES
+marine stocks,IPBES_GA_2.3_42_143,IPBES
+marine trophic index (mti),IPBES_GA_1_52_19;IPBES_GA_2.2_59_101;IPBES_GA_3_15_329;IPBES_GA_3_55_389;IPBES_GA2.2_sup_80;IPBES_GA3_sup_22,IPBES
 material flow accounting,GEO_17_20_212,GEO
 material flow analysis,GEO_17_20_212,GEO
 "material footprint, material footprint per capita, and material footprint per gross domestic product",IPBES_SUA_sup_8.4.1_47;IPBES_SUA_sup_12.2.1_89,IPBES
-material ncp,GA_2.2_42_82,IPBES
-material wealth,SUA_4_149_140,IPBES
+material ncp,IPBES_GA_2.2_42_82,IPBES
+material wealth,IPBES_SUA_4_149_140,IPBES
 maximum daytime heat index,IPCC_12_71_692,IPCC
 maximum fire weather index,IPCC_12_66_682,IPCC
 maximum five-day precipitation,IPCC_sup_22,IPCC
@@ -669,26 +661,26 @@ maximum number of consecutive days with more than or equal to 1 mm of precipitat
 maximum one-day precipitation,IPCC_sup_21,IPCC
 maximum temperatures,IPCC_12_49_649,IPCC
 mean air temperature,IPCC_11_39_524,IPCC
-mean annual change in above-ground biomass,GA_2.2_37_70,IPBES
-mean annual precipitation,IAS_3_8_84,IPBES
-mean annual temperature,IAS_3_8_84,IPBES
+mean annual change in above-ground biomass,IPBES_GA_2.2_37_70,IPBES
+mean annual precipitation,IPBES_IAS_3_8_84,IPBES
+mean annual temperature,IPBES_IAS_3_8_84,IPBES
 mean arctic sea ice area,IPCC_2_57_88,IPCC
-mean body length,IAS_4_22_102,IPBES
-mean body mass,SUA_2_97_80,IPBES
+mean body length,IPBES_IAS_4_22_102,IPBES
+mean body mass,IPBES_SUA_2_97_80,IPBES
 mean gsat,IPCC_1_45_19,IPCC
-mean length of fish,GA_1_52_19;GA_2.2_70_120,IPBES
-mean polar sea ice extent,GA_3_51_381;IPBES_GA3_sup_38,IPBES
-mean species abundance (msa),GA_1_52_19;GA_2.2_37_70;GA_2.2_46_88;GA_5_34_243;IPBES_GA2.2_sup_42,IPBES
+mean length of fish,IPBES_GA_1_52_19;IPBES_GA_2.2_70_120,IPBES
+mean polar sea ice extent,IPBES_GA_3_51_381;IPBES_GA3_sup_38,IPBES
+mean species abundance (msa),IPBES_GA_1_52_19;IPBES_GA_2.2_37_70;IPBES_GA_2.2_46_88;IPBES_GA_5_34_243;IPBES_GA2.2_sup_42,IPBES
 mean species abundance (msa) (hotspots),IPBES_GA2.2_sup_43,IPBES
 mean species abundance (msa) (indigenous lands),IPBES_GA2.2_sup_44,IPBES
 measure of income,GEO_22_21_257,GEO
 measured concentrations of o in the upper stratospere,GEO_5_17_41,GEO
-medicinal species as a fraction of total vascular plant species,GA_2.3_39_137,IPBES
-megafaunal range size,GA_2.2_37_70;IPBES_GA2.2_sup_67,IPBES
-merchandise exports,GA_2_24_29,IPBES
-mibid index,GA_6_122_285,IPBES
+medicinal species as a fraction of total vascular plant species,IPBES_GA_2.3_39_137,IPBES
+megafaunal range size,IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_67,IPBES
+merchandise exports,IPBES_GA_2_24_29,IPBES
+mibid index,IPBES_GA_6_122_285,IPBES
 migration net,IPBES_GA2.1_sup_26,IPBES
-migratory birds threatened or near threatened on the red list index,GA_3_150_436,IPBES
+migratory birds threatened or near threatened on the red list index,IPBES_GA_3_150_436,IPBES
 millenium development goals indicators,GEO_16_15_183,GEO
 minimum temperature,IPCC_11_44_532,IPCC
 mobile cellular subscriptions,IPBES_GA2.1_sup_11,IPBES
@@ -700,34 +692,34 @@ monthly minimum value of daily minimum temperature,IPCC_sup_3,IPCC
 montreal protocol,IPBES_GA2.1_sup_63,IPBES
 mortality from unintentional poisoning,GEO_20_7_232,GEO
 mortality rate attributable to household and ambient air pollution,GEO_20_7_232,GEO
-mortality rate under 5,GA_2_24_29,IPBES
+mortality rate under 5,IPBES_GA_2_24_29,IPBES
 mountain glaciers,GEO_4_13_34,GEO
 mountain green cover index,IPBES_SUA_sup_15.4.2_126,IPBES
-multidimensional poverty index,GA_3_97_413;SUA_4_149_138,IPBES
-national accounts reflecting state of biodiversity and ecosystem services,VA_4_28_109,IPBES
-national funding for resourcing of biological invasions policy and management implementation,IAS_6_17_143,IPBES
+multidimensional poverty index,IPBES_GA_3_97_413;IPBES_SUA_4_149_138,IPBES
+national accounts reflecting state of biodiversity and ecosystem services,IPBES_VA_4_28_109,IPBES
+national funding for resourcing of biological invasions policy and management implementation,IPBES_IAS_6_17_143,IPBES
 national oceanic and atmospheric administration annual greenhouse gas index (aggi),GEO_5_18_43,GEO
 "national recycling rate, tons of material recycled",IPBES_SUA_sup_12.5.1_95,IPBES
-native newcomer species arrive,GA_2.2_5_55;GA_2.2_65_113,IPBES
-natural habitat in agriculture,GA_2.3_42_143,IPBES
-natural medicinal products and manufactured bio-derived medicines,GA_2.3_42_143,IPBES
-nature risk index,VA_6_64_156,IPBES
+native newcomer species arrive,IPBES_GA_2.2_5_55;IPBES_GA_2.2_65_113,IPBES
+natural habitat in agriculture,IPBES_GA_2.3_42_143,IPBES
+natural medicinal products and manufactured bio-derived medicines,IPBES_GA_2.3_42_143,IPBES
+nature risk index,IPBES_VA_6_64_156,IPBES
 net climate feedback,IPCC_7_56_335,IPCC
 "net official development assistance, total and to least developed countries, as a proportion of the organization for economic cooperation and development (oecd) development assistance committee donors’ gross national income (gni)",IPBES_SUA_sup_17.2.1_140,IPBES
-net primary production,GA_2.2_37_70;GA_2.2_70_120;IPBES_GA2.2_sup_32,IPBES
-net primary productivity in forests and on cultivated land,GA_2.3_39_137,IPBES
+net primary production,IPBES_GA_2.2_37_70;IPBES_GA_2.2_70_120;IPBES_GA2.2_sup_32,IPBES
+net primary productivity in forests and on cultivated land,IPBES_GA_2.3_39_137,IPBES
 network of communication channels in times of crisis or disaster,GEO_17_8_200,GEO
-new pests and invasive alien species colonize,GA_2.2_5_55,IPBES
+new pests and invasive alien species colonize,IPBES_GA_2.2_5_55,IPBES
 nh3 emissions,GEO_12_16_119,GEO
-nitrogen (n) loads,GA_3_74_399,IPBES
-nitrogen + phosphate fertilizers (n+p205 total nutrients),GA_1_52_19,IPBES
+nitrogen (n) loads,IPBES_GA_3_74_399,IPBES
+nitrogen + phosphate fertilizers (n+p205 total nutrients),IPBES_GA_1_52_19,IPBES
 nitrogen surplus (tg n),IPBES_GA3_sup_32,IPBES
-nitrogen use balance,GA_1_52_19;IPBES_GA3_sup_25,IPBES
-nitrogen use efficiency,GA_1_52_19,IPBES
+nitrogen use balance,IPBES_GA_1_52_19;IPBES_GA3_sup_25,IPBES
+nitrogen use efficiency,IPBES_GA_1_52_19,IPBES
 nitrogenen deposition trends,IPBES_GA2.1_sup_45,IPBES
 no emissions,GEO_12_16_119,GEO
 noaa heat index (hi): number of days above 41°c threshold,IPCC_sup_44,IPCC
-non declining exploited species,GA_1_52_19,IPBES
+non declining exploited species,IPBES_GA_1_52_19,IPBES
 non-co2 fossil-fuel emissions,IPCC_4_79_266,IPCC
 normalized difference vegetation index (ndvi),IPCC_2_78_126;GEO_3_7_18,IPCC;GEO
 north atlantic oscillation (nao) index,IPCC_2_84_139;IPCC_3_67_194;IPCC_9_47_438,IPCC
@@ -737,85 +729,84 @@ northern hemisphere (mar-apr) snow cover,GEO_2_26_7,GEO
 northern hemisphere summer monsoon circulation index,IPCC_4_34_236,IPCC
 northern hemisphere temperature over the last millennium,IPCC_1_67_29,IPCC
 northernmost location of the treeline,IPCC_2_78_127,IPCC
-number and coverage of stocks with adaptive management systems/plans,GA_1_52_19,IPBES
-number of alien and invasive taxa per biogeographic region,IAS_6_21_146,IPBES
-number of alien taxa,IAS_6_56_150,IPBES
-number of appendix-ii species for which trade is determined to be non-detrimental to the survival of the species as a result of implementing recommendations from the review of significant trade,SUA_4_66_123,IPBES
+number and coverage of stocks with adaptive management systems/plans,IPBES_GA_1_52_19,IPBES
+number of alien and invasive taxa per biogeographic region,IPBES_IAS_6_21_146,IPBES
+number of alien taxa,IPBES_IAS_6_56_150,IPBES
+number of appendix-ii species for which trade is determined to be non-detrimental to the survival of the species as a result of implementing recommendations from the review of significant trade,IPBES_SUA_4_66_123,IPBES
 number of biodiversity papers published,IPBES_GA3_sup_62,IPBES
-number of biogeographic regions with risk-associated activities,IAS_6_21_146,IPBES
-number of cites parties that have adopted standard procedures for non-detrimental findings,SUA_4_65_122,IPBES
-number of cites parties with increased capacity,SUA_4_68_125,IPBES
+number of biogeographic regions with risk-associated activities,IPBES_IAS_6_21_146,IPBES
+number of cites parties that have adopted standard procedures for non-detrimental findings,IPBES_SUA_4_65_122,IPBES
+number of cites parties with increased capacity,IPBES_SUA_4_68_125,IPBES
 number of companies publishing sustainability reports,IPBES_SUA_sup_12.6.1_96,IPBES
 number of consecutive dry days (cdd),IPCC_11_60_550,IPCC
 "number of countries developing, adopting or implementing policy instruments aimed at encouraging and enabling people to make sustainable consumption choices",IPBES_SUA_sup_12.1.1_88,IPBES
-"number of countries implementing natural resource accounts, excluding energy, within the system of environmental economic accounting",VA_4_28_108,IPBES
-number of countries implementing nbsaps,GA_3_48_377,IPBES
-number of countries implementing the system of environmental economic accounting,VA_4_73_122,IPBES
+"number of countries implementing natural resource accounts, excluding energy, within the system of environmental economic accounting",IPBES_VA_4_28_108,IPBES
+number of countries implementing nbsaps,IPBES_GA_3_48_377,IPBES
+number of countries implementing the system of environmental economic accounting,IPBES_VA_4_73_122,IPBES
 "number of countries making progress in ratifying, accepting and implementing through legal, policy and institutional frameworks, ocean-related instruments that implement international law, as reflected in the united nations convention on the law of the sea, for the conservation and sustainable use of the oceans and their resources",IPBES_SUA_sup_14.c.1_120,IPBES
 number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals,IPBES_SUA_sup_17.16.1_152,IPBES
 "number of countries that adopt and implement investment promotion regimes for developing countries, including the least developed countries",IPBES_SUA_sup_17.5.1_143,IPBES
 number of countries that adopt and implement national disaster risk reduction strategies in line with the sendai framework for disaster risk reduction 2015-2030,IPBES_SUA_sup_1.5.3_8;IPBES_SUA_sup_11.b.1_86;IPBES_SUA_sup_13.1.2_103,IPBES
-"number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits",GA_1_52_19;IPBES_SUA_sup_15.6.1_128,IPBES
+"number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits",IPBES_GA_1_52_19;IPBES_SUA_sup_15.6.1_128,IPBES
 number of countries that have established national targets in accordance with or similar to aichi biodiversity target 2 of the strategic plan for biodiversity 2011-2020 in their national biodiversity strategy and action plans and the progress reported towards these targets,IPBES_SUA_sup_15.9.1.a_131,IPBES
-"number of countries that have integrated biodiversity values into national accounting and reporting systems, defined as implementation of the system of environmental-economic accounting (seea)",VA_4_73_122,IPBES
+"number of countries that have integrated biodiversity values into national accounting and reporting systems, defined as implementation of the system of environmental-economic accounting (seea)",IPBES_VA_4_73_122,IPBES
 number of countries that have national statistical legislation that complies with the fundamental principles of official statistics,IPBES_SUA_sup_17.18.2_155,IPBES
 number of countries that have national urban policies or regional development plans that (a) respond to population dynamics; (b) ensure balanced territorial development; and (c) increase local fiscal space,IPBES_SUA_sup_11.a.1_85,IPBES
-number of countries that have ratified the nagoya protocol,GA_3_175_446,IPBES
+number of countries that have ratified the nagoya protocol,IPBES_GA_3_175_446,IPBES
 number of countries using ecosystem-based approaches to managing marine areas,IPBES_SUA_sup_14.2.1_112,IPBES
 "number of countries with a national statistical plan that is fully funded and under implementation, by source of funding",IPBES_SUA_sup_17.18.3_156,IPBES
-number of countries with developed or revised nbsaps,GA_1_52_19,IPBES
+number of countries with developed or revised nbsaps,IPBES_GA_1_52_19,IPBES
 number of countries with mechanisms in place to enhance policy coherence of sustainable development,IPBES_SUA_sup_17.14.1_150,IPBES
 "number of countries with migration policies that facilitate orderly, safe, regular and responsible migration and mobility of people",IPBES_SUA_sup_10.7.2_75,IPBES
-"number of countries with national instruments on biodiversity relevant taxes, charges and fees",GA_1_52_19,IPBES
-number of countries with national instruments on biodiversity relevant tradable permit schemes,GA_1_52_19,IPBES
-number of countries with national instruments on redd plus schemes,GA_1_52_19,IPBES
+"number of countries with national instruments on biodiversity relevant taxes, charges and fees",IPBES_GA_1_52_19,IPBES
+number of countries with national instruments on biodiversity relevant tradable permit schemes,IPBES_GA_1_52_19,IPBES
+number of countries with national instruments on redd plus schemes,IPBES_GA_1_52_19,IPBES
 "number of countries with nationally determined contributions, long-term strategies, national adaptation plans and adaptation communications, as reported to the secretariat of the united nations framework convention on climate change",IPBES_SUA_sup_13.2.1_105,IPBES
-number of countries with policies to secure that [fish] mortalities are accounted for and kept within safe biological limits,SUA_2_90_65,IPBES
-number of countries with regulations requiring recovered of depleted species,SUA_2_90_65,IPBES
+number of countries with policies to secure that [fish] mortalities are accounted for and kept within safe biological limits,IPBES_SUA_2_90_65,IPBES
+number of countries with regulations requiring recovered of depleted species,IPBES_SUA_2_90_65,IPBES
 number of days with snow water equivalent >100 mm (swe100) over the snow season (nov-mar for nh),IPCC_sup_51,IPCC
 "number of days with tmax >35°c or 40°c (tx35, tx40)",IPCC_sup_43,IPCC
 "number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",IPBES_SUA_sup_1.5.1_6;IPBES_SUA_sup_11.5.1_81;IPBES_SUA_sup_13.1.1_102,IPBES
-number of extintions,GA_3_40_367,IPBES
+number of extintions,IPBES_GA_3_40_367,IPBES
 number of frost days below 0°c (fd),IPCC_sup_46,IPCC
 number of frost days: annual count of days when tn (daily minimum temperature) <0°c,IPCC_sup_10,IPCC
 number of icing days: annual count of days when tx (daily maximum temperature) <0°c,IPCC_sup_9,IPCC
-number of invasive alien species introduction events,GA_3_72_395;IPBES_GA3_sup_33,IPBES
+number of invasive alien species introduction events,IPBES_GA_3_72_395;IPBES_GA3_sup_33,IPBES
 "number of least developed countries and small island developing states with nationally determined contributions, long-term strategies, national adaptation plans and adaptation communications, as reported to the secretariat of the united nations framework convention on climate change",IPBES_SUA_sup_13.b.1_109,IPBES
 number of people living on less than 1.90 usd per day,GEO_21_8_241,GEO
-number of people migrating,IAS_2_5_11,IPBES
+number of people migrating,IPBES_IAS_2_5_11,IPBES
 number of people who died or disappeared in the process of migration towards an international destinationi,IPBES_SUA_sup_10.7.3_76,IPBES
 number of people without access to safe sanitation services,GEO_16_17_189,GEO
-number of photos taken by the public in an advert to indicate aesthetic values,VA_3_48_73,IPBES
+number of photos taken by the public in an advert to indicate aesthetic values,IPBES_VA_3_48_73,IPBES
 number of plant and animal genetic resources for food and agriculture secured in either medium- or long-term conservation facilities,IPBES_SUA_sup_2.5.1_20,IPBES
 number of plant and animal genetic resources secured in medium or long-term conservation facilities,IPBES_GA3_sup_52,IPBES
-number of protected area management effectiveness (pame) assessments,GA_3_72_395;VA_3_27_60;IPBES_GA3_sup_47,IPBES
-number of publications,SUA_4_2_109,IPBES
-number of rare or threatened species,VA_2_38_28,IPBES
-number of research studies involving economic valuation,GA_3_15_329;IPBES_GA3_sup_6,IPBES
+number of protected area management effectiveness (pame) assessments,IPBES_GA_3_72_395;IPBES_VA_3_27_60;IPBES_GA3_sup_47,IPBES
+number of publications,IPBES_SUA_4_2_109,IPBES
+number of rare or threatened species,IPBES_VA_2_38_28,IPBES
+number of research studies involving economic valuation,IPBES_GA_3_15_329;IPBES_GA3_sup_6,IPBES
 number of residents living in floodplains,GEO_17_8_200,GEO
-number of species at risk of extinction,IAS_4_22_102,IPBES
-number of species extinctions,GA_1_52_19;IAS_4_22_102,IPBES
-number of studies on ias available per region,IAS_2_13_15,IPBES
+number of species at risk of extinction,IPBES_IAS_4_22_102,IPBES
+number of species extinctions,IPBES_GA_1_52_19;IPBES_IAS_4_22_102,IPBES
+number of studies on ias available per region,IPBES_IAS_2_13_15,IPBES
 number of summer days: annual count of days when tx (daily maximum temperature) >25°c,IPCC_sup_13,IPCC
-number of surveys of cites listed species undertaken by exporting states to support non-detrimental findings,SUA_4_65_122,IPBES
-number of tourists,IAS_2_5_11,IPBES
-"number of tourists, scientists and facilities per biogeographic region",IAS_6_21_146,IPBES
+number of surveys of cites listed species undertaken by exporting states to support non-detrimental findings,IPBES_SUA_4_65_122,IPBES
+number of tourists,IPBES_IAS_2_5_11,IPBES
+"number of tourists, scientists and facilities per biogeographic region",IPBES_IAS_6_21_146,IPBES
 number of tropical nights: annual count of days when tn (daily minimum temperature) >20°c,IPCC_sup_14,IPCC
 number of vulnerable marine ecosystems,GEO_14_16_155,GEO
-number of widespread phyla for which no information was available for a particular region,IAS_2_13_16,IPBES
-number of wildlife pictures posted on a photo-sharing website,VA_3_48_73,IPBES
-number of world natural heritage sites per country per year,GA_1_52_19,IPBES
-numbers of scientific publications on biodiversity,GA_3_49_379,IPBES
+number of widespread phyla for which no information was available for a particular region,IPBES_IAS_2_13_16,IPBES
+number of wildlife pictures posted on a photo-sharing website,IPBES_VA_3_48_73,IPBES
+number of world natural heritage sites per country per year,IPBES_GA_1_52_19,IPBES
+numbers of scientific publications on biodiversity,IPBES_GA_3_49_379,IPBES
 nutrient pollution,GEO_14_15_152,GEO
 nutrient runoff into oceans (n and p),GEO_20_8_234,GEO
 nutrition,GEO_3_5_16,GEO
 o recovery,GEO_5_17_42,GEO
 o3 concentration,GEO_5_17_41;GEO_5_17_42,GEO
 o3 emissions,GEO_20_6_228,GEO
-observation-based estimate of global mean surface air temperature (gmst),IPCC_1_45_19,IPCC
 occurrence of heat-related human mortality,IPCC_1_62_25,IPCC
 ocean acidification,GEO_2_26_7,GEO
-ocean health index,GA_2.2_38_74;GA_4_155_228;GA_6_86_279;GEO_6_8_48,IPBES;GEO
+ocean health index,IPBES_GA_2.2_38_74;IPBES_GA_4_155_228;IPBES_GA_6_86_279;GEO_6_8_48,IPBES;GEO
 ocean heat content,IPCC_1_13_4;IPCC_1_70_30;IPCC_2_26_47;IPCC_2_63_104;IPCC_3_51_187,IPCC
 ocean heat content and specific humidity,GEO_2_26_7,GEO
 ocean heat content ohc,IPCC_9_37_432,IPCC
@@ -823,13 +814,13 @@ ocean ph,IPCC_4_18_229,IPCC
 ocean salinity,IPCC_3_84_212,IPCC
 ocean temperature,IPCC_3_51_187,IPCC
 ocean-colour,IPCC_2_76_123,IPCC
-oceanic carbon sequestration,GA_2.2_37_70;IPBES_GA2.2_sup_33,IPBES
+oceanic carbon sequestration,IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_33,IPBES
 oceanic niño index (oni),IPCC_2_86_146,IPCC
 ocenan ph,IPCC_2_81_132,IPCC
 odss and ghgs,GEO_5_17_41,GEO
-oecd better life index,GA_4_131_209,IPBES
+oecd better life index,IPBES_GA_4_131_209,IPBES
 official development assistance on conservation and sustainable use of biodiversity,IPBES_SUA_sup_15.a.1.a_133;IPBES_SUA_sup_15.b.1.a_135,IPBES
-official development assistance provided in support of the cbd objectives,GA_3_51_381;IPBES_GA3_sup_67,IPBES
+official development assistance provided in support of the cbd objectives,IPBES_GA_3_51_381;IPBES_GA3_sup_67,IPBES
 old ship logbooks,IPCC_2_58_90,IPCC
 one-in-20 year return value of maximum five-day precipitation,IPCC_sup_33,IPCC
 one-in-20 year return value of maximum one-day precipitation,IPCC_sup_32,IPCC
@@ -837,84 +828,84 @@ one-in-20 year return value of monthly maximum value of daily maximum temperatur
 one-in-20 year return value of monthly maximum value of daily minimum temperature,IPCC_sup_20,IPCC
 one-in-20 year return value of monthly minimum value of daily maximum temperature,IPCC_sup_18,IPCC
 one-in-20 year return value of monthly minimum value of daily minimum temperature,IPCC_sup_19,IPCC
-online interest in biodiversity (proportion of google searches),GA_3_15_329;IPBES_GA3_sup_4,IPBES
-opening up of forest canopy,GA_2.2_65_113,IPBES
-organisms` size or growth,GA_4_34_176,IPBES
-overall species abundance,GA_1_52_19,IPBES
-overexploitation of resources by outsiders and locals,GA_2.2_6_56,IPBES
+online interest in biodiversity (proportion of google searches),IPBES_GA_3_15_329;IPBES_GA3_sup_4,IPBES
+opening up of forest canopy,IPBES_GA_2.2_65_113,IPBES
+organisms` size or growth,IPBES_GA_4_34_176,IPBES
+overall species abundance,IPBES_GA_1_52_19,IPBES
+overexploitation of resources by outsiders and locals,IPBES_GA_2.2_6_56,IPBES
 pacific decadal oscillation (pdo),IPCC_2_89_154;IPCC_3_80_205,IPCC
 pacific decadal variability (pdv),IPCC_3_78_203;IPCC_3_80_206;IPCC_3_81_208,IPCC
 paleo-temperature records,IPCC_2_29_62,IPCC
 palmer drought severity index (pdsi),IPCC_8_66_403;IPCC_11_58_543;IPCC_11_60_549;IPCC_sup_40,IPCC
 pan evaporation measurements,IPCC_11_61_551,IPCC
-passenger and freight volumes by mode of transport,GA_3_128_421,IPBES
+passenger and freight volumes by mode of transport,IPBES_GA_3_128_421,IPBES
 "passenger and freight volumes, by mode of transport",IPBES_SUA_sup_9.1.2_60,IPBES
 penman-monteith aed (atmospheric evaporative demand),IPCC_11_61_551,IPCC
 people per outlet mcdonals,IPBES_GA2.1_sup_19,IPBES
-peoples’ preferences or spending on safeguarding biodiversity and ecosystem services,VA_3_2_52,IPBES
+peoples’ preferences or spending on safeguarding biodiversity and ecosystem services,IPBES_VA_3_2_52,IPBES
 per capita calorie intake,IPBES_GA2.1_sup_8,IPBES
-per capita consumption,GA_2_22_28,IPBES
+per capita consumption,IPBES_GA_2_22_28,IPBES
 percentage change in local species richness,IPBES_GA3_sup_55,IPBES
-percentage of abroad land use footprint,GA_2_118_47,IPBES
-percentage of agricultural and urban areas,GA_2_118_47,IPBES
+percentage of abroad land use footprint,IPBES_GA_2_118_47,IPBES
+percentage of agricultural and urban areas,IPBES_GA_2_118_47,IPBES
 "percentage of cities with direct participation structure of civil society in urban planning and management, which operate regularly and democratically",GEO_15_21_173,GEO
-percentage of countries that are category 1 cites parties,GA_1_52_19;GA_3_15_329;IPBES_GA3_sup_9,IPBES
+percentage of countries that are category 1 cites parties,IPBES_GA_1_52_19;IPBES_GA_3_15_329;IPBES_GA3_sup_9,IPBES
 percentage of countries that have ratified the nagoya protocol,IPBES_GA3_sup_59,IPBES
-percentage of countries with invasive alien species legislation,GA_3_72_395;IPBES_GA3_sup_35,IPBES
+percentage of countries with invasive alien species legislation,IPBES_GA_3_72_395;IPBES_GA3_sup_35,IPBES
 percentage of countries with revised nbsaps,IPBES_GA3_sup_60,IPBES
 percentage of days when daily maximum temperature is greater than the 90th percentile,IPCC_sup_5,IPCC
 percentage of days when daily maximum temperature is less than the 10th percentile,IPCC_sup_6,IPCC
 percentage of days when daily minimum temperature is greater than the 90th percentile,IPCC_sup_7,IPCC
 percentage of days when daily minimum temperature is less than the 10th percentile,IPCC_sup_8,IPCC
-percentage of freshwater key biodiversity areas covered by protected areas,GA_3_72_395,IPBES
+percentage of freshwater key biodiversity areas covered by protected areas,IPBES_GA_3_72_395,IPBES
 percentage of global rural population with access to improved water resources,IPBES_GA3_sup_58,IPBES
-percentage of live coral cover,GA_2.2_70_120;GA_3_34_361,IPBES
+percentage of live coral cover,IPBES_GA_2.2_70_120;IPBES_GA_3_34_361,IPBES
 percentage of marine ecoregions covered by protected areas,IPBES_GA3_sup_45,IPBES
-percentage of marine key biodiversity areas covered by protected areas,GA_3_72_395,IPBES
-percentage of population living in dense urban areas,GA_2.3_50_149,IPBES
-percentage of population using safely managed drinking water services,GA_1_52_19,IPBES
+percentage of marine key biodiversity areas covered by protected areas,IPBES_GA_3_72_395,IPBES
+percentage of population living in dense urban areas,IPBES_GA_2.3_50_149,IPBES
+percentage of population using safely managed drinking water services,IPBES_GA_1_52_19,IPBES
 percentage of terrestrial domesticated animal breeds at risk,IPBES_GA3_sup_53,IPBES
-percentage of terrestrial ecoregions covered by protected areas,GA_3_72_395;GA_3_72_395;IPBES_GA3_sup_42;IPBES_GA3_sup_44,IPBES
+percentage of terrestrial ecoregions covered by protected areas,IPBES_GA_3_72_395;IPBES_GA_3_72_395;IPBES_GA3_sup_42;IPBES_GA3_sup_44,IPBES
 percentage of the population exposed to annual mean pm concentrations above the highest interim target of 35 μg/m,GEO_20_8_233,GEO
-percentage of undernourished people,GA_1_52_19,IPBES
+percentage of undernourished people,IPBES_GA_1_52_19,IPBES
 permafrost temperature,IPCC_2_62_101,IPCC
 permafrost-vegetation relationships,IPCC_2_62_100,IPCC
-permanent surface water extent,GA_2.2_37_70;IPBES_GA2.2_sup_18,IPBES
-"pest, invasive or harmful species",GA_4_34_176,IPBES
-pesticide use,GA_3_51_381;GA_3_54_387;IPBES_GA2.1_sup_42;IPBES_GA3_sup_31,IPBES
+permanent surface water extent,IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_18,IPBES
+"pest, invasive or harmful species",IPBES_GA_4_34_176,IPBES
+pesticide use,IPBES_GA_3_51_381;IPBES_GA_3_54_387;IPBES_GA2.1_sup_42;IPBES_GA3_sup_31,IPBES
 ph and desoxygenation,IPCC_2_26_47,IPCC
 ph of ocean surface water,IPCC_1_32_16,IPCC
-phenology of economically and/or culturally important wild plant and animal species,GA_2.3_40_140,IPBES
+phenology of economically and/or culturally important wild plant and animal species,IPBES_GA_2.3_40_140,IPBES
 phenology of marine biota,IPCC_2_26_47,IPCC
-phosphorus (p) loads,GA_3_74_399,IPBES
-photo series analysis using social media,VA_3_48_73,IPBES
-photo-rankings,VA_2_38_28,IPBES
-phylogenetic distance,IAS_3_84_95,IPBES
-phylogenetic diversity,GA_2.3_42_143,IPBES
+phosphorus (p) loads,IPBES_GA_3_74_399,IPBES
+photo series analysis using social media,IPBES_VA_3_48_73,IPBES
+photo-rankings,IPBES_VA_2_38_28,IPBES
+phylogenetic distance,IPBES_IAS_3_84_95,IPBES
+phylogenetic diversity,IPBES_GA_2.3_42_143,IPBES
 phytoplankton abundance,IPCC_2_74_118,IPCC
 phytoplankton community structure,IPCC_2_75_119,IPCC
 piped drinking water,GEO_22_21_257,GEO
 planck temperature response,IPCC_7_56_335,IPCC
-planetary pressures adjusted human development index (hdi),VA_2_38_29,IPBES
+planetary pressures adjusted human development index (hdi),IPBES_VA_2_38_29,IPBES
 plant water use efficiency (wue),IPCC_8_65_401,IPCC
-plastic debris density,IPBES_SUA_sup_14.1.1.b_111,IPBES
+plastic debris density,GEO_7_19_66;GEO_14_15_152;GEO_14_15_154;GEO_20_8_234;IPBES_SUA_sup_14.1.1.b_111,IPBES;GEO
 pm 10 emissions,GEO_20_6_228,GEO
 pm 2.5 emissions,GEO_20_6_228,GEO
 pm2.5 emissions,GEO_12_16_119,GEO
 polar ice sheets,GEO_4_13_34,GEO
 poleward shifts in the south atlantic convergence zone (sacz),IPCC_8_45_390,IPCC
-policies make adequate provisions to minimize impacts of fisheries on threatened species,GA_1_52_19,IPBES
-policies to secure that mortalities and significant indirect adverse impacts on non-target species are accounted for are in place,GA_1_52_19,IPBES
+policies make adequate provisions to minimize impacts of fisheries on threatened species,IPBES_GA_1_52_19,IPBES
+policies to secure that mortalities and significant indirect adverse impacts on non-target species are accounted for are in place,IPBES_GA_1_52_19,IPBES
 political stability and absence of violence/terrorism,IPBES_GA2.1_sup_67,IPBES
-pollen deposition,GA_2.3_42_143,IPBES
+pollen deposition,IPBES_GA_2.3_42_143,IPBES
 pollen presence,IPCC_2_24_46;IPCC_2_62_100,IPCC
-pollinator diversity,GA_2.3_2_125;GA_2.3_42_143,IPBES
+pollinator diversity,IPBES_GA_2.3_2_125;IPBES_GA_2.3_42_143,IPBES
 population density,IPBES_GA2.1_sup_21,IPBES
-population extinctions,GA_2.3_75_161,IPBES
+population extinctions,IPBES_GA_2.3_75_161,IPBES
 population growth (annual percentage),IPBES_GA2.1_sup_20,IPBES
 population in megacities,IPBES_GA2.1_sup_28,IPBES
 population in the largest city,IPBES_GA2.1_sup_27,IPBES
-population size,GA_2.3_40_140;SUA_2_97_80,IPBES
+population size,IPBES_GA_2.3_40_140;IPBES_SUA_2_97_80,IPBES
 population-weighted annual mean concentration of pm2.5,GEO_12_15_115,GEO
 population-weighted ozone concentrations,IPCC_6_73_321,IPCC
 population-weighted pm2.5 concentrations,IPCC_6_73_321,IPCC
@@ -924,57 +915,56 @@ potential evaporation anomalies,IPCC_11_58_543,IPCC
 poverty,GEO_3_5_16,GEO
 poverty gap,IPBES_GA2.1_sup_3,IPBES
 power dissipation index,IPCC_9_104_471;IPCC_11_79_569,IPCC
-precipiation,IPCC_8_28_370,IPCC
 precipitable water vapour,IPCC_2_26_47,IPCC
-precipitation,IPCC_2_26_47;IPCC_3_8_164;IPCC_8_43_384,IPCC
+precipitation,IPCC_2_26_47;IPCC_3_8_164;IPCC_8_28_370,IPCC
 precipitation deciles and percentiles,IPCC_11_58_543,IPCC
 precipitation deficits,IPCC_11_58_544,IPCC
 precipitation index,IPCC_4_8_221,IPCC
 precipitation intensity-duration thresholds,IPCC_12_17_598,IPCC
 precipitation-evaporation,IPCC_2_26_47,IPCC
-predatory fish biomass,GA_2.2_37_70;IPBES_GA2.2_sup_74,IPBES
+predatory fish biomass,IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_74,IPBES
 premature deaths,GEO_5_19_45,GEO
 premature deaths in 2016 to household air pollution,GEO_5_19_45,GEO
-presence of regulations requiring recovery of depleted species,GA_1_52_19,IPBES
+presence of regulations requiring recovery of depleted species,IPBES_GA_1_52_19,IPBES
 presense of endemic species,GEO_13_18_135,GEO
 pressure ozone trend,GEO_5_17_42,GEO
 "prevalence of anaemia in women aged 15 to 49 years, by pregnancy status (percentage)",IPBES_SUA_sup_2.2.3_16,IPBES
-prevalence of certain species,SUA_2_97_80,IPBES
-prevalence of knowledge about seasonal cycles in their communities,SUA_2_97_80,IPBES
+prevalence of certain species,IPBES_SUA_2_97_80,IPBES
+prevalence of knowledge about seasonal cycles in their communities,IPBES_SUA_2_97_80,IPBES
 "prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the who child growth standards) among children under 5 years of age, by type (wasting and overweight)",IPBES_SUA_sup_2.2.2_15,IPBES
 "prevalence of moderate or severe food insecurity in the population, based on the food insecurity experience scale",IPBES_SUA_sup_2.1.2_13,IPBES
 prevalence of obesity in the adult population (18 years and older),IPBES_GA2.1_sup_9,IPBES
 prevalence of stunting (height for age <-2 standard deviation from the median of the world health organization (who) child growth standards) among children under 5 years of age,IPBES_SUA_sup_2.2.1_14,IPBES
 prevalence of undernourishment,IPBES_SUA_sup_2.1.1_12,IPBES
-prevented emissions and uptake of greenhouse gases by ecosystems,GA_2.3_42_143,IPBES
-prey fish biomass,GA_2.2_37_70;IPBES_GA2.2_sup_75,IPBES
+prevented emissions and uptake of greenhouse gases by ecosystems,IPBES_GA_2.3_42_143,IPBES
+prey fish biomass,IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_75,IPBES
 primary production of marine biota,IPCC_2_26_47,IPCC
 pro-poor public social spending,IPBES_SUA_sup_1.b.1_11,IPBES
-production,GA_4_34_176,IPBES
-production of fuelwood,GA_2.3_42_143,IPBES
+production,IPBES_GA_4_34_176,IPBES
+production of fuelwood,IPBES_GA_2.3_42_143,IPBES
 profile of effective radiative forcing (erf),IPCC_7_90_359,IPCC
 progress towards sustainable forest management,IPBES_SUA_sup_15.2.1_123,IPBES
 projections of global fisheries under an unchanged climate and current management scenario,GEO_21_17_250,GEO
 "proportion and number of children aged 5-17 years engaged in child labour, by sex and age",IPBES_SUA_sup_8.7.1_52,IPBES
 proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider,IPBES_SUA_sup_8.10.2_56,IPBES
-proportion of agricultural area under productive and sustainable agriculture,GA_1_52_19;GEO_17_11_203;IPBES_SUA_sup_2.4.1_19,IPBES;GEO
-proportion of area of forest production under fsc and pefc certification,GA_1_52_19,IPBES
+proportion of agricultural area under productive and sustainable agriculture,IPBES_GA_1_52_19;GEO_17_11_203;IPBES_SUA_sup_2.4.1_19,IPBES;GEO
+proportion of area of forest production under fsc and pefc certification,IPBES_GA_1_52_19,IPBES
 proportion of bodies of water with good ambient water quality,IPBES_SUA_sup_6.3.2_31,IPBES
-proportion of countries adopting relevant national legislation and adequately resourcing the prevention or control of invasive alien species,IAS_5_120_132;GEO_13_17_134;IPBES_SUA_sup_15.8.1_130,IPBES;GEO
-proportion of countries that are category 1 signatories to the convention on international trade in endangered species of wild fauna and flora (cites),GA_3_26_354,IPBES
+proportion of countries adopting relevant national legislation and adequately resourcing the prevention or control of invasive alien species,IPBES_IAS_5_120_132;GEO_13_17_134;IPBES_SUA_sup_15.8.1_130,IPBES;GEO
+proportion of countries that are category 1 signatories to the convention on international trade in endangered species of wild fauna and flora (cites),IPBES_GA_3_26_354,IPBES
 proportion of countries where the legal framework (including customary law) guarantees women equal rights to land ownership and/or control,IPBES_SUA_sup_5.a.2_28,IPBES
 proportion of countries with systems to track and make public allocations for gender equality and women’s empowerment,IPBES_SUA_sup_5.c.1_29,IPBES
-proportion of cropland,IAS_2_5_11,IPBES
+proportion of cropland,IPBES_IAS_2_5_11,IPBES
 proportion of domestic budget funded by domestic taxes,IPBES_SUA_sup_17.1.2_139,IPBES
-proportion of domesticated breeds categorized as at risk or extinct,GA_3_44_371,IPBES
-proportion of fish stocks within biologically sustainable levels,GA_1_52_19;GA_2.2_37_70;GA_2.2_70_120;GA_4_152_225;GA_3_15_329;GA_3_72_395;GEO_20_8_234;GEO_21_17_250;GEO_21_17_250;IPBES_GA2.2_sup_69;IPBES_GA3_sup_20;IPBES_SUA_sup_14.4.1_114,IPBES;GEO
+proportion of domesticated breeds categorized as at risk or extinct,IPBES_GA_3_44_371,IPBES
+proportion of fish stocks within biologically sustainable levels,IPBES_GA_1_52_19;IPBES_GA_2.2_37_70;IPBES_GA_2.2_70_120;IPBES_GA_4_152_225;IPBES_GA_3_15_329;IPBES_GA_3_72_395;GEO_20_8_234;GEO_21_17_250;GEO_21_17_250;IPBES_GA2.2_sup_69;IPBES_GA3_sup_20;IPBES_SUA_sup_14.4.1_114,IPBES;GEO
 "proportion of hazardous waste treated, by type of treatment",IPBES_SUA_sup_12.4.2.b_94,IPBES
 proportion of individuals using the internet,IPBES_SUA_sup_17.8.1_145,IPBES
 "proportion of informal employment in total employment, by sector and sex",IPBES_SUA_sup_8.3.1_46,IPBES
-proportion of known species assessed through the red list index,GA_1_52_19;IPBES_GA3_sup_63,IPBES
+proportion of known species assessed through the red list index,IPBES_GA_1_52_19;IPBES_GA_3_49_379;IPBES_GA3_sup_63,IPBES
 proportion of land that is degraded over total land area,GEO_15_17_161;GEO_20_8_234;IPBES_SUA_sup_15.3.1_124,IPBES;GEO
 proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management,IPBES_SUA_sup_6.b.1_38,IPBES
-proportion of local breeds classified as being at risk of extinction,GA_1_52_19;IPBES_SUA_sup_2.5.2_21,IPBES
+proportion of local breeds classified as being at risk of extinction,IPBES_GA_1_52_19;IPBES_SUA_sup_2.5.2_21,IPBES
 proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies,IPBES_SUA_sup_1.5.4_9;IPBES_SUA_sup_11.b.2_87;IPBES_SUA_sup_13.1.3_104,IPBES
 proportion of medium and high-tech industry value added in total value added,IPBES_SUA_sup_9.b.1_68,IPBES
 proportion of members and voting rights of developing countries in international organizations,IPBES_SUA_sup_10.6.1_74,IPBES
@@ -982,123 +972,123 @@ proportion of members and voting rights of developing countries in international
 "proportion of people living below 50 percent of median income, by sex, age and persons with disabilities",IPBES_SUA_sup_10.2.1_71,IPBES
 "proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months",IPBES_SUA_sup_11.7.2_84,IPBES
 "proportion of population covered by a mobile network, by technology",IPBES_SUA_sup_9.c.1_69,IPBES
-proportion of population exposed to air pollution,VA_2_38_28,IPBES
+proportion of population exposed to air pollution,IPBES_VA_2_38_28,IPBES
 "proportion of population living below the national poverty line, by sex and age",IPBES_SUA_sup_1.2.1_2,IPBES
 proportion of population living in households with access to basic services,IPBES_SUA_sup_1.4.1_4,IPBES
 proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law,IPBES_SUA_sup_10.3.1_72,IPBES
 proportion of population using safely managed drinking water services,GEO_16_14_181;GEO_16_16_185;IPBES_SUA_sup_6.1.1_30,IPBES;GEO
 proportion of population using safely managed sanitation services,GEO_16_14_181;GEO_16_17_187,GEO
 proportion of population with primary reliance on clean fuels and technology,IPBES_SUA_sup_7.1.2_39,IPBES
-proportion of predatory fish,GA_1_52_19,IPBES
-proportion of sites in the world database on protected areas reporting shared governance,GA_3_38_364,IPBES
+proportion of predatory fish,IPBES_GA_1_52_19,IPBES
+proportion of sites in the world database on protected areas reporting shared governance,IPBES_GA_3_38_364,IPBES
 proportion of small-scale industries in total industry value added,IPBES_SUA_sup_9.3.1_63,IPBES
 proportion of small-scale industries with a loan or line of credit,IPBES_SUA_sup_9.3.2_64,IPBES
 proportion of terrestrial protected area as a share of the total land area,GEO_15_17_161;GEO_15_19_166;GEO_15_19_167;GEO_15_19_168,GEO
 proportion of the global population using piped water supplies on premises,GEO_16_16_185,GEO
 "proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)",IPBES_SUA_sup_1.1.1_1,IPBES
 "proportion of the population who are refugees, by country of origin",IPBES_SUA_sup_10.7.4_77,IPBES
-proportion of the rural population who live within 2 km of an all-season road,GA_3_128_421;IPBES_SUA_sup_9.1.1_59,IPBES
+proportion of the rural population who live within 2 km of an all-season road,IPBES_GA_3_128_421;IPBES_SUA_sup_9.1.1_59,IPBES
 "proportion of total adult population with secure tenure rights to land, (a) with legally recognized documentation, and (b) who perceive their rights to land as secure, by sex and type of tenure",IPBES_SUA_sup_1.4.2_5,IPBES
 "proportion of total agricultural population with ownership or secure rights over agricultural land, by sex",IPBES_SUA_sup_5.a.1.a_26,IPBES
 proportion of total research budget allocated to research in the field of marine technology,IPBES_SUA_sup_14.a.1_118,IPBES
 proportion of traded wildlife that was poached or illicitly trafficked,IPBES_SUA_sup_15.7.1_129;IPBES_SUA_sup_15.c.1_137,IPBES
 proportion of transboundary basin area with an operational arrangement for water cooperation,IPBES_SUA_sup_6.5.2_35,IPBES
-proportion of unpalatable plants on rangelands,GA_2.2_65_113,IPBES
-proportion of urban area,IAS_2_5_11,IPBES
-proportion of urban population,GA_2_24_29,IPBES
+proportion of unpalatable plants on rangelands,IPBES_GA_2.2_65_113,IPBES
+proportion of urban area,IPBES_IAS_2_5_11,IPBES
+proportion of urban population,IPBES_GA_2_24_29,IPBES
 "proportion of youth (aged 15-24 years) not in education, employment or training",IPBES_SUA_sup_8.6.1_51,IPBES
-prospective inclusion of other native taxa and threatened habitats,IAS_6_21_146,IPBES
-protected area connectedness (parc-connectedness) index,GA_1_52_19,IPBES
-protected area coverage,GA_1_52_19,IPBES
+prospective inclusion of other native taxa and threatened habitats,IPBES_IAS_6_21_146,IPBES
+protected area connectedness (parc-connectedness) index,IPBES_GA_1_52_19,IPBES
+protected area coverage,IPBES_GA_1_52_19,IPBES
 "protected area coverage of bird, mammal and amphibian distributions",IPBES_GA3_sup_46,IPBES
 protected area coverage of important sites for mountain biodiversity,IPBES_SUA_sup_15.4.1_125,IPBES
 protected area coverage of important sites for terrestrial and freshwater biodiversity,IPBES_SUA_sup_15.1.2_122,IPBES
-protected area coverage of key biodiversity areas,GA_1_52_19;GA_3_55_389;GA_3_72_395;IPBES_GA3_sup_43,IPBES
-protected area coverage of marine and coastal areas,GA_3_72_395;IPBES_GA3_sup_41;IPBES_SUA_sup_14.5.1_115,IPBES
-"protected area coverage of terrestrial, marine and freshwater ecoregions",GA_1_52_19,IPBES
-protected area management effectiveness (pame),GA_1_52_19,IPBES
-protected area representativeness index,GA_1_52_19,IPBES
-protection of key biodiversity areas,GA_2_24_29,IPBES
+protected area coverage of key biodiversity areas,IPBES_GA_1_52_19;IPBES_GA_3_55_389;IPBES_GA_3_72_395;IPBES_GA3_sup_43,IPBES
+protected area coverage of marine and coastal areas,IPBES_GA_3_72_395;IPBES_GA3_sup_41;IPBES_SUA_sup_14.5.1_115,IPBES
+"protected area coverage of terrestrial, marine and freshwater ecoregions",IPBES_GA_1_52_19,IPBES
+protected area management effectiveness (pame),IPBES_GA_1_52_19,IPBES
+protected area representativeness index,IPBES_GA_1_52_19,IPBES
+protection of key biodiversity areas,IPBES_GA_2_24_29,IPBES
 protein intake per country per person,IPBES_GA2.1_sup_17,IPBES
 "provision of safe, reliable drinking water",GEO_9_18_80,GEO
-proximity of people and nature,GA_2.3_42_143,IPBES
-quality and abundance of food and medicine species,SUA_2_95_77;SUA_2_96_79,IPBES
-quality of governance index,SUA_4_61_118,IPBES
+proximity of people and nature,IPBES_GA_2.3_42_143,IPBES
+quality and abundance of food and medicine species,IPBES_SUA_2_95_77;IPBES_SUA_2_96_79,IPBES
+quality of governance index,IPBES_SUA_4_61_118,IPBES
 quantity of land area known to have (in)sufficient infrastructure against flooding,GEO_17_8_200,GEO
 radiative forcing,IPCC_7_91_360,IPCC
 radio occultation,IPCC_2_42_69,IPCC
 rainfall,IPCC_8_42_382,IPCC
 rainfall variability,IPCC_8_77_414,IPCC
-ramsar sites,GA_1_52_19;IPBES_GA2.1_sup_59,IPBES
-range contractions,GA_2.3_75_161,IPBES
-range-size rarity,GA_2.2_21_61,IPBES
-rate of invasive alien species establishment,IAS_6_119_173,IPBES
-rate of land use change,GA_2.3_39_137,IPBES
+ramsar sites,IPBES_GA_1_52_19;IPBES_GA2.1_sup_59,IPBES
+range contractions,IPBES_GA_2.3_75_161,IPBES
+range-size rarity,IPBES_GA_2.2_21_61,IPBES
+rate of invasive alien species establishment,IPBES_IAS_6_119_173,IPBES
+rate of land use change,IPBES_GA_2.3_39_137,IPBES
 rate of rslr (relative sea level rise),IPCC_12_20_605,IPCC
-rate of species accumulation,IAS_2_15_20,IPBES
-rate of use of pesticides,VA_3_26_59,IPBES
-rate of wood removal,VA_3_26_59,IPBES
+rate of species accumulation,IPBES_IAS_2_15_20,IPBES
+rate of use of pesticides,IPBES_VA_3_26_59,IPBES
+rate of wood removal,IPBES_VA_3_26_59,IPBES
 ratio of land consumption rate to population growth rate,GEO_15_17_161;GEO_15_20_171;IPBES_SUA_sup_11.3.1_79,IPBES;GEO
 ratio of land consumption rate to urban population growth rate at comparable scale,GEO_15_21_173,GEO
-recognition and value of forest-management knowledge and skills of local people,SUA_2_92_69,IPBES
+recognition and value of forest-management knowledge and skills of local people,IPBES_SUA_2_92_69,IPBES
 recommended intake values for the food groups,GEO_17_12_206,GEO
-red list index,GA_1_52_19;GA_2.2_37_70;GA_2.2_51_92;GA_2.2_70_120;GA_4_30_175;GA_3_40_368;GA_3_45_374;GA_3_150_436;SUA_1_1_1;SUA_1_22_10;SUA_4_70_126;SUA_4_71_127;IAS_2_48_40;IAS_4_22_102;IAS_5_52_127;GEO_6_15_50;GEO_6_16_54;IPBES_GA2.2_sup_59;IPBES_GA3_sup_50;IPBES_SUA_sup_15.5.1_127,IPBES;GEO
-red list index (birds and mammals),GA_3_51_382,IPBES
-red list index (for utilized species),GA_2.2_51_92;GA_3_15_329;GEO_13_18_136;IPBES_GA2.2_sup_63;IPBES_GA3_sup_11;IPBES_GA3_sup_56,IPBES;GEO
-red list index (forest specialists),GA_3_15_329;IPBES_GA2.2_sup_60;IPBES_GA3_sup_19,IPBES
-red list index (impacts of fisheries),GA_3_15_329;IPBES_GA3_sup_23,IPBES
-red list index (impacts of invasive alien species),GA_3_72_395;IPBES_GA3_sup_34,IPBES
-red list index (impacts of pollution),GA_3_72_395;IPBES_GA3_sup_30,IPBES
+red list index,IPBES_GA_1_52_19;IPBES_GA_2.2_37_70;IPBES_GA_2.2_51_92;IPBES_GA_2.2_70_120;IPBES_GA_4_30_175;IPBES_GA_3_40_368;IPBES_GA_3_45_374;IPBES_GA_3_150_436;IPBES_SUA_1_1_1;IPBES_SUA_1_22_10;IPBES_SUA_4_70_126;IPBES_SUA_4_71_127;IPBES_IAS_2_48_40;IPBES_IAS_4_22_102;IPBES_IAS_5_52_127;GEO_6_15_50;GEO_6_16_54;IPBES_GA2.2_sup_59;IPBES_GA3_sup_50;IPBES_SUA_sup_15.5.1_127,IPBES;GEO
+red list index (birds and mammals),IPBES_GA_3_51_382,IPBES
+red list index (for utilized species),IPBES_GA_2.2_51_92;IPBES_GA_3_15_329;GEO_13_18_136;IPBES_GA2.2_sup_63;IPBES_GA3_sup_11;IPBES_GA3_sup_56,IPBES;GEO
+red list index (forest specialists),IPBES_GA_3_15_329;IPBES_GA2.2_sup_60;IPBES_GA3_sup_19,IPBES
+red list index (impacts of fisheries),IPBES_GA_3_15_329;IPBES_GA3_sup_23,IPBES
+red list index (impacts of invasive alien species),IPBES_GA_3_72_395;IPBES_GA3_sup_34,IPBES
+red list index (impacts of pollution),IPBES_GA_3_72_395;IPBES_GA3_sup_30,IPBES
 red list index (internationally traded birds),IPBES_GA2.2_sup_61,IPBES
-red list index (internationally traded species),GA_2.2_51_92;GA_3_15_329;IPBES_GA3_sup_12,IPBES
-red list index (pollinators),GA_2.2_51_92;IPBES_GA2.2_sup_62;IPBES_GA3_sup_57,IPBES
-red list index (vertebrate pollinators),GA_3_45_374,IPBES
-red list index (wild relatives of farmed and domesticated species),GA_2.2_51_92;IPBES_GA2.2_sup_64;IPBES_GA3_sup_54,IPBES
+red list index (internationally traded species),IPBES_GA_2.2_51_92;IPBES_GA_3_15_329;IPBES_GA3_sup_12,IPBES
+red list index (pollinators),IPBES_GA_2.2_51_92;IPBES_GA2.2_sup_62;IPBES_GA3_sup_57,IPBES
+red list index (vertebrate pollinators),IPBES_GA_3_45_374,IPBES
+red list index (wild relatives of farmed and domesticated species),IPBES_GA_2.2_51_92;IPBES_GA2.2_sup_64;IPBES_GA3_sup_54,IPBES
 red list of ecosystems,GEO_14_16_157,GEO
-reduced concentration of pollutants in water,GA_2.3_42_143,IPBES
-reduced concentrations of greenhouse gases in the atmosphere,GA_2.3_42_143,IPBES
-reduced concentrations of pm2.5,GA_2.3_42_143,IPBES
-reduced cost of road construction,VA_2_76_48,IPBES
-reduced cost of road maintenance,VA_2_76_48,IPBES
-reduced food spoilage,GA_2.3_42_143,IPBES
-reduced hunger,GA_2.3_42_143,IPBES
-reduced incidence and severity of hazards,GA_2.3_42_143,IPBES
-reduced incidence of infectious diseases,GA_2.3_42_143,IPBES
-reduced incidence of water borne disease,GA_2.3_42_143,IPBES
-reduced malnutrition,GA_2.3_42_143,IPBES
-reduced morbidity and premature mortality due to natural hazards,GA_2.3_42_143,IPBES
-reduced net farm income loss from pests and diseases,GA_2.3_42_143,IPBES
-reduced ocean acidification,GA_2.3_42_143,IPBES
-reduced property loss due to natural hazards,GA_2.3_42_143,IPBES
-reduced risk of disease transmission,GA_2.3_42_143,IPBES
-reduction in climate related costs,GA_2.3_42_143,IPBES
+reduced concentration of pollutants in water,IPBES_GA_2.3_42_143,IPBES
+reduced concentrations of greenhouse gases in the atmosphere,IPBES_GA_2.3_42_143,IPBES
+reduced concentrations of pm2.5,IPBES_GA_2.3_42_143,IPBES
+reduced cost of road construction,IPBES_VA_2_76_48,IPBES
+reduced cost of road maintenance,IPBES_VA_2_76_48,IPBES
+reduced food spoilage,IPBES_GA_2.3_42_143,IPBES
+reduced hunger,IPBES_GA_2.3_42_143,IPBES
+reduced incidence and severity of hazards,IPBES_GA_2.3_42_143,IPBES
+reduced incidence of infectious diseases,IPBES_GA_2.3_42_143,IPBES
+reduced incidence of water borne disease,IPBES_GA_2.3_42_143,IPBES
+reduced malnutrition,IPBES_GA_2.3_42_143,IPBES
+reduced morbidity and premature mortality due to natural hazards,IPBES_GA_2.3_42_143,IPBES
+reduced net farm income loss from pests and diseases,IPBES_GA_2.3_42_143,IPBES
+reduced ocean acidification,IPBES_GA_2.3_42_143,IPBES
+reduced property loss due to natural hazards,IPBES_GA_2.3_42_143,IPBES
+reduced risk of disease transmission,IPBES_GA_2.3_42_143,IPBES
+reduction in climate related costs,IPBES_GA_2.3_42_143,IPBES
 reduction in post-volcanic eruption extreme precipitation,IPCC_11_50_537,IPCC
 reef growth,IPCC_2_67_109,IPCC
 refugee population,IPBES_GA2.1_sup_25,IPBES
 regional deficit index,IPCC_12_72_695,IPCC
 regional seas and action plans,GEO_14_15_152,GEO
-relevant research funding,GA_3_49_379,IPBES
-remaining primary vegetation,GA_2.2_37_70;IPBES_GA2.2_sup_19,IPBES
+relevant research funding,IPBES_GA_3_49_379,IPBES
+remaining primary vegetation,IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_19,IPBES
 remaining primary vegetation (hotspots),IPBES_GA2.2_sup_20,IPBES
-remaining primary vegetation (indigenous lands),GA_2.2_37_70;IPBES_GA2.2_sup_21,IPBES
-remnant ecosystems degrade,GA_2.2_5_55,IPBES
+remaining primary vegetation (indigenous lands),IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_21,IPBES
+remnant ecosystems degrade,IPBES_GA_2.2_5_55,IPBES
 renewable electricity consumption (percentage of total electricity output),IPBES_GA2.1_sup_13,IPBES
 renewable energy share in the total final energy consumption,IPBES_SUA_sup_7.2.1_40,IPBES
 renewable internal freshwater resource,IPBES_GA2.1_sup_57,IPBES
-reproduction rate,GA_4_34_176,IPBES
-reproductive success,SUA_4_78_130;SUA_4_89_132,IPBES
+reproduction rate,IPBES_GA_4_34_176,IPBES
+reproductive success,IPBES_SUA_4_78_130;IPBES_SUA_4_89_132,IPBES
 research and development expenditure as a proportion of gross domestic product,IPBES_SUA_sup_9.5.1_66,IPBES
-resilience of forest-dependent communities,SUA_2_92_69,IPBES
+resilience of forest-dependent communities,IPBES_SUA_2_92_69,IPBES
 resources per capita invested in human settlement per km2,GEO_15_21_173,GEO
-resourcing of invasive alien species prevention and control activities,IAS_6_14_142,IPBES
-retention and prevented emissions of air pollutants by ecosystems,GA_2.3_42_143,IPBES
+resourcing of invasive alien species prevention and control activities,IPBES_IAS_6_14_142,IPBES
+retention and prevented emissions of air pollutants by ecosystems,IPBES_GA_2.3_42_143,IPBES
 retreat of ice sheet,IPCC_9_59_445,IPCC
-revenue from bioenergy production,GA_2.3_42_143,IPBES
-revenue from forestry,GA_2.3_42_143,IPBES
+revenue from bioenergy production,IPBES_GA_2.3_42_143,IPBES
+revenue from forestry,IPBES_GA_2.3_42_143,IPBES
 revenue generated and finance mobilized from biodiversity relevant economic instruments,IPBES_SUA_sup_15.a.1.b_134;IPBES_SUA_sup_15.b.1.b_136,IPBES
 road construction,GEO_6_8_49,GEO
 rooting depth,IPCC_12_17_599,IPCC
-rule of law index,GA_5_104_261,IPBES
+rule of law index,IPBES_GA_5_104_261,IPBES
 runoff,IPCC_2_26_47,IPCC
 safe level of annual average pm exposure,GEO_5_19_45,GEO
 salinity,IPCC_1_70_30;IPCC_2_26_47,IPCC
@@ -1111,9 +1101,11 @@ sea level,IPCC_2_26_47;GEO_2_26_7,IPCC;GEO
 sea level change,IPCC_1_13_4,IPCC
 sea level pressure and winds,IPCC_2_26_47,IPCC
 sea level rise,GEO_4_13_34,GEO
-seafood availability due to ocean acidification,GA_2.3_42_143,IPBES
-seafood produced (kcal),GA_2.3_42_143,IPBES
-seagrass meadow area,GA_2.2_37_70;GA_2.2_38_74;IPBES_GA2.2_sup_22,IPBES
+sea surface air temperature,GEO_2_26_7,GEO
+sea surface temperature (sst),IPCC_2_86_146;IPCC_3_22_174;IPCC_3_84_211;IPCC_4_26_231;IPCC_7_67_343;IPCC_8_71_406;IPCC_8_88_422;IPCC_9_27_430;GEO_2_26_7,IPCC;GEO
+seafood availability due to ocean acidification,IPBES_GA_2.3_42_143,IPBES
+seafood produced (kcal),IPBES_GA_2.3_42_143,IPBES
+seagrass meadow area,IPBES_GA_2.2_37_70;IPBES_GA_2.2_38_74;IPBES_GA2.2_sup_22,IPBES
 seasonal cycle of co2,IPCC_2_26_47,IPCC
 seasonal variations in atmospheric co2 concentrations,IPCC_2_74_116,IPCC
 seasonality and thickness,IPCC_2_26_47,IPCC
@@ -1121,14 +1113,14 @@ sectoral emissions density,IPCC_6_63_319,IPCC
 sediment cores,IPCC_2_63_105;IPCC_2_70_112,IPCC
 sedimentary records,IPCC_10_56_492,IPCC
 september sea ice extent,IPCC_1_50_21,IPCC
-severe global bleaching events,GA_2.2_91_124,IPBES
+severe global bleaching events,IPBES_GA_2.2_91_124,IPBES
 sex-disaggregated burden-of-disease data,GEO_3_10_20,GEO
 sh monsoons,IPCC_2_51_80,IPCC
 share of low-carbon options,GEO_22_12_256,GEO
-share of main groups of species in fish trade in terms of value,SUA_2_90_65,IPBES
+share of main groups of species in fish trade in terms of value,IPBES_SUA_2_90_65,IPBES
 "share of women among owners or rights-bearers of agricultural land, by type of tenure",IPBES_SUA_sup_5.a.1.b_27,IPBES
-sharing and trading institutions,SUA_2_95_77,IPBES
-ship calls,IAS_2_5_11,IPBES
+sharing and trading institutions,IPBES_SUA_2_95_77,IPBES
+ship calls,IPBES_IAS_2_5_11,IPBES
 shoreline change (indicator of coastal erosion),IPCC_12_60_671,IPCC
 shoreline retreat by mid- and end of century,IPCC_sup_53,IPCC
 shrinking of the arctic ice cover,GEO_2_26_7,GEO
@@ -1143,64 +1135,60 @@ snow cover,IPCC_12_18_602,IPCC
 snow water equivalent at key seasonal dates,IPCC_12_19_604,IPCC
 snowfall,IPCC_8_28_371,IPCC
 so2 emissions,GEO_12_16_119,GEO
-social progress index,GA_2_25_34,IPBES
-social welfare function (swf),VA_3_96_97,IPBES
+social progress index,IPBES_GA_2_25_34,IPBES
+social welfare function (swf),IPBES_VA_3_96_97,IPBES
 societal behaviour,GEO_17_20_212;GEO_17_22_214,GEO
 soil carbon sequestration,GEO_15_18_165,GEO
 soil moisture,IPCC_8_33_375;IPCC_10_31_483;IPCC_12_17_601;IPCC_sup_48,IPCC
 soil moisture anomalies,IPCC_11_58_543;IPCC_sup_36,IPCC
 soil moisture deficits,IPCC_11_58_544,IPCC
 soil moisture-based drought events,IPCC_11_60_550,IPCC
-soil organic carbon,GA_2.2_37_70;GA_2.3_39_137;IPBES_GA2.2_sup_23;IPBES_GA2.2_sup_24,IPBES
+soil organic carbon,IPBES_GA_2.2_37_70;IPBES_GA_2.3_39_137;IPBES_GA2.2_sup_23;IPBES_GA2.2_sup_24,IPBES
 soil organic carbon (soc) stocks,GEO_20_8_234,GEO
-soil quality impact on crop production,GA_2.3_42_143,IPBES
-sounds associated with the forest,SUA_2_97_80,IPBES
+soil quality impact on crop production,IPBES_GA_2.3_42_143,IPBES
+sounds associated with the forest,IPBES_SUA_2_97_80,IPBES
 south pacific convergence zone (spcz),IPCC_8_39_378,IPCC
 southern annular mode (sam) index,IPCC_2_85_141,IPCC
 southern oscillation index (soi),IPCC_2_86_146,IPCC
-spatial densities of relational values in an area,VA_2_38_28,IPBES
-spatial distribution of species,GA_2.3_40_140;SUA_2_96_79,IPBES
+spatial densities of relational values in an area,IPBES_VA_2_38_28,IPBES
+spatial distribution of species,IPBES_GA_2.3_40_140;IPBES_SUA_2_96_79,IPBES
 spatiotemporal variability of meteorological parameters,IPCC_10_24_481,IPCC
 species abundance,GEO_6_16_54,GEO
-species area relationship,GA_5_34_243,IPBES
-species condition index,IAS_4_64_104,IPBES
+species area relationship,IPBES_GA_5_34_243,IPBES
+species condition index,IPBES_IAS_4_64_104,IPBES
 species dispersal ability,GEO_21_11_248,GEO
-species distribution area and shift,GA_4_34_176,IPBES
-species growth rate,IAS_4_64_104,IPBES
-species habitat index,GA_1_52_19;GA_1_52_19;GA_2.2_37_70;GA_3_54_387;IPBES_GA2.2_sup_68,IPBES
-species negatively impacting biodiversity,IAS_6_56_150,IPBES
-species occurrence records accessible through the global biodiversity information facility,GA_1_52_19;IPBES_GA3_sup_64,IPBES
-species protection index,GA_1_52_19,IPBES
-species represented in the barcode of life data system,GA_1_52_19,IPBES
-species richness,GA_4_34_176;IAS_3_84_95,IPBES
-species richness per grid cell,GA_2.2_37_70;GA_2.2_47_90;IPBES_GA2.2_sup_53,IPBES
-species status index,GA_1_52_19;IPBES_GA3_sup_61,IPBES
-species used for medicine,GA_2.3_22_127;GA_2.3_42_143,IPBES
-species with data included in the global biodiversity information facility,GA_3_49_379,IPBES
+species distribution area and shift,IPBES_GA_4_34_176,IPBES
+species growth rate,IPBES_IAS_4_64_104,IPBES
+species habitat index,IPBES_GA_1_52_19;IPBES_GA_1_52_19;IPBES_GA_2.2_37_70;IPBES_GA_3_54_387;IPBES_GA2.2_sup_68,IPBES
+species negatively impacting biodiversity,IPBES_IAS_6_56_150,IPBES
+species occurrence records accessible through the global biodiversity information facility,IPBES_GA_1_52_19;IPBES_GA3_sup_64,IPBES
+species protection index,IPBES_GA_1_52_19,IPBES
+species represented in the barcode of life data system,IPBES_GA_1_52_19,IPBES
+species richness,IPBES_GA_4_34_176;IPBES_IAS_3_84_95,IPBES
+species richness per grid cell,IPBES_GA_2.2_37_70;IPBES_GA_2.2_47_90;IPBES_GA2.2_sup_53,IPBES
+species status index,IPBES_GA_1_52_19;IPBES_GA3_sup_61,IPBES
+species used for medicine,IPBES_GA_2.3_22_127;IPBES_GA_2.3_42_143,IPBES
+species with data included in the global biodiversity information facility,IPBES_GA_3_49_379,IPBES
 specific humidity,GEO_2_26_7,GEO
 speleothem records,IPCC_2_62_100,IPCC
 speleotherm records,IPCC_9_71_451,IPCC
-spread of alien species by pathway,IAS_6_97_160,IPBES
-stability of land use and land cover,GA_2.3_42_143,IPBES
+spread of alien species by pathway,IPBES_IAS_6_97_160,IPBES
+stability of land use and land cover,IPBES_GA_2.3_42_143,IPBES
 standardized groundwater index (sgi),IPCC_11_58_543,IPCC
 standardized precipitation evapotranspiration index (spei),IPCC_11_58_543;IPCC_11_60_549;IPCC_12_17_601;IPCC_12_85_726;IPCC_sup_41,IPCC
-standardized precipitation index,IPCC_11_60_550;IPCC_12_17_601;IPCC_12_57_665;IPCC_12_57_666;IPCC_sup_34,IPCC
-standardized precipitation index (spi),IPCC_11_58_543,IPCC
+standardized precipitation index (spi),IPCC_11_58_543;IPCC_11_60_550;IPCC_12_17_601;IPCC_12_57_665;IPCC_12_57_666;IPCC_sup_34,IPCC
 standardized precipitation index accumulated over 6 months (spi-6),IPCC_sup_49,IPCC
-standardized runoff index,IPCC_11_94_580;IPCC_12_17_601;IPCC_sup_38,IPCC
-standardized runoff index (sri),IPCC_11_58_543,IPCC
-standardized soil moisture index,IPCC_sup_37,IPCC
-standardized soil moisture index (ssmi),IPCC_11_58_543,IPCC
-standardized streamflow index,IPCC_sup_39,IPCC
-standardized streamflow index (ssi),IPCC_11_58_543,IPCC
+standardized runoff index (sri),IPCC_11_58_543;IPCC_11_94_580;IPCC_12_17_601;IPCC_sup_38,IPCC
+standardized soil moisture index (ssmi),IPCC_11_58_543;IPCC_sup_37,IPCC
+standardized streamflow index (ssi),IPCC_11_58_543;IPCC_sup_39,IPCC
 statistical capacity indicator for sustainable development goal monitoring,IPBES_SUA_sup_17.18.1_154,IPBES
-status of an individual or species as native or alien,IAS_6_114_165,IPBES
+status of an individual or species as native or alien,IPBES_IAS_6_114_165,IPBES
 stock status,GEO_14_16_156,GEO
-stock values of natural capital,VA_2_38_28,IPBES
+stock values of natural capital,IPBES_VA_2_38_28,IPBES
 stranded debris,GEO_14_15_154,GEO
-strength of people’s connection to the forest,SUA_2_97_80,IPBES
+strength of people’s connection to the forest,IPBES_SUA_2_97_80,IPBES
 strom tracks and jets,IPCC_2_26_47,IPCC
-structural and functional connectivity of habitat,VA_2_38_28,IPBES
+structural and functional connectivity of habitat,IPBES_VA_2_38_28,IPBES
 subsurface borehole temperature profiles,IPCC_2_31_65,IPCC
 sudden stratospheric warmings,IPCC_2_26_47,IPCC
 sulphate in precipitation,IPCC_6_30_309,IPCC
@@ -1214,23 +1202,22 @@ surface turbulent fluxes,IPCC_7_17_328,IPCC
 surface warming,IPCC_6_56_315,IPCC
 sustainability and nutrient efficiency of national dietary outcomes,GEO_17_11_203,GEO
 sustainability and/or environmental themes as one of the general goals of education,GEO_4_9_33,GEO
-sustainability dashboard,VA_2_8_10,IPBES
-sustainable development goals index,GA_4_147_220;VA_2_38_29,IPBES
-sustainable development index (sdi),VA_5_78_136,IPBES
-sustainable economic welfare (isew),VA_5_78_136,IPBES
+sustainability dashboard,IPBES_VA_2_8_10,IPBES
+sustainable development goals index,IPBES_GA_4_147_220;IPBES_VA_2_38_29,IPBES
+sustainable development index (sdi),IPBES_VA_5_78_136,IPBES
+sustainable economic welfare (isew),IPBES_VA_5_78_136,IPBES
 "sustainable fisheries as a proportion of gross domestic product in small island developing states, least developed countries and all countries",IPBES_SUA_sup_14.7.1_117,IPBES
 sustainable fishing practices,GEO_17_8_200,GEO
 sustainable resource management,GEO_17_20_212,GEO
-sustainable well-being index (swi),VA_2_38_29,IPBES
-taxa assessed for the red list index,GA_3_49_379,IPBES
-temperature,IAS_2_5_11;IPCC_2_28_57;IPCC_10_77_504,IPBES;IPCC
-temporal species turnover,GA_1_52_19,IPBES
-terrestrial c sequestration,GA_2.2_37_70;IPBES_GA2.2_sup_34,IPBES
-terrestrial net primary production,GA_2.2_37_70;GA_2.2_42_82;GA_2.3_39_137;IPBES_GA2.2_sup_35;IPBES_GA2.2_sup_36,IPBES
+sustainable well-being index (swi),IPBES_VA_2_38_29,IPBES
+temperature,IPBES_IAS_2_5_11;IPCC_2_28_57;IPCC_10_77_504,IPBES;IPCC
+temporal species turnover,IPBES_GA_1_52_19,IPBES
+terrestrial c sequestration,IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_34,IPBES
+terrestrial net primary production,IPBES_GA_2.2_37_70;IPBES_GA_2.2_42_82;IPBES_GA_2.3_39_137;IPBES_GA2.2_sup_35;IPBES_GA2.2_sup_36,IPBES
 terrestrial permafrost temperature and active layer thickness,IPCC_2_26_47,IPCC
 terrestrial snow cover,IPCC_2_26_47,IPCC
-terrestrial vegetation biomass,GA_2.2_1_50,IPBES
-themes in a text representing nature´s values,VA_2_38_28,IPBES
+terrestrial vegetation biomass,IPBES_GA_2.2_1_50,IPBES
+themes in a text representing nature´s values,IPBES_VA_2_38_28,IPBES
 thermokarst,IPCC_2_63_102,IPCC
 thermosteric sea level,IPCC_1_70_30,IPCC
 threshold level methods,IPCC_11_58_543,IPCC
@@ -1239,88 +1226,88 @@ threshold when the local land elevation falls below the local mean higher high w
 thresholds related to antecedent extreme rainfall intensities,IPCC_12_17_598,IPCC
 thresholds related to antecedent wet periods,IPCC_12_17_598,IPCC
 tide gauge,IPCC_9_85_462;IPCC_12_73_700,IPCC
-timber production (m3),GA_2.3_42_143,IPBES
-time needed to harvest resources,GA_2.2_5_55,IPBES
+timber production (m3),IPBES_GA_2.3_42_143,IPBES
+time needed to harvest resources,IPBES_GA_2.2_5_55,IPBES
 time series of normalized difference vegetation index (ndvi),IPCC_1_67_28,IPCC
 toa energy budget,IPCC_7_82_356,IPCC
 "total amount of funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",IPBES_SUA_sup_17.7.1_144,IPBES
-total dissolved solids (tds),GA_3_74_399,IPBES
+total dissolved solids (tds),IPBES_GA_3_74_399,IPBES
 total gobal population living in water scarce areas,GEO_20_8_234,GEO
 "total government revenue as a proportion of gross domestic product, by source",IPBES_SUA_sup_17.1.1_138,IPBES
-total greenhouse gas emissions per year,GA_2_118_47;IPBES_SUA_sup_13.2.2_106,IPBES
-total imports,IAS_2_5_11,IPBES
-total land footprint,GA_2_118_47,IPBES
-total number of introduced alien species,IAS_2_15_20,IPBES
+total greenhouse gas emissions per year,IPBES_GA_2_118_47;IPBES_SUA_sup_13.2.2_106,IPBES
+total imports,IPBES_IAS_2_5_11,IPBES
+total land footprint,IPBES_GA_2_118_47,IPBES
+total number of introduced alien species,IPBES_IAS_2_15_20,IPBES
 total official development assistance grants from all donors that focus on poverty reduction as a share of the recipient country’s gross national income,IPBES_SUA_sup_1.a.1_10,IPBES
 total official flows (official development assistance plus other official flows) to the agriculture sector,IPBES_SUA_sup_2.a.2_23,IPBES
 total official international support (official development assistance plus other official flows) to infrastructure,IPBES_SUA_sup_9.a.1_67,IPBES
 "total per capita expenditure on the preservation, protection and conservation of all cultural and natural heritage, by source of funding (public, private), type of heritage (cultural, natural) and level of government (national, regional, and local/municipal)",IPBES_SUA_sup_11.4.1_80,IPBES
-total population,GA_2_24_29,IPBES
+total population,IPBES_GA_2_24_29,IPBES
 "total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)",IPBES_SUA_sup_10.b.1_78,IPBES
-total richness of endemic species,GA_2.2_21_61,IPBES
+total richness of endemic species,IPBES_GA_2.2_21_61,IPBES
 total soil moisture,IPCC_11_60_550,IPCC
-total wood removals,GA_1_52_19,IPBES
-totem or culturally important species,IAS_4_140_116,IPBES
+total wood removals,IPBES_GA_1_52_19,IPBES
+totem or culturally important species,IPBES_IAS_4_140_116,IPBES
 tourism direct gross domestic product as a proportion of total gross domestic product and in growth rate,IPBES_SUA_sup_8.9.1_55,IPBES
 toxocological potential of nanoparticals,GEO_4_15_36,GEO
-trade in wild animals,SUA_4_184_143,IPBES
-trade in wild mammals,SUA_4_184_143,IPBES
-transfer of water to the atmosphere,GA_2.3_56_155,IPBES
+trade in wild animals,IPBES_SUA_4_184_143,IPBES
+trade in wild mammals,IPBES_SUA_4_184_143,IPBES
+transfer of water to the atmosphere,IPBES_GA_2.3_56_155,IPBES
 transient climate response tcr,IPCC_7_9_323;IPCC_7_44_330,IPCC
-tree biomass,IAS_3_84_95,IPBES
-tree cover,GA_2.2_1_50;GA_2.2_37_70;GA_2.2_40_77;GA_3_15_329;GA_3_55_389;GA_3_72_395;IPBES_GA2.2_sup_25;IPBES_GA3_sup_16,IPBES
+tree biomass,IPBES_IAS_3_84_95,IPBES
+tree cover,IPBES_GA_2.2_1_50;IPBES_GA_2.2_37_70;IPBES_GA_2.2_40_77;IPBES_GA_3_15_329;IPBES_GA_3_55_389;IPBES_GA_3_72_395;IPBES_GA2.2_sup_25;IPBES_GA3_sup_16,IPBES
 tree rings,IPCC_3_27_176;IPCC_8_33_374,IPCC
-trend in carbon intensity,GA_1_52_19,IPBES
-trends in adoption of multinational agreements to reduce invasive alien species threats,IAS_6_21_146,IPBES
-trends in establishment and national adoption of international agreements relevant to the prevention and control of invasive alien species,IAS_6_11_138;IAS_6_119_174,IPBES
-trends in extinction risk of birds impacted by invasive species,IAS_6_21_146,IPBES
-trends in fisheries certified by the msc,GA_1_52_19,IPBES
-trends in forest extent,GA_1_52_19,IPBES
-trends in invasive alien species eradication at different scales,IAS_6_21_146,IPBES
-trends in invasive alien species relevant submissions to managers,IAS_6_21_146,IPBES
-trends in invasive alien species vertebrate eradications,GA_1_52_19,IPBES
-trends in nitrogen deposition,GA_1_52_19,IPBES
-trends in numbers and spatial distribution of invasive alien species and their impacts,IAS_6_119_174,IPBES
-trends in numbers of countries with national legislation and other policy measures relevant to the prevention and/or control of invasive alien species,IAS_6_11_138;IAS_6_119_174,IPBES
-trends in numbers of facilities in the region,IAS_6_21_146,IPBES
-trends in numbers of invasive alien species and their impacts,IAS_6_11_138,IPBES
-trends in pathways of introduction and spread,IAS_6_11_138;IAS_6_119_174,IPBES
-trends in pesticide use,GA_1_52_19,IPBES
-trends in potentially harmful elements of government support to agriculture (produced support estimates),GA_1_52_19,IPBES
-trends in potentially harmful elements of government support to fisheries,GA_1_52_19,IPBES
-trends in species at risk of localized extinction in a protected area,IAS_6_56_150,IPBES
-trends in successful control and eradications of invasive alien species,IAS_6_11_138,IPBES
-trends in successful eradications of invasive alien species,IAS_6_119_174,IPBES
-trends in the allocation of resources towards the prevention or control of invasive alien species,IAS_6_11_138;IAS_6_119_174,IPBES
-trends in the numbers of invasive alien species introduction events,GA_1_52_19,IPBES
-trends in the prevention and eradication and control of invasive alien species,IAS_6_119_174,IPBES
-trends in the prevention of invasive alien species,IAS_6_11_138,IPBES
-trends of populations of palatable or unpalatable species,GA_2.2_63_107,IPBES
-"trends, mechanisms and severity of invasive alien species impacts",IAS_6_11_138;IAS_6_119_174,IPBES
-tropical forest-monocrop conversions,GA_2.2_6_56,IPBES
+trend in carbon intensity,IPBES_GA_1_52_19,IPBES
+trends in adoption of multinational agreements to reduce invasive alien species threats,IPBES_IAS_6_21_146,IPBES
+trends in establishment and national adoption of international agreements relevant to the prevention and control of invasive alien species,IPBES_IAS_6_11_138;IPBES_IAS_6_119_174,IPBES
+trends in extinction risk of birds impacted by invasive species,IPBES_IAS_6_21_146,IPBES
+trends in fisheries certified by the msc,IPBES_GA_1_52_19,IPBES
+trends in forest extent,IPBES_GA_1_52_19,IPBES
+trends in invasive alien species eradication at different scales,IPBES_IAS_6_21_146,IPBES
+trends in invasive alien species relevant submissions to managers,IPBES_IAS_6_21_146,IPBES
+trends in invasive alien species vertebrate eradications,IPBES_GA_1_52_19,IPBES
+trends in nitrogen deposition,IPBES_GA_1_52_19,IPBES
+trends in numbers and spatial distribution of invasive alien species and their impacts,IPBES_IAS_6_119_174,IPBES
+trends in numbers of countries with national legislation and other policy measures relevant to the prevention and/or control of invasive alien species,IPBES_IAS_6_11_138;IPBES_IAS_6_119_174,IPBES
+trends in numbers of facilities in the region,IPBES_IAS_6_21_146,IPBES
+trends in numbers of invasive alien species and their impacts,IPBES_IAS_6_11_138,IPBES
+trends in pathways of introduction and spread,IPBES_IAS_6_11_138;IPBES_IAS_6_119_174,IPBES
+trends in pesticide use,IPBES_GA_1_52_19,IPBES
+trends in potentially harmful elements of government support to agriculture (produced support estimates),IPBES_GA_1_52_19,IPBES
+trends in potentially harmful elements of government support to fisheries,IPBES_GA_1_52_19,IPBES
+trends in species at risk of localized extinction in a protected area,IPBES_IAS_6_56_150,IPBES
+trends in successful control and eradications of invasive alien species,IPBES_IAS_6_11_138,IPBES
+trends in successful eradications of invasive alien species,IPBES_IAS_6_119_174,IPBES
+trends in the allocation of resources towards the prevention or control of invasive alien species,IPBES_IAS_6_11_138;IPBES_IAS_6_119_174,IPBES
+trends in the numbers of invasive alien species introduction events,IPBES_GA_1_52_19,IPBES
+trends in the prevention and eradication and control of invasive alien species,IPBES_IAS_6_119_174,IPBES
+trends in the prevention of invasive alien species,IPBES_IAS_6_11_138,IPBES
+trends of populations of palatable or unpalatable species,IPBES_GA_2.2_63_107,IPBES
+"trends, mechanisms and severity of invasive alien species impacts",IPBES_IAS_6_11_138;IPBES_IAS_6_119_174,IPBES
+tropical forest-monocrop conversions,IPBES_GA_2.2_6_56,IPBES
 tropical precipitation,IPCC_8_83_420,IPCC
 tropospheric no2 abundance,IPCC_6_23_302,IPCC
 tropospheric temperature,GEO_2_26_7;GEO_2_26_7,GEO
 under-five child mortality rate,GEO_20_6_228;GEO_21_17_252;GEO_21_18_253,GEO
 underweight children,GEO_3_12_24,GEO
-undp human development dashboard,VA_2_8_10,IPBES
+undp human development dashboard,IPBES_VA_2_8_10,IPBES
 "unemployment rate, by sex, age and persons with disabilities",IPBES_SUA_sup_8.5.2_50,IPBES
 united nations framework convention on climate change,GEO_20_8_233;IPBES_GA2.1_sup_61,IPBES;GEO
-united nations system of environmental economic accounting,VA_2_39_33,IPBES
+united nations system of environmental economic accounting,IPBES_VA_2_39_33,IPBES
 universal female education,GEO_22_21_257,GEO
-uplisting of species or populations from appendix ii to appendix i,SUA_4_66_123,IPBES
+uplisting of species or populations from appendix ii to appendix i,IPBES_SUA_4_66_123,IPBES
 upper tropospheric humidity,IPCC_2_51_79,IPCC
 urban growth,GEO_6_8_49,GEO
 urban population,IPBES_GA2.1_sup_23,IPBES
 us national ambient air quality standards,GEO_12_12_111,GEO
-use of natural resource,VA_3_2_52,IPBES
-value of merchandise being exported,GA_2_22_28,IPBES
-variability in migration patterns,SUA_2_97_80,IPBES
-vegetation biomass,GA_2.2_37_70;IPBES_GA2.2_sup_26,IPBES
-"visitation rates to natural terrestrial, coastal, and marine areas",GA_2.3_42_143,IPBES
-visitation to national parks,GA_2.3_32_132,IPBES
-visitation to natural areas,GA_2.3_50_149,IPBES
-visitation to urban green spaces,GA_2.3_32_132,IPBES
+use of natural resource,IPBES_VA_3_2_52,IPBES
+value of merchandise being exported,IPBES_GA_2_22_28,IPBES
+variability in migration patterns,IPBES_SUA_2_97_80,IPBES
+vegetation biomass,IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_26,IPBES
+"visitation rates to natural terrestrial, coastal, and marine areas",IPBES_GA_2.3_42_143,IPBES
+visitation to national parks,IPBES_GA_2.3_32_132,IPBES
+visitation to natural areas,IPBES_GA_2.3_50_149,IPBES
+visitation to urban green spaces,IPBES_GA_2.3_32_132,IPBES
 volatile organic compounds emissions,GEO_20_6_228,GEO
 volcanic activity,IPCC_3_17_173,IPCC
 volcanic eruptions,IPCC_8_90_424,IPCC
@@ -1328,41 +1315,41 @@ volume of production per labour unit by classes of farming/pastoral/forestry ent
 volume of remittances (in united states dollars) as a proportion of total gross domestic product,IPBES_SUA_sup_17.3.2_142,IPBES
 warm spell duration index (wsdi),IPCC_11_40_526;IPCC_sup_11,IPCC
 wastewater treatment,GEO_23_24_263,GEO
-water availability,GA_2.3_42_143,IPBES
-water available for people relative to demand,GA_2.3_42_143,IPBES
+water availability,IPBES_GA_2.3_42_143,IPBES
+water available for people relative to demand,IPBES_GA_2.3_42_143,IPBES
 water flow volume,IPCC_12_17_600,IPCC
-water footprint,GA_1_52_19;GA_3_26_355,IPBES
+water footprint,IPBES_GA_1_52_19;IPBES_GA_3_26_355,IPBES
 water infrastructure,GEO_9_18_80,GEO
 water intermittency thresholds,IPCC_12_17_600,IPCC
-water quality,GA_3_123_420,IPBES
-water quality index (watqi),GA_2_110_45,IPBES
-water quality risk index,GA_6_93_281,IPBES
+water quality,IPBES_GA_3_123_420,IPBES
+water quality index (watqi),IPBES_GA_2_110_45,IPBES
+water quality risk index,IPBES_GA_6_93_281,IPBES
 water table depth,IPCC_12_17_599,IPCC
 water vapour residence time,IPCC_8_53_397,IPCC
 water withdrawal,IPBES_GA2.1_sup_56,IPBES
 water- saving devices,GEO_17_8_200,GEO
 water-balance estimates,IPCC_11_60_550,IPCC
-weather patterns,SUA_2_95_77,IPBES
+weather patterns,IPBES_SUA_2_95_77,IPBES
 "weighted average tariffs faced by developing countries, least developed countries and small island developing states",IPBES_SUA_sup_17.12.1_149,IPBES
-weighted endemisms,GA_2.2_21_61,IPBES
+weighted endemisms,IPBES_GA_2.2_21_61,IPBES
 wet bulb globe temperature (wbgt) index,IPCC_12_49_649;IPCC_12_54_663;IPCC_12_71_692,IPCC
 wet bulb temperature,IPCC_12_88_731,IPCC
 wetland area index,GEO_9_16_77,GEO
-wetland extent trends index,GA_1_52_19;GA_1_52_19;GA_2.2_37_70;GA_2.2_39_75;GA_3_15_329;IPBES_GA2.2_sup_27;IPBES_GA3_sup_15,IPBES
+wetland extent trends index,IPBES_GA_1_52_19;IPBES_GA_1_52_19;IPBES_GA_2.2_37_70;IPBES_GA_2.2_39_75;IPBES_GA_3_15_329;IPBES_GA2.2_sup_27;IPBES_GA3_sup_15,IPBES
 whaling records,IPCC_2_58_90,IPCC
-wild bird index,GA_2.2_37_70,IPBES
-wild bird index (farmland birds),GA_3_15_329;GA_3_31_358;IPBES_GA3_sup_26,IPBES
-wild bird index (habitat specialists),GA_3_15_329;GA_3_51_381;IPBES_GA2.2_sup_76;IPBES_GA3_sup_18,IPBES
-wild mammal biomass,GA_2.2_37_70;IPBES_GA2.2_sup_77,IPBES
+wild bird index,IPBES_GA_2.2_37_70,IPBES
+wild bird index (farmland birds),IPBES_GA_3_15_329;IPBES_GA_3_31_358;IPBES_GA3_sup_26,IPBES
+wild bird index (habitat specialists),IPBES_GA_3_15_329;IPBES_GA_3_51_381;IPBES_GA2.2_sup_76;IPBES_GA3_sup_18,IPBES
+wild mammal biomass,IPBES_GA_2.2_37_70;IPBES_GA2.2_sup_77,IPBES
 wildfires,IPCC_3_64_190,IPCC
-wildlife picture index,GA_1_52_19,IPBES
-willingness to allocate time for nature´s contributions to people conservation,VA_2_37_25;VA_2_63_45,IPBES
-willingness to give up access to land or other resources to protect nature,VA_3_76_86,IPBES
-willingness to pay to protect nature or improve ecosystem services,VA_2_18_19;VA_2_63_45;VA_3_76_86,IPBES
+wildlife picture index,IPBES_GA_1_52_19,IPBES
+willingness to allocate time for nature´s contributions to people conservation,IPBES_VA_2_37_25;IPBES_VA_2_63_45,IPBES
+willingness to give up access to land or other resources to protect nature,IPBES_VA_3_76_86,IPBES
+willingness to pay to protect nature or improve ecosystem services,IPBES_VA_2_18_19;IPBES_VA_2_63_45;IPBES_VA_3_76_86,IPBES
 willingness-to-participate,GEO_14_7_145,GEO
 women and girl’s education,GEO_22_21_257,GEO
-world happiness index,GA_2_25_34,IPBES
-world trade organisation greenbox agricultural subsidies,GA_3_15_329;IPCC_2_86_146;IPCC_3_22_174;IPCC_3_84_211;IPCC_4_26_231;IPCC_7_67_343;IPCC_8_71_406;IPCC_8_88_422;IPCC_9_27_430;GEO_2_26_7;GEO_2_26_7;IPBES_GA3_sup_7,IPBES;IPCC;GEO
+world happiness index,IPBES_GA_2_25_34,IPBES
+world trade organisation greenbox agricultural subsidies,IPBES_GA_3_15_329;IPBES_GA3_sup_7,IPBES
 worldwide weighted tariff-average,IPBES_SUA_sup_17.10.1_147,IPBES
 "years of healthy life lost from heart disease, stroke, lung cancer, chronic lung disease and respiratory infections",GEO_5_19_45,GEO
 yield (improvement),GEO_23_24_262,GEO

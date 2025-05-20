@@ -10,7 +10,6 @@ air quality index,GEO_12_12_111,1
 alcohol use,GEO_21_17_251,1
 altering of the carbon and biogeochemical cycles,GEO_2_26_7,1
 amend policies that lead to destruction of mangroves,GEO_17_8_200,1
-annual global mean surface temperature,GEO_2_26_7,1
 anthropogenic emissions of long-lived greenhouse gases (co2 equivalents),GEO_12_15_115,1
 anthropogenic emissions of long-lived greenhouse gases (ghg emissions),GEO_12_18_121,1
 antimicrobial resistence in pathogens,GEO_4_15_35,1
@@ -60,8 +59,6 @@ exposure to pm concentrations (population-weighted annual mean concentration of 
 extent of ice cover,GEO_2_26_7,1
 fertility rates,GEO_22_21_257,1
 fertilizer price,GEO_8_26_75,1
-floating plastic debris density,GEO_14_15_152;GEO_14_15_154;GEO_20_8_234,1
-floating plastic litter density,GEO_7_19_66,1
 food security index,GEO_3_12_24,1
 food waste index,GEO_23_24_262,1
 forest and land management,GEO_23_24_262,1
@@ -75,6 +72,7 @@ glacier mass balance,GEO_2_26_7,1
 global atmospheric co levels,GEO_7_7_63,1
 global capacity,GEO_13_14_129,1
 global human settlement layer (ghsl),GEO_3_14_30,1
+global mean surface temperature (gmst),GEO_2_26_7,1
 global temperature increase,GEO_4_20_39,1
 global temperature potential,GEO_12_18_124,1
 global warming potential index,GEO_12_18_122,1
@@ -146,6 +144,7 @@ odss and ghgs,GEO_5_17_41,1
 "percentage of cities with direct participation structure of civil society in urban planning and management, which operate regularly and democratically",GEO_15_21_173,1
 percentage of the population exposed to annual mean pm concentrations above the highest interim target of 35 μg/m,GEO_20_8_233,1
 piped drinking water,GEO_22_21_257,1
+plastic debris density,GEO_7_19_66;GEO_14_15_152;GEO_14_15_154;GEO_20_8_234,1
 pm 10 emissions,GEO_20_6_228,1
 pm 2.5 emissions,GEO_20_6_228,1
 pm2.5 emissions,GEO_12_16_119,1
@@ -180,6 +179,8 @@ safe level of annual average pm exposure,GEO_5_19_45,1
 sanitation and hygiene,GEO_20_7_232,1
 sea level,GEO_2_26_7,1
 sea level rise,GEO_4_13_34,1
+sea surface air temperature,GEO_2_26_7,1
+sea surface temperature (sst),GEO_2_26_7,1
 sex-disaggregated burden-of-disease data,GEO_3_10_20,1
 share of low-carbon options,GEO_22_12_256,1
 shrinking of the arctic ice cover,GEO_2_26_7,1
@@ -214,7 +215,6 @@ water- saving devices,GEO_17_8_200,1
 wetland area index,GEO_9_16_77,1
 willingness-to-participate,GEO_14_7_145,1
 women and girl’s education,GEO_22_21_257,1
-world trade organisation greenbox agricultural subsidies,GEO_2_26_7;GEO_2_26_7,1
 "years of healthy life lost from heart disease, stroke, lung cancer, chronic lung disease and respiratory infections",GEO_5_19_45,1
 yield (improvement),GEO_23_24_262,1
 zoonotic disease,GEO_3_5_16,1

@@ -42,7 +42,7 @@ change in extreme total water level,IPCC_12_24_613,1
 change in mean wind,IPCC_12_24_613,1
 changes in evapotranspiration demand,IPCC_12_17_599,1
 changes in groundwater,IPCC_12_17_599,1
-changes in land versus world trade organisation greenbox agricultural subsidies,IPCC_2_31_65,1
+changes in land versus sea surface temperature,IPCC_2_31_65,1
 changes in low flows,IPCC_11_60_550,1
 changes in mean precipitation,IPCC_4_49_249,1
 changes in mean streamflow,IPCC_11_60_550,1
@@ -116,10 +116,9 @@ full exceedance probability distribution of coastal erosion volume,IPCC_12_20_60
 genesis potential index,IPCC_11_78_568,1
 ghg changes,IPCC_3_17_173,1
 ghs effective radiative forcing,IPCC_7_44_330,1
-glaciar mass loss,IPCC_9_65_447,1
 glacier areal and mass changes/loss rate,IPCC_2_60_95,1
 glacier mass and extent,IPCC_2_26_47,1
-glacier mass loss,IPCC_1_13_4,1
+glacier mass loss,IPCC_1_13_4;IPCC_9_65_447,1
 global annual mean tropospheric ozone burden,IPCC_6_22_300,1
 global carbon budget,IPCC_5_70_289,1
 global dust deposition,IPCC_6_16_296,1
@@ -128,12 +127,10 @@ global greening/browning,IPCC_2_26_47,1
 global land precipitation,IPCC_4_7_219,1
 global mean ocean surface ph,IPCC_4_8_220,1
 global mean sea level (gmsl),IPCC_1_16_6;IPCC_9_96_465,1
-global mean surface temperature (gmst),IPCC_1_16_6;IPCC_1_47_20;IPCC_2_8_35,1
+global mean surface temperature (gmst),IPCC_1_13_4;IPCC_1_16_6;IPCC_1_45_19;IPCC_1_47_20;IPCC_2_8_35;IPCC_7_82_356;IPCC_7_91_360,1
 global monsoons,IPCC_2_26_47,1
 global precipitation climatology centre (gpcc) v8,IPCC_1_13_4,1
-global surface air temperature (gmst),IPCC_1_13_4,1
 global surface air temperature (gsat),IPCC_4_7_219;IPCC_9_11_426,1
-global surface temperature,IPCC_7_82_356;IPCC_7_91_360,1
 global temperature,IPCC_1_58_23,1
 global temperatures,IPCC_1_92_33,1
 global vegetation cover,IPCC_2_43_71,1
@@ -198,7 +195,6 @@ northern hemisphere summer monsoon circulation index,IPCC_4_34_236,1
 northern hemisphere temperature over the last millennium,IPCC_1_67_29,1
 northernmost location of the treeline,IPCC_2_78_127,1
 number of consecutive dry days (cdd),IPCC_11_60_550,1
-observation-based estimate of global mean surface air temperature (gmst),IPCC_1_45_19,1
 occurrence of heat-related human mortality,IPCC_1_62_25,1
 ocean heat content,IPCC_1_13_4;IPCC_1_70_30;IPCC_2_26_47;IPCC_2_63_104;IPCC_3_51_187,1
 ocean heat content ohc,IPCC_9_37_432,1
@@ -231,9 +227,8 @@ population-weighted pm2.5 concentrations,IPCC_6_73_321,1
 position of 15n atom in atmospheric n2o,IPCC_5_36_279,1
 potential evaporation anomalies,IPCC_11_58_543,1
 power dissipation index,IPCC_9_104_471;IPCC_11_79_569,1
-precipiation,IPCC_8_28_370,1
 precipitable water vapour,IPCC_2_26_47,1
-precipitation,IPCC_2_26_47;IPCC_3_8_164;IPCC_8_43_384,1
+precipitation,IPCC_2_26_47;IPCC_3_8_164;IPCC_8_28_370,1
 precipitation deciles and percentiles,IPCC_11_58_543,1
 precipitation deficits,IPCC_11_58_544,1
 precipitation index,IPCC_4_8_221,1
@@ -260,6 +255,7 @@ sea ice thermodynamic,IPCC_3_45_183,1
 sea level,IPCC_2_26_47,1
 sea level change,IPCC_1_13_4,1
 sea level pressure and winds,IPCC_2_26_47,1
+sea surface temperature (sst),IPCC_2_86_146;IPCC_3_22_174;IPCC_3_84_211;IPCC_4_26_231;IPCC_7_67_343;IPCC_8_71_406;IPCC_8_88_422;IPCC_9_27_430,1
 seasonal cycle of co2,IPCC_2_26_47,1
 seasonal variations in atmospheric co2 concentrations,IPCC_2_74_116,1
 seasonality and thickness,IPCC_2_26_47,1
@@ -289,10 +285,8 @@ speleothem records,IPCC_2_62_100,1
 speleotherm records,IPCC_9_71_451,1
 standardized groundwater index (sgi),IPCC_11_58_543,1
 standardized precipitation evapotranspiration index (spei),IPCC_11_58_543;IPCC_11_60_549;IPCC_12_17_601;IPCC_12_85_726,1
-standardized precipitation index,IPCC_11_60_550;IPCC_12_17_601;IPCC_12_57_665;IPCC_12_57_666,1
-standardized precipitation index (spi),IPCC_11_58_543,1
-standardized runoff index,IPCC_11_94_580;IPCC_12_17_601,1
-standardized runoff index (sri),IPCC_11_58_543,1
+standardized precipitation index (spi),IPCC_11_58_543;IPCC_11_60_550;IPCC_12_17_601;IPCC_12_57_665;IPCC_12_57_666,1
+standardized runoff index (sri),IPCC_11_58_543;IPCC_11_94_580;IPCC_12_17_601,1
 standardized soil moisture index (ssmi),IPCC_11_58_543,1
 standardized streamflow index (ssi),IPCC_11_58_543,1
 strom tracks and jets,IPCC_2_26_47,1
@@ -337,5 +331,4 @@ wet bulb globe temperature (wbgt) index,IPCC_12_49_649;IPCC_12_54_663;IPCC_12_71
 wet bulb temperature,IPCC_12_88_731,1
 whaling records,IPCC_2_58_90,1
 wildfires,IPCC_3_64_190,1
-world trade organisation greenbox agricultural subsidies,IPCC_2_86_146;IPCC_3_22_174;IPCC_3_84_211;IPCC_4_26_231;IPCC_7_67_343;IPCC_8_71_406;IPCC_8_88_422;IPCC_9_27_430,1
 zonally averaged mean annual temperature reconstructions,IPCC_2_31_64,1

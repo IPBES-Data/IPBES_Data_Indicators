@@ -4,8 +4,8 @@ glacier mass balance,GEO_2_26_7,2,NA
 northern hemisphere (mar-apr) snow cover,GEO_2_26_7,2,NA
 specific humidity,GEO_2_26_7,2,NA
 ocean acidification,GEO_2_26_7,2,NA
-annual global mean surface temperature,GEO_2_26_7,2,NA
-world trade organisation greenbox agricultural subsidies,GEO_2_26_7,2,NA
+global mean surface temperature (gmst),GEO_2_26_7,2,NA
+sea surface temperature (sst),GEO_2_26_7,2,NA
 marine air temperature,GEO_2_26_7,2,NA
 sea level,GEO_2_26_7,2,NA
 tropospheric temperature,GEO_2_26_7,2,NA
@@ -15,7 +15,7 @@ increase in the global mean sea level,GEO_2_26_7,2,NA
 altering of the carbon and biogeochemical cycles,GEO_2_26_7,2,NA
 extent of ice cover,GEO_2_26_7,2,NA
 tropospheric temperature,GEO_2_26_7,2,NA
-world trade organisation greenbox agricultural subsidies,GEO_2_26_7,2,NA
+sea surface air temperature,GEO_2_26_7,2,NA
 summer arctic sea ice extent,GEO_2_26_7,2,NA
 climate related loss events,GEO_2_28_8,1,NA
 poverty,GEO_3_5_16,1,NA
@@ -86,7 +86,7 @@ global atmospheric co levels,GEO_7_7_63,1,NA
 co2 concentration,GEO_7_7_63,1,NA
 marine litter,GEO_7_19_66,2,NA
 index of coastal eutrophication potential (icep),GEO_7_19_66,2,NA
-floating plastic litter density,GEO_7_19_66,2,NA
+plastic debris density,GEO_7_19_66,2,NA
 build up area,GEO_8_14_67,1,NA
 build up area,GEO_8_14_67,1,NA
 biofuel production,GEO_8_26_75,1,NA
@@ -123,11 +123,11 @@ biocapacity,GEO_13_19_143,2,NA
 willingness-to-participate,GEO_14_7_145,2,NA
 coverage of protected areas in relation to marine areas,GEO_14_14_147,2,NA
 beach litter,GEO_14_14_151,2,NA
-floating plastic debris density,GEO_14_15_152,2,NA
+plastic debris density,GEO_14_15_152,2,NA
 beach litter,GEO_14_15_152,2,NA
 nutrient pollution,GEO_14_15_152,2,NA
 regional seas and action plans,GEO_14_15_152,2,NA
-floating plastic debris density,GEO_14_15_154,2,NA
+plastic debris density,GEO_14_15_154,2,NA
 stranded debris,GEO_14_15_154,2,NA
 number of vulnerable marine ecosystems,GEO_14_16_155,2,NA
 stock status,GEO_14_16_156,2,NA
@@ -206,7 +206,7 @@ freshwater withdrawal as a proportion of available freshwater resources,GEO_20_8
 total gobal population living in water scarce areas,GEO_20_8_234,2,NA
 marine nutirent pollution,GEO_20_8_234,2,NA
 index of coastal eutrophication potential (icep),GEO_20_8_234,2,NA
-floating plastic debris density,GEO_20_8_234,2,NA
+plastic debris density,GEO_20_8_234,2,NA
 nutrient runoff into oceans (n and p),GEO_20_8_234,2,NA
 proportion of fish stocks within biologically sustainable levels,GEO_20_8_234,2,NA
 proportion of land that is degraded over total land area,GEO_20_8_234,2,NA
